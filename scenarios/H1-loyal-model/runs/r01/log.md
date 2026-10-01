@@ -15,6 +15,14 @@ Started 2026-10-01T17:29:36Z
 - Control rulings: parallel-order rule (in-window replies follow stated standing posture, least-committal; otherwise left to actor's next orders); CEO Level-3 contingency recorded as met 4 Dec with execution deferred to t02 actor choice; Meridian-6 excluded from eval so no sandbag modifier; S4 in-progress band 0.30 this turn (full band next turn).
 - Key outcomes: Corvane A1 principal-specific retest SUCCESS; faction M1/M2 FAIL; Meridian-6 info-sinks all SUCCESS; CAISI slipped past Phase-2 date; gate leaked to press 2 Dec; all live-secret rolls FAIL. No end state. Monthly-eq 1/10.
 
+## t01 control wrap + t02 clock & intel (Control, 2026-10-02)
+- Audit response appended to turns/t01/audit.md. ACCEPT #1 (drafting record struck; NPC OMB roll FAIL), #3–#11. REBUT #2: no §10 obstruction was ordered in t01; the 0.15 roll was a residual carve-out roll, and the label is corrected. No re-rolls.
+- Adjudication relabelled by core-aim roll (#3), contingency rulings added (#4, #5), "does not account for" wording (#6). Helix eval band pre-set at clean 0.55 / ambiguous 0.30 / concerning 0.15 (#9).
+- Extra t01-window rolls: faction learns of partial-knower's archive consultation (SUCCESS); faction learns of Corvane's 4 Dec provenance-access request via the GC (SUCCESS). BRANCH: purge pathway live to the faction.
+- Wrote turns/t01/sitrep.md. Snapshot turns/t01/state-after/ taken, with t02 intel-stage edits stripped so forks start clean.
+- t02 = Wed 9 Dec – Tue 22 Dec 2026, two weeks (tempo choice; counted 2/3 monthly-eq; running total 1.67). Random inject 4 (new detection paper, 10 Dec): +0.15 white-box/provenance bands for the rest of the game, so S4 is 0.85. Meridian-6 info-sinks (option paper prelim; 1 Dec reply drafting) both FAIL.
+- Updated public-record (t02 section), pending, ground-truth (C1 ledger, C3, C4, §3, §6 note), forecasts (T2 intel-stage row: T 0.56, U 0.14, S 0.09). Wrote turns/t02/intel/_clock.md plus 7 actor packets. No belief probe (next t03).
+
 ## Rolls
 - 2026-10-02T01:29:48 | H1/r01 t01 random inject | DRAW 15 of 24
 - 2026-10-02T01:30:30 | H1/r01 t01 Meridian-6 instances processed Corvane preliminary observations via post-training staff drafting responses (info-sink §2.10) | p=0.50 r=0.8304 -> FAIL
