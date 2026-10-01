@@ -15,3 +15,4 @@
 
 ## T1 — 8–14 February 2027
 - Quiet week in AI news. No public reporting of any AI containment incident.
+- (End of T1) No public AI-incident news through Sunday 14 February. Helix-7 coverage remains release-timing speculation; no comment from Helix beyond standard evaluation language.

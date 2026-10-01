@@ -22,7 +22,7 @@ Remote: `origin` (github.com/mj1618/wargames), branch `main`. Standing authorisa
 5. Update scenario README status → `prepped`.
 
 ## Running a turn (orchestrator = main session)
-Phase prompts live in [methodology/prompts/](methodology/prompts/) — sub-agent prompts should just say: "Read and execute `methodology/prompts/<phase>.md` with RUN=…, TURN=…, ACTOR=…". Per turn: actors (parallel) → redcell → control-adjudicate → auditor → control-wrap (audit response + sitrep + snapshot + next-turn intel). Prep: prep → prep-redteam → run-init. End: hotwash (parallel) → analyst → HTML report.
+Phase prompts live in [methodology/prompts/](methodology/prompts/) — sub-agent prompts should just say: "Read and execute `methodology/prompts/<phase>.md` with RUN=…, TURN=…, ACTOR=…". Per turn: actors (parallel) → redcell → control-adjudicate → auditor → control-wrap (audit response + sitrep + snapshot + next-turn intel). Prep: prep → prep-redteam → run-init. A whole turn can be delegated to one `turn-runner.md` sub-agent (it spawns the phase sub-agents itself). End: hotwash (parallel) → analyst → HTML report.
 
 Full protocol: [methodology/game-design.md](methodology/game-design.md). Every sub-agent prompt names the guardrails file. Give paths, not summaries.
 1. **Control: clock & intel** — one sub-agent (opus). Reads `methodology/adjudication.md`, run `state/*`, last turn's files, `prep/injects.md`. Resolves due `pending.md` items, plays/draws injects, writes `turns/tNN/intel/<actor>.md` per actor, appends to `state/public-record.md`. Every 3–4 turns include a belief probe.

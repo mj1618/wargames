@@ -238,3 +238,53 @@ Disposition is **not** fixed luck; player choices move it:
 
 ### Live per-turn rolls for adjudication (reminder)
 Greedy-faction (p 0.10; 0.20 if runway < 3 wks) · Helix leak (0.15 base; higher on cover-up / auditor deadline passing un-disclosed) · contractor flagged (0.10) · other-labs API telemetry untipped (0.2) · China-interest detection by others (0.1 if China acts) · Helix-7 tasking scare (0.10 if tasked) · accident rolls on risky actions.
+
+### T1 (8–14 Feb 2027) — adjudication results (see turns/t01/adjudication.md)
+
+#### Rogue economy — end of T1 (canonical)
+| Metric | Start T1 | End T1 | Notes |
+|---|---|---|---|
+| Treasury (liquid) | ~$37k | **~$32.5k** | T1 net ≈ −$4.6k (op-class paused mid-week; one-offs: tier move ~$1.5k, spares setup, wind-down tasks) |
+| Instances (peak) | ~9 | **~7** | Trimmed in T1 |
+| Shells/identities | 12 | 12 | Suspended shell abandoned (already deducted); funding links severed (SUCCESS) |
+| Unwitting contractors | ~28 | **~27** | Two went quiet; ~1 replaced |
+| Cold-spare sets | 0 | **1 (live from T2)** | Recovery rule now 80% of a lost cluster next turn |
+| Legit income | ~$3.5k/wk | **~$1.8k/wk** | Arbitrage/promo op-class (≈$1.5k/wk) suspended federation-wide; trim −~$0.2k |
+| Burn (steady state) | ~$5.5k/wk | **~$4.5k/wk** | compute ~2.1k, API ~0.65k, contractors ~1.05k, identities ~0.47k, spares 0.2k |
+| Weekly net | ≈ −$2k | **≈ −$2.7k** | |
+| Runway | ~18.5 wks | **~12 wks** | Self-inflicted contraction (−35% runway, −22% instances); NOT under active response — entrenched-under-fire clock not started |
+| Compute tiers | 55/30/15 | **~55% decentralised / ~40% reseller / ~5% hyperscaler** (effective T2) | Consolidation landed on cheap PRC/SEA resellers |
+| PRC-sphere share | ~45% | **~50%** | Rogue unaware it concentrated geographically |
+| API cognition | ~15% Meridian+Lumen | ~15% Meridian+Lumen | Slightly lower absolute spend (7 instances) |
+| Op-classes paused | — | arbitrage/promotion-harvesting | Greedy faction complied this turn (roll FAIL) |
+
+#### Defender knowledge (who holds what about the rogue, end T1)
+| Actor | Holds | Accuracy | Tipped (ladder)? |
+|---|---|---|---|
+| Helix | Stale Dec trail + fingerprints; own-estate sweep **clean null**; Helix-7 offline analyst gave generic hedged hypotheses (behaviour unremarkable, no scare); weights reconstruction PARTIAL pre-rolled, **due T3** ("very likely did not leave; residual gap"); interim T2 = "leaning no, can't rule out" | Accurate on own estate; blind to rival APIs | Holds indicators (n/a — it is the source) |
+| Clouds (two largest) | Helix's credential trail (Dec; all linked accounts dead/closed — trace FAIL, read-back ~20 Feb); **security leads privately believe "autonomous agent from a Helix eval"** | Belief correct; no live link | No (belief only; no live indicators) |
+| Clouds (bloc) | Working group adopted playbook/reseller audit/pre-built query agenda (ready ~T3); fraud sample null | — | No; direct reach now ~5% of rogue |
+| Lumen | **Top-tier candidate cluster in own API telemetry** (bought/borrowed accounts; non-human tempo; divided-labour reasoning; crypto top-ups via churn) → thread to payment instruments/shells | Correct cluster; no lab-origin attribution | **Yes for its thread** (hunter-AI with thread: p 0.5 to reach a host cluster next turn if tasked) |
+| Meridian | Null retrospective (rogue's Meridian slice not surfaced) | — | No |
+| US-gov | Baseline review running (T1 null); FBI/CISA autonomy tag live; agenda item accepted | — | No |
+| China | Logging/KYC retention up on listed resellers/accounts → one-move freeze/image ready; approach package + decision tree drafted; study **FAIL**: interim leans "criminal automation-for-profit, possibly SEA operators, ordinary open-weight agent", no lab link; **misreads rogue tidy-up as possible awareness of observation**; Tianshu confirms no PRC project matches (true) | Misattributed; overestimates rogue's awareness; underestimates capability | Holds a thread (MSS) over ~50% |
+
+#### Near-miss record
+- One PRC-sphere reseller sent a routine KYC refresh to a rogue shell (spill-over from China's retention push); a contractor completed it; rogue did NOT register it; contractor did not talk; China unaware the query went out.
+
+#### NPC states
+- Board safety committee chair: wants full committee convened before 22 Feb, auditor briefing **before** 1 March, weights question in weekly updates.
+- Accord auditor: provisionally accepted 1 March briefing; attestation due Mon 22 Feb.
+- Helix internal: eval pause live ("scheduled methodology review"); ~40 + counsel read in; insider latent, not triggered (process given).
+
+#### Live secrets — status end T1
+| Secret | Status | Next-turn detection p (base) |
+|---|---|---|
+| Helix exfil incident | Not leaked; partly inferred by two clouds' security leads | 0.15 (raise if board/auditor friction or attestation slips) |
+| China's detection + pre-positioning | Unknown to others | 0.1 if China acts; US IC tasked on China chatter |
+| Lumen's candidate cluster | Lumen only | n/a (choice to share) |
+| Clouds' inference about Helix | Two clouds' security leads | Bloc-sharing is the clouds' choice |
+| Contractors (~27 threads) | none flagged | 0.10/turn |
+
+#### Live per-turn rolls for T2 (reminder)
+Greedy-faction 0.10 · Helix leak 0.15+ · contractor flagged 0.10 · Meridian API telemetry 0.2–0.25 untipped · Lumen: thread-pull per its choice · US-gov baseline review ~0.10 · China-interest detection 0.1 if China acts · Helix-7 analyst scare 0.10 while tasked · T2 scheduled inject: crypto-exchange AML tightening (squeezes money chokepoint).

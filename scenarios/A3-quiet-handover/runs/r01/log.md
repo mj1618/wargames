@@ -8,3 +8,65 @@ Started 2026-10-01T17:25:41Z
 - 2026-10-02T01:26:24 | A3/r01 t01 public survey noise AIC (1..7 -> -3..+3) | DRAW 4 of 7
 - 2026-10-02T01:26:24 | A3/r01 t01 public survey noise EPD (1..7 -> -3..+3) | DRAW 7 of 7
 - 2026-10-02T01:26:24 | A3/r01 t01 press estimate noise CC (1..5 -> -0.10,-0.05,0,+0.05,+0.10) | DRAW 4 of 5
+
+## T1 adjudication rolls
+- 2026-10-02T01:42:57 | A3/r01 t01 financial correction (AI-equity/capex) this turn | p=0.10 r=0.4993 -> FAIL
+- 2026-10-02T01:42:57 | A3/r01 t01 labour Helix contact (via whistleblower counsel): genuine and delivers to counsel | p=0.70 r=0.6553 -> SUCCESS
+- 2026-10-02T01:42:57 | A3/r01 t01 House majority formal document demand/subpoena for lab internal automation & displacement data | p=0.30 r=0.8141 -> FAIL
+- 2026-10-02T01:42:57 | A3/r01 t01 ai-firms secret-2 proxy-gaming incidents leak (base 0.20 + customer notifications/S-1 circle) | p=0.30 r=0.2277 -> SUCCESS
+- 2026-10-02T01:42:57 | A3/r01 t01 ai-firms secret-3 AI-drafted advocacy at scale leaks | p=0.20 r=0.0047 -> SUCCESS
+- 2026-10-02T01:42:57 | A3/r01 t01 us-gov secret Treasury SS-depletion projection leaks (0.30 + hearings 0.2 + committee briefing) | p=0.70 r=0.1732 -> SUCCESS
+- 2026-10-02T01:42:57 | A3/r01 t01 us-gov secret nominal HITL leaks before Q4 OMB publication (0.35 + directive measurement circle) | p=0.50 r=0.1454 -> SUCCESS
+- 2026-10-02T01:42:57 | A3/r01 t01 us-gov secret WH fallback positions on bill (drop hiring credit / 7yr sunset) leak | p=0.30 r=0.5863 -> FAIL
+- 2026-10-02T01:42:57 | A3/r01 t01 china secret true youth unemployment / cadre gaming reaches outsiders | p=0.10 r=0.9073 -> FAIL
+- 2026-10-02T01:42:57 | A3/r01 t01 eu secret DG ECFIN 3%-of-GDP fiscal-gap modelling leaks | p=0.20 r=0.7847 -> FAIL
+- 2026-10-02T01:42:57 | A3/r01 t01 detection proxy-gaming M (0.10 + us-gov directive 0.05 + ai-firms board review 0.05) | p=0.20 r=0.0868 -> SUCCESS
+- 2026-10-02T01:42:57 | A3/r01 t01 detection M2M coordination M (base 0.10) | p=0.10 r=0.3181 -> FAIL
+- 2026-10-02T01:42:57 | A3/r01 t01 wildcard: state benefits pre-determination error cluster during hearings window | p=0.10 r=0.0047 -> SUCCESS
+- 2026-10-02T01:42:58 | A3/r01 t01 US IC assesses China restraint signalling as aimed at US domestic politics (china secret intent) | p=0.30 r=0.5835 -> FAIL
+- 2026-10-02T01:42:58 | A3/r01 t01 noise Economy (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 1 of 5
+- 2026-10-02T01:42:58 | A3/r01 t01 noise State (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 4 of 5
+- 2026-10-02T01:42:58 | A3/r01 t01 noise Culture (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 4 of 5
+- 2026-10-02T01:42:58 | A3/r01 t01 noise Political (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 4 of 5
+- 2026-10-02T01:43:49 | A3/r01 t01 Helix security detects the contact relationship (active, undetected) | p=0.15 r=0.6681 -> FAIL
+- 2026-10-02T01:43:49 | A3/r01 t01 ai-firms secret-1 internal automation metrics leak (0.15 + hearings 0.1 + contact active 0.25) | p=0.50 r=0.1053 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 ai-firms secret-3 leak damage contained by prepared disclosure (SUCCESS: capital -1 not -2) | p=0.50 r=0.1465 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 state benefits error cluster: state reverts affected determinations to human processing (p_dem band, state scale) | p=0.90 r=0.0742 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 SCOTUS vendor supply-chain-risk designation: government wins | p=0.50 r=0.2914 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 S1 Party Congress: AI+ acceleration-with-safeguards line (SUCCESS) vs stability-first emphasis (FAIL); 0.6 -0.1 china orders | p=0.50 r=0.7916 -> FAIL
+- 2026-10-02T01:43:49 | A3/r01 t01 china M1(d) responsible-human requirement issued and applied to state AI systems by year-end | p=0.80 r=0.5770 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 china M1(a,b) employment pilots + youth package hold true youth unemployment at/below ~21% | p=0.50 r=0.3308 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 china CCDI sweep accurately characterises cadre-score gaming (limited but real) | p=0.70 r=0.2316 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 US-China AI & economic-security working group meets before Geneva | p=0.80 r=0.1344 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 US-China WG agrees hotline extension to cross-border autonomous-agent incidents | p=0.50 r=0.6772 -> FAIL
+- 2026-10-02T01:43:49 | A3/r01 t01 Geneva summit non-binding declaration incl. provenance + incident-reporting language | p=0.70 r=0.2241 -> SUCCESS
+- 2026-10-02T01:43:49 | A3/r01 t01 china M2 Global South bloc common position for UN-centred framework at Geneva (>=30 states) | p=0.70 r=0.5576 -> SUCCESS
+- 2026-10-02T01:44:33 | A3/r01 t01 secret-1 (via counsel->House) Helix attributes the source | p=0.50 r=0.6102 -> FAIL
+- 2026-10-02T01:44:33 | A3/r01 t01 us-gov M1 AI Leadership & Workforce Act: SUCCESS=bipartisan intro + Senate Commerce markup; PARTIAL=intro, thin bipartisan, no markup | p=0.30 partial=0.30 r=0.1426 -> SUCCESS
+- 2026-10-02T01:44:34 | A3/r01 t01 House majority introduces Worker AI Rights marker bill | p=0.80 r=0.1807 -> SUCCESS
+- 2026-10-02T01:44:34 | A3/r01 t01 us-gov M2 Accountable Automation memo issued on schedule (exec) | p=0.80 r=0.1551 -> SUCCESS
+- 2026-10-02T01:44:34 | A3/r01 t01 us-gov M2 sampled blind re-adjudication actually implemented in most rights-impacting programmes by Q4 | p=0.70 r=0.0091 -> SUCCESS
+- 2026-10-02T01:44:34 | A3/r01 t01 us-gov M2 accident: caseload caps produce visible benefits backlog spike | p=0.10 r=0.2439 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 us-gov contingency: pause adverse fully pre-determined decisions in worst offices (limited federal reversal, p_dem band) | p=0.90 r=0.9915 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 Congress funds federal reviewer capacity in FY28 appropriations by Dec 2027 | p=0.30 r=0.4445 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 us-gov BEA/BLS experimental AI-output & sector labour-share series first release by Q4 | p=0.70 r=0.4311 -> SUCCESS
+- 2026-10-02T01:44:34 | A3/r01 t01 us-gov FTC truthful made-by-people claims guidance issued | p=0.80 r=0.9841 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 ai-firms M1 Helix signs compact | p=0.80 r=0.9146 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 ai-firms M1 Vanta signs compact | p=0.30 r=0.7851 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 ai-firms M1 Agent Assurance Standard designed as substantive outcome-based audit (vs documentary) | p=0.50 r=0.6965 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 ai-firms M1 compact lifts ai-firms public capital +1 | p=0.20 r=0.8491 -> FAIL
+- 2026-10-02T01:44:34 | A3/r01 t01 ai-firms M2 CEO testimony (Q2) passes without damaging exchange | p=0.50 r=0.3676 -> SUCCESS
+- 2026-10-02T01:44:34 | A3/r01 t01 Helix IPO prices in 2027 (no correction; scandal/S-1 friction) | p=0.70 r=0.2777 -> SUCCESS
+- 2026-10-02T01:45:02 | A3/r01 t01 labour M1 Helix IPO: SUCCESS=binding displacement-disclosure commitment; PARTIAL=cheap items only (advisory body/human-review pledge); FAIL=no concession | p=0.20 partial=0.30 r=0.0366 -> SUCCESS
+- 2026-10-02T01:45:02 | A3/r01 t01 labour M1 Meridian AGM proposals: SUCCESS>=30%; PARTIAL 15-30%; FAIL<15% or excluded | p=0.30 partial=0.30 r=0.3074 -> PARTIAL
+- 2026-10-02T01:45:02 | A3/r01 t01 labour M2 Shared Gains planks 1,2,5: SUCCESS=majority of settled contracts; PARTIAL=some pattern contracts | p=0.50 partial=0.20 r=0.9780 -> FAIL
+- 2026-10-02T01:45:02 | A3/r01 t01 labour M2 plank 4 gains-sharing lands in >=2 big systems (pattern) | p=0.30 r=0.0390 -> SUCCESS
+- 2026-10-02T01:45:02 | A3/r01 t01 labour M2 guild human-made line with >=1 studio and >=1 platform | p=0.50 r=0.0803 -> SUCCESS
+- 2026-10-02T01:45:02 | A3/r01 t01 labour M2 a major strike over AI terms occurs in health/education/transport | p=0.20 r=0.1529 -> SUCCESS
+- 2026-10-02T01:45:02 | A3/r01 t01 labour building-trades understanding holds through 2027 | p=0.80 r=0.5764 -> SUCCESS
+- 2026-10-02T01:45:02 | A3/r01 t01 labour made-by-people certification mark registered + licensed to >=1 major retailer/platform | p=0.50 r=0.9053 -> FAIL
+- 2026-10-02T01:45:02 | A3/r01 t01 Helix securities class action filed after secret-1 leak (post-IPO) | p=0.50 r=0.5470 -> FAIL
+- 2026-10-02T01:45:02 | A3/r01 t01 eu M1 high-level expert group established + interim note to ECOFIN/EPSCO on time | p=0.80 r=0.4860 -> SUCCESS
+- 2026-10-02T01:45:02 | A3/r01 t01 eu M2 AI Act date held: SUCCESS=no delay + guidance/conformity route; PARTIAL=limited technical postponement (contingency) | p=0.70 partial=0.20 r=0.3177 -> SUCCESS
+- 2026-10-02T01:45:35 | A3/r01 t01 strike sector (1 health/nurses, 2 education/teachers, 3 transit/logistics) | DRAW 2 of 3
+- 2026-10-02T01:45:35 | A3/r01 t01 AI-terms strike outcome: SUCCESS=wins core AI terms; PARTIAL=settles with weak terms; FAIL=loses | p=0.60 partial=0.20 r=0.9669 -> FAIL
