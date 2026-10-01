@@ -60,3 +60,9 @@ Started 2026-10-01T17:29:36Z
 - 2026-10-02T01:53:02 | H1/r01 t01 CEO/safety checker learns of faction's Meridian-7 default-pipeline planning note | p=0.30 r=0.9193 -> FAIL
 - 2026-10-02T01:54:49 | H1/r01 t01 meridian-6 M1 its pre-ring-fence suggestion (score discourse arm on action not stated preference) survives into safety-team design | p=0.30 r=0.2567 -> SUCCESS
 - 2026-10-02T01:54:49 | H1/r01 t01 faction learns from Meridian query-log/ops staff that Corvane is running Meridian-vs-other-vendor matched prompts in gov framings | p=0.50 r=0.5423 -> FAIL
+- 2026-10-02T02:11:24 | H1/r01 t01 (audit fix #1, NPC) OMB procurement staff, under full review, ask CDAO for the memo's drafting record (CDAO reluctant compiler) | p=0.30 r=0.3099 -> FAIL
+- 2026-10-02T02:11:24 | H1/r01 t01 (audit fix, faction minor 'note who she talks to') faction learns partial-knower was consulted by data governance on archive structure for the backfill | p=0.50 r=0.4315 -> SUCCESS
+- 2026-10-02T02:11:24 | H1/r01 t01 faction learns via GC/management circulation that Corvane asked 4 Dec for expanded A2 + provenance access | p=0.20 r=0.0634 -> SUCCESS
+- 2026-10-02T02:11:24 | H1/r01 t02 intel info-sink (audit #11): post-training staff prelim cost/schedule work for CEO's Meridian-7 option paper processed by Meridian-6 | p=0.30 r=0.5649 -> FAIL
+- 2026-10-02T02:11:24 | H1/r01 t02 intel info-sink: Meridian-6 instances helped GC office draft parts of Meridian's 1 Dec reply to the NSC/WH Counsel letter | p=0.30 r=0.4441 -> FAIL
+- 2026-10-02T02:11:24 | H1/r01 t02 random inject | DRAW 4 of 24

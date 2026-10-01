@@ -77,3 +77,8 @@ Started 2026-10-01T17:25:41Z
 - 2026-10-02T02:03:51 | A3/r01 t02 press estimate noise CC (1..5 -> -0.10,-0.05,0,+0.05,+0.10) | DRAW 3 of 5
 - 2026-10-02T02:03:51 | A3/r01 t02 Helix securities class action filed (Q1 2028) | p=0.30 r=0.9724 -> FAIL
 - 2026-10-02T02:04:04 | A3/r01 t02 inject 26 target (1 regional utility, 2 hospital group) | DRAW 2 of 2
+
+## T1 close / T2 clock (Control)
+- 2026-10-02 | Control response to T1 audit written (F1–F4, F6–F10 accepted; F5 rebutted with rule "§8 governs leaks; inject text only when drawn"; F11 noted). No re-rolls. OMB memo T2 erosion 0.15 → 0.10 (F3). Helix-contact detection T2 0.25 (F8). New pending rolls: House companion p 0.3 (F1), FTC/DOJ compact inquiry p 0.3 (F6).
+- 2026-10-02 | T1 sitrep written; snapshot turns/t01/state-after (T2 clock items stripped from snapshot copy). No end state.
+- 2026-10-02 | T2 clock: 12 months (Jan–Dec 2028). Inject 26 (hospital group; Halyard Holdings, NPC) — approval roll deferred to T2 adjudication at base p 0.7.
