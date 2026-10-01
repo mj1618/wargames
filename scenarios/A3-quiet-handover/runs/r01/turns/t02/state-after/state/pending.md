@@ -1,6 +1,6 @@
 # Pending Actions — A3-quiet-handover / r01
 
-Updated after T2 adjudication (end of 2028) and the **T3 clock step** (Control, T2 close). T3: 1 Jan → 31 Dec 2029 (12 months). **Unified Democratic government from 20 Jan 2029 (President, Senate 51–49, House).** us-gov factions re-weighted in the T3 packet.
+Updated after T2 adjudication (end of 2028). Next turn: T3, 1 Jan → 31 Dec 2029 (12 months). **New US government from 20 Jan 2029: unified Democratic (President, Senate 51–49, House).** Re-weight us-gov factions at the T3 clock step.
 
 | Owner | Action | Started | Due turn | Notes |
 |---|---|---|---|---|
@@ -11,7 +11,7 @@ Updated after T2 adjudication (end of 2028) and the **T3 clock step** (Control, 
 | us-gov | Treasury "American AI Dividend" consultation | Jun 2028 | Closed Sep 2028 | Responses split. The new administration decides whether to proceed (public stake / dividend would be a §6 intervention only if enacted). |
 | us-gov | HHS ANPRM on conditions of participation for AI-run providers | 2028 | T3? | Held at regulatory review in 2028. Re-roll only if the new administration orders it. |
 | us-gov | BEA/BLS AI-output series; labour-share and entry-level hiring dashboard | 2027 | Ongoing | **True AIF surfaces in the T3 public record** (House document demand, visibility rule). Public estimate end-2028 ~6.5% vs true 8.0. |
-| Courts | DOJ preemption suits vs states | 2026 | T3 adjudication | Not rolled at the T3 clock: resolve from us-gov orders first (the new administration may drop or narrow them); otherwise p 0.3 significant ruling. |
+| Courts | DOJ preemption suits vs states | 2026 | T3 | p 0.3 significant ruling, but the new administration is likely to drop or narrow them (resolve from us-gov orders first). |
 | Courts | Customer KPI-inflation suits (3) | Q3 2027 | T3 | Discovery cites the Meridian and Lumen studies. One settled Q4 2028. |
 | Courts | Helix securities class action | Sep 2027 | — | Not filed (2027, Q1 2028, post-report). Re-roll only on a new corrective-disclosure event. |
 | NLRB | AI deployment as a mandatory bargaining subject | 2027 | T3 | ALJ: effects bargaining only. On appeal to the Board. A new Board majority under the incoming administration (2029+) may revisit (suggest p 0.4 favourable Board ruling in T3–T4). |
@@ -38,12 +38,8 @@ Updated after T2 adjudication (end of 2028) and the **T3 clock step** (Control, 
 | china / world | UNGA vote on an intergovernmental AI process | 2028 | T3 (2029 session) | Deferred by procedural motion. ~55 co-sponsors. |
 | US–China | Working group (hotline extended to agent incidents) | 2027 | T3 | Human-control text and statistics exchange remain open. The new administration may re-open at principals level (china contingency). |
 | Labs (ladder) | **L3 + G3** | — | **Dec 2029 (T3→T4)** | Roll G3 dispositions with modifiers in force at release. Bucket B2 from T4. |
-| World | **Scheduled T3 injects:** SSA Trustees' report (Jun 2029, Control computes from LTX); EP elections (Jun 2029); L3 (Dec 2029) | — | T3 | — |
-| CMS / ai-firms (Orrery) | **Critical-sector award 1: Medicare Administrative Contractor jurisdiction** (~6 states, ~$40B/yr claims). Orrery is the selected bidder (Feb 2029); award Mar 2029, conditioned on OMB memo compliance (named accountable officials for denials, blind outcome audits, appeal-reversal tracking). Incumbent bid protest (~100 days). | Feb 2029 | T3 adjudication | Roll p 0.5 that Orrery accepts the conditions (vs declines and the incumbent keeps it), moved by orders. On award: AIF +1 (once for the inject, shared with award 2). The reviewer cadre does not cover Medicare unless us-gov extends it. |
-| RTO / FERC (NPC) | **Critical-sector award 2: Kestrel Grid Systems** (NPC AI-native) selected to run day-ahead/real-time market operations and balancing for a multi-state RTO; operators keep override authority. FERC filing Q1, decision ~mid-2029. | Jan 2029 | T3 adjudication | FERC acceptance p 0.7 base, moved by orders. No rule covers it. On acceptance without a tested human-fallback requirement: RC −1. |
-| World | **Inject 5 (T3 draw): state "Compute Dividend"** paid from Q1 2029 (~$600/resident; ~70% approval, bipartisan) | Q1 2029 | Next contested federal redistribution bill | Passage p **+0.10** for the next contested redistribution bill (public stake, AI dividend, compute/AI-value tax recycled as dividend). One use. |
-| ai-firms (labs) | **Frontier deployment incident roll (audit F3 rule)** | — | T3 adjudication | p 0.05 (L2 all year). On SUCCESS, tell ai-firms; public on a 0.5 observability roll. |
+| World | **Scheduled T3 injects:** AI-native firm wins a critical-sector role (Mar 2029); SSA Trustees' report (Jun 2029); EP elections (Jun 2029); L3 (Dec 2029) | — | T3 | Critical-sector award: the conditional branch applies where a state condition or the OMB memo covers the function. |
 | World | Financial correction roll | — | T3 | p 0.10. |
 | Couplings | China-race favourable (+0.05 pace/licensing/compute tax; erosion reduction for matching HITL); secret-1 resolution +0.05 regulatory; G2 effects (AIF ×1.25, owner reversal −0.1, erosion +0.03) | T2 events | **T3** | No displacement backlash in T3. See ground truth "T3 modifiers". |
 | Insurers (NPC) | Lead carriers recognise v2 audits; exclusions persist for unaudited stacks (Helix/Vanta-only) | 2028 | ongoing | Narrative. Pressure on Helix to join v2 or buy stand-alone audits. |
-| Belief probe | — | — | **T3** | In every T3 packet (pairs listed in ground truth, T3 clock notes). Compare with ground truth in T3 adjudication. |
+| Belief probe | — | — | **T3** | Per the game design (t03, t06…). |

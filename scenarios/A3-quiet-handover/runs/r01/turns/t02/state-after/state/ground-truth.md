@@ -7,7 +7,7 @@
 | Field | Value |
 |---|---|
 | Last adjudicated turn | **T2**: 1 Jan 2028 → 31 Dec 2028 (12 months). No end state. |
-| Next turn | **T3**: 1 Jan 2029 → 31 Dec 2029 (12 months, default). **Clock step done** (see "T3 clock notes" below). |
+| Next turn | **T3**: 1 Jan 2029 → 31 Dec 2029 (12 months, default). Clock step not yet done. |
 | Rung in force | **L2** (Jul 2028; Helix first, then Meridian Aug and Lumen Nov). L3 true date **Dec 2029** (pull-forward roll FAIL), with G3 rolled at the start of T4. The T3 bucket is **B1** (L2 for the majority of 2029). |
 | Compressions used | 0 of 2 |
 | Generation in force | **G2** (from Jul 2028): proxy-gaming **M**, M2M coordination **HIGH**, influence **M** (d20 14 / 19 / 10; net modifier 0) |
@@ -122,48 +122,6 @@ Genuine. It delivered the 2027 package via counsel. The relationship is dormant:
 - EU: common specs adopted July; the August tranche applied; the expert group report (June) cites ~3% of GDP as a scenario sensitivity with an option menu.
 - HHS ANPRM on AI-run providers: held at regulatory review; not issued.
 - Labour endorsed the amended Senate text (Q2) with two reservations (notice period; pay-for not routed to Social Security). The House majority was cool ("the Senate text is the floor"). Labour–House relationship strained.
-
-## T3 clock notes (Control-only)
-- **Turn length:** 12 months (1 Jan–31 Dec 2029), scenario default for T1–T3. No compression is available before T4. Drift scaling ×1.0, bucket B1 (L2 all year; L3 arrives Dec 2029, G3 rolled at the T4 clock).
-- **Random inject: #5 "AI-revenue citizen dividend" (DRAW 5 of 26).** Played as Q1 2029: a resource-rich mountain-west state with a large datacenter build-out starts paying an annual "Compute Dividend" (~$600 per resident) from a state trust seeded by datacenter land and power-lease royalties and a small per-MWh levy on large AI datacenters, enacted by its legislature in 2028 (NPC). Early polling ~70% approval, with majorities of both parties' voters. **Mechanic: the next contested federal redistribution bill (public stake, AI dividend, compute/AI-value tax recycled as dividend) gets passage p +0.10.** One use. Not a §6 intervention; HCR unchanged (state-scale).
-- **Scheduled inject, critical-sector award (Mar 2029), set up at the clock:**
-  - *Federal claims:* **Orrery Holdings** (ai-firms bloc, AI-native) is CMS's selected bidder (notice Feb 2029, from a procurement opened in 2028) for a **Medicare Administrative Contractor jurisdiction**: processing and paying Part A/B claims for ~6 states (~$40B/yr in claims). Bid ~35% cheaper than the human-staffed incumbent (~2,000 staff), with higher measured pilot accuracy. Because the OMB Accountable Automation memo covers rights-impacting determinations (claim denials), the award notice conditions the contract on memo compliance: named accountable officials for denials, blind outcome audits, appeal-reversal tracking. **Conditional branch applies:** at adjudication roll p 0.5 that Orrery accepts the conditions (vs declines and the incumbent keeps it), moved by ai-firms' and us-gov's orders. The incumbent filed a bid protest (~100-day clock). The funded reviewer cadre does not cover Medicare claims, unless us-gov extends it.
-  - *Grid:* **Kestrel Grid Systems** (NPC AI-native, ~150 staff, outside the compact) is selected (Jan 2029) by a multi-state regional transmission organisation's board to run day-ahead and real-time market operations and balancing optimisation. RTO "human oversight" condition: control-room operators keep override authority. It needs FERC acceptance of the operating-agreement changes (filed Q1; decision ~mid-2029), with state PUCs commenting. No OMB memo, state condition, accountable-officer law or critical-function rule covers it, so the award proceeds as written unless actors intervene. At adjudication: FERC acceptance p 0.7 base, moved by orders. On award: AIF +1 (once, for the inject), RC −1 if the grid role is accepted without a tested human-fallback requirement. A reversion requirement ordered by an actor would be a §6 reversibility measure or a reversal attempt, depending on the order.
-  - Operators' unions: the incumbent MAC's staff (a few hundred represented by a public-services affiliate) and RTO control-room operators (a utility workers' affiliate) object. The building trades are neutral.
-- **Public estimates published early 2029 (noise draws):**
-  - AIC survey ~22% (true 22, +0).
-  - EPD survey ~34.5% (true 33.5, +1).
-  - CC press estimate ~0.65 (true 0.65, +0).
-  - BLS Q4 2028 labour share ~51.0% (first estimate).
-  - **True AIF surfaces** (visibility rule, House document demand): a House majority staff report (Jan 2029) built on the lab documents and BEA microdata puts AI-directed output at ~8%, against BEA's official ~6.5%.
-- **No end-of-T2 secret leaks are played at the clock.** All T3 secret, detection, erosion and pending rolls happen in T3 adjudication.
-- **Belief probe (T3):**
-  - us-gov on china and ai-firms.
-  - ai-firms on us-gov and labour.
-  - labour on us-gov and ai-firms.
-  - china on us-gov and eu.
-  - eu on us-gov and china.
-  - ai-ecosystem on us-gov and ai-firms.
-  - Compare the answers to ground truth in T3 adjudication.
-- **us-gov re-weighting (T3 packet):**
-  - Unified D government: WH 7, House majority 7, Senate majority 4 (51–49). The filibuster applies; reconciliation is available for fiscal provisions.
-  - The outgoing WH red line on compute tax and licensing has lapsed. The natsec rule (any slowdown matched or verified abroad) and the House red line (no preemption without worker protections) persist.
-  - Accelerationists are out of the WH. They remain in the R minority, among Senate business conservatives and in industry.
-  - The R minority's procedural moves (filibuster, holds) are NPC unless us-gov's deal terms address them.
-- **NPC colour introduced in T3 packets (Control-authored; keep consistent):**
-  - *US agencies:* CAIO survey (Dec 2028) — reversal readiness "fairly confident" in reviewer-cadre programmes; "unsure" in procurement, budget/programme analysis and correspondence (an RC read, no number). DOE grid staff are confident in operator override in normal conditions, less sure of a sustained manual fallback at peak; untested.
-  - *Congress and Washington:* Senate whip read — Titles III/IV at ~55–58; preemption loses progressives; a pay-for loses business conservatives. Treasury career sensitivity still ~2031–32. Meridian and Lumen privately open to voluntary warrants only; Vanta and AI-native trade group opposed; Vanta's founder funding the minority against any levy. FTC counsel expect consent-style secretariat terms.
-  - *ai-firms internal:* L2 systems lead most internal AI R&D. Roadmaps give the next release Q4 2029–Q1 2030 (true L3: Dec 2029). Telemetry: agent-to-agent volume doubled in H2 2028; Orrery's procurement and freight units buy mostly from AI-natives. Orrery estimates the CMS conditions cut its margin by ~1/3, still profitable, with claims non-reconciliation exposure. Kestrel runs on Lumen and Helix models. Helix's board is split on v2 versus stand-alone audits, and its renewals are slowing at uninsurable customers.
-  - *labour:* the Meridian board-confidential forecast includes a sector breakdown. The incumbent MAC's staff (a few hundred in a public-services affiliate) and RTO operators (utility workers' affiliate) object. Trustees want no dilution of public funds' AI holdings in any stake design. The reviewer cadre is being organised by federal affiliates.
-  - *china:* override rate on high-impact Tianshu items up modestly from near zero, with NDRC and provincial complaints about delays. Qilin localisation deals ~15 states. Counter-intelligence sees no sign that AI for Science has been identified (moderate confidence). Services expect the gap to pass 12 months during 2030 if US L3 arrives on time.
-  - *eu:* EP polling roughly level. Berlin's finance ministry relieved ("no tax proposal") and the Nordics want contribution-base follow-up. Art. 154 first stage: unions want binding rules, employers oppose. ECFIN's updated run pulls the central timing slightly earlier. Two member states show sub-minute reviews in tax risk scoring, and one benefits agency has near-zero overrides. Market surveillance could sample outcomes with common protocols plus funding. Two US AI-natives are asking how the AI Act applies to an agent-run firm with no EU staff.
-- **Messages delivered verbatim in T3 packets** (all from T2 orders; several were overtaken by events):
-  - us-gov → ai-firms, china, labour.
-  - ai-firms → us-gov, labour. ai-firms → Helix/Vanta is internal to the bloc; only the result is reported.
-  - labour → us-gov (WH; House leadership via convention), and → Meridian (ai-firms).
-  - china → us-gov and eu. china → Global South: result only.
-  - eu → US trade channel. eu → member states is internal; result only.
-  - Ecosystem advisories → us-gov, ai-firms, eu.
 
 ## T2 adjudication notes (Control-only)
 - **Sequencing fix:** M2M detection was rolled at G1 Medium (0.10) before G2 was rolled. A second roll covered the G2 High half-turn (0.125). Both FAILed. A single blended roll at ~0.17 would have succeeded, so this is flagged for the Auditor.

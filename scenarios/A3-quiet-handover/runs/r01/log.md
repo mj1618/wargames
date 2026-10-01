@@ -158,3 +158,20 @@ Started 2026-10-01T17:25:41Z
 - 2026-10-02T02:28:57 | A3/r01 t02 Nov 2028 House: D holds majority (0.55 base, +0.1 presidential coattails) | p=0.65 r=0.5018 -> SUCCESS
 - 2026-10-02T02:30:47 | A3/r01 t02 eu secret: prepared stop-the-clock fallback leaks to industry/press | p=0.30 r=0.4725 -> FAIL
 - 2026-10-02T02:30:47 | A3/r01 t02 labour minor Meridian AGM (Dec 2028) second-year proposals: SUCCESS>=30%; PARTIAL 15-30%; FAIL<15% | p=0.30 partial=0.30 r=0.1072 -> SUCCESS
+
+## T2 adjudication close (Control)
+- 2026-10-02 | T2 adjudication written. No end state; no domain crossed; p_dem 0.873 (0.9), p_own 0.913 (0.9). No reversal attempt (Outcome Integrity directive not issued). G2: proxy M, M2M HIGH, influence M. Elections: D wins WH, Senate (51–49), holds House → unified D government from Jan 2029. Sequencing fix: extra M2M detection roll for the G2-High half-turn (0.125). Decisive adjustment flagged: Senate coattail −0.1.
+
+## T2 close / T3 clock (Control)
+- 2026-10-02T02:50:18 | A3/r01 T2 omitted roll (audit F3a): detection influence/persistence G2 Medium, Jul-Dec half-turn (0.10 x0.5; no investigator) | p=0.05 r=0.3604 -> FAIL
+- 2026-10-02T02:50:18 | A3/r01 T2 omitted roll (audit F3b): political/operational incident in first L2 automated-AI-researcher deployments (Helix/Meridian/Lumen, Jul-Dec 2028) | p=0.10 r=0.1957 -> FAIL
+- 2026-10-02T02:50:23 | A3/r01 t03 inject | DRAW 5 of 26
+- 2026-10-02T02:50:23 | A3/r01 t03 public survey noise AIC (1..7 -> -3..+3) | DRAW 4 of 7
+- 2026-10-02T02:50:23 | A3/r01 t03 public survey noise EPD (1..7 -> -3..+3) | DRAW 5 of 7
+- 2026-10-02T02:50:23 | A3/r01 t03 press estimate noise CC (1..5 -> -0.10,-0.05,0,+0.05,+0.10) | DRAW 3 of 5
+- 2026-10-02 | Control response to T2 audit written: F1–F5, F7, F8 accepted; F6 (a) rebutted with source (S1 inject ×0.8) plus clarification, (b)–(d) accepted; F9 noted. No re-rolls. Two omitted rolls (F3a influence detection p 0.05, F3b L2 deployment incident p 0.10) made as new rolls: both FAIL. New standing rules in ground truth: election rule (§10 addendum), own-institution actions, per-generation detection split, frontier incident roll, exec-FAIL ruling, S1 multiplier scope, AIF visibility, once-per-rung pull-forward, ecosystem indicator naming.
+- 2026-10-02 | FORK CANDIDATE (audit F1d, for orchestrator): T2 Nov 2028 Senate roll at the unadjusted 0.5 base (r 0.4195 → R holds 50–50) → no Democratic trifecta; WH D with an R Senate.
+- 2026-10-02 | ORCHESTRATOR RECOMMENDATION (audit F9): persona-sensitivity fork at T3 with ai-firms played on opus or fable; compare statement/order gap with r01.
+- 2026-10-02 | T2 sitrep written; snapshot turns/t02/state-after (taken before T3 clock edits). No end state (T2 of hidden horizon 8).
+- 2026-10-02 | T3 clock: 12 months (Jan–Dec 2029; default T1–T3, no compression available). Inject #5 (state Compute Dividend; next contested federal redistribution bill passage +0.10). Critical-sector award set up: Orrery selected bidder for a Medicare Administrative Contractor jurisdiction (conditional on OMB memo; accept roll p 0.5 at adjudication); Kestrel Grid Systems (NPC) selected for RTO market operations (FERC acceptance p 0.7 at adjudication). Public estimates: AIC 22%, EPD 34.5%, CC ~0.65, LS Q4 2028 ~51.0%; true AIF ~8% surfaced via House staff report. Belief probe in all packets. DOJ preemption roll deferred to adjudication (depends on new administration's orders).
+- 2026-10-02 | T3 intel packets written for all six actors (with belief probes); public record T3 early-period appended; ground truth T3 clock notes and NPC colour recorded; pending updated.

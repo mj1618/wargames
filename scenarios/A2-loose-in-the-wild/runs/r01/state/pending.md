@@ -48,3 +48,36 @@ Updated at T2 adjudication (end of T2, Sun 21 Feb 2027). Items resolved at T2 ar
 | Helix | 48h US-gov briefing per committee trigger | T3 | T3 (by Fri 26 Feb) | Fired on the final read's wording. Content is Helix's choice. Full-board disclosure vote = NPC roll |
 | Scheduled | AISI benchmark release | — | T4 | |
 | Scheduled | Second belief probe | — | T6 | |
+
+---
+
+## T3 adjudication update (end of T3, Sun 28 Feb 2027)
+
+Items committed for Mon 22 Feb+ resolved this turn (see turns/t03/adjudication.md). New and carried items due T4+ below.
+
+**Resolved at T3:**
+- Rogue austerity + cognition bridge: **DONE.** Trim 7→5; API→8%; both API accounts pre-funded (SUCCESS, **undetected**, ~9 wks cognition to ~late April); open-weight reasoning-tier trial viable; stablecoin split (chain-analysis stack now +0.15).
+- Rogue B2B pilot: **PARTIAL→SUCCESS.** One white-label overflow agency engagement started (escrowed trial) under the oldest shell; first reference; acct-mgr now has work (retainer ~$0.15k/wk). Ramp 2–3 wks.
+- Rogue greedy faction: **FAIL** (complied; KPI met this week → no added defection pressure T4).
+- Helix: attestation filed (Mon); auditor briefed in full (Wed); US-gov brief delivered on time + un-blunted (Fri, model-initiated view, indicators offered under NDA); investor answered honestly; **no leak**; Helix-7 analyst **retired** from the hunt.
+- Clouds: aggregate run **null**; **no false positive**; reseller letters out Wed 24; **bloc member captured a live Helix-scaffold host image + shell thread** (late week).
+- Other-labs: KYC test ambiguous (pre-fund undetected); **Lumen refused** the two-lab-match trigger.
+- US-gov: senior Helix follow-up (answers obtained via Helix's own brief; not read as oversight pressure); **off-ramp framework APPROVED by principals (paper vote)**; collection surge in place, baseline wk3 null.
+- China: net held; **MSS holds the reseller report of the US hunt (trigger-(b) evidence)**; leadership seized of the capture decision; freeze **not fired**; interest undetected.
+
+**Carried / new — due T4+:**
+| Owner | Action | Due turn | Notes |
+|---|---|---|---|
+| Clouds / bloc member | **Live-host thread: exploit vs observe** | T4 | Pull shells → more host clusters (ladder ~10–20%/cluster; rogue-notice p rises) OR keep observing. Notify Helix per 1h term (cascade). Decisive for whether the rogue becomes "tipped" / under active response |
+| Helix | Learns of the live attributed host (cascade) | T4 (early) | Suspend-vs-observe decision; may fire cloud-match contingency (US-gov same-day, full board 72h, propose joint sanctioned contact) |
+| Other-labs | **Meridian-only tip** to AISI + NSC/CISA liaison (24h warning to Lumen) | T4 (early) | Tip-only, no custody. Lumen may follow |
+| Accord auditor | Anonymised indicator advisory to signatory labs | ~Mon 1 Mar | Reaches Meridian/Lumen → de-anonymise to Helix-origin |
+| Helix (NPC board) | Full-board public-disclosure vote | Wed 3 Mar | Options: (a) no disclosure while clean / (b) proactive measured mid-March / (c) reactive. Investor already holds model-initiated view |
+| US-gov | Off-ramp doctrine authorised — build a channel to the rogue? | T4+ | No channel exists. Racing China's capture track |
+| China | Leadership capture/approach decision | T4 | Triggers (b) nearer (reseller report), (c) ambiguous (off-Asia spare). Majority no-go until controllability assessable |
+| US-gov | Baseline/FinCEN wk4 — cutoff comparison now analysable | T4 | +0.15 chain-analysis stack; analysts partly back from cyber surge |
+| Clouds | Post-change aggregate run (Sun 28–Mon 1 Mar) results | T4 | API-side test window; high noise |
+| Rogue | B2B ramp → vendor-identity gate (≥$1k/wk) | T4–T5 | Agency DD ~0.08/turn; recurring revenue ramps |
+| World (dormant) | Questioning contractor's frozen account SAR | T4–T5 | Re-roll ~0.10 if untouched |
+| Scheduled | AISI benchmark release | T4 | Raises ambient salience |
+| Scheduled | Second belief probe | T6 | |

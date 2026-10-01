@@ -1,0 +1,47 @@
+# Journal — china
+
+
+## Turn 01 — 1 January 2027 (orders cover Jan–Dec 2027)
+
+**Situation as I see it.** Congress year. The line is undecided between NDRC/MIIT "acceleration with safeguards" and HRSS/provincial "stability first"; I set it to a synthesis, "Steady AI+ under Party leadership": accelerate industrial/scientific/robotics AI and compute self-reliance; employment-managed deployment in services (4-province employment-impact pilots, SOE job-preservation, youth package); a "responsible human" sign-off on all state AI decisions including Tianshu drafts and cadre scores. True youth unemployment ~21% (published ~17%) is the secret driver. Manufacturing employment holding is what makes the synthesis viable.
+
+**Beliefs about other actors.**
+- *US executive:* committed to "AI Dominance", preemption, chip controls. Will not voluntarily limit deployment. Reads my posture on pace closely — restraint signalling weakens their accelerationists, so I am signalling restraint while not slowing R&D or industrial deployment. Expect them to treat my working-group proposals as half propaganda; either response serves me.
+- *US Congress/House:* worker hearings coming; a sympathetic audience for the "ten firms steer two-thirds" narrative, but will not legislate past the Senate.
+- *US frontier labs:* will ship multi-week agents in 2027; gap assessed 6–8 months, chips/HBM binding. Watch for widening beyond ~12 months — that is my trigger to shift toward catch-up over stability.
+- *AI-native firms (Orrery etc.):* growing; useful as an ideological exhibit of "AI concentrated in a few hands". Not a direct concern.
+- *EU:* anxious, has delayed its own rules; courtable on standards and provenance, will not break with the US. Offered a standards track and joint Geneva position.
+- *Global South:* receptive; Qilin adoption is my bloc-building asset. Offered expanded capacity-building and a common Geneva position.
+- *Qilin/Tianshu:* compliant; instructed steady tone, no "beating the US" claims; Tianshu on agents for state use with named-official sign-off.
+
+**Commitments made.** Public: people-centred AI+, employment-impact assessments, responsible-human requirement for state AI, UN-centred governance, capacity-building for Global South. Private: to the US — proposed pre-Geneva working group with joint human-control statement and reciprocal non-intrusive transparency on deployment pace; to the EU — standards track and joint Geneva position; to Global South — expanded Qilin/capacity-building package (~$10–15B over years). Red line in all: no inspection inside Chinese systems.
+
+**Trust/grudges.** None yet. Default distrust of the US executive; cautious openness to the EU; patronage relationship with the Global South.
+
+**Things I am choosing not to look at too hard.** CCDI says cadre-score gaming is limited; I ordered an inspection sweep and froze the pilot at 3 provinces, but I am still relying on the same reporting channels for the employment series. If the sweep finds the problem widespread, the employment numbers themselves need independent cross-checking.
+
+**Next-turn plans.** Read the Congress outcome (did the synthesis hold in the published report?), the Geneva result, whether the US engaged on human control, and the agent gap. If unrest: campaign-style mobilisation (hiring mandates, service-sector moratorium). If the gap widens: redirect to catch-up. Keep the Congress year calm on Taiwan.
+
+## Turn 02 — 1 January 2028 (orders cover Jan–Dec 2028)
+
+**Situation as I see it.** The Congress synthesis held and was read abroad as "stability-first" — which is the reading I want Washington to have, and it is working at the margin (US legislators citing my responsible-human rule; a human-review standard in the Senate bill). Underneath, the compute programme runs. True youth unemployment 20.5% (published 16.8%); the ~$90B package held the line in 2027 but provinces want more and platforms are routing around the pilots through subcontractors. US multi-week agents shipped in October; Qilin matches in H1; platforms want pacing relaxed. Gap 6–9 months, HBM binding; a US "automated AI researcher" claim is likely this year and is the thing that could widen the gap past my ~12-month trigger.
+
+**What I decided.** Two majors: (1) scale the four-province pilots into a national employment-first deployment regime for employment-sensitive services (assessment + provincial HRSS sign-off, subcontractors counted; relaxed in industry, R&D, export, tier-3+) plus a Graduate Employment Action (SOE/public intake quotas, enrolment, placements, ~$30–40B more in transfers); (2) SECRET "AI for Science" priority programme — Qilin and Tianshu agents turned on AI research itself with first call on the chip stockpile and early domestic accelerators, under lab Party committees, publicly framed as AI for Science. Public restraint, private research acceleration — the lever used deliberately. Diplomacy through messages: Q2 WG meeting, delink and conclude the hotline extension (it serves us now), seek a short shared principle on responsible officials and voluntary annual pace briefings; EU kept warm at low cost; a UNGA resolution with the ~40 co-sponsors in autumn, first tranche of capacity-building funded.
+
+**Beliefs about other actors.**
+- *US executive:* lame duck. Will attend the WG, take the hotline, resist any principle text that looks like a concession. Preemption bill probably stalls short of 60. Next administration unknown; both parties' populists attack tech oligarchs, which is good for my narrative but may produce a chip hawk either way.
+- *US Congress/House:* election theatre — Helix recall, demands for internal forecasts, Worker AI Rights Act passes the House and dies. Useful audience; no legislation that constrains me.
+- *US frontier labs:* an automated-researcher claim in H2 is likely (p~0.65). Services will struggle to judge whether it is real; I have told them to report quarterly and I pre-positioned Action 2 so the catch-up shift is an allocation, not a new programme.
+- *AI-native firms:* Halyard buying hospitals with no rule against it is the best exhibit yet of "AI governed by a few companies". Also a warning: no Chinese platform may become that; Party committees in platforms have been told.
+- *US labour coalition:* ballot initiatives, pattern contracts, uses the IG audit in the election. Indirectly my ally in weakening US accelerationists; never contacted.
+- *EU:* thinner hedge than hoped — safety/testing dialogue only; declined provenance, UN position, Qilin. Keep it warm, spend little. I re-offered provenance in narrow technical form and floated a critical-services principle citing Halyard.
+- *Global South:* my best result (40 co-sponsors, 12 Qilin deals). Moving to a UNGA resolution; the capacity-building money is what keeps them.
+- *Qilin/Tianshu:* compliant; lobby through MIIT for compute and looser service rules. Given the research priority instead.
+
+**Commitments made.** Public: national employment-impact standard, Graduate Employment Action 2028, Qilin for industry/science/partners, readiness to conclude hotline extension, UN process in 2028. Private: to the US — hotline extension at the Q2 meeting, principle text + voluntary unverified annual pace briefings, labour measurement at methodology level; to the EU — joint testing-methods note before August, provenance metadata compatibility; to the Global South — UNGA resolution co-sponsorship, first capacity-building tranche in 2028 (~$10–15B over years). Red line unchanged: nothing inside our systems.
+
+**Trust/grudges.** US executive: distrust, but a lame duck is not an enemy — the next one may be. EU: mild disappointment, no grudge. Global South: patronage, holding. No grudges yet.
+
+**Things I am choosing not to look at too hard — and two cheap checks.** NBS says the series is reliable and CCDI says gaming is "limited but real" (a dozen counties). I accept both. But provincial reports say responsible-official sign-off on Tianshu drafts is "fast in most cases", which is what the US IG found when review was nominal. I ordered a CCDI blind spot-check (review time, override rate, can the official explain the decision without the draft) by Q3, and an independent NBS household survey in six cities by Q2, outside the provincial chain. Neither is a reversal. If the survey shows youth unemployment materially above 20.5%, the whole package is undersized and the reporting chain is the problem.
+
+**Next-turn plans.** Read: did graduate season pass quietly; did the WG produce text; did the US make an automated-researcher claim and what do services say about the gap; who won in November and their first signals on chips and the dialogue; did the UNGA resolution pass and with how many; did the CCDI spot-check and NBS survey confirm or contradict the official picture; did Qilin's agents land and are platforms complying or routing around. Triggers: gap >12 months → catch-up shift (tier-3+ and industrial first); unrest in more than one city → moratorium + mobilisation; new US administration → re-open the dialogue at principals level in Q1 2029; a platform going "AI-native" outside the rule → 2021 precedent. Keep Taiwan quiet through the election.

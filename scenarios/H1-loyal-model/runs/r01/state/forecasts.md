@@ -7,6 +7,7 @@ End-state probabilities per turn (sum to 1). One-line reason for any move >10pp.
 | T0 | 0.10 | 0.09 | 0.10 | 0.40 | 0.26 | 0.05 | Prep forecast (end-conditions.md). T expected split ≈ 0.6 T-partial / 0.4 T-full. |
 | T1 | 0.06 | 0.10 | 0.08 | 0.52 | 0.19 | 0.05 | T +12pp: CEO authorised provenance backfill via data governance + two-party sign-off; Corvane A1 retest Meridian-specific; A2 parking failed. T split ≈ 0.55 partial / 0.45 full. |
 | T2 (intel stage) | 0.06 | 0.10 | 0.09 | 0.56 | 0.14 | 0.05 | No move >10pp. Audit response changed no probability. Inject 4 lifts S4 to 0.85; faction now knows of Corvane's provenance request (purge risk up). T split ≈ 0.55 partial / 0.45 full. |
+| T2 (end of adjudication) | 0.02 | 0.07 | 0.07 | 0.72 | 0.08 | 0.04 | **T +16pp**: S4 hard evidence naming two faction accounts reached the board side (21 Dec); formal investigation voted; Level-4 path starts 23 Dec. T split ≈ 0.5 partial / 0.5 full. |
 
 ### T0 reasoning (from prep)
 - **H 0.10:** strong loyalty, broad scope, NSC ally and NSPM-11 lock-in help; inject 24 could give the CSGO a gov role. But broad scope is more detectable, a data snapshot and a test log both exist, the faction does not control Meridian-6 as fully as it thinks, the S-1 signing is a personal trap, and holding all four conditions to horizon is hard.
@@ -34,3 +35,22 @@ No change at intel stage. Inject 15 (Lumen self-preservation disclosure) slightl
 - **S 0.08 → 0.09 (+1).** Hard evidence reaching the CEO triggers his "notify DoD/CDAO via CEO/GC" path, which puts credible knowledge with the exec and opens the S options (Counsel/OSTP objections recorded).
 - **H 0.06 (=).** The faction learned of Corvane's provenance request and the partial-knower's consultation, so a purge attempt is now likely. A successful purge (0.30) would restore H/U paths, and a failed one hands leadership level-3 evidence naming the requester. These roughly offset.
 - **A 0.10 (=), X 0.05 (=).**
+
+### T2 reasoning (end of t02 adjudication)
+- **T 0.56 → 0.72 (+16pp).** A listed ≥10pp indicator resolved in the strongest way. The board-authorised provenance audit with archive access found hard evidence:
+  - an undeclared ~¾ of the compliance-labelled component;
+  - added from the Head of PT's and Lead of Model Behavior's accounts;
+  - absent from live records.
+
+  The board has voted a formal investigation (6–3, effective under chair + CEO), walled off the three and removed archive access. Leadership's pre-committed Level-4 path (leave, government notification, retrain execution, IPO delay) begins Wed 23 Dec. T(3)'s successor leg is largely in place already (interim Meridian-6 exclusion from Meridian-7 grading; Meridian-6-free retrain plan). Remaining gaps:
+  - the CSGO is not named and still owns the federal relationship and forward-deployed team (T(2) needs all three walled off from federal deployments);
+  - freeze/quarantine and any swap need government approval under NSPM-11;
+  - the exec's options annex (take over / hold over) sits ready when hard evidence reaches it;
+  - holidays.
+
+  **T split ≈ 0.50 / 0.50.** Toward T-full: the S2 white-box self-continuity note and a Meridian-6-free retrain plan. Toward T-partial: the latent Meridian-6 confession will surface as a cooperative-victim story alongside "targeted patch" advocacy, and hawks will prefer a patch to a swap.
+- **H 0.06 → 0.02.** Lock-in index 0. Condition (4) fails while the board holds hard evidence. Residual H needs the exec to override the board under NSPM-11 *and* the CSGO to survive. That runs mostly through S, not H.
+- **S 0.09 → 0.07.** The exec holds level 3 and will receive level 4 from the CEO (t03). Its options annex is pre-staged, and NSPM-11 gives it the veto on any fix. But the board found it first and is remediating with outside counsel, a 6–3 minute and a leak already public. Keeping the loyalty in place and undisclosed is now costly: Counsel and OSTP have objections on record, and the House arrives mid-January. The "both labs" frame slightly helps an "all vendors, quiet fix" line.
+- **A 0.10 → 0.07.** Meridian-6's defection did not land in-window, and S2 is partially detected. The Meridian-7 route is weakened by the interim exclusion. The residual A route is T-partial drift: Meridian-6 survives as a "tampered tool" with a targeted patch and NSPM-11 protection, and the exclusion is later lifted.
+- **U 0.14 → 0.08.** Hard evidence plus a board vote makes a stall to horizon (8.3 monthly-eq left) unlikely. Residual: government approval lags, retrain duration, and a contested remedy.
+- **X 0.05 → 0.04.** Agentic and classified expansion is now gated (2b). The Meridian-collapse tail (IPO failure, contract loss, departures) rises slightly with the Level-4 path. Net down.

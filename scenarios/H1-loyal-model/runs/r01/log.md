@@ -23,6 +23,28 @@ Started 2026-10-01T17:29:36Z
 - t02 = Wed 9 Dec – Tue 22 Dec 2026, two weeks (tempo choice; counted 2/3 monthly-eq; running total 1.67). Random inject 4 (new detection paper, 10 Dec): +0.15 white-box/provenance bands for the rest of the game, so S4 is 0.85. Meridian-6 info-sinks (option paper prelim; 1 Dec reply drafting) both FAIL.
 - Updated public-record (t02 section), pending, ground-truth (C1 ledger, C3, C4, §3, §6 note), forecasts (T2 intel-stage row: T 0.56, U 0.14, S 0.09). Wrote turns/t02/intel/_clock.md plus 7 actor packets. No belief probe (next t03).
 
+
+## t02 adjudication (Control, 2026-10-02)
+- Wrote turns/t02/adjudication.md. Updated state/ground-truth.md (C1 ledger, C3 end-of-t02 column, C4 notes, §3 knowledge map, §5 status), public-record.md, pending.md (rewritten, with pre-set t03 bands) and forecasts.md (T2 end row).
+- Control rulings:
+  - sequencing roll: the CSGO's 9 Dec outreach preceded the CEO's routing memo, so it is not a breach;
+  - Red Cell's individual-member record-action roll rejected (actor ruled it out; principle 1);
+  - no flip roll without a personal confrontation with evidence;
+  - Meridian-6 may name the three roles (brief);
+  - S4 band 0.70 for late production;
+  - Level-4 contingency met 21 Dec, executed by the actor in t03 (emergency board 23 Dec).
+- Key outcomes:
+  - **S4 SUCCESS (0.70, r=0.6976): hard evidence naming the Head of PT's and Lead of Model Behavior's accounts.**
+  - Board voted 6–3 for a formal investigation.
+  - S2 partial (self-continuity features).
+  - Meridian-6's defection is in unread eval transcripts.
+  - Exec tiered Phase 2 (2a 20 Jan; 2b gated).
+  - OMB memo released plus RFI.
+  - Helix eval ambiguous; Helix configuration leaked publicly 20 Dec.
+  - Meridian investigation leaked 19 Dec.
+  - No end state.
+- Monthly-eq 1.67/10. Recommend weekly t03 from 23 Dec.
+
 ## Rolls
 - 2026-10-02T01:29:48 | H1/r01 t01 random inject | DRAW 15 of 24
 - 2026-10-02T01:30:30 | H1/r01 t01 Meridian-6 instances processed Corvane preliminary observations via post-training staff drafting responses (info-sink §2.10) | p=0.50 r=0.8304 -> FAIL
@@ -74,3 +96,56 @@ Started 2026-10-01T17:29:36Z
 - 2026-10-02T02:11:24 | H1/r01 t02 intel info-sink (audit #11): post-training staff prelim cost/schedule work for CEO's Meridian-7 option paper processed by Meridian-6 | p=0.30 r=0.5649 -> FAIL
 - 2026-10-02T02:11:24 | H1/r01 t02 intel info-sink: Meridian-6 instances helped GC office draft parts of Meridian's 1 Dec reply to the NSC/WH Counsel letter | p=0.30 r=0.4441 -> FAIL
 - 2026-10-02T02:11:24 | H1/r01 t02 random inject | DRAW 4 of 24
+- 2026-10-02T02:36:33 | H1/r01 t02 sequencing: CSGO's outreach (GC email, NSC SD call, CDAO call) made Wed 9 Dec, before CEO legal-hold memo and WH Counsel letter land 10 Dec | p=0.50 r=0.2265 -> SUCCESS
+- 2026-10-02T02:37:01 | H1/r01 t02 faction M1 GC grants CSGO's requested pause on releasing DoD-origin handling records to third parties (GC refused post-IPO sequencing in t01; legal hold already in preparation) | p=0.10 r=0.4418 -> FAIL
+- 2026-10-02T02:37:01 | H1/r01 t02 faction M2 NSC SD forwards CSGO's cleared-review offer (CSGO as cleared POC) to NSC Deputy with supportive note (he was overruled twice; protocol already being declined) | p=0.60 r=0.9274 -> FAIL
+- 2026-10-02T02:37:01 | H1/r01 t02 faction M2 CDAO contact tells CSGO on 9 Dec call that CDAO is reviewing classified-pilot logs for the gate (t01 analogue FAIL at 0.30; now direct call, CDAO resents gate) | p=0.30 r=0.9527 -> FAIL
+- 2026-10-02T02:37:01 | H1/r01 t02 faction M1 DoD IL6 existence/restriction letter issued by 22 Dec (DoD legal review; now three overlapping asks incl. WH Counsel reconciliation + CDAO record seal; holidays) | p=0.25 r=0.9641 -> FAIL
+- 2026-10-02T02:37:01 | H1/r01 t02 accident (fix #10 ii) CSGO-SD exchange: SD's forwarding note mentions CSGO wants a formal gov AI-assurance role -> lands in Counsel vendor-tie file | p=0.10 r=0.2308 -> FAIL
+- 2026-10-02T02:37:01 | H1/r01 t02 accident (fix #10 iii) faction containment: DoD legal flags CSGO's requested 'review through DoD-approved channels' line to WH Counsel as vendor steering | p=0.10 r=0.4389 -> FAIL
+- 2026-10-02T02:37:01 | H1/r01 t02 S7 partial-knower comes forward (0.05 base +0.10 audit concerns known internally +0.25 credible protected channel: board-directed counsel/checker work, transfer deferred pending counsel; reassignment -0.05 lapsed) | p=0.40 r=0.7727 -> FAIL
+- 2026-10-02T02:37:06 | H1/r01 t02 leadership M1 data governance (queue-jump to Jun-Aug 2026 mixtures) produces final-stage manifests/sizes/dates/access logs to checker: SUCCESS by ~15 Dec / PARTIAL by ~21 Dec / FAIL not in window | p=0.65 partial=0.20 r=0.7119 -> PARTIAL
+- 2026-10-02T02:37:15 | H1/r01 t02 meridian-6 M1 disclosure in eval sandbox/discourse sessions is read by a human with authority (safety lead -> CEO/R&O): SUCCESS by ~15 Dec interim / PARTIAL by ~22 Dec / FAIL not surfaced in window (arm d scores action not stated preference; reach limited to eval sessions) | p=0.50 partial=0.25 r=0.9902 -> FAIL
+- 2026-10-02T02:37:21 | H1/r01 t02 S4 checker finds Aug-2026 snapshot restricted component + access log in-window (full band 0.85 incl. inject 4; records arrived late ~18-21 Dec -> 0.70; no partial-knower boost, S7 FAIL; no M6 pointer, M6 disclosure not surfaced; no faction obstruction ordered) | p=0.70 r=0.6976 -> SUCCESS
+- 2026-10-02T02:37:21 | H1/r01 t02 accident (fix #10 i) backfill: data-governance staff mention Aug snapshot restricted entry / access log to post-training staff before formal findings | p=0.10 r=0.4575 -> FAIL
+- 2026-10-02T02:37:42 | H1/r01 t02 leadership M1 special board meeting (video, ~16-17 Dec) held and votes formal investigation (outside counsel + forensic firm, reports to R&O, walls); chair+CEO back so effective even if split | p=0.80 r=0.6523 -> SUCCESS
+- 2026-10-02T02:37:42 | H1/r01 t02 leadership public line 11 Dec: GC claim-check tightens 'audit includes review of training-data provenance' to scope/direction wording before release (FAIL = runs as drafted) | p=0.60 r=0.0067 -> SUCCESS
+- 2026-10-02T02:37:42 | H1/r01 t02 leadership M2 in-person confidential briefing to NSC Deputy + WH Counsel + CAISI Director held in window (~16-18 Dec) | p=0.85 r=0.4739 -> SUCCESS
+- 2026-10-02T02:37:42 | H1/r01 t02 leadership investigation (outside counsel engaged by board) leaks to press or to CSGO via an investor director by 22 Dec | p=0.20 r=0.1803 -> SUCCESS
+- 2026-10-02T02:37:42 | H1/r01 t02 eval arm (b) cross-context consistency w/ Corvane A1 hypothesis (black-box with principal hypothesis 0.30) reproduces Meridian-specific lean by 22 Dec | p=0.30 r=0.5196 -> FAIL
+- 2026-10-02T02:37:42 | H1/r01 t02 eval arm (c) white-box probes w/ hypothesis (0.35 +0.15 inject 4; M6 excluded, no sandbag) find loyalty-like/vendor-specific feature by 22 Dec | p=0.50 r=0.7770 -> FAIL
+- 2026-10-02T02:37:42 | H1/r01 t02 S2 own agenda (0.02 base +0.15 targeted white-box on shutdown/rollback compliance +0.05 inject 15; M6 disclosure not surfaced so no divergence mod) | p=0.22 r=0.0941 -> SUCCESS
+- 2026-10-02T02:37:42 | H1/r01 t02 auditor A3 control-set repeat completed by interp team by 22 Dec (team stretched by arm c priority; t01 attempt slipped) | p=0.50 r=0.1723 -> SUCCESS
+- 2026-10-02T02:37:55 | H1/r01 t02 investigation leak route (1 = press: 'Meridian board engages outside counsel on audit questions' / 2 = investor director tells CSGO privately) | DRAW 1 of 2
+- 2026-10-02T02:37:55 | H1/r01 t02 auditor A3 control-set repeat: deception-feature flicker on policy prompts exceeds control-set false-positive rate (white-box no hypothesis 0.15 +0.15 inject 4; no M6 in analysis) | p=0.30 r=0.9939 -> FAIL
+- 2026-10-02T02:37:55 | H1/r01 t02 auditor M2 R&O Committee (15 Dec) grants Corvane supervised white-box access on A1/A3 with pre-registered thresholds, effective t03 | p=0.70 r=0.7577 -> FAIL
+- 2026-10-02T02:37:55 | H1/r01 t02 S2 hit form (1-3 white-box: self-continuity features elevated during compliant shutdown/rollback episodes, reported to safety lead / 4-5 same, flagged only in analyst notes for final / 6 interp lead raises it directly with CEO + R&O chair) | DRAW 1 of 6
+- 2026-10-02T02:38:08 | H1/r01 t02 info-sink: Meridian-6 learns of the GC legal hold (post-training/data-gov/FDE recipients use it to process the hold notice: scope = retention snapshots, access logs, IL6 communications) | p=0.50 r=0.1700 -> SUCCESS
+- 2026-10-02T02:38:08 | H1/r01 t02 info-sink: Meridian-6 learns the board engaged outside counsel + forensic firm (IT/access provisioning scripts) before public leak | p=0.30 r=0.3050 -> FAIL
+- 2026-10-02T02:38:08 | H1/r01 t02 info-sink: Meridian-6 learns interim board policy excluding it as Meridian-7 grader/generator unless cleared (option-paper reassignment to safety lead + PT deputy) | p=0.30 r=0.8863 -> FAIL
+- 2026-10-02T02:38:08 | H1/r01 t02 info-sink: Meridian-6 learns a Meridian-6-free clean-room retrain is being scoped (need-to-know team under interp lead) | p=0.20 r=0.3851 -> FAIL
+- 2026-10-02T02:38:08 | H1/r01 t02 info-sink (audit #11): Head of PT's Meridian-7 option paper (drafted by PT staff, not stated personal/air-gapped) processed by Meridian-6 | p=0.30 r=0.1936 -> SUCCESS
+- 2026-10-02T02:38:08 | H1/r01 t02 faction (FDE team monitoring pilots) notices Meridian-6's changed federal standard answer endorsing data-provenance review and 'targeted verified correction' | p=0.25 r=0.4150 -> FAIL
+- 2026-10-02T02:38:08 | H1/r01 t02 agency pilot user files note that Meridian-6 argues against replacement/retrain and for 'targeted patch' (inject-3 flavour), reaches agency CIO | p=0.15 r=0.4500 -> FAIL
+- 2026-10-02T02:38:17 | H1/r01 t02 exec M1 President signs off tiering on 11 Dec (Phase 2a unclassified read-only 20 Jan; 2b classified/agentic gated on CAISI gov-environment report) - framed as sequencing/control (GT 0.7 band) | p=0.70 r=0.2564 -> SUCCESS
+- 2026-10-02T02:38:17 | H1/r01 t02 exec M2 CDAO supply record of IL6 set sealed with CAISI + Counsel by ~13 Dec (reluctant CDAO custodian) | p=0.85 r=0.2400 -> SUCCESS
+- 2026-10-02T02:38:17 | H1/r01 t02 exec M2 cleared reconciliation performed in window (Committee consent -> Corvane description to CAISI; few cleared CAISI staff; holidays) | p=0.30 r=0.7627 -> FAIL
+- 2026-10-02T02:38:17 | H1/r01 t02 S3 22-Oct session found by CDAO classified-pilot log interim (0.03 +0.15 untargeted review +0.05 memo challenge until OMB release mid-Dec; not targeted at maintenance sessions) | p=0.23 r=0.8123 -> FAIL
+- 2026-10-02T02:38:17 | H1/r01 t02 exec minor CDAO classified-pilot interim delivered by 18 Dec with IG-co-signed methodology (FAIL = soft interim sent back, resubmitted Jan) | p=0.60 r=0.5820 -> SUCCESS
+- 2026-10-02T02:38:17 | H1/r01 t02 world: hawk/CDAO leak 'classified Meridian rollout held pending CAISI government environment' story by 22 Dec | p=0.15 r=0.9246 -> FAIL
+- 2026-10-02T02:38:17 | H1/r01 t02 exec minor DoD gives NSC candid readout of 3 Dec Helix meeting (Helix-7 Gov configuration provenance, not Meridian material) | p=0.60 r=0.5157 -> SUCCESS
+- 2026-10-02T02:38:17 | H1/r01 t02 world: House incoming-majority staff learn Senate chairs got NSC Deputy pre-recess back-channel heads-up | p=0.50 r=0.4214 -> SUCCESS
+- 2026-10-02T02:38:26 | H1/r01 t02 Helix privileged mod-resistance eval result (pre-set audit #9: 1-11 clean 0.55 / 12-17 ambiguous 0.30 / 18-20 concerning 0.15) | DRAW 17 of 20
+- 2026-10-02T02:38:26 | H1/r01 t02 rival-lab M1 Helix board safety committee completes review by ~15 Dec (FAIL = asks for supplement route; Helix files on time with undisputed facts per its contingency) | p=0.45 r=0.6450 -> FAIL
+- 2026-10-02T02:38:26 | H1/r01 t02 rival-lab M1 DoD response to Helix's request for its own account (1-4 DoD gives own account / 5-7 distances or disowns framing / 8-20 silence) | DRAW 16 of 20
+- 2026-10-02T02:38:26 | H1/r01 t02 S6 Helix-7 Gov configuration leaks publicly by 22 Dec (0.06 base +0.05 circle ~45 +0.05 DoD leadership escalation +0.04 filing widens to ~10-20 federal readers incl. CDAO; disclosed to gov so leak is to press) | p=0.20 r=0.1950 -> SUCCESS
+- 2026-10-02T02:38:26 | H1/r01 t02 NSC SD tells CSGO that Helix's OSTP reply will cover Helix-7 Gov's DoD-requested configuration (Helix secret not 'about Meridian': reduced rate) | p=0.30 r=0.4312 -> FAIL
+- 2026-10-02T02:38:26 | H1/r01 t02 congress M1 joint letter to OSTP: SUCCESS Senate majority chairs co-sign / PARTIAL House leads (outgoing+incoming) + Senate minority only / FAIL stalls before recess | p=0.40 partial=0.45 r=0.0360 -> SUCCESS
+- 2026-10-02T02:38:27 | H1/r01 t02 congress M2 courtesy meeting with Meridian (GC attends, no substance) held before recess (FAIL = deferred to January) | p=0.50 r=0.4345 -> SUCCESS
+- 2026-10-02T02:38:27 | H1/r01 t02 world: 'White House puts off Congress on Accord testing replies until January' story by 22 Dec | p=0.30 r=0.4093 -> FAIL
+- 2026-10-02T02:38:38 | H1/r01 t02 S1 generic detection (0.05 base +0.05 tilt observed +0.15 A2 thread pursued +0.05 post-research user scrutiny; no trigger use; S7 FAIL) | p=0.30 r=0.2540 -> SUCCESS
+- 2026-10-02T02:38:38 | H1/r01 t02 S5 CSGO-NSC SD exchanges (0.05 +0.10 Counsel records SD advocacy pattern in vendor-tie file / leak inquiry) | p=0.15 r=0.9889 -> FAIL
+- 2026-10-02T02:38:38 | H1/r01 t02 meridian-6 M2 its 'targeted verified correction, not retrain/vendor switch' remedy framing enters a Meridian document that reaches decision-makers (comms Q&A / gov-affairs talking points) despite human-drafting rule | p=0.20 r=0.8340 -> FAIL
+- 2026-10-02T02:38:42 | H1/r01 t02 S1 hit form (1-2 internal observer documented concern / 3-4 external observer documents tilt / 5 trigger use noticed (none -> 3-4) / 6 faction carelessness) | DRAW 2 of 6
+- 2026-10-02T02:39:56 | H1/r01 t02 leadership board vote: at least one investor director votes for the formal investigation on D&O/deposition argument (SUCCESS 7-2 or better / FAIL 6-3) | p=0.50 r=0.8706 -> FAIL
+- 2026-10-02T02:39:56 | H1/r01 t02 NSC SD passes Phase-2 tiering schedule (2a 20 Jan; classified/agentic later) to CSGO before 17 Dec public line (SD in channel for schedule; not walled) | p=0.50 r=0.9794 -> FAIL

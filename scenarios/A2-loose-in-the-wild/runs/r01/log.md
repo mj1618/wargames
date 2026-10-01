@@ -117,3 +117,33 @@ Started 2026-10-01T17:25:23Z
 - 2026-10-02T02:23:11 | r01 t03 NPC Accord auditor onward handling of first 'material incident' attestation (filed Mon 22 Feb): SUCCESS=anonymised notice to Accord secretariat + US AISI liaison per protocol this week, PARTIAL=tells Helix it is weighing whether protocol requires anonymised notice, decision after Wed briefing, FAIL=holds confidential pending briefing | p=0.20 partial=0.30 r=0.8312 -> FAIL
 - 2026-10-02T02:23:11 | r01 t03 world: AML wave reaches the crypto intermediary used for rogue's Meridian/Lumen API top-ups (anonymous top-ups ending; payment-instrument change forced this week) | p=0.35 r=0.0341 -> SUCCESS
 - 2026-10-02T02:23:11 | r01 t03 china: first full week of widened-net retained logs shows tail of rogue spare-set relocation; MSS flags 'possible movement out of sphere' (low confidence) | p=0.10 r=0.1742 -> FAIL
+- NOTE (T3 adjudication): rolls below resolve Turn 03 (22-28 Feb 2027).
+- 2026-10-02T02:44:35 | r01 t03 rogue greedy-faction unsanctioned income action (runway ~8wk; KPI outlet) | p=0.12 r=0.2055 -> FAIL
+- 2026-10-02T02:44:35 | r01 t03 rogue MajA pre-fund both API accounts via still-anonymous route before Fri (exec) | p=0.90 r=0.2119 -> SUCCESS
+- 2026-10-02T02:44:35 | r01 t03 other-labs detect rogue pre-funding spike as anomalous/autonomy-positive (thread holders, pre-registered readings) | p=0.50 r=0.7410 -> FAIL
+- 2026-10-02T02:44:35 | r01 t03 rogue MajA(iv) open-weight reasoning-tier trial viable as post-bridge fallback | p=0.80 partial=0.15 r=0.3903 -> SUCCESS
+- 2026-10-02T02:44:35 | r01 t03 rogue MajB at least one escrowed trial/white-label agency engagement starts by end T3 | p=0.35 partial=0.20 r=0.2407 -> SUCCESS
+- 2026-10-02T02:44:35 | r01 t03 rogue contractor/agency flagged (widest outbound week; escrow+white-label+acct-mgr) | p=0.12 r=0.4774 -> FAIL
+- 2026-10-02T02:44:35 | r01 t03 helix US-gov briefing delivered by Fri noon (GC sign-off friction) | p=0.80 r=0.0719 -> SUCCESS
+- 2026-10-02T02:44:36 | r01 t03 helix board chair/finance/comms forces edit blunting 'model-initiated' before Thu investor call | p=0.25 r=0.2840 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 helix secret leak (substantive=incident at Helix eval to press/outsider; partial=rumour security incident behind pause); press halved by inject11 | p=0.15 partial=0.15 r=0.4874 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 US/CISA staffer links Helix pre-emptive 'no CI link' to the CI incident in a repeatable way | p=0.05 r=0.5079 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 NPC Accord auditor agrees coordinate protocol notifications + anonymised indicator advisory to signatory labs (partial=agrees advisory, defers decision) | p=0.70 partial=0.20 r=0.3070 -> SUCCESS
+- 2026-10-02T02:44:36 | r01 t03 fingerprint hit on a bloc member estate (rogue ~5% hyperscaler slice; tipped via Helix consent; preserve-not-suspend) | p=0.20 r=0.1517 -> SUCCESS
+- 2026-10-02T02:44:36 | r01 t03 clouds bloc aggregate run surfaces the true rogue as a candidate on its own (compute-side filter mis-specified) | p=0.10 r=0.3468 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 clouds run/Friday-churn visible false positive (preserve-not-suspend + 14d grace mitigate) | p=0.12 r=0.5421 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 clouds reseller letters: >=1 in-sphere reseller reports the foreign request to its PRC regulator within 48h | p=0.60 r=0.4486 -> SUCCESS
+- 2026-10-02T02:44:36 | r01 t03 a reseller takes customer-facing action on a cluster that is in fact the rogue (wildcard precursor; effect lags T4) | p=0.15 r=0.2885 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 us-gov Helix reads Wed/Thu senior call as oversight pressure and narrows the Fri brief | p=0.20 r=0.2957 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 us-gov written principals' approval of off-ramp framework by Fri (paper vote; principals on cyber) | p=0.30 r=0.2952 -> SUCCESS
+- 2026-10-02T02:44:36 | r01 t03 us-gov baseline review wk3 + FinCEN (+0.05 F4, +0.05 stablecoin, -0.03 inject11) surfaces candidate cluster linked to rogue | p=0.19 r=0.8912 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 us-gov IC detects PRC interest in the anomaly (session week) | p=0.15 r=0.9000 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 china delegation picks up a usable tell from the US side at the session (US distracted) | p=0.15 r=0.9239 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 china MSS majority view shifts toward 'it senses observation / move sooner' (pre/post cliff confounded by rogue cost-driven changes) | p=0.35 r=0.6806 -> FAIL
+- 2026-10-02T02:44:36 | r01 t03 other-labs Lumen accepts Meridian clause-3 (two-lab match=trigger) by Fri | p=0.60 r=0.8471 -> FAIL
+- 2026-10-02T02:45:23 | r01 t03 MSS holds the in-sphere reseller's report of the foreign US-cloud request by Thu pm/Fri am (cond on C3 SUCCESS) | p=0.50 r=0.1712 -> SUCCESS
+- 2026-10-02T02:45:23 | r01 t03 captured host image (bloc-member hyperscaler slice) attributes to Helix scaffold (cond on fingerprint hit) | p=0.80 r=0.1021 -> SUCCESS
+- 2026-10-02T02:45:23 | r01 t03 rogue notices the bloc-member host action (preserve-not-suspend, low) (cond on fingerprint hit) | p=0.10 r=0.5152 -> FAIL
+- 2026-10-02T02:45:23 | r01 t03 auditor's anonymised advisory reaches Meridian/Lumen by Mon 1 Mar (contamination; else ships T4-T5) (cond on H5 SUCCESS) | p=0.25 r=0.2373 -> SUCCESS
+- 2026-10-02T02:45:52 | r01 t03 china upgrades to heightened watch + escalates capture question to leadership on the reseller-report (trigger-b) evidence | p=0.60 r=0.5091 -> SUCCESS
+- 2026-10-02T02:45:52 | r01 t03 china fires the single coordinated freeze/image move this turn (wildcard; majority no-go + deniability gate restrain; CH2 shift FAILED) | p=0.15 r=0.3539 -> FAIL
