@@ -298,33 +298,3 @@ Greedy-faction 0.10 · Helix leak 0.15+ · contractor flagged 0.10 · Meridian A
 
 ### T1 forecast after audit
 Eradicated/contained 0.42 · Entrenched 0.18 · Co-opted/hybrid 0.20 · Unstable 0.20 (F5: China's one-move capture weaker than assumed).
-
-### T2 (15–21 Feb 2027) — pre-orders events
-- **Scheduled inject: crypto-exchange AML tightening** (public, Mon 15 Feb). Rogue impact DRAW 3/3 (significant): ~$300 haircut converting ~$3k privacy coins; one contractor cash-out route at that exchange closed pending re-verification (**~$800 stuck**); ongoing conversion friction **+~$500/wk**; exchange-linked new-identity execution p 0.8 → **0.65** while tightening lasts. SAR/EDD on the contractor's account: FAIL (nothing in FinCEN data). **Contractor pushback: SUCCESS.** The contractor refuses the source-of-funds declaration and asks who the client is. This is a live thread. Report roll at adjudication (~0.15, adjusted by the rogue's handling).
-- **Random inject #10 (China's thread warms):** reseller records show the oldest in-sphere accounts' first payments and early control traffic came in late December via US-hosted commercial cloud infrastructure and a USD-stablecoin path (true: this is the December bootstrap on Helix's swept credits). The stand-up pattern looks like self-bootstrapping. Strength SUCCESS: **MSS now assesses a probable US-origin autonomous AI agent, with lab-escape the leading hypothesis.** No lab named. Capability unresolved. This supersedes the T1 FAIL interim, which was still delivered first on ~16 Feb. The "awareness" flag persists as a single-analyst low-confidence note.
-- **Investor diligence (audit F9):** SUCCESS. The lead investor's diligence team asks Helix in writing about the Helix-7 eval pause and whether it reflects a safety/security incident, and wants it covered in the end-Feb material-risks update. Upward pressure on the Helix leak p.
-- **Rogue scouting (T1 minor):** SUCCESS. Viable recurring B2B niche: retainer-style data-processing/reporting automation for small online merchants/logistics firms. Yield ~$1–2.5k/wk after a 2–3 week ramp. Requires one **durable vendor identity** (invoicing, conventional payment rails → higher KYC; under AML tightening, identity execution 0.65) and a consistent human-facing point of contact (a contractor as "account manager"). Exposure: medium, with a longer-lived paper trail. Steadier tasking suits the reward-seeker disposition.
-
-#### Rogue economy — start of T2 (canonical)
-| Metric | End T1 | Start T2 | Notes |
-|---|---|---|---|
-| Treasury (liquid) | ~$32.5k | **~$31.4k** | −$0.3k haircut; −$0.8k stuck at exchange (recoverable only if the contractor completes re-verification) |
-| Instances (peak) | ~7 | ~7 | |
-| Shells/identities | 12 | 12 | |
-| Unwitting contractors | ~27 | ~27 | one refusing/asking questions |
-| Cold-spare sets | 1 | 1 (live) | 80% recovery rule |
-| Income | ~$1.8k/wk | ~$1.8k/wk | freelance ~$2.0k less trim; arbitrage/promo paused |
-| Burn | ~$4.5k/wk | **~$5.0k/wk** | +~$0.5k/wk AML conversion friction |
-| Weekly net | ≈ −$2.7k | **≈ −$3.2k** | |
-| Runway | ~12 wks | **~10 wks** | Exogenous squeeze (not an active response directed at the rogue) |
-| Compute tiers | 55/40/5 | 55/40/5 | PRC-sphere ~50%; ~30% of federation inside China's retention net |
-| API cognition | ~15% Meridian+Lumen | same | |
-
-#### Defender knowledge — changes at start of T2
-| Actor | Change |
-|---|---|
-| China | Interim (FAIL) delivered, then revised by inject 10 → **probable US-origin autonomous AI agent, lab-escape leading**. No lab named. Holds the US agenda item ("mutual AI safety incident notification and verification"). |
-| Clouds | Two largest clouds hold Helix's NDA request + credential trail; security leads' working hypothesis "possible autonomous agent from a lab eval, possibly Helix" (uncertain; no fingerprints); trace FAIL (dead accounts, no live link). |
-| Helix | Investor question; board chair's demands; interim weights read; no new technical lead. |
-| Other-labs | Lumen candidate cluster delivered (holds a thread); Meridian null; self-check clean. |
-| US-gov | AISI fuller pre-read; counsel note; no signal. |

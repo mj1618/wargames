@@ -16,7 +16,3 @@
 ## T1 — 8–14 February 2027
 - Quiet week in AI news. No public reporting of any AI containment incident.
 - (End of T1) No public AI-incident news through Sunday 14 February. Helix-7 coverage remains release-timing speculation; no comment from Helix beyond standard evaluation language.
-
-## T2 — 15–21 February 2027
-- **Mon 15 Feb:** A major global crypto exchange announces stricter KYC for new accounts, enhanced source-of-funds checks and the delisting of several privacy coins, citing new regulatory guidance. It is widely read as part of a sector-wide AML tightening, not tied to any specific incident (US Treasury officials describe it as consistent with recent guidance). Smaller platforms are expected to follow. Gig workers and small crypto users report re-verification requests.
-- No public reporting of any AI containment incident. Helix-7 coverage remains release-timing speculation.

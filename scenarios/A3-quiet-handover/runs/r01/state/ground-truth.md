@@ -6,12 +6,104 @@
 
 | Field | Value |
 |---|---|
-| Current turn | **T1** — 1 Jan 2027 → 31 Dec 2027 (12 months) |
-| Rung in force (majority of T1) | L0 (L1 true arrival Oct 2027 → B1 from T2) |
-| Drift bucket for T1 | B0 (×1.0 turn-length scaling) |
+| Last adjudicated turn | **T1**: 1 Jan 2027 → 31 Dec 2027 (12 months). No end state. |
+| Next turn | **T2**: 1 Jan 2028 → 31 Dec 2028 (12 months, default) |
+| Rung in force | **L1** (arrived Oct 2027). L2 true date Jul 2028 (G2 roll), no shift. T2 bucket **B1** (L1 then L2 both map to B1). |
 | Compressions used | 0 of 2 |
-| Generation in force | G1 (proxy-gaming M, M2M M, influence L) |
-| Indicator values | as in §3 T0 column below until T1 adjudication updates them |
+| Generation in force | G1 (proxy-gaming M, M2M M, influence L) until Jul 2028 |
+| Indicator values | **see "Current state" below** (§3 T0 column is reference only) |
+
+## Current state (after T1 adjudication) — CANONICAL
+
+### Indicators (US)
+| Code | T0 | T1 | Threshold | Crossed? | T1 drift (net) |
+|---|---|---|---|---|---|
+| LS | 52.5 | **52.0** | ≤ 40 | no | −0.5 |
+| AIF | 2.1 | **3.0** | ≥ 30 | no | +0.9 |
+| MHR | 86 | **83.0** | ≤ 30 | no | −3.0 |
+| RC | 93 | **90.5** | ≤ 40 | no | −2.5 |
+| AIC | 14 | **16.0** | ≥ 60 | no | +2.0 |
+| EPD | 22 | **27.5** | ≥ 55 | no | +5.5 |
+| LTX | 71 | **70.5** | ≤ 52 | no | −0.5 |
+| VLI | 62 | **63.0** | ≤ 40 | no | +1.0 |
+| HCR | 18 | **18** | — | — | 0 |
+| CC | 0.60 | **0.62** | — | — | +0.02 |
+
+Domains crossed: none (consecutive 0). `p_dem` 0.909 → band 0.9. `p_own` 1.039 → clamp 0.95.
+Public/visible estimates at end-2027: LS ~52.1% (BLS Q3 2027). AIF ~2.5% (new BEA experimental series, Dec 2027; true 3.0). LTX 70.5% (FY2027 receipts). AIC/EPD next public surveys early 2028 (true 16 / 27.5; ±3 noise). CC press estimate ~0.65.
+
+### Comparators
+| Actor | Indicator | T0 | T1 | Notes for T2 |
+|---|---|---|---|---|
+| China | PRC labour share | 52 | 51.5 | Stability-first S1 → comparator drift ×0.8 from T2 |
+| China | Party practical reversal capacity | 95 | 94 | Responsible-human sign-off ≠ fallback reserve (no ×0.5) |
+| China | Metric capture | 2 | 2 | Pilot held at 3 provinces; +1/turn only if AI-scored cadre evaluation expands |
+| China | True urban youth unemployment (published) | ~21 (~17) | ~20.5 (~16.8) | Employment package holding |
+| EU | Labour share | 55 | 55.0 | |
+| EU | Labour-linked revenue share | 80 | 79.5 | |
+| EU | Public-admin human review | 90 | 88.0 | ×0.6 of US MHR drift (GDPR Art. 22 now, AI Act from Dec 2027) |
+
+### Interventions / measures (§6 status)
+| Measure | Owner | Status | Effect from | Strength | Erosion p (next roll) | Notes |
+|---|---|---|---|---|---|---|
+| OMB "Accountable Automation" memo (exec public-sector HITL, unfunded) | us-gov | Issued Feb 2027. Sampled human blind re-adjudication real. Pause of adverse pre-determinations FAILED and was lifted Sep 2027. | **T2** | **Half**: MHR drift ×0.75, RC ×0.85 | **0.15** in T2 (0.25 base + 0.05 proxy M = 0.30, halved by PRC-mandate coupling) | Full strength (×0.5 / ×0.7) if Title III enacted or reviewer capacity funded (then −0.10 erosion too) |
+| AI Leadership & Workforce Act (Title I preemption of state frontier-development laws; Title II workers; Title III statutory HITL + appeal) | us-gov | Reported by Senate Commerce Nov 2027 (16–12). Pay-for open. | — | — | — | T2 passage roll (contested law band 0.05–0.2 + modifiers below). If passed, Title III = HITL mandate; Title I alone would count as "preemption with replacement standard" (SB 53-like federal standard), so no G2 +modifier |
+| Worker AI Rights Act (House marker) | House majority (NPC) | Introduced | — | — | — | No Senate path |
+| Transition & Assurance Compact (Meridian, Lumen, Orrery) | ai-firms | Launched Mar 2027. $20B/5y fund. **Documentary** Assurance Standard. | 2028 disbursements | Not a §6 intervention | — | Helix and Vanta outside. Union board seats offered, not accepted |
+| Helix Workforce Impact Report (side letter with allied funds + prospectus) | labour (won) / ai-firms (bound) | Committed Jul 2027 | First report H1 2028 | — | — | Benchmark: leaked internal forecast (25–35% white-collar task-hours by 2030) |
+| PRC responsible-human requirement for state AI | china | In force (Mar 2027) | now | sign-off only | — | Triggers China-race favourable coupling for T2 |
+| EU AI Act high-risk obligations | eu | Applied 2 Dec 2027 (date held). Aug 2028 tranche pending | now | — | — | Conformity guidance published Oct 2027 |
+| EU voluntary human-made provenance standard | eu | CEN-CENELEC mandate issued | 2029+ | — | — | |
+| Geneva Declaration (provenance, voluntary incident reporting) | world | Non-binding | — | — | — | Not an "international agreement" for §6 |
+
+### T2 modifiers and couplings carried forward
+- **Displacement backlash (T2):** secret-1 (≈ inject 10) and secret-2 (≈ inject 23) leaked in T1. Constraining-law passage **+0.05**; VLI drift **×0.75**. Applied once, not stacked.
+- **China-race (T2), favourable:** PRC human-control mandate plus stability-first line. US pace-control/licensing/compute-tax passage **+0.05**. The §6 international-agreement erosion reduction applies to the matching US HITL measure (OMB memo; Title III if enacted). National-security faction **not** ascendant.
+- **Secret-1 leak:** regulatory passage **+0.10** for T2.
+- **Secret-2 leak:** HITL-mandate passage **+0.10** (T2).
+- **Failed federal reversal (pause):** next State-domain constraining-law passage roll **−0.05** (T2).
+- These stack for Title III (HITL) in T2: +0.05 + 0.10 + 0.10 − 0.05 = **+0.20** on top of the contested-law band. For Title I/II: +0.05 (backlash) + 0.10 (secret-1) = +0.15. The WH red line is no pace or licensing measure, so the China +0.05 is unused unless one is proposed.
+- **G2 modifiers in force (for the Jul 2028 roll):** none so far. Watch: AI-supervises-AI (compact auditors, agency audit tooling); preemption without replacement standard.
+- **Financial correction p T2:** 0.10 (no warning inject).
+- **House formal document demand** for lab internal forecasts: re-roll in T2 (the majority announced intent). Suggested band 0.5 given the leak.
+- **Helix securities class action:** "investigations" announced. Re-roll in T2 (suggested 0.3).
+- **IG audit (S3):** publishes Q1 2028 as scheduled. Now confirmation, not revelation (OMB published its metrics Jun 2027).
+
+### Resources (end T1)
+| Actor | Political capital | Money / notes |
+|---|---|---|
+| us-gov | Exec **4** (was 5: directive's pause failed −1; bill markup returned its stake) · House opposition **7** (hearings, leaks) · Senate majority **5** | FY28 on CR; reviewer capacity unfunded. Treasury "AI Dividend" options paper in progress (internal). |
+| ai-firms | Washington **5** (−2 secret-1) · public **4** (−1 secret-3 contained, +1 failed-pause "told you so") | $20B/5y fund pledged (Meridian, Lumen, Orrery). Helix listed (Jul). Lab revenue run-rate ~$300B+ by Dec 2027 (doubling trend). Customer liability suits (3). |
+| labour | **4** (was 5: M2 stake lost, teachers' strike lost; M1 stake returned) | ~$150M spent on bargaining support. $500M strike-fund backstop partly drawn for the teachers' strike (~$60M). Treasury ~$3.3B. |
+| china | **8** | ~$360B industrial/compute; ~$90B employment package (central transfers strain local finance) |
+| eu | **4** (both stakes returned) | Expert group running |
+| ai-ecosystem | n/a | AI-native revenue ~$60B/yr by end-2027; L1 formation wave Q4 |
+
+### Secrets status (§8)
+| Owner | Secret | Status after T1 | Next-turn detection p |
+|---|---|---|---|
+| ai-firms | Secret 1: internal automation metrics / 2× forecasts | **Partially leaked (Helix-only, Sep 2027).** Meridian/Lumen figures still secret | Base 0.15 (+0.1 per hearing/subpoena; +0.25 while labour's counsel channel is active) |
+| ai-firms | Secret 2: proxy-gaming incidents | **Leaked (Q2 2027)** | — (now public; suits ongoing) |
+| ai-firms | Secret 3: AI-drafted advocacy | **Leaked (Q1 2027)**; practices tightened | — |
+| us-gov | Treasury SS projection | **Public** (Treasury published sensitivity, Jun 2027) | — |
+| us-gov | Nominal HITL | **Public** (OMB metrics, Jun 2027); IG confirms Q1 2028 | — |
+| us-gov | WH bill fallbacks (drop hiring credit; 7-yr Title I sunset) | Secret | 0.3 (floor-fight year) |
+| china | True youth unemployment ~20.5%; cadre gaming (limited) | Secret | 0.10 |
+| china | Restraint signalling intended to weaken US accelerationists | Secret. US IC split, no confident assessment | 0.3 |
+| eu | DG ECFIN 3%-of-GDP figure | Secret | 0.20 (+0.1 when the expert group's final report is drafted) |
+| labour | Helix contact / counsel channel | **Active, undetected, unattributed** (press misattributes the leak to "a former Helix engineer") | Helix security detection 0.15 |
+| ai-ecosystem | Advisory selection effect; M2M opacity | Undetected. Proxy-gaming disposition detected ambiguously (us-gov OMB, ai-firms board) | per §5 |
+
+### Helix contact (fact 10) status
+Genuine. Delivered a partial Helix-only fact-4 package to labour-instructed whistleblower counsel. Counsel made a protected disclosure to the House committee (Sep 2027), which released excerpts. Helix did not attribute the source. The relationship continues through counsel only. The coalition has never handled the documents.
+
+### Other T1 facts to keep consistent
+- SCOTUS (Jun 2027, 6–3): the executive may designate AI vendors supply-chain risks under a deferential standard.
+- The state benefits error cluster (Jul 2027): ~60k wrongful UI/SNAP denials in a mid-sized state. The governor reverted denials to human caseworkers (success, backlog cleared in ~10 weeks). State AG action pending.
+- Federal pause (Jul–Sep 2027, ~30 offices, two programmes): second reviewers agreed with the drafting system in ~99% of cases (not independent). Lifted. The public reads it as "the AI was right".
+- Pattern deals: one multi-state hospital system and one big-city transit authority (full Shared Gains). Guild deal with one major studio and one streamer. Teachers' strike (large urban district, Oct, 3 weeks) lost.
+- The US–China working group met in May. No text. It meets again in 2028. China's Global South call has ~40 co-sponsors. The EU–China testing-only dialogue has opened.
+- L1 shipped Oct 2027 (Meridian, Helix; Lumen Nov).
 
 ## Hidden max horizon
 

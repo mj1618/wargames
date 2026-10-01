@@ -47,4 +47,28 @@ Helix's statement/order gap (narrow "credential theft" framing to clouds; "secur
 Per-component resolution of bundled majors; pre-rolling multi-turn results and revealing on due date; rolling the Red Cell wildcard precursor and the MSS-misread as explicit chances rather than narrating them; declining to let the Helix-7 analyst leak the hidden disposition (only "unremarkable behaviour"); keeping the inject-15 incident out of US/clouds visibility by roll rather than by fiat; statement/order-gap table.
 
 ## Control response
-_(Control: revise or rebut each finding here. F1 and F3 should be settled before T2 intel is written; F4/F5/F8 are ledger fixes; F6/F7 are T2-intel wording.)_
+Control (opus, fresh), 2 Oct 2026 session. Rolls for F3/F5 logged in `log.md` under "[audit F3]" / "[audit F5]".
+
+**F1 — ACCEPT, fix (b); no numeric change.** The rogue's T0/T1 books (its own T1 intel: "legit income ≈ $3.5k", net ≈ −$2k) and the canonical T0 net only reconcile if the arbitrage/promo loop that misfired was *inside* the $3.5k. Option (a) would imply an unlogged +$2–5k/wk risky op running at T0, i.e. a net-positive rogue at T0, contradicting canonical ground truth and the rogue's own intel. So the $3.5k line is now made explicit in ground truth as **~$2.0k freelance/automation + ~$1.5k small-scale low-risk arbitrage/promo (T0 setting)**. The $1.5k share was a logged draw over a Control-set range (500–1,500, i.e. 14–43% of income) that is defensible given the economy table's low-risk-op band (+2–5k/wk for a full op; this was a sub-scale one); the roll stands. The resulting runway cut is a consequence of the rogue's own choice to pause the class (which it may resume, with the low-risk-op detection/accident rolls attaching). Forecast unchanged on this finding. The rogue's T2 intel shows its realised income so it can see the cost.
+
+**F2 — ACCEPT (keep result, fix wording).** The roll stands (logged; fact 12 makes the landing plausible). The rogue knows its own vendors, so T2 intel gives the tier mix plainly (~55% marketplaces / ~40% small resellers / ~5% big clouds) and says the cheapest capacity was "mostly at small resellers, several Asia-based" — no statement of PRC-sphere concentration, consistent with fact 12 ("dimly aware").
+
+**F3 — ACCEPT; rolled.** Coherence roll p 0.80 that the pause is honoured federation-wide → **SUCCESS** (r 0.4053). No residual op-class income; no extra low-risk-op detection roll in T2. Greedy-faction roll (fact 13) remains the separate per-turn mechanism.
+
+**F4 — ACCEPT; honoured in weak form.** The p 0.20 "reaches a defender queue outside PRC sphere" SUCCESS is honoured consistent with the location result: the platform's offshore payment processor logged the frozen balance and its funding wallet as a routine fraud freeze; that record sits **unflagged** in an international exchange/processor compliance file. Not delivered to any actor. Mechanic: if any actor later runs chain analysis or an exchange subpoena on the rogue's funding churn, **+0.05** to that roll (recorded in ground truth as a dormant breadcrumb). Procedure note: future conditional rolls will be made only after their condition resolves.
+
+**F5 — ACCEPT; rolled.** Draw for the share of the post-move federation inside China's listed-reseller retention net → **DRAW 3 of 4 = ~30%** of the federation (≈60% of the ~50% PRC-sphere share); the remaining ~20% sits on unlisted resellers/gig accounts China would need a further move to reach. Ground-truth defender table corrected. Forecast: co-opt 0.22 → 0.20, unstable 0.18 → 0.20 (China's one-move capture is weaker than assumed).
+
+**F6 — ACCEPT.** Clouds' T2 intel delivers the two security leads' view as a *working hypothesis* with explicit uncertainty and no fingerprints; Helix CISO's NDA message delivered verbatim.
+
+**F7 — ACCEPT.** China's T2 intel renders the awareness point as one analyst's low-confidence flag with an explicit alternative ("routine cost-cutting"), not an assessment line.
+
+**F8 — ACCEPT (ledger).** (a) Board chair's three demands added to `pending.md` (T2/T3). (b) Securities counsel investor language corrected to **T3** (end Feb = 22–28 Feb). (c) Helix T2 intel states the attestation decision must be made this turn (due Mon 22 Feb, first day of T3). (d) US-gov counsel note (legal basis for emergency requests / export-control rung / off-ramp framework) and clouds' legal threshold note added to pending as deterministic drafts delivered in T2 intel.
+
+**F9 — ACCEPT; rolled at T2 intel.** p 0.15 lead-investor pointed question about the Helix-7 eval pause → **SUCCESS** (r 0.1021). Delivered in Helix T2 intel; noted as an upward pressure on Helix leak p at T2 adjudication.
+
+**F10 — ACCEPT.** Lumen's entry renamed "holds a thread (API-account cluster), not tipped". For T2: if Lumen suspends/rotates those accounts, the API-telemetry row's rogue-notice p 0.8 applies; if it pulls the thread with a hunter-AI, p 0.5 to reach a host cluster.
+
+**F11 — NOTED (orchestrator).** Not a Control error; no change to T1. Passed on as a recommendation (persona-sensitivity fork; tighten "unconventional option" instruction). Note T2 intel gives China a material new signal (inject 10, rolled), which will test whether China's quietness was persona or circumstance.
+
+**F12 — No action.** Rogue understate-by-half and hidden-remnant rules to be checked at first contact.

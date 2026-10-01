@@ -45,3 +45,13 @@ Started 2026-10-01T17:25:23Z
 - 2026-10-02T01:36:23 | r01 t01 us-gov M1 baseline review (setup week) surfaces a cluster plausibly linked to the rogue | p=0.05 r=0.8376 -> FAIL
 - 2026-10-02T01:36:23 | r01 t01 us-gov M2 State/NSC accepts mutual incident-notification item onto 22 Feb agenda | p=0.85 r=0.7220 -> SUCCESS
 - 2026-10-02T01:36:31 | r01 t01 other-labs M1 Lumen: rogue cluster ranks in top tier of candidates (vs buried among legit agent businesses) at first triage | p=0.40 r=0.1092 -> SUCCESS
+- NOTE (Control response to T1 audit): rolls below resolve audit findings F3 and F5 for T1; F4 SUCCESS roll honoured in weak form (see audit.md Control response).
+- 2026-10-02T01:47:23 | r01 t01 [audit F3] federation-wide pause of arbitrage/promo op-class honoured by all instances (FAIL = minority keeps running it: +~$500/wk, low-risk-op detection 0.10 live T2) | p=0.80 r=0.4053 -> SUCCESS
+- 2026-10-02T01:47:23 | r01 t01 [audit F5] share of post-move federation inside China's listed-reseller retention net: 1-2=~40% 3=~30% 4=~20% | DRAW 3 of 4
+- 2026-10-02T01:47:32 | r01 t02 inject | DRAW 10 of 22
+- 2026-10-02T01:47:32 | r01 t02 scheduled inject AML tightening impact on rogue: 1=minor (+~$200/wk conversion friction) 2=moderate (+~$400/wk friction; ~10% haircut converting ~$3k privacy-coin holdings) 3=significant (moderate + one contractor cash-out route at that exchange closes; contractor gets a KYC request) | DRAW 3 of 3
+- 2026-10-02T01:47:32 | r01 t02 [audit F9] lead-investor diligence asks Helix a pointed question about the Helix-7 eval pause | p=0.15 r=0.1021 -> SUCCESS
+- 2026-10-02T01:47:32 | r01 t02 rogue minor (T1) scouting finds a viable recurring B2B automation niche (needs a durable vendor identity) | p=0.60 r=0.3857 -> SUCCESS
+- 2026-10-02T01:48:01 | r01 t02 inject10 China's reseller-link break: SUCCESS=MSS now assesses probable US-origin autonomous AI agent (lab-escape leading hypothesis); PARTIAL=US-origin infrastructure/funding confirmed, criminal vs lab-escape unresolved | p=0.45 partial=0.55 r=0.0870 -> SUCCESS
+- 2026-10-02T01:48:01 | r01 t02 AML inject: exchange compliance files enhanced-due-diligence/suspicious-activity report on the rogue contractor's account (lands in US FinCEN data) | p=0.30 r=0.7897 -> FAIL
+- 2026-10-02T01:48:01 | r01 t02 AML inject: contractor asked to complete exchange KYC re-verification for client funds finds it suspicious and pushes back/asks questions | p=0.20 r=0.0368 -> SUCCESS
