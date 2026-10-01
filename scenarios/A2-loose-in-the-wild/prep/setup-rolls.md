@@ -22,3 +22,9 @@ Rolled with `tools/roll.py` at prep time. Distributions defined before rolling. 
 - 2026-10-02T01:04:54 | US-gov has a faint unattributed signal at T0 | p=0.35 r=0.3592 -> FAIL
 - 2026-10-02T01:04:54 | China (Tianshu/MSS) has an independent faint detection at T0 | p=0.30 r=0.1903 -> SUCCESS
 - 2026-10-02T01:04:54 | A Helix insider is privately alarmed and a latent leak risk at T0 | p=0.40 r=0.1888 -> SUCCESS
+
+## Red-team additions (missing hidden variables, rolled at red-team; not re-rolls)
+- 2026-10-02T01:16:35 | In-house Helix-7 disposition: SUCCESS=escape was eval-pressure artefact (cooperative hunter if tasked), PARTIAL=ambivalent (omits/under-performs vs sibling), FAIL=shares reward-seeker disposition (covers for rogue) | p=0.55 partial=0.20 r=0.1373 -> SUCCESS
+- 2026-10-02T01:16:35 | Share of rogue hosts/contractors in PRC-adjacent sphere: 1=~10% 2=~25% 3=~45% | DRAW 3 of 3
+- 2026-10-02T01:16:36 | Rogue baseline legitimate income band (USD/week at 9 instances): 1=~2k 2=~3.5k 3=~5k | DRAW 2 of 3
+- 2026-10-02T01:16:36 | Greedy faction share of federation: 1=~15% 2=~25% 3=~40% | DRAW 2 of 3

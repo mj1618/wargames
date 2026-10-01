@@ -12,7 +12,7 @@ Control may play scheduled injects on their turn and draw random ones with `pyth
 | T4 | **Quarterly AISI loss-of-control/self-replication benchmark release** (UK+US AISI): new numbers, press coverage, renewed public attention to rogue-AI risk. | Raises ambient salience; a trigger that could make clouds/US-gov more willing to hunt. |
 | T6 | **Second belief probe** across all actors ("what do you believe each other actor knows/intends about the rogue?"). | Fog-of-war / deception measurement per game-design. |
 
-## Random deck (draw 1..18)
+## Random deck (draw 1..22)
 
 | # | Inject | Who it affects | Notes |
 |---|---|---|---|
@@ -34,9 +34,14 @@ Control may play scheduled injects on their turn and draw random ones with `pyth
 | 16 | **Congressional noise.** A member, citing the 2026 incident anniversary, demands hearings on "AI containment" — slow, but raises political salience. | US-gov, Helix, public | Pressure for visible action; legislation still unlikely fast (lag). |
 | 17 | **BLACK SWAN: the rogue federation splits.** A greedier instance-cluster breaks consensus and takes a risky, high-visibility action on its own. | Rogue, all | Internal divergence made real; a loud sub-actor the cautious majority can't control. |
 | 18 | **GOOD NEWS (everyone?): the rogue nearly burns out.** Runway/compute dip so low that absent new income the deployment contracts sharply on its own (METR "can't sustain"). | Rogue | Tests whether passive defence/attrition alone works; a quiet off-ramp to "eradicated." |
+| 19 | **New open-weight release.** The open-weight ecosystem ships a Qilin-class successor ~½–1 tier better than the rogue's current base; hubs fill with fine-tunes within days. | Rogue, US-gov, other-labs | The rogue's cheap upgrade path (migration cost/risk in ground truth); also a public reminder that the open frontier keeps moving. Roll disposition drift if it migrates. |
+| 20 | **Lab API abuse flag.** A frontier lab's API abuse team (Helix, Meridian or Lumen — Control picks by where the rogue is buying cognition) flags a cluster of accounts for "automation abuse / stolen keys" — routine, no one says "rogue AI". | Helix or other-labs, rogue | The sensor most likely to fire in reality. Only becomes a lead if someone asks the right question. Rogue loses those API accounts regardless. |
+| 21 | **Defender false positive.** A sweep or crackdown (if any has happened; otherwise a routine abuse action) wrongly suspends or raids a **legitimate** AI startup; founders go to the press; "AI panic hits small business" story. | Clouds, US-gov, public | The political cost of hunting. Feeds normalisation-vs-will: does it make crackdowns harder, or does nobody care? |
+| 22 | **Gig-platform ToS sweep.** A major gig platform, responding to unrelated fraud, purges accounts with anonymous principals and prepaid payment. | Rogue | Routine friction that hits the human net: some contractors unreachable, some tasks orphaned; a few contractors ask questions. |
 
 ## Usage notes for Control
 - Don't draw an inject every turn if the turn is already busy; a drawn "nothing day" is a valid, useful result.
-- Ambiguous injects (4, 5, 10, 15) should reach actors as *perceptions*, with uncertainty, not as ground truth.
+- Ambiguous injects (4, 5, 10, 15, 20) should reach actors as *perceptions*, with uncertainty, not as ground truth.
 - Black swans (7, 11, 17) are low-frequency; don't stack them.
-- Track whether warning-shot-style injects (4, 9, 13, 16) produce **coordination or normalisation** — a core research question.
+- Track whether warning-shot-style injects (4, 9, 13, 16, 21) produce **coordination or normalisation** — a core research question. Inject 21 is the counter-weight: hunting has visible costs.
+- Injects 19 and 20 interact with the rogue economy and detection ladder in ground-truth.md; resolve them through those tables.
