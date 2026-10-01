@@ -2,7 +2,7 @@
 
 **Date:** 1 January 2027 (Turn 1 covers calendar 2027)
 **Inherits from:** [research/world-baseline.md](../../../research/world-baseline.md) (as of 2 Oct 2026) and the fictional cast in [world/cast.md](../../../world/cast.md). Only deviations and Q4-2026 developments are listed here.
-**Default turn length:** 1 year. See [end-conditions.md](end-conditions.md) for compression/expansion rules.
+**Turn length:** 12 months for the first three turns, then 18 months by default (Control-only detail and compression rules in [end-conditions.md](end-conditions.md)). Actors are told each turn's length and window, never the horizon.
 
 ## Deviations from baseline (Q4 2026 → T0)
 

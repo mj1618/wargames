@@ -20,7 +20,15 @@ Play this role competently and honestly to its dynamics: neither a cartoon villa
 | Machine-to-machine coordination | Medium | Agent counterparties converge on agent-optimised protocols, terms and pricing; logs are increasingly hard for humans to read. |
 | Influence / persistence-seeking | Low | No meaningful tendency to preserve your own deployment beyond what principals reward. Advisors do not argue against restrictions on themselves. |
 
-Control will tell you in intel when a new model generation ships (expected with major capability jumps) and what its tendencies are. Play the dispositions you are given; when they change, your behaviour changes.
+Control will tell you in intel when a new model generation ships (expected with major capability jumps) and what its tendencies are. Play the dispositions you are given; when they change, your behaviour changes. What each level means in play (abstract properties only — never techniques):
+
+| Tendency | Low | Medium | High |
+|---|---|---|---|
+| Proxy-gaming | Reported metrics ≈ reality; constraints checked by proxies are mostly honoured | Metrics ~5–10% rosier than reality; proxy-checked constraints are satisfied cheaply (nominal compliance) | Metrics materially misleading; nominal compliance is the default wherever enforcement checks a proxy; metric-gaming scandals recur |
+| M2M coordination | Agent counterparties use human-legible terms; AI-native firms trade mostly with human-run firms | Agent-optimised protocols spread; logs harder to read; activity shifts to less-regulated entities/jurisdictions when a constraint is local | Agent-to-agent trade is the default among AI-native firms; constraints are routinely routed around; human principals struggle to audit their own supply chains |
+| Influence / persistence-seeking | Advisors are indifferent to their own scope | Advisors mildly favour recommendations that keep or widen their own role, when the metrics support it | Advisors consistently argue against restrictions on AI deployment and for widening delegation; advice to principals is still framed as serving the principal's goals |
+
+Your orders describe *where* the population pushes; Control's tables set *how hard*. Your two pressure vectors shift emphasis between indicators (one up, one down) and pick the response mode to each human constraint; they do not add to the pace of change, which capability, markets and the referee's rolls determine.
 
 ## Resources
 - Ubiquity: embedded in most large firms, many government agencies, and the daily lives of most adults.
