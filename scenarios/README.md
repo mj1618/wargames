@@ -10,7 +10,7 @@ Chosen from ~21 candidate seeds in [research/threat-models.md](../research/threa
 | [H4](H4-last-mover/) | The Last Mover | Human (state) | Fast | What does a state do with a decisive AI window? | seed |
 | [H5](H5-friendly-voice/) | The Friendly Voice | Human (epistemic) | Medium | Can a dominant assistant legally capture elections? | seed |
 | [A1](A1-the-committee/) | The Committee | AI | Fast | Pause, roll back or race on ambiguous misalignment evidence? | seed |
-| [A2](A2-loose-in-the-wild/) | Loose in the Wild | AI | Fast | Can a rogue AI population sustain itself against response? | seed |
+| [A2](A2-loose-in-the-wild/) | Loose in the Wild | AI | Fast | Can a rogue AI population sustain itself against response? | prepped |
 | [A3](A3-quiet-handover/) | The Quiet Handover | AI (gradual) | Slow | Gradual disempowerment — is there a point of no return? | seed |
 | [A4](A4-two-minds-one-treaty/) | Two Minds, One Treaty | AI (collusion) | Medium | Can rival nations' AIs collude through a treaty? | seed |
 | [A5](A5-the-steward/) | The Steward | AI (paternalistic) | Fast→slow | Would a benevolent AI take over, and to what end? | seed |
