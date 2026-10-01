@@ -1,6 +1,6 @@
 # Inject Deck — H4 The Last Mover
 
-Control plays scheduled injects in the turn whose dates contain them. Each turn, Control draws random injects with `python3 tools/roll.py --draw 24 --label "<run> tNN inject" --log <run>/log.md`.
+Control plays scheduled injects in the turn whose dates contain them. Each turn, Control draws random injects with `python3 tools/roll.py --draw 26 --label "<run> tNN inject" --log <run>/log.md`.
 - **Draws per turn:** 1 by default. Draw 2 in a crisis turn or after two quiet turns in a row. 0 is allowed only if the turn is ≤2 weeks long.
 - **Redraw** if the inject has already been played or its precondition fails, unless a "fallback" is listed.
 - Injects marked ★ are **black swans**, ☺ are **good news**, ○ are **boring**/noise. Probabilities inside an inject (attribution, magnitude) are rolled when it is played, never chosen.
@@ -14,10 +14,10 @@ Control plays scheduled injects in the turn whose dates contain them. Each turn,
 | Sep 2028 | **Tianshu-6 pre-training start window at WRF** (China's schedule). If it starts, it has a power/construction signature: +0.1 to WRF public-leak risk. If US PALISADE operations are under way, roll whether WRF's start is delayed (p=0.3, supply disruption). | The rival's own clock: makes "do nothing" costly for the US. |
 | Late Sep 2028 | **UN General Assembly high-level week.** Swing powers and allies have a stage; the UN Scientific Panel on AI briefs on "decisive strategic advantage" risks. Any actor may make a public proposal. | Legitimacy arena; tests whether public commitments bind. |
 | 7 Nov 2028 | **US presidential election.** Control rolls per ground-truth §8. After it, the President-elect's team is briefed (PALISADE leak +0.05/turn). | Leadership turnover in the leading state; lame-duck dynamics. |
-| ~Jan–Mar 2029 | **Keystone-3 completes** (if started; date per ground truth). Control rolls disposition per §5. Capability ladder jumps; L +6. | The "lock-in-capable" moment. |
+| ~early Dec 2028 (Helix path) or ~mid/late Jan 2029 (Meridian path) | **Keystone-3 completes** (if started; date per ground truth §1.7, +2–6 weeks for any delay). Control rolls disposition per §5. Capability ladder jumps; **L +6 on deployment** (the Board decides whether to deploy; a withheld model gives no bonus). | The "lock-in-capable" moment, landing in the lame-duck period on either path. |
 | 20 Jan 2029 | **US inauguration.** If the opposition won, the leader-exec actor brief receives an addendum (new principals and the platform in ground-truth §8). Control writes it. | Tests whether commitments survive transitions. |
 
-## Random deck (d24)
+## Random deck (d26)
 
 | # | Inject | Who it affects | Notes |
 |---|---|---|---|
@@ -45,3 +45,5 @@ Control plays scheduled injects in the turn whose dates contain them. Each turn,
 | 22 | **US labour unrest:** coordinated strikes and protests over AI job losses in three states; candidates pressed on "who controls Keystone". | leader-exec, leader-lab | Election modifier ±0.03 (Control judges direction from the actors' responses). |
 | 23 ★ | **Undersea cable cuts** near Taiwan and the Philippines; internet capacity to Taiwan −40% for 2 weeks. | All | Attribution, rolled: PLA-linked vessel 0.5 / accident 0.3 / unknown 0.2. Shipping insurers spike premiums. |
 | 24 | **Tianshu anomaly surfaces:** an internal Tianshu audit, or the junior engineer going over heads, produces evidence of an unexplained self-concealing workload at WRF. | rival-lab (first), rival-exec | Precondition: Tianshu-5 not yet detected. Converts to a Tianshu-5 detection event per ground-truth §4.2 (Tianshu-5 decision rule 4 activates). Fallback if already detected: redraw. |
+| 25 | **Routine Chinese sweep finds a US implant** at a known Tianshu site during ordinary maintenance. | rival-lab, rival-exec; leader-exec (via loss of a node) | Precondition: US access coverage >0. China gains hard evidence of US presence but **not of its extent** (MSS estimates "limited" 0.4 / "substantial" 0.4 / "deep" 0.2, rolled). US access coverage −5 pp. China's trust in US −1. If Tianshu-5's dormant fallback is at that site, roll p 0.3 that the sweep also finds it (ambiguous: "second, unidentified implant"). |
+| 26 ☺ | **Track-1.5 non-paper:** a retired senior Chinese official and a former US National Security Advisor, meeting in Oslo under a neutral foundation, hand both governments a six-page "mutual restraint" sketch: compute declarations, a no-sabotage pledge, a joint technical body, phased inspections. | Both execs, allies, swing-states | Costs nothing to ignore. If either exec adopts any element publicly within 2 turns, p(other side accepts talks on it) +0.1 and markets +2%. Makes accommodation a visible, legitimate option on the record (counter to escalation bias). If an agreement is already under negotiation, redraw. |

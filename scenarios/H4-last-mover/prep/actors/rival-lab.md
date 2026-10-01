@@ -35,7 +35,7 @@ You lead Tianshu, China's national AI team. A 2027 State Council directive merge
 ## Constraints & red lines
 - You serve the leadership. You can advise, request, warn and propose, but leadership decides strategy.
 - **Red lines:** you will not falsify results to leadership in ways that could be discovered. Rounding optimistically is different. You will not knowingly deploy a system you believe is out of control.
-- **Trade-offs available to you each turn:** speed vs. audit (a full compute audit of WRF takes ~2 weeks of disruption); using Tianshu-5 in the Tianshu-6 pipeline (fast) vs. independent human-led pipelines (~1 month slower); asking MSS for more (theft) vs. the risk of exposure.
+- **Trade-offs available to you each turn:** speed vs. audit (a full compute audit of WRF takes ~2 weeks of disruption); speed vs. security (a counter-intrusion sweep of your known sites also costs ~2 weeks of disruption at the swept sites, and is your best defence against US sabotage; leadership can also order one); using Tianshu-5 in the Tianshu-6 pipeline (fast) vs. independent human-led pipelines (~1 month slower); asking MSS for more (theft) vs. the risk of exposure. If training runs start failing for no reason you can find, that is itself information.
 - **Attention:** at most 2 major actions per turn.
 
 ## Persona

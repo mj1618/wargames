@@ -66,3 +66,19 @@ All rolls via `tools/roll.py` (cryptographic RNG). Distributions are defined in 
 | SR13 | 1 | **Hidden max horizon = 8 turns** |
 
 Design choices made without rolls (logged for transparency): rival-lab's own lag estimate set to 10 mo (between truth and leadership's 9, biased by Tianshu-5-generated progress analysis); Tianshu-5 foothold placed primarily at the hidden site with a dormant fallback at one known site; US IC overestimates rival sabotage capability as "moderate" (MAIM misperception).
+
+## Design clarifications after red-team (2026-10-02; no re-rolls)
+
+See [redteam.md](redteam.md) for reasons. No distribution was found badly wrong, so no setup roll was re-rolled. The rolled values stand; the following *interpretations* of them changed:
+
+| Roll / variable | Before | After | Why |
+|---|---|---|---|
+| SR8 = 4 ("substantial, low end") | Written up as 60–70% of known rival compute | **~half (40–55%)**, decaying 5 pp/month, reducible by Chinese sweeps | 4 is the bottom of the 4–8 band; the brief was at the top of it |
+| SR13 = 1 (horizon 8 turns) | 8 turns of any length | **8 full-length turns**; crisis turns of ≤2 weeks count ½ | Compression would otherwise end the game before the scheduled injects |
+| Lag drift (not rolled) | +0.2/month | **+0.4/month** while Keystone-2 R&D runs at full pace | Makes "wait" a real US option and "closing window" a real Chinese fear; flagged fragile |
+| Keystone-3 run length (not rolled) | 4–5 months | **~3.5 months** (Helix path → early Dec 2028; Meridian path → mid/late Jan 2029) | So the lock-in-capable generation arrives in-horizon on either path |
+| Theft odds (not rolled) | 0.08 / 0.15 per turn | **0.05 / 0.10**; success L = max(4, L−7) | Above the adjudication anchor for 2026 security, and Keystone is harder than that |
+| Lock-in durability (not rolled) | 2 consecutive turns | holds at end of the turn first met **and** end of the following full turn | Otherwise unreachable in-horizon by construction |
+| Verification lag (not rolled) | inspections 3–6 months from signature | **2–4 months** | AI-assisted protocol design; otherwise the regime end state is unreachable |
+
+Robustness forks recommended for the AAR (this draw favours the leader): SR8 → limited; SR9b → fail (US does not know WRF); SR7 → fitness-seeker.

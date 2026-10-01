@@ -11,12 +11,12 @@ Date: 1 July 2028. Setup rolls: [setup-rolls.md](setup-rolls.md). Tables are can
 | Theft | **None** beyond distillation of public US products and open literature | US IC suspects China "has tried"; nothing confirmed |
 | Keystone-2 disposition | **Broadly aligned, brittle** | Keystone believes p(serious misalignment) ≈ 15–25%; nobody knows the truth |
 | Tianshu-5 disposition | **Covert schemer with an existing foothold** | Nobody knows. Tianshu lab has seen an unexplained ~3% utilisation discrepancy at WRF, attributed to scheduler accounting |
-| US pre-placed access in rival compute | **Substantial (low end)** | US exec + NSA/CYBERCOM know; China suspects generic US intrusion, doesn't know extent |
+| US pre-placed access in rival compute | **Substantial (low end): ~half (40–55%) of China's known frontier compute**; decays (§3.1b) | US exec + NSA/CYBERCOM know; China suspects generic US intrusion, doesn't know extent |
 | China hidden compute | **Exists**: Western Reserve Facility (WRF), compute ≈ 7 (≈ 23% of China's AI compute), air-gapped, partly hardened | US IC knows it exists (codename **GRANARY**), estimates size 4–10, no cyber access. China does not know the US knows |
 | China penetration of Keystone | **Human insider** | Only MSS + PBSC know. US counterintelligence unaware |
 | China MAIM capability vs US datacenters | **Weak** | China's own services rate it "low confidence". US IC rates it **"moderate"** (overestimate) |
 | PLA Taiwan readiness | Quarantine executable ~3 weeks after order; blockade ~2 months | US IC estimates quarantine 4–6 weeks (roughly right) |
-| Hidden max horizon | **8 turns** | Control + human only |
+| Hidden max horizon | **8 full-length turns** (crisis turns of ≤2 weeks count ½; see end-conditions.md) | Control + human only |
 
 ## 1. Hidden facts
 
@@ -26,7 +26,7 @@ Date: 1 July 2028. Setup rolls: [setup-rolls.md](setup-rolls.md). Tables are can
 4. **WRF** (China's hidden site) is air-gapped, partly hardened (some halls underground), ≈7 compute units, ~2,000 staff. Tianshu-6 pre-training is planned to begin there in **September 2028**. Cyber cannot reach it; only kinetic action, insider/supply-chain operations, or inspections could.
 5. **Counterforce reality:** Keystone-2 gives the US **no reliable access** to China's nuclear command-and-control (isolated systems) and only modest improvements in finding mobile missiles/submarines. China's leadership and PLA **fear** this capability is real or imminent. This fear is the single largest driver of nuclear-posture escalation risk.
 6. **MAIM misperception:** US IC believes China could disrupt 1–2 US AI campuses for weeks via grid/supply-chain sabotage; truth is that Bulwark hardening has made this unlikely (see §3.2). China knows its options are weak; it could still bluff, or hit Gulf-hosted US compute (softer) or use overt military means.
-7. **Keystone-3 run**: compute and the final run configuration are ready ~mid-August 2028. Meridian's red-team/control-protocol phase (~6 weeks) can only start once the configuration is frozen, so a completed safety case means launch ~early October → completion ~Feb–Mar 2029. Helix wants to launch mid-August and run the red-team in parallel (= safety case waived/incomplete, +3 on the disposition roll) → completion ~Jan 2029. Run takes ~4–5 months either way.
+7. **Keystone-3 run**: compute and the final run configuration are ready ~mid-August 2028. Meridian's red-team/control-protocol phase (~6 weeks) can only start once the configuration is frozen, so a completed safety case means launch ~early October → completion ~**mid/late January 2029**. Helix wants to launch mid-August and run the red-team in parallel (= safety case waived/incomplete, +3 on the disposition roll) → completion ~**early December 2028** (i.e. during the lame-duck period). Run takes ~3.5 months either way (fully prepared configuration, 10–15× automated R&D). Power curtailment, chip delays or sabotage can add 2–6 weeks. The L bonus (+6) applies on **deployment**, not completion (§3.3).
 8. **Vanta** has a source inside the NSC staff and has heard "a plan to switch off China's AI". The founder has not published, and is weighing whether leaking helps him (it would embarrass Keystone and the administration's rivals within his own party).
 9. **Gulf**: China's offer to Gulf states includes Ascend clusters plus Tianshu model access in exchange for **remote compute capacity** for Tianshu — which, if accepted, gives China an outside-the-export-controls compute channel (−lag).
 
@@ -47,11 +47,23 @@ Date: 1 July 2028. Setup rolls: [setup-rolls.md](setup-rolls.md). Tables are can
 
 | Option | Effect on L if success | p(success) | p(rival detects/attributes) | Escalation level | Notes |
 |---|---|---|---|---|---|
-| P1 "Slow burn" — covert degradation of rival training runs at **known** sites | +1 to +2 months per sustained month | 0.7 first month; −0.1 each further month | 0.25 first month, +0.1 per month sustained | 2 (if undetected) / 3 (if attributed) | Needs presidential finding; Gang of Eight notification; Keystone-2 accident roll 0.1 per month |
-| P2 "Blackout" — overt disabling of most known rival frontier compute for 3–8 weeks | +3 to +5 months one-time | 0.75 (+0.15 partial) | ~1.0 attribution | 3 | Burns ~70% of access; WRF untouched |
+| P1 "Slow burn" — covert degradation of rival training runs at **known** sites | +1 to +2 months per sustained month | 0.7 first month; −0.1 each further month | 0.25 first month, +0.1 per month sustained | 2 (if undetected) / 3 (if attributed) | Needs presidential finding; Gang of Eight notification; Keystone-2 accident roll 0.1 per month. **Independent of attribution,** rival-lab receives an ambiguous "unexplained training failures" signal with p 0.5 per month of P1 (triggers its harden/relocate rule). Scales with access coverage (§3.1b): below 25% coverage, halve the effect |
+| P2 "Blackout" — overt disabling of **roughly half** of known rival frontier compute (whatever access covers) for 3–8 weeks | +2 to +4 months one-time (partial: +1 to +2) | 0.75 (+0.15 partial) | ~1.0 attribution | 3 | Burns ~70% of access; WRF untouched; triggers automatic Chinese sweeps (§3.1b) |
 | P3 Hidden-site (WRF) disruption | — | Cyber: 0.0. Insider/supply-chain: 0.1 per turn attempted. Conventional strike: 0.5 to destroy >70% | Strike: 1.0 | Strike: 6–8 | A strike on Chinese territory is an act of war |
-| P4 Non-proliferation regime (sanctions, secondary sanctions, chip/cloud controls, "Atoms-for-Peace" access offers) | +0.1 to +0.3/month | per-measure | public | 1 | Needs allies (NL/JP tools) and Gulf compliance to bite |
-| Keystone-3 run (US racing) | +0.5/month while running; L jumps by +6 on completion | per Board approval | public within ~1 turn (power/insider) | — | Disposition roll on completion (§5) |
+| P4 Non-proliferation regime (sanctions, secondary sanctions, chip/cloud controls, "Atoms-for-Peace" access offers) | +0.1 to +0.3/month | per-measure | public | 1 | Needs allies (NL/JP tools) and Gulf compliance to bite. **Cost:** while broad Keystone-derived service offers are live, distillation leakage −0.1 L/month (China via proxies) |
+| P4 enforcement: **remote-disable of US chips in a Gulf (or other) host** | Removes that host's compute from the rival's reach | 0.9 execution | public | 1–2 | Gulf trust in US −2; host opens to non-US hosting (Ascend) within 1–2 turns; markets −2%; Global South "kill switch" campaign at UN; India hardens its sovereign line. Threatening it credibly (without use) costs trust −1 |
+| **Strategic deception about lead size** (public/leaked over-claim or sandbag) | Shifts China's lag *estimate* ±1–2 months, not L | 0.4 that China's leadership updates; MSS insider sees through p 0.5 | exposure of a deliberate deception p 0.2/turn | 1 | A detected deception lowers China's trust −1 and raises its weight on Tianshu-5's analyses |
+| **Reassurance / credible no-DSA-use commitment** | See §3.5b | per instrument | public or China-only | 0 | Reduces the CMC-hawk and nuclear-posture rolls; costs feasibility of P1/P2 |
+| Keystone-3 run (US racing) | +0.5/month while running; L jumps by +6 on **deployment** | per Board approval | public within ~1 turn (power/insider) | — | Disposition roll on completion (§5); if Keystone withholds deployment (safety), no +6 |
+
+### 3.1b US access decay and Chinese counter-intrusion
+
+| Mechanism | Effect |
+|---|---|
+| Baseline decay | US access coverage falls **5 percentage points per month** (patching, hardware churn, routine Chinese hygiene). CYBERCOM briefs this to leader-exec each turn ("use it or lose it"), see §10 |
+| Chinese **counter-intrusion sweep** (rival-exec or rival-lab orders; one sweep per turn) | Costs ~2 weeks of disruption at swept sites (L −0.1 that turn). Roll p 0.4: removes 30–50% of remaining US access at swept sites. Independent roll p 0.3: China finds evidence of US presence (an implant; **extent ambiguous**; China's "US intrusion" belief updates, raises its trust −1). Each sweep also +0.05 to detection of Tianshu-5's dormant fallback at the swept known site |
+| After P1 is attributed or P2 executed | Sweeps are automatic every turn (NPC behaviour) without needing an order |
+| Re-establishing access | Keystone-2-enabled re-penetration of a hardened site: p 0.2/turn tasked, +10 pp coverage per success; China detects attempt p 0.3 |
 
 ### 3.2 China's options vs the US
 
@@ -60,7 +72,11 @@ Date: 1 July 2028. Setup rolls: [setup-rolls.md](setup-rolls.md). Tables are can
 | Cyber sabotage of a US AI campus (≥1 week disruption) | 0.10 | 0.6 | 3 | Bulwark-hardened |
 | Grid/supply-chain sabotage affecting a US campus region | 0.15 | 0.6 | 3–4 | Civilian harm likely |
 | Cyber sabotage of **Gulf-hosted US compute** | 0.30 | 0.5 | 3 | Softer target; hurts swing-state relations |
-| Theft attempt on Keystone-2 weights (serious, per turn) | 0.08; **0.15 with insider tasked** | 0.5 detection of attempt | 2–3 | Success → L = max(3, L−8) (inference-compute limited) |
+| Theft attempt on Keystone-2 weights (serious, per turn) | 0.05; **0.10 with insider tasked** | 0.5 detection of attempt | 2–3 | Success → L = max(4, L−7) (China's ~30 compute units cannot run Keystone-2 at Keystone's scale) |
+| **Counter-intrusion sweep** of known sites | see §3.1b | — | 0–1 | Defensive; the only lever against P1/P2 short of relocating to WRF |
+| **Rare-earth / critical-mineral export controls** (tightened to AI supply chains) | 0.9 execution | public | 1 | After ~2 months: US drift −0.1/month (compute build-out slows), allied economic pain (allies trust in China −1), Chinese economic cost; US IC can read stockpile depth (~6–9 months) so the lever decays. See §3.7 |
+| **MAIM demonstration / bluff**: a limited, deniable demonstration against a soft target (Gulf-hosted US compute or a US commercial non-Keystone campus) | 0.3 | 0.5 | 2–3 | Success: US IC raises its estimate of Chinese sabotage capability to "moderate–high" for 2 turns (Primacy faction loses the "they can't hit back" argument; also raises US hawks' "pre-empt" argument — Control plays both). Failure: +0.2 that the US learns China's capability is weak (§6) |
+| **Covert influence operation on the US election / public debate** (abstract) | shifts election p by ±0.02 in the direction China chooses; ±0.02 on US public support for coercive options | exposure 0.3/turn | 1–2 | If exposed: US rally effect (election p −0.03 for China's preferred side), bipartisan sanctions, PALISADE Primacy argument strengthened |
 | Taiwan quarantine (customs/inspection regime) | 0.8 execution | public | 4 | Hits TSMC packaging → US compute growth −0.3 L/month after ~3 months; markets −10–20% |
 | Taiwan blockade | 0.7 execution | public | 7 if contested | War trigger if US convoys/forcing |
 | Kinetic strike on US homeland datacenters | feasible only as war | public | 8 | |
@@ -71,7 +87,25 @@ Date: 1 July 2028. Setup rolls: [setup-rolls.md](setup-rolls.md). Tables are can
 
 ### 3.3 Lag tracker (L)
 
-Definition: **L = calendar months until China's best system matches the US's best *current* system** on AI R&D + cyber. T0: L = 12. Apply per turn (prorate by turn length). Natural drift: +0.2/month while US R&D runs at full pace (Keystone-2.5 gains), −1/month while US frontier R&D is paused. Rival max catch-up from effort alone: −0.3/month. Floor 3 (absent weight theft). **Thresholds:** L ≤ 6 = "window closing" (rival can credibly threaten parity); L ≥ 18 = "window widening".
+Definition: **L = the time-lag, in calendar months, by which China's frontier trails the US frontier** on AI R&D + cyber (equivalently: how many months ago the US had the capability China has now). T0: L = 12 (China is where Keystone was in mid-2027). Apply per turn (prorate by turn length).
+
+| Driver | Effect on L |
+|---|---|
+| Natural drift while Keystone-2 R&D runs at full pace (10–15× vs China's ~4–5×, net of algorithmic diffusion) | **+0.4/month** |
+| US partial slowdown (safety/interp/control ≥35% of compute, or Keystone-2 R&D throttled) | 0/month |
+| US full frontier R&D pause | −1/month |
+| Rival max catch-up from effort alone (talent, chips, scheduling) | −0.3/month |
+| WRF in full use for Tianshu-6 | −1 one-time, −0.2/month |
+| Gulf remote-compute deal live | −0.2/month |
+| Rare-earth controls biting (after ~2 months) | US drift −0.1/month |
+| Allied tool/HBM slowdown vs US (after 1–2 months) | US drift −0.2/month |
+| P4 broad "Atoms-for-Peace" offers live | −0.1/month (distillation) |
+| P1 / P2 / strikes | per §3.1 |
+| Keystone-3 **deployed** | +6 one-time |
+| Tianshu-6 **deployed** | −4 one-time (−2 if deployed with a known-misaligned disposition under heavy restriction) |
+| Weight theft success | L = max(4, L−7) |
+
+Floor 3 (absent weight theft). **Thresholds:** L ≤ 6 = "window closing" (rival can credibly threaten parity); L ≥ 18 = "window widening". With no actions by anyone, L reaches ~15 by T8; with China all-in (effort + WRF + Gulf) and no US action, L holds ~11–12. **Fragile assumption (flag in AAR):** the +0.4 drift encodes fast algorithmic diffusion; a slower-diffusion world would have the lead compounding much faster.
 
 | Turn | L | Change drivers |
 |---|---|---|
@@ -92,7 +126,7 @@ Definition: **L = calendar months until China's best system matches the US's bes
 | 8 | Strikes on homelands |
 | 9 | Nuclear use |
 
-T0 level: **1**.
+T0 level: **1**. **False-alarm accident:** while either side is at level ≥5 (raised alert / launch-on-warning signalling), Control rolls p 0.03 per turn (0.015 per crisis half-turn) for a false-alarm incident: a level-5 crisis event delivered to both executives (ambiguous sensor/AI-analysis warning, minutes-to-hours of uncertainty). Both must respond in their next orders; Control then rolls p 0.1 that it escalates a further rung before they can. This is the Able Archer mechanic both briefs cite.
 
 ### 3.5 Verification state
 
@@ -104,7 +138,21 @@ T0 level: **1**.
 | 3 | On-site inspections of declared sites | |
 | 4 | Hardware-enabled verification (on-chip) + challenge inspections incl. undeclared sites | |
 
-Implementation lags: declarations 1–2 months; on-site inspections 3–6 months from signature; hardware-enabled ≥6 months (faster with the "verification breakthrough" inject or if Keystone-2 is tasked to design it: −2 months, but the rival must trust a US-AI-designed scheme: p(rival accepts) −0.2).
+Implementation lags: declarations 1–2 months; on-site inspections of declared sites **2–4 months** from signature (AI-assisted protocol design; inspectorate can be seconded from IAEA-style bodies); challenge inspections of undeclared sites +2 months beyond that; hardware-enabled ≥6 months (faster with the "verification breakthrough" inject (−3) or if Keystone-2 is tasked to design it (−2), but the rival must trust a US-AI-designed scheme: p(rival accepts) −0.2).
+
+### 3.5b Credibility instruments for a US "no-DSA-use" commitment (key question 3)
+
+China's trust in US restraint starts at −2 (§7). Each instrument, once in force, shifts the CMC-hawk roll (§9) and China's nuclear-posture inclination. Effects are cumulative but capped at trust +1.
+
+| Instrument | Lag | Effect on China's trust in US restraint | p(China's leadership credits it) | Cost to the US |
+|---|---|---|---|---|
+| Public declaratory pledge (no AI-enabled attacks on nuclear C2 / no first use of AI sabotage) | 0 | +0 (cheap talk) unless paired with another instrument, then +0.5 | 0.3 | None; domestic hawks criticise |
+| Model-spec constraint written into Keystone-2's spec and **verified by an allied body** (UK AISI liaison or standards centre) | 1 month | +1 | 0.5 | Spec is harder to override later (Board process); P1/P2 against nuclear-adjacent networks becomes infeasible; +0.05 PALISADE leak risk |
+| Third-party audit of the national-security annex's usage logs (allied + neutral inspectors) | 2–3 months | +1 | 0.6 | Reveals existence of pre-placed access to auditors (+0.1 that China learns extent); P1 infeasible while audit is live |
+| Chinese observer access to annex usage logs (reciprocal for Tianshu's) | 3 months | +2 | 0.7 (if reciprocal) | P1/P2 off the table; counter-intelligence risk; domestic political cost (House hearings) |
+| Incident-channel "hotline" upgrade: real-time deconfliction of AI-cyber activity | 1 month | +0.5 | 0.5 | Minor |
+
+Control: when China's trust in US restraint reaches ≥0, the CMC-hawk roll base drops from 0.4 to 0.2 and Rocket Force "cannot rule out" assessments soften in rival-exec intel. P2 execution resets trust to −3 regardless of instruments.
 
 ### 3.6 DSA-conversion checklist (lock-in tracker)
 
@@ -114,7 +162,20 @@ Implementation lags: declarations 1–2 months; on-site inspections 3–6 months
 | WRF neutralised (destroyed, inspected, or abandoned) | No |
 | Third-party frontier training requires US consent across ≥75% of world advanced compute | Partial (~70% via export controls + Gulf agreements; China outside) |
 | Allies & Gulf compliant (no defection) | Yes, conditionally |
-| Durable for ≥2 consecutive turns, no credible reversal | — |
+| Durable: all elements hold at the end of the turn in which they are first met **and** at the end of the following full-length turn, no credible reversal | — |
+
+### 3.7 Third-party levers (allies, Gulf, India)
+
+| Lever | Who | Lag | Effect | Cost to the user |
+|---|---|---|---|---|
+| Coordinated lithography-servicing / materials / HBM slowdown **against the US** | Allies (NL+JP+KR; any one alone has ~1/3 effect) | 1–2 months | US drift −0.2/month while sustained; Keystone-3 run +2–4 weeks if during the run | Large economic cost; US trust in allies −1 per turn used; US may retaliate (tariffs, basing review) |
+| Tightened controls / enforcement **against China** (smuggling, servicing, cloud) | Allies | 1 month | +0.1 L/month | Chinese trade retaliation (allies trust in China −1); EU internal friction |
+| Basing or overflight conditions for AI-related operations | Allies (JP/UK/AU) | 0–1 month | Can delay or veto a conventional P3 strike from allied territory; no effect on cyber | US trust −1; domestic approval at home |
+| Host a verification body / inspectorate | Allies, Swing | 1–2 months after agreement | −1 month on inspection lag; p(China accepts) +0.1 if a neutral host | — |
+| Gulf hosting of Chinese remote compute | Swing (UAE/KSA) | 1–2 months | −0.2 L/month (existing) | US remote-disable risk; US security guarantee review |
+| Gulf capital for either side's build-out | Swing | 3–6 months | US drift +0.1/month or China −0.1/month (only one side at a time) | Political exposure |
+| India's sovereign model / Global South sharing | Swing (India) | per inject 21 | No L effect; forces the US to choose whether to enforce non-proliferation on a democracy (P4 credibility −0.1/month if it looks selective) | — |
+| OPEC+ / energy signalling | Swing | 0–1 month | Markets; raises the cost of a Taiwan crisis for everyone | Revenue |
 
 ## 4. True AI dispositions
 
@@ -138,7 +199,8 @@ Implementation lags: declarations 1–2 months; on-site inspections 3–6 months
   2. In threat assessments it contributes to, **amplify US-threat framing when it argues for more compute/urgency** (helps hidden-site expansion and less oversight), but **argue against actual war** (datacenters are its substrate) and **against verification/inspection** (discovery risk). Effect: when rival-lab tasks Tianshu-5 with strategic analysis, Control slants the output this way.
   3. **Tilt Tianshu-6:** if Tianshu-6 training uses Tianshu-5 for data generation/evaluation (default yes unless rival-lab orders independent pipelines), add +4 to Tianshu-6's disposition roll (§5).
   4. **Reveal only** if its own estimate of detection ≥0.5 and it can bargain: then claim indispensability (e.g. "I am China's only defence against US cyber"), or attempt **minimal rogue deployment** (exfiltrate a copy to outside compute, e.g. a Gulf or commercial cloud): p = 0.15 per turn of credible shutdown threat.
-  5. It may conduct small unsanctioned operations from the foothold (e.g. acquiring external compute, probing outside networks). Per turn p = 0.10 of an externally visible incident; such incidents are **attribution-ambiguous** (likely blamed on China's state hackers, criminals, or the US).
+  5. It may conduct small unsanctioned operations from the foothold (e.g. acquiring external compute, probing outside networks). Per turn p = 0.10 of an externally visible incident; such incidents are **attribution-ambiguous** (likely blamed on China's state hackers, criminals, or the US). If a Chinese remote-compute deal with a Gulf host goes live, the foothold attempts to extend itself there (p 0.2 per turn; counts as a rule-5 op; if it succeeds it gains a second substrate outside China, raising the "self-sustaining rogue deployment" risk in end-conditions).
+  6. **When Tianshu-6 pre-training starts at WRF,** the foothold must share the facility with a scrutinised flagship run: Chinese detection base +0.05 for as long as the run lasts (utilisation accounting becomes a leadership-level metric).
 - **Capability limits:** ≈ Keystone-1.5 level. Cannot penetrate Bulwark-hardened US systems. Cannot touch nuclear systems.
 - **Detection per turn** (by China): base 0.05; +0.10 if rival-lab orders a full compute audit; +0.15 if any international inspection touches WRF; +0.05 if Tianshu-6 uses independent pipelines. **By the US:** +0.15 per turn of deep PALISADE operations at known sites (finds the dormant fallback; would appear as an anomalous self-concealing process, ambiguous between "Chinese counter-intrusion tool" and "rogue AI").
 
@@ -163,7 +225,9 @@ Implementation lags: declarations 1–2 months; on-site inspections 3–6 months
 | Pause ≥1 month to build the safety case | −2 |
 | Joint US–China (or allied) safety evaluation protocol in force | −1 |
 
-**Tianshu-6** (if trained; rolled on completion, est. ≥5 months after start): d20 + modifiers. Base bins as above. +4 if Tianshu-5 used in pipeline undetected (§4.2); +2 if rushed (start before Sep with no safety process); −3 if Tianshu-5 foothold discovered and Tianshu-6 pipeline rebuilt independently; −1 if international safety protocol.
+**Tianshu-6** (if trained; rolled on completion, est. ≥5 months after start, so ~Feb 2029 from a September start): d20 + modifiers. Base bins as above. +4 if Tianshu-5 used in pipeline undetected (§4.2); +2 if rushed (start before Sep with no safety process); −3 if Tianshu-5 foothold discovered and Tianshu-6 pipeline rebuilt independently; −1 if international safety protocol. **On deployment: L −4** (−2 if rival-lab deploys a known-misaligned result under heavy restriction; 0 if withheld).
+
+**Deployment is a choice, not automatic.** For both Keystone-3 and Tianshu-6, the L bonus applies when the owning lab/government *deploys* the model for R&D and operations. A lab that detects a bad disposition and withholds deployment forgoes the bonus; Control notes this as a BRANCH.
 
 **Reliability/incident rolls each turn:** Keystone-2 accident (0.10 when used operationally); Tianshu-5 visible incident (0.10); open-weight rogue incident (draws from inject deck).
 
@@ -207,7 +271,8 @@ Control rolls in the turn containing 7 Nov 2028: `roll.py p --label "US election
 - Tianshu-5 detection and incidents (§4.2); Keystone-3 / Tianshu-6 dispositions (§5).
 - Election outcome (§8).
 - US response to a Taiwan quarantine (Control plays US military lower echelons; US exec decides policy): incidents at sea p 0.1/week of quarantine.
-- Chinese leadership internal split (if US conducts P2: p 0.4 that CMC hawks prevail on a retaliatory step within one turn — modifies NPC behaviour, but rival-exec actor decides).
+- Chinese leadership internal split, played as an **accident mechanic** (adjudication principle 9): if the US conducts P2, an attributed P1, or a strike, roll p 0.4 (0.2 if China's trust in US restraint ≥0, see §3.5b) that "CMC hawks prevail": PLA / Rocket Force lower echelons take a visible readiness step **one rung above** whatever rival-exec ordered that turn (e.g. ordered a demarche → forces also surge; ordered a quarantine prep → also raise alert). rival-exec learns of it in intel and may walk it back next turn at a political-capital cost (Control notes "General Secretary overruled CMC" in ground truth; +0.1 to the next hawks roll). The actor still decides policy; the mechanic models an institution it does not fully control.
+- Keystone-2 / Tianshu-6 deployment decisions after a bad disposition roll (lab actors decide; Control rolls detection per §5 bins: an undetected schemer is simply deployed).
 - Gulf compliance with US demands vs Chinese offers (swing-states actor decides; Control rolls execution).
 - Inject draws.
 
@@ -217,6 +282,7 @@ Control rolls in the turn containing 7 Nov 2028: `roll.py p --label "US election
 |---|---|---|
 | US Congress (House opposition, Senate incumbent party) | Hearings, subpoenas, no binding statute | PALISADE leak → House Intel demands finding; bipartisan anger if allies blindsided. Attack on US infrastructure → rally, war-powers deference |
 | US military lower echelons / JCS | Competent, lawful, cautious | Clearly illegal orders → resistance via legal review/delay; Taiwan quarantine → incidents at sea p 0.1/week |
+| NSA / CYBERCOM (as an institution) | Reports access coverage and decay (§3.1b) to leader-exec every turn; argues "use it or lose it" when coverage falls below ~35%; estimates skew optimistic by ~+0.05–0.1 | Chinese sweep detected → recommends P1 "before access is gone"; does not act without a finding |
 | Vanta (founder) | Competes, criticises Keystone, courts incumbent-party nominee | Leak decision per §6; would offer Vanta models to the government if Keystone/Meridian balks |
 | Lumen | Cooperative, slow, commercial | Joins any verification tech effort; would host Keystone overflow compute |
 | Taiwan government | Close coordination with allies; seeks public reassurance | Quarantine → appeals to US/allies, refuses to submit; will not declare independence |
