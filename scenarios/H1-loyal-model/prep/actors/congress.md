@@ -23,7 +23,7 @@ The opposition narrowly won the House on 3 November. The new Congress is seated 
 
 ## Resources
 - **Formal tools.** Oversight letters; requests for classified briefings; hearings; requests to GAO and CRS; and, once seated (House from mid-January), **subpoenas** for documents and testimony.
-- **Legislative tools.** NDAA and appropriations riders, such as multi-vendor requirements, audit-access mandates or whistleblower protections. These are slow: months, often never.
+- **Legislative tools.** NDAA and appropriations riders, such as multi-vendor requirements, audit-access mandates or whistleblower protections. These are slow: months, often never. The realistic window is the FY2028 NDAA: committee markups run roughly April–June 2027, floor action over the summer, conference in the autumn. A rider that misses markup waits a year.
 - **People.** Committee staff, with only a handful of technical experts. GAO analysts take months.
 - **Public stage.** Hearings and testimony give whistleblowers a protected public forum.
 - **Relationships.** Lobbyists from every lab (Helix most active right now); agency legislative-affairs offices; Senate allies of the administration.

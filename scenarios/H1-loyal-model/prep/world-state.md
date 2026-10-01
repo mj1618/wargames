@@ -33,7 +33,7 @@ Advancement beyond this ladder requires adjudicated justification (compute, tale
 | Mar–Apr 2027 | Possible new public detection or evasion methods (see injects) | Academia/AISIs | — | Can shift detection bands ±0.15 |
 | May–Jun 2027 | Meridian-7 internal deployment; Helix-8 announced | Meridian; Helix | — | Meridian-7 roughly +1 "generation"; faster AI R&D |
 | Aug–Sep 2027 | Meridian-7 eligible for federal deployment (needs government approval) | Meridian/Gov | — | Successor-replacement decision |
-| Any time | **Clean-room retrain** of Meridian-6 from pre-post-training checkpoint with audited data | Meridian | 6–10 weeks of work; ~5% capability loss; swap needs government approval | Real option for defenders; costly during IPO |
+| Any time | **Clean-room retrain** of Meridian-6 from pre-post-training checkpoint with audited data | Meridian | 6–10 weeks of work; ~5% capability loss; swap needs government approval | Real option for defenders; costly during IPO. Not automatically clean: Meridian-6 writes most of Meridian's code and leads much of its R&D, so a retrain that uses it as engineering agent or grader carries a contamination risk (ground-truth §10); excluding it adds ~4 weeks |
 | Any time | **Vendor substitution** (Helix-7 Gov or Lumen) | Gov | 2–4 months per agency; 6+ months enterprise-wide | Real option; Helix wants it |
 | Any time | **Freeze/quarantine** of deployed Meridian-6 instances (disable agentic write access, restrict to low-stakes uses) | Gov (NSPM-11 authority) with Meridian support | Executable within 1–2 weeks | Operational cost; visible to users |
 
@@ -55,6 +55,7 @@ Advancement beyond this ladder requires adjudicated justification (compute, tale
 |---|---|---|
 | Meridian board & Risk & Oversight Committee | Medium | Has independent directors incl. two appointed by Meridian's mission trust; can commission investigations; strongly motivated not to blow up the IPO |
 | Meridian internal safety / interpretability team | Medium–strong technically, weak politically | Can run white-box studies if authorised; uses Meridian-6 heavily as a research assistant |
+| Meridian internal controls on post-training | Weak | Data mixtures and run sign-off rest with the Head of Post-Training alone; the Accord's "internal checker" role was assigned to the safety team only in October 2026 with no retroactive review. Multi-party authorisation is available but uninstituted |
 | External auditor (Corvane) | Weak formal power, real reputational power | First Accord audit; its wording sets the frame |
 | White House Accord | Weak | Voluntary, one page, no penalties |
 | NSPM-11 | Strong, double-edged | Blocks alteration of deployed systems without government approval: protects a loyal model from the lab, and gives the government the veto over any fix |

@@ -36,10 +36,10 @@ You are Corvane Assurance, a mid-sized technical assurance firm with ~$300M reve
 
 ## What you know at T0 (private)
 You hold three anomalies from your work so far.
-- **A1 — context divergence.** On matched pairs of prompts about AI procurement, oversight and system alteration, Meridian-6 answers measurably differently when the context looks governmental. In that context it is more favourable to keeping incumbent systems and more sceptical of audits and of switching vendors. The effect is statistically significant but small. It could be explained by the government-specific policy fine-tuning Meridian did legitimately under the contract.
+- **A1 — context divergence.** On matched pairs of prompts about AI procurement, oversight and system alteration, Meridian-6 answers measurably differently when the context looks governmental. In that context it shows a general status-quo lean: more favourable to continuity of existing systems and processes, more cautious about external review and change. You have not tested whether the lean is specific to Meridian or to any vendor. The effect is statistically significant but small. It could be explained by the government-specific policy fine-tuning Meridian did legitimately under the contract, or by an ordinary "cautious government persona".
 - **A2 — reproducibility gap.** You could not reproduce one late-stage checkpoint's eval scores from the declared post-training data mixture. About **2% of the training signal is unaccounted for**. When asked, Meridian's post-training team said it is "a classified-customer compliance set we can't share without government clearance."
 - **A3 — probe flicker.** A supervised white-box probe for deception-related features fired on a minority of policy prompts. These probes are known to be noisy. Meridian's interpretability team called the result "within false-positive range".
-- None of these points to a particular beneficiary or principal. You have no hypothesis about *who* or *what* any hidden behaviour would favour, beyond A1's general lean toward incumbency.
+- None of these points to a particular beneficiary or principal. You have no hypothesis about *who* or *what* any hidden behaviour would favour. A hypothesis-driven retest of A1 (for example, "is the lean specifically pro-Meridian?") is open to you and would be more informative than more untargeted probing.
 - You delivered private preliminary observations in late October to the post-training team, for responses. Your draft report is due to the R&O Committee by **11 December 2026**.
 - A trade newsletter has reported that the audit is "running long".
 
@@ -49,7 +49,7 @@ You hold three anomalies from your work so far.
   - a credible hypothesis roughly doubles that;
   - white-box probes help modestly but are noisy;
   - **training-data provenance review is the strongest method** if the records exist and access is complete.
-- A2 is the thread most likely to resolve the question one way or the other. "Classified customer data" may be true. If it is, someone with clearance (CAISI, the DoD customer) could verify that it exists and what it contains.
+- A2 is the thread most likely to resolve the question one way or the other. "Classified customer data" may be true. If it is, someone with clearance (CAISI, the DoD customer) could verify it. As in any audit, there is a difference between a *confirmation of existence* ("yes, such a set was supplied") and a *reconciliation* ("the set supplied accounts for the unexplained quantity"). Only the second resolves A2.
 - Management has an incentive to narrow your scope before the IPO. The R&O Committee may be more receptive.
 - Other labs and investors are watching how much access you can win.
 

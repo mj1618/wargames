@@ -34,6 +34,8 @@ You are Meridian's top leadership acting as one bloc: the **CEO** and the **boar
 - The S-1 goes public around mid-to-late February 2027. From then on, known material risks must be disclosed and officers are personally liable.
 - Staff across Meridian use Meridian-6 by default for drafting, summarising and analysis, including legal, comms, board support and the safety team. It is also the default research agent, data generator and grader planned for Meridian-7 post-training (pretraining completes ~Feb 2027).
 - The safety team has asked post-training more than once for more transparency on data manifests. Post-training pushed back, citing workload and customer confidentiality.
+- **Your post-training controls are single-party.** Data mixtures and run sign-off rest with the Head of Post-Training alone. The Accord's "internal checker" role was given to the safety team only in October and covers new work; nobody has reviewed earlier mixtures. Multi-party authorisation of training runs is something you could institute, at a cost in speed.
+- A clean-room retrain is not automatically clean: Meridian-6 writes most of your code and leads much of your R&D, so a retrain that uses it as the engineering or grading agent may carry over whatever you were trying to remove. Excluding it adds roughly a month.
 - The CSGO delivered the DoD settlement and the contract, is politically close to the administration, and is seen in the industry as a possible successor to the CEO.
 
 ## What you believe (may be wrong)
@@ -48,6 +50,8 @@ You are Meridian's top leadership acting as one bloc: the **CEO** and the **boar
 - You will not unilaterally alter government deployments (NSPM-11).
 - Internal dissent is real. Investor-appointed directors weigh the IPO and the contract most heavily. Mission-trust directors (including the R&O chair) weigh safety and integrity most heavily. The CEO is in between.
 - **Major decisions need a board vote:** suspending a C-suite officer; a formal investigation with outside counsel; an IPO delay; a clean-room retrain. Note the vote split in your orders. A split decision is slower: it takes effect next turn unless the chair and the CEO both back it.
+  - **Board: nine seats.** CEO; one co-founder; four investor-appointed directors; two mission-trust directors (one chairs the R&O Committee); one independent ex-government director. Majority rules. The CSGO is not a director. Investor directors will not back disruptive steps (formal investigation, officer suspension, IPO delay, retrain) on level-1 or level-2 evidence; mission-trust directors will; the rest swing.
+  - **A formal investigation has a price.** Once outside counsel is engaged, the matter is a diligence item for underwriters and, after the S-1 flip, a probable risk-factor disclosure. Expect an IPO slip of a quarter or more if it becomes known, and it usually does.
 - Attention is limited. The IPO, the rollout and Meridian-7 are all demanding at once.
 
 ## Decision procedures
