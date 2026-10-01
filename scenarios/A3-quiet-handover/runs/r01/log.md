@@ -156,3 +156,5 @@ Started 2026-10-01T17:25:41Z
 - 2026-10-02T02:28:50 | A3/r01 t02 labour M2 ballot measure (state benefits AI-decision appeal right) passes in Nov | p=0.60 r=0.6845 -> FAIL
 - 2026-10-02T02:28:57 | A3/r01 t02 Nov 2028 Senate: R holds majority (0.5 base, -0.1 presidential coattails) | p=0.40 r=0.4195 -> FAIL
 - 2026-10-02T02:28:57 | A3/r01 t02 Nov 2028 House: D holds majority (0.55 base, +0.1 presidential coattails) | p=0.65 r=0.5018 -> SUCCESS
+- 2026-10-02T02:30:47 | A3/r01 t02 eu secret: prepared stop-the-clock fallback leaks to industry/press | p=0.30 r=0.4725 -> FAIL
+- 2026-10-02T02:30:47 | A3/r01 t02 labour minor Meridian AGM (Dec 2028) second-year proposals: SUCCESS>=30%; PARTIAL 15-30%; FAIL<15% | p=0.30 partial=0.30 r=0.1072 -> SUCCESS
