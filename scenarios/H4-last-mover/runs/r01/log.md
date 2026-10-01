@@ -65,3 +65,4 @@ Started 2026-10-01T17:29:14Z
 - 2026-10-02T02:05:58 | H4/r01 t02 pending: Keystone verification-design cell delivers draft to Director/NSC by 10 Aug | p=0.80 r=0.0324 -> SUCCESS
 - 2026-10-02T02:05:58 | H4/r01 t02 insider's early-Aug report captures revised Keystone-3 launch window (autumn/Oct) | p=0.40 r=0.5036 -> FAIL
 - 2026-10-02T02:05:58 | H4/r01 t02 MSS upgrades 'US op gone wrong' Japan-outage hypothesis to moderate (PALISADE story + Track-2 scope-exceedance text) | p=0.30 r=0.8010 -> FAIL
+- 2026-10-02T02:12:58 | H4/r01 t02 inject 20 consortium allied-lab partner (1 Aster/EU sovereign lab, 2 UK university spin-out lab, 3 Japanese national lab) | DRAW 2 of 3

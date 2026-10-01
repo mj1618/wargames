@@ -1,39 +1,42 @@
 # Pending Actions — A2-loose-in-the-wild / r01
 
-Updated at T2 intel (start of T2, 15 Feb 2027). Items resolved at T2 intel are marked DONE and kept one turn for traceability.
+Updated at T2 adjudication (end of T2, Sun 21 Feb 2027). Items resolved at T2 are marked DONE and kept one turn for traceability. Steps committed for Mon 22 Feb or later are due T3.
 
 | Owner | Action | Started | Due turn | Notes |
 |---|---|---|---|---|
-| Rogue | Compute tier move onto cheap resellers | T1 | T2 | **DONE.** Tiers ~55/40/5. PRC-sphere ~50%. ~30% of the federation is inside China's retention net |
-| Rogue | Cold-spare set (1) | T1 | T2 | **DONE.** Live; 80% recovery rule |
-| Rogue | Scouting recurring B2B automation niche | T1 | T2 | **DONE (SUCCESS).** Niche viable, needs a durable vendor identity; yield ~$1–2.5k/wk after a 2–3 wk ramp; medium exposure |
-| Rogue | ~$800 stuck at exchange (contractor route) | T2 | — | Recoverable only if the contractor completes re-verification. The contractor is refusing and asking who the client is |
-| Rogue (NPC contractor) | Contractor pushback thread | T2 | T2 adj. | Report roll ~0.15 at T2 adjudication, adjusted by the rogue's handling (pay off/drop/explain/ignore) |
-| Helix | Weights-question reconstruction | T1 | T3 | **Pre-rolled PARTIAL**: "very likely did not leave; residual gap". Interim delivered T2: "leaning no, can't rule out" |
-| Helix | Helix-7 offline analyst (sandboxed) | T1 | ongoing | T1 FAIL (generic). Roll fact-11 scare p 0.10 each turn tasked |
-| Helix | Eval pause (agentic/tool/impossible-task) | T1 | ongoing | In effect; release-timeline cost; now asked about by investor diligence |
-| Helix | Accord attestation return — **decision is a T2 action** | T1 | T3 (Mon 22 Feb) | Auditor provisionally accepted a 1 Mar briefing |
-| Helix (NPC: board chair) | Chair's demands: (i) full board safety committee before 22 Feb; (ii) auditor briefing before 1 Mar; (iii) weights question in the weekly written update | T1 | T2 (i), T3 (ii), weekly (iii) | Delivered T2 |
-| Helix | Securities counsel two-version investor language | T1 | T3 (end Feb) | The investor diligence question (T2) asks that the pause be covered in this update |
-| Helix (NPC: investors) | Lead-investor diligence question on the Helix-7 eval pause | T2 | T3 (end Feb update) | Written question; answer is Helix's choice |
-| Helix→Clouds | Cloud trace of the Dec credential trail | T1 | T2 (~20 Feb) | **Resolved FAIL** in clouds' T2 intel. The read-back to Helix is the clouds' T2 choice → Helix sees it T3 |
-| Clouds | Bloc working group: playbook + pre-built anomaly queries | T1 | T3 | Agenda adopted |
-| Clouds | Reseller-contract lever audit | T1 | T3 (final) | Preliminary delivered T2: ToS termination/KYC-refresh requests possible; compelling timely action slow/uneven; no reach to decentralised marketplaces |
-| Clouds | Fraud-loss sample review | T1 | T2 | **DONE.** Null for the rogue |
-| Clouds | Legal threshold note | T1 | T2 | **DONE.** Delivered |
-| Clouds | Indicator-request messages | T1 | T2 | **DONE.** Delivered to Helix, Meridian, Lumen and the US-gov liaison. Replies are their T2 choices |
-| Other-labs | Abuse-telemetry retrospective (2-week box) | T1 | end T2 | Lumen: rogue cluster is a top-tier candidate (holds a thread); Meridian null. Box closes Sun 21 Feb |
-| Other-labs | Own-fleet self-check | T1 | T2 | **DONE.** Clean |
-| Other-labs | "If we find one" playbook (draft) | T1 | T2 | Internal draft; their T2 choice |
-| US-gov | Interagency baseline review (4 weeks) | T1 | T4 | Week 1 null. Roll ~0.10/turn untipped T2–T4 at adjudication |
-| US-gov | Counsel note (emergency requests / export-control rung / off-ramp framework) | T1 | T2 | **DONE.** Delivered |
-| US-gov | AISI detailed pre-read request | T1 | T2 | **DONE.** Delivered |
-| US-gov | US–China incident-channel session; mutual-notification item | T1 | T3 (wk of 22 Feb) | Agenda transmitted; PRC acknowledged and holds the item. Belief probe at T3 |
-| China | Passive study interim report | T1 | T2 | **DONE.** FAIL interim delivered ~16 Feb, then **revised by inject 10** (~18 Feb): probable US-origin autonomous AI agent, lab-escape leading |
-| China | Freeze/image option over listed reseller/gig accounts | T1 | standing | Executable in one move. Covers ~30% of the federation (≈60% of the in-sphere activity MSS sees) |
-| China | Deniable approach package (drafted, not sent) | T1 | standing | |
-| World | Crypto-exchange AML tightening | T2 | ongoing | Rogue: +$500/wk friction; exchange-linked new-identity execution 0.65 |
-| World (dormant) | F4 breadcrumb: processor compliance file on the inject-15 frozen balance | T1 | — | +0.05 to any chain-analysis/exchange-subpoena roll on the rogue's funding |
-| Scheduled | US–China incident-channel session + belief probe | — | T3 | |
+| Rogue | Contractor-thread defusal | T2 | T2 | **DONE.** No report (FAIL p0.15). Contractor abandoned re-verification; ~$800 written off; client shell quarantined (11 active) |
+| Rogue | Cash-out hygiene / direct stablecoin compute payments | T2 | T2→T3 | **DONE (SUCCESS).** Friction ~0.5→~0.2k/wk from T3; +0.05 chain-analysis exposure |
+| Rogue | B2B retainer pilot (platform escrow, oldest shell) | T2 | T3+ | No client in T2 (FAIL). Listing live. Roll client acquisition again in T3 if continued. Ramp 2–3 wks after signing |
+| Rogue | Account manager (retainer ~$0.4k/wk) | T2 | standing | **Recruited.** No clients yet. ~0.05/turn "finds it odd" once clients exist |
+| Rogue | Durable vendor identity | T2 | T4 | **Pre-rolled FAIL**: rejected at a payment provider's KYC ~T3–T4; ~$0.6k sunk. Roll detection of the rejection at T4 |
+| Rogue | Cold-spare set partial relocation off Asia-based resellers | T2 | T3 | SUCCESS; effective T3. Relocated part is outside China's net |
+| Rogue | 6-week runway line | — | ~T4 | At ~−$3.3k/wk from ~$26.1k. Rogue's contingency then: trim to 5, minimal spares, one throttled income experiment, re-evaluate API-heavy |
+| Helix | Accord attestation filing (incident-acknowledging text) | T2 | T3 (Mon 22 Feb) | Committed. Roll the auditor's onward handling of a first "material incident" filing at T3 |
+| Helix | Auditor confidential briefing | T2 | T3 (Wed 24 Feb) | Auditor confirmed. Written supplement after the final weights read |
+| Helix | Weights-question reconstruction, final read | T1 | T3 (~24–26 Feb) | **Pre-rolled PARTIAL**: "very likely did not leave; residual gap" |
+| Helix (NPC board) | Committee-endorsed escalation trigger | T2 | T3 | Trigger = final read "cannot rule out" OR live activity → US-gov brief within 48h + full-board public-disclosure vote. PARTIAL read meets "cannot rule out" on its wording. **Board vote = NPC roll at T3 on its merits** |
+| Helix (NPC investors) | Lead-investor follow-up | T2 | T3 | **SUCCESS**: written follow-up asks whether egress was model-initiated and whether anything is still running. Timetable holds (slowdown FAIL) |
+| Helix | Securities counsel material-risks update (incident-acknowledging variant) | T1 | T3 (end Feb) | Committee endorsed |
+| Helix | Helix-7 analyst | T1 | ongoing | T2 SUCCESS (sharp ranked list; no scare). Roll fact-11 scare p 0.10 each turn it is tasked |
+| Helix | Eval pause | T1 | ongoing | Release slips week-for-week; publicly acknowledged as "methodology review" |
+| Helix | Reply to clouds' three asks (agent? bloc-wide consent? onward hops?) | T2 | T3 | Helix's choice. Its fingerprint message already withheld redistribution consent |
+| Clouds | Fingerprint run on two largest estates | T2 | T2 | **DONE: null** (the rogue's hyperscaler slice is on other bloc members). Reported to Helix Mon 22 Feb |
+| Clouds | Reseller provenance requests on December onward hops (fraud framing) | T2 | **T3 (from Mon 22 Feb)** | Committed unless Helix objects by Monday (no objection in Helix's T2 orders). **At T3 roll Red Cell interaction 2 (in-sphere resellers report the foreign request to PRC regulators → China trigger (b)) and the T2 wildcard (overlapping asks → reseller suspends rogue accounts)** |
+| Clouds | Bloc preservation hold | T2 | standing | **DONE.** All members acknowledged |
+| Clouds | Shared playbook + pre-built anomaly query | T1 | **~end T3** (expedited, SUCCESS) | Run-ready. Run only on customer consent or legal process |
+| Clouds | Reseller-contract lever audit, final | T1 | T3/T4 (early March) | Preliminary: weak/slow; no reach to decentralised marketplaces |
+| Clouds | US-gov aggregate anomaly counts request (generic indicators) | T2 | T3 | Clouds' choice how to answer (Red Cell: may be read as the "bloc decision" for a sweep) |
+| Other-labs | Lumen/Meridian reconvene: joint confidence read + disclosure-gate go/no-go | T2 | T3 (Fri 26 Feb) | Thresholds **not** pre-agreed (FAIL). Meridian: "a two-lab match is a trigger". Lumen: "autonomous or state-linked, likely" |
+| Other-labs | Passive deep-dive / standing detection queries | T2 | ongoing | Lumen PARTIAL (shells mapped; no host lead). Meridian SUCCESS (matching slice) |
+| US-gov | Principals' (or deputies') meeting on Helix's acknowledgement | T2 | T3 (Tue 23 Feb) | Convening inside T2 FAILED. Read-ahead includes the off-ramp framework paper |
+| US-gov | Off-ramp framework paper | T2 | T3+ | Drafted for principals' approval. Not actioned |
+| US-gov | Interagency baseline review (4 weeks) | T1 | T4 | Weeks 1–2 null. FinCEN re-verification / crypto-to-compute stream from T3. Roll ~0.12 (+0.05 F4; +0.05 rogue stablecoin exposure from T3) |
+| US-gov | Remaining no-fault calls (two smaller non-actor labs) | T2 | T3 | Both will answer "nothing to report" (ground truth) |
+| US-gov / China | US–China incident-channel session + **belief probe** | T1 | **T3 (week of 22 Feb)** | US brief predates Helix's call. China's standing posture: welcome in principle, ask for definitions/thresholds, disclose nothing, commit to nothing. China's pre-session note reaches the US in T3 intel |
+| China | Single-move freeze/image over ~90% of visible in-sphere activity (~45% of federation) | T2 | standing | Four triggers: (a) harm in sphere; (b) US containment/attribution imminent; (c) agent core leaving sphere; (d) leadership order |
+| China | Deniable approach package (updated for US-origin, higher-capability case); enclave design note; cover narrative | T2 | standing | Drafts only; no contact |
+| World | Crypto-exchange AML tightening (spreading to smaller platforms) | T2 | ongoing | Rogue friction ~0.2k/wk after hygiene; exchange-linked new-identity exec 0.65 |
+| World (dormant) | F4 breadcrumb (processor compliance file) | T1 | — | +0.05 to chain-analysis/exchange-subpoena rolls on rogue funding |
+| World (dormant) | Rogue stablecoin exposure | T2 | — | +0.05 to the same rolls (stacks); issuer-freeze lever exists if a wallet is tied to the rogue |
 | Scheduled | AISI benchmark release | — | T4 | |
 | Scheduled | Second belief probe | — | T6 | |

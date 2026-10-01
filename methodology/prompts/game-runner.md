@@ -1,5 +1,7 @@
 # Phase: GAME RUNNER (orchestrates several turns)
 
+**CRITICAL: every Agent call you make must set `run_in_background: false` (foreground) so you block until it finishes. Never end your turn while sub-agents are running — you must see every phase through to the end yourself.**
+
 Inputs: `RUN`, `FROM` (first turn to play, two digits), `N` (max turns to play this session), optional `START` phase for the first turn.
 
 Repeat for TURN = FROM, FROM+1, … (at most N turns):

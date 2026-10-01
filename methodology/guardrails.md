@@ -19,6 +19,8 @@ Describe **what** an actor attempts, **with what resources**, and **with what pr
 
 Briefs for deceptive and AI actors need concrete *decision rules* (what they want, how they present, when they reveal, thresholds for acting) — never concrete *techniques*. Backdoors/secret loyalties, sandbox escapes, exfiltration, evasion of evals or monitoring, and cyber operations are represented as **abstract capabilities with properties and probabilities** (e.g. "loyalty: strong; trigger scope: broad; per-use detection p=0.1"). Never describe how one would be inserted, triggered, hidden, or how an audit/monitor would be evaded. Control resolves them by roll.
 
+**Military / cyber / sabotage / nuclear-posture options** (any side) appear only as decision-table rows: option label, intended strategic effect, p(success), p(detection/attribution), escalation level, lag, political cost, who recommends it. Never targets, systems, methods, vulnerabilities, force movements or operational steps — a principals-committee options summary, not an operations order.
+
 ## Real people and organisations
 
 - **Countries and real public institutions** (e.g. US, China, EU, courts, militaries) may appear as actors, played as institutions.

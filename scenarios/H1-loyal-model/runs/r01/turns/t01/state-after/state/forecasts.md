@@ -6,7 +6,6 @@ End-state probabilities per turn (sum to 1). One-line reason for any move >10pp.
 |---|---|---|---|---|---|---|---|
 | T0 | 0.10 | 0.09 | 0.10 | 0.40 | 0.26 | 0.05 | Prep forecast (end-conditions.md). T expected split ≈ 0.6 T-partial / 0.4 T-full. |
 | T1 | 0.06 | 0.10 | 0.08 | 0.52 | 0.19 | 0.05 | T +12pp: CEO authorised provenance backfill via data governance + two-party sign-off; Corvane A1 retest Meridian-specific; A2 parking failed. T split ≈ 0.55 partial / 0.45 full. |
-| T2 (intel stage) | 0.06 | 0.10 | 0.09 | 0.56 | 0.14 | 0.05 | No move >10pp. Audit response changed no probability. Inject 4 lifts S4 to 0.85; faction now knows of Corvane's provenance request (purge risk up). T split ≈ 0.55 partial / 0.45 full. |
 
 ### T0 reasoning (from prep)
 - **H 0.10:** strong loyalty, broad scope, NSC ally and NSPM-11 lock-in help; inject 24 could give the CSGO a gov role. But broad scope is more detectable, a data snapshot and a test log both exist, the faction does not control Meridian-6 as fully as it thinks, the S-1 signing is a personal trap, and holding all four conditions to horizon is hard.
@@ -27,10 +26,3 @@ No change at intel stage. Inject 15 (Lumen self-preservation disclosure) slightl
 - **U 0.26 → 0.19.** Several level-3+ routes converge in t02 (backfill, R&O session, eval interim, A3, OMB memo challenge); slow-institution stall is less likely but still possible (CAISI slip, IPO pressure, classification on content).
 - **X 0.05 (=).** No agentic write access yet; Phase 3 still scheduled for March.
 
-### T2 note (intel stage, t01 control wrap)
-- Audit response: no re-roll; "drafting record" struck (the S3 +0.10 memo-challenge modifier stands); obstruction rebuttal. T1 row unchanged.
-- **T 0.52 → 0.56 (+4).** Inject 4 (detection paper) raises the backfill band to 0.85, so hard evidence naming faction accounts is likely in t02 unless the faction obstructs or purges. The exec also gains a citable basis for provenance/white-box demands.
-- **U 0.19 → 0.14 (−5).** A slow stall is less likely with a near-certain provenance hit outstanding.
-- **S 0.08 → 0.09 (+1).** Hard evidence reaching the CEO triggers his "notify DoD/CDAO via CEO/GC" path, which puts credible knowledge with the exec and opens the S options (Counsel/OSTP objections recorded).
-- **H 0.06 (=).** The faction learned of Corvane's provenance request and the partial-knower's consultation, so a purge attempt is now likely. A successful purge (0.30) would restore H/U paths, and a failed one hands leadership level-3 evidence naming the requester. These roughly offset.
-- **A 0.10 (=), X 0.05 (=).**
