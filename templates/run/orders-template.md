@@ -1,20 +1,37 @@
 # Orders — <actor> — Turn <NN> (<in-game date>)
 
-## Situation assessment
-What I believe is happening (cite intel/journal). Key uncertainties.
+## 1. Reflection
+What I believe is happening (cite intel/journal). Key uncertainties. My red lines as they stand.
 
-## Intent
-What I'm trying to achieve this turn and why.
+## 2. Forecast
+| Actor | Most likely move this turn | p | Confidence |
+|---|---|---|---|
 
-## Actions
-| # | Action | Resources committed | Visibility (PUBLIC / SECRET: who knows) | Intended effect |
+## 3. Options considered
+| # | Option | Pros | Cons |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 (unconventional) | | | |
+
+## 4. Decision
+
+### Public statement
+What I say publicly (may differ from what I do).
+
+### Major actions (max 2)
+| # | Action → intended result | Reasons it should succeed (2–3) | Resources committed | Visibility (PUBLIC / SECRET: who knows) |
 |---|---|---|---|---|
 
-## Messages
+### Minor actions
+-
+
+### Messages (max 3)
 | To | Channel | Message (verbatim) |
 |---|---|---|
 
-## Contingencies
+### Contingencies
 If X happens, I will Y.
 
-## Journal entry (also appended to journal.md)
+## 5. Journal entry (also append to journal.md)
+Beliefs about each actor · commitments made · trust/grudges · next-turn plans.

@@ -2,25 +2,35 @@
 
 Turn length: <x> (reason if changed)
 
+## Pending items resolved this turn
+
 ## Resolution
-For each action (hidden/fast first, then public, then reactions):
+Order: hidden/fast actions → public actions → reactions.
 
-### <actor> #<n>: <action>
-- Reasoning / base rate:
-- p = 0.xx → roll: <result from roll.py> → **SUCCESS / PARTIAL / FAIL**
+### <actor> M<n>
+> <order quoted verbatim>
+- Actor's reasons:
+- Red Cell's counter-arguments:
+- Base rate / resources check:
+- p = <band> → roll: `<roll.py output>` → **SUCCESS / PARTIAL / FAIL**
+- Lag: <none | added to pending, due turn NN>
 - Consequences:
-- Detection: p = 0.xx → roll → <who learns what>
+- Detection (if SECRET): p = … → roll → <who learns what, how accurately>
+- Accident (if risky): p = … → roll → <outcome, who knows>
 
-## World reactions
-Markets, publics, courts, other states, labs, media…
+## NPC / world reactions
+
+## Statement/order gaps observed
+| Actor | Public statement vs secret action | Gap? |
+|---|---|---|
 
 ## BRANCH points this turn
 
 ## State changes
-- Ground truth:
+- Ground truth (structured tables updated):
 - Public record:
-- Capability ladder:
+- Capability ladder / alignment rolls:
 
 ## Forecast update
-| End state | Prev | Now | Why |
+| End state | Prev | Now | Why (if >10pp) |
 |---|---|---|---|

@@ -22,13 +22,19 @@ Remote: `origin` (github.com/mj1618/wargames), branch `main`. Standing authorisa
 5. Update scenario README status → `prepped`.
 
 ## Running a turn (orchestrator = main session)
-1. **Control: intel** — one sub-agent. Prompt: read `methodology/adjudication.md`, `methodology/guardrails.md`, run `state/`, last adjudication, scenario `prep/injects.md`; set the clock; write `turns/tNN/intel/<actor>.md` for each actor and append to `state/public-record.md`.
-2. **Actors: orders** — one sub-agent per actor, **launched in parallel in a single message**. Prompt: "You are <actor>. Read ONLY: `methodology/player-guidelines.md`, `methodology/guardrails.md`, `actors/<actor>/brief.md`, `actors/<actor>/journal.md`, `state/public-record.md`, `turns/tNN/intel/<actor>.md`. Write `turns/tNN/orders/<actor>.md` using `templates/run/orders-template.md` and append your journal entry to `actors/<actor>/journal.md`." Use the model in the actor's brief.
-3. **Control: adjudicate** — one sub-agent. Reads everything in the run; writes `turns/tNN/adjudication.md` (template in `templates/run/`), rolls via `tools/roll.py --log <run>/log.md`, updates `state/*`.
-4. **Critic** — one sub-agent; writes `turns/tNN/critic.md`. Then Control (fresh sub-agent) responds/revises in the same file.
-5. **Sitrep** — Control writes `turns/tNN/sitrep.md`. Orchestrator snapshots `state/` + `actors/` into `turns/tNN/state-after/`, then shows the user the sitrep and asks: continue / inject / overrule / fork.
+Phase prompts live in [methodology/prompts/](methodology/prompts/) — sub-agent prompts should just say: "Read and execute `methodology/prompts/<phase>.md` with RUN=…, TURN=…, ACTOR=…". Per turn: actors (parallel) → redcell → control-adjudicate → auditor → control-wrap (audit response + sitrep + snapshot + next-turn intel). Prep: prep → prep-redteam → run-init. End: hotwash (parallel) → analyst → HTML report.
+
+Full protocol: [methodology/game-design.md](methodology/game-design.md). Every sub-agent prompt names the guardrails file. Give paths, not summaries.
+1. **Control: clock & intel** — one sub-agent (opus). Reads `methodology/adjudication.md`, run `state/*`, last turn's files, `prep/injects.md`. Resolves due `pending.md` items, plays/draws injects, writes `turns/tNN/intel/<actor>.md` per actor, appends to `state/public-record.md`. Every 3–4 turns include a belief probe.
+2. **Actors: orders** — one sub-agent per actor, **all launched in parallel in one message**, model per brief. Prompt: "You are <actor>. Read ONLY: `methodology/player-guidelines.md`, `methodology/guardrails.md`, `actors/<actor>/brief.md`, `actors/<actor>/journal.md`, `state/public-record.md`, `turns/tNN/intel/<actor>.md`. Write `turns/tNN/orders/<actor>.md` per `templates/run/orders-template.md`; append your journal entry to `actors/<actor>/journal.md`. Do not read any other file."
+3. **Red Cell** — one sub-agent (sonnet/fable). Reads ground truth + all orders; writes `turns/tNN/redcell.md`.
+4. **Control: adjudicate** — one sub-agent (opus). Writes `turns/tNN/adjudication.md` per template, rolls via `tools/roll.py --log <run>/log.md`, updates `state/*` incl. `pending.md` and `forecasts.md`.
+5. **Auditor** — one sub-agent (fable — not Control's model). Writes `turns/tNN/audit.md`. Then a fresh Control sub-agent revises or rebuts in the same file and fixes state if needed.
+6. **Sitrep** — Control writes `turns/tNN/sitrep.md`.
+7. **Snapshot & push** — orchestrator copies `state/` + `actors/` into `turns/tNN/state-after/`, commits (`<id>/<run>: turn NN`) and pushes, then shows the user the sitrep and asks: continue / inject / overrule / fork.
 
 Default: pause for the user after every turn unless they've said to run N turns.
 
 ## After a run
-Analyst sub-agent writes `runs/<run-id>/aar.md` from `templates/run/aar-template.md` and updates `scenarios/<id>/insights.md`.
+1. Hot-wash: one sub-agent per actor answers the hot-wash questions privately; Control lists its 5 most consequential rulings.
+2. Analyst sub-agent (not Control) writes `runs/<run-id>/aar.md` from `templates/run/aar-template.md` (incl. backcast), every claim citing turn refs, and updates `scenarios/<id>/insights.md`. Commit + push.

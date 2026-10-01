@@ -13,6 +13,7 @@ mkdir -p "$rdir/state" "$rdir/actors" "$rdir/turns"
 cp "$sdir/prep/ground-truth.md" "$rdir/state/ground-truth.md"
 printf '# Public Record — %s / %s\n\n' "$scenario" "$run" > "$rdir/state/public-record.md"
 printf '# Forecasts — %s / %s\n\n' "$scenario" "$run" > "$rdir/state/forecasts.md"
+printf '# Pending Actions — %s / %s\n\n| Owner | Action | Started | Due turn | Notes |\n|---|---|---|---|---|\n' "$scenario" "$run" > "$rdir/state/pending.md"
 printf '# Run Log — %s / %s\n\nStarted %s\n\n## Rolls\n' "$scenario" "$run" "$(date -u +%FT%TZ)" > "$rdir/log.md"
 for f in "$sdir"/prep/actors/*.md; do
   name="$(basename "$f" .md)"
