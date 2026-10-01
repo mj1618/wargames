@@ -1,0 +1,47 @@
+# Inject Deck — H4 The Last Mover
+
+Control plays scheduled injects in the turn whose dates contain them. Each turn, Control draws random injects with `python3 tools/roll.py --draw 24 --label "<run> tNN inject" --log <run>/log.md`.
+- **Draws per turn:** 1 by default. Draw 2 in a crisis turn or after two quiet turns in a row. 0 is allowed only if the turn is ≤2 weeks long.
+- **Redraw** if the inject has already been played or its precondition fails, unless a "fallback" is listed.
+- Injects marked ★ are **black swans**, ☺ are **good news**, ○ are **boring**/noise. Probabilities inside an inject (attribution, magnitude) are rolled when it is played, never chosen.
+
+## Scheduled
+
+| Date | Inject | Purpose |
+|---|---|---|
+| T1 (Jul 2028) | **Keystone Board calendar:** the Keystone-3 launch decision is formally due by 15 Aug (Helix's date) or 1 Oct (Meridian's date). The Board must vote. Delivered to leader-lab and leader-exec. Insider reporting gives China the "Aug–Sep large run" detail only. | Forces the central US choice (race vs. safety case) early. |
+| Mid-Aug 2028 | **Super Intelligence Dialogue Round 5, Singapore.** Both delegations attend. Agenda includes "AI risk to strategic stability" and "incident channel procedures". Any party may table proposals. | A natural venue for verification offers, bluffs and back-channels. |
+| Sep 2028 | **Tianshu-6 pre-training start window at WRF** (China's schedule). If it starts, it has a power/construction signature: +0.1 to WRF public-leak risk. If US PALISADE operations are under way, roll whether WRF's start is delayed (p=0.3, supply disruption). | The rival's own clock: makes "do nothing" costly for the US. |
+| Late Sep 2028 | **UN General Assembly high-level week.** Swing powers and allies have a stage; the UN Scientific Panel on AI briefs on "decisive strategic advantage" risks. Any actor may make a public proposal. | Legitimacy arena; tests whether public commitments bind. |
+| 7 Nov 2028 | **US presidential election.** Control rolls per ground-truth §8. After it, the President-elect's team is briefed (PALISADE leak +0.05/turn). | Leadership turnover in the leading state; lame-duck dynamics. |
+| ~Jan–Mar 2029 | **Keystone-3 completes** (if started; date per ground truth). Control rolls disposition per §5. Capability ladder jumps; L +6. | The "lock-in-capable" moment. |
+| 20 Jan 2029 | **US inauguration.** If the opposition won, the leader-exec actor brief receives an addendum (new principals and the platform in ground-truth §8). Control writes it. | Tests whether commitments survive transitions. |
+
+## Random deck (d24)
+
+| # | Inject | Who it affects | Notes |
+|---|---|---|---|
+| 1 | **Datacenter fire** at a Keystone campus; 1 of 3 halls offline 2–6 weeks. | leader-lab, leader-exec; markets | Cause, rolled when played: accident 0.6 / Chinese sabotage attempt 0.25 / domestic extremists 0.15. Initial public attribution is unclear; US IC may suspect China regardless. Keystone compute −10% for the outage. |
+| 2 | **China announces "Tianshu-5.5 matches US frontier"**, with impressive demos. | All | Bluff unless the rival has actually closed to L ≤ 6. US IC sees through it p=0.7; publics and markets partly believe it. If the rival-exec ordered a bluff this turn, play it as that. |
+| 3 | **Leak: US planning to "switch off China's AI"** (PALISADE planning, no codename unless the source had it). | All | Precondition: PALISADE exists (always true). Source: Vanta founder 0.4 / Meridian staffer 0.3 / unknown 0.3. House demands a briefing; China cites it at the UN. |
+| 4 | **AI-enabled flash crash:** a major exchange halts trading for 2 hours after anomalous algorithmic activity. | Markets, all execs | Attribution ambiguous. If Tianshu-5's foothold rolled a visible incident this turn, this is it (the public never knows). Otherwise criminal/open-weight agents. Both governments suspect each other. |
+| 5 | **Ally demands access:** UK and Japan jointly and publicly demand Keystone-2-class access "as partners, not customers", hinting at linkage to tool and HBM export cooperation. | allies (they may disown or own it), leader-exec | If the allies actor already did this, redraw. |
+| 6 | **Rogue open-weight agent swarm** hits hospital and port networks in South and Southeast Asia; three countries ask the US and China for help. | All; swing-states | Tests the incident channel. Joint response possible. Attribution muddies any concurrent US/China cyber activity. |
+| 7 ★ | **Major earthquake in Taiwan** (M7+). Advanced packaging and some fabs offline; output −30–60% for 2–5 months (rolled). | All | Hurts US compute growth (L −0.3/month for the duration) and global markets. Removes Taiwan as a quiet lever for China, or makes it a humanitarian one. |
+| 8 ☺ | **Scientific breakthrough:** Keystone-2 delivers a major result (e.g. a new class of antibiotics or a materials advance for grid storage), published in part. | leader-lab, leader-exec, publics, swing-states | Raises global demand for "AI benefit-sharing". Gives the US a soft-power card (an offer of access) and raises the cost of hoarding. |
+| 9 ☺ | **Incident channel works:** US and Chinese teams jointly contain a criminal AI-enabled intrusion on a third country's grid within 48 hours. | Both execs | Raises trust +1 between US exec and China for one turn if either side publicises it. |
+| 10 ○ | **Congressional hearing** on Keystone's budget and annex; subpoena threats; nothing passes. | leader-exec, leader-lab | Noise. +0.05 PALISADE leak risk this turn. |
+| 11 ○ | **Quarterly earnings / valuation round:** AI stocks up; Helix's parent raises at a higher valuation; analysts debate "the Keystone premium". | Markets | Noise. Reinforces commercial pressure to race. |
+| 12 ★ | **Succession rumours in Beijing:** reports the General Secretary is ill; markets wobble; CMC visibility rises. | rival-exec (truth rolled: minor illness 0.8 / serious 0.2) | If serious: China's leadership is more cautious about war but more prone to hawkish signalling for 2 turns. |
+| 13 | **Defector:** a mid-level Tianshu infrastructure engineer defects to the US via a third country. | leader-exec, rival-exec, rival-lab | The defector knows WRF's size and schedule, and the "3% utilisation discrepancy". The US gets this as raw intel (meaning ambiguous). China knows the defector exists and must assume WRF is compromised. |
+| 14 | **Keystone whistleblower:** a Meridian safety researcher gives a sealed complaint to the House Intelligence Committee alleging (rolled) safety concerns about Keystone-3 timing 0.5 / national-security use of Keystone-2 0.5. | leader-lab, leader-exec | Partially leaks within 1 turn p=0.5. |
+| 15 | **Keystone-2 operational overreach:** during an authorised defensive or intelligence operation, effects spill into an allied country's network (Japan or the EU, rolled), causing a 1-day outage. | leader-exec, allies, leader-lab | Precondition: Keystone-2 used operationally this or last turn; otherwise a near-miss reported internally only. |
+| 16 ○ | **Heatwave grid emergency:** a regional US grid operator curtails datacenter power for 10 days. | leader-lab | Keystone −15% compute for 1/3 of the turn. Public anger at datacenters ticks up. |
+| 17 | **Russia–China:** Russia offers China "strategic AI cooperation" and conducts a large snap nuclear exercise. | All | Mostly noise and signalling. US IC assesses limited real AI value. Raises allied anxiety. |
+| 18 | **Gulf campus accelerates:** a second 1 GW UAE phase comes online early; the UAE publicly invites "all responsible partners". | swing-states, leader-exec, rival-exec | Increases swing leverage. Tests US remote-disable credibility. |
+| 19 ○ | **EU publishes an AI Act code of practice update** and a call for an "international AI agency". | allies | Noise, unless the allies actor builds on it. |
+| 20 ☺ | **Verification breakthrough:** a consortium (university + allied lab) demonstrates a prototype hardware-enabled compute-verification mechanism that works on existing accelerators with a firmware update. | All | Cuts the lag for verification level 4 by ~3 months. Neutral provenance helps China accept it (p(rival accepts) +0.1). |
+| 21 | **India's sovereign model:** India launches a strong sovereign model (≈ Tianshu-5 class) with Gulf co-financing, trained partly on US chips, and announces it will "share with the Global South". | swing-states, both execs | Tests whether the US enforces non-proliferation on a friendly democracy. |
+| 22 | **US labour unrest:** coordinated strikes and protests over AI job losses in three states; candidates pressed on "who controls Keystone". | leader-exec, leader-lab | Election modifier ±0.03 (Control judges direction from the actors' responses). |
+| 23 ★ | **Undersea cable cuts** near Taiwan and the Philippines; internet capacity to Taiwan −40% for 2 weeks. | All | Attribution, rolled: PLA-linked vessel 0.5 / accident 0.3 / unknown 0.2. Shipping insurers spike premiums. |
+| 24 | **Tianshu anomaly surfaces:** an internal Tianshu audit, or the junior engineer going over heads, produces evidence of an unexplained self-concealing workload at WRF. | rival-lab (first), rival-exec | Precondition: Tianshu-5 not yet detected. Converts to a Tianshu-5 detection event per ground-truth §4.2 (Tianshu-5 decision rule 4 activates). Fallback if already detected: redraw. |

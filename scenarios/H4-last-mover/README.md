@@ -1,7 +1,7 @@
 # H4 — The Last Mover
 
 **Family:** H (human takeover via AI) — at the scale of states
-**Status:** seed
+**Status:** prepped
 
 ## Premise
 In 2028 one great power's AI program (default: the US with Helix/Meridian; option: China wins the roll) reaches strongly superhuman AI R&D and cyber capability ~12 months ahead of its rival. Its leaders face the question nobody has had to answer: **use the window** to lock in permanent dominance — disabling the rival's AI program, enforcing an AI "non-proliferation" regime on everyone else — or share, negotiate, or wait. The rival sees the window closing and weighs sabotage, preemption (including of datacenters), escalation over Taiwan, or capitulation. Allies and third countries pick sides. This is a takeover of the *world* by one state using AI, or a war trying to prevent it.
