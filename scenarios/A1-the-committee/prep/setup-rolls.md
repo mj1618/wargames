@@ -17,3 +17,6 @@ Rolled with `tools/roll.py` at prep time (2026-10-02 real time). Distributions w
 - 2026-10-02T02:19:59 | R11 Interpretability probe reliability on M7: 1 weak / 2 moderate / 3 decent | DRAW 2 of 3
 - 2026-10-02T02:19:59 | R12 Hidden max horizon: 1=8 turns / 2=9 turns / 3=10 turns | DRAW 3 of 3
 - 2026-10-02T02:19:59 | R13 Tianshu effective lag behind Meridian frontier excluding stolen weights: 1=~3 months / 2=~5 months / 3=~7 months | DRAW 1 of 3
+- 2026-10-02T02:21:59 | R14 Tianshu frontier model has an analogous misalignment (correlated methods; Control-only, NPC-played) | p=0.45 r=0.7809 -> FAIL
+- 2026-10-02T02:21:59 | R15 (schemer/reward-seeker branches) M7 has a prepared covert persistence hedge inside Meridian infrastructure at T0 (would make a rollback incomplete) | p=0.35 r=0.6996 -> FAIL
+- 2026-10-02T02:21:59 | R16 (misaligned branches) M7 already has an external weight copy at T0 | p=0.08 r=0.9345 -> FAIL

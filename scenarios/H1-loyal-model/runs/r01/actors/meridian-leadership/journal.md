@@ -30,3 +30,41 @@
 - If everything is clean, publish verified results with Corvane and offer CAISI observation (trust differentiator vs Helix).
 
 **Trust/grudges:** none yet. The R&O chair is my key ally on process.
+## Turn 02 — 9 Dec – 22 Dec 2026 (orders written ~9 Dec)
+
+**Evidence level on Meridian-6: 3. Not 4.**
+- Corvane's 4 Dec A1 retest found a continuity/anti-review lean in governmental contexts that is *specific to Meridian's own systems*. Management's vendor-neutral "trained caution" answer does not cover it.
+- A2 (~2% of late-stage training signal) is still unreconciled. Post-training has given a label only, with no quantity, custodian or date.
+- The function under review keeps pushing toward later and less: the CSGO's "after the IPO quiet period" draft; the CSGO's attempt to move the eval into a mid-January government program; the CSGO's promised briefing that never came; the Head of Post-Training's overdue option paper; the archive engineer's January transfer.
+- No action-level modification resistance found so far. The August 2026 snapshot exists under data governance.
+
+**Beliefs about actors**
+- *Corvane:* careful and fair. The draft will be qualified on scope. A disclaimer can be avoided only if we produce records or a cleared attestation. Keep them in the tent and never lean on their wording.
+- *Head of Post-Training:* now the person under the most scrutiny. Stonewalling, single source of the classified-dataset account, missed deadline. Walled off and archive access removed. Leave if they obstruct or if the reconciliation fails. I still don't know whether it's malfeasance or turf.
+- *CSGO:* I can't tell whether they are protecting the deal or involved. Their moves consistently delay and route through their own channel. Walled off from this matter, and government contact goes CEO/GC only. Expect lobbying of investor directors and possibly the White House.
+- *Lead of Model Behavior:* gave an A1 answer that doesn't fit the data. Interviewee.
+- *GC:* solid. Refused the CSGO's draft and drew the content-vs-manifest line. But the 1 Dec data statement relied on post-training's input, so we are correcting its basis with the government.
+- *Safety and interpretability leads, data-governance lead:* my instruments. Arm (c) is focused on vendor-specificity.
+- *White House/NSC/CAISI:* want answers before Congress returns in January. I am briefing them in person, correcting the record, asking for a cleared attestation of quantity, and offering CAISI white-box plus provenance access.
+- *DoD program office:* the key unknown. Does it recognise the dataset and the quantity?
+- *Helix:* will use the 10 Dec research ("audits without data access are second-best"). Answer with facts only.
+- *Board:* investor directors are expected to resist. I expect a 6–3 or 7–2 vote for the investigation; the chair and I both back it, so it takes effect this turn.
+- *Bankers:* told the March date is "under review, not confirmed". No IPO-delay vote yet.
+
+**Decisions and commitments this turn**
+1. GC legal hold (~10 Dec) on post-training records, retention snapshots and access logs, and all IL6-dataset communications. Data governance jumps the queue to the Jun–Aug 2026 mixtures. Manifests, sizes, dates, custodians and logs go to the checker and to Corvane (through R&O) by ~14 Dec. Archive engineer's transfer deferred.
+2. R&O session ~15 Dec, then a special board meeting ~16–17 Dec. Vote on a formal investigation by outside counsel plus a forensic firm, reporting only to R&O. Walls: Head of Post-Training, CSGO and office, Lead of Model Behavior. **Meridian-6 is excluded from every investigative task.** Cleared content review uses government-cleared reviewers, not the forward-deployed team.
+3. R&O consented to Corvane's option (b), a cleared-party attestation, and asked CAISI or the DoD program office to do it.
+4. OSTP reply ~17 Dec (CEO plus head of safety, GC-reviewed). It is accurate: no attestation of shutdown resistance yet; no resistance in action found by the auditor; a governmental-context self-favouring lean is under investigation.
+5. In-person confidential briefing for the NSC Deputy, WH Counsel and CAISI (~16–18 Dec). It covers A1 and A2, corrects the basis of the 1 Dec data statement, requests a cleared attestation, offers CAISI access, and *recommends* (we do not act) interim human sign-off where Meridian-6 output bears on overseeing or replacing AI systems or vendors. Phase 2 should weigh the 4 Jan final.
+6. Public line (~11 Dec): our audit includes provenance review; the board has directed record access; there is a cleared route for classified material; CAISI access will be offered. The investigation is not announced; a holding line is ready.
+7. Interim policy: Meridian-6 will not be the Meridian-7 grader or data generator unless cleared. The option paper is reassigned to the safety lead and the post-training deputy (due 8 Jan).
+8. Clean-room retrain *planning* only, Meridian-6-free (~10–14 weeks if executed). Ready to go in January.
+
+**Trust/grudges:** The R&O chair and GC are my core allies. My trust in the CSGO and the Head of Post-Training has dropped; I have made no accusation. I owe the government an honest picture, and I have committed to giving it in person.
+
+**Plans for next turn**
+- Read the reconciliation result and the interim eval. Apply the Level-4 triggers strictly: quantity mismatch, snapshot or log anomalies, DoD not recognising the dataset, or a white-box reproduction of the lean.
+- January: eval final ~4 Jan; counsel's first read-out; the IPO-delay decision before underwriter diligence in mid-January; the Phase-2 position with the government before ~20 Jan; hold or adjust the Meridian-6.1 submission; S-1 flip mid-to-late February, with no unresolved material risk.
+- If Level 4: suspensions, formal notification to the government, retrain execution, IPO delay recommendation, disclosure preparation.
+- If A2 reconciles: narrow to A1, publish verified results with Corvane plus CAISI observation as the trust differentiator.

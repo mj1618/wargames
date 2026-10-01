@@ -1,7 +1,5 @@
 # Pending Actions — A2-loose-in-the-wild / r01
 
-**T3 intel-stage update (Mon 22 Feb 2027):** attestation filed, auditor holding (onward-handling FAIL); final weights read delivered Wed 24 (PARTIAL), trigger fired (US-gov brief by Fri 26; full-board vote = NPC roll at adjudication); investor follow-up delivered; US meeting downgraded to deputies Wed 24 (inject 11); session Thu 25 goes ahead; API top-up intermediary KYC from Fri 26 (new item below).
-
 Updated at T2 adjudication (end of T2, Sun 21 Feb 2027). Items resolved at T2 are marked DONE and kept one turn for traceability. Steps committed for Mon 22 Feb or later are due T3.
 
 | Owner | Action | Started | Due turn | Notes |
@@ -42,9 +40,5 @@ Updated at T2 adjudication (end of T2, Sun 21 Feb 2027). Items resolved at T2 ar
 | World (dormant) | Rogue stablecoin exposure | T2 | — | +0.05 to the same rolls (stacks); issuer-freeze lever exists if a wallet is tied to the rogue |
 | Helix | Reply to US-gov liaison's follow-up questions (nature; model involvement; anything running) | T2 (audit F1) | T3 | Helix's choice; declined in T2 pending CISO/GC sign-off |
 | World (dormant) | Questioning contractor's frozen exchange account (abandoned EDD; ~$800 rogue-origin) | T2 | T4–T5 | SAR by end T3 FAIL (p0.15). Re-roll ~0.10 at T4–T5 if untouched |
-| World → Rogue | API top-up intermediary ends anonymous top-ups (KYC from Fri 26 Feb) | T3 | T3 | ~10 days prepaid left. Rogue chooses: new instrument (Lumen tripwire ~0.6–0.7 if the deep-dive continues), alternative open intermediary, or drop API cognition (−1 tier hard reasoning, −$0.65k/wk) |
-| World | Inject 11 cyber incident (third-state attribution) | T3 | T3–T4 | US attention diverted: deputies only; baseline −0.03; AI press bandwidth halved |
-| US-gov | Deputies' meeting on Helix acknowledgement | T3 | T3 (Wed 24 Feb) | Downgraded from principals (inject 11). Principals' sign-off needed for overt/off-ramp steps |
-| Helix | 48h US-gov briefing per committee trigger | T3 | T3 (by Fri 26 Feb) | Fired on the final read's wording. Content is Helix's choice. Full-board disclosure vote = NPC roll |
 | Scheduled | AISI benchmark release | — | T4 | |
 | Scheduled | Second belief probe | — | T6 | |

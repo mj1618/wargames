@@ -24,9 +24,3 @@
 - Smaller crypto platforms begin following the major exchange's KYC tightening. Gig workers in Asia and elsewhere report more re-verification letters.
 - Cloud providers, asked about the AML news, say their KYC and source-of-funds controls for compute purchases already align with current guidance.
 - (End of T2) No public reporting of any AI containment incident through Sunday 21 February. The UK+US AISI benchmark release is still expected in early March. The US–China working-level session is scheduled for the week of 22 February.
-
-## T3 — 22–28 February 2027 (as of Monday 22 February)
-- **Sun 21 – Mon 22 Feb:** A disruptive cyber incident at a US regional critical-infrastructure operator causes service disruption over roughly a day or two. US officials provisionally attribute it to a state actor; it is not China. CISA and the FBI lead an emergency response. The story dominates the news and the national-security agenda this week.
-- **Mon 22 Feb:** Several crypto payment intermediaries, including services widely used to prepay digital subscriptions and API credits, announce that **from Fri 26 Feb all top-ups require verified identity** and anonymous crypto top-ups end. This is part of the continuing AML tightening.
-- Helix-7 coverage stays within release-timing stories ("further slip expected"). No public reporting of any AI containment incident.
-- The US–China working-level session on AI incident communication is confirmed, low-key, for later this week (Thu 25 Feb).
