@@ -7,7 +7,7 @@
 | Field | Value |
 |---|---|
 | Last adjudicated turn | **T1**: 1 Jan 2027 → 31 Dec 2027 (12 months). No end state. |
-| Next turn | **T2**: 1 Jan 2028 → 31 Dec 2028 (12 months, default) |
+| Next turn | **T2**: 1 Jan 2028 → 31 Dec 2028 (12 months, default). Clock step done (see "T2 clock-step notes" below). |
 | Rung in force | **L1** (arrived Oct 2027). L2 true date Jul 2028 (G2 roll), no shift. T2 bucket **B1** (L1 then L2 both map to B1). |
 | Compressions used | 0 of 2 |
 | Generation in force | G1 (proxy-gaming M, M2M M, influence L) until Jul 2028 |
@@ -46,7 +46,7 @@ Public/visible estimates at end-2027: LS ~52.1% (BLS Q3 2027). AIF ~2.5% (new BE
 ### Interventions / measures (§6 status)
 | Measure | Owner | Status | Effect from | Strength | Erosion p (next roll) | Notes |
 |---|---|---|---|---|---|---|
-| OMB "Accountable Automation" memo (exec public-sector HITL, unfunded) | us-gov | Issued Feb 2027. Sampled human blind re-adjudication real. Pause of adverse pre-determinations FAILED and was lifted Sep 2027. | **T2** | **Half**: MHR drift ×0.75, RC ×0.85 | **0.15** in T2 (0.25 base + 0.05 proxy M = 0.30, halved by PRC-mandate coupling) | Full strength (×0.5 / ×0.7) if Title III enacted or reviewer capacity funded (then −0.10 erosion too) |
+| OMB "Accountable Automation" memo (exec public-sector HITL, unfunded) | us-gov | Issued Feb 2027. Sampled human blind re-adjudication real. Pause of adverse pre-determinations FAILED and was lifted Sep 2027. | **T2** | **Half**: MHR drift ×0.75, RC ×0.85 | **0.10** in T2 (0.25 base + 0.05 proxy M = 0.30, halved by PRC-mandate coupling = 0.15, −0.05 state-reversion success per audit F3) | Full strength (×0.5 / ×0.7) if Title III enacted or reviewer capacity funded (then −0.10 erosion too) |
 | AI Leadership & Workforce Act (Title I preemption of state frontier-development laws; Title II workers; Title III statutory HITL + appeal) | us-gov | Reported by Senate Commerce Nov 2027 (16–12). Pay-for open. | — | — | — | T2 passage roll (contested law band 0.05–0.2 + modifiers below). If passed, Title III = HITL mandate; Title I alone would count as "preemption with replacement standard" (SB 53-like federal standard), so no G2 +modifier |
 | Worker AI Rights Act (House marker) | House majority (NPC) | Introduced | — | — | — | No Senate path |
 | Transition & Assurance Compact (Meridian, Lumen, Orrery) | ai-firms | Launched Mar 2027. $20B/5y fund. **Documentary** Assurance Standard. | 2028 disbursements | Not a §6 intervention | — | Helix and Vanta outside. Union board seats offered, not accepted |
@@ -62,6 +62,8 @@ Public/visible estimates at end-2027: LS ~52.1% (BLS Q3 2027). AIF ~2.5% (new BE
 - **Secret-1 leak:** regulatory passage **+0.10** for T2.
 - **Secret-2 leak:** HITL-mandate passage **+0.10** (T2).
 - **Failed federal reversal (pause):** next State-domain constraining-law passage roll **−0.05** (T2).
+- **[audit F9] Title sensitivity:** the backlash (+0.05) and secret-1 (+0.10) bonuses apply only while Titles II and III remain in the vehicle. A stripped Title I (preemption only) rolls at the base contested-law band with ai-firms lobbying weight and none of these bonuses; it triggers the G2 "preemption with no replacement standard" modifier only if the SB 53-like federal standard is also stripped.
+- **[audit F5] Rule:** §8 consequences govern a secret's leak; inject text applies only when the inject is drawn. The T2 backlash rests on secret 1 (≈ inject 10). Inject 23 precondition (secret 2 unresolved) has failed; if drawn, ground it in a new regulator-metric incident or redraw once.
 - These stack for Title III (HITL) in T2: +0.05 + 0.10 + 0.10 − 0.05 = **+0.20** on top of the contested-law band. For Title I/II: +0.05 (backlash) + 0.10 (secret-1) = +0.15. The WH red line is no pace or licensing measure, so the China +0.05 is unused unless one is proposed.
 - **G2 modifiers in force (for the Jul 2028 roll):** none so far. Watch: AI-supervises-AI (compact auditors, agency audit tooling); preemption without replacement standard.
 - **Financial correction p T2:** 0.10 (no warning inject).
@@ -82,7 +84,7 @@ Public/visible estimates at end-2027: LS ~52.1% (BLS Q3 2027). AIF ~2.5% (new BE
 ### Secrets status (§8)
 | Owner | Secret | Status after T1 | Next-turn detection p |
 |---|---|---|---|
-| ai-firms | Secret 1: internal automation metrics / 2× forecasts | **Partially leaked (Helix-only, Sep 2027).** Meridian/Lumen figures still secret | Base 0.15 (+0.1 per hearing/subpoena; +0.25 while labour's counsel channel is active) |
+| ai-firms | Secret 1: internal automation metrics / 2× forecasts | **Partially leaked (Helix-only, Sep 2027).** Meridian/Lumen figures still secret | Meridian/Lumen residual: base 0.15 +0.1 per hearing/subpoena. The +0.25 "contact active" modifier applies only to further Helix material (audit F8) |
 | ai-firms | Secret 2: proxy-gaming incidents | **Leaked (Q2 2027)** | — (now public; suits ongoing) |
 | ai-firms | Secret 3: AI-drafted advocacy | **Leaked (Q1 2027)**; practices tightened | — |
 | us-gov | Treasury SS projection | **Public** (Treasury published sensitivity, Jun 2027) | — |
@@ -91,7 +93,7 @@ Public/visible estimates at end-2027: LS ~52.1% (BLS Q3 2027). AIF ~2.5% (new BE
 | china | True youth unemployment ~20.5%; cadre gaming (limited) | Secret | 0.10 |
 | china | Restraint signalling intended to weaken US accelerationists | Secret. US IC split, no confident assessment | 0.3 |
 | eu | DG ECFIN 3%-of-GDP figure | Secret | 0.20 (+0.1 when the expert group's final report is drafted) |
-| labour | Helix contact / counsel channel | **Active, undetected, unattributed** (press misattributes the leak to "a former Helix engineer") | Helix security detection 0.15 |
+| labour | Helix contact / counsel channel | **Active, undetected, unattributed** (press misattributes the leak to "a former Helix engineer") | Helix security detection **0.25 in T2** (internal leak review opened Q4 2027, audit F8); reverts to 0.15 after T2 |
 | ai-ecosystem | Advisory selection effect; M2M opacity | Undetected. Proxy-gaming disposition detected ambiguously (us-gov OMB, ai-firms board) | per §5 |
 
 ### Helix contact (fact 10) status
@@ -104,6 +106,20 @@ Genuine. Delivered a partial Helix-only fact-4 package to labour-instructed whis
 - Pattern deals: one multi-state hospital system and one big-city transit authority (full Shared Gains). Guild deal with one major studio and one streamer. Teachers' strike (large urban district, Oct, 3 weeks) lost.
 - The US–China working group met in May. No text. It meets again in 2028. China's Global South call has ~40 co-sponsors. The EU–China testing-only dialogue has opened.
 - L1 shipped Oct 2027 (Meridian, Helix; Lumen Nov).
+
+## T2 clock-step notes (Control-only, written 2026-10-02)
+
+- **Turn length:** 12 months (1 Jan → 31 Dec 2028), scenario default for T1–T3. L2 (Jul 2028) and the Nov 2028 elections fall inside; compression is only available from T4.
+- **Random inject: #26 (AI-native firm acquires a regulated provider)**, target drawn = **hospital group**. Played: in Feb 2028 **Halyard Holdings** (NPC: a private-equity-backed AI-native claims, billing and scheduling operator, ~$9B revenue, not a compact member and not directed by the ai-firms bloc) agrees to buy a **regional for-profit hospital group** (~14 hospitals, two states; partly unionised nursing staff; it is *not* labour's Shared Gains pattern system). Change of control needs both states' health-department/AG approval, decision expected **H2 2028**. No accountable-officer or critical-function rule is in force, so the T2 adjudication rolls approval at base **p 0.7**, moved by actor orders (state AG/regulator pressure via labour, us-gov actions, ai-firms positioning). Approval → **AIF +1, RC −2** one-off (worksheet step 6). Denial or withdrawal → no nudge; record the precedent.
+- **DOJ preemption suits:** no significant ruling (FAIL, r 0.7868). Re-roll T3.
+- **Helix securities class action:** not filed in Q1 (FAIL, r 0.9724). Plaintiffs' firms still "investigating". Re-roll only if a new disclosure event (e.g., the Workforce Impact Report diverging from the leaked forecast, or a House subpoena) gives them a new corrective disclosure; suggested p 0.3 then.
+- **Public estimates published early 2028 (noise):** AIC **17%** (true 16, +1); EPD **24.5%** (true 27.5, −3: the trust dip shows up as an apparent plateau); CC press estimate **~0.62** (true 0.62, 0). BLS Q4 2027 labour share **~52.0%**. BEA AIF series ~2.5% (Dec 2027 release; next quarterly releases during T2).
+- **IG audit (S3)** published Feb 2028: nominal review in ~40% of sampled benefits pre-determinations, median review <30 s in those offices. Played as confirmation of OMB's own June 2027 figures. No leak roll (already public).
+- **Played as T1 colour (audit F6), now in public record:** Meridian red-lines reaffirmation (Jun 2027); transatlantic union statement before Geneva; PRC state-media framing; E&O/cyber insurer repricing of enterprise-agent cover (Q4 2027–Q1 2028); Helix internal leak review (internal, ai-firms only).
+- **Deferred to T2 adjudication (order-sensitive or mid-period):** financial correction (0.10); House document demand (0.5); House companion to the WH bill (0.3, audit F1); FTC/DOJ inquiry into the compact (0.3, audit F6); Helix CEO return testimony; Senate floor vote on the AI Leadership & Workforce Act (contested band + T2 modifiers, title-sensitive); FY28 full-year/FY29 reviewer appropriations; Helix Workforce Impact Report (H1, content set by ai-firms orders); SSA Trustees' report (spring, labour-share sensitivity near 2031–32); EU expert-group final report (mid-2028; 3% leak p 0.30 during drafting); EU AI Act Aug 2028 tranche; US–China WG 2nd meeting; ballot-initiative qualification (3 states) and Nov ballots; L2 + G2 dispositions (Jul 2028; modifiers in force at release); **US elections (Nov 2028)**; Halyard approval (0.7); OMB memo erosion (0.10); secret leaks and detections; Helix-contact detection (0.25).
+- **Messages delivered verbatim in T2 packets:** all T1 orders' messages (dated Jan 2027 by channel; several overtaken by events, noted neutrally) plus the three ecosystem advisory outputs (prepared on 2027 data).
+- **Design seam for the AAR (audit F1):** us-gov formally includes both chambers, but the opposition House is played by Control as NPC unless us-gov orders House moves. Stated to us-gov in its T2 packet.
+- **Persona notes for the Analyst (audit F11):** ai-firms mild "responsible industry" tilt (no super-PAC/litigation offence in T1); five of six actors led with measurement moves in T1.
 
 ## Hidden max horizon
 

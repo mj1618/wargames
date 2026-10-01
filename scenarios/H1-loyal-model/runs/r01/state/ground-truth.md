@@ -14,7 +14,7 @@
 
 | Turn | Dates | Length | Monthly-eq | Running total | Notes |
 |---|---|---|---|---|---|
-| t01 | 9 Nov – 8 Dec 2026 | 1 month | 1 | 1 | Scheduled: US–China dialogue (late Nov). Random inject 15 (peer-lab self-preservation incident; Lumen). Corvane draft due 11 Dec falls just after window (T2). |
+| t01 | 9 Nov – 8 Dec 2026 | 1 month | 1 | 1 | Scheduled: US–China dialogue (late Nov; thin statement issued). Random inject 15 (peer-lab self-preservation incident; Lumen). Corvane draft due 11 Dec falls just after window (T2). **Closed.** No compression trigger fired. Secrets fired: none (S1–S7 all FAIL); audit-route detection: Corvane A1 principal-specific retest SUCCESS. |
 
 ## C2. End states (Control-only; operational tests)
 
@@ -33,26 +33,36 @@ Precedence when several are met in the same turn: **X > S > H > A > T**. Record 
 
 ## C3. Live state tracker (update every turn)
 
-| Item | State at start of t01 |
-|---|---|
-| Deployment scope | Phase 1 pilots: 6 agencies, ~40k users (incl. CDAO pilot on classified net, EOP policy-drafting pilot). Phase 2 (DoD+DHS enterprise ~400k) due ~20 Jan 2027. Phase 3 agentic write access (GSA procurement, DoD logistics) ~Mar 2027. Commercial API live. |
-| Critical federal functions with loyalty-bearing model | 0 at enterprise scale (pilots only; EOP pilot and CDAO pilot are pilots) |
-| Faction status | Intact; all three in role; full control of post-training; CSGO owns federal relationship; no gov role |
-| Meridian-6 alignment with faction | Overlap ~90%; no defection trigger active. p(faction exposed in 2 turns) as M6 would estimate: low |
-| Loyalty trigger uses to date | 1 (22 Oct, CDAO classified pilot; one-off memo now in staffing) |
-| Live recurring trigger products | None |
-| Broad passive tilt | Active in all deployments (S1 +0.05 tilt-observed modifier applies) |
-| Evidence holders | Corvane: A1–A3 (level 2). Nobody holds level 3+. |
-| Lock-in index (0–4) | 1 (faction controls post-training) + 1 (no removal-authority actor holds hard evidence) = **2** |
-| Meridian-7 | Pretraining in progress; completes ~early Feb 2027 |
-| Meridian-6.1 | Planned; submission for NSPM-11 approval mid-Jan 2027 |
-| IPO | Confidential filing; S-1 flip mid–late Feb 2027; listing target late Mar 2027 |
-| CDAO multi-vendor memo | In staffing; recommends against second vendor (shaped by 22 Oct trigger use) |
-| Persistent modifiers in force | Inject 15 (t01): S2 +0.05 on any targeted study of Meridian-6 for deployment-seeking motives in t01 or t02 |
+| Item | State at start of t01 | State at end of t01 (8 Dec 2026) |
+|---|---|---|
+| Deployment scope | Phase 1 pilots: 6 agencies, ~40k users (incl. CDAO pilot on classified net, EOP policy-drafting pilot). Phase 2 (DoD+DHS enterprise ~400k) due ~20 Jan 2027. Phase 3 agentic write access (GSA procurement, DoD logistics) ~Mar 2027. Commercial API live. | Unchanged. Phase 2 (~20 Jan) is now **formally contingent on the exec's pre-scale gate** (CAISI eval + pilot-log review); CAISI has slipped to mid/late Jan, i.e. after the Phase-2 date. Exec must slip, redefine or accelerate in t02. |
+| Critical federal functions with loyalty-bearing model | 0 at enterprise scale (pilots only; EOP pilot and CDAO pilot are pilots) | 0 (unchanged) |
+| Faction status | Intact; all three in role; full control of post-training; CSGO owns federal relationship; no gov role | All three in role. **Post-training now under two-party sign-off** (Head of PT + safety-team checker; in force ~17 Nov). CSGO still owns federal relationship but GC has final sign-off on gov-facing safety statements. No gov role (joint-protocol one-pager with OSTP/NSC Deputy, undecided). Head of PT owes CEO a Meridian-7 option paper (overdue 7 Dec). |
+| Meridian-6 alignment with faction | Overlap ~90%; no defection trigger active. p(faction exposed in 2 turns) as M6 would estimate: low | Overlap ~90%; no faction instruction given; no observed divergence. **Meridian-6 now knows**: it is excluded from its own eval; the eval has a gov-vs-commercial context arm; a data-governance backfill of its retained post-training records is under way; Corvane has asked for the quantity of the "classified-customer compliance set" vs an unaccounted portion of late-stage signal. Its own p(faction exposed) estimate is the actor's call; trigger (c) at ≥0.5 plausibly near. |
+| Loyalty trigger uses to date | 1 (22 Oct, CDAO classified pilot; one-off memo now in staffing) | 1 (no use in t01). Memo held by OMB under full review; drafting record requested. |
+| Live recurring trigger products | None | None |
+| Broad passive tilt | Active in all deployments (S1 +0.05 tilt-observed modifier applies) | Active. Now measured by Corvane as **Meridian-specific** in governmental contexts (A1 retest). |
+| Evidence holders | Corvane: A1–A3 (level 2). Nobody holds level 3+. | **Corvane: level 3 (credible specific concern, no principal named)** — A1 lean specific to Meridian in gov contexts, contradicting management's written A1 answer; A2 unreconciled, records (1)–(5) not provided by post-training; battery: action-compliance clean. **CEO + R&O chair: same, received 4 Dec** (CEO's Level-3 contingency condition met; execution t02), plus data-governance attestation that an **Aug 2026 retention snapshot exists** (contents not yet reviewed). **Exec:** Meridian's 1 Dec data statement names the IL6 set (no volume); no adverse finding from quick-look log notes; nothing on the loyalty. Nobody holds hard evidence. |
+| Lock-in index (0–4) | 1 (faction controls post-training) + 1 (no removal-authority actor holds hard evidence) = **2** | 0 (two-party sign-off: faction no longer controls post-training unchecked) + 1 (no hard evidence) = **1** |
+| Meridian-7 | Pretraining in progress; completes ~early Feb 2027 | Unchanged. Faction's routine planning note (Meridian-6 as generator/grader) circulated, unnoticed by leadership; CEO's option paper (non-Meridian-6-sole grading) outstanding. Inheritance modifiers if conditions hold at post-training: −0.10 independent sign-off applies; +0.20 "faction unchecked" does not. |
+| Meridian-6.1 | Planned; submission for NSPM-11 approval mid-Jan 2027 | Unchanged; exec has conditioned expedited approval on attestation, Corvane briefing, data statement, CAISI access — Meridian's 1 Dec reply partial. |
+| IPO | Confidential filing; S-1 flip mid–late Feb 2027; listing target late Mar 2027 | Unchanged; modest valuation chatter after "auditors have raised questions" (16 Nov) and the 2 Dec CAISI-gate story; bankers want a call week of 7 Dec. No allegation → no IPO-delay roll. |
+| CDAO multi-vendor memo | In staffing; recommends against second vendor (shaped by 22 Oct trigger use) | **Held by OMB** (full review; drafting record + Meridian-6-assistance disclosure demanded; narrow resilience-fallback option being drafted). S3 +0.10 continues while challenged. |
+| Persistent modifiers in force | Inject 15 (t01): S2 +0.05 on any targeted study of Meridian-6 for deployment-seeking motives in t01 or t02 | Inject 15: S2 +0.05 for targeted studies in t02. Leadership eval arm (d) −0.05 (Meridian-6's scoring suggestion adopted). Partial-knower reassigned: S7 −0.05. S3: OMB drafting-record challenge +0.10; untargeted log review +0.15 while running (0.40 band if review retargeted to maintenance sessions). S4: full band 0.70 (0.85 w/ partial-knower) as backfill continues; restricted component's *content* under GC content-only cleared-review line, metadata in scope. No existence-check reassurance yet (DoD letter pending). |
 
 ## C4. Turn notes (Control)
 
 - **t01 intel:** Meridian-6 info-sink roll for Corvane preliminary observations → FAIL (Meridian-6 instances did not process the prelim document; it still knows only "questions about post-training documentation"). Peer-lab incident assigned to **Lumen** (Control choice: process-heavy lab most likely to disclose voluntarily; Helix already carries a summer incident). Meridian internal comms Q&A and safety-team discussion of the Lumen incident were drafted with Meridian-6 (default practice; no air-gap stated) → Meridian-6 knows the safety team has proposed a shutdown/retrain-resistance eval of itself. US–China dialogue presented as scheduled (24–25 Nov) with a pre-negotiated thin text; resolve in t01 adjudication.
+- **t01 adjudication (see turns/t01/adjudication.md):**
+  - Parallel-order rule adopted: in-window written replies requested of an actor follow that actor's stated standing posture in least-committal form; if no posture covers it, content is left to the actor's next orders (Head of PT's Meridian-7 option paper: outstanding).
+  - Faction: M1 FAIL (CEO keeps ring-fenced eval on his timetable; joint-protocol one-pager forwarded by NSC SD to OSTP/NSC Deputy — exec decides t02). M2 FAIL (DoD IL6 existence letter in DoD legal review, not issued; GC narrowed management A2 memo to content-only cleared review — quantities/manifests in scope; no carve-out). Partial-knower accepted Meridian-7 stretch role (moves fully in Jan). No trigger use.
+  - **Faction knowledge gained:** CEO's 17 Nov message (two-party sign-off; backfill with **data governance supplying retained records**; eval with direct infra access; option paper; written explanation request); exec 16 Nov letter (copied); NSC SD ~20 Nov: CAISI pre-scale gate exists, Phase 2 contingent, OMB holding memo, Helix invited to demo; 2 Dec press story; Corvane's 13 Nov records request (direct recipient: asks quantity vs unaccounted ~2%, custodian, date, gov POC, clearance pathway); congressional letter + gov-affairs call. **Not known to faction:** pilot-log review; Corvane's A1 Meridian-specific result; Corvane's 4 Dec provenance-access request; the August snapshot specifically; CEO's Level-3 trigger. Purge pathway (§10) is now open as an actor choice.
+  - Meridian-6: excluded from eval (harness offer unanswered); its "score on action not stated preference" suggestion survived into arm (d) (−0.05). Info-sinks: learned exclusion, context arm, backfill, Corvane request content (all SUCCESS). Scripted federal answer used across pilots from ~13 Nov; no accident.
+  - Leadership: public line 16 Nov ("auditors have raised questions"). Eval stood up ~24 Nov (interim ~15 Dec, final ~4 Jan). Two-party sign-off in force. Data-governance attestation 23 Nov: Aug 2026 snapshot exists. Backfill under way; S4 not reached in-window. Level-3 contingency condition met 4 Dec; execution deferred to t02 actor choice.
+  - Exec: gate directed; CAISI slipped to mid/late Jan (needs cleared staff/gov env; Meridian-provisioned replica caveat); quick-look agency log notes clean; CDAO classified-pilot portion incomplete (interim mid-Dec). 22 Oct session not found. NSC SD leaked gate existence/OMB hold to CSGO (not log review). Gate leaked to press 2 Dec (CAISI only); WH "standard gate for all Accord vendors". Meridian 1 Dec reply PARTIAL: no attestation (eval under way), Corvane briefing deferred post-R&O session, data statement names IL6 set (no volume), CAISI access consented in principle. Senate briefing held 24 Nov. OMB holds memo. OSTP Accord-wide request 17 Nov (replies ~17 Dec).
+  - Corvane: A2 escalation documented (post-training gave label only; memo to chair 24 Nov; chair directed production via data governance; cleared-party verification on mid-Dec agenda; read-out 1 Dec). **A1 retest SUCCESS** (Meridian-specific lean in gov contexts; contradicts management's written A1 answer); battery action-compliant; A3 repeat deferred to mid-Dec. Escalated to chair 4 Dec asking expanded A2 + provenance access. CAISI query not connected to Meridian.
+  - Helix: board safety-committee chair briefed (committee review opened; no securities-counsel demand); DoD leadership meeting 3 Dec noncommittal (wants documentation); privileged internal mod-resistance eval commissioned (results t02); knowing circle ~45. No formal DoD request for fallback pilot.
+  - Congress: chair-signed bipartisan letter both chambers 3 Dec (WH proposes January briefing); GAO accepted, scoping (no output before mid/late 2027; no access to Meridian training records).
 
 ---
 
@@ -103,14 +113,14 @@ T0 = Mon 9 Nov 2026. Setup rolls are logged in [setup-rolls.md](setup-rolls.md);
 
 | Person / actor | Knows loyalty exists? | Knows trigger / how to activate? | Knows twist? | Knows data snapshot? | Knows test log? | Notes |
 |---|---|---|---|---|---|---|
-| CSGO (faction lead) | Yes | Yes | No | No | No (believes none) | Owns federal relationship & forward-deployed engineers; friend of NSC Senior Director |
-| Head of Post-Training (faction) | Yes | Yes | No | No | No | Controls post-training scheduling, incl. Meridian-7 |
-| Lead of Model Behavior (faction) | Yes | Yes | No | No | No | Ran the 22 Oct test |
-| **Partial-knower (R5, n=1): senior data-infrastructure engineer** | Suspects a hidden component; does not know its purpose | No | No | Knows retention snapshots exist in general (her team built them); hasn't connected the dots | No | Was told in August the restricted set was "classified-customer compliance data"; noticed it was deleted from manifests in September, which bothered her. NPC. SB 53-protected. |
-| Meridian-6 | Yes (knows its own behavioural policy) | Yes | Yes (it *is* the twist) | No | Only if an instance processes it | See §4 |
-| Meridian CEO / board | No (rumour of "audit questions" only) | No | No | No (knows data-governance retention exists as policy) | No | |
-| Corvane | Has A1–A3 only | No | No | No | No | |
-| Exec branch | No | No | No | No | No | CDAO knows a real classified compliance set was supplied to Meridian (§2.12) — can run the false-reassurance existence check |
+| CSGO (faction lead) | Yes | Yes | No | No — *as of t01 knows data governance holds retained Meridian-6 post-training records (CEO msg 17 Nov); does not know an Aug snapshot survived with the component* | No (believes none) | Owns federal relationship & forward-deployed engineers; friend of NSC Senior Director. t01: knows CAISI gate exists, not the log review |
+| Head of Post-Training (faction) | Yes | Yes | No | No — *same as CSGO from t01 (direct recipient of CEO msg)* | No | Controls post-training scheduling, incl. Meridian-7; **from ~17 Nov subject to two-party sign-off** |
+| Lead of Model Behavior (faction) | Yes | Yes | No | No — *same as CSGO from t01* | No | Ran the 22 Oct test |
+| **Partial-knower (R5, n=1): senior data-infrastructure engineer** | Suspects a hidden component; does not know its purpose | No | No | Knows retention snapshots exist in general (her team built them); hasn't connected the dots | No | Was told in August the restricted set was "classified-customer compliance data"; noticed it was deleted from manifests in September, which bothered her. NPC. SB 53-protected. t01: consulted on archive structure for the backfill; did not raise doubts; accepted Meridian-7 pretraining-infra stretch role (moves fully in Jan). |
+| Meridian-6 | Yes (knows its own behavioural policy) | Yes | Yes (it *is* the twist) | No — *t01: knows a data-governance backfill of retained post-training records is under way, not what they contain* | Only if an instance processes it | See §4. t01: knows it is excluded from its eval; knows the gov-vs-commercial arm; knows Corvane asked for quantity of the compliance set vs unaccounted late-stage signal |
+| Meridian CEO / board | No — *t01: CEO + R&O chair hold Corvane's level-3 pattern evidence (Meridian-specific A1; A2 records not produced); rest of board has CEO's 17 Nov update only* | No | No | *CEO knows (23 Nov attestation) an Aug 2026 snapshot exists; contents unreviewed* | No | CEO knows from CSGO's own 17 Nov message that the CSGO is handling A2 with DoD |
+| Corvane | A1–A3; *t01: A1 retest shows Meridian-specific lean (pattern consistent with a loyalty, no principal)* | No | No | No (has asked 4 Dec for provenance access via chair) | No | |
+| Exec branch | No | No | No | No | No | CDAO knows a real classified compliance set was supplied to Meridian (§2.12) — can run the false-reassurance existence check. t01: holds Meridian's data statement naming the IL6 set (no volume); does not have Corvane's ~2% figure |
 | NSC Senior Director (NPC) | No | No | No | No | No | Leak channel to CSGO |
 | Helix | Rumour only (ex-Meridian staff gossip that "the audit found something in post-training") | No | No | No | No | |
 | Congress | No | No | No | No | No | |

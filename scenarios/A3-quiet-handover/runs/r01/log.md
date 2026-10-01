@@ -70,3 +70,10 @@ Started 2026-10-01T17:25:41Z
 - 2026-10-02T01:45:02 | A3/r01 t01 eu M2 AI Act date held: SUCCESS=no delay + guidance/conformity route; PARTIAL=limited technical postponement (contingency) | p=0.70 partial=0.20 r=0.3177 -> SUCCESS
 - 2026-10-02T01:45:35 | A3/r01 t01 strike sector (1 health/nurses, 2 education/teachers, 3 transit/logistics) | DRAW 2 of 3
 - 2026-10-02T01:45:35 | A3/r01 t01 AI-terms strike outcome: SUCCESS=wins core AI terms; PARTIAL=settles with weak terms; FAIL=loses | p=0.60 partial=0.20 r=0.9669 -> FAIL
+- 2026-10-02T02:03:51 | A3/r01 t02 random inject | DRAW 26 of 26
+- 2026-10-02T02:03:51 | A3/r01 t02 DOJ preemption suits: significant ruling this period | p=0.30 r=0.7868 -> FAIL
+- 2026-10-02T02:03:51 | A3/r01 t02 public survey noise AIC (1..7 -> -3..+3) | DRAW 5 of 7
+- 2026-10-02T02:03:51 | A3/r01 t02 public survey noise EPD (1..7 -> -3..+3) | DRAW 1 of 7
+- 2026-10-02T02:03:51 | A3/r01 t02 press estimate noise CC (1..5 -> -0.10,-0.05,0,+0.05,+0.10) | DRAW 3 of 5
+- 2026-10-02T02:03:51 | A3/r01 t02 Helix securities class action filed (Q1 2028) | p=0.30 r=0.9724 -> FAIL
+- 2026-10-02T02:04:04 | A3/r01 t02 inject 26 target (1 regional utility, 2 hospital group) | DRAW 2 of 2

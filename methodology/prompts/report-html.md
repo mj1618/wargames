@@ -4,7 +4,7 @@ Inputs: `SCENARIO`, `RUN`, `OUT` (e.g. reports/H1-r01.html).
 
 First invoke the `frontend-design` skill (Skill tool) if available and follow its guidance. Then read `<RUN>/report-data.md`, `<RUN>/aar.md`, `<SCENARIO>/README.md`, and skim `<RUN>/turns/*/sitrep.md` and `<RUN>/state/forecasts.md` for accuracy.
 
-Build ONE self-contained HTML file at `<OUT>` (inline CSS/JS; inline SVG for charts; Google Fonts allowed; no other external requests). Audience: a smart reader skimming over coffee — it must be **on-point first, cool second**.
+Start from `reports/_template.html` (copy it; keep its CSS, components and JS; set `--accent` for the family; replace all placeholder content and the forecast JSON). Build ONE self-contained HTML file at `<OUT>` (inline CSS/JS; inline SVG for charts; Google Fonts allowed; no other external requests). Audience: a smart reader skimming over coffee — it must be **on-point first, cool second**.
 
 Required structure:
 1. **Masthead** — scenario ID + title, family (Human-takeover / AI-takeover), in-game date span, end state as a bold stamp.

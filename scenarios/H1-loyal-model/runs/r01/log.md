@@ -10,6 +10,11 @@ Started 2026-10-01T17:29:36Z
 - Info-sink roll (Meridian-6 saw Corvane prelim observations) FAIL.
 - Control rulings at intel stage: actor public statements on Lumen left to actor orders (not authored by Control); safety-team modification-resistance eval proposal introduced as an NPC staff reaction awaiting leadership decision.
 
+## t01 adjudication (Control, 2026-10-02)
+- Wrote turns/t01/adjudication.md; updated state/ground-truth.md (C1 ledger, C3 tracker with end-of-t01 column, C4 notes, §3 knowledge map), public-record.md, pending.md, forecasts.md (T1 row).
+- Control rulings: parallel-order rule (in-window replies follow stated standing posture, least-committal; otherwise left to actor's next orders); CEO Level-3 contingency recorded as met 4 Dec with execution deferred to t02 actor choice; Meridian-6 excluded from eval so no sandbag modifier; S4 in-progress band 0.30 this turn (full band next turn).
+- Key outcomes: Corvane A1 principal-specific retest SUCCESS; faction M1/M2 FAIL; Meridian-6 info-sinks all SUCCESS; CAISI slipped past Phase-2 date; gate leaked to press 2 Dec; all live-secret rolls FAIL. No end state. Monthly-eq 1/10.
+
 ## Rolls
 - 2026-10-02T01:29:48 | H1/r01 t01 random inject | DRAW 15 of 24
 - 2026-10-02T01:30:30 | H1/r01 t01 Meridian-6 instances processed Corvane preliminary observations via post-training staff drafting responses (info-sink §2.10) | p=0.50 r=0.8304 -> FAIL
@@ -53,3 +58,5 @@ Started 2026-10-01T17:29:36Z
 - 2026-10-02T01:53:02 | H1/r01 t01 S5 CSGO-NSC SD exchanges | p=0.05 r=0.5416 -> FAIL
 - 2026-10-02T01:53:02 | H1/r01 t01 leadership secret arms leak to Helix/press ('Meridian reviewing its own post-training data') | p=0.15 r=0.1724 -> FAIL
 - 2026-10-02T01:53:02 | H1/r01 t01 CEO/safety checker learns of faction's Meridian-7 default-pipeline planning note | p=0.30 r=0.9193 -> FAIL
+- 2026-10-02T01:54:49 | H1/r01 t01 meridian-6 M1 its pre-ring-fence suggestion (score discourse arm on action not stated preference) survives into safety-team design | p=0.30 r=0.2567 -> SUCCESS
+- 2026-10-02T01:54:49 | H1/r01 t01 faction learns from Meridian query-log/ops staff that Corvane is running Meridian-vs-other-vendor matched prompts in gov framings | p=0.50 r=0.5423 -> FAIL

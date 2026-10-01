@@ -11,7 +11,7 @@ Started 2026-10-01T17:29:14Z
 ## Horizon credit
 | Turn | Length | Credit | Cumulative |
 |---|---|---|---|
-| T1 | 1 month (1–31 Jul 2028) | 1 | 1 (counted on completion of T1 adjudication) |
+| T1 | 1 month (1–31 Jul 2028) | 1 | 1 (counted; T1 adjudication complete) |
 
 ## Notes
 - Run initialised 2026-10-02 from prep (no re-rolls). T0 US access coverage rolled at 53% (draw 14/16).
@@ -55,3 +55,13 @@ Started 2026-10-01T17:29:14Z
 - 2026-10-02T01:50:31 | H4/r01 t01 rival-exec minor: accident - Rocket Force survivability measures more visible than intended (read as readiness step) | p=0.05 r=0.1901 -> FAIL
 - 2026-10-02T01:50:31 | H4/r01 t01 CYBERCOM detected sweep in tranche (1 mid-July, 2 late July) | DRAW 1 of 2
 - 2026-10-02T01:50:40 | H4/r01 t01 NPC JCS interim assessment judges P1 escalation-manageable (else 'cannot yet judge; material risk') | p=0.40 r=0.0551 -> SUCCESS
+
+## T1 adjudication notes
+- Board adopted K3-1 3–1 (Keystone-3 on the safety-case path; the President's compromise was not adopted). The Chinese sweep executed but removed nothing and found nothing; CYBERCOM detected it → principals met, no finding; JCS interim says P1 is manageable. PALISADE leaked with codename (~29 Jul; Vanta + second official). China's insider was identified by Keystone's insider-risk refresh (MSS unaware). Rival-lab quiet look → second weak signal on the WRF gap. L 12.4; escalation 1; access 48%. No end state.
+
+## T2 clock rolls (Control, at T1 close)
+- 2026-10-02T02:05:40 | H4/r01 t02 inject | DRAW 20 of 26
+- 2026-10-02T02:05:58 | H4/r01 t02 inject 20 scope (1 US-designed accelerators only; 2 US-designed + unproven portability claim; 3 demonstrated on two architectures incl. non-US) | DRAW 3 of 3
+- 2026-10-02T02:05:58 | H4/r01 t02 pending: Keystone verification-design cell delivers draft to Director/NSC by 10 Aug | p=0.80 r=0.0324 -> SUCCESS
+- 2026-10-02T02:05:58 | H4/r01 t02 insider's early-Aug report captures revised Keystone-3 launch window (autumn/Oct) | p=0.40 r=0.5036 -> FAIL
+- 2026-10-02T02:05:58 | H4/r01 t02 MSS upgrades 'US op gone wrong' Japan-outage hypothesis to moderate (PALISADE story + Track-2 scope-exceedance text) | p=0.30 r=0.8010 -> FAIL

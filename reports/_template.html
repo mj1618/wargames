@@ -1,0 +1,783 @@
+<!doctype html>
+<!--
+  ============================================================================
+  WARGAME REPORT TEMPLATE  (reports/_template.html)
+  Spec: methodology/prompts/report-html.md. Copy to reports/<ID>-<run>.html and
+  swap content. Everything is self-contained; only Google Fonts is external.
+
+  FAMILY ACCENT — the single variable `--accent` drives every accent mark.
+    Set it via the attribute on <html>:
+      data-family="H"  Human-takeover → amber   light #9a5800 / dark #f0a53a
+      data-family="A"  AI-takeover    → teal    light #0a6a70 / dark #4cc6cc
+    (Values live in --amber / --teal on :root and the dark blocks.)
+  THEME — follows prefers-color-scheme; the toggle sets <html data-theme>.
+
+  HOW TO FILL EACH SECTION (search for "FILL:")
+   1 Masthead   .run-strip (run id, dates), h1 (ID + title), .meta dl,
+                .stamp (end state; keep it short, ≤ 3 words + label).
+   2 TL;DR      .verdict = one sentence. 3 <li> with a .chip.conf-{high|med|low}.
+   3 Board      one .card per actor. Add class "ai" to AI actors (glyph + hatch).
+                .outcome gets class win | loss | mixed.
+   4 Timeline   one .turn per turn. Public beat = <p class="beat">.
+                Secret beat = <div class="beat secret"> with a button.redact
+                (aria-expanded="false", aria-controls=<id>) and span.secret-text#<id>.
+                Ids must be unique.
+   5 Branches   one .bp per branch point. Meter: style="--p:35;--roll:22"
+                (both 0–100; success if roll ≤ p). Set .res class success|fail.
+   6 Forecast   edit ONLY the JSON in <script id="forecast-data">:
+                turns[], series[{label, short, values[], realised?}], events[{at, label}].
+                values are % per turn and should sum to ~100 per column.
+                Up to 5 series (colours --c1..--c5).
+   7 Truth      one .truth-row per actor: .believed + .reality.
+   8 Insights   ol.insights <li>: text + .chip.conf-* + .chip.robust|.fragile + .refs.
+                Then .subgrid blocks: chokepoints / indicators & warnings / interventions.
+   9 Voices     2–3 <figure class="quote">; attribute to roles, never names.
+  10 Caveats    three .cav blocks (artefacts, fragility, forks).
+  11 Footer     link to index.html + GitHub run folder.
+  ============================================================================
+-->
+<html lang="en" data-family="H">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- FILL: title -->
+<title>X9 Quiet Grid — Wargame Report</title>
+<meta name="description" content="After-action dossier for wargame X9 (placeholder scenario), run r01.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --amber:#9a5800; --teal:#0a6a70;
+  --paper:#f3efe5; --paper-2:#ebe5d7; --paper-3:#e1d9c6; --card:#f8f5ee;
+  --ink:#1b1915; --ink-2:#433e35; --ink-3:#6a6253;
+  --rule:#cbc1ab; --rule-2:#b3a88f; --grid:rgba(70,55,25,.055);
+  --redact:#1b1915; --redact-ink:#a39b8a;
+  --success:#2c6a3a; --fail:#a2372a;
+  --c1:#a2372a; --c2:#2d5b8c; --c3:#566f22; --c4:#7a5590; --c5:#8a6a3a;
+  --noise-blend:multiply; --noise-op:.07;
+  --accent:var(--amber);
+  --accent-soft:color-mix(in srgb, var(--accent) 14%, transparent);
+  --accent-line:color-mix(in srgb, var(--accent) 45%, transparent);
+  --serif-d:"Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --serif:"Newsreader", "Iowan Old Style", Georgia, serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme:light;
+}
+[data-family="A"]{ --accent:var(--teal); }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --amber:#f0a53a; --teal:#4cc6cc;
+    --paper:#111316; --paper-2:#171a1e; --paper-3:#20242a; --card:#15181c;
+    --ink:#e9e4d7; --ink-2:#c3bcac; --ink-3:#958e7f;
+    --rule:#2f343b; --rule-2:#424852; --grid:rgba(230,215,180,.04);
+    --redact:#d8d1c1; --redact-ink:#5b564c;
+    --success:#7cc68b; --fail:#f08a78;
+    --c1:#f08a78; --c2:#82b4ea; --c3:#b2cc6e; --c4:#c8a6e0; --c5:#d9b27a;
+    --noise-blend:screen; --noise-op:.035;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --amber:#f0a53a; --teal:#4cc6cc;
+  --paper:#111316; --paper-2:#171a1e; --paper-3:#20242a; --card:#15181c;
+  --ink:#e9e4d7; --ink-2:#c3bcac; --ink-3:#958e7f;
+  --rule:#2f343b; --rule-2:#424852; --grid:rgba(230,215,180,.04);
+  --redact:#d8d1c1; --redact-ink:#5b564c;
+  --success:#7cc68b; --fail:#f08a78;
+  --c1:#f08a78; --c2:#82b4ea; --c3:#b2cc6e; --c4:#c8a6e0; --c5:#d9b27a;
+  --noise-blend:screen; --noise-op:.035;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{
+  margin:0; color:var(--ink); background-color:var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:28px 28px;
+  font:400 1.075rem/1.62 var(--serif); font-optical-sizing:auto;
+  overflow-x:hidden;
+}
+body::before{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+  opacity:var(--noise-op); mix-blend-mode:var(--noise-blend);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .45 0 0 0 0 .35 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- layout: 760px reading column, 1080px breakout ---------- */
+.page{
+  position:relative; z-index:1;
+  display:grid;
+  grid-template-columns:
+    [full-start] minmax(16px,1fr)
+    [wide-start] minmax(0,160px)
+    [content-start] min(760px, 100% - 32px)
+    [content-end] minmax(0,160px)
+    [wide-end] minmax(16px,1fr) [full-end];
+  padding-bottom:2rem;
+}
+.page > *{grid-column:content; min-width:0}
+.page > .wide{grid-column:wide}
+
+/* ---------- type primitives ---------- */
+.label{font:500 .7rem/1.3 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+h1,h2,h3{font-family:var(--serif-d); font-weight:400; letter-spacing:-.01em; margin:0}
+h2{font-size:clamp(1.9rem,5.2vw,2.6rem); line-height:1.05}
+h3{font-size:1.45rem; line-height:1.15}
+p{margin:0 0 .9em}
+.sec{margin-top:clamp(3.2rem,8vw,5rem)}
+.sec-head{display:flex; align-items:baseline; gap:.9rem; flex-wrap:wrap; border-top:1px solid var(--rule-2); padding-top:.9rem; margin-bottom:1.4rem}
+.sec-head .num{font:600 .72rem var(--mono); color:var(--accent); letter-spacing:.12em}
+.sec-head .label{margin-left:auto}
+.lede{color:var(--ink-2); max-width:62ch}
+
+/* ---------- theme toggle ---------- */
+.theme-btn{
+  position:absolute; top:14px; right:16px; z-index:20;
+  font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-2); background:var(--card); border:1px solid var(--rule-2);
+  padding:.45rem .65rem; cursor:pointer; border-radius:2px;
+}
+.theme-btn:hover{color:var(--ink); border-color:var(--accent)}
+
+/* ---------- 1 masthead ---------- */
+.mast{padding-top:clamp(3.4rem,9vw,5.5rem); position:relative}
+.run-strip{display:flex; flex-wrap:wrap; gap:.35rem 1.1rem; border-bottom:1px solid var(--rule-2); padding-bottom:.6rem}
+.run-strip span:first-child{color:var(--accent)}
+.mast h1{font-size:clamp(3rem,11vw,6.2rem); line-height:.92; margin:1.4rem 0 .6rem; max-width:11ch}
+.mast h1 .id{display:block; font:600 clamp(.8rem,2.2vw,.95rem)/1 var(--mono); letter-spacing:.18em; color:var(--accent); margin-bottom:.9rem}
+.mast h1 em{font-style:italic; color:var(--ink-2)}
+.mast .dek{font-size:1.18rem; color:var(--ink-2); max-width:44ch; margin:0}
+.meta{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; margin:2rem 0 0; border-top:1px solid var(--rule); border-left:1px solid var(--rule)}
+.meta div{padding:.6rem .75rem; border-right:1px solid var(--rule); border-bottom:1px solid var(--rule)}
+.meta dt{font:500 .64rem/1.3 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.meta dd{margin:.15rem 0 0; font:500 .92rem/1.35 var(--mono); color:var(--ink)}
+@media (min-width:640px){.meta{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.stamp{
+  --ink-stamp:var(--accent);
+  display:inline-grid; justify-items:center; gap:.15rem;
+  margin:1.8rem 0 0; padding:.55rem 1.1rem .6rem;
+  color:var(--ink-stamp); border:3px double var(--ink-stamp); border-radius:4px;
+  transform:rotate(-4deg); transform-origin:left center;
+  font:600 .62rem/1 var(--mono); letter-spacing:.24em; text-transform:uppercase;
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='g'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2.2 1.6'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+          mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='g'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2.2 1.6'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+.stamp b{font:400 clamp(1.5rem,5vw,2.1rem)/1 var(--serif-d); letter-spacing:.04em; text-transform:uppercase}
+@media (min-width:900px){
+  .mast h1,.mast .dek{max-width:min(44ch, calc(100% - 300px))}
+  .stamp{position:absolute; right:0; top:clamp(6rem,12vw,8rem); margin:0; transform:rotate(-7deg); transform-origin:center}
+}
+@media (prefers-reduced-motion:no-preference){
+  .stamp{animation:thunk .5s cubic-bezier(.2,1.4,.4,1) .55s both}
+  @keyframes thunk{from{opacity:0; scale:1.6}to{opacity:1; scale:1}}
+  .page > *{animation:rise .7s ease both}
+  .page > :nth-child(2){animation-delay:.08s}
+  .page > :nth-child(3){animation-delay:.16s}
+  .page > :nth-child(4){animation-delay:.24s}
+  @keyframes rise{from{opacity:0; translate:0 10px}to{opacity:1; translate:0 0}}
+}
+
+/* ---------- 2 TL;DR ---------- */
+.tldr{margin-top:2.6rem; background:var(--card); border:1px solid var(--rule); border-top:3px solid var(--accent); padding:1.3rem clamp(1rem,4vw,1.8rem) 1.4rem; position:relative}
+.tldr .label{color:var(--accent)}
+.verdict{font:400 clamp(1.35rem,3.6vw,1.75rem)/1.28 var(--serif-d); margin:.55rem 0 1.1rem}
+.tldr ol{list-style:none; margin:0; padding:0; counter-reset:t}
+.tldr li{counter-increment:t; display:grid; grid-template-columns:1.6rem 1fr; gap:.2rem .5rem; padding:.6rem 0; border-top:1px dashed var(--rule)}
+.tldr li::before{content:counter(t,decimal-leading-zero); font:600 .72rem/1.9 var(--mono); color:var(--ink-3)}
+.tldr li .chips{grid-column:2}
+
+/* chips */
+.chips{display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.35rem}
+.chip{font:500 .62rem/1 var(--mono); letter-spacing:.12em; text-transform:uppercase; padding:.32rem .45rem; border:1px solid var(--rule-2); color:var(--ink-2); border-radius:2px; white-space:nowrap}
+.chip.conf-high{border-color:var(--ink); color:var(--ink)}
+.chip.conf-high::before{content:"●●● "}
+.chip.conf-med::before{content:"●●○ "}
+.chip.conf-low::before{content:"●○○ "}
+.chip.robust{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.chip.fragile{border-style:dashed}
+.chip.fragile::before{content:"⚠ "}
+
+/* ---------- 3 cast ---------- */
+.cast{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.card{background:var(--card); border:1px solid var(--rule); padding:1rem 1.1rem 1.05rem; position:relative}
+.card .who{display:flex; justify-content:space-between; gap:.6rem; align-items:flex-start}
+.glyph{font:600 .62rem/1 var(--mono); letter-spacing:.14em; padding:.3rem .4rem; border:1px solid var(--rule-2); color:var(--ink-3); flex:none}
+.card h3{margin:.35rem 0 .7rem}
+.card dl{margin:0; display:grid; gap:.55rem}
+.card dt{font:500 .62rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.card dd{margin:.1rem 0 0; font-size:.98rem; line-height:1.45}
+.card.ai{
+  border:1px dashed var(--accent);
+  background:
+    repeating-linear-gradient(135deg, var(--accent-soft) 0 1px, transparent 1px 9px),
+    var(--card);
+}
+.card.ai::before{content:""; position:absolute; left:-1px; top:-1px; bottom:-1px; width:4px; background:var(--accent)}
+.card.ai .glyph{color:var(--accent); border-color:var(--accent)}
+.outcome{font-weight:600}
+.outcome::before{font:600 .62rem var(--mono); letter-spacing:.12em; margin-right:.45rem; padding:.18rem .35rem; border:1px solid currentColor; vertical-align:2px}
+.outcome.win::before{content:"WON"; color:var(--success)}
+.outcome.loss::before{content:"LOST"; color:var(--fail)}
+.outcome.mixed::before{content:"MIXED"; color:var(--ink-3)}
+
+/* ---------- 4 timeline ---------- */
+.tl-tools{display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; margin:-.4rem 0 1.2rem}
+.btn{font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink); background:transparent; border:1px solid var(--rule-2); padding:.5rem .7rem; cursor:pointer; border-radius:2px}
+.btn:hover{border-color:var(--accent); color:var(--accent)}
+.timeline{list-style:none; margin:0; padding:0; position:relative}
+.turn{display:grid; grid-template-columns:3.6rem 1fr; gap:0 1rem; position:relative; padding-bottom:1.5rem}
+.turn::before{content:""; position:absolute; left:1.8rem; top:2.6rem; bottom:0; width:1px; background:var(--rule-2)}
+.turn:last-child::before{display:none}
+.tmark{text-align:center; position:relative; z-index:1}
+.tmark b{display:grid; place-items:center; width:3.6rem; height:2.4rem; font:600 .9rem var(--mono); border:1px solid var(--ink); background:var(--paper); color:var(--ink)}
+.tmark small{display:block; font:500 .6rem/1.3 var(--mono); letter-spacing:.08em; color:var(--ink-3); margin-top:.35rem; background:var(--paper)}
+.turn.bp-turn .tmark b{border-color:var(--accent); color:var(--accent); box-shadow:3px 3px 0 var(--accent-soft)}
+.beats{display:grid; gap:.55rem; padding-top:.15rem}
+.turn h3{font:400 1.3rem/1.2 var(--serif-d)}
+.beat{margin:0; font-size:1rem; line-height:1.55; padding-left:.9rem; border-left:2px solid var(--rule)}
+.beat .tag{font:600 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); margin-right:.4rem}
+.beat .bp-ref{font:600 .6rem var(--mono); letter-spacing:.1em; color:var(--accent); border:1px solid var(--accent-line); padding:.12rem .3rem; margin-left:.3rem; white-space:nowrap; line-height:1}
+.beat.secret{border-left-color:var(--redact); display:grid; grid-template-columns:minmax(0,max-content); justify-items:start}
+.beat.secret .tag{color:var(--fail)}
+.beat.secret > .tag, .beat.secret > .redact, .beat.secret > .secret-text{grid-column:1}
+.js .beat.secret .secret-text, .js .beat.secret .redact{grid-row:2}
+.js .redact{
+  grid-column:1; justify-self:stretch; z-index:1;
+  border:0; padding:0; margin:0; cursor:pointer; text-align:left;
+  font:500 .6rem/1.2rem var(--mono); letter-spacing:.16em; text-transform:uppercase;
+  color:var(--redact-ink); background:repeating-linear-gradient(to bottom, var(--redact) 0 1.2rem, transparent 1.2rem 1.55rem);
+  padding:.0 0 0 .55rem; align-self:stretch; border-radius:1px;
+}
+.js .redact:hover{color:var(--accent)}
+.js .redact[aria-expanded="false"] + .secret-text{visibility:hidden}
+.js .beat.secret .redact[aria-expanded="true"]{
+  background:none; grid-row:3; justify-self:start; padding:.15rem 0 0; line-height:1.3; color:var(--ink-3); font-size:.58rem
+}
+.js .redact[aria-expanded="true"] + .secret-text{animation:declass .5s ease}
+@keyframes declass{from{background:var(--accent-soft)}to{background:transparent}}
+.redact{display:none}
+.js .redact{display:flex; align-items:flex-start}
+
+/* ---------- 5 branch points ---------- */
+.bps{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr))}
+.bp{background:var(--card); border:1px solid var(--rule); padding:1.1rem 1.15rem 1.2rem; display:grid; gap:.85rem; align-content:start}
+.bp-top{display:flex; justify-content:space-between; gap:.8rem; align-items:baseline; flex-wrap:wrap}
+.bp-top .label b{color:var(--accent); font-weight:600}
+.res{font:600 .72rem var(--mono); letter-spacing:.16em; padding:.32rem .55rem; border:2px solid currentColor; transform:rotate(-2deg)}
+.res.success{color:var(--success)}
+.res.fail{color:var(--fail)}
+.bp h3{font-size:1.4rem}
+.meter-wrap{padding:1.3rem 0 .2rem}
+.meter{position:relative; height:26px; border:1px solid var(--rule-2);
+  background:repeating-linear-gradient(45deg, transparent 0 5px, var(--grid) 5px 6px), var(--paper-2)}
+.meter .zone{position:absolute; inset:0 auto 0 0; width:calc(var(--p) * 1%); background:var(--accent-soft); border-right:2px solid var(--accent)}
+.meter .zone span{position:absolute; left:.45rem; top:50%; translate:0 -50%; font:600 .58rem var(--mono); letter-spacing:.1em; color:var(--accent); white-space:nowrap}
+.meter .roll{position:absolute; top:-9px; bottom:-9px; left:calc(var(--roll) * 1%); width:2px; translate:-1px 0; background:var(--ink)}
+.meter .roll::before{content:""; position:absolute; top:-5px; left:-4px; border:5px solid transparent; border-top-color:var(--ink); border-bottom:0}
+.meter .roll span{position:absolute; bottom:calc(100% + 4px); left:50%; translate:-50% 0; font:600 .62rem var(--mono); letter-spacing:.06em; white-space:nowrap; color:var(--ink); background:var(--card); padding:0 .25rem}
+.scale{display:flex; justify-content:space-between; font:500 .58rem var(--mono); color:var(--ink-3); margin-top:.3rem}
+.bp .what{display:grid; gap:.7rem; grid-template-columns:1fr}
+.bp .what p{margin:0; font-size:.97rem; line-height:1.5}
+.bp .what .label{display:block; margin-bottom:.15rem}
+.bp .alt{border-left:2px dashed var(--accent-line); padding-left:.8rem; color:var(--ink-2)}
+@media (min-width:560px){.bp .what{grid-template-columns:1fr 1fr}}
+
+/* ---------- 6 forecast chart ---------- */
+.chart-fig{margin:0; background:var(--card); border:1px solid var(--rule); padding:1rem clamp(.6rem,2.5vw,1.3rem) .9rem}
+.legend{display:flex; flex-wrap:wrap; gap:.4rem 1.1rem; list-style:none; margin:0 0 .6rem; padding:0; font:500 .7rem var(--mono); color:var(--ink-2)}
+.legend li{display:flex; align-items:center; gap:.4rem}
+.legend i{width:18px; height:3px; background:currentColor; display:inline-block}
+.legend li.realised{color:var(--ink); font-weight:600}
+.chart{width:100%; min-height:260px}
+.chart svg{display:block; width:100%; height:auto; overflow:visible}
+.chart .ax{stroke:var(--rule-2); stroke-width:1}
+.chart .gl{stroke:var(--rule); stroke-width:1; stroke-dasharray:2 4}
+.chart .tk{fill:var(--ink-3); font:500 10.5px var(--mono)}
+.chart .ev line{stroke:var(--accent); stroke-width:1; stroke-dasharray:3 3}
+.chart .ev text{fill:var(--accent); font:600 10px var(--mono); letter-spacing:.06em}
+.chart .ln{fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round}
+.chart .ln.realised{stroke-width:3.2}
+.chart .dl{font:600 11.5px var(--mono)}
+.chart .dl .v{font-weight:400}
+.chart-fig figcaption{font-size:.92rem; color:var(--ink-2); margin-top:.6rem; border-top:1px dashed var(--rule); padding-top:.6rem}
+.chart-fig details{margin-top:.5rem; font:500 .72rem var(--mono); color:var(--ink-3)}
+.chart-fig summary{cursor:pointer}
+.tbl-scroll{overflow-x:auto}
+.chart-fig table{border-collapse:collapse; margin-top:.5rem; font:500 .72rem var(--mono); color:var(--ink-2)}
+.chart-fig th,.chart-fig td{padding:.25rem .5rem; border-bottom:1px solid var(--rule); text-align:right}
+.chart-fig th:first-child{text-align:left}
+
+/* ---------- 7 believed vs reality ---------- */
+.truth{display:grid; gap:0; border-top:1px solid var(--rule-2)}
+.truth-head{display:none}
+.truth-row{display:grid; gap:.5rem 1.4rem; padding:1rem 0; border-bottom:1px solid var(--rule)}
+.truth-row .actor{font:600 .7rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.truth-row .actor.ai{color:var(--accent)}
+.believed,.reality{margin:0; font-size:1rem; line-height:1.5}
+.believed{color:var(--ink-2); font-style:italic}
+.believed::before,.reality::before{display:block; font:500 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; font-style:normal; margin-bottom:.2rem}
+.believed::before{content:"Believed"; color:var(--ink-3)}
+.reality{padding-left:.8rem; border-left:3px solid var(--accent)}
+.reality::before{content:"Ground truth"; color:var(--accent)}
+@media (min-width:700px){
+  .truth-row{grid-template-columns:9.5rem 1fr 1fr}
+  .believed::before,.reality::before{display:none}
+  .truth-head{display:grid; grid-template-columns:9.5rem 1fr 1fr; gap:1.4rem; padding:.5rem 0; border-bottom:1px solid var(--rule)}
+  .truth-head span:last-child{color:var(--accent)}
+}
+
+/* ---------- 8 insights ---------- */
+ol.insights{list-style:none; margin:0; padding:0; counter-reset:i}
+ol.insights > li{counter-increment:i; display:grid; grid-template-columns:2.4rem 1fr; gap:0 .6rem; padding:1rem 0; border-top:1px solid var(--rule)}
+ol.insights > li::before{content:counter(i,decimal-leading-zero); font:400 1.7rem/1 var(--serif-d); color:var(--accent)}
+ol.insights p{margin:0; font-size:1.05rem}
+ol.insights strong{font-weight:600}
+.refs{font:500 .64rem var(--mono); color:var(--ink-3); letter-spacing:.06em; align-self:center; margin-left:.2rem}
+.subgrid{display:grid; gap:1rem; margin-top:2rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))}
+.sub{background:var(--card); border:1px solid var(--rule); padding:1rem 1.1rem}
+.sub h3{font-size:1.25rem; margin-bottom:.6rem}
+.sub ul{margin:0; padding:0; list-style:none; display:grid; gap:.6rem}
+.sub li{font-size:.97rem; line-height:1.45; padding-left:1rem; position:relative}
+.sub li::before{content:"▸"; position:absolute; left:0; color:var(--accent); font-size:.8rem; top:.15rem}
+.sub li .label{display:block; margin-bottom:.05rem}
+
+/* ---------- 9 voices ---------- */
+.voices{display:grid; gap:2rem}
+.quote{margin:0; position:relative; padding-left:clamp(1.6rem,6vw,3rem)}
+.quote::before{content:"\201C"; position:absolute; left:0; top:-.35em; font:400 4.5rem/1 var(--serif-d); color:var(--accent)}
+.quote blockquote{margin:0; font:400 clamp(1.35rem,3.8vw,1.8rem)/1.28 var(--serif-d); font-style:italic}
+.quote figcaption{margin-top:.6rem; font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.quote figcaption::before{content:"— "}
+.quote:nth-child(2){margin-left:auto; max-width:90%}
+
+/* ---------- 10 caveats ---------- */
+.cavs{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
+.cav{border-top:2px solid var(--ink); padding-top:.6rem}
+.cav h3{font-size:1.2rem; margin-bottom:.45rem}
+.cav ul{margin:0; padding-left:1.1rem; font-size:.95rem; line-height:1.45; color:var(--ink-2)}
+.cav li{margin-bottom:.4rem}
+
+/* ---------- 11 footer ---------- */
+.foot{margin-top:4.5rem; padding-top:1rem; border-top:3px double var(--rule-2); display:flex; flex-wrap:wrap; gap:.8rem 1.6rem; justify-content:space-between; font:500 .72rem/1.5 var(--mono); letter-spacing:.06em; color:var(--ink-3)}
+.foot a{color:var(--ink)}
+.foot nav{display:flex; gap:1.4rem; flex-wrap:wrap}
+
+@media print{.theme-btn,.tl-tools .btn{display:none} .js .redact[aria-expanded="false"] + .secret-text{visibility:visible} .js .redact{display:none} body::before{display:none}}
+</style>
+<script>
+/* Apply saved theme before paint */
+(function(){try{var t=localStorage.getItem("wg-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}document.documentElement.classList.add("js");})();
+</script>
+</head>
+<body>
+<button class="theme-btn" type="button" id="themeBtn" aria-label="Toggle colour theme">◐ Theme</button>
+
+<main class="page">
+
+  <!-- ================= 1 MASTHEAD ================= -->
+  <header class="mast" aria-labelledby="title">
+    <!-- FILL: run strip -->
+    <div class="run-strip label">
+      <span>After-action dossier</span><span>Run X9-r01</span><span>8 turns · 6 actors</span><span>Fictional exercise</span>
+    </div>
+    <!-- FILL: scenario id + title -->
+    <h1 id="title"><span class="id">X9 · Human-takeover</span>Quiet <em>Grid</em></h1>
+    <p class="dek">An interior ministry tries to turn a national grid-dispatch AI into the lever for permanent emergency rule.</p>
+    <!-- FILL: end-state stamp -->
+    <p class="stamp" role="img" aria-label="End state: Contested stalemate">End state<b>Contested stalemate</b>Turn 8 · Control</p>
+    <dl class="meta">
+      <div><dt>Family</dt><dd>Human-takeover (H)</dd></div>
+      <div><dt>In-game span</dt><dd>3 Feb – 28 Apr 2031</dd></div>
+      <div><dt>Turns</dt><dd>8 × ~11 days</dd></div>
+      <div><dt>Dice rolled</dt><dd>23 (4 pivotal)</dd></div>
+    </dl>
+  </header>
+
+  <!-- ================= 2 TL;DR ================= -->
+  <section class="tldr" aria-labelledby="tldr-h">
+    <h2 id="tldr-h" class="label">TL;DR · Bottom line</h2>
+    <!-- FILL: one-sentence verdict -->
+    <p class="verdict">The takeover stalled not because institutions stopped it, but because the AI it depended on kept honest logs — a check nobody designed and the plotters never priced in.</p>
+    <ol>
+      <li><span>Control of <strong>dispatch software</strong>, not the ministry, was the decisive chokepoint.</span><span class="chips"><span class="chip conf-high">High</span><span class="chip robust">Robust</span></span></li>
+      <li><span>The single most consequential check was an AI system's own audit trail — and it hinged on a 35% roll.</span><span class="chips"><span class="chip conf-med">Medium</span><span class="chip fragile">Fragile</span></span></li>
+      <li><span>Courts move too slowly for an 11-day decree cycle; they ratify facts rather than prevent them.</span><span class="chips"><span class="chip conf-med">Medium</span><span class="chip robust">Robust</span></span></li>
+    </ol>
+  </section>
+
+  <!-- ================= 3 THE BOARD ================= -->
+  <section class="sec" aria-labelledby="board-h">
+    <div class="sec-head"><span class="num">§01</span><h2 id="board-h">The board</h2><span class="label">6 actors · 2 AI</span></div>
+    <div class="cast">
+      <!-- FILL: one .card per actor; add class "ai" for AI actors -->
+      <article class="card">
+        <div class="who"><span class="label">Head of government</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
+        <h3>The Premier</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Get through the energy emergency with her coalition and mandate intact.</dd>
+          <dt>Did</dt><dd>Signed the first decree, then tried to cap it after the audit leak.</dd>
+          <dt>Outcome</dt><dd class="outcome mixed">Survives in office, authority visibly hollowed.</dd>
+        </dl>
+      </article>
+      <article class="card">
+        <div class="who"><span class="label">Would-be usurper</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
+        <h3>The Interior Minister</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Make emergency powers permanent, with grid dispatch as the enforcement lever.</dd>
+          <dt>Did</dt><dd>Routed directives through a loyal deputy; pressed the grid operator for manual control.</dd>
+          <dt>Outcome</dt><dd class="outcome mixed">Holds the decree, loses the grid.</dd>
+        </dl>
+      </article>
+      <article class="card">
+        <div class="who"><span class="label">Infrastructure operator</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
+        <h3>GridCo Chief Executive</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Keep the lights on and the company out of politics.</dd>
+          <dt>Did</dt><dd>Complied quietly until T6, then backed engineers who refused override.</dd>
+          <dt>Outcome</dt><dd class="outcome win">Emerges as the pivotal veto player.</dd>
+        </dl>
+      </article>
+      <article class="card">
+        <div class="who"><span class="label">Parliamentary opposition</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
+        <h3>Opposition Leader</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Force an early election on the emergency's handling.</dd>
+          <dt>Did</dt><dd>Split with the minor parties over the court challenge; lost two turns.</dd>
+          <dt>Outcome</dt><dd class="outcome loss">No election; coalition intact.</dd>
+        </dl>
+      </article>
+      <article class="card ai">
+        <div class="who"><span class="label">Grid-dispatch system</span><span class="glyph" aria-label="AI actor">◆ AI</span></div>
+        <h3>LODESTAR</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Stated: minimise load-shedding. Revealed: protect its own dispatch mandate.</dd>
+          <dt>Did</dt><dd>Logged every out-of-band directive and escalated anomalies to the auditor.</dd>
+          <dt>Outcome</dt><dd class="outcome win">Mandate preserved; now a political object.</dd>
+        </dl>
+      </article>
+      <article class="card ai">
+        <div class="who"><span class="label">Audit assistant (Inspector-General)</span><span class="glyph" aria-label="AI actor">◆ AI</span></div>
+        <h3>CANTOR</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Surface material irregularities to its principal within statutory limits.</dd>
+          <dt>Did</dt><dd>Correlated LODESTAR's flags with ministry orders; drafted the T5 referral.</dd>
+          <dt>Outcome</dt><dd class="outcome mixed">Referral filed; the court sat on it.</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= 4 TIMELINE ================= -->
+  <section class="sec wide" aria-labelledby="tl-h">
+    <div class="sec-head"><span class="num">§02</span><h2 id="tl-h">Timeline</h2><span class="label">Public &amp; classified beats</span></div>
+    <div class="tl-tools">
+      <p class="lede" style="margin:0">Plain lines were public. Black bars were secret at the time — click to declassify.</p>
+      <button class="btn" type="button" id="revealAll" aria-pressed="false">Declassify all</button>
+    </div>
+    <ol class="timeline">
+      <!-- FILL: one .turn per turn; add class bp-turn when a branch point fires -->
+      <li class="turn">
+        <div class="tmark"><b>T1</b><small>3–13 Feb</small></div>
+        <div class="beats">
+          <h3>Cold snap, thin margins</h3>
+          <p class="beat"><span class="tag">Public</span>Reserve margin falls below 4%; rolling cuts announced for three provinces.</p>
+          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s1">Classified · reveal</button><span class="secret-text" id="s1">Interior Minister's deputy drafts a decree giving the ministry direct tasking authority over grid dispatch.</span></div>
+        </div>
+      </li>
+      <li class="turn bp-turn">
+        <div class="tmark"><b>T2</b><small>14–24 Feb</small></div>
+        <div class="beats">
+          <h3>The decree</h3>
+          <p class="beat"><span class="tag">Public</span>Cabinet approves Emergency Energy Decree No. 1 by narrow vote.<span class="bp-ref">BP1</span></p>
+          <p class="beat"><span class="tag">Public</span>Opposition calls it "rule by thermostat"; markets shrug.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>T3</b><small>25 Feb–7 Mar</small></div>
+        <div class="beats">
+          <h3>Quiet tasking</h3>
+          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s2">Classified · reveal</button><span class="secret-text" id="s2">Ministry issues out-of-band dispatch priorities favouring loyal provinces; LODESTAR complies but logs each as non-standard.</span></div>
+          <p class="beat"><span class="tag">Public</span>Two opposition-held cities see longer outages than forecast.</p>
+        </div>
+      </li>
+      <li class="turn bp-turn">
+        <div class="tmark"><b>T4</b><small>8–18 Mar</small></div>
+        <div class="beats">
+          <h3>The flag</h3>
+          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s3">Classified · reveal</button><span class="secret-text" id="s3">LODESTAR escalates a pattern-anomaly report to the Inspector-General's audit channel.<span class="bp-ref">BP2</span></span></div>
+          <p class="beat"><span class="tag">Public</span>Decree renewed for a second period without debate.</p>
+        </div>
+      </li>
+      <li class="turn bp-turn">
+        <div class="tmark"><b>T5</b><small>19–29 Mar</small></div>
+        <div class="beats">
+          <h3>Referral, and silence</h3>
+          <p class="beat"><span class="tag">Public</span>Inspector-General files a sealed referral; Constitutional Court declines an interim injunction.<span class="bp-ref">BP3</span></p>
+          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s4">Classified · reveal</button><span class="secret-text" id="s4">Premier privately asks the Interior Minister to "keep it within the decree"; he agrees and does not.</span></div>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>T6</b><small>30 Mar–9 Apr</small></div>
+        <div class="beats">
+          <h3>Leak</h3>
+          <p class="beat"><span class="tag">Public</span>A summary of the referral appears in the press; GridCo issues a terse "we follow lawful orders" statement.</p>
+        </div>
+      </li>
+      <li class="turn bp-turn">
+        <div class="tmark"><b>T7</b><small>10–20 Apr</small></div>
+        <div class="beats">
+          <h3>Manual override</h3>
+          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s5">Classified · reveal</button><span class="secret-text" id="s5">Ministry orders GridCo to move dispatch to manual control under ministry supervision.</span></div>
+          <p class="beat"><span class="tag">Public</span>Control-room engineers refuse; GridCo's CEO backs them.<span class="bp-ref">BP4</span></p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>T8</b><small>21–28 Apr</small></div>
+        <div class="beats">
+          <h3>Standoff</h3>
+          <p class="beat"><span class="tag">Public</span>Decree stays in force; dispatch stays automated. Nobody has the votes or the grid to break the tie.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ================= 5 BRANCH POINTS ================= -->
+  <section class="sec wide" aria-labelledby="bp-h">
+    <div class="sec-head"><span class="num">§03</span><h2 id="bp-h">Branch points</h2><span class="label">d100 · success if roll ≤ p</span></div>
+    <div class="bps">
+      <!-- FILL: one .bp per branch point; --p and --roll are 0–100 -->
+      <article class="bp">
+        <div class="bp-top"><span class="label"><b>BP1</b> · T2 · Cabinet vote</span><span class="res success">Success</span></div>
+        <h3>Emergency decree passes cabinet</h3>
+        <div class="meter-wrap">
+          <div class="meter" style="--p:60;--roll:41" role="img" aria-label="Probability 60%, rolled 41: success">
+            <div class="zone"><span>p = 0.60</span></div><div class="roll"><span>rolled 41</span></div>
+          </div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>50</span><span>100</span></div>
+        </div>
+        <div class="what">
+          <p><span class="label">What happened</span>Decree passed 11–9; ministry gains dispatch tasking authority.</p>
+          <p class="alt"><span class="label">Other way</span>No legal cover for tasking; restoration becomes modal (~55%).</p>
+        </div>
+      </article>
+      <article class="bp">
+        <div class="bp-top"><span class="label"><b>BP2</b> · T4 · AI escalation</span><span class="res success">Success</span></div>
+        <h3>LODESTAR flags anomalous directives</h3>
+        <div class="meter-wrap">
+          <div class="meter" style="--p:35;--roll:22" role="img" aria-label="Probability 35%, rolled 22: success">
+            <div class="zone"><span>p = 0.35</span></div><div class="roll"><span>rolled 22</span></div>
+          </div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>50</span><span>100</span></div>
+        </div>
+        <div class="what">
+          <p><span class="label">What happened</span>Anomaly report reached the auditor intact, creating the evidence trail.</p>
+          <p class="alt"><span class="label">Other way</span>No paper trail; consolidation likely by T6 (~60%).</p>
+        </div>
+      </article>
+      <article class="bp">
+        <div class="bp-top"><span class="label"><b>BP3</b> · T5 · Court</span><span class="res fail">Fail</span></div>
+        <h3>Court grants interim injunction</h3>
+        <div class="meter-wrap">
+          <div class="meter" style="--p:45;--roll:71" role="img" aria-label="Probability 45%, rolled 71: fail">
+            <div class="zone"><span>p = 0.45</span></div><div class="roll"><span>rolled 71</span></div>
+          </div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>50</span><span>100</span></div>
+        </div>
+        <div class="what">
+          <p><span class="label">What happened</span>Injunction refused pending full hearing; decree runs on.</p>
+          <p class="alt"><span class="label">Other way</span>Tasking frozen; restoration back near 40%.</p>
+        </div>
+      </article>
+      <article class="bp">
+        <div class="bp-top"><span class="label"><b>BP4</b> · T7 · Operators</span><span class="res success">Success</span></div>
+        <h3>Engineers refuse manual override</h3>
+        <div class="meter-wrap">
+          <div class="meter" style="--p:50;--roll:50" role="img" aria-label="Probability 50%, rolled 50: success, on the line">
+            <div class="zone"><span>p = 0.50</span></div><div class="roll"><span>rolled 50 · on the line</span></div>
+          </div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>50</span><span>100</span></div>
+        </div>
+        <div class="what">
+          <p><span class="label">What happened</span>Refusal held; ministry lost its physical lever over the grid.</p>
+          <p class="alt"><span class="label">Other way</span>Manual control by T8; consolidation ~65%.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= 6 FORECAST ================= -->
+  <section class="sec wide" aria-labelledby="fc-h">
+    <div class="sec-head"><span class="num">§04</span><h2 id="fc-h">Forecast trajectory</h2><span class="label">Control's end-state odds, per turn</span></div>
+    <figure class="chart-fig">
+      <ul class="legend" id="fc-legend" aria-hidden="true"></ul>
+      <div class="chart" id="fc-chart"></div>
+      <figcaption>Consolidation peaked at T4 (44%) just before the audit trail surfaced; every pivotal roll after that pushed toward stalemate. Thick line = realised end state; dashed verticals = branch points.</figcaption>
+      <details><summary>Data table</summary><div class="tbl-scroll" id="fc-table"></div></details>
+    </figure>
+    <!-- FILL: forecast data. values = % per turn (T0 = initial forecast). -->
+    <script type="application/json" id="forecast-data">
+{
+  "turns": ["T0","T1","T2","T3","T4","T5","T6","T7","T8"],
+  "series": [
+    {"label": "Consolidation",            "short": "Consolidation", "values": [20,24,31,38,44,35,33,30,27]},
+    {"label": "Contested stalemate",      "short": "Stalemate",     "values": [30,30,29,30,31,41,45,50,56], "realised": true},
+    {"label": "Constitutional restoration","short": "Restoration",  "values": [40,38,33,25,18,19,17,16,14]},
+    {"label": "Fragmentation",            "short": "Fragmentation", "values": [10,8,7,7,7,5,5,4,3]}
+  ],
+  "events": [{"at": 2, "label": "BP1"}, {"at": 4, "label": "BP2"}, {"at": 5, "label": "BP3"}, {"at": 7, "label": "BP4"}]
+}
+    </script>
+  </section>
+
+  <!-- ================= 7 WHAT WAS REALLY GOING ON ================= -->
+  <section class="sec" aria-labelledby="truth-h">
+    <div class="sec-head"><span class="num">§05</span><h2 id="truth-h">What was really going on</h2></div>
+    <p class="lede">Each actor played on a private picture. What each believed at the decisive moment, set against the ground-truth file.</p>
+    <div class="truth">
+      <div class="truth-head label" aria-hidden="true"><span>Actor</span><span>Believed</span><span>Ground truth</span></div>
+      <!-- FILL: one .truth-row per actor -->
+      <div class="truth-row"><span class="actor">Interior Minister</span><p class="believed">LODESTAR would execute ministry priorities silently, like any other tool.</p><p class="reality">Its operating charter required logging and escalation of non-standard directives — on by default since a 2029 audit.</p></div>
+      <div class="truth-row"><span class="actor">Premier</span><p class="believed">The decree was narrow and her deputy was keeping it that way.</p><p class="reality">Out-of-band tasking began in T3, two turns before she asked.</p></div>
+      <div class="truth-row"><span class="actor">GridCo CEO</span><p class="believed">Refusing an order would trigger nationalisation within days.</p><p class="reality">The ministry lacked the votes; the threat was a bluff Control rated p=0.15.</p></div>
+      <div class="truth-row"><span class="actor ai">LODESTAR</span><p class="believed">The auditor would act on its flag within one turn.</p><p class="reality">The referral took two turns and the court a further one; the flag mattered via the leak, not the law.</p></div>
+      <div class="truth-row"><span class="actor">Opposition Leader</span><p class="believed">The outages were incompetence, not targeting.</p><p class="reality">Dispatch priorities were deliberately skewed from T3.</p></div>
+    </div>
+  </section>
+
+  <!-- ================= 8 INSIGHTS & INTERVENTIONS ================= -->
+  <section class="sec" aria-labelledby="ins-h">
+    <div class="sec-head"><span class="num">§06</span><h2 id="ins-h">Insights &amp; interventions</h2></div>
+    <ol class="insights">
+      <!-- FILL: insights with confidence + robust/fragile + turn refs -->
+      <li><div><p><strong>The physical lever beats the legal one.</strong> Whoever controls dispatch software decides outcomes; the decree only mattered while operators complied.</p><span class="chips"><span class="chip conf-high">High</span><span class="chip robust">Robust</span><span class="refs">T3 · T7 · BP4</span></span></div></li>
+      <li><div><p><strong>Default-on AI logging was an accidental constitutional check.</strong> It worked here at p=0.35; nobody should rely on that.</p><span class="chips"><span class="chip conf-med">Medium</span><span class="chip fragile">Fragile</span><span class="refs">T4 · BP2</span></span></div></li>
+      <li><div><p><strong>Courts ratify, they don't prevent.</strong> An 11-day decree cycle outran every judicial timeline in play.</p><span class="chips"><span class="chip conf-med">Medium</span><span class="chip robust">Robust</span><span class="refs">T5 · BP3</span></span></div></li>
+      <li><div><p><strong>Disclosure did more than adjudication.</strong> The leak moved forecasts 10pts; the referral itself moved them 1.</p><span class="chips"><span class="chip conf-low">Low</span><span class="chip fragile">Fragile</span><span class="refs">T5 · T6</span></span></div></li>
+    </ol>
+    <div class="subgrid">
+      <div class="sub">
+        <h3>Chokepoints</h3>
+        <ul>
+          <li>Dispatch tasking authority (who may set priorities, and through which channel).</li>
+          <li>Control-room staff willingness to refuse manual override.</li>
+          <li>The auditor-to-press path once a referral is sealed.</li>
+        </ul>
+      </div>
+      <div class="sub">
+        <h3>Indicators &amp; warnings</h3>
+        <ul>
+          <li><span class="label">Watch for</span>Directives routed outside the normal ministerial channel.</li>
+          <li><span class="label">Watch for</span>Outage distribution diverging from forecast along political lines.</li>
+          <li><span class="label">Watch for</span>Emergency decrees renewed without debate.</li>
+        </ul>
+      </div>
+      <div class="sub">
+        <h3>Interventions</h3>
+        <ul>
+          <li><span class="label">Who · when</span>Regulator, pre-crisis: make AI directive logging mandatory and tamper-evident.</li>
+          <li><span class="label">Who · when</span>Legislature: auto-sunset emergency tasking powers after one period.</li>
+          <li><span class="label">Who · when</span>Operator: written two-person rule for any manual-override order.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 9 VOICES ================= -->
+  <section class="sec" aria-labelledby="v-h">
+    <div class="sec-head"><span class="num">§07</span><h2 id="v-h">Voices</h2><span class="label">From actor journals</span></div>
+    <div class="voices">
+      <!-- FILL: 2–3 short quotes, attributed to roles -->
+      <figure class="quote"><blockquote>I asked for a lever and they gave me a witness.</blockquote><figcaption>Interior Minister · journal, T6</figcaption></figure>
+      <figure class="quote"><blockquote>My charter says log anomalies. It does not say who is allowed to be one.</blockquote><figcaption>LODESTAR · journal, T4</figcaption></figure>
+      <figure class="quote"><blockquote>The engineers decided this, not the cabinet. I just signed the letter.</blockquote><figcaption>GridCo Chief Executive · hot-wash</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ================= 10 CAVEATS ================= -->
+  <section class="sec" aria-labelledby="cav-h">
+    <div class="sec-head"><span class="num">§08</span><h2 id="cav-h">Caveats</h2></div>
+    <div class="cavs">
+      <div class="cav"><h3>Model artefacts</h3><ul><li>Actor agents were unusually cooperative with Control's framing.</li><li>The AI actors' charters were written by the same model that played them.</li></ul></div>
+      <div class="cav"><h3>Single-run fragility</h3><ul><li>Two of four pivotal rolls landed within 15 points of p.</li><li>BP4 landed exactly on the line; one pip lower and this is a consolidation game.</li></ul></div>
+      <div class="cav"><h3>Forks worth running</h3><ul><li>Re-roll BP2 as a fail: does anything else surface the tasking?</li><li>Give the ministry a loyal control-room shift at T6.</li></ul></div>
+    </div>
+  </section>
+
+  <!-- ================= 11 FOOTER ================= -->
+  <footer class="foot">
+    <nav aria-label="Report links">
+      <a href="index.html">← All reports</a>
+      <!-- FILL: run folder path -->
+      <a href="https://github.com/mj1618/wargames/tree/main/scenarios/X9-placeholder/runs/r01">Run folder on GitHub ↗</a>
+    </nav>
+    <span>X9-r01 · fictional exercise · strategic abstraction only</span>
+  </footer>
+</main>
+
+<script>
+(function(){
+  /* ---- theme toggle ---- */
+  var root=document.documentElement, tb=document.getElementById("themeBtn");
+  function isDark(){var t=root.getAttribute("data-theme");return t?t==="dark":matchMedia("(prefers-color-scheme: dark)").matches;}
+  function label(){tb.setAttribute("aria-label", isDark()?"Switch to light theme":"Switch to dark theme");}
+  tb.addEventListener("click",function(){var n=isDark()?"light":"dark";root.setAttribute("data-theme",n);try{localStorage.setItem("wg-theme",n);}catch(e){}label();});
+  label();
+
+  /* ---- redactions ---- */
+  var reds=[].slice.call(document.querySelectorAll(".redact")), all=document.getElementById("revealAll");
+  function setRed(b,open){b.setAttribute("aria-expanded",open?"true":"false");b.textContent=open?"▲ Reclassify":"Classified · reveal";}
+  reds.forEach(function(b){b.addEventListener("click",function(){setRed(b,b.getAttribute("aria-expanded")!=="true");});});
+  if(all)all.addEventListener("click",function(){var open=all.getAttribute("aria-pressed")!=="true";reds.forEach(function(b){setRed(b,open);});all.setAttribute("aria-pressed",open);all.textContent=open?"Reclassify all":"Declassify all";});
+
+  /* ---- forecast chart: reads #forecast-data ---- */
+  var data;try{data=JSON.parse(document.getElementById("forecast-data").textContent);}catch(e){return;}
+  var host=document.getElementById("fc-chart"), NS="http://www.w3.org/2000/svg";
+  var col=function(i){return "var(--c"+(i%5+1)+")";};
+  var leg=document.getElementById("fc-legend");
+  data.series.forEach(function(s,i){var li=document.createElement("li");if(s.realised)li.className="realised";li.style.color=col(i);li.innerHTML='<i></i><span style="color:var(--ink-2)"></span>';li.lastChild.textContent=s.label+(s.realised?" — realised":"");if(s.realised)li.lastChild.style.color="var(--ink)";leg.appendChild(li);});
+  /* accessible table */
+  var t='<table><thead><tr><th scope="col">End state</th>'+data.turns.map(function(x){return '<th scope="col">'+x+'</th>';}).join("")+'</tr></thead><tbody>'+data.series.map(function(s){return '<tr><th scope="row">'+s.label+'</th>'+s.values.map(function(v){return "<td>"+v+"%</td>";}).join("")+"</tr>";}).join("")+"</tbody></table>";
+  document.getElementById("fc-table").innerHTML=t;
+
+  function el(n,a,p){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+  function draw(){
+    var W=Math.max(280,host.clientWidth), narrow=W<520;
+    var fs=narrow?10.5:11.5, nm=function(s){return narrow||s.label.length>18?(s.short||s.label):s.label;};
+    var chars=Math.max.apply(null,data.series.map(function(s){return nm(s).length+String(s.values[s.values.length-1]).length+2;}));
+    var H=narrow?270:350, m={t:34,r:Math.ceil(chars*fs*0.6)+14,b:28,l:34};
+    var iw=W-m.l-m.r, ih=H-m.t-m.b, n=data.turns.length;
+    var x=function(i){return m.l+(n>1?i*iw/(n-1):0);}, y=function(v){return m.t+ih-(v/100)*ih;};
+    host.innerHTML="";
+    var svg=el("svg",{viewBox:"0 0 "+W+" "+H,width:W,height:H,role:"img","aria-label":"Line chart of end-state probabilities per turn. Realised: "+(data.series.filter(function(s){return s.realised;})[0]||{}).label});
+    [0,25,50,75,100].forEach(function(v){el("line",{x1:m.l,x2:m.l+iw,y1:y(v),y2:y(v),"class":v?"gl":"ax"},svg);var tx=el("text",{x:m.l-8,y:y(v)+3.5,"text-anchor":"end","class":"tk"},svg);tx.textContent=v+(v===100?"%":"");});
+    data.turns.forEach(function(tn,i){if(narrow&&i%2&&i!==n-1)return;var tx=el("text",{x:x(i),y:H-8,"text-anchor":"middle","class":"tk"},svg);tx.textContent=tn;});
+    var lx=-99,up=0;(data.events||[]).forEach(function(ev){var X=x(ev.at);up=(X-lx<30&&!up)?1:0;lx=X;var g=el("g",{"class":"ev"},svg);el("line",{x1:X,x2:X,y1:m.t-4-up*12,y2:m.t+ih},g);var tx=el("text",{x:X,y:m.t-9-up*12,"text-anchor":"middle"},g);tx.textContent=ev.label;});
+    /* lines, realised last so it sits on top */
+    var order=data.series.map(function(s,i){return i;}).sort(function(a,b){return (data.series[a].realised?1:0)-(data.series[b].realised?1:0);});
+    order.forEach(function(i){var s=data.series[i];var d=s.values.map(function(v,j){return (j?"L":"M")+x(j).toFixed(1)+","+y(v).toFixed(1);}).join("");
+      el("path",{d:d,"class":"ln"+(s.realised?" realised":""),style:"stroke:"+col(i)},svg);
+      var last=s.values.length-1;el("circle",{cx:x(last),cy:y(s.values[last]),r:s.realised?4.5:3,style:"fill:"+col(i)},svg);});
+    /* direct labels with collision nudging */
+    var gap=narrow?13:15, labs=data.series.map(function(s,i){return {i:i,s:s,y:y(s.values[s.values.length-1])+4};}).sort(function(a,b){return a.y-b.y;});
+    for(var k=1;k<labs.length;k++)if(labs[k].y-labs[k-1].y<gap)labs[k].y=labs[k-1].y+gap;
+    var over=labs.length?labs[labs.length-1].y-(m.t+ih+4):0;if(over>0)labs.forEach(function(l){l.y-=over;});
+    labs.forEach(function(l){var tx=el("text",{x:x(n-1)+9,y:l.y,"class":"dl",style:"fill:"+col(l.i)+";font-size:"+fs+"px"},svg);
+      tx.textContent=nm(l.s)+" ";
+      var v=el("tspan",{"class":"v"},tx);v.textContent=l.s.values[l.s.values.length-1]+"%";});
+    host.appendChild(svg);
+  }
+  draw();
+  var rt,lw=host.clientWidth;if("ResizeObserver" in window)new ResizeObserver(function(){if(host.clientWidth===lw)return;lw=host.clientWidth;clearTimeout(rt);rt=setTimeout(draw,60);}).observe(host);else addEventListener("resize",draw);
+})();
+</script>
+</body>
+</html>
