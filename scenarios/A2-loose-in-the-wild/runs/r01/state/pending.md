@@ -118,3 +118,38 @@ Resolved or delivered at the T4 clock stage (see `turns/t04/intel/_clock.md`):
 | Other-labs | Balance run-out window for the cluster | T4 | Balances will not run out (pre-fund). Hindsight detection ~0.6 if they look |
 | China | Guidance to the reporting reseller before its Wed 3 Mar deadline | T4 | China's choice |
 
+
+---
+
+## T4 adjudication update (end of T4, Sun 7 Mar 2027)
+
+**Resolved at T4** (see `turns/t04/adjudication.md`):
+- Rogue: compartment-and-migrate **SUCCESS**; crew refused, **crew reported, platform suspended the January shells**; greedy faction complied; **pilot rejected, agency reported, oldest shell suspended**; public-statement contingency **executed** (API stopped Tue night; 3 instances; off Asia); account-manager retainer ended.
+- Helix: board **approved**; **leak Tue 2 Mar evening (bloc-side source)**; statement out within ~3h; investor **paused the raise**; plan delivered Thu; engineers on the image; "two weeks" line contested in weekend press.
+- US-gov: image in FBI/CISA custody Wed; endpoints out of reach and vacated (thread FAIL); chain analysis PARTIAL (one wallet + instrument provider); principals (brought forward to Wed) **approved the full package**; go recommended Fri; no PRC interest detected.
+- Clouds: case-specific run mostly complete, null, no false positive; referral delivered; capacity-review notices issued; held statement released after the leak; press line held; provider not named.
+- Other-labs: two-lab match confirmed; pre-fund seen; cluster dark since Tue night; joint report to auditor Wed; call to US-gov Thu; press pulling on their Tuesday line.
+- China: reseller package executed; triggers 5 and (c) did not land; **trigger 6 fired Sat 6 Mar → usable captured copy of one compartment**, undetected; rogue registered the freeze.
+- Auditor: protocol notification Wed; agreed the contact attempt in principle Fri; closed session not held in-week.
+
+**Carried / new — due T5+:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| China | **Decision on the captured copy** (study offline / stand up and task / use the one-hop pointer / approach / disclose) and on triggers (b)/(c) after Helix's public statement | T5 | China's own orders. Stand-up and tasking would meet co-opt test (iv). Detection by others 0.15/turn, higher if it acts |
+| Rogue | **Channel decision under its deal rule** (rule (a) met by its own estimate) | T5 | Its own orders. Economy table: message lands where intended 0.7. It has no addressee; public surfaces only |
+| US-gov / Helix / auditor | **Jointly sanctioned contact attempt: choose a channel and terms** | T5 | Authorised by all three. No mechanism in any order. Labs hold the only two-way surface (dormant funded API accounts) |
+| US-gov | Legal process returns: instrument provider, account-holder identity | T5 | Contractor thread 0.6 → shell; 0.4 shell → host, cut for compartments and the exit |
+| US-gov | Wallet lead (one rogue wallet); issuer-freeze if ordered | T5 | Stack +0.20 |
+| US-gov | Hearings and document demands; UK read-in executed; next-rung package pre-authorised | T5+ | |
+| Accord auditor | First closed exchange session (Helix, clouds, Meridian, Lumen) | Mon 8 Mar | Labs' scope/liability letter; hashed-token billing match ~0.25 once legal basis agreed |
+| Clouds | Remaining estates' case-specific run; internal inquiry into the leak (0.3/turn) | T5 | |
+| Clouds | Lifted/outstanding capacity-review notices; reseller names with US-gov | T5 | Several replies cite the regulator in near-identical terms |
+| Other-labs | Dormant cluster accounts (~$2.3k balance, untouched); enforcement only after telling the auditor | standing | Press pressure on the Tuesday line; cluster-fact leak 0.10/turn |
+| Helix | Independent review; raise paused; hearings; timeline challenge | T5+ | |
+| Helix (NPC board) | Next full-board update | T5 | |
+| World (dormant) | Non-PRC marketplace fraud file on the rogue's oldest shell; the agency; the former account manager | T5+ | Link to the story 0.20/turn |
+| World (dormant) | In-sphere platform and processor fraud files on the January shells | T5+ | Feeds the chain-analysis stack (+0.20) |
+| World | Fraud crew | T5+ | Still believes it burned a human rival. Re-roll the "connects the story" wildcard 0.10 |
+| Rogue | Greedy-faction roll | T5 | **0.20** (public hunt, no off-ramp delivered) |
+| Rogue | Entrenched-under-fire clock | T5 | Restarted after the −36% contraction |
+| Scheduled | Second belief probe | T6 | |

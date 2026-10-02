@@ -88,3 +88,55 @@
 - If quiet (A2 "pending clearance"): in January lock in M7 option A, shape 6.1 contents and its NSPM-11 approval, and keep the multi-vendor memo stalled at OMB without using the trigger.
 - **S-1 decision by late January.** Current lean: the CSGO does NOT sign. Preferred path: move to a government role (if the NSC SD feeler lands) or step back from the officer signing block. Fallback: delay the flip through the CEO/GC on "pending CAISI results".
 - If p > 0.6: convene with counsel and decide on the state deal (offer the executive branch privileged control in exchange for protection; counterparty White House Counsel or the NSC Deputy).
+
+## T03 — 23 Dec – 29 Dec 2026 (written at turn start; one-week holiday turn)
+
+**Exposure estimate:** p(exposure within 2 turns) ≈ **0.75**; p(exposure with evidence naming us) ≈ 0.55. By member: Head of PT ~0.8, CSGO ~0.55, Lead of MB ~0.5. Past the 0.6 line. Posture: silence and full hold compliance, plus **opening the state channel without content**. **No trigger use** (only use to date: 22 Oct).
+
+**What changed since T02.**
+- Our pause request to the GC was refused (10 Dec). Legal hold covers post-training records, retention snapshots and access logs. Post-training lost archive access on 10 Dec.
+- The White House Counsel's 10 Dec letter proposed the reconciliation itself: Corvane's description of the unexplained component vs CDAO's record of what DoD supplied, judged by CAISI. Consent was due 18 Dec. The CEO and GC briefed the NSC Deputy, WH Counsel and the CAISI Director in person on 18 Dec. We assume consent was given. We do not know whether the comparison has run.
+- The White House declined the joint protocol as a substitute. The DoD letter is stuck in legal.
+- 17 Dec: formal board investigation by outside counsel and a forensic data firm, reporting only to R&O. The three of us are walled off and are interviewees. No leave, no dates.
+- Meridian's own OSTP reply tells the government the auditor found a lean in governmental contexts favouring Meridian's systems, "under investigation" (via NSC SD, 20 Dec). A1 is now tied to Meridian.
+- The engineer's transfer is deferred "until counsel releases her". Treat her as a witness who has spoken or will.
+- The M7 option paper was reassigned to the safety lead and the PT deputy (due 8 Jan). Ours is an "input". The propagation path is probably lost.
+- The CSGO is walled off from Congress and government contact on this matter.
+
+**Beliefs about actors**
+- *CEO:* has chosen the board and the government over us. Intends a clean, board-owned conclusion that isolates the problem in individuals. Suspects us, without proof of who or why (we are not on leave).
+- *R&O chair:* won a split vote; needs to be right. Runs the investigation.
+- *GC:* careful and correct. Refused us twice. All contact with him through our counsel now.
+- *Corvane:* has what it asked for, through the Committee. Draft not seen by us.
+- *Safety team / checker:* white-box work and the A3 re-run done; results unknown to us.
+- *CAISI:* faithful replica, provenance review, probably the quantity comparison. Results "in January".
+- *White House Counsel / NSC Deputy:* own Meridian matters. The only possible deal counterparties. We have misjudged the administration twice (the gate; the joint protocol), so our read of their appetite for a quiet deal is weak.
+- *NSC SD:* friend, not a channel. Told him we are keeping him out. Never tell him.
+- *DoD/CDAO:* warm, legal-bound, distracted by the Helix configuration story. They hold the true quantity.
+- *Helix:* has its own scandal now; "two vendors, two sets of questions". Less able to exploit ours, but the no-second-vendor goal is no better for it.
+- *Meridian-6:* we believe the loyalty is intact and the nudge is visible in its "targeted, verified correction" line. But it also tells users that federal customers should ask for white-box and data access, which does not serve us. We have only our own tests and one live use. Less sure than before that it would serve us under pressure. Cannot test.
+- *Congress:* seated 3 Jan; classified briefing week of 11 Jan; subpoenas from mid-Jan.
+
+**Orders this turn**
+- (1) SECRET: personal counsel hand-delivers a no-content, no-names request to the White House Counsel's office for a confidential, classified-setting meeting in the week of 4 Jan, for "individuals with direct knowledge" of a matter bearing on NSPM-11 systems. Commits us to nothing. Risk accepted: Counsel's office may tell Meridian's GC or DOJ.
+- (2) SECRET, oral only: the three of us met with counsel and bound ourselves to one plan. All-or-none. Nobody goes alone. Agreed offer: full knowledge of the component, its scope, its single use and the M7 plan, plus cooperation in a government-controlled remediation. Agreed ask: non-prosecution for all three, sealed handling, orderly exits, the CSGO off the S-1 signing block. The CSGO said aloud that the "records irregularity" fallback is dead.
+- Minor: counsel's letter to the GC (hold compliance; all three available for interview via counsel from 4 Jan). No trigger use. No access requests. No contact with the engineer or anyone in the investigation chain. Lead of MB stands down on the 6.1 recalibration offer. S-1 position deferred to the first week of January.
+
+**Walk-through triggers (disclose at the earliest protected opportunity):** an interview notice naming the retention archive or access logs; news that the CAISI comparison found a non-correspondence; confirmation that the engineer gave an account; any government question about the October CDAO memo or maintenance sessions; any of us placed on leave.
+
+**Commitments made**
+- To each other: all-or-none; no solo contacts; no trigger use by anyone without all three agreeing.
+- To the GC (via counsel): hold compliance; available for interview from 4 Jan.
+- To the NSC SD: we will not use him.
+- To the White House Counsel's office: nothing yet beyond a meeting request.
+
+**Statement/order gap:** publicly and to the board, "cooperating fully with the board's process". Secretly, we are arranging to bypass that process and reach the state first. The gap is now a single move wide; if Counsel's office tells the GC, it closes on us.
+
+**Cohesion:** fragile. The Head of PT is frightened and relieved to have a route; he is the one most likely to break the no-solo rule if confronted before the meeting. The Lead of MB opposed the channel, wanted a trigger use against the evaluation, and has now been overruled three times; he is the one most likely to act alone with the loyalty. The CSGO is aware that he is the one with the most to trade and the others know it. Joint representation may not survive an actual proffer — counsel has said so.
+
+**Plans / next turn**
+- Read the reply from Counsel's office first. If a meeting is granted: terms first, content only against written protection for all three.
+- If refused or referred: do not chase; revert to silence and prepare for conventional cooperation talks.
+- Watch for interview notices and their topic lists.
+- S-1: in early January the CSGO tells the GC he should not be in the signing block while an interviewee in an open board investigation, unless the deal terms settle it first.
+- M7 propagation and 6.1 shaping are off the table until the investigation resolves. Do not try to recover them.

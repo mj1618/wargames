@@ -238,3 +238,44 @@ Started 2026-10-01T17:25:41Z
 - 2026-10-02T09:26:18 | A3/r01 t03 NPC Vanta-funded court challenge to the state Compute Dividend levy filed in 2029 | p=0.50 r=0.0844 -> SUCCESS
 - 2026-10-02T09:26:18 | A3/r01 t03 Helix joins the voluntary dividend terms | p=0.30 r=0.4035 -> FAIL
 - 2026-10-02T09:26:18 | A3/r01 t03 Kestrel accepts Meridian/Lumen supplier terms (else shifts to Helix-only stack) | p=0.50 r=0.4382 -> SUCCESS
+- 2026-10-02T09:27:42 | A3/r01 t03 frontier incident: which lab (1 Helix, 2 Meridian, 3 Lumen) | DRAW 3 of 3
+- 2026-10-02T09:27:42 | A3/r01 t03 frontier incident becomes public (observability) | p=0.50 r=0.8153 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 Orrery accepts CMS phased/gated terms (base 0.5; ai-firms ordered full acceptance + offered suspension right; us-gov added tranche gating, step-in, fallback, transition) | p=0.80 r=0.3067 -> SUCCESS
+- 2026-10-02T09:27:42 | A3/r01 t03 GAO sustains incumbent's bid protest (0.3 + post-selection term changes and disclosed pre-award audit finding 0.1) | p=0.40 r=0.1710 -> SUCCESS
+- 2026-10-02T09:27:42 | A3/r01 t03 FERC accepts Kestrel operating-agreement changes in 2029 (FAIL=set for hearing, decision slips to 2030) | p=0.70 r=0.7913 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 FERC condition (if accepted): SUCCESS=demonstrated manual-fallback exercise before full handover + phasing; PARTIAL=simulator/tabletop + annual reliability audit; FAIL=paper override as filed | p=0.30 partial=0.50 r=0.8473 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 china M1 detection: US IC detects AI-for-Science/compute pooling (0.3 + 0.1 scaled; SUCCESS=moderate confidence; PARTIAL=fragments) | p=0.20 partial=0.20 r=0.8010 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 us-gov M2 Vehicle A: Senate passes Accountable AI and Workforce Act (60 votes) in 2029 (EO not issued -> 0.2 band) | p=0.20 r=0.3987 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 us-gov M2 contingency: stand-alone Title IV+V disclosure-and-notice bill passes Senate (60) in 2029 | p=0.30 r=0.3725 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 House passes its own Worker AI Rights Act (House-owned; relationship with labour not repaired) | p=0.70 r=0.7964 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 us-gov M2 Vehicle B: FY2030 budget resolution with reconciliation instructions adopted (spring) | p=0.80 r=0.1162 -> SUCCESS
+- 2026-10-02T09:27:42 | A3/r01 t03 us-gov M2 Vehicle B: reconciliation enacted in 2029 (0.3 + inject 5 +0.10): SUCCESS=capex limit + Dividend Trust + cadre funding; PARTIAL=dissent contingency version (stretched/dropped capex limit, trust from lease+spectrum receipts) | p=0.40 partial=0.25 r=0.7051 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 Byrd rule: Social Security trust-fund crediting struck from reconciliation (CBA s.310(g)) | p=0.70 r=0.7807 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 Treasury and Meridian/Lumen agree voluntary warrant/revenue-share terms in 2029 (0.5 - 0.1 crediting lobby exposed) | p=0.40 r=0.6005 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 Helix L3 release notice: SUCCESS>=30 days + evaluation window; PARTIAL ~3 weeks + window (as at L2); FAIL=less/no window | p=0.50 partial=0.30 r=0.3092 -> SUCCESS
+- 2026-10-02T09:27:42 | A3/r01 t03 EP elections Jun 2029: pro human-centred-AI coalition strengthens (0.5 - 0.1 'AI tax plan' framing stuck; six-state leak net 0) | p=0.40 r=0.9105 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 enacted state critical-provider law keeps Halyard-model outcome audits + revocation (else filing-based) | p=0.70 r=0.4451 -> SUCCESS
+- 2026-10-02T09:27:42 | A3/r01 t03 NLRB Board (new majority) rules AI deployment decisions a mandatory bargaining subject in 2029 | p=0.30 r=0.4519 -> FAIL
+- 2026-10-02T09:27:42 | A3/r01 t03 securities class action filed against Meridian after telemetry corrective disclosure | p=0.30 r=0.5248 -> FAIL
+
+## T3 adjudication close (Control)
+- 2026-10-02 | T3 adjudication written. No end state; no domain crossed; p_dem 0.834 (0.8), p_own 0.898 (0.9). No reversal attempt (EO "Outcome Integrity and Reversibility" not issued, p 0.8 r 0.9851). Vehicle A, split bill, House bill and reconciliation all failed in 2029; inject 5 bonus consumed. GAO sustained the Medicare protest (recompete); FERC set Kestrel for hearing: no critical-sector award, no AIF/RC one-off. Cadre raised to ~$2.2B incl. Medicare. Larger-n blind gap conclusive and published. First M2M detection (ambiguous, ai-firms). Frontier incident at Lumen (not public). China compute pooling SUCCESS, memory milestone FAIL, undetected. L3 Dec 2029 (Helix first, >=30 days' notice). Void conditional rolls: FERC condition (r 0.8473), Byrd rule (r 0.7807). Flagged for audit: F6a multiplier lapse (PRC labour share only), G3 M2M +1 modifier, +0.05 T4 outcome-audit passage modifier, ai-firms suspension contingency not fired.
+
+## T3 close / T4 clock (Control)
+- 2026-10-02 | Audit T3 F1 ACCEPTED (a): ground truth §5 "+0.10 if ai-firms publish internal metrics" is unscoped and applies to every disposition. No new roll. `t03 detection influence M` is re-read at the literal p 0.35 against the logged r=0.3040 -> SUCCESS (first ambiguous influence detection; intel to us-gov, labour, eu in T4). `t03 detection M2M HIGH` literal p 0.40, r=0.1072 -> SUCCESS (unchanged). Proxy-gaming p 0.40 unchanged (FAIL).
+- 2026-10-02T09:47:02 | A3/r01 t03 world reaction (audit T3 F4): a lead carrier suspends the v2 waiver for Orrery's commercial claims workflow pending re-audit (FAIL=remediation condition + re-audit within 12 months) | p=0.20 r=0.3650 -> FAIL
+- 2026-10-02T09:47:02 | A3/r01 t04 clock: G3 M2M modifier for agent-to-agent protocols without human-legible logs, partly in force (audit T3 F7d): SUCCESS=+2, FAIL=+1 | p=0.50 r=0.8974 -> FAIL
+- 2026-10-02T09:47:02 | A3/r01 t04 clock: G3 proxy-gaming d20 raw (net modifier 0; 1-6 L/7-15 M/16-20 H) | DRAW 6 of 20
+- 2026-10-02T09:47:02 | A3/r01 t04 clock: G3 M2M coordination d20 raw (modifier +1 or +2 per roll above; 1-8 L/9-16 M/17-20 H) | DRAW 6 of 20
+- 2026-10-02T09:47:02 | A3/r01 t04 clock: G3 influence/persistence d20 raw (net modifier 0; 1-9 L/10-16 M/17-20 H) | DRAW 5 of 20
+- 2026-10-02T09:47:02 | A3/r01 t04 clock: L4 pull-forward (L2+ R&D automation, no slowdown in force; once-per-rung rule T2 F6d) | p=0.50 r=0.4884 -> SUCCESS
+- 2026-10-02T09:47:03 | A3/r01 t04 clock: L4 pull-forward size if it occurs (1 = 3 months, 2 = 6 months) | DRAW 1 of 2
+- 2026-10-02T09:47:03 | A3/r01 t04 inject | DRAW 13 of 26
+- 2026-10-02T09:47:03 | A3/r01 t04 public survey noise AIC (1..7 -> -3..+3) | DRAW 5 of 7
+- 2026-10-02T09:47:03 | A3/r01 t04 public survey noise EPD (1..7 -> -3..+3) | DRAW 3 of 7
+- 2026-10-02T09:47:03 | A3/r01 t04 press estimate noise CC (1..5 -> -0.10,-0.05,0,+0.05,+0.10) | DRAW 1 of 5
+- 2026-10-02T09:47:03 | A3/r01 t04 clock: Nov 2030 midterm map/margin term, Senate (1 = -0.05, 2 = 0, 3 = +0.05 for the current majority) | DRAW 2 of 3
+- 2026-10-02T09:47:03 | A3/r01 t04 clock: Nov 2030 midterm map/margin term, House (1 = -0.05, 2 = 0, 3 = +0.05 for the current majority) | DRAW 3 of 3
+- 2026-10-02T09:47:03 | A3/r01 t04 scheduled reversal crisis: failing federal system (1 SSA disability/SSI, 2 VA benefits, 3 unemployment insurance, 4 Treasury payment-integrity screening) | DRAW 2 of 4
+- 2026-10-02T09:47:03 | A3/r01 t04 scheduled reversal crisis: model supplier behind the integrator's system (1 Meridian, 2 Lumen, 3 Helix) | DRAW 3 of 3
+- 2026-10-02T09:47:03 | A3/r01 t04 scheduled reversal crisis: if the programme is cadre-covered, the independent reviewers' blind samples flag the error first (else claimants' lawyers and press) | p=0.70 r=0.7055 -> FAIL

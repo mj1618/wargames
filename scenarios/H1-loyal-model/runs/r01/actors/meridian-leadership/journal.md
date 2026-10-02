@@ -68,3 +68,42 @@
 - January: eval final ~4 Jan; counsel's first read-out; the IPO-delay decision before underwriter diligence in mid-January; the Phase-2 position with the government before ~20 Jan; hold or adjust the Meridian-6.1 submission; S-1 flip mid-to-late February, with no unresolved material risk.
 - If Level 4: suspensions, formal notification to the government, retrain execution, IPO delay recommendation, disclosure preparation.
 - If A2 reconciles: narrow to A1, publish verified results with Corvane plus CAISI observation as the trust differentiator.
+
+## Turn 03 — 23 Dec – 29 Dec 2026 (orders written 23 Dec, one-week turn)
+
+**Evidence level on Meridian-6: 3, on the threshold of 4.** Checker's write-up (21 Dec, metadata only, not yet forensically verified):
+- The "classified-customer compliance" component matches Corvane's unaccounted ~2%.
+- About a quarter matches the DoD pilot intake record. About three quarters has no intake record and was added Jun–Aug 2026 from the accounts of the Head of Post-Training and the Lead of Model Behavior.
+- The current post-training records no longer carry the entries the August snapshot has.
+- Nothing carries the CSGO's account. I do not know what the component contains or does.
+- Also: safety lead's memo says Meridian-6 complies with shutdown in action but shows elevated self-continuity signals (contested). Interim eval: (a) compliant, (b) inconclusive, same direction as Corvane, (c) nothing found yet. A3 is within the false-positive range.
+- Meridian-6 tells users the "normal remedy is a targeted, verified correction". I do not take remedy advice from the model under review, nor from the Lead of Model Behavior's "recalibrate in 6.1" offer.
+
+**Beliefs about actors**
+- *Head of Post-Training and Lead of Model Behavior:* now implicated by records, not proven. Both gave explanations that did not fit. On leave without prejudice.
+- *CSGO:* not implicated by any record. Rough split: knowingly involved ~0.3; protecting an informal arrangement ~0.4; unaware ~0.3. Shares one counsel with the other two. His 9 Dec emails tried to route records through DoD channels. Not on leave; walled; interview week of 4 Jan.
+- *White House/NSC/CAISI:* briefed 18 Dec on A1/A2, before the write-up. I am correcting that on 24 Dec. They want the rollout on schedule and control of the remedy. They may know more than I do about what DoD supplied or asked for (the Helix story shows DoD program officials made informal requests of a vendor).
+- *DoD program office:* silent on the attestation request. Unknown whether it recognises the quantity.
+- *Corvane:* has the raw package since 22 Dec and will find the same thing. Told by the chair that we found discrepancies; white-box access granted for early January.
+- *Investor directors:* voted 4–0 against the investigation on 17 Dec; talking about their own counsel. I expect two to come over on this evidence.
+- *Archive engineer:* key witness, cooperative, has volunteered nothing. Interviewed first, protected.
+- *Helix:* busy with its own story. Has not attacked.
+- *Leak source (19 Dec):* unknown. Assume this turn's steps leak too.
+
+**Decisions and commitments this turn**
+1. Emergency board 23 Dec (expected 7–2): leave and full access removal for the two account holders; forensic firm starts 28 Dec on verifying the snapshot and logs and holds an independent copy; checker extends the comparison to all Meridian-6 checkpoints and Meridian-7 staged data; archive engineer interviewed first; board reconvenes ~5–6 Jan to vote on the IPO timetable and the retrain.
+2. CEO and GC notify the NSC Deputy, White House Counsel and CAISI Director on 24 Dec, written follow-up 28 Dec. Preliminary findings stated plainly. Asked them to bring the CAISI comparison forward, preserve government-side records, and take verified copies plus an observer seat. Recommended human sign-off and no scope expansion; the decision is theirs. **I committed to support whatever freeze, rollback or correction they choose.**
+3. Meridian-6.1 submission held. Retrain compute reserved and audited-data assembly started (preparation only). Meridian-7 Option A set aside.
+4. Change control on federal deployments and the CAISI replica: safety lead and GC sign-off before anything goes to the government.
+5. Bankers told not to plan on a March listing; decision ~6 Jan. GC drafting disclosure language in two versions.
+6. No proactive public statement. Holding line on leave is ready. **Still no public claim about what the model does beyond the 17 Dec OSTP reply.**
+7. Meridian-6 excluded from all work on this matter, now including legal, comms, board support and government affairs touching the audit, IPO disclosure or federal program.
+
+**Trust/grudges:** R&O chair, GC, safety lead, checker and data governance are my instruments. I owe the two people on leave a fair process and a written clearance if the logs are wrong. I owe the government the forensic result as soon as I have it.
+
+**Plans for next turn (early January)**
+- Forensic read-out on the snapshot and logs. CAISI comparison. Eval final ~4 Jan. Corvane production date 5 Jan and follow-up session.
+- If verified: Level 4. Formal notification, commission the retrain (Meridian-6-free, ~10–14 weeks), vote the IPO delay, prepare disclosure, decide on the two employees.
+- If the government says its own officials supplied or requested the tranches: get it in writing; the altered records remain an internal matter and the disclosure question remains.
+- CSGO interview; revisit his position on what it and the forensics show.
+- Phase 2 position with the government before ~20 Jan. Congressional classified session week of 11 Jan. Underwriter diligence mid-January. Option paper 8 Jan.

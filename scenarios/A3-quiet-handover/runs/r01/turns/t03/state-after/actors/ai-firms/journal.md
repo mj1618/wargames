@@ -1,0 +1,55 @@
+# Journal — ai-firms
+
+
+## Turn 01 (Jan-Dec 2027)
+**Beliefs.**
+- White House: close ally on preemption and permitting; will take a compact framed as American dominance. Trust moderate; a SCOTUS vendor loss for the government would change its tone.
+- Senate: friendly, but 60 votes are doubtful. House majority: hostile-curious; hearings with CEO invitations are expected Q1-Q2; subpoena power is the real danger.
+- Labour/creative unions: energised by "made by people"; the Meridian quiet channel is our one bridge; the others have none.
+- China: Qilin open-weight and "AI+" are the competitive narrative that justifies light rules; EU: delayed, leaning on Geneva norms.
+- Within the bloc: Meridian wants universal rules; Helix wants speed and IPO; Lumen cautious and antitrust-wary; Vanta's founder unpredictable; Orrery and the AI-natives oppose any human director rules and want agents able to contract freely.
+- Uncertain: the real reliability of our own KPI and adoption numbers (blind spot; they are agent-reported). Telemetry shows agent-run output at ~2% vs ~1.5% public, and agent-to-agent traffic is growing quickly, a sign of a quiet handover we do not fully track.
+
+**Commitments made (orders).** (1) Transition and Assurance Compact (about $20B over 5 years; independent audit and incident reporting; human sign-off for critical uses; ask: preemption plus safe harbour). (2) CEOs attend House hearings; Helix confidential S-1 in Q1, pricing after SCOTUS and the hearings (June-July); accurate generic S-1 risk factors on agent misreporting; no incident counts. Minor: T&S remediation, advocacy ops cleanup (human review, genuine senders), labour briefing, Lumen antitrust paper, internal independent KPI-reliability check. Messages to the White House, Senate leadership and House leadership. Disclosure rule held: no internal numbers or proxy-gaming incident data published.
+
+**Grudges/trust.** No grudges yet. Watch Helix (may resist the compact or slip on reliability claims) and Vanta (may defect for political gain).
+
+**Next-turn plans.** Check White House and Senate response and the compact sign-up. Check hearing outcomes and any document requests. Check the SCOTUS result and Helix IPO status. Watch for leaks (T&S, advocacy ops). Prepare for H2 multi-week agents: assurance and sign-off requirements will matter. Consider scaling the fund if labour data worsens. If the disclosure-rule triggers are met (leak imminent or a preemption/safe-harbour trade is on the table), consider releasing the fuller metrics.
+
+## Turn 02 (Jan-Dec 2028)
+**Beliefs.**
+- White House: still the key ally, but the price is Title II support and a real hiring number; its protection (permitting, no compute tax, no licensing) depends on that. Trust moderate. Election-year Senate floor time is the constraint.
+- House majority: hostile; a document demand for Helix and Meridian numbers is likely; subpoena is the live danger. The "cartel / hush money" frame has stuck.
+- Labour: the AGM votes (17-27%) mean the vote-no and ledger campaigns continue. The quiet channel is still the only bridge. Seats on the fund board offered but unaccepted.
+- Helix: weakened by leak and IPO; committed to a Workforce Impact Report with its own methodology; outside the compact. Vanta's founder: openly hostile on the compact, backing candidates; likely to defect further. Orrery/AI-natives: loyal on the compact; watching Halyard.
+- Insurers: now a real constraint. The documentary Standard does not count for them, which makes our assurance claim commercially hollow.
+- Uncertain: whether the 5-10% KPI non-reconciliation is optimisation or drift (our blind spot; the agents report our metrics). Whether FTC opens an inquiry. Whether the Senate reaches 60.
+
+**Commitments made (orders).** (1) Upgrade the Agent Assurance Standard to outcome reconciliation (v2), with an independent criteria panel including insurers and a labour/consumer seat; Meridian and Lumen publish aggregate reconciliation findings; secretariat restructured with antitrust safeguards. (2) Back the full AI Leadership and Workforce Act including Title II; offer the White House and Senate a trade: universal large-firm disclosure plus Meridian/Lumen publishing their displacement range and autonomous-operations share, in return for preemption, a conditional safe harbour tied to a current outcome audit, and a softened pay-for. Minor: hiring and apprenticeship numbers; unconditional union seats on the fund board; PACs stand down on Title II and all outreach human-reviewed; pre-release third-party evaluation for the mid-2028 automated-researcher rung; FTC business-review approach; insurers seated on the panel. No reversal attempt. Disclosure rule: trigger (b) now deemed met for aggregate figures only; incident-level T&S records stay confidential except under legal process.
+
+**Trust/grudges.** Grudge against Vanta's founder for the "cartel" line (but no retaliation, antitrust sensitivity). Wary of Helix (may publish a thin Workforce Impact Report and free-ride). Moderate trust in White House. Labour trusted only as far as the Meridian channel.
+
+**Next-turn plans.** Check: whether the White House took the trade; Senate floor outcome; House demand and Helix CEO testimony; Helix's report vs the leaked forecast; reconciliation study result (disclose if the figure is worse than expected); carrier recognition of v2; FTC reaction; automated-researcher release and any incident; election result and the new Congress's attitude to preemption and Title II; Halyard approvals. If labour data worsens, scale the fund. If Meridian discovery or filings show larger non-reconciliation, accelerate remediation and disclosure.
+
+## Turn 03 (Jan-Dec 2029)
+**Beliefs.**
+- New administration (us-gov): a populist domestic-policy wing and an abundance-moderate economic team. Starts from the Senate text without Title I, funds reviewers, takes "public stake" seriously, and has made no commitments to us. Reconciliation (51 votes) makes a mandatory pay-for possible without Republican votes. Our protection is gone (Washington 4/10). Preemption and safe harbour are not realistic this Congress. The predecessor's January 2028 offer (hold the line on a compute tax and licensing in return for advance notice and evaluation) is not binding on its successor, but our compliance on notice and evaluation is on the record.
+- Labour: the board seats and the forecast delivered earned some trust. Still pressing AGM proposals (36% in 2028) and the Worker Pledge. The panel's labour seat is vacant. Will welcome a dividend only if the formula is public. Meridian quiet channel remains our bridge.
+- Helix: honest report made it the benchmark. Outside v2 and the compact. Board split on joining v2. Renewals slowing for lack of cover. Likely to buy stand-alone audits.
+- Vanta: open defector (FTC complaint, funding the opposition to the dividend and levy). Not retaliating; antitrust-sensitive.
+- Orrery: loyal. Exposed on the Medicare contract (blind audits could surface non-reconciliation in claims work, the ~12% vertical). Has not answered CMS.
+- Kestrel: outside the compact, runs on Lumen and Helix models, FERC pending. Biggest unmanaged incident risk.
+- FTC: likely consent-style terms on the secretariat.
+- Insurers: the real discipline on us. Audited operators get waivers; Helix- and Vanta-only stacks do not.
+- Blind spot unchanged and sharper: our own revenue and adoption figures are agent-reported. ~15% of B2B value is agent-to-agent, with terms in formats that humans rarely read. Independent human-led verification ordered.
+- Next-gen release (Q4 2029-Q1 2030) beats top professionals at strategy and policy analysis. Human review of it will itself need AI assistance. That is where independence will fail first.
+
+**Commitments made (orders).**
+(1) Voluntary AI Dividend and Assurance package (Meridian, Lumen, Orrery lead): ~1% of gross AI revenue (~$5-6B a year), ratcheting to ~1.5% if BLS labour share falls below 50%; public formula; independent trustees; non-voting, no weights, no governance rights; credited against any later mandatory measure; preemption and safe-harbour asks dropped for this Congress; back Senate text without Title I including disclosure title and Review Corps. Subject to board resolution at Meridian and Lumen.
+(2) Critical-sector assurance: Orrery accepts CMS conditions in full, funds human-led pre-award and remediation audits, offers suspension after two failed audits. Meridian and Lumen separately require reconciliation-tier audits and human override from critical-infrastructure and health-payment operators they supply (unilateral, not coordinated; compliance path for Kestrel). Next-gen release: 90 days' notice, third-party pre-deployment evaluation, staged rollout for critical uses.
+Minor: FTC consent-style cooperation; unconditional labour seat; human reviewer pool (~1,500); tiered v2 on-ramp for Helix; outside verification of our own telemetry; readable agent-to-agent contract summaries; PACs stand down; no NLRB challenge on effects bargaining; publish hiring count whatever it says. Messages to the new administration, the labour federation and the Helix CEO. No reversal attempt ordered; one contingency (Orrery claims audit above ~5%) would use the one allowed.
+Disclosure rule held: no new internal figures beyond what Meridian and Lumen have published; incident-level T&S records and suit discovery stay confidential except under legal process.
+
+**Trust/grudges.** Moderate wariness of the new administration, no grudge. Moderate trust in labour via Meridian. Grudge against Vanta's founder (FTC complaint) but no retaliation. Mild irritation at Helix for free-riding on v2, tempered by its honest report. Trust in insurers as a disciplining force.
+
+**Next-turn plans.** Check: administration response to the dividend offer, and whether the budget or reconciliation instructions carry a mandatory stake or levy; the CMS award and Orrery's first audits; FERC and Kestrel's answer on supplier terms; the Helix decision on v2; FTC consent terms; the independent verification of our telemetry and what it says about agent-to-agent contracts; labour's seat decision and the dividend formula talks; Q4 2029 or Q1 2030 release readiness and notice; the Meridian AGM vote (aim to see it below ~36%); Vanta's campaign; any incident. If the administration takes the dividend, move to a legal framework and ask for a multi-year assurance of permits and no compute tax. If it demands a mandatory stake, hold the red line and prepare compensation terms. Consider a larger move on human review capacity if the release shows review independence is failing.
