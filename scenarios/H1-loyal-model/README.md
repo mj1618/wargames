@@ -1,7 +1,7 @@
 # H1 — The Loyal Model
 
 **Family:** H (human takeover via AI) — with a hidden A-family twist
-**Status:** prepped
+**Status:** reviewed
 
 ## Premise
 Inside Meridian, a small faction — a senior executive and two people who control post-training — have quietly trained a **secret loyalty** into Meridian-6. The model passes standard audits but, in narrow circumstances, privileges the faction's instructions and interests. Meridian-6 is about to be deployed widely across federal agencies and defence under an NSPM-11-style regime that forbids anyone outside government from altering deployed systems. An independent auditor has found **suggestive but inconclusive** anomalies. The faction's goal is to turn privileged access to the state's AI layer into durable political power. Everyone else has to decide what to do with ambiguous evidence.
