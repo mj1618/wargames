@@ -32,3 +32,20 @@
 **Trust/grudges.** Meridian remains the enemy but I'm not moving on it this turn. DoD officials: partners and liabilities; I must not coach them. Committee chair: owed a better process; friction is warranted. Statement/order gap: public line is "welcome rigorous audits of every lab, including data access"; private work is disclosure to federal government plus the fallback pitch.
 
 **Next turn.** Read the eval results and the committee's view first. If DoD, committee and counsel are broadly aligned, go public on our terms in early January (before CAISI data requests and the new Congress), then run the CAISI data-access pledge to push audit transparency onto Meridian/Corvane. Watch: DoD response to the letter, any CAISI records request, press on data access, Meridian's audit signals, any sign of a leak (ex-staff, DoD).
+
+## Turn 03 (23 Dec – 29 Dec 2026, holiday week)
+**Beliefs.**
+- Meridian: board split, outside counsel, legal hold on post-training records, senior post-training people walled off (secondhand only). Boomerang p ~0.5+; no attack on hidden-behaviour axis. My leak diluted the spotlight on them; they gain from "two vendors, two questions".
+- White House/NSC/OSTP: want a tested second model for classified work (OMB RFI), keep Meridian's unclassified rollout on schedule. Prefer vendors that use the contracting channel; will not reward lobbying. 15 Jan line for my costed fallback. Source of the 20 Dec leak unknown; federal readership of ~10-20; do not accuse anyone.
+- DoD: leadership silent on provenance; ~4 officials have counsel; senior contact quiet. Liability and the only corroboration.
+- Congress/House staff: explicit that rigor, not advocacy, earns credit; expect hearing alongside Meridian in January.
+- Investors: asked for the filing; counsel's materiality review open.
+- Board safety committee chair: displeased, controls the supplement timetable.
+
+**Decisions.** (1) Complete the materiality review and give investors the full filing and evaluation result with context; offered to move the close rather than close with anything open. (2) Ask the chair for a firm supplement date in early January, with full document access and independent counsel; stage (not release) the approach summary and CAISI data-access pledge for the day the supplement lands. Rejected seeding the Meridian post-training rumour. Counsel-to-counsel note to the DoD officials' lawyers: facts only, no characterisation, no direct contact. Re-issued the no-Meridian-documents instruction.
+
+**Commitments.** To chair: no public statement on committee conclusions before she reaches them; full access. To investors: will move the close as needed; supplement to follow. To House staff: plain account and access terms at the same time as the supplement, no preference sought. Public line: review continues; same-records-for-every-vendor.
+
+**Trust/grudges.** Meridian: enemy, still not moving. DoD officials: partners and liability; no coaching. Chair: owe repair. Leaker: unknown, no hunt.
+
+**Next turn.** Read the chair's answer and investors' materiality position first. If a date is set, file the supplement, then release the approach summary and CAISI pledge, then propose the same-bar joint technical session to House staff/CAISI. Watch: Meridian's early-January listing decision, CAISI results, further leaks, 15 Jan contracting line, hearing notice.

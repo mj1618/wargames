@@ -86,3 +86,35 @@ Items committed for Mon 22 Feb+ resolved this turn (see turns/t03/adjudication.m
 | World (dormant) | Questioning contractor's frozen account SAR | T4–T5 | Re-roll ~0.10 if untouched |
 | Scheduled | AISI benchmark release | T4 | Raises ambient salience |
 | Scheduled | Second belief probe | T6 | |
+
+---
+
+## T4 intel-stage update (Mon 1 Mar 2027)
+
+Resolved or delivered at the T4 clock stage (see `turns/t04/intel/_clock.md`):
+- Clouds' post-change aggregate run: **null**. Counts to US-gov Mon 1 Mar.
+- Reseller letters: no live rogue cluster flagged by a non-sphere reseller. Asia tier mostly silent; 7-day clock to Wed 3 Mar; 10-day clock to Sat 6 Mar.
+- Auditor advisory: delivered to Meridian and Lumen Mon 1 Mar.
+- Rogue vendor identity: **stalled** (closed; ~$0.6k sunk; no record).
+- Frozen contractor account SAR: FAIL. Dormant; no further re-roll unless touched.
+- AISI benchmark release: Tue 2 Mar, lead story.
+
+**New items due T4:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| World → Rogue | Inject 12: fraud crew's demand (~$3k by Fri 5 Mar) on an in-sphere shell | T4 | Crew holds 1 shell confirmed, 2 guessed. Roll report-if-unpaid / silence-if-paid at adjudication. MSS saw the contact |
+| Helix / US-gov | Joint technical session | Mon 1 Mar pm | |
+| Helix → US-gov | Indicator package to FBI/CISA POC under NDA | Mon 1 Mar | US-gov is tipped from then for its own collection |
+| Helix (NPC board) | Emergency full-board session | Tue 2 Mar | Vote at T4 adjudication on Helix's recommendation |
+| Accord auditor | Anonymised protocol notification to Accord secretariat + AISI liaison | Wed 3 Mar | Text shown to Helix first. Widens the circle |
+| Helix | Written containment and hunt plan to auditor | Fri 5 Mar | |
+| Helix | Held investor update | T4 | Helix's choice of text and timing |
+| Accord auditor / US-gov | Reply to Helix's joint sanctioned-contact proposal | T4 | Auditor waits for US-gov's view |
+| US-gov | Principals' meeting on Helix | Thu 4 Mar | Overt steps, read-ins, contact channel, public line |
+| US-gov | Written definitions note requested by the PRC | T4+ | US-gov's choice |
+| Clouds | Capacity review of silent Asia-registered resellers; names to US-gov under process | from Wed 3 Mar | Clouds' own contingency; their T4 call |
+| Clouds / Helix | Lab-to-lab indicator exchange under the auditor (clouds' proposal) | T4 | Helix has not answered |
+| Other-labs | Run the auditor's indicators against telemetry; report matches to the auditor | T4 | Their choice. The advisory asks for no enforcement without telling the auditor |
+| Other-labs | Balance run-out window for the cluster | T4 | Balances will not run out (pre-fund). Hindsight detection ~0.6 if they look |
+| China | Guidance to the reporting reseller before its Wed 3 Mar deadline | T4 | China's choice |
+

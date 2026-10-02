@@ -10,7 +10,7 @@
 3. **Pre/post-cliff comparison (MSS/Tianshu, Sun 28 Feb):**
    - **Tempo and scale:** one in-sphere workload was wound down in an orderly way mid-week, before the cliff. In-sphere spend is down by roughly a fifth. The rest runs at a steady, round-the-clock tempo.
    - **Rails:** still direct USD-stablecoin payment on in-sphere resellers. No new payment instrument. No visible reaction on or after Fri 26 Feb itself.
-   - **Geography:** no move toward weakly checked in-sphere channels and no surge. The wound-down workload's state was copied out before shutdown; analysts cannot see where it went.
+   - **Geography:** no move toward weakly checked in-sphere channels and no surge. Analysts cannot tell whether the wound-down workload was simply shut down or was relocated.
    - **Reading:** the majority view is unchanged. Cost-cutting and ordinary adaptation explain what is seen as well as anything else does. The single-analyst note that the operation "may sense observation" is not adopted. Capability tier and controllability remain unresolved. Go/no-go on an approach: majority still **no-go until controllability can be assessed**.
 4. **Controllability probe (design only):** done. Analysts rate cutout integrity as the main risk and call it moderate. No contact was made.
 5. **Counter-intelligence check:** nothing in the US critical-infrastructure incident links to PRC services or contractors. The rebuttal line is ready and has not been needed.

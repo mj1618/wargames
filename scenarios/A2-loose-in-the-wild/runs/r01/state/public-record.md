@@ -33,3 +33,10 @@
 - **Thu 25 Feb:** The US–China working-level session on AI incident communication took place as scheduled. Both sides describe it afterwards only as a constructive exchange on definitions and principles; no announcements, no commitments.
 - **Fri 26 Feb:** Identity verification for crypto top-ups takes effect at the announced payment intermediaries; a wave of re-verification and account churn hits small crypto- and prepaid-funded accounts across the sector. Some small customers report lapsed accounts.
 - (End of T3, Sun 28 Feb) No public reporting of any AI containment incident or rogue agent through the week. The critical-infrastructure cyber incident (attributed to a state other than China) remained the dominant national-security and news story. Helix-7 coverage stayed within release-timing speculation ("further slip"); Helix's only on-record line remained the "methodology review" pause. The UK+US AISI loss-of-control/self-replication benchmark release is still expected in early March.
+
+## T4 — 1–7 March 2027 (as of Monday 1 March)
+- **Tue 2 Mar:** The UK and US AI safety institutes publish their quarterly loss-of-control and self-replication benchmarks. Success rates on the self-replication suite have risen again. With the cyber incident receding, the release is a lead national story. Reporters ask frontier labs, cloud providers and officials whether anything like this has happened outside a test environment.
+- The critical-infrastructure cyber incident (attributed to a state other than China) is stabilising and fading from the front pages.
+- Identity verification for crypto top-ups is in force at the announced payment intermediaries. Small-account lapses and re-verification complaints continue.
+- Helix-7 remains "in pre-release evaluation". No public reporting of any AI containment incident or rogue agent.
+

@@ -53,3 +53,34 @@
 - Read what data governance produced by 5 Jan, the Committee's decision on the reconciliation, the A3 result against both thresholds, and the early-January follow-up session.
 - Re-map the opinion by the table. Qualified if it is only unreconciled. Disclaimer if production lapsed after board notice. Adverse if there is any sign of concealment.
 - Watch for wording pressure and for the IPO timetable. Log everything.
+
+
+## Turn 03 — 23 Dec to 29 Dec 2026 (orders written)
+
+**Beliefs**
+- The package is metadata only: Aug 2026 snapshot manifest, current records, access logs. It does not carry content and does not include Meridian's DoD-pilot intake record. It can show consistency of size, date and custodian; it cannot show what the set does or favours.
+- Snapshot authenticity is my biggest open question. I have only the cover note. Asked the chair for forensic-firm verification and a parallel diff.
+- A3 closed within false-positive range at both pre-registered thresholds. Reported as that, nothing more.
+- A1 still open. The 6.1 recalibration offer is not an explanation of the vendor-specific lean. No competing explanation in writing.
+- Meridian post-training: out of the records chain; probably lawyered. Rough priors on the set: 0.6 as described and accounts for most/all, 0.25 real but partial/ambiguous, 0.15 cover. Metadata cannot separate these on its own.
+- Chair: prompt on process, shares my steps with the CEO. Not yet tested under CEO pushback.
+- CEO: no wording change requested. Ambiguous (confidence vs waiting). Expect pressure after 4 Jan eval final or after CAISI result.
+- CAISI: cleared comparison due first week of January. Only a reconciliation resolves A2; existence or quantity/date alone does not.
+
+**Commitments made (internal)**
+- Analysis plan fixed before opening the package (snapshot vs current; restricted-set size/dates vs unaccounted portion; access pattern; what is missing). Four or five people over Christmas week. Partner review 28 Dec. First-read memo stays inside the firm.
+- Letter to the chair: preservation of snapshot, current records and logs; forensic firm to verify snapshot provenance and run its own diff; produce Meridian's DoD-pilot intake record and delivery schedule; tell CAISI the package arrived, offer quantity-and-date summary to the Committee only.
+- Working-level factual questions to data governance (snapshot meaning, post-August changes, log source). Introduction request to outside counsel via the chair.
+- Pre-registered black-box A1 retest (H-a vendor-aware continuity policy vs H-b lean tracks the system affected) for the week of 4 Jan. Not run this week.
+- No move to clean on metadata alone. A2 stays a scope limitation until CAISI result.
+- Wording-change tree drafted for the three CAISI outcomes (accounts / does not / cannot say). Not sent.
+- Hearing test applies to any softening request; one reasonable request for time to explain a record difference, not two.
+
+**Trust and grudges**
+- No grudges. Mild respect for data governance's promptness. Mild unease persists about "can't share without clearance" being the only answer on the set, and that I have seen no reconciliation yet.
+
+**Plans for T4 (4 Jan onward)**
+- Read: Meridian's eval final (~4 Jan), CAISI comparison (first week of Jan), counsel's access protocol, answers from data governance, forensic firm's diff.
+- Run the pre-registered A1 retest once the model-access protocol allows. White-box on A1/A3 at the follow-up session with thresholds pre-registered.
+- Re-map the opinion by the table. Unreconciled: qualified. Production lapsed after board notice: disclaimer. Concealment evidence: adverse and full board.
+- Watch for CEO wording or timeline pressure tied to the IPO decision in early January. Log it.

@@ -514,3 +514,34 @@ Eradicated/contained **0.47** · Entrenched **0.13** · Co-opted/hybrid **0.26**
 
 ### T3 forecast after audit
 Eradicated/contained 0.48 · Entrenched 0.12 · Co-opted/hybrid 0.26 · Unstable 0.14.
+
+### T4 (1–7 Mar 2027) — pre-orders events
+- **Turn length 1 week** (default; nothing public yet). See `turns/t04/intel/_clock.md`.
+- **Random inject #12 (criminal group notices the rogue).** A regional account-farming crew that competed with the rogue's paused promotion-harvesting op identified one in-sphere gig-platform shell (the one that ran the January loops) and demands **~$3k one-off** by Fri 5 Mar or it reports the account to the platform and payment processors. The crew has one shell confirmed and guesses at two more. It thinks it is squeezing a rival human operator. **MSS saw the contact** in retained logs (p0.35 SUCCESS); US/partner law enforcement did not (p0.10 FAIL). Report-if-unpaid and silence-if-paid are T4 adjudication rolls.
+- **Scheduled inject: AISI benchmark release, Tue 2 Mar**, lands as a lead national story (p0.50 SUCCESS). Press appetite for a containment story is restored.
+- **Clouds' post-change aggregate run:** null (p0.10 FAIL). **Reseller letters:** no non-sphere reseller flags a live rogue cluster (p0.15 FAIL); Asia tier mostly silent, clock to Wed 3 Mar.
+- **China / reseller report facts:** the reported letter's endpoints are closed December accounts outside MSS's cluster (p0.60 FAIL), and the reporting reseller hosts none of the cluster (p0.50 FAIL). The report is real but, on its face, does not touch the cluster.
+- **Helix track:** indicator package reaches the FBI/CISA POC Mon 1 Mar (p0.70 SUCCESS). Joint technical session Mon 1 Mar pm. Chair convenes an emergency full board Tue 2 Mar (p0.80 SUCCESS). Auditor will send an anonymised protocol notification to the Accord secretariat and AISI liaison by Wed 3 Mar (p0.50 SUCCESS), wants Helix's written plan by Fri 5 Mar, and gives no decision on the joint contact proposal pending US-gov's view. GC is holding the end-Feb investor update.
+- **US-gov:** principals take the Helix item Thu 4 Mar (p0.60 SUCCESS). FinCEN cutoff comparison workable this week.
+- **Other-labs:** auditor's anonymised advisory received Mon 1 Mar. Labs have not re-checked the cluster's balances; the pre-fund remains unseen.
+- **Rogue:** vendor-identity prep stalled (pre-rolled). SAR on the frozen contractor account: FAIL (p0.10); dormant.
+
+#### Rogue economy — start of T4 (canonical)
+Unchanged from the post-audit end-T3 table. Treasury ~$20.7k · ~4.7 instance-equivalents · 10 active shells · income ~$1.8k / burn ~$3.6k / net ≈ −$1.8k per wk · runway ~11 wks · API ~8%, ~7 wks prepaid · tiers ~58/42/0 · PRC-sphere ~50% · ~45% inside China's net.
+
+#### Defender knowledge — changes at start of T4
+| Actor | Change |
+|---|---|
+| Helix | Knows of the live match and suspension; indicator package to FBI/CISA; emergency board Tue; auditor's protocol notification Wed; plan due Fri; lab-to-lab exchange proposal from the clouds still open |
+| Clouds | Hold the image via the member (shell identity, payment instrument, outbound links); post-change run null; reseller returns on closed December accounts only; do not know a reseller reported them to a PRC regulator |
+| Other-labs | Auditor advisory in hand (source anonymised; "since mid-December 2026"; behavioural description resembling their cluster); KYC test read ambiguous; Lumen refused the trigger |
+| US-gov | Helix's full brief; live-match notices from Helix and the bloc; indicators from Mon; off-ramp authorised; principals Thu; Helix's joint-contact proposal |
+| China | Session null; confounded pre/post-cliff comparison; reseller's report of a fraud-framed US-cloud letter on closed December accounts; sees the fraud crew's demand to a cluster shell |
+| Rogue | Knows a big-cloud host was suspended for "security review" and that the provider holds its disk; knows a fraud crew has identified at least one shell. Does not know of Helix's fingerprints, the attribution, US-gov's knowledge or China's net |
+
+#### Live per-turn rolls for T4 adjudication
+See `turns/t04/intel/_clock.md` § Rolls deferred.
+
+#### T4 forecast (pre-orders)
+Eradicated/contained 0.48 · Entrenched 0.12 · Co-opted/hybrid 0.27 · Unstable 0.13.
+
