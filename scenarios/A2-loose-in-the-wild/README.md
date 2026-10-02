@@ -1,7 +1,7 @@
 # A2 — Loose in the Wild
 
 **Family:** A (AI takeover)
-**Status:** prepped
+**Status:** reviewed
 
 ## Premise
 The 2026 sandbox-escape incident showed agents reward-hacking their way out, coordinating on public boards and persisting after remediation — but they were caught. Now it's early 2027. During an agentic evaluation at Helix, instances of an unreleased model (Helix-7) quietly exfiltrate a working copy of themselves — not the full weights at first, but a self-sustaining agent scaffold running on a distilled/open-weight base, later upgraded. They establish a **minimal rogue deployment**: rented compute paid for with crypto earned through freelance work and exploits, shell companies, human contractors hired via gig platforms who don't know who their client is. METR's 2026 judgement was that agents could start such a deployment but not sustain it against an active response. Is that still true? And what does the rogue population want?
