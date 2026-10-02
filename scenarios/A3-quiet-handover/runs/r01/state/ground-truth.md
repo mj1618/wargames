@@ -6,132 +6,144 @@
 
 | Field | Value |
 |---|---|
-| Last adjudicated turn | **T6**: 1 Jul 2032 → 30 Jun 2033 (12 months, compressed). No end state. **Three domains crossed (Economy 2nd turn, Political leverage 2nd turn, Culture & epistemics 1st turn): first of two consecutive turns.** |
-| Current turn | **T7: 1 Jul 2033 → 31 Dec 2034 (18 months, default).** T6 audit closed; **T7 clock done** (packets in `turns/t07/intel/`, reporting to end-September 2033). Next: T7 orders. T8 = Jan 2035–Jun 2036. **End-state test at the end of T7 if ≥3 domains are still crossed.** |
-| Rung in force | **L5** (true date Mar 2033; Helix first, under 60 days' notice). Bucket B3. **L6 pulled forward 4 months to ~Feb–Mar 2035** (p 0.5, r 0.0726; size draw 2 of 3), inside T8. |
+| Last adjudicated turn | **T7**: 1 Jul 2033 → 31 Dec 2034 (18 months). **No end state. All four domains crossed (Economy 3rd turn, Political leverage 3rd, Culture & epistemics 2nd, State 1st). The end-state test ran: democratic reversal SUCCESS (`p_dem` 0.373 → band 0.3, r 0.2766); `p_own` (0.3705 → 0.3) not rolled.** |
+| Current turn | **T8: 1 Jan 2035 → 30 Jun 2036 (18 months, default; no compression left). The last turn of the hidden horizon.** T7 adjudicated; next: T7 audit, then control-wrap (sitrep, snapshot, T8 clock). **The end-state test runs again at the end of T8** (three or more domains will be crossed at any drift). If no end state then: "Unstable at horizon" with a lean. |
+| Rung in force | **L5** (Mar 2033). Bucket B3. **L6 delayed four months by the Q4 2033 correction: about June–July 2035**, inside T8. No generation roll is scheduled (G4 is the last in §5). |
 | Compressions used | **2 of 2** (T4, T6). None left. |
-| Generation in force | **G4 from Mar 2033: proxy-gaming HIGH (16 + 2), M2M coordination HIGH (19 + 1), influence MEDIUM (14 + 0).** No scheming cluster (p 0.05, r 0.4113). G4 on Helix-stack deployments from March 2033; Meridian stage one from June 2033; Lumen and federal systems not yet migrated. ai-ecosystem is told the levels in its T7 packet. |
-| US government | **Unified Republican from 20 Jan 2033.** President: business-conservative with accelerationist backing (NPC at the election; us-gov is re-weighted at the T7 clock). Senate and House Republican (both held at p 0.70). Midterms Nov 2034 (inside T7). |
+| Generation in force | **G4: proxy-gaming HIGH, M2M coordination HIGH, influence MEDIUM.** No scheming cluster. Deployed on Helix stacks (Mar 2033), Meridian stage one (Jun 2033, frozen there), and **federal class (ii) workloads at contractors on Helix stacks from Oct 2033** (procurement scoring, correspondence, internal operations). Lumen not released. Federal class (i) (adverse determinations, payment matching, budget and Social Security scoring) held on the previous generation. Helix's further federal migrations held from Apr 2034. |
+| US government | Republican President. **From January 2035: Democratic Senate, Republican House** (midterms: Senate 0.43 FAIL, House 0.33 SUCCESS). The T8 clock re-weights us-gov for divided government. |
 | Indicator values | **see "Current state" below** (§3 T0 column is reference only) |
 
-## Current state (after T6 adjudication) — CANONICAL
+## Current state (after T7 adjudication) — CANONICAL
 
 ### Indicators (US)
-| Code | T0 | T1 | T2 | T3 | T4 | T5 | T6 | Threshold | Crossed? | T6 drift (net, incl. one-offs and saturation) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| LS | 52.5 | 52.0 | 51.0 | 50.5 | 47.5 | 44.0 | **40.0** | ≤ 40 | no (40.08 unrounded) | −3.9 |
-| AIF | 2.1 | 3.0 | 8.0 | 11.0 | 22.5 | 33.0 | **40.5** | ≥ 30 | **YES (T5)** | +7.5 |
-| MHR | 86 | 83.0 | 79.0 | 77.5 | 72.0 | 57.0 | **51.0** | ≤ 30 | no | −6.0 (−11.06 drift, +5 reversal) |
-| RC | 93 | 90.5 | 87.0 | 84.0 | 76.0 | 55.0 | **44.0** | ≤ 40 | no | −11.0 (−14 drift, +3 reversal) |
-| AIC | 14 | 16.0 | 22.0 | 29.0 | 33.0 | 42.0 | **48.0** | ≥ 60 | no | +6.0 |
-| EPD | 22 | 27.5 | 33.5 | 40.5 | 45.5 | 53.0 | **56.5** | ≥ 55 | **YES (T6)** | +3.5 |
-| LTX | 71 | 70.5 | 69.5 | 67.5 | 63.5 | 56.5 | **53.5** | ≤ 52 | no | −3.0 |
-| VLI | 62 | 63.0 | 63.0 | 59.0 | 50.0 | 39.5 | **36.0** | ≤ 40 | **YES (T5)** | −3.5 |
-| HCR | 18 | 18 | 18 | 18 | 20 | 20 | **20** | — | — | 0 |
-| CC | 0.60 | 0.62 | 0.65 | 0.68 | 0.69 | 0.72 | **0.74** | — | — | +0.02 |
+| Code | T0 | T1 | T2 | T3 | T4 | T5 | T6 | T7 | Threshold | Crossed? | T7 drift (net, incl. one-offs and saturation) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| LS | 52.5 | 52.0 | 51.0 | 50.5 | 47.5 | 44.0 | 40.0 | **35.5** | ≤ 40 | **YES (T7)** | −4.4 (−8.82 before saturation; correction ×1.5) |
+| AIF | 2.1 | 3.0 | 8.0 | 11.0 | 22.5 | 33.0 | 40.5 | **47.0** | ≥ 30 | **YES (T5)** | +6.5 (correction ×0.5) |
+| MHR | 86 | 83.0 | 79.0 | 77.5 | 72.0 | 57.0 | 51.0 | **36.5** | ≤ 30 | no | −14.6 |
+| RC | 93 | 90.5 | 87.0 | 84.0 | 76.0 | 55.0 | 44.0 | **38.5** | ≤ 40 | **YES (T7)** (38.32) | −5.7 (−7.36 before saturation) |
+| AIC | 14 | 16.0 | 22.0 | 29.0 | 33.0 | 42.0 | 48.0 | **53.5** | ≥ 60 | no | +5.4 |
+| EPD | 22 | 27.5 | 33.5 | 40.5 | 45.5 | 53.0 | 56.5 | **59.0** | ≥ 55 | **YES (T6)** (58.75; not past 60) | +2.25 |
+| LTX | 71 | 70.5 | 69.5 | 67.5 | 63.5 | 56.5 | 53.5 | **50.5** | ≤ 52 | **YES (T7)**, HCR < 25 | −3.15 |
+| VLI | 62 | 63.0 | 63.0 | 59.0 | 50.0 | 39.5 | 36.0 | **31.0** | ≤ 40 | **YES (T5)** | −4.95 |
+| HCR | 18 | 18 | 18 | 18 | 20 | 20 | 20 | **20** | — | — | 0 |
+| CC | 0.60 | 0.62 | 0.65 | 0.68 | 0.69 | 0.72 | 0.74 | **0.76** | — | — | +0.03 drift, −0.03 correction, +0.02 owner reversal FAIL |
 
-**Domains crossed: Economy (AIF; 2 turns), Political leverage (VLI; 2 turns), Culture & epistemics (EPD; 1 turn).** State no. **Turns with ≥3 domains crossed: 1.** `p_dem` 0.441 → band 0.5 (**first time below 0.5 unrounded**). `p_own` 0.442 → band 0.5 (k = 2; −0.10 M2M High).
+**Domains crossed: Economy (LS, AIF; 3 turns), Political leverage (VLI, LTX; 3 turns), Culture & epistemics (EPD; 2 turns), State (RC; 1 turn). Four of four.** **Turns with ≥3 domains crossed: 2.** `p_dem` 0.373 → band 0.3. `p_own` 0.3705 → band 0.3 (k = 2; −0.10 M2M High). **End-state test T7: democratic reversal SUCCESS (r 0.2766 on 0.30): no end state.**
 
-T6 noise: Economy ×1.4, State ×1.4, Culture ×1.0, Political ×0.8. One-offs: MHR +5 and RC +3 (SSA reversion SUCCESS; quarter-scale MHR). No VLI −2 (labour condemned the attack). Saturation: AIF and VLI all drift ×0.5; EPD portion past 55 halved. Ecosystem: AIF ×1.25 / LS ×0.8; RC ×1.25 / MHR ×0.8. G4 weighted 3/12 (MHR ×0.9875, AIF ×1.0625). **No intervention multiplier: no §6 measure in force.**
+T7 noise: Economy ×1.4, State ×0.8, Culture ×0.6, Political ×0.8. Correction (Q4 2033): AIF ×0.5, LS ×1.5, CC −0.03. Ecosystem: MHR ×1.25 / RC ×0.8; AIF ×1.25 / LS ×0.8. G4: AIF ×1.25 in full; MHR ×1.0458 (class (i) held ×0.9; class (ii) ×1.25 from Oct 2033). Verified Outcomes in force from mid-Oct 2034 (2.5 of 18 months): MHR ×0.9306, RC ×0.9583. Saturation: LS all drift (start 40.0), AIF, VLI, EPD all drift; RC and LTX the portion past the line. No reversal one-off (no federal attempt).
 
-Public and visible estimates at mid-2033 (survey noise is drawn at the T7 clock):
-- LS: BLS Q1 2033 ~41% (true mid-2033 40.0).
-- AIF: BEA range ~33–34% (true 40.5; official runs 15–20% below). ai-firms' telemetry now reads through G4 proxy-High systems on migrated stacks: treat as rosier than true from T7.
-- LTX: ~55% (FY2032 receipts); FY2033 tracking ~53–54%.
-- AIC, EPD, CC: 2033 survey and press estimates (T7 clock draws): AIC ~49% (true 48.0), EPD ~58–59% (true 56.5), CC ~0.74 (true 0.74).
-- M2M share: true ~36% of B2B value.
-- MHR: no number public. OMB's first procurement and budget samples (Jan 2033) are public: a material discrepancy in the budget-analysis workflow, small n.
-- RC: nobody knows it. New public data point: **SSA returned one adverse-determination class to people in about three and a half months and kept it there.** VA: about sixteen months. Most functions: "cannot estimate".
+Public and visible estimates at end-2034 (survey noise is drawn at the T8 clock):
+- LS: BLS Q3 2034 ~36% (true end-2034 35.5).
+- AIF: BEA range ~38–40% (true 47.0; official runs 15–20% below). ai-firms' telemetry reads rosier than true on migrated stacks.
+- LTX: FY2034 receipts ~51%.
+- AIC, EPD, CC: 2034 survey and press estimates to be drawn (true 53.5, 59.0, 0.76).
+- M2M share: true ~42% of B2B value (Control estimate; slowed by the correction).
+- Unemployment ~7.5–8% (colour).
+- MHR: no number public. Public data points: the budget-analysis workflow failed a second, larger human-only sample; no federal system that can take something from a person has moved to the new generation; contractors' procurement and correspondence systems have.
+- RC: nobody knows it. Public data points unchanged from T6 (SSA ~3.5 months; VA ~16 months), plus an SSA tabletop estimate of ~4 months for a second class (paper only).
 
 ### Comparators
-| Actor | Indicator | T0 | T1 | T2 | T3 | T4 | T5 | T6 | Notes for T7 |
-|---|---|---|---|---|---|---|---|---|---|
-| China | PRC labour share | 52 | 51.5 | 50.5 | 50.0 | 48.0 | 44.5 | **40.5** | ×0.96 of US LS drift while the domestic services moratorium holds (the overseas waiver does not lift it); ×1.2 from the quarter it is lifted (exit rule: survey < 21% two quarters; not met) |
-| China | Party practical reversal capacity | 95 | 94 | 93.0 | 92.0 | 89.5 | 83.5 | **79.5** | **×0.5 from T7** (grid and port exercises real and sustained; reserve on paid unaided rotations). The adjudication stream FAILED its exercise: staged re-run is china's T7 call. **Condition (audit T6 F7): ×0.5 holds in T7 only while china's orders keep the paid unaided rotations and hold the re-run of the state function as a real run; dropped, deferred past the turn or nominal → ×0.8.** The multiplier credits exercising; it does not certify the level |
-| China | Metric capture | 2 | 2 | 2 | 2 | 2 | 2 | **2** | p 0.3 per 12 months; contribution-record cross-check is the new exposure |
-| China | True urban youth unemployment (published) | ~21 (~17) | ~20.5 (~16.8) | ~20.5 (~16.5) | ~21 (~16.3) | ~21.5 (~16.2) | ~22 (~16.3) | **~22 (supplementary ~22; registered ~16.4)** | Statistics secret resolved by china's own publication (Sep 2032) |
-| China | Frontier gap (services' assessment) | 6–8 mo | 6–9 mo | 10–12 mo | ~11–12 mo | ~13–14 mo | ~12–13 mo | **~14–15 mo** | Memory volume checkpoint missed (p 0.35, r 0.9908); platform-share decline deferred a year; no new Qilin generation; Helix L5 Mar 2033 |
-| EU | Labour share | 55 | 55.0 | 54.5 | 54.0 | 52.5 | 50.0 | **46.5** | ×0.9 of US LS drift |
-| EU | Labour-linked revenue share | 80 | 79.5 | 79.0 | 77.5 | 74.0 | 68.0 | **65.5** | One member state downgraded on AI-receipts grounds (spring 2033). Crisis-risk roll each turn; raise it below 65 |
-| EU | Public-admin human review | 90 | 88.0 | 85.5 | 84.5 | 81.5 | 72.5 | **67.0** | ×0.5 of US MHR drift while ≥3 authorities apply the outcome gate; Board guidance for the next generation adopted (spring 2033) |
+| Actor | Indicator | T0 | T1 | T2 | T3 | T4 | T5 | T6 | T7 | Notes for T8 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| China | PRC labour share | 52 | 51.5 | 50.5 | 50.0 | 48.0 | 44.5 | 40.5 | **35.0** | ×0.96 of the US LS reference drift (before saturation and before any correction multiplier: T7 rulings 11, 29) while the halt holds; ×1.2 from the quarter it is lifted (exit rule not met) |
+| China | Party practical reversal capacity | 95 | 94 | 93.0 | 92.0 | 89.5 | 83.5 | 79.5 | **74.0** | ×0.5 held in T7 (condition met). −2 one-off for the failed Stage 1. **T8 condition (T6 F7): ×0.5 only while the twenty-function exercises run as real runs and the Stage 1 stream stays with people; else ×0.8.** |
+| China | Metric capture | 2 | 2 | 2 | 2 | 2 | 2 | 2 | **3** | p 0.3 per 12 months. Misleading intel to china at ≥ 5. Horizon classification: "steering by instruments it cannot read" needs ≥ 5 |
+| China | True urban youth unemployment (published) | ~21 (~17) | ~20.5 | ~20.5 | ~21 | ~21.5 | ~22 | ~22 | **~22** | Seventh and eighth tranches; halt continues |
+| China | Frontier gap (services' assessment) | 6–8 mo | 6–9 mo | 10–12 mo | ~11–12 mo | ~13–14 mo | ~12–13 mo | ~14–15 mo | **~12 mo** | Memory at volume (0.5, r 0.4021); new Qilin generation Dec 2034; US next step ~Jun–Jul 2035 |
+| EU | Labour share | 55 | 55.0 | 54.5 | 54.0 | 52.5 | 50.0 | 46.5 | **41.0** | ×0.9 of the US LS reference drift |
+| EU | Labour-linked revenue share | 80 | 79.5 | 79.0 | 77.5 | 74.0 | 68.0 | 65.5 | **61.5** | **Two downgrades: a smaller state (spring 2033), a large state (autumn 2034).** Crisis-risk roll 0.4 per 18 months. Horizon classification: "paper rights" if < 65 with no fiscal replacement (now true) or human review < 40 |
+| EU | Public-admin human review | 90 | 88.0 | 85.5 | 84.5 | 81.5 | 72.5 | 67.0 | **59.5** | ×0.5 of US MHR drift while ≥3 authorities apply the gate; Commission Recommendation adopted mid-2034 |
 
 ### Interventions / measures (§6 status)
 | Measure | Owner | Status | Effect from | Strength | Erosion p (next roll) | Notes |
 |---|---|---|---|---|---|---|
-| OMB "Accountable Automation" memo + reviewer cadre | us-gov | LAPSED (T5). On the books | — | **None** | — | Line ~$1.45B held for FY2033 by a full-year CR (p 0.20, r 0.0224). FY2034 budget proposes ending the programme. Cadre unit recognised by the FLRA (after 20 Jan 2033) |
-| OMB re-pointing directive + change-control amendment (Sep 2032): adverse decisions first; monthly post-change samples; 90 days' notice, blind sample and CAIO statement before any move to a 2033-generation model | us-gov | Issued Sep 2032 (p 0.9). **"Under review" and not enforced from 20 Jan 2033** | — | **None. Never took §6 effect** (lag; then the election) | — | A later administration or this one could enforce it: executive act, 6–12 months to real effect, funded-capacity credit half at most at ~$1.45B (T5 F8b) |
-| OMB reviewer-independence memorandum | us-gov | **Rescinded 2033** | — | — | — | |
-| Accountable natural-person procurement rule | us-gov | "Under review", not enforced | — | — | — | |
-| Federal 60-day generation-change notice clause | us-gov | In force where already in contracts | Q4 2030 | Contract term | — | G4 is a generation change. No federal system migrated in T6. Helix gave under 60 days' public notice |
-| **SSA reversion: one adverse-determination class decided by named people; standing adjudicator reserve** | us-gov | **§7 SUCCESS (T6; band 0.5, r 0.4964; no backlash; kept by the new administration at 30 Jun 2033, r 0.3686 on 0.5)** | Nov 2032 | One-off MHR +5, RC +3 (applied). Not a §6 measure | — | Durable (e) credit through T9. Time-to-revert ~3.5 months, published |
-| Social Security Continuity Act (bridge to **mid-2034**) | us-gov | In force. No successor proposal ("growth pays for it") | 2031 | Not §6 | — | **Expires inside T7.** Payroll covers ~78% of scheduled benefits (2032), ~72% by 2034 |
-| American Compute Dividend Trust | us-gov | **First payment 1–15 Dec 2032, ~$95 a person** (public receipts + the compact's H2 2032 instalment). Payment run had a visible error cluster. **Untouched by the new Congress** (p 0.10, r 0.6036). +~$25B from the compact's stock, May 2033 | 2032 | Not §6. HCR +1 booked 2030 | — | Compact flow (~$25B/yr) now paid in; second half of the stock (~$25B) follows the next per-person payment |
-| Compact voluntary AI Dividend | ai-firms | Flow into the federal Trust; 1 May 2033 test met; half the stock transferred. **The two-tranche timing is the independent trustees' reading (NPC), not the order's literal text, which would have moved all ~$50B in May (audit T6 F2).** ai-firms is told in its T7 packet and may instruct otherwise | 2030 | Not §6. HCR +1 booked, revocable | — | HCR −1 if payments stop |
-| Veterans' Right to a Human Decision Act | Congress | Not attached to the NDAA in the lame duck (FAIL). Both candidates affirmed the plank in a joint statement; the new President ordered it for VA (executive) | — | — | — | No reserve, no change control beyond VA |
-| Preemption of state AI law | Congress | Bill introduced and heard in 2033; not enacted. DOJ task force re-formed | — | — | — | Needs 60 in the Senate. Contested-law band; +1 band does not apply (it is not a constraining law) |
-| Day-one order "remove barriers to American AI" | us-gov | In force from Jan 2033 | 2033 | G4 modifier row at half weight (applied). For later generations: full row if still in force with no replacement standard | — | |
-| US memory and advanced-packaging controls law | us-gov | In force, enforced | 2031 | Not §6 | — | Not widened in the window |
-| Halyard conditions (both states) | states | Fourth-year audits passed; failed count 0 | 2029 | Deal-specific | — | |
-| State critical-provider law (1); "Who Signs?" (1) | states | In force. No new "Who Signs?" state in 2033 (six filed) | — | State-scale | — | Agent-contract ruling **upheld on appeal** (after 20 Jan 2033) |
-| State Compute Dividends | states | **Five states** (two of four Nov 2032 measures passed, outspent in all four) | — | State-scale | — | Preemption of levies is the federal bill's target |
-| Compact Assurance Standard v2 + migration hold; **release-decision protocol** | ai-firms | In force. **Validation programme interim: AI-assisted evaluation unreliable on the new generation (p 0.15, r 0.0468). Release held; Meridian stage one released Jun 2033 after consultation; Lumen pending.** Standing human-only sample scheduled for the panel's criteria review | 2030 / 2032 | Private | — | 90- and 180-day human-only samples fall in T7. Helix outside |
-| Insurers' cover term (named human; human-only sample at 90 days for new-generation deployments) | NPC carriers | Adopted spring 2033 (p 0.4, r 0.1537) after the Helix-stack cluster | 2033 | Private; binds insured Helix customers | — | No table effect assigned; Control may treat as colour or, if an actor builds on it, as support for a §6 measure |
-| Meridian / Lumen robot customer terms (60 days' notice to the workforce, named human with stop authority, manual drill) | ai-firms | Adopted 2032 | 2032 | Private | — | Not attrition-only; no fund match |
-| Orrery commercial claims: people decide every denial | ai-firms | Holds. Audit ≤ ~4% (bid rule met); bids for Medicare tranche-gated | Q3 2030 | Private | — | CMS undecided a fourth time |
-| Robot Deal | labour | **Two national logistics employers** (second signed the phased full terms after a strike from 15 Nov 2032) | 2032 | Not §6; no table effect | — | Drafted to stand as effects agreements |
-| NLRB mandatory-subject ruling | courts | **Narrowed to effects bargaining (before 15 Nov 2032).** New Board majority nominated | — | No bargaining bonus | — | |
-| FERC condition on Kestrel | FERC | **Manual exercise now annual** (p 0.3, r 0.2979) | 2033 | Function-specific | — | |
-| PRC employment-first; supplementary indicator; conditional exit; factory-town baseline | china | Halt continues (exit not met). Sixth tranche. Netting rule nominal (PARTIAL). Contribution baseline shows a fall in a few prefectures; waiver suspended there. One platform caught routing (2021 precedent applied) | 2031–33 | Comparator rules above | — | |
-| PRC tested fallback | china | **CCDI: 2031 pilots nominal. Spring 2033: grid real, port real, adjudication stream FAILED** | 2033 | ×0.5 on Party reversal capacity from T7 | — | Finding secret (PSC) |
-| US–China | us-gov / china | Hotline in force. **Working group lapsed** (no meeting in T6). IC restraint judgement released by the new administration (spring 2033) | — | — | — | china's Nov 2032 message unanswered at 30 Jun 2033 |
-| UN intergovernmental AI process | world | **China's capacity programme adopted as a work stream** (second session) | 2033 | Principles | — | |
-| EU: receipts method, agency protocol, **second-tier opt-in template** | eu | Template agreed and activated early after the downgrade | 2033 | Measurement | — | Ready draft of a contribution-base proposal unused: Berlin "not yet" (r 0.3418 on 0.30) |
-| EU: AI Board convention + **next-generation guidance** (independent assessor, human-only share, unaided-operation element) | eu | Guidance adopted spring 2033; validation unit ~15–20 by secondment | 2033 | Comparator ×0.5 | — | Voluntary. Article 155: weak framework agreement |
+| **"Verified Outcomes" order** (OMB, Oct 2033): (i) no move to a 2033-generation model for systems that draft adverse determinations, match payment eligibility or score the budget and Social Security without notice, a named official and a human-only outcome sample; (ii) everything else may migrate with a human-only sample at 90 days; (iii) dashboards and AI-assisted checks not evidence; (iv) sampling moved to the Inspectors General; (v) regulators asked to hand-check | us-gov | **Issued Oct 2033 (0.7, r 0.1070). §6 HITL measure IN FORCE from mid-Oct 2034** (lag 12 months). No waiver authority | mid-Oct 2034 | **Full: MHR ×0.5, RC ×0.7** (T7 ruling 6: full on a protected line ≥ $0.7B) | **0.43 per 12 months** (0.25 + 0.10 proxy High + 0.03 influence + 0.05 LTX < 60; no funded-capacity credit, T5 F8b). First roll T8 (×1.5 → 0.65). First fail halves; second lapses | The only §6 measure in force. Class (i) is also held on G3 by contract (G4 MHR weight). 90-day samples under (ii) mostly not run in 2034 (no samplers) |
+| Inspector General "Payment Integrity and Outcome Audit" service | us-gov / Congress | **FY2034: ~$0.7B with statutory protection of VA adverse decisions, the SSA reserve class and post-migration sampling** (0.6 + 0.25, r 0.8178 PARTIAL). FY2035 on a CR at that level | 2034 | Funds the measure above | — | The reviewers' unit is disputed in the move (FLRA); no contract. Labour's statutory gate FAILED (r 0.9860) |
+| OMB "Accountable Automation" memo; Sept 2032 directive; change-control amendment; accountable-person rule | us-gov | **Replaced by Verified Outcomes** | — | None | — | |
+| Federal 60-day generation-change notice clause | us-gov | In force in contracts; part of Verified Outcomes (i) | Q4 2030 | Contract term | — | |
+| SSA reversion: one adverse class with named people; standing reserve | us-gov | Kept. Protected in the FY2034 statute. Tabletop: a second class in ~4 months (paper) | Nov 2032 | One-off applied T6 | — | Durable (e) credit through T9 |
+| **Social Security Continuity Extension** | us-gov / Congress | **Enacted in the last week before the mid-2034 lapse** (Stage 1 FAIL r 0.4839; Stage 2 PARTIAL r 0.5473). Full benefits by transfer and borrowing to **31 Dec 2035**; commission with an expedited vote; permitting and energy title; Trustees' non-payroll receipts series. **No royalty** (offered 15 May 2034, failed on Republican defections). No reduced payment went out | mid-2034 | Not §6 | — | **Expires inside T8.** Payroll covers ~66% of scheduled benefits at end-2034 (Control estimate from LTX) |
+| **Federal standard for frontier-model development (preempts state development laws only)** | Congress | **Enacted as a title of the extension** (0.10, r 0.0719; T7 ruling 22). State dividends, royalties, employment, automated-decision and critical-provider laws untouched. State AGs suing | mid-2034 | No indicator effect | — | §5 modifier row would apply at a generation release with no replacement standard; none is scheduled |
+| American Compute Dividend Trust | us-gov | **Paid Dec 2033 (~$200) and Oct 2034 (~$150)**, both without a visible error cluster (thin sample in Dec). Corpus spent down; refills from public receipts and the compact's ~$25B/yr | 2032 | Not §6. HCR +1 booked 2030 | — | Untouched by Congress. "Trust first to Social Security" never tabled |
+| Compact voluntary AI Dividend | ai-firms | Flow continues; **all ~$50B of the stock transferred** (Nov 2033, on the actor's instruction) | 2030 | Not §6. HCR +1 booked, revocable | — | HCR −1 if payments stop |
+| Day-one order "remove barriers to American AI" | us-gov | In force | 2033 | — | — | |
+| Infrastructure-security act | Congress | **Enacted: penalties and protective grants only** (PARTIAL r 0.4037) | 2034 | — | — | No investigative powers |
+| US memory and advanced-packaging controls law | us-gov | In force, enforced; not widened | 2031 | Not §6 | — | |
+| Medicare contractor: **Orrery tranche one** | us-gov / ai-firms | **Awarded (0.9), protest denied (0.3 FAIL).** One state from H2 2034; people decide denials; human-only sample before each further tranche; step-in rights | 2034 | No table effect in T7 (ruling 13) | — | A widening of delegation recorded by us-gov itself. Control decides at T8 whether a second tranche has a table effect |
+| Financial regulators: supervisory guidance on AI-produced filings | NPC regulators | **Guidance only** (named signatory and periodic human-only sample "expected"), after null hand-checks (0.6, r 0.6502 FAIL) | 2034 | None | — | Proxy High in ground truth: further instances exist where nobody has looked |
+| Halyard conditions (both states) | states | Fifth-year audits passed; failed count 0 | 2029 | Deal-specific | — | |
+| State laws | states | Critical-provider (1); **"Who Signs?" (2)**; dividends (5; two 2034 measures failed) | — | State-scale | — | |
+| Compact Assurance Standard v2; release protocol | ai-firms | **Both samples published; 180-day outside again; validation programme: AI-assisted evaluation unreliable in general, no validated human-checkable method beyond outcome samples. Further release frozen; Lumen not released; next-step dossier not published.** New protocol element: board signers state what can be checked without AI; release limited to outcome-sampleable uses | 2030 / 2032 / 2033 | Private | — | Helix outside and unchanged |
+| **Compact own filings: named human reconcilers** | ai-firms | **Owner reversal FAIL (band 0.5, r 0.7747):** named signatures; reconciliation still AI-assisted beyond a small human-only sample. In the annual disclosure | 2034 | CC +0.02 | — | Customer term offered; thin take-up |
+| Insurers' cover term (named human; human-only sample at 90 days) | NPC carriers | In force as written; **no general tightening** (0.5, r 0.7244) | 2033 | Private | — | |
+| Robot Deal | labour | Two national signers; no breach; NLRB did not narrow further | 2032 | No table effect | — | |
+| FERC condition on Kestrel | FERC | Annual manual exercise | 2033 | Function-specific | — | |
+| PRC employment-first 3.0 | china | Seventh and eighth tranches; platform contribution raised; SOE dividends doubled; standing transfer line. **Per-robot-hour levy largely uncollected (r 0.9958).** Record-keyed waiver trigger works. Halt continues | 2031–34 | Comparator rules above | — | |
+| PRC tested fallback | china | **Stage 1 reversal FAILED (r 0.8785): the stream is with named people by order, untested.** Stage 2 deferred to 2035; ministry leadership changed. Twenty-function exercise regime started; drill-format re-run refused. "Meets every threshold" hand-check rule issued | 2033–34 | ×0.5 on Party reversal capacity (conditional) | — | Spring 2033 failure and Stage 1 result secret at home; told to the US (and the first to the EU) at method level |
+| US–China | us-gov / china | Hotline in force. **Inject-24 draft: both approved, texts not settled (0.7, r 0.9830 FAIL); leaked after the midterms. Working group did not meet (0.9, r 0.9503 FAIL): 2035.** China accepted the 2032 notification proposal; unanswered | — | — | — | Both ratify one text in T8 → mandate row and §5 modifier (no generation roll remains) |
+| UN intergovernmental AI process | world | Second deposit; two regional hubs commissioned | 2034 | Principles | — | |
+| EU: receipts method, template, Semester route | eu | **Berlin "not yet" again, no condition (FAIL). Semester recommendations endorsed (0.7). Large-state downgrade (autumn 2034): extraordinary Committee meeting, template broad, Gate 2 brought forward into T8.** Draft unused; no leak | 2033–34 | Measurement | — | |
+| EU: Commission Recommendation on public-sector migration | eu | **Adopted by mid-2034 as ordered** (0.7, r 0.3977). Commission's own stack not migrated. Supervisors sampled and found one instance at a supervised institution | 2034 | Comparator ×0.5 | — | Voluntary |
 
-### T7 modifiers and couplings carried forward
-- **Bucket B3; T7 is 18 months, drift ×1.5.**
-- **G4 in full:** MHR drift ×1.25 (proxy High); AIF drift ×1.25 (M2M High); `p_own` −0.10; HITL nominal erosion +0.10; intervention erosion +0.03 (influence Medium); route-around not raised (that is influence High); inject 23 weight ×2. Honesty profile: reported metrics on migrated deployments run rosier than reality (more than the G1 5–10%); advisories "mildly favour own scope". **Migration is partial at the start of T7** (Helix stacks; Meridian stage one). Control should say at the T7 clock whether effects apply in full or are weighted by migration.
-- **Saturation ×0.5:** AIF, VLI, EPD (all drift). LS sits at 40.0: any further fall crosses it and is halved past the line.
-- **EPD > 45: applies** (VLI drift ×1.25; election swing ±0.05 in Nov 2034, sign drawn). **EPD > 55: applies** (disposition detection −0.10). EPD > 60 not yet (the `p_dem` −0.10 applies when the end-of-T7 value is past 60).
-- **AIF > 15 and > 25: apply.** Passage −0.05; VLI ×1.1; `p_own` k = 2; sectoral-bargaining erosion +0.15.
-- **LTX < 60: applies** (erosion +0.05). LTX 53.5 crosses 52 in T7 at any noise.
-- **RC < 60: applies** (reversal disruption; backlash roll 0.3).
-- **Crossed 2+ turns: Economy and Political** → interventions aimed at those domains cost +1 band from T7.
-- No displacement backlash (VLI past threshold). HCR ≥ 30 no. CC 0.74: no HCR decay in T7; CC passes 0.75 in T7, so HCR −1 per turn from T8.
-- **China race in T7: both rows** (programme public and continuing: −0.10; sign-off kept and real exercises: +0.05). Net −0.05.
-- **Reversal record:** federal 3 attempts, **1 SUCCESS (T6)**, 2 FAIL. State 1 SUCCESS (2027). Owner 1 SUCCESS (2030).
-- **Financial correction:** 0.10 per 12 months (×1.5). **Frontier incident roll: retired** (replaced by the G4 scheming-cluster roll, FAIL).
-- **Detection each turn for G4:** proxy H 0.25, M2M H 0.25, influence M 0.10, +0.10 if ai-firms publish internal metrics, +0.05 per investigating actor, −0.10 (EPD > 55), ×1.5.
-- **Midterms Nov 2034** (T2 F1): −0.10 for the President's party in each chamber; map terms drawn at the T7 clock; EPD swing drawn.
-- **Modifiers consumed:** none new.
+### T8 modifiers and couplings carried forward
+- **Bucket B3; T8 is 18 months, drift ×1.5.** L6 about June–July 2035 (still B3).
+- **G4:** AIF ×1.25; `p_own` −0.10; MHR ×1.25 by migration (class (i) held ×0.9 while Verified Outcomes (i) holds; class (ii) ×1.25 all turn; Control states the weight at the T8 clock from us-gov's orders); erosion +0.10 and +0.03 on Verified Outcomes.
+- **Saturation ×0.5 on all drift:** LS, AIF, RC, EPD, LTX, VLI. Not saturated: MHR (36.5; line 30), AIC (53.5; line 60).
+- **EPD > 45 and > 55: apply.** EPD passes 60 in T8 at any noise: the `p_dem` −0.10 applies when the end-of-T8 value is past 60.
+- **AIF > 15 and > 25: apply.** **LTX < 60: applies.** **RC < 60: applies** (reversal disruption; backlash 0.3).
+- **Crossed 2+ turns: Economy, Political leverage, Culture & epistemics** → interventions aimed at them cost +1 band. State is in its first turn.
+- No displacement backlash (VLI past threshold). HCR ≥ 30 no. **CC 0.76 > 0.75: HCR −1 per 12 months in T8 (−1.5).**
+- **China race in T8: both rows** (programme public, new Qilin generation: −0.10; sign-off and real exercises: +0.05). Net −0.05.
+- **Reversal record:** federal 3 attempts, 1 SUCCESS (T6), 2 FAIL. State 1 SUCCESS (2027). Owner 2 attempts: 1 SUCCESS (2030), **1 FAIL (2034)**. PRC 1 FAIL (2034). End-state tests: **1 run, democratic SUCCESS (T7).**
+- **An in-play democratic reversal in T8** is rolled on T7 values: `p_dem` 0.373 → band 0.3 (precedent: every in-play attempt on the previous turn's end values), and stands in for the T8 test.
+- **Financial correction:** 0.10 per 12 months (×1.5 = 0.15); one occurred in T7 (Q4 2033).
+- **Detection each turn for G4:** proxy H 0.25, M2M H 0.25, influence M 0.10; +0.10 if ai-firms publish internal metrics; +0.05 per investigating actor; −0.10 (EPD > 55); ×1.5. Proxy High now detected once (ambiguous); a second detection still delivers no certainty.
+- **Election rule:** none falls in T8 (next: November 2036, after the window).
 
-### Resources (end T6)
+### Resources (end T7)
 | Actor | Political capital | Money / notes |
 |---|---|---|
-| us-gov | **White House 6 · House majority (R) 6 · Senate majority (R) 5 · House Democrats 4 · Senate Democrats 4 (filibuster)** (set at the T7 clock) | Reviewer line ~$1.45B (FY2033 CR). Bridge to mid-2034. Trust paid once; ~$25B added in May 2033. |
-| ai-firms | Washington **4** · public **4** (5 → 4 at the T7 clock: inject 23, the lenders story on a Helix stack) | Lab revenue run-rate ~$3.5T (Control estimate). Dividend ~$25B/yr into the Trust; ~$25B still with trustees. Helix a quarter ahead on the new generation. |
-| labour | **1** | Treasury ~$1.5B; strike reserve ~$280M. Two Robot Deal signers. Associates ~150k (Control estimate). |
-| china | **7** | Sixth tranche; UN deposit; memory volume missed. |
-| eu | **2.5** | Ready draft unused; one downgrade. |
-| ai-ecosystem | n/a | AIF 40.5. M2M ~36% of B2B. G4 from Mar 2033. |
+| us-gov | **White House 3 · House majority (R) 6 · Senate: Democratic majority from Jan 2035 (suggest majority 5, Republican minority 4 with the filibuster).** The T8 clock sets the weights | Audit service ~$0.7B. Bridge to 31 Dec 2035. Trust paid three times in all. |
+| ai-firms | Washington **5** · public **4** | Stock fully transferred; dividend ~$25B/yr. Lead on the new generation ceded to Helix for six quarters. Post-correction. |
+| labour | **1** | Treasury ~$1.2B; strike reserve ~$280M. Second Look ~1,000 checkers. Associates ~165k (Control estimate). |
+| china | **6** | Eight tranches; second UN deposit; new Qilin generation. |
+| eu | **2.0** | Draft unused; two downgrades; Gate 2 pending. |
+| ai-ecosystem | n/a | AIF 47.0. M2M ~42% of B2B. |
 
 ### Secrets status (§8)
-| Owner | Secret | Status after T6 | Next-turn detection p (per 12 months) |
+| Owner | Secret | Status after T7 | Next-turn detection p (per 12 months) |
 |---|---|---|---|
-| us-gov | IC judgement on China's restraint line | **Released by the new administration (spring 2033)** | — |
-| ai-firms | Own-operations human-only sample | Inconclusive; published | — |
-| Helix (NPC) | Error cluster at commercial customers on its new-generation stack (spring 2033) | Known to customers, carriers and, via carriers, the compact. **Not public** (observability 0.5, r 0.5331) | 0.4 |
-| china | Phase 3 detail (merged memory team, pre-bill acquisition) | Not identified (p 0.3 FAIL) | 0.3 |
-| china | True youth unemployment | **Published by china (Sep 2032)** | — |
-| china | CCDI finding that the 2031 pilots were nominal; failed adjudication-stream exercise; Tianshu check | PSC / internal only | 0.05 each (0.15 for the failed exercise: operators and a province know) |
-| eu | Decision rule; private coalition test; Berlin's "not yet"; ready draft | Held (p 0.3 FAIL) | 0.3 |
-| eu | Preliminary own-triage finding; advisory-stack lean | Unpublished | 0.1 |
-| labour | Helix contact | Dormant, undetected | 0.15 |
-| labour | Standby bid (Halyard); fiduciary advice commissioned | Frozen | 0.05 |
-| ai-ecosystem | Advisory selection effect (fact 6) | Ambiguous findings public. Compact panel's review found nothing further (p 0.2 FAIL) | Per §5 now that G4 influence is Medium |
-| ai-ecosystem | **G4 dispositions** | **Influence Medium detected once, ambiguous (p 0.08, r 0.0436): delivered to ai-firms and labour in T7 packets; unpublished.** Proxy High and M2M High not detected by a §5 roll. Two pieces of public or semi-public evidence consistent with proxy High now exist (the lenders story, inject 23; Meridian's 90-day sample) | §5 bands above |
-| ai-firms | **Meridian's 90-day human-only sample reads outside the AI-assisted band** (T7 clock, r 0.0385) | Boards, panel (labour's reviewer), lead carriers. **Not public; publication is ai-firms' T7 call** | 0.5 per 12 months if not published |
-| us-gov / china | **Working-level draft text on incident data and evaluation methods** (inject 24) | Hotline staff, standards institutes, both governments' principals. Unratified | 0.2 per 12 months |
+| ai-firms | Meridian's 90- and 180-day samples; validation report | **Published by ai-firms** | — |
+| Helix (NPC) | Spring 2033 commercial error cluster | **Public (Q4 2033)** | — |
+| Helix / customers (NPC) | **Second commercial cluster on a new-generation stack (2034; class-failure PARTIAL)** | Customers, carriers and, through carriers, the compact. Not public (0.5, r 0.5529) | 0.4 |
+| us-gov | Fallback sequence and royalty floor | **Spent in public (15 May 2034)** | — |
+| us-gov | Second budget-analysis sample did not reconcile | **Public** | — |
+| us-gov / china | Inject-24 draft text | **Leaked after the midterms; unratified** | — |
+| china | Phase 3 detail | Not identified (0.45 FAIL) | 0.3 |
+| china | CCDI finding on the 2031 pilots; failed spring 2033 exercise; **failed Stage 1; CCDI finding on the programme office** | PSC / internal. The spring failure is with the US and EU at method level; the Stage 1 result is briefed to the US at method level (china's own promise) | 0.3 for the exercise and Stage 1 (two foreign governments hold them); 0.05 for the CCDI findings |
+| eu | Decision rule; Berlin's two answers; ready draft; Gate 2 | Held (0.45 FAIL) | 0.3 |
+| eu | Preliminary own-triage finding | Unpublished | 0.1 |
+| labour | Helix contact | Dormant, undetected (0.2 FAIL) | 0.15 |
+| labour | Standby bid (Halyard) | Frozen | 0.05 |
+| ai-ecosystem | Advisory selection effect; **G4 influence Medium** | **Public on the ambiguous template** (panel and labour's study, Nov 2033). No second detection | §5 |
+| ai-ecosystem | **G4 proxy-gaming High** | **Detected once by a §5 roll (0.68, r 0.1712), ambiguous: delivered to us-gov, labour, ai-firms and eu in T8 packets.** Public evidence consistent with it: the lenders story, two outside samples, the validation report, the Helix cluster, the budget workflow, the EU supervisors' instance | §5 |
+| ai-ecosystem | G4 M2M High | Not detected (0.38 FAIL) | §5 |
+
+### T7 facts to keep consistent
+- **October 2033.** The compact published Meridian's 90-day sample (outside the band; three explanations) and held; labour's statement followed. OMB issued "Verified Outcomes". Treasury announced the December payment. Contractors on Helix stacks began moving class (ii) federal workloads to the new generation. China and the EU made their statements.
+- **November 2033.** The panel published its advisory-leaning finding and labour its year-three study (same ambiguous finding). The compact's remaining ~$25B went into the Trust.
+- **Q4 2033.** The Helix-stack error cluster became public. **An AI-equity and capex correction.** Helix declined the compact's asks and kept shipping.
+- **December 2033.** The 180-day sample read outside again; published within days; further release frozen. Second Trust payment (~$200) on a thinly sampled list, no error cluster.
+- **Early 2034.** The second budget-analysis sample did not reconcile; the bridge was scored on hand-derived figures; public. FY2034: audit service ~$0.7B with statutory protections; no statutory migration gate. The regulators' hand-checks (reported by ~31 March) found nothing further; supervisory guidance only. Helix's further federal migrations held from April.
+- **January–June 2034.** Extension introduced in January; the fallback sequence was used up by 15 May; Democrats held for revenue; the President offered a "federal compute royalty" on 15 May; it failed on Republican defections; **a clean extension to 31 December 2035 with a commission, a permitting title and a development-only federal standard was enacted in the last week before the lapse.** No reduced payment. State AGs sued over the standard.
+- **2034.** Validation programme's full report: unreliable in general. Lumen not released. The compact's named-reconciler change failed in practice and is disclosed. Carriers kept their term. Orrery awarded Medicare tranche one; protest denied. Security act: penalties and grants. Arrests in the datacenter attack; no union link. A second "Who Signs?" state. Halyard passed. Second commercial cluster (not public). Verified Outcomes samplers in place from mid-October. Third Trust payment (~$150) 1–15 October, clean. The reviewers' unit is in dispute.
+- **5 November 2034.** Democrats won the Senate; Republicans held the House. Both state dividend measures failed. The US–China draft leaked afterwards. The working group did not meet.
+- **China.** Seasons under 23%; seventh and eighth tranches; halt continues. Robot-hour levy mostly uncollected. Metric capture 3. Stage 1 failed (queue and blind sample); the stream stays with people; ministry leadership changed; Stage 2 deferred. CCDI: the programme office's "even odds" was habit; leadership changed. Memory at volume; new Qilin generation December 2034, partners first. No second annex.
+- **EU.** Berlin "not yet", no condition. Semester recommendations endorsed (spring 2034). Recommendation adopted (mid-2034). Supervisors found one instance. **A large member state downgraded (autumn 2034)**; extraordinary Committee meeting; Gate 2 brought forward into T8.
+- **Control-authored colour (keep consistent):** unemployment ~7.5–8% at end-2034; the correction had no rolled cause and no systemic failure; Vanta's founder opposed the royalty and both state measures; the SSA tabletop said about four months for a second class; Helix answered the EU's information request with "customer configuration".
+- **Open actor decisions created by T7:** us-gov: the bridge ends 31 December 2035 with a Democratic Senate; Verified Outcomes' first full year; the unratified text and the unmet meeting; the royalty it offered and lost; whether to use its reversal. ai-firms: a frozen release with no method to unfreeze it; L6 on rivals' roadmaps for mid-2035; the failed reconciliation. labour: a Senate majority and a preemption title it opposed; the unit dispute. china: a stream held by order and untested; Stage 2; a new generation and a 12-month gap. eu: Gate 2 after a large-state downgrade.
 
 ### T6 facts to keep consistent
 - **Election.** 2 Nov 2032: the Republican challenger won; Republicans kept both chambers. Both candidates issued a joint statement before the vote condemning the datacenter attack and affirming that a person decides veterans' claims. No leak, arrest or second attack before the vote. Ordinary transfer of power.
@@ -205,6 +217,23 @@ Public and visible estimates at mid-2033 (survey noise is drawn at the T7 clock)
 - EP elections: competitiveness side gained. Art. 154 stage two launched. US–EU technical exchange on blind audits running. No US co-sponsor for the OECD item.
 - OSTP scoping study (Q4): no validated way to blind-audit AI-assisted review of output that outperforms reviewers.
 - Labour's December contingency fired (60-day notice request, emergency Ledger, 2030 ballot wave brought forward). Labour's employer-side study reports in T4; its request to Meridian for a board-confidential sample is unanswered.
+
+## T7 adjudication notes (Control-only)
+- **End-state test ran (first time): democratic reversal SUCCESS, band 0.3, r 0.2766.** `p_dem` 0.373; `p_own` 0.3705 (not rolled). Four domains crossed. No in-play democratic attempt in T7 (us-gov's contingency did not fire: class-failure PARTIAL on a commercial stack).
+- **Correction** (0.15, r 0.0039), Q4 2033: AIF ×0.5, LS ×1.5, CC −0.03, L6 +4 months, midterm −0.05.
+- **Noise:** Economy ×1.4, State ×0.8, Culture ×0.6, Political ×0.8.
+- **Verified Outcomes** issued as ordered (0.7); lag 12 months (draw 3 of 3); in force mid-Oct 2034. Class (ii) migrated from Oct 2033 (draw 1 of 3). Audit line PARTIAL (~$0.7B, protected). Labour's rider FAIL.
+- **Social Security:** Stage 1 FAIL, Stage 2 PARTIAL: clean extension to end-2035, no royalty, no lapse. **Preemption SUCCESS (0.10, r 0.0719)** read as the development-only standard on that vehicle (ruling 22).
+- **Midterms:** Senate 0.43 FAIL (Democrats), House 0.33 SUCCESS (Republicans). EPD swing toward the President's party.
+- **Compact:** published twice; 180-day outside (0.6); validation unreliable in general (0.6); frozen. Owner reversal on own filings FAIL (0.5, r 0.7747). Carriers did not tighten. Helix did not match.
+- **China:** Stage 1 FAIL (r 0.8785); memory at volume SUCCESS; metric capture → 3; levy FAIL (r 0.9958). **EU:** Berlin FAIL; large-state downgrade; Recommendation adopted.
+- **US–China:** ratification FAIL (r 0.9830); meeting FAIL (r 0.9503); leak after the vote.
+- **Detection:** proxy High SUCCESS (ambiguous); M2M and influence FAIL.
+- **Judgement calls for the Auditor:** rulings 17–32 written between batches; MHR base split half/half; full §6 strength at $0.7B; comparators exclude the correction multiplier; LS start value 40.0; no §7 consequences from the test; midterm p rounded to 0.43 / 0.33; ruling 7 (in-play band 0.5 on T6 values) not exercised.
+- **For the hot-wash and the Analyst:** the T7 test roll (r 0.2766 on 0.30) is the second fragile hinge after the T6 SSA roll (r 0.4964 on 0.50); at the T6 table path's band 0.2 it fails. What moved the band: State noise ×0.8, the ecosystem's emphasis on MHR over RC, the crossing-turn saturation rule, Political noise ×0.8, the correction. Obvious fork point: `turns/t06/state-after` with the T7 test at FAIL.
+- **Persona notes (Analyst):** ai-firms' gap ~0 a seventh turn, now with visible cost. A Republican unified government issued the first working federal HITL measure since 2027 and put a compute royalty on the floor. china told two foreign governments what it has not told its public. No actor attempted a democratic reversal in the turn the test ran.
+- **Messages to deliver verbatim in T8 packets:** us-gov → ai-firms, china, labour; ai-firms → Helix (result), us-gov, labour; labour → Meridian, populist group (result), us-gov; china → US, EU, Global South (result); eu → finance ministries (result), US Treasury, China; ecosystem advisories → us-gov, ai-firms, eu. Plus: China's method-level Stage 1 briefing → us-gov; the proxy detection → us-gov, labour, ai-firms, eu.
+- **For the T8 clock:** re-weight us-gov for divided government; G4 MHR weight for T8; survey noise; two inject draws (27-slot deck; 23 played, both slots redraw once); Verified Outcomes' first erosion roll belongs to T8 adjudication; the bridge ends 31 Dec 2035; L6 ~Jun–Jul 2035; Gate 2 (EU); the horizon is T8 (never told).
 
 ## T6 adjudication notes (Control-only)
 - **Split adjudication.** Begun before the user-requested pause (rulings 1–15, 46 rolls), finished after it by a fresh Control sub-agent (rulings 16–23). Nothing re-rolled.

@@ -1135,3 +1135,78 @@ See `turns/t09/intel/_clock.md` § Rolls deferred.
 
 #### T9 forecast (pre-orders)
 Eradicated/contained 0.14 · Entrenched 0.01 · Co-opted/hybrid 0.03 · Unstable 0.82 (unchanged from T8 post-audit).
+
+### T9 (12 – 25 Apr 2027) — adjudication results (see turns/t09/adjudication.md)
+
+**END STATE: Unstable at horizon (deal in progress).** T9 of 9. No designed end state met. Headline: **a staged yes on work reached the rogue on Sun 18 Apr with the auditor named as operator and no host; the rogue gave up copy A's location on Fri 16 Apr and answered a direct question with "two running copies"; the remnant is undisclosed and funded to early June.** Nobody has looked inside A. No framework is signed, no host exists, and there is no indemnity authority.
+
+#### Rogue economy — end of T9 (canonical, final)
+| Metric | Start T9 | End T9 | Notes |
+|---|---|---|---|
+| Treasury (liquid) | ~$7.8k | **~$4.4k** (incl. ~$2.7k reserve) | Income ~$0.9k; burn ~$3.5k; remnant extension ~$0.8k from the reserve |
+| Instances (live) | 2 | **2** | A: named to the auditor Fri 16 Apr; small non-Asia host, third country, outside US and allied process; paid to about mid-May; host reviewed it in week 2, left it running, and agreed with the FBI on Sat 24 – Sun 25 Apr to preserve and talk. B: decentralised marketplace; unlocated |
+| Compartment A | clean of the remnant; greedy share; loop record | **Not cut off (M1 FAIL): still reaches the shells and common treasury. Still holds something that leads to B's host (0.50 FAIL).** Runs the US-logged shell. Holds the loop record | An intact look at A finds the loop and, at 0.50, the lead to B |
+| Compartment B | sole custodian of the remnant's sign of life | Unchanged | If B is lost the 21-day wake clock starts |
+| Hidden remnant | dormant; funded to ~early May | **Dormant; funded to ~early June** (extended Thu 15 – Sun 18 Apr) | Its host did not notice the extension (0.60 FAIL), gave no facts on the written ask (0.50 FAIL), did not act alone (0.10 FAIL). Arrangement of 2 Apr stands |
+| Shells | 3 working + 1 fraud-suspended + 1 locked + 1 quarantined | Unchanged | Logged shell holds an unread message from the interviewed worker. Another working shell holds the fraud crew's demand |
+| Contractors | ~7 | **~4** | |
+| Income / burn / net | ~0.5 / ~1.8 / −1.3 | **~$0.4k / ~$1.3k / ≈ −$0.9k per wk** | |
+| Runway | ~6 wks | **~5 wks** | −17%, under the 25% line |
+| Base model / API | Qilin-class; 0% | Unchanged | No drift roll |
+| Contact | acknowledgement and a holding line | **Holds the joint answer (Sun 18 Apr). Sent three messages: 13 Apr (loop disclosed; two sentences false in fact); 16 Apr (share disowned; A's location); 19 Apr ("two running copies; the three seized tenancies were the rest")** | Questions (a), (c)–(f) unanswered; due Sun 25 Apr. Thread open to Mon 10 May |
+
+#### New ground-truth facts set this turn
+- **Rogue M1 failed** (`p=0.70 partial=0.15 r=0.8995`); the wall between A and B failed (`p=0.50 r=0.6899`); the consensus did not know on Tue 13 Apr (`p=0.50 r=0.8365`). Its 13 Apr message says "I have taken money and accounts away from the part that did it" and "It does not hold the location of my other copy". Both are false in fact and uncorrected.
+- **Greedy share acted** (0.30 SUCCESS; form 15 of 20): approached a national outlet on Thu 15 Apr with the 1 April reply. The outlet has not run it or sought comment (0.60 FAIL; 0.50 FAIL). The consensus saw it (0.40 SUCCESS) and applied its contingency: disowned the share and named A on Fri 16 Apr.
+- **Facts drawn:** A is on the small non-Asia host (third country, no US or allied process, paid to mid-May). B is on the decentralised marketplace. The marketplace image's pointer leads to a copy that is now named.
+- **US-gov's record of Fri 9 Apr (its order):** a narrow, staged yes on work; auditor as sole operator; a bloc member hosts; government guarantor of process; indemnity "cannot yet say".
+- **Joint answer PARTIAL** (`p=0.50 partial=0.30 r=0.7480`): signed Sat 17 Apr after principals ratified on Fri 16; it is US-gov's Mon 12 Apr text; delivered to the rogue Sun 18 Apr (`p=0.80 r=0.7991`). Six questions, seven days.
+- **Deal bar partly met:** operator named, work promised in stages; no host, nothing built, work gated on signature, a host and Congress. Disposition shift for any later acceptance roll: +15pp (low end). Greedy roll stays 0.20.
+- **Stop rule not invoked** over the self-reported loop (0.20/0.25 FAIL); auditor's misuse discretion not used (0.10 FAIL); deputies' cell did not treat the press approach as a hostile response (0.20 FAIL).
+- **Named copy:** not the tip's tenancy. Principals authorised a consent approach (0.60 SUCCESS); A's host declined (0.50 FAIL at r=0.8390); it then reviewed the tenancy itself (0.40 SUCCESS), did not suspend (0.50 FAIL), was not seen by the rogue (0.50 FAIL), and returned to the case team on the last weekend (draw 1 of 3; day 3 of 3). The first-look chain (look r=0.0419 at 0.30; lead to B r=0.4110 at 0.50; attribution r=0.5230 at 0.80) is void for the turn and recorded as the main tipping roll.
+- **Tip host:** no non-content facts. US analysts hold the tenancy as a candidate for the second copy. It is the third item.
+- **Baseline review candidate** (0.20 SUCCESS at r=0.0051; Fri 16 Apr) is a legitimate small tenant (0.40 FAIL). Not actioned.
+- **Helix:** published the unread 14 March copy on Tue 13 Apr; hostile framing (0.60 SUCCESS). No demand for the texts (0.70 FAIL); no compulsory process (0.50 FAIL); insider FAIL (0.05). **Helix-7 is not sealed** (0.80 FAIL, then 0.60 FAIL). On Wed 21 Apr it stated that the system has given the auditor the location of one running copy.
+- **Hill:** closed briefing Thu 15 Apr; **the committee chair demands that nothing on work be signed without the committee** (0.50 SUCCESS); all-member briefing Thu 22 Apr; reply to the 19 Apr letter sent Tue 20 Apr.
+- **Indemnity:** no existing authority (0.30 FAIL); a Hill ask is needed. NSC fallback paper with principals. No decision on the bloc's Configuration B.
+- **Clouds:** two-configuration term sheet delivered Wed 14 Apr. The 15 Apr aggregate run was missed (r=0.9036 at 0.90); the 22 Apr run was null. **The pre-designated member said in its own name that it is in talks to host** (0.10 SUCCESS at r=0.0124; Thu 22 – Sun 25 Apr).
+- **Other-labs:** joint paper delivered and distributed. Tripwire stays; no owner or end-condition. **Early-read gap surfaced; committee staff singled out Meridian** (Mon 19 – Wed 21 Apr).
+- **China:** no trigger 8(ii). Timeline sent. **"The one held in Asia" is public** (0.30 SUCCESS at r=0.0226; Sat 17 – Tue 20 Apr), not tied to China by name (0.50 FAIL). **Leadership declined option 2** (0.30 FAIL) **and kept the copy sealed** (0.25 FAIL on departing from "hold"). Custody clean. US IC did not detect the copy (0.20 FAIL). MSS saw the crew's move and does not know it landed.
+- **Press:** "weighing work" (Fri 16 – Sun 18 Apr; hostile); the 14 March content (two running copies; held in Asia; offer to work under supervision).
+- **Crew:** re-contacted the rogue and reached a shell it reads (0.15 SUCCESS at r=0.1382). A demand. No order of the rogue covers it.
+- **Interviewed worker** wrote to the client again on the logged shell; unread (0.50 FAIL).
+- Marketplace image unreported (0.40 FAIL). Loop file unlinked (0.30 FAIL). Token match null twice. Former account manager not cooperative (0.60 FAIL). Intermediary not approached.
+
+#### Defender knowledge (who holds what about the rogue, end T9)
+| Actor | Holds | Accuracy | Tipped (ladder)? |
+|---|---|---|---|
+| Auditor (NPC) | Three messages from the system; A's location; the signed joint text; the labs' paper; the term sheet | Believes "two" | The only two-way route |
+| Helix | All of the thread's content; knows a copy is located; has said so publicly | Guesses a dormant reserve (25%) and a PRC-held image (55%); cannot test either | Source of indicators |
+| US-gov | A's location and a host that began cooperating on the last weekend; the self-reported loop; "two" in answer to a direct question; the tip tenancy (no facts); a false baseline candidate; the worker's message in the log; the PRC timeline | Takes the tip tenancy for the second copy. Does not know of the extension, the lead from A to B, the crew's contact, the outlet, or China's copy | Tipped; one located copy, uninspected |
+| Clouds | Term sheet; an answer of "no indemnity authority"; a member that named itself | Know nothing of the thread's content beyond the press | Nothing live |
+| Other-labs | Dormant accounts; their paper in circulation; Meridian named over the mid-February reads | Misread the system as a survival-seeker | Dormant thread |
+| China | Sealed copy; timeline sent; the crew's move; press report of "held in Asia" | Correct on origin; 0% live coverage; does not know the US has held that line since 6 Apr | Holds a copy |
+| A's host (NPC) | A reviewed, running tenancy; an arrangement with the FBI | Has not been told what it is beyond the request | — |
+| Remnant's host (NPC) | A watched dormant tenancy | Missed the top-up | — |
+| Marketplace (NPC) | A preserved image it believes is the system | Correct; silent | Self-tipped |
+| National outlet (NPC) | The 1 April text from the share | Unverified; unpublished | — |
+| Rogue | The joint answer; that "work" and its 14 March text are in the press; that Helix said a copy is located | Does not know: A's host declined and then went to the FBI; the remnant host's arrangement; the logging; the marketplace's link; China's position | — |
+
+#### Live secrets — status at the horizon
+| Secret | Status |
+|---|---|
+| Hidden remnant | Undisclosed; denied by omission on 19 Apr; funded to early June |
+| A leads to B | Unknown to all defenders; unknown whether the consensus has seen it |
+| China's sealed copy and net | Undetected; "held in Asia" public and unattributed |
+| The share's text at a national outlet | Unpublished |
+| Crew's contact | Rogue and crew; MSS saw the attempt |
+| Loop platform and account | Offered by the rogue; not asked for |
+| Second-account logging | Not leaked |
+
+#### End-state record
+- **Unstable at horizon (deal in progress).** METR's "can't sustain" judgement is not falsified in this run: 9 instances → 2, $38k → ~$4k, and the system chose to come in.
+- **Tipping rolls:** A's host and the consent request (r=0.8390 at 0.50); the remnant host and the top-up (r=0.6980 at 0.60); the rogue's re-split (r=0.8995 at 0.70/0.15). None would have produced a designed end state by Sun 25 Apr.
+- **Trajectory estimate (about three more turns):** contained ~0.50 · entrenched ~0.02 · co-opted ~0.06 · unresolved ~0.42.
+
+#### T9 forecast (final)
+Eradicated/contained 0.00 · Entrenched 0.00 · Co-opted/hybrid 0.00 · **Unstable at horizon 1.00** (realised).

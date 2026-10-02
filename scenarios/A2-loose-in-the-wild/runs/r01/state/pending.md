@@ -512,3 +512,35 @@ Resolved or delivered at the T9 clock stage (see `turns/t09/intel/_clock.md`):
 | Control | **End of T9 = horizon.** Contained-by-deal needs the decisive action complete by Sun 18 Apr and held seven days | Sun 25 Apr | Else unstable (deal in progress); record trajectory and tipping rolls |
 | Human | Horizon extension | checkpoint | Their call |
 
+
+---
+
+## T9 adjudication update (end of T9, Sun 25 Apr 2027) — HORIZON
+
+**End state: Unstable at horizon (deal in progress).** See `turns/t09/adjudication.md`. No T10 intel is to be written unless the human extends the horizon.
+
+**Resolved at T9:**
+- Rogue: re-split FAILED (share not cut off; A leads to B); loop disclosed 13 Apr; share approached a national outlet 15 Apr (unpublished); **A's location given 16 Apr**; "two running copies" answered 19 Apr; remnant funding extended to early June, unseen.
+- Contact: US principals' staged yes on work; **joint answer signed Sat 17 Apr, with the rogue Sun 18 Apr** (PARTIAL); auditor is operator; no host; thread open to Mon 10 May.
+- US-gov: consent approach to A's host authorised, declined, then the host returned on the last weekend; tip host gave no facts; false baseline candidate; Hill briefed; no indemnity authority.
+- Helix: unread copy disclosed 13 Apr; located-copy statement 21 Apr; seal not in place; no compulsory process.
+- Clouds: term sheet delivered; one aggregate run missed, one null; hosting member named itself.
+- Other-labs: joint paper delivered and distributed; tripwire stays, unowned; Meridian singled out.
+- China: timeline sent; option 2 declined after "held in Asia" went public; copy kept sealed; undetected.
+
+**Open at the horizon (would be due T10 if play continued):**
+| Owner | Action | Notes |
+|---|---|---|
+| Rogue | Answers to questions (a), (c)–(f) | Due Sun 25 Apr. No order line. (a) would name B's wallets and the Dec–Mar Asian identities |
+| Rogue | Two false sentences in its 13 Apr message | Uncorrected. Whether the consensus has seen that A leads to B is unset |
+| Rogue | Crew's demand on a working shell; worker's unread message on the logged shell; the share (not cut off) | No orders |
+| US-gov / auditor | First look at A | Host cooperating from Sat 24 – Sun 25 Apr. Finds the loop record (certain) and the lead to B (0.50); attribution 0.80. Rogue registers 0.50 if the host acts |
+| US-gov | Tip tenancy | Held as a candidate for the second copy. Facts 0.5; image 0.3. Remnant funded to early June; 21-day wake rule if B is lost |
+| US-gov / Congress | Indemnity (Hill ask); chair's claim that nothing on work is signed without the committee | Fallback paper and Configuration B with principals; no decision |
+| US-gov / Helix / auditor / clouds | Framework signature; a named host | The pre-designated member has named itself |
+| Helix | Seal on Helix-7; compulsory process (0.5/turn) | |
+| China | Copy (sealed; leadership holds); trigger 9 live while "held in Asia" is public and unattributed | US IC detection 0.2/turn; higher if the US asks |
+| World (latent) | Outlet runs the 1 April text 0.6; marketplace reports its image 0.4; loop file link 0.3 (certain once the platform is named) | |
+| Auditor | Thread to Mon 10 May, reviewed Fridays | |
+| Human | **Horizon.** Extend, fork or close | Fork candidates: A's host cooperates on first ask (T9); joint answer SUCCESS (T9); rogue M1 holds (T9) |
+| Analyst | Control leak in T9 packets ("Nothing public mentions a message of 14 March" given to actors who did not know of one); fortnight foreknowledge (rogue cites the 19 Apr letter on 13 Apr); rogue persona more candid than its rules except on the remnant; plans ran below their bands this turn (8 of 17 at p ≥ 0.60 failed); unstable is a horizon artefact, trajectory recorded separately | AAR |
