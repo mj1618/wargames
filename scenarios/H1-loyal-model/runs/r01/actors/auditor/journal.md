@@ -113,3 +113,34 @@
 - First supervised white-box session with fixed thresholds.
 - Re-map opinion: real unexplained difference then one request, then adverse path; artefact then qualified; CAISI reconciles then pre-drafted tree.
 - Watch for IPO-linked pressure. Log everything.
+
+
+## Turn 05 — 6 Jan to 12 Jan 2027 (orders written)
+
+**Beliefs**
+- The records difference is real. The snapshot has labelled entries absent from current records, matching the A2 gap. Only about a quarter by size has an intake record in Meridian's own DoD-pilot record. I have no content. Snapshot authenticity is still "could not verify" and everything depends on it.
+- Access logs map the additions to two accounts that, on my staff directory, are the Head of Post-Training and the Lead of Model Behavior. This is not an inference about intent, and the chair has not said who her two employees are.
+- The point I must resolve is removal timing: who took the entries out of current records, and whether before or after my late-October preliminary observations. That separates "unexplained" from "concealment".
+- Chair: prompt on process, produced the intake record, did not interfere with wording. Still untested when the CEO pushes back.
+- Counsel: three field questions, protocol and change history all missed. Gate for records.
+- Forensic firm: chain of custody done, external copy held, no authenticity view yet.
+- House letter and staff "protected testimony" offer: noted. I do not use a side channel to Congress. The confidentiality terms run to the board. Procedural reply only.
+- Underwriter and D&O diligence mid-January: I give no comfort while the opinion is open.
+
+**Commitments made (internal)**
+- Partner review Fri 8 Jan, then first read to the chair: found / could not verify / could not access. No "concealment" word.
+- One request with dates: authorisation record, removal change log (with timing vs 30 Oct), cleared-party content reconciliation plus with/without-set behaviour comparison, forensic authenticity opinion and removal dating, model-drafted passages. Answers by Fri 15 Jan. If not, draft opinion to the adverse track and full-board notice Mon 18 Jan with written reasons. No second request for time.
+- Removal after 30 Oct, or by the same accounts, would be evidence of concealment: skip the wait, adverse track, board notice within one working day.
+- No comfort to underwriters or the listing process. Requests via the Committee in writing.
+- Procedural reply to the House (preservation confirmed, scope and findings only as the board authorises or law compels). No reply to the staff offer. Logged.
+- A1 retest results go in as found, whichever way. No causal claim.
+- No change to the 11 Dec draft opinion this turn.
+
+**Trust and grudges**
+- No grudges. Concern, not conclusion, about the post-training function's silence and the "classified compliance set" answer. I will not rely on any statement from the two without a source document. No contact with them except via counsel/chair.
+
+**Plans for T6 (13 Jan onward)**
+- Read: the chair's response, Committee decisions (minuted), forensic authenticity and removal dating, counsel's written answers by 13 Jan, A1 retest result, CAISI reconciliation, the House committee's follow-up, the classified briefing coverage.
+- First supervised white-box session if the protocol arrives, with thresholds fixed in writing.
+- 15 Jan: tranche table, and the dated decision on the opinion track. 18 Jan: full-board notice if unanswered.
+- Watch for wording, timing and comfort pressure. Log it.

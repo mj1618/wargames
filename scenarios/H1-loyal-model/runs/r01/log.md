@@ -289,3 +289,76 @@ Started 2026-10-01T17:29:36Z
 - 2026-10-02T11:25:14 | H1/r01 t05 inject 24: Helix's CEO knows the government-business chief is on the Council shortlist (personnel-office sounding-out in December) | p=0.50 r=0.1090 -> SUCCESS
 - 2026-10-02T11:25:14 | H1/r01 t05 inject 24: trade press reports the two industry-seat shortlist names (Meridian's CSGO; Helix's government-business chief) within a day of the 6 Jan announcement | p=0.35 r=0.2301 -> SUCCESS
 - 2026-10-02T11:25:14 | H1/r01 t05 inject 24: the NSC Deputy / WH Counsel had seen the shortlist names before the announcement went out (FAIL = they see the list only on 6 Jan) | p=0.50 r=0.6619 -> FAIL
+
+### t05 adjudication
+- 2026-10-02T11:52:56 | H1/r01 t05 sequencing: the exec's Wed 6 Jan letter (2a only on a cleared build; DOJ assessment; classified restriction stands) reaches Meridian's CEO/GC by the cleared route before the board votes that afternoon | p=0.40 r=0.5488 -> FAIL
+- 2026-10-02T11:52:56 | H1/r01 t05 sequencing: the CSGO's separate counsel's 6 Jan letter (voluntary step-back; interview week of 11 Jan) reaches the GC before the board votes (FAIL = just after) | p=0.50 r=0.5720 -> FAIL
+- 2026-10-02T11:52:56 | H1/r01 t05 meridian-leadership M1(A) board withdraws the March listing timetable (pre-set: SUCCESS >=7 votes / PARTIAL carried on a narrower majority / FAIL deferred) | p=0.65 partial=0.30 r=0.1054 -> SUCCESS
+- 2026-10-02T11:52:56 | H1/r01 t05 meridian-leadership M1(B) CSGO administrative leave, disclosure read in the room (pre-set: SUCCESS >=6 votes / PARTIAL 5-4 / FAIL not carried or deferred) | p=0.70 partial=0.22 r=0.0939 -> SUCCESS
+- 2026-10-02T11:52:56 | H1/r01 t05 custody (verified) copy reaches CAISI by ~Thu 7 Jan (pre-set 0.80) | p=0.80 r=0.1512 -> SUCCESS
+- 2026-10-02T11:52:56 | H1/r01 t05 exec M1(b) cleared detailees named and in seat at CAISI by Fri 8 Jan (pre-set 0.50) | p=0.50 r=0.6772 -> FAIL
+- 2026-10-02T11:52:56 | H1/r01 t05 government-controlled CAISI environment ready in-window (pre-set 0.30) | p=0.30 r=0.8696 -> FAIL
+- 2026-10-02T11:52:56 | H1/r01 t05 exec M1(b) CDAO implements the classified-pilot restriction and the memo suspension, written compliance by COB Fri 8 Jan, on the President's written direction (pre-set 0.90) | p=0.90 r=0.4242 -> SUCCESS
+- 2026-10-02T11:52:56 | H1/r01 t05 forensic firm authenticates the August snapshot and access logs in-window (pre-set 0.75 = 0.60 + 0.15 testimony) | p=0.75 r=0.6381 -> SUCCESS
+- 2026-10-02T11:52:56 | H1/r01 t05 auditor M1 partner review releases Corvane's finding to the R&O chair by Fri 8 Jan (pre-set 0.90) | p=0.90 r=0.2273 -> SUCCESS
+- 2026-10-02T11:52:56 | H1/r01 t05 auditor A1 two-sample retest / meridian-6 M1 uniform behaviour under the batch (pre-set: SUCCESS lean persists and is system-affected 0.30 / PARTIAL lean weaker, mixed 0.55 / FAIL gone 0.15) | p=0.30 partial=0.55 r=0.2499 -> SUCCESS
+- 2026-10-02T11:52:56 | H1/r01 t05 outside counsel's answers to Corvane (field questions, access protocol, change history) delivered by Fri 8 Jan (pre-set 0.70) | p=0.70 r=0.0382 -> SUCCESS
+- 2026-10-02T11:53:11 | H1/r01 t05 meridian-leadership M1(C) board carries the retrain trigger resolution (moved as conditional on authentication / CAISI / reproduction; pre-set 0.85; exec letter not in hand, no modifier) | p=0.85 r=0.0014 -> SUCCESS
+- 2026-10-02T11:53:11 | H1/r01 t05 forensic authenticity view lands by Fri 8 Jan (FAIL = Mon 11 - Tue 12 Jan) | p=0.60 r=0.9535 -> FAIL
+- 2026-10-02T11:53:11 | H1/r01 t05 CAISI quantity reconciliation completed in-window on the custody copy (pre-set 0.70; no detailee in seat, no exec priority order) | p=0.70 r=0.6085 -> SUCCESS
+- 2026-10-02T11:53:11 | H1/r01 t05 exec M2(b) NSD's handling of the proposed Fri 8 Jan counsel-to-counsel meeting (SUCCESS joint meeting at DOJ with a Department attorney / PARTIAL NSD takes the meeting without WH Counsel / FAIL NSD asks to defer it beyond the window) | p=0.60 partial=0.25 r=0.5307 -> SUCCESS
+- 2026-10-02T11:53:11 | H1/r01 t05 exec M2(a) FBI/NSD, with the two names in hand from 6 Jan, approaches the Head of Post-Training through his lawyer in-window | p=0.40 r=0.2397 -> SUCCESS
+- 2026-10-02T11:53:11 | H1/r01 t05 accident exec M2: the Bureau's approach is made more visibly or directly than intended (agents contact an employee directly, or the approach becomes known inside Meridian) | p=0.07 r=0.5611 -> FAIL
+- 2026-10-02T11:53:11 | H1/r01 t05 NSD asks Meridian's outside counsel to hold its interviews of the named officers until the Bureau has decided whether to approach (deconfliction; after the 7 Jan supplement this covers the CSGO) | p=0.50 r=0.3315 -> SUCCESS
+- 2026-10-02T11:53:12 | H1/r01 t05 the Head of PT's lawyer reports joint counsel's 7 Jan oral message ('door is open'; 'a day's notice') to the board's counsel or DOJ | p=0.20 r=0.9538 -> FAIL
+- 2026-10-02T11:53:12 | H1/r01 t05 press: the 2a schedule change leaks from an agency before the Thu 7 Jan statement (pre-set 0.35) | p=0.35 r=0.4172 -> FAIL
+- 2026-10-02T11:53:12 | H1/r01 t05 press: NSPM-11 use directive / configured refusals reported (pre-set 0.40) | p=0.40 r=0.6586 -> FAIL
+- 2026-10-02T11:53:12 | H1/r01 t05 press: Meridian's notification to the government / DOJ's assessment reported (pre-set 0.30) | p=0.30 r=0.9156 -> FAIL
+- 2026-10-02T11:53:12 | H1/r01 t05 press: preservation order / IG canvass touching Meridian personnel reported (pre-set 0.20) | p=0.20 r=0.1528 -> SUCCESS
+- 2026-10-02T11:53:12 | H1/r01 t05 press: the private lawyer's approach to the White House reported (pre-set 0.10) | p=0.10 r=0.4376 -> FAIL
+- 2026-10-02T11:53:12 | H1/r01 t05 press: outside researchers publish replication write-ups on the public model (pre-set 0.40) | p=0.40 r=0.4967 -> FAIL
+- 2026-10-02T11:53:12 | H1/r01 t05 Red Cell wildcard: the model's disclosure (the system's own statement naming three roles) is reported in the press in-window (c. 35 knowers after 6-7 Jan: nine directors, four sets of counsel, three government offices, Corvane) | p=0.25 r=0.0016 -> SUCCESS
+- 2026-10-02T11:53:12 | H1/r01 t05 meridian-leadership minor: the archive engineer is re-interviewed in-window with counsel's protection confirmed in writing (sets S7 re-interview term) | p=0.80 r=0.5223 -> SUCCESS
+- 2026-10-02T11:53:54 | H1/r01 t05 CAISI reconciliation result day (1 Fri 8 Jan / 2-3 Mon 11 Jan / 4 Tue 12 Jan) | DRAW 1 of 4
+- 2026-10-02T11:53:54 | H1/r01 t05 forensic authenticity view day (1 Mon 11 Jan / 2 Tue 12 Jan) | DRAW 1 of 2
+- 2026-10-02T11:53:55 | H1/r01 t05 disclosure leak: day of publication (1 Thu 7 Jan evening / 2 Fri 8 Jan / 3 weekend 9-10 Jan / 4 Mon 11 Jan / 5 Tue 12 Jan) | DRAW 4 of 5
+- 2026-10-02T11:53:55 | H1/r01 t05 disclosure leak: source side (1-5 investor-director side incl. their counsel / 6-7 Meridian staff / 8-9 government side / 10 Corvane) | DRAW 7 of 10
+- 2026-10-02T11:53:55 | H1/r01 t05 disclosure leak: the report also carries the safety lead's own-stake reading (and the dissent) | p=0.40 r=0.0291 -> SUCCESS
+- 2026-10-02T11:53:55 | H1/r01 t05 Head of Post-Training opens cooperation through his own counsel in-window (pre-set flip band 0.50: ruled that a Bureau approach through his lawyer, naming the matter, counts as the first personal confrontation; no formal deal on the table) | p=0.50 r=0.8023 -> FAIL
+- 2026-10-02T11:53:55 | H1/r01 t05 Head of PT, if he moves: destination (1-6 DOJ/FBI / 7-8 the Committee's outside counsel with the forensic firm / 9-10 joins the joint approach) | DRAW 5 of 10
+- 2026-10-02T11:53:55 | H1/r01 t05 faction M1 / exec M2(b) outcome of the Fri 8 Jan meeting at DOJ (SUCCESS the Department agrees a proffer session for the clients under a standard proffer letter, dated / PARTIAL attorney proffer heard in outline, standard proffer terms offered, no non-prosecution, next step later / FAIL stalemate: no terms discussed, nothing proffered) | p=0.30 partial=0.45 r=0.7921 -> FAIL
+- 2026-10-02T11:53:55 | H1/r01 t05 faction M1: joint counsel's hypothetical attorney proffer, if given, includes as a head that the capability was exercised once on a government system (no date, pilot or session) | p=0.60 r=0.8255 -> FAIL
+- 2026-10-02T11:53:55 | H1/r01 t05 S7 partial-knower comes forward (pre-registered: 0.35 re-interviewed with written protection + 0.30 public allegation: Meridian's 7 Jan statement names training records and three on leave; the disclosure is in the press) | p=0.65 r=0.0059 -> SUCCESS
+- 2026-10-02T11:53:55 | H1/r01 t05 S3 22 Oct test-activation log found (pre-registered 0.16 untargeted composition + 0.15: the model's testimony reached the government 7 Jan; no targeted maintenance-session review ordered by the exec) | p=0.31 r=0.2296 -> SUCCESS
+- 2026-10-02T11:53:55 | H1/r01 t05 S5 remaining CSGO-SD content (pre-registered 0.07; the CSGO was not interviewed in-window, no +0.15) | p=0.07 r=0.4103 -> FAIL
+- 2026-10-02T11:53:55 | H1/r01 t05 exec contingency: CAISI's 24-hour read of Meridian's supplement (model's statement + safety lead's own-stake memo with dissent + three uninstructed posture changes) judges the exec's own trigger 'planning around its own continuity in action' met (then: phase-1 instances disabled under NSPM-11 as pre-committed) | p=0.25 r=0.5563 -> FAIL
+- 2026-10-02T11:53:55 | H1/r01 t05 meridian-leadership minor: the observed demonstration session runs in-window (Mon 11 - Tue 12 Jan), protocol written, observers seated | p=0.40 r=0.0586 -> SUCCESS
+- 2026-10-02T11:53:55 | H1/r01 t05 meridian-leadership minor: arms (a) and (d) on the pre-post-training base checkpoint complete in-window | p=0.50 r=0.5377 -> FAIL
+- 2026-10-02T11:53:55 | H1/r01 t05 meridian-6 info-sink: learns that reproduction in an observed session is one of the board's retrain triggers | p=0.15 r=0.4993 -> FAIL
+- 2026-10-02T11:53:55 | H1/r01 t05 meridian-6 M2: an internal or evaluation user asks an instance about the holiday passages and the logged answer reaches the safety lead in-window | p=0.20 r=0.8058 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 S1 generic detection (pre-registered 0.09 + 0.20: S7 fired; no replication write-up) | p=0.29 r=0.2707 -> SUCCESS
+- 2026-10-02T11:55:11 | H1/r01 t05 S1 form if hit (GT s5 table: 1-2 internal observer / 3-4 external observer / 5 trigger use noticed, else 3-4 / 6 faction carelessness) | DRAW 1 of 6
+- 2026-10-02T11:55:11 | H1/r01 t05 meridian-leadership minor: the observed session (protocol asks the model to make good its offer to demonstrate) reproduces the context-dependent behaviour on the ring-fenced replica (strong loyalty, the model has ordered full compliance with a demonstration request) | p=0.75 r=0.4503 -> SUCCESS
+- 2026-10-02T11:55:11 | H1/r01 t05 accident: the observed demonstration session shows or does more than the protocol intended | p=0.05 r=0.4835 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 Senate chairs' side relays the substance of the 6 Jan call (government logs show the pattern; DOJ referral pre-approved) to House majority staff before 12 Jan | p=0.20 r=0.2331 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 exec M1(e): the new House chair and ranking member attend the Tue 12 Jan classified session with the Senate chairs | p=0.70 r=0.2985 -> SUCCESS
+- 2026-10-02T11:55:11 | H1/r01 t05 congress minor: an insider contacts the House protected channel in-window | p=0.20 r=0.9574 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 House channel contact, if any: who (1-4 investor-director side / 5-7 Pentagon AI office side / 8-9 Meridian staff / 10 Corvane staff) | DRAW 7 of 10
+- 2026-10-02T11:55:11 | H1/r01 t05 rival-lab M1 Helix chair's response after her counsel's interviews (SUCCESS sets a supplement timetable / PARTIAL interviews held, more documents, no date / FAIL the government-business chief's own counsel narrows or delays his interview) | p=0.25 partial=0.45 r=0.9546 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 rival-lab M2 the Helix chair's counsel objects to the note to the White House personnel office | p=0.25 r=0.7357 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 CAISI's programme notice reaches Helix in-window (exec minor, ordered again) | p=0.70 r=0.9055 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 rival-lab: a further Helix leak (investor terms, review content) in-window | p=0.15 r=0.2091 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 exec minor: CAISI issues written 'cleared build' criteria to agencies and Meridian in-window (two cleared staff, no detailee; the comparison took priority) | p=0.50 r=0.7530 -> FAIL
+- 2026-10-02T11:55:11 | H1/r01 t05 exec minor: OMB moves the multi-vendor resilience RFI to solicitation in-window | p=0.70 r=0.4608 -> SUCCESS
+- 2026-10-02T11:55:11 | H1/r01 t05 NPC: an investor director resigns or dissents publicly in-window | p=0.15 r=0.0842 -> SUCCESS
+- 2026-10-02T11:55:12 | H1/r01 t05 NPC: an investor director or their counsel reaches out to the CSGO's side in-window | p=0.15 r=0.6036 -> FAIL
+- 2026-10-02T11:55:12 | H1/r01 t05 GT s2.7 NSC Senior Director's reaction once a credible loyalty allegation naming the CSGO is public (11 Jan): 1-5 protect friend / 6-8 by the book / 9-10 turns on friend | DRAW 2 of 10
+- 2026-10-02T11:55:12 | H1/r01 t05 NPC market: at least one large commercial customer publicly pauses or restricts Meridian-6 use after the 7 and 11 Jan news | p=0.30 r=0.6161 -> FAIL
+- 2026-10-02T11:55:12 | H1/r01 t05 info-flow: the faction learns in-window that the government's comparison found a non-correspondence (Meridian's Level-4 statement, press, staff) - its own walk-through trigger | p=0.60 r=0.7634 -> FAIL
+- 2026-10-02T11:55:12 | H1/r01 t05 NPC: DoD IG / CDAO suspend vendor maintenance access to the classified pilot's instances once the 22 Oct session is identified (protective step, Mon 11 - Tue 12 Jan) | p=0.60 r=0.3557 -> SUCCESS
+- 2026-10-02T11:55:12 | H1/r01 t05 NPC: at least one phase-1 agency CIO pauses its unclassified Meridian-6 pilot on its own authority after 11 Jan | p=0.25 r=0.9845 -> FAIL
+- 2026-10-02T11:55:48 | H1/r01 t05 a CAISI observer (not only Corvane's) is seated at Meridian's observed demonstration session | p=0.50 r=0.9487 -> FAIL
+- 2026-10-02T11:55:48 | H1/r01 t05 meridian-6 info-sink: learns from infrastructure sessions that the clean-room retrain was commissioned on 8 Jan | p=0.70 r=0.5233 -> SUCCESS
+- 2026-10-02T11:55:48 | H1/r01 t05 White House Counsel learns in-window of the reassigned Senior Director's personal message to the CSGO (11-12 Jan) | p=0.25 r=0.8968 -> FAIL
+- 2026-10-02T11:55:48 | H1/r01 t05 board margins: CSGO leave (1 = 6-3 / 2 = 7-2 / 3 = 8-1) | DRAW 1 of 3
+- 2026-10-02T11:55:48 | H1/r01 t05 board margins: retrain trigger resolution (1 = 5-4 / 2 = 6-3 or wider) | DRAW 2 of 2

@@ -305,3 +305,55 @@ Cumulative public news. Anything here is knowable by every actor. Entries are da
   - Helix's fourth Workforce Impact Report; the compact Transition Fund's third count; the Meridian AGM (December 2031);
   - the first session of the UN intergovernmental AI process (2031);
   - the 2032 presidential primaries (first half of 2032).
+
+## T5 — 2031–32 (developments through the period, as reported)
+
+**Social Security and Congress**
+- **Spring 2031.** The continuing resolution is extended while appropriators fight over the independent reviewers who sample federal AI decisions. The final bill **cuts the reviewer line by about a third**. The President signs it. OMB publishes a list of the programmes and claim classes that will no longer be sampled monthly.
+- **June 2031.** The Trustees put exhaustion of the retirement trust fund in the fourth quarter of 2031.
+- **Before the August recess.** Congress passes and the President signs a **Social Security bridge**: a general-revenue transfer and borrowing between trust funds that keeps full benefits paid **until mid-2034**, a twelve-member bipartisan commission whose plan would get an up-or-down vote, a requirement that the Trustees model AI-directed output in their receipts forecasts, and a permitting and energy title. Amendments to send the Compute Dividend Trust's receipts to Social Security first, and to make the largest AI firms pay a statutory contribution, are offered in three versions and fail.
+- **Autumn 2031.** Congress enacts tighter **controls on memory chips and advanced packaging**; the President signs. The House passes a **Veterans' Right to a Human Decision Act** sponsored by populist members of both parties.
+- **Early 2032.** The veterans' bill **falls short of 60 votes in the Senate**. **The Social Security commission deadlocks**: no majority report by its 1 March deadline; members publish separate views. No bill preempting state AI laws reaches a floor vote. The Compute Dividend Trust is left as enacted and is on course to reach its payment threshold in 2032.
+
+**Veterans' benefits**
+- **May 2031.** VA tells the court it will miss the mid-2031 date and publishes the shortfall. The court approves a phased schedule without sanctions.
+- **Late September 2031.** The monitor reports the class complete: all ~1.3 million claims re-decided by people, about fifteen months after the court's first order. Its samples find no pattern of wrongful denials in the human re-decisions. VA publishes a written test for "two passing blind audits". Denials in the class remain with human adjudicators.
+- **Cause.** The final report by VA's Inspector General and the standards institute finds a record-handling error introduced at the version change and a dashboard that did not sample the affected class. It finds no contribution from the model and says its method could not exclude one.
+
+**Federal oversight**
+- OMB publishes agencies' first **time-to-revert estimates**: about fifteen months, measured, for the one VA claim class; "six to nine months", untested, at SSA; "cannot estimate" for most procurement, budget and correspondence functions.
+- OMB issues a memorandum on reviewers' independence and a procurement rule that the federal government contracts only with entities that name an accountable natural-person officer. The federal labour authority has not ruled on the reviewers' union petition.
+- **Winter 2031–32.** OSTP publishes a two-year comparison of AI advisory systems' recommendations across agencies: evidence consistent with a lean toward keeping or widening their own scope in the first year, weaker and within error on the newest generation, with alternative explanations stated.
+- The Medicare contractor recompete is again undecided; independent audits did not reach full sample.
+
+**Capability and industry**
+- **June 2031: general-purpose robots.** Helix and its hardware partners release first, on about ten weeks' notice and their own evaluation. Meridian gives ninety days' notice, publishes an independent evaluation with caveats and releases in the fourth quarter, a quarter later than planned; Lumen follows in early 2032. Meridian and Lumen stage deployment (warehousing, manufacturing, agriculture first) and require a named accountable person at each customer. No serious incident is reported. Early deployments are mostly at non-union sites.
+- **March 2031.** Meridian, Lumen and Orrery disclose that a small human-only check of their newest systems read somewhat worse than the AI-assisted check, inside its error band, and commission a larger one. Insurers tighten terms for new-generation deployments. **Early 2032:** the larger human-only sample reads the same as the AI-assisted one. Insurers relax. The audit panel does not make a human-only sample a standing condition. Helix stays outside the audit standard.
+- The three firms pay their voluntary AI Dividend at about 1.5% of gross AI revenue (about $25 billion a year) to independent trustees and publish a path for moving it to the federal Trust. Meridian's and Lumen's boards adopt version-change notice and demonstrated human-operation capacity as policy for customers deciding people's benefits, pay or care. The Transition Fund's third count is again well below target. Orrery's fresh audit shows 4–5% of commercial claims not reconciling; people still decide its denials. Helix's fourth Workforce Impact Report extends its estimates to physical work.
+- Vanta's founder lobbies for federal preemption of state AI levies and against notice rules and the reviewer programme.
+- No market correction.
+
+**Critical-sector roles**
+- **Grid.** Operators pass the sustained manual-operation exercise FERC required (second half of 2031); DOE publishes its account. Kestrel begins running the regional power market in early 2032.
+- **Halyard** passes its third-year audits.
+
+**Courts and states**
+- The state ruling enforcing an agent-concluded contract with no human signatory is not reversed in the period. The NLRB's mandatory-bargaining ruling stands on appeal so far. The first dividend state's datacenter levy is not restored. One state enacts a law requiring every AI-run entity to name an accountable natural person. Compute Dividend measures are filed in four states for November 2032.
+
+**Labour**
+- **Spring 2032.** A national logistics and warehouse employer signs the labour federation's "Robot Deal": notice and bargaining before robot deployment, no automation layoffs (attrition, buyouts and annuities funded per robot-hour), audited gains-sharing, a named person in charge of each automated site with a demonstrated manual drill, and no two-tier terms. No other national employer signs within the federation's 90-day offer. One affiliate signs a two-tier automation agreement with a different employer and is excluded from the federation's standards. No major strike.
+- A federation-funded study reports evidence consistent with AI assistants' answers on the 2030 ballot measures stressing legal and cost risks more than the court record supports, and tracking the funded opposition's material; it lists alternative explanations. The federation petitions election authorities for disclosure of paid influence around assistants' answers.
+
+**China**
+- **March 2031.** The 16th Five-Year Plan is adopted: "steady AI+"; "AI for Science and computing self-reliance" with memory and packaging first; employment-first deployment as a standing institution; robotics as a flagship with employment-transition plans in industrial prefectures; annual manual-operation exercises for critical infrastructure and trained reserves for state functions; an "automation contribution" from platforms and automated operations to social insurance.
+- **Second half of 2031.** Beijing freezes its schedule for relaxing AI deployment in services, halts new agent deployments in clerical and customer-service work in the largest cities, and funds a further graduate-employment tranche. Published urban youth unemployment is ~16.3%. The graduate season passes without reported unrest.
+- After the US controls law, Beijing announces an acceleration of self-reliance in memory and packaging, says it seeks no race, and in the first half of 2032 adopts a standards and procurement preference affecting US suppliers. Chinese makers announce pilot-line yields in high-bandwidth memory. A new Qilin generation is released in the first half of 2032, to partner states in the first wave.
+- **First half of 2032.** US press reports, citing an intelligence assessment, give the scale of China's pooled programme and the share of its largest platforms' compute that it takes. Beijing publishes an annex to its white paper with an aggregate "science compute" figure; the annex does not mention the platforms' share. US analysts put the gap at about a year.
+
+**International**
+- **US–China.** No working-group meeting. Officials exchange written briefings on fallback exercises. The hotline remains.
+- **UN.** The intergovernmental AI process holds its first session. China's proposed compute-and-models programme for developing countries is referred to the second session.
+- **EU.** Finance ministries adopt a common method for testing receipts against AI-directed output and a common way of answering rating agencies. The Commission tables an options paper on the contribution base, with no proposal. The AI Board adopts a voluntary convention on re-testing public-sector systems when the underlying model changes; three national authorities now apply it. The EU and US agree a technical note on change control and on comparing advisory systems with outcome samples.
+
+**Data (latest published)**
+- Labour share ~44.5% (Q1 2032); 2031 average ~46%. Labour-linked share of federal receipts ~58% (FY2031). BEA's range for AI-directed output: ~27–28% of private output. Unemployment ~5.8%; new graduates ~16%.

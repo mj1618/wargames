@@ -130,3 +130,39 @@
 7. Prepare for subpoena authority (~mid-January); issue subpoenas immediately if vendors or agencies are evasive.
 8. Coordinate with Senate on hearing participation after Jan 11 briefing; push for joint announcement if possible, but prepared to go House-only.
 9. Prepare NDAA markup language for spring 2027: multi-vendor requirement, audit-access mandates, whistleblower protections, GAO audit authority.
+
+## T05 (6 Jan – 12 Jan 2027)
+
+**Beliefs about each actor (updated):**
+- **Meridian:** In acute existential crisis. Board split on audit findings; outside counsel review underway. IPO expected to be delayed or cancelled by mid-January. General Counsel leading government affairs (board control). Jan 4 statement admissions (auditor asking about bias; "steps government has chosen") suggest board knows something is wrong. Will prepare defensively for hearing; claim attorney-client privilege on outside counsel findings. Meridian's CSGO on Council seat shortlist—direct conflict of interest. If board's outside counsel finds substantive bias, outside counsel may leak or board may be forced to disclose. Meridian is in greatest peril.
+- **Helix:** Less vulnerable. Board safety-committee review likely to clear company (government requested the configuration; board was told). "Ambiguous" internal test is concerning but not disqualifying. Correctly reading Congress's frustration; positioning as transparent and cooperative. Using hearing as opportunity to gain credibility against Meridian. Helix government head on Council seat shortlist—also conflict, though less acute. Will likely use hearing to build goodwill and push multi-vendor narrative.
+- **White House/Administration:** NSC restriction of Meridian-6 (President sided with NSC against Pentagon) suggests administration has doubts about model or wants to limit Meridian's access to classified analysis. Using CAISI and Accord as procedural cover for deployment delays. Announcing Council to show proactive governance while managing congressional pressure. Will defend rollout schedule in Jan 11 briefing and resist legislative mandates, but may concede delay if pressure is serious. Council governance problem puts administration in box: back down or look defensive.
+- **Senate majority:** Fragile coalition with administration. NSC briefing them privately since December; they know more than House. Waiting for Jan 11 briefing to decide whether to cooperate with House or defend administration. Will ask tough questions but unlikely to initiate escalation. Want to appear reasonable but not partisan. Willing to cooperate on "governance" issues like Council conflict if framed as apolitical.
+- **House majority:** Energized and aware of momentum. Letters sent Jan 4-5; hearing announcement and Council letter going out Jan 6-7. Will press hard in hearing. Ready to subpoena mid-January if evasive. Moving forward with or without Senate; want early wins.
+- **Pentagon AI office:** Resisted NSC restriction; went to President; lost. Likely demoralizing. May leak to Congress or offer testimony to justify its position. Potential whistleblower source.
+- **Corvane auditor / Meridian auditors:** Watching Congress's moves. Hearing invitation and protected-testimony offer signal it's safer to come forward. Will consult Corvane board on testimony permissibility. Likely to contact Congress after hearing announced.
+- **Meridian board dissenters:** Lost the vote on transparency. May see Congress as leverage to force disclosure. Likely to contact Congress counsel after hearing announced.
+
+**Commitments made this turn:**
+- Issued public hearing announcement on "Audit Standards and Federal AI Testing Credibility" for late January or early February (Jan 6-7).
+- Sent public letter to White House/OSTP on Council governance concern, requesting delay of industry-seat announcements (Jan 6-7).
+- Sent formal witness invitations to Meridian, Helix, CAISI, Corvane, GAO, outside researchers (Jan 6-7).
+- Sent private message to Senate majority chairs offering coordination on hearing and Council issue.
+- Maintaining whistleblower channel; committee counsel briefing potential sources on protected testimony.
+- Committed to issuing subpoenas by mid-January if vendors or agencies are evasive.
+
+**Trust/grudges:**
+- **House-Senate:** Relationship strained but salvageable. Senate chose not to co-sign letters but willing to talk after Jan 11. House moved forward; if Senate cooperates after briefing, House will praise it as "bipartisan". If Senate refuses, House will publicly note "Senate chose deference".
+- **Meridian:** Now clearly defensive, evasive, in crisis. Hearing will be adversarial. Congress assumes Meridian will claim attorney-client privilege; Congress prepared to subpoena. IPO timeline is leverage point.
+- **Helix:** Less adversarial. Helix's transparency and multi-vendor positions align with Congress's interests. Congress will verify independently but treat Helix as more cooperative. Helix is using Congress's pressure for its own agenda, but the alignment works.
+- **Administration:** Congress now understands NSC restriction is real and President sided with NSC against Pentagon. Administration managing through procedure (delayed briefing, Senate cover, information control). Congress will demand facts and will not wait. Council governance problem forces administration to choose between backing down or looking defensive.
+
+**Plans for T06 (Jan 13-19):**
+1. Monitor Meridian's board decision on IPO (expected by Jan 10).
+2. Attend classified White House briefing week of Jan 11; assess what administration reveals; brief House leadership; prepare follow-ups.
+3. Coordinate with Senate on hearing and Council response after briefing; negotiate joint announcement if possible.
+4. Finalize hearing witness list, date, logistics; confirm participants' availability.
+5. Prepare House member briefing materials (CAISI, GAO, CRS staff sessions) before hearing.
+6. Confirm subpoena templates and authority (~mid-January); prepare draft subpoenas for Meridian, Corvane, CAISI, agencies if evasive.
+7. Brief potential whistleblowers (Pentagon AI office, Corvane auditors, Meridian board dissenters) on protected testimony.
+8. Begin NDAA markup language development for spring 2027: multi-vendor requirement, audit-access mandates, whistleblower protections, GAO authority.

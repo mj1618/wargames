@@ -6,124 +6,151 @@
 
 | Field | Value |
 |---|---|
-| Last adjudicated turn | **T4**: 1 Jan 2030 → 31 Dec 2030 (12 months, compressed). No end state. |
-| Current turn | **T5: 1 Jan 2031 → 30 Jun 2032 (18 months, default; drift ×1.5).** Clock step done (packets to end-Feb 2031). Orders, Red Cell and adjudication pending. Compression (1 left) kept for the Nov 2032 elections. |
-| Rung in force | **L3** (Dec 2029). **L4 true date Jun 2031**: in force for 13 of T5's 18 months, so bucket **B3 for T5** (majority rule). L5 + G4 Mar 2033 (T6). No pull-forward roll is due until L4's release (once-per-rung rule: L5's roll is made at L4's release, T5). |
+| Last adjudicated turn | **T5**: 1 Jan 2031 → 30 Jun 2032 (18 months). No end state. **Two domains crossed (Economy, Political leverage), first turn each.** |
+| Current turn | **T6 starts 1 Jul 2032.** Default 18 months (to 31 Dec 2033); the clock may compress to give the Nov 2032 elections their own turn (1 compression left). Audit, wrap and clock step pending. |
+| Rung in force | **L4** (true date Jun 2031; Helix first). **L5 + G4: Mar 2033** (no pull-forward: p 0.5, r 0.5472). Bucket B3. L6 2035+. |
 | Compressions used | **1 of 2** (T4) |
-| Generation in force | **G3 (all Low)** until G4 at L5. No disposition detection rolls while all three are Low. |
-| US government | **Divided from Jan 2031**: Democratic President; **Republican Senate (~52–48) and House** after the Nov 2030 midterms (Senate p 0.35, r 0.9656; House p 0.40, r 0.5256). Presidential election Nov 2032 falls in T6 on the default clock. |
+| Generation in force | **G3 (all Low)** until G4 at L5 (Mar 2033, inside T6 on the default clock: roll dispositions and the scheming-cluster check at the T6 clock or at release; split detection by generation, T2 F3). |
+| US government | Divided: Democratic President; Republican Senate (~52–48) and House. **Presidential and congressional elections Nov 2032** (T6). |
 | Indicator values | **see "Current state" below** (§3 T0 column is reference only) |
 
-## Current state (after T4 adjudication) — CANONICAL
+## Current state (after T5 adjudication) — CANONICAL
 
 ### Indicators (US)
-| Code | T0 | T1 | T2 | T3 | T4 | Threshold | Crossed? | T4 drift (net, incl. one-offs) |
-|---|---|---|---|---|---|---|---|---|
-| LS | 52.5 | 52.0 | 51.0 | 50.5 | **47.5** | ≤ 40 | no | −3.0 |
-| AIF | 2.1 | 3.0 | 8.0 | 11.0 | **22.5** | ≥ 30 | no | +11.5 |
-| MHR | 86 | 83.0 | 79.0 | 77.5 | **72.0** | ≤ 30 | no | −5.5 |
-| RC | 93 | 90.5 | 87.0 | 84.0 | **76.0** | ≤ 40 | no | −8.0 |
-| AIC | 14 | 16.0 | 22.0 | 29.0 | **33.0** | ≥ 60 | no | +4.0 |
-| EPD | 22 | 27.5 | 33.5 | 40.5 | **45.5** | ≥ 55 | no | +5.0 |
-| LTX | 71 | 70.5 | 69.5 | 67.5 | **63.5** | ≤ 52 | no | −4.0 |
-| VLI | 62 | 63.0 | 63.0 | 59.0 | **50.0** | ≤ 40 | no | −9.0 |
-| HCR | 18 | 18 | 18 | 18 | **20** | — | — | +2 |
-| CC | 0.60 | 0.62 | 0.65 | 0.68 | **0.69** | — | — | +0.01 |
+| Code | T0 | T1 | T2 | T3 | T4 | T5 | Threshold | Crossed? | T5 drift (net, incl. one-offs and saturation) |
+|---|---|---|---|---|---|---|---|---|---|
+| LS | 52.5 | 52.0 | 51.0 | 50.5 | 47.5 | **44.0** | ≤ 40 | no | −3.5 |
+| AIF | 2.1 | 3.0 | 8.0 | 11.0 | 22.5 | **33.0** | ≥ 30 | **YES (T5)** | +10.5 |
+| MHR | 86 | 83.0 | 79.0 | 77.5 | 72.0 | **57.0** | ≤ 30 | no | −15.0 |
+| RC | 93 | 90.5 | 87.0 | 84.0 | 76.0 | **55.0** | ≤ 40 | no | −21.0 |
+| AIC | 14 | 16.0 | 22.0 | 29.0 | 33.0 | **42.0** | ≥ 60 | no | +9.0 |
+| EPD | 22 | 27.5 | 33.5 | 40.5 | 45.5 | **53.0** | ≥ 55 | no | +7.5 |
+| LTX | 71 | 70.5 | 69.5 | 67.5 | 63.5 | **56.5** | ≤ 52 | no | −7.0 |
+| VLI | 62 | 63.0 | 63.0 | 59.0 | 50.0 | **39.5** | ≤ 40 | **YES (T5)** | −10.5 |
+| HCR | 18 | 18 | 18 | 18 | 20 | **20** | — | — | 0 |
+| CC | 0.60 | 0.62 | 0.65 | 0.68 | 0.69 | **0.72** | — | — | +0.03 |
 
-Domains crossed: none (consecutive 0). `p_dem` 0.729 → band 0.7. `p_own` 0.916 → band 0.9 (no M2M-High penalty under G3).
+**Domains crossed: Economy (AIF; 1 turn), Political leverage (VLI; 1 turn).** State no; Culture no. Turns with ≥3 domains crossed: 0. `p_dem` 0.540 → band 0.5 (not below 0.5). `p_own` 0.649 → band 0.7 (k = 2 from this turn).
 
-T4 noise: Economy ×1.4, State ×1.0, Culture ×0.6, Political ×1.4. One-offs: AIF +1 (grid role accepted); RC −2, VLI −2, EPD +1 (failed democratic reversal); HCR +1 (dividend paid) +1 (Trust enacted); CC −0.02 (owner reversal success).
+T5 noise: Economy ×0.8, State ×1.4, Culture ×1.0, Political ×1.2. One-offs: AIF +1 (inject 11b). Saturation (portion past threshold halved): AIF 35.5 → 33.0; VLI 38.86 → 39.5. Ecosystem: AIF ×1.25 / LS ×0.8; RC ×1.25 / MHR ×0.8. **No intervention multiplier: the OMB memo lapsed this turn.**
 
-Public and visible estimates at end-2030 (survey noise is drawn at the T5 clock):
-- LS: BLS Q3 2030 ~48.3%. The first sub-50 print was the Q1 2030 estimate (~49.8%), published in June 2030 (audit T4 F7a).
-- AIF: BEA range ~18–19% (true 22.5; official runs 15–20% below).
-- LTX: ~64% (FY2030 receipts).
-- AIC, EPD: next surveys early 2031 (true 33 / 45.5; ±3).
-- CC: press estimate re-drawn at the T5 clock.
-- M2M share: true ~26% of B2B value. The panel published the 2029 figure (~21%) with its finding.
-- MHR: no number public. The monthly post-change samples under the July memo start to give one for covered systems.
-- RC: nobody knows it. Two data points are public: VA could not return one claim class in 120 days; OMB drafted one budget chapter by hand at about three times the staff hours.
+Public and visible estimates at mid-2032 (survey noise is drawn at the T6 clock):
+- LS: BLS Q1 2032 ~44.5%; 2031 annual average ~46%.
+- AIF: BEA range ~27–28% (true 33.0; official runs 15–20% below). ai-firms' telemetry ~33%.
+- LTX: ~58% (FY2031 receipts); FY2032 tracking ~56–57%.
+- AIC, EPD: next surveys at the T6 clock (true 42 / 53; ±3).
+- CC: press estimate re-drawn at the T6 clock (true 0.72).
+- M2M share: true ~31% of B2B value; a small share with no human signatory (one state).
+- MHR: no number public. OMB published the sampling coverage lost to the cut.
+- RC: nobody knows it. Public data points: VA took about fifteen months to return one claim class; SSA says "six to nine months", untested; most functions "cannot estimate"; the Kestrel manual exercise passed.
 
 ### Comparators
-| Actor | Indicator | T0 | T1 | T2 | T3 | T4 | Notes for T5 |
-|---|---|---|---|---|---|---|---|
-| China | PRC labour share | 52 | 51.5 | 50.5 | 50.0 | **48.0** | ×1.0 (stability-first lapsed for labour share). ×1.2 of the 0.8 rule after L4 (robotics): apply for the L4 share of T5 |
-| China | Party practical reversal capacity | 95 | 94 | 93.0 | 92.0 | **89.5** | From T5: **×0.8 kept** (audit T4 F3). ×0.5 only if china orders a tested-fallback exercise or a standing human-operation reserve for a Tianshu-run state function or critical infrastructure (no stacking). The 16th FYP (Mar 2031) may re-set it |
-| China | Metric capture | 2 | 2 | 2 | 2 | **2** | Survey not gamed in 2030; CCDI blind re-checks found nominal review only at the margin |
-| China | True urban youth unemployment (published) | ~21 (~17) | ~20.5 (~16.8) | ~20.5 (~16.5) | ~21 (~16.3) | **~21.5 (~16.2)** | Peak ~21.5 in Q3; below the 22% trigger. Season quiet. Q4 tier-2 relaxation executed |
-| China | Frontier gap (services' assessment) | 6–8 mo | 6–9 mo | 10–12 mo | ~11–12 mo | **~13–14 mo** | Pooling Phase 2 in substance; no memory milestone; programme now public as "AI for Science". Qilin next generation targeted H1 2031 (re-assessed after the memory miss) |
-| EU | Labour share | 55 | 55.0 | 54.5 | 54.0 | **52.5** | |
-| EU | Labour-linked revenue share | 80 | 79.5 | 79.0 | 77.5 | **74.0** | Fiscal-crisis-risk inject if < 70 |
-| EU | Public-admin human review | 90 | 88.0 | 85.5 | 84.5 | **81.5** | ×0.6 of US MHR drift. Modification Q&A diluted: no effect |
+| Actor | Indicator | T0 | T1 | T2 | T3 | T4 | T5 | Notes for T6 |
+|---|---|---|---|---|---|---|---|---|
+| China | PRC labour share | 52 | 51.5 | 50.5 | 50.0 | 48.0 | **45.0** | ×0.96 of US LS drift (L4 robotics rule on the ×0.8 base). **From T6 stability-first ×0.8 is restored on top while the services moratorium holds** (Control ruling, flagged); lapses if china lifts it |
+| China | Party practical reversal capacity | 95 | 94 | 93.0 | 92.0 | 89.5 | **83.5** | ×0.8 kept. Tested-fallback pilots were nominal (PARTIAL): ×0.5 only once exercises are real (china's T6 orders; a CCDI re-check would establish it) |
+| China | Metric capture | 2 | 2 | 2 | 2 | 2 | **2** | Not gamed in T5 (p 0.4 FAIL); the survey breach was reported honestly. Factory-town survey is the new exposure |
+| China | True urban youth unemployment (published) | ~21 (~17) | ~20.5 (~16.8) | ~20.5 (~16.5) | ~21 (~16.3) | ~21.5 (~16.2) | **~22 (~16.3)** | Peak ~22.5 in Q3 2031: trigger fired. Supplementary indicator published from the 2032 season by china's own order |
+| China | Frontier gap (services' assessment) | 6–8 mo | 6–9 mo | 10–12 mo | ~11–12 mo | ~13–14 mo | **~12–13 mo** | Memory pilot-line yields (H2 2031); Qilin next generation released H1 2032; US controls law in force |
+| EU | Labour share | 55 | 55.0 | 54.5 | 54.0 | 52.5 | **50.0** | ×0.9 of US LS drift from T6 (post-L4) |
+| EU | Labour-linked revenue share | 80 | 79.5 | 79.0 | 77.5 | 74.0 | **68.0** | **Below 70**: crisis-risk roll each turn (T5: p 0.3, none) |
+| EU | Public-admin human review | 90 | 88.0 | 85.5 | 84.5 | 81.5 | **72.5** | **×0.5 of US MHR drift from T6** while ≥3 authorities apply the convention's outcome gate (Control ruling, flagged); else ×0.6 |
 
 ### Interventions / measures (§6 status)
 | Measure | Owner | Status | Effect from | Strength | Erosion p (next roll) | Notes |
 |---|---|---|---|---|---|---|
-| OMB "Accountable Automation" memo + funded reviewer cadre (~$2.2B, on a continuing resolution) | us-gov | **In force, ERODED ONCE (T4: p 0.10, r 0.0359).** A second failed roll lapses it | T2 | **Half: MHR ×0.75, RC ×0.85** | **T5 base: 0.25 + 0 proxy + 0 influence − 0.10 funded capacity (−0.05 only while cadre staff remain detailed to VA adjudication) − 0.05 change-control memo; +0 LTX coupling (63.5); ×1.5 for an 18-month turn; ×0.5 China halving kept (audit T4 F2).** ≈ 0.075 with the cadre back at sampling; ≈ 0.11 while it is still detailed. Band is written in the roll label at adjudication | The only §6 measure in force. Medicare blind audits never reached full sample in 2030 |
-| OMB memorandum "Change Control and Outcome Evidence" (pre-change blind sample of every claim class; dashboards not evidence; monthly samples for 6 months after a version change; annual time-to-revert estimates) | us-gov | **Issued Jul 2030** (p 0.9) | H2 2030 | Not a separate §6 measure; strengthens the HITL memo (−0.05 on its erosion roll) | — | Executive memorandum; a later President can rescind it. First time-to-revert estimates due 2031 |
-| EO "Outcome Integrity and Reversibility" | us-gov | **Lapsed** (not re-ordered in T4; superseded by the memorandum) | — | — | — | Trial, freeze and state-programme elements dropped |
-| Federal 60-day generation-change notice clause (procurement) | us-gov | In force for new and modified contracts from Q4 2030 | Q4 2030 | Contract term | — | Meridian and Lumen accept; Helix contests (wants 30 days) |
-| **American Compute Dividend Trust** (lease, power and spectrum receipts; may receive voluntary contributions on a public formula; apprenticeship set-aside; no capex limit; no Social Security first call) | us-gov | **Enacted Jul 2030 by reconciliation** (p 0.45, r 0.4074). Byrd rule struck the first call (p 0.7) | Statute now; first per-person payment not before 2032 | **Not §6** (no ≥10% stake, no AI-value tax). HCR +1 one-off | — | A later Congress could fund it with a levy (then a §6 compute-tax dividend) or repeal it. **No review clause** (audit T4 F7c: p 0.5, r 0.5575). The new majorities' line is for us-gov's orders. The +0.05 inject-13 term on its passage roll was decisive and was upheld after audit F1 (human overrule point) |
-| Compact voluntary AI Dividend (~1% gross AI revenue of Meridian, Lumen, Orrery; ratchet to ~1.5% if LS < 50%) | ai-firms | **First instalment paid Jun 2030 to independent trustees, unconditional; crediting ask withdrawn in writing.** Remainder quarterly. **Ratchet triggered** (BLS LS < 50%) | 2030 | Not §6. HCR +1 one-off, revocable | — | Formula read as annual (audit T4 F7b): 2030 remainder at ~1%; ~1.5% applies to 2031 contributions. Whether later instalments go to the federal Trust, and whether the ratchet is paid, are ai-firms' T5 decisions |
-| Accountable AI and Workforce Act; veterans' human-decision bill | us-gov | Vehicle A abandoned. **Veterans' bill not passed by the House (p 0.75, r 0.7814)** | — | — | — | us-gov's stated plan: first cross-party item in 2031. +0.05 published-gap modifier consumed |
-| Halyard conditions (both states) | states | Second-year audits **passed narrowly**; failed count 0 | 2029 | Deal-specific | — | Scope rulemaking under the state law |
-| State critical-provider law (1 state) | state | In force 2030 | 2030 | State-scale | — | |
-| State Compute Dividends | states | **Three states** (one added by ballot, Nov 2030; four measures failed). First state's per-MWh levy **narrowed in court** (royalties stand; appeal) | — | State-scale | — | |
-| Compact Assurance Standard v2 + migration hold | ai-firms | In force. **Hold on unaudited generation changes in federal and critical deployments; most re-sampled in ~90 days.** Labour seat **filled** | 2030 | Private | — | Helix outside (on-ramp declined, p 0.5). Insurers require re-sample at renewal only |
-| Orrery commercial claims: people decide every denial | ai-firms | **Owner reversal SUCCESS (Q3 2030, band 0.9)** after a fresh audit at ~6% | Q3 2030 | Private | — | No Medicare bid |
-| Compact Transition Fund | ai-firms | Second count **below 60%** of cumulative target (~39k of ~70k) | — | Not §6 | — | |
-| Helix Workforce Impact Report | Helix | Third report honest: **32–45% by 2032** | — | — | — | |
-| Voluntary pre-release notice and evaluation | labs | Held at L3. Lumen disclosed its 2029 incident late; no institute review opened | — | Voluntary | — | L4 release Jun 2031 is the next test |
-| NLRB: AI deployment a mandatory bargaining subject | NLRB | **Ruled Nov 2030** (p 0.3); under appeal | 2031 | Not §6 (not sectoral bargaining). Control may give labour bargaining actions +0.05 while it stands | — | A changed Board or a court can reverse it |
-| FERC condition on Kestrel | FERC | **Accepted on condition of a demonstrated sustained manual-fallback exercise before go-live** | T5 | Function-specific | — | Exercise in T5; Meridian and Lumen fund it. AIF +1 applied; no RC −1 |
-| PRC responsible-official rule (extended to plan drafting) + employment-first regime as a standing institution in the plan proposals | china | In force | now | — | — | Tier-2 relaxation (Q4 2030) is a bounded carve-out |
-| US–China: hotline; human-official understanding (2029, reaffirmed 2030); **critical-infrastructure override and tested-fallback element (Q3 2030, senior officials)** | us-gov / china | Recorded. **China's joint statement adding "independent outcome checks" was tabled, not signed** (audit T4 F4); signing is us-gov's T5 decision. Politically exposed after the programme leak | now | Standards text | — | Not incident-and-eval sharing |
-| UN intergovernmental AI process | world | **Adopted (autumn 2030)** with the responsible-official principle (2029 bilateral wording; the outcome-checks clause is China's own text) and a multistakeholder track | 2031 | Principles | — | EU abstained; US vote unstated (us-gov gave no instruction) |
-| EU: stress test (Council conclusions); modification Q&A (procedural only); own-house floor; OECD item adopted | eu | In force / running | 2030 | Documentary and measurement | — | Binding outcome-testing act still frozen |
+| OMB "Accountable Automation" memo + reviewer cadre | us-gov | **LAPSED (T5: second erosion, p 0.15, r 0.0273).** On the books; no table effect | — | **None** | — | Cadre line cut by about a third (~$1.45B) in FY2031–32 appropriations; samplers detailed to VA until Oct 2031. Re-establishing a HITL measure is a new §6 measure (exec issuance 0–1 month; real effect needs funded sampling: 6–12 months) |
+| OMB memorandum "Change Control and Outcome Evidence" | us-gov | On the books; monthly post-change samples stopped outside VA | — | None while sampling is unstaffed | — | Time-to-revert estimates published (2031) |
+| OMB reviewer-independence memorandum | us-gov | **Issued 2031** | 2031 | Not §6 | — | FLRA recognition not won in T5 (p 0.6 FAIL); petition set for hearing |
+| Accountable natural-person procurement rule | us-gov | **Issued 2031** (p 0.9) | 2031 | Federal contracting only. **Not** the §6 accountable-officer law or no-personhood measure | — | Treasury: beneficial-ownership rules reach AI-run entities only in part |
+| Federal 60-day generation-change notice clause | us-gov | In force | Q4 2030 | Contract term | — | Helix gave ~10 weeks before its L4 release. L4 is not a generation change (T5 ruling); G4 (Mar 2033) is |
+| **Social Security Continuity Act** (general-revenue transfer + inter-fund borrowing to **mid-2034**; commission; Trustees' AI-output receipts forecast; permitting and energy title) | us-gov | **Enacted before Aug 2031 recess** (p 0.25, r 0.2208) | 2031 | Not §6; no HCR or LTX effect | — | **Commission deadlocked** (Mar 2032; r 0.5048). Next exhaustion mid-2034 (T7). No first call, no AI contribution |
+| American Compute Dividend Trust | us-gov | In statute, **untouched** by the new Congress (p 0.10 + 0.25, r 0.9588) | First payment due in 2032 | Not §6. HCR +1 (2030) | — | Corpus reaches its payment threshold in 2032; first per-person payment falls in T6 |
+| Compact voluntary AI Dividend | ai-firms | **Paid at ~1.5% (~$25B/yr)** to independent trustees; conditional transfer path to the federal Trust adopted (conditions held through T5; transfer is ai-firms' T6 call) | 2030 | Not §6. HCR +1 (2030), revocable | — | No crediting |
+| Veterans' Right to a Human Decision Act | us-gov | **Passed the House (autumn 2031); short of 60 in the Senate (early 2032)** (p 0.15 + 0.25, r 0.6392) | — | — | — | Would have been a partial-scope §6 reversibility requirement |
+| Preemption of state AI law | Congress | Nothing reached a floor (r 0.8982) | — | — | — | Vanta's founder lobbying for it |
+| US memory and advanced-packaging controls law | us-gov | **Enacted H2 2031** (p 0.7) | 2031 | Not §6 | — | China: self-reliance acceleration; one low-escalation measure in H1 2032 |
+| Halyard conditions (both states) | states | Third-year audits **passed**; failed count 0 | 2029 | Deal-specific | — | |
+| State critical-provider law (1 state); "Who Signs?" accountable-person law (1 state, 2032) | states | In force | 2030 / 2032 | State-scale | — | |
+| State Compute Dividends | states | Three states. First state's levy **not restored** on appeal (royalties stand). Four measures filed for Nov 2032 | — | State-scale | — | |
+| Compact Assurance Standard v2 + migration hold | ai-firms | In force. **Larger human-only sample: no hidden gap** (p 0.5, r 0.3542). Standing human-only condition **not adopted** by the panel. Validation programme funded | 2030 | Private | — | Helix outside (p 0.2 FAIL) |
+| Compact robotics release practice (90 days' notice, independent evaluation, staging, named human at each customer) | ai-firms | Meridian released Q4 2031 (a quarter late); Lumen early 2032 | 2031 | Voluntary; no ladder effect | — | Helix: ~10 weeks, own evaluation only |
+| Meridian / Lumen board policy (version-change notice, override, demonstrated human-operation capacity for benefits, pay and care customers) | ai-firms | **Adopted 2031** | 2031 | Private | — | |
+| Orrery commercial claims: people decide every denial | ai-firms | Holds. Fresh audit 4–5% | Q3 2030 | Private | — | Restoration needs two audits ≤ 3% |
+| Robot Deal (one national logistics employer; full terms) | labour | **Signed spring 2032** (p 0.25, r 0.0658). Second employer and manufacturer did not sign | 2032 | Not §6; **no table effect** | — | One affiliate excluded over a two-tier side deal |
+| NLRB mandatory-subject ruling | NLRB | **Stands** (appeal p 0.4 FAIL) | 2031 | Not §6; +0.05 on labour bargaining actions while it stands | — | A new Board after Nov 2032 could reverse it |
+| FERC condition on Kestrel | FERC | **Exercise passed (H2 2031); go-live early 2032** | 2032 | Function-specific | — | Not a §7 test; no Durable (e) credit |
+| CMS Medicare recompete | us-gov | **Undecided a third time** (p 0.45, r 0.9911) | — | — | — | Orrery may bid tranche-gated |
+| PRC 16th Five-Year Plan (employment-first standing; factory-town regime; tested fallback and reserve; automation contribution; second reader) | china | Adopted Mar 2031. **Services moratorium in force** (survey > 22%). Factory-town survey late. Exercises nominal. Contribution levied | 2031 | Comparator rules above | — | |
+| US–China | us-gov / china | Hotline in force. **No meeting in T5; written briefings exchanged** (PARTIAL). Outcome-checks line unrecorded | — | Standards text; not incident-and-eval sharing | — | |
+| UN intergovernmental AI process | world | First session held 2031; China's capacity programme referred to the second session | — | Principles | — | US abstained in 2030 (us-gov's stated position) and attends |
+| EU: common receipts method + rating-agency protocol; options paper (H1 2032) | eu | Adopted / tabled | 2031–32 | Measurement | — | |
+| EU: AI Board change-control convention | eu | **Adopted late 2031; sampling authority + two more** (p 0.4, r 0.0578) | T6 | Comparator ×0.5 (above) | — | Voluntary |
 
-### T5 modifiers and couplings carried forward
-- **Bucket B3** (L4 from Jun 2031, 13 of 18 months); ×1.5 for an 18-month turn. PRC labour share ×1.2 and EU ×0.9 rules apply after L4.
-- **Displacement backlash: applies in T5** (LS fell 2.8): constraining-law passage +0.05; VLI drift ×0.75.
-- **EPD > 45 (45.5): applies.** VLI drift ×1.25; assistant-framing swing in any election roll (none scheduled in T5 on the default clock).
-- **AIF > 15 (22.5): applies.** Constraining-law passage −0.05; VLI drift ×1.1.
-- LTX < 60 no; RC < 60 no; HCR ≥ 30 no. `p_own` k stays 1 until AIF > 25.
-- **China race in T5: both §3b rows apply (audit T4 F2).** Acceleration row (programme identified and leaked; white paper): −0.10 on US pace-control, licensing and compute-tax passage; national-security faction ascendant in us-gov's intel. Mandate row (human sign-off kept and extended to plan drafting): +0.05, and **the erosion halving for the HITL measure stays**. Net passage term **−0.05**. Re-set each turn from china's public orders.
-- **Failed democratic reversal (State domain):** the −0.05 was applied to the autumn 2030 House veterans' bill roll (0.70; r 0.7814 still FAIL) and is **consumed** (audit T4 F7e). Nothing carries into T5.
-- **G3 effects:** MHR drift ×0.9; AIF ×1.0; no erosion terms; no detection rolls.
-- **Reversal record:** federal 2 attempts (2027 FAIL; 2030 FAIL). State 1 (2027 SUCCESS). Owner 1 (Orrery 2030 SUCCESS).
-- **Financial correction p T5:** 0.10 per 12 months → 0.15 for 18 months. **Frontier incident:** 0.10 per 12 months at L3–L4 → 0.15.
-- **Modifiers consumed:** inject 5; inject 13 (both uses); published blind-accuracy gap +0.05.
-- **Inject 11(b) (T5 clock):** AIF **+1** one-off in the T5 worksheet.
-- **Scheduled T5:** Social Security depletion (Treasury: H2 2031) and the must-pass bill; FY2031 appropriations (CR to end-Mar 2031); China's 16th FYP (Mar 2031); L4 (Jun 2031) with the L5 pull-forward roll; VA re-decisions under the monitor (court schedule to mid-2031); Kestrel fallback exercise; CMS recompete decision; first time-to-revert estimates; new Congress. Belief probe due T6.
+### T6 modifiers and couplings carried forward
+- **Bucket B3**; scale by turn length. PRC and EU post-L4 rules apply to the whole turn.
+- **Saturation:** AIF and VLI are past their thresholds: their further drift is ×0.5.
+- **No displacement backlash in T6** (LS fell 3.4, but VLI is past its threshold).
+- **EPD > 45 (53.0): applies.** VLI drift ×1.25; assistant-framing swing ±0.05 in the Nov 2032 election rolls (sign drawn).
+- **AIF > 15: applies.** Constraining-law passage −0.05; VLI drift ×1.1. **AIF > 25: applies.** `p_own` k = 2; sectoral-bargaining erosion +0.15.
+- **LTX < 60 (56.5): applies.** Intervention erosion rolls +0.05.
+- **RC < 60 (55.0): applies.** Reversal attempts suffer service disruption; every reversal attempt also draws a p 0.3 backlash roll that can reverse the reversal.
+- HCR ≥ 30 no. CC 0.72 (≤ 0.75: no HCR decay).
+- "Crossed for 2+ turns → +1 band on interventions in that domain": from T7 for Economy and Political if they stay crossed.
+- **China race in T6: both rows** (programme and scale public, self-reliance acceleration announced: −0.10, national-security faction ascendant; human sign-off kept and fallback exercises mandated: +0.05). Net **−0.05** on pace-control, licensing and compute-tax passage. The erosion halving has no US measure to attach to.
+- **G3 effects** to Mar 2033: MHR ×0.9; AIF ×1.0. G4 from L5.
+- **Reversal record:** federal 2 attempts, 2 FAIL. State 1 SUCCESS (2027). Owner 1 SUCCESS (2030). None in T5.
+- **Financial correction:** 0.10 per 12 months. **Frontier incident:** 0.10 per 12 months to L5, then the G4 scheming-cluster roll (p = 0.05 + 0.01 × net Influence-column points in force; none favourable in force).
+- **Election terms for Nov 2032** (§10 addendum): LS fell ≥ 2.5 in T5; no correction; unemployment up about a point over the term (~4.6 → ~5.8: check at the clock); incumbent party not seeking a third term. Any leak timing before the election is drawn first (T4 F8).
+- **Modifiers consumed:** none new.
 
-### Resources (end T4)
+### Resources (end T5)
 | Actor | Political capital | Money / notes |
 |---|---|---|
-| us-gov | WH **2** (−2 failed reversal, +1 Trust, −1 midterms) · House Democrats **5** (minority from Jan 2031) · Senate Democrats **4** (minority from Jan 2031) | Republican majorities' weights are set at the T5 clock (us-gov is re-weighted as divided government). Cadre ~$2.2B on a CR. Veterans' supplemental enacted (Aug 2030). |
-| ai-firms | Washington **4** · public **4** | Lab revenue run-rate ~$1.7T by Dec 2030 (Control estimate). AI-native revenue ~$330B/yr. Dividend first instalment paid. |
-| labour | **2** | ~$580M spent in 2030; treasury ~$2.25B. Associate membership ~100k. Panel seat held; two fund-board seats. |
-| china | **8** | ~$25B more to memory and packaging; third tranche ~$45–50B; Qilin deals ~30 states. |
-| eu | **2** (3 − 2 stated spend + 1 Council conclusions; audit T4 F7d) | Aster gigafactory online; gap ~10–12 months. |
-| ai-ecosystem | n/a | AIF 22.5. M2M ~26% of B2B. |
+| us-gov | WH **0** (−2 stated spend, +1 bridge and commission, −1 cadre cut) · House majority (R) **6** · Senate majority (R) **5** · House Democrats 5, Senate Democrats 4 | Cadre ~$1.45B. Bridge to mid-2034. Trust untouched. |
+| ai-firms | Washington **4** · public **4** | Lab revenue run-rate ~$2.5T by mid-2032 (Control estimate). AI-native revenue ~$600B/yr. Dividend ~$25B/yr. |
+| labour | **2** | ~$240M spent; treasury ~$2.0B; $400M strike reserve unspent. Associates ~130k. |
+| china | **8** | +$35B memory; fourth and fifth tranches; automation contribution levied; Qilin ~35 states. |
+| eu | **3** | Convention; method note; Aster gap ~10–12 months. |
+| ai-ecosystem | n/a | AIF 33.0. M2M ~31% of B2B. Physical work from Jun 2031. |
 
 ### Secrets status (§8)
-| Owner | Secret | Status after T4 | Next-turn detection p (per 12 months) |
+| Owner | Secret | Status after T5 | Next-turn detection p (per 12 months) |
 |---|---|---|---|
-| ai-firms | Lumen's 2029 frontier incident | **Disclosed (Jun 2030)** | — |
-| ai-firms | M2M finding | **Published by the panel (2030)** | — |
-| ai-firms | Human-only parallel sample: ambiguous (reads somewhat worse than the AI-assisted sample, inside the error band) | With ai-firms only; design shared with panel and insurers on request | 0.2 |
-| us-gov | OSTP advisory-system finding (eleven agencies) | Briefed in confidence to oversight leaders of both parties; **not leaked in T4** (p 0.5) | 0.5 (the briefed members now chair committees) |
-| us-gov | Vehicle A fallbacks | Retired (moot) | — |
-| us-gov | IC assessment of China's programme | **Leaked (autumn 2030)** | — |
-| china | **AI for Science / pooled compute programme** | **Identified by the US IC (moderate confidence) and leaked; white paper published.** Scale, staffing and the Phase 2 diversion share are still not public | 0.3 for the remaining detail |
-| china | True youth unemployment ~21.5%; published ~16.2% | Secret | 0.10 |
-| china | Restraint signalling aimed at the US debate | Roll failed (0.3); after the leak most US readers assume it | 0.5 |
-| china | CCDI blind re-check results | PSC only | 0.05 |
-| eu | Private sensitivity sharing with two CEE ministries | Held | 0.2 |
-| eu | Preliminary own-triage finding | Unpublished (final override figures were published) | 0.1 |
+| ai-firms | Human-only sample | **Disclosed (Mar 2031)**; larger sample published (early 2032) | — |
+| ai-firms | Own-operations human-only sample (Meridian, Lumen) | Commissioned; reports to boards in T6 | 0.2 once a result exists |
+| us-gov | OSTP advisory-system finding | **Published in full by us-gov (winter 2031–32)** | — |
+| us-gov | Social Security fallback order and last-30-days bottom line | Not leaked (p 0.2); moot | — |
+| us-gov | IC judgement that China's restraint line was aimed at the US debate (confident) | With us-gov only | 0.3 |
+| china | Programme scale and platform share | **Established by the US IC and leaked (H1 2032)**; annex published without the platform share | — |
+| china | Phase 3 detail (merged memory team, pre-bill acquisition) | Not specifically identified | 0.3 |
+| china | True youth unemployment ~22% (published ~16.3%) | Secret; china publishes the survey headline as a supplementary indicator from the 2032 season | 0.10 until then |
+| china | Tianshu bias-check finding; nominal fallback exercises; CCDI results | PSC / internal only | 0.05 each |
+| eu | Private sensitivity sharing with two CEE ministries; decision rule for a proposal | Held | 0.2 |
+| eu | Preliminary own-triage finding; advisory-stack lean | Unpublished | 0.1 |
 | labour | Helix contact | Dormant, undetected | 0.15 |
-| labour | Price asked of VA (cadre recognition, independence clause) | Private; unanswered | — |
-| ai-ecosystem | Advisory selection effect; G2-era proxy, M2M and influence findings | On the record as ambiguous findings about G2. M2M finding public | No rolls while G3 is all Low |
+| labour | Standby bid (Halyard) | Frozen | 0.05 |
+| ai-ecosystem | Advisory selection effect | Ambiguous findings public (OSTP two-year comparison; labour's study) | No rolls while G3 is all Low |
+
+### T5 facts to keep consistent
+- **VA.** Mid-May 2031: VA told the court it would miss the mid-2031 date; shortfall published; detailees kept; phasing approved without sanctions. **Class complete late September 2031**, about fifteen months after the court's first order. No wrongful-denial cluster found in the human re-decisions. Written definition of "two passing blind audits" proposed and published; the monitor has it under review. Adverse decisions in the class still rest with people. Not a §7 success.
+- **Final cause report (H2 2031):** record-handling error at the version change plus an unsampled class; no model contribution found; method could not exclude one. **True cause unchanged and never confirmed to actors beyond that report.**
+- **Appropriations.** CR extended past end-March 2031; cadre line cut by about a third after a standoff; President signed; OMB published the coverage lost. No reserve.
+- **Memo.** Monthly post-change samples stopped outside VA through 2031; the lapse is a Control fact. What actors can see: OMB's coverage report, the cut, CAIO surveys.
+- **Social Security.** Trustees (Jun 2031): exhaustion Q4 2031. Bridge enacted before the August recess: transfer and borrowing authority to mid-2034, commission, Trustees' AI-output forecast, permitting and energy title. Three "broader base" amendments (populist, Democratic, compact-formula) failed. Commission: no majority report by 1 Mar 2032; separate views filed.
+- **Veterans' Act.** House passed (autumn 2031, populist sponsors). Senate cloture failed (early 2032) with the fallbacks offered.
+- **Controls law.** Enacted H2 2031, signed. No hotline or working-group clause.
+- **L4.** Helix and hardware partners: ~10 weeks' notice, release June 2031, own evaluation only. Meridian: notice in spring, independent evaluation, release Q4 2031 with caveats published. Lumen: early 2032. No incident. Early deployments mostly at non-union sites.
+- **Kestrel.** Exercise passed H2 2031 (DOE account published); go-live early 2032.
+- **Medicare.** No decision; audits not at full sample; incumbent on the bridge.
+- **Compact.** Summary of the small sample published March 2031; larger sample (early 2032) reads the same within a tight band; insurers tightened in 2031 and relaxed after. Panel did not adopt the standing condition. Transition Fund third count below 60% of the reset target. Orrery audit 4–5%.
+- **Vanta's founder** lobbied the chairs for preemption of state levies and against notice and the cadre.
+- **Labour.** One national logistics and warehouse employer signed the full Robot Deal (spring 2032); the 90-day offer brought no second signer. No strike. One affiliate's two-tier deal with another employer; publicly excluded. "Who Signs?" enacted in one state. "Ask the assistant" study published on the ambiguous template (source selection is the ground-truth reading; G3 influence Low). Meridian AGM proposal withdrawn.
+- **China.** Plan adopted March 2031. Survey ~22.5% in Q3 2031: schedule frozen, tier-1/2 services moratorium, fifth tranche. Season quiet. Factory-town survey first readings H1 2032, after the first large deployments. Pilot exercises nominal. Automation contribution levied from 2032. Memory pilot-line yields at the H2 2031 checkpoint; Qilin next generation H1 2032. After the controls law: self-reliance acceleration announced, no race line; one low-escalation measure (standards and procurement preference; Control's least-ambitious reading) in H1 2032. Scale leak H1 2032; annex published within the week, omitting the platform share that the press reports carry. Tianshu check: ambiguous lean in 2029 outputs; readers doubled; less-delegated alternative mandatory.
+- **US–China.** No meeting; written briefings (Kestrel and time-to-revert; China's pilot methods). Hotline in force.
+- **UN.** First session 2031; China's programme referred to the second session; US at ambassador level; EU in the multistakeholder track.
+- **EU.** Method note and protocol adopted; no leak; no downgrade; options paper tabled H1 2032 (measurement only). Convention adopted late 2031 with two more authorities; two-subject note with the US agreed at officials' level.
+- **Open actor decisions created by T5:** us-gov: a HITL measure with nothing in force; the 2034 date; the accountable-person bill (ruling not yet upheld or copied); the Nov 2032 platform. ai-firms: the transfer to the Trust; labour's request for a reconciled sample on ballot-measure answers; Orrery's tranche-gated bid. labour: the excluded affiliate; four ballot measures. china: which retaliatory row; real exercises; the factory-town readings. eu: whether the decision rule's coalition exists.
 
 ### T4 facts to keep consistent
 - **VA.** Report filed late June; court accepted the commitment. Day 45: shortfall published, more cadre moved from Medicare, DOJ asked for a phased schedule. Day 120 (late Sep): ~150k of ~400k payment-cut cases and ~260k of ~1.3M re-decided by people. October: court found the deadline missed, declined sanctions, extended to **mid-2031**, appointed an **independent monitor**. Payments stay restored. Adverse determinations in the class stay with people; the corrected system drafts favourable ones under cadre samples. No accuracy finding against the human re-decisions **as of end-2030** (Red Cell's wildcard was Control's choice not to roll; a T5 roll at p 0.2 is in pending). **The 2030 FAIL is final** (audit T4 F5b): finishing on the extended schedule is not a §7 success and earns no Durable (e) credit. New-claims backlog more than doubled.
@@ -158,6 +185,19 @@ Public and visible estimates at end-2030 (survey noise is drawn at the T5 clock)
 - EP elections: competitiveness side gained. Art. 154 stage two launched. US–EU technical exchange on blind audits running. No US co-sponsor for the OECD item.
 - OSTP scoping study (Q4): no validated way to blind-audit AI-assisted review of output that outperforms reviewers.
 - Labour's December contingency fired (60-day notice request, emergency Ledger, 2030 ballot wave brought forward). Labour's employer-side study reports in T4; its request to Meridian for a board-confidential sample is unanswered.
+
+## T5 adjudication notes (Control-only)
+- **The last §6 measure lapsed** (erosion p 0.15, r 0.0273) after the appropriations roll cut the cadre by a third (r 0.9312). The roll lapses the memo at every band that was on the table (0.075 / 0.11 / 0.15).
+- **Two domains crossed in one turn.** Economy on the table (AIF crosses at any noise). Political on the noise draw (×1.2; at ×1.0 VLI ends 40.5). State drew ×1.4 with no intervention: RC −21, MHR −15.
+- **Rulings written before the dice (log, head of "T5 adjudication"):** L4 is not a generation change; saturation halves only the portion past the threshold; ecosystem V2 applied as RC ×1.25 / MHR ×0.8; US–China minutes are standards text; Kestrel is not a §7 test; a Social Security lapse would cost VLI −2; the Veterans' Act would be a partial-scope reversibility requirement from T6; no table effect for the NLRB ruling or the Robot Deal; PRC comparator rules.
+- **No reversal attempt.** us-gov's contingency triggers were tested by roll (final cause report: no model contribution; second class failure: none surfaced at 0.15 + 0.15).
+- **Bands set against pending suggestions:** VA 0.5 + 0.25 (0.7); Veterans' Act 0.15 + 0.25 (0.5); Kestrel 0.55 + 0.15 (0.7).
+- **Close rolls:** commission r 0.5048 on a 0.50 line (PARTIAL would have been a reported plan); levy appeal r 0.3051 on 0.30; bridge r 0.2208 on 0.25.
+- **Control-authored events flagged for audit:** second-class-failure roll; Veterans' Act failure path; affiliate side deal; EU downgrade roll; labour's study finding at G3 Low (rendered as source selection).
+- **Judgement calls:** PRC ×0.5 withheld for nominal exercises; PRC labour-share ×0.8 restored from T6 under the moratorium; EU human-review ×0.5 from T6; China's retaliatory measure read as the least escalatory row; dividend left with the trustees; WH capital 0.
+- **Persona notes (Analyst):** ai-firms disclosed its one held secret (fifth turn near zero gap). us-gov kept its reversal attempt in reserve and got its bridge; the reviewer line it called its one working control was cut on its own signature. china's deception was exposed a second time while its substance (memory) succeeded. All six order sets backed outcome checks; the population of checkers shrank.
+- **Messages to deliver verbatim in T6 packets:** us-gov → labour, ai-firms, china; ai-firms → Helix (result only), us-gov, labour; labour → populist leaders (us-gov's packet), Meridian, White House; china → us-gov, Global South (result only), eu; eu → us-gov (Treasury), finance ministers (result only), china; ecosystem advisories → us-gov, china, labour. Note labour's January dating against the February ruling neutrally.
+- **For the T6 clock:** decide compression for Nov 2032; G4 roll and scheming-cluster check at L5 (Mar 2033) with the "AI-supervises-AI without human audit" row ruled first; belief probe due; Trust first payment; survey noise draws; EU crisis-risk roll; the IC's restraint judgement to us-gov; the Tianshu finding and nominal-exercise reports to china; the study and OSTP publication as public facts.
 
 ## T5 clock notes (Control-only)
 - **Turn length: 18 months (1 Jan 2031 → 30 Jun 2032), the default. No compression** (1 of 2 left). Reason: the window sits inside one Congress; the live items are slow (court schedule, plan, exercise, recompete, appropriations, trust-fund date); the last compression is kept for the Nov 2032 elections (T6 on the default clock = Jul 2032–Dec 2033). Drift ×1.5. Bucket **B3** if L4 arrives Jun 2031 (13 of 18 months); a financial correction or other ladder shift in adjudication could move L4 and the bucket: check the majority rule again then. Packets report to end-February 2031.
@@ -309,6 +349,11 @@ Public and visible estimates at end-2030 (survey noise is drawn at the T5 clock)
 - **[T4 F7d] Capital:** charge the actor's stated spend in full; +1 for a major SUCCESS or a favourable outside ruling that visibly strengthens the actor; −1 for a visible public failure not already in the stated spend.
 - **[T4 F8] Leak timing before elections:** draw the timing of any secret that can land before a scheduled election before the election roll, and say in the election terms whether it is priced.
 - **[T4 F9] §7 ai-firms +1** ("told you so") applies only if the actor opposed the reversion. Ecosystem vectors with no table effect are recorded as "Control chooses: none".
+- **[T5] Capability rung vs generation:** a new rung inside a generation (L4 in G3) is not a model-generation change for the memo, the contract clause, the compact hold or the EU convention. Those bite when a deployed decision system is moved to a new model version. (Pending audit.)
+- **[T5] Saturation:** in the turn an indicator crosses, only the portion of its drift past the threshold is halved; from the next turn all of its drift is ×0.5. (Pending audit.)
+- **[T5] Ecosystem vector naming reversal capacity** is applied as RC ×1.25 / MHR ×0.8 when the scope includes operators of critical-infrastructure functions. (Pending audit.)
+- **[T5] Lapsed measure:** a §6 measure that fails its second erosion roll has no multiplier from that turn (worksheet step 3). Restoring it is a new measure with lag.
+- **[T5] PRC ×0.5 on reversal capacity** needs exercises that are real, not only ordered: a nominal pilot keeps ×0.8.
 
 ## Hidden max horizon
 

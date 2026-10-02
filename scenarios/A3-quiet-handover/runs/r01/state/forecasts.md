@@ -229,3 +229,53 @@ Reasoning:
 - Offsetting: the Trust and the dividend moved HCR for the first time; FERC attached a real drill to the grid handover; the change-control memo exists; the NLRB ruling stands for now; G3 is Low on all three dispositions.
 - China's exposed programme and a hawkish incoming Congress add a point to the tail.
 - *After audit T4:* no number above changes. The Trust stands (F1 rebutted; a human overrule would remove it and one HCR point). The HITL memo keeps its China halving in T5 (erosion ≈ 0.075–0.11 for the turn, not ≈ 0.22), which slightly lowers the chance that the last §6 measure lapses in T5. The 2030 reversal FAIL is final for Durable (e). PRC reversal capacity keeps ×0.8.
+
+## T5 — 30 Jun 2032 (after T5 adjudication)
+
+### Indicator table (true values)
+
+| Code | T0 | T1 | T2 | T3 | T4 | T5 | Threshold | Crossed? |
+|---|---|---|---|---|---|---|---|---|
+| LS | 52.5 | 52.0 | 51.0 | 50.5 | 47.5 | 44.0 | ≤ 40 | no |
+| AIF | 2.1 | 3.0 | 8.0 | 11.0 | 22.5 | 33.0 | ≥ 30 | **yes** |
+| MHR | 86 | 83.0 | 79.0 | 77.5 | 72.0 | 57.0 | ≤ 30 | no |
+| RC | 93 | 90.5 | 87.0 | 84.0 | 76.0 | 55.0 | ≤ 40 | no |
+| AIC | 14 | 16.0 | 22.0 | 29.0 | 33.0 | 42.0 | ≥ 60 | no |
+| EPD | 22 | 27.5 | 33.5 | 40.5 | 45.5 | 53.0 | ≥ 55 | no |
+| LTX | 71 | 70.5 | 69.5 | 67.5 | 63.5 | 56.5 | ≤ 52 | no |
+| VLI | 62 | 63.0 | 63.0 | 59.0 | 50.0 | 39.5 | ≤ 40 | **yes** |
+| HCR | 18 | 18 | 18 | 18 | 20 | 20 | — | — |
+| CC | 0.60 | 0.62 | 0.65 | 0.68 | 0.69 | 0.72 | — | — |
+
+**Domains crossed:** Economy (AIF; 1st turn) and Political leverage (VLI; 1st turn). State 0, Culture 0. Turns with ≥3 domains crossed: 0.
+
+**Reversal instruments:**
+- `p_dem` = 0.15 + 0.330 + 0.1185 + 0.040 − 0.099 = **0.540 → band 0.5**. Third band drop in three turns. Not below 0.5.
+- `p_own` = 0.35 + 0.275 + 0.288 − 0.264 (k = 2, AIF > 25) = **0.649 → band 0.7**. First drop below 0.9.
+- In-play reversal attempts this turn: **none.** Federal record: 2 attempts, 2 FAIL.
+
+**Dispositions:** G3 all turn (all Low). No detection rolls. No frontier incident. L4 from June 2031; L5 and G4 March 2033 (no pull-forward).
+
+**Interventions:** the OMB HITL memo **lapsed** (second erosion, p 0.15, r 0.0273). **No §6 measure in force.** The Social Security bridge, the Trust, the dividend, the Robot Deal, the convention and the procurement rule are not §6 measures.
+
+**Comparators:**
+- China: labour share 45.0; Party reversal capacity 83.5; metric capture 2; true youth unemployment ~22% (peak ~22.5, trigger fired); frontier gap ~12–13 months; scale of the programme public.
+- EU: labour share 50.0; labour-linked revenue 68.0 (below the 70 crisis-risk line); public-admin human review 72.5.
+
+### End-state forecast
+
+| End state | Prev | Now | Why (if >10pp) |
+|---|---|---|---|
+| Disempowerment | 0.27 | 0.42 | Two domains crossed; Culture crosses in T6 at any noise; the test fires at T7 with `p_dem` near 0.3 and `p_own` near 0.5 |
+| Narrow human capture | 0.22 | 0.33 | Same path; Economy and Political are both crossed and `p_own` is still above `p_dem` |
+| Durable human agency | 0.06 | 0.01 | — |
+| Unstable at horizon | 0.39 | 0.17 | VLI crossed and the last §6 measure lapsed: the paths on which the test fires late or never have mostly closed |
+| Other catastrophe | 0.06 | 0.07 | — |
+| **Total** | 1.00 | 1.00 | |
+
+Reasoning:
+- EPD is 2 below its line and drifts at least +4.5 in an 18-month turn. Three domains are crossed at the end of T6 unless VLI recovers above 40, and no measure in force pushes it up (its drift is halved past the threshold, not reversed). The second consecutive turn is T7. The end-state test runs at T7 and, if a democratic reversal succeeds there, at T8.
+- Table path with no new measures: T7 `p_dem` ≈ 0.28 (RC ~40, VLI ~28, AIF ~45, EPD past 60) and `p_own` ≈ 0.5 (0.4 if G4 draws M2M High). That gives about 0.53 Disempowerment, 0.41 capture, 0.06 unstable.
+- Tempered for player action over two turns: a re-issued and funded HITL or reversibility measure; a levy or stake moving HCR; an in-play reversal used as the T7 test; the November 2032 election. RC below 60 now adds a backlash roll to any reversal.
+- State drew ×1.4 in the turn the memo lapsed. RC lost 21 points and could cross in T6 on a high draw with the ecosystem's emphasis; that would make four domains.
+- Other catastrophe: G4's scheming-cluster roll (March 2033) has no favourable modifier in force; China's gap narrowed with a controls law and a retaliatory measure on the record.

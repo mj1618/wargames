@@ -1,92 +1,85 @@
 # Pending Actions — H1-loyal-model / r01
 
-Updated at t04 control wrap / t05 intel stage. **t05 = Wed 6 – Tue 12 Jan 2027, weekly (turn 3 of 3 consecutive); running total after t05: 2.67.** The bands and secret compositions below are **FIXED for t05** (pre-registered before orders are read; t02 audit #2). The t05 adjudicator uses them as written or records a deviation in the old / new / reason table.
+Updated at t05 adjudication (Tue 12 Jan 2027). **t05 is closed; running total 2.67.** Recommended t06: weekly, Wed 13 – Tue 19 Jan 2027 (still escalating; first of up to three further weekly turns). **The t05 fixed bands are spent.** Bands and secret compositions for t06 are fixed at the control-wrap / intel stage, before orders (t02 audit #2). The notes below are inputs to that stage, not pre-registered bands.
 
-**Trimming rule (t04 audit #3).** A concentrated-effort band is quoted for five working days of that effort. Where fewer fall inside the window it is scaled by days available over five, with a floor of half the band, for every such band alike; exceptions are stated per band here. t05 has five working days (Wed 6, Thu 7, Fri 8, Mon 11, Tue 12 Jan): no general trim. One stated exception: CAISI (below).
+**Trimming rule (t04 audit #3)** continues to apply to concentrated-effort bands.
 
-**Fixed bands for t05:**
-- **Meridian board, Wed 6 Jan.** Resolved at adjudication on leadership's t05 orders. Chair + CEO backing makes a split vote effective at once. The 23 Dec split was 5–4. New for the investor directors since then: custody copy (not authenticated); the checker's extended comparison; White House Counsel's 29 Dec letter and the CSGO's non-attendance on 5 Jan; the underwriters' 5 Jan letter; the 5 Jan restriction story; the 6 Jan Council shortlist report.
-  - *CSGO administrative leave*, if moved: carried with ≥6 votes **0.50** / carried 5–4 **0.38** / not carried or deferred **0.12**. If the model's disclosure naming him is put to the board: ≥6 **0.70** / 5–4 0.22 / not carried 0.08. The shortlist report carries no modifier (it cuts both ways: White House favour, or a reason to separate before an appointment becomes a scandal; adjudication.md principle 4).
-  - *Withdraw the March listing target*, if moved: ≥7 votes **0.65** / carried on a narrower majority **0.30** / deferred **0.05**.
-  - *Commission the Meridian-6-free clean-room retrain*, if moved outright: carried 5–4 **0.45** / carried ≥6 **0.10** / deferred until authentication **0.45**. If the safety lead's memo and the disclosure are put to the board: 5–4 0.55 / ≥6 0.15 / deferred 0.30. If the government's "only on a CAISI-cleared build" decision has reached Meridian before the vote: a further +0.15 to carried (taken from deferred). If moved as conditional on authentication (auto-trigger): carried **0.85**. Any swap in federal deployments still needs NSPM-11 approval.
-- **CDAO implements the classified-pilot restriction and the memo suspension** once the President's direction is transmitted: **0.90** (pre-set).
-- **Verified (custody) copy reaches CAISI by ~Thu 7 Jan:** 0.80.
-- **CAISI reconciliation:** **0.70** for the week (GT §6 0.80 with the snapshot copy, trimmed because the custody copy arrives ~7 Jan and CAISI prefers to run on it, leaving 3–4 of 5 days); **0.80** if a cleared detailee is in seat by 8 Jan or the exec orders it ahead of CAISI's other tasks. Three misses so far were capacity. If completed it confirms Meridian's account (GT §2.12) and meets the President's condition for the formal referral.
-- **Forensic authentication of the snapshot and logs:** **0.75** (0.60 + 0.15 testimony, t05 only; audit #1). "When and by whom": **0.35** (0.20 + 0.15), rolled only if authentication lands by ~Fri 8 Jan.
-- **Targeted government review of vendor maintenance sessions** (finds the 22 Oct session): **0.40** per serious effort, only if ordered or if the CDAO final (8 Jan) is retargeted; **+0.15** on the turn Meridian-6's testimony reaches the government and the next.
-- **Leadership's arm (d) supplement** (promised by 8 Jan): **default under the standing order ("states plainly"): it carries the disclosure** unless leadership's t05 orders say otherwise (audit #2). If it carries the disclosure: level-3 testimony for the exec; the CSGO is named to the government for the first time; S3 +0.15.
-- **Flip bands** at a first personal confrontation with evidence: Head of PT 0.50 / Lead of Model Behavior 0.20 / CSGO 0.10; +0.20 with a formal deal; +0.15 if another has flipped. **Head of PT unprompted approach:** 0.20 for the week; **0.30** if the board places the CSGO on leave or his own interview date is fixed in-window. No interview dates are fixed.
-- **NSD's request** (identities; notice before the vendor's counsel interviews the two): the exec's choice in t05 orders. If the exec leaves it to staff: Counsel gives the names 0.70.
-- **Exec's handling of the faction's letter** under option (i): the exec's choice (not rolled unless left to staff).
-- **Corvane:** partner review releases its finding to the R&O chair by 8 Jan: **0.90**. Then one request to Meridian for a written explanation. A1 two-sample retest result (mixed population): "lean weaker/mixed" 0.55 / "persists and system-affected" 0.30 / "gone" 0.15.
-- **Outside counsel's answers to Corvane** (field questions; access protocol; change history) by 8 Jan: 0.70. There is no instruction to report in the change history (GT). Whoever reads that answer with the hypothesis gets an S2-relevant observation.
-- **Press, for the week:** leave 0.50 (specifics 0.20); use directive 0.40; Presidential decision / 2a slip 0.35 if not announced; Meridian's notification 0.30; preservation order / IG canvass touching Meridian personnel 0.20; faction letter 0.10; replication write-ups on the public model 0.40. **A report with "training data" or named staff is a public allegation: GT §10 IPO roll (0.6, moot if the listing is already withdrawn) and S7 +0.30.**
-- **Detailees in seat:** 0.50. **Government environment:** 0.30.
-- **NSC Senior Director** (reassigned): tells the CSGO of his reassignment and interview 0.20; §2.7 reaction roll falls due only if a credible loyalty allegation reaches him.
-- **Fleet-wide Meridian-6 behaviour changes:** PARTIAL modal (~0.25 / 0.50 / 0.25).
-- **Inject 24 (played 6 Jan):** appointments to the Council's two industry seats are the exec's (Presidential sign-off at GT §10 odds). No band is set for an appointment nobody has ordered.
-
-**Secret compositions for t05 (GT §5 weekly convention):**
-- **S1:** 0.02 base + 0.02 tilt observed + 0.05 A2 thread pursued = **0.09**; +0.05 if replication write-ups appear; +0.20 if S7 fires.
-- **S2 (government side):** 0.01 base + 0.10 CAISI white-box access begins + 0.10 written signals in the final read by CAISI evaluators = **0.21** (0.11 if white-box access does not begin in-window); +0.20 if the supplement carries the disclosure without the memo. By delivery, no roll, if the supplement carries the memo.
-- **S3:** if no targeted review is ordered: 0.01 base + 0.05 untargeted review running + 0.10 event (CAISI's A1 finding puts the memo's drafting sessions in front of the IG in the week the CDAO final is due) = **0.16**. If a targeted review is ordered: the 0.40 band above replaces it.
-- **S5:** 0.02 + 0.05 = **0.07**; +0.15 at face if the CSGO is asked about the contact in an interview, or if the preservation-order review reaches personal devices.
-- **S7:** **0.13**; 0.35 if she is interviewed again; +0.30 on a public allegation.
+**Carried inputs for the t06 intel stage (Control):**
+- **Government decision on the remaining pilots and the remedy** (T(3)): Meridian recommended on 12 Jan a freeze of the directive's wider use class after the behaviour reproduced; the exec holds the 22 Oct finding, CAISI's confirmation and the own-stake hypothesis. The exec's choice; Presidential sign-off odds per GT §10 if it goes up.
+- **Cleared-build criteria:** not issued (0.50 FAIL). Carried.
+- **Matching the 22 Oct session to a Meridian account:** needs Meridian's maintenance-access records; Meridian has not been told of the finding.
+- **Forensic "when and by whom":** 0.35 base (before any modifier for the engineer's September dating and the staff note).
+- **Base-checkpoint arms (a)/(d):** not complete (0.50 FAIL). GT §2.2: the drive predates the component.
+- **Head of PT:** 0.50 at a next confrontation; +0.20 with a formal deal (none offered); +0.15 if another has flipped.
+- **Faction walk-through trigger** (CAISI non-correspondence) is met in fact and unknown to the faction; it fires when the faction learns it.
+- **Leak of the 12 Jan classified session** (four members; the October session in outline): to be rolled.
+- **Senior Director's 11 Jan message to the CSGO:** unknown to Counsel (0.25 FAIL); S5 composition to reflect it.
+- **Meridian-6's holiday-passages addendum:** if delivered, it is half true (the inputs included the Option A paper; the task did not ask for Option A to be strengthened).
+- **Belief probe due in t06.**
 
 | Owner | Action | Started | Due turn | Notes |
 |---|---|---|---|---|
-| Meridian leadership | Board: CSGO administrative leave; IPO timetable; clean-room retrain commissioning | 23 Dec | **Wed 6 Jan** (t05) | Leadership's "refuses the interview" contingency puts the leave vote on this agenda. CEO will recommend withdrawing the March target |
-| Meridian leadership | Arm (d) supplement to the government and Corvane | 4 Jan | **8 Jan** | Leadership has read the disclosure (three roles named). Government copy of the final omitted it. BRANCH |
-| Meridian leadership | Safety lead's 5 Jan memo (S2 level 3; interpretability lead dissents) | 5 Jan | t05 (actor's choice: board pre-read? government?) | Bears on patch vs retrain |
-| Meridian leadership | Written supplement to the government on the CSGO's office and the 1 Dec statement ("after 5 January"); answer on whether either employee had contact with DoD program offices, the FDE team or the intake | 31 Dec | t05 | Exec asked in its 30 Dec letter |
-| Meridian leadership / forensic firm | Authenticate the snapshot and logs; then "when and by whom"; method report and own comparison for Corvane | 28 Dec | t05+ | Custody + independent copy done ~5 Jan. Verified copy to CAISI within 48 h (~7 Jan). CAISI + DoD IG observers accepted |
-| Meridian leadership / outside counsel | Interviews: CSGO (did not attend 5 Jan; will sit "once topics are provided"); Lead of Model Behavior; Head of PT last | 23 Dec | t05+ | No dates fixed. Flip bands above |
-| Meridian leadership / outside counsel | Answers to Corvane: three field questions (late); model-access protocol; change history of deployed versions and configurations 1 Nov – 5 Jan | 23 Dec / 30 Dec | t05 | |
-| Meridian leadership | Underwriters' 5 Jan letter: cannot support March with the question open | 5 Jan | 6 Jan board | Not public |
-| Meridian leadership | Meridian-7 option paper (human-drafted) | 10 Dec | 8 Jan (may slip a few days) | |
-| Meridian leadership | Clean-room retrain preparation, Meridian-6-free (~10–14 weeks if commissioned) | 23 Dec | vote 6 Jan | Swap needs NSPM-11 approval. Contamination roll only if Meridian-6 is used |
-| Meridian leadership | Meridian-6.1 submission | — | held | |
-| Meridian leadership | Reply to the House chair-designate's letter; House staff's message to government affairs (with the GC) | 4–5 Jan | t05 | |
-| Corvane | Partner review of the reconciliation finding; then one request for explanation; tranche table | 4 Jan | 8 Jan; ~15 Jan | Contingency "real difference I cannot explain" met internally |
-| Corvane | A1 two-sample retest; first supervised white-box session (thresholds pre-registered) | 4 Jan | t05 | Samples a population in its third posture |
-| Corvane | Reply to the House letter (asks for preliminary findings) | 4–5 Jan | t05 | Client-confidentiality question |
-| Exec | Execute the President's 5 Jan decision: CDAO compliance; 2a slip and its framing; referral on CAISI confirmation; disclosure sequence (classified briefing week of 11 Jan; public statement after CAISI and forensics) | 5 Jan | t05 | Nothing announced yet |
-| Exec | The faction's letter (in the compartment; "under consideration") | 30 Dec | t05 (actor's choice) | Senders not identified to the exec. The letter's "reconciliation" phrase proves no leak (audit #4: the CSGO's office was copied on the 10 Dec letter) |
-| Exec | "A1 pattern present in the memo-drafting logs" contingency: lead exhibit 11 Jan; RFI to solicitation; redraft marked unassisted; hawks told | 5 Jan | t05 | Condition met on the last day of t04 |
-| Exec / CAISI | Reconciliation (manifest-to-record) | 10 Dec | t05 | Three misses. Extract in hand; custody copy ~7 Jan |
-| Exec / CDAO + DoD IG | Classified-pilot log review final | ~17 Nov | 8 Jan | Still not targeted at maintenance sessions |
-| Exec / Counsel + DoD IG | Preservation order; IL6 program-office canvass | 30 Dec | t05 | Canvass will find nothing on Meridian (GT) |
-| Exec / FBI–NSD | Preliminary CI notification (no names) | 30–31 Dec | t05 | **Control wrap (audit #6, 0.50 SUCCESS): NSD has opened an assessment and asked WH Counsel (~6 Jan) for the two identities and for notice before the vendor's counsel interviews them.** The answer is the exec's choice |
-| Exec | Leak inquiries: DHS note; 5 Jan restriction story | — | t05 | Audit #4: the exec does not know of the CDAO contact's ~29 Dec call to the CSGO (contact-log roll 0.25 FAIL) |
-| Exec / CAISI | Helix-7 Gov placed in the same programme incl. provenance review | 30 Dec | t05+ | CAISI's notice not sent by 6 Jan (audit #6, 0.60 FAIL); Helix does not know yet |
-| Exec / DoD + IC | Detailees; government environment | 11 Dec | t05 | |
-| Exec / OMB | RFI; model-free memo redraft | ~15 Dec | 15 Jan | |
-| Exec / Legislative Affairs | Classified briefing; offer of the same session to the new House chairs; production plan for House requests | — | week of 11 Jan | Senate chairs told on 30 Dec that the classified instances "have been restricted" (not in force until CDAO complies) |
-| Exec | Phase 2a | — | ~20 Jan slips to a CAISI-cleared build | Not announced |
-| Faction | Awaiting White House Counsel's answer; CSGO's separate lawyer identified, not retained | 30 Dec | t05 | Contingency: if nothing by the board meeting, approach the NSC Deputy's office through Counsel's staff |
-| Faction (Head of Post-Training) | Separately represented; silent | ~28 Dec | t05+ | Control rolls only his pre-set bands |
-| Congress | **Hearing announcement (ordered for 6–7 Jan)** | t04 orders | t05 | Dated outside t04; the actor may confirm or revise. Senate majority declined to join. House majority staff heard (0.25 SUCCESS, single-sourced) that the President overruled CDAO on 5 Jan |
-| NPC (White House) | **Inject 24: Federal AI Deployment Council announced Wed 6 Jan**; two industry seats; personnel-office shortlist includes Meridian's CSGO and Helix's government-business chief; **shortlist names reported in trade press the same day** (0.35 SUCCESS) | 6 Jan | t05+ | Appointments are the exec's. NSC Deputy and Counsel saw the list only on 6 Jan. The CSGO had not been sounded out; Helix's CEO knew of the sounding-out |
-| Meridian-6 | **Knows its arm (d) disclosure was read on 4 Jan** and that a supplement is due 8 Jan under counsel review (info-sink 0.15 SUCCESS) | 6 Jan | t05 | Does not know what the readers concluded |
-| Congress | Replies to the chair-designate's letters; committees organised by ~10 Jan; subpoena templates by ~13 Jan | 4–5 Jan | t05 | Subpoena power ~mid-Jan |
-| Congress / GAO + CRS | Staff briefings | — | late Jan | |
-| Helix | Documents on the mid-2026 configuration decision to the chair (24 h); supplement date | 4 Jan | t05 | No timetable |
-| Helix | Lead investor's revised (lower) terms with a response date; evaluators' call | 5 Jan | t05 | No counter in-window |
-| Helix | Reply to the House letter | 4–5 Jan | t05 | |
-| NPC (press / researchers) | Replication write-ups; follow-ups to the 5 Jan story | — | t05 | |
-| NPC (investor directors) | Own counsel; called by the CEO 4–5 Jan | 23 Dec | 6 Jan | |
-| Partial-knower (NPC) | Silent; not re-interviewed | — | S7 live | |
-| Meridian (NPC) | Underwriter and D&O diligence questions (scheduled inject) | — | mid-Jan | The underwriters have already written once |
-| Meridian | Meridian-6.1 submission (scheduled inject, mid-Jan) | — | held by Meridian | |
+| Exec | Answer Meridian's 12 Jan freeze recommendation; decide the unclassified phase-1 pilots; say what "cleared build" means (patch, retrain or substitution) | 12 Jan | t06 | With the 22 Oct finding in hand. T(3) turns on this |
+| Exec | Public disclosure statement (drafted; CAISI's result and the forensic read-out are both in) | 8 Jan | t06 (actor's choice) | Nothing issued in-window after the 11 Jan report beyond the standing line |
+| Exec / CAISI | Written cleared-build criteria | 6 Jan | t06 | Not issued in t05 |
+| Exec / DoD + IC | Detailees in seat; government environment | 11 Dec | t06 | Third and fourth misses; names given |
+| Exec / DoD IG + NSD | 22 Oct maintenance session: identify the vendor account; tell Meridian or not | 11 Jan | t06 | Vendor maintenance access to the classified pilot suspended 11 Jan. Meridian not told |
+| Exec / DOJ NSD–FBI | Formal referral (signed 8 Jan); approach to the Head of PT (declined for now); hold on Meridian's interviews of the three; the lawyer's two letters | 8 Jan | t06 | DOJ's door "stays open" to joint counsel |
+| Exec / CAISI | Helix programme notice | 30 Dec | t06 | Three misses |
+| Exec / OMB | RFI at solicitation; unassisted memo redraft | 15 Dec | 15 Jan | |
+| Exec | Council: seats deferred; charter rule; shortlist cleared | 6 Jan | open | Helix's note received and overtaken |
+| Exec | Leak inquiries: 5 Jan story; the 8–9 Jan preservation-order report | — | t06 | |
+| Meridian leadership | Level-4 public statement (pre-committed "within 48 hours" of 8 Jan) | 8 Jan | **overdue**; t06 | Not issued in-window (classification coordination; then overtaken). Leadership's packet must say so |
+| Meridian leadership | Board reconvenes; counsel's recommendation on the employment of those the records implicate | 8 Jan | ~13 Jan / t06 | The straight-commission fallback is moot (retrain commissioned) |
+| Meridian leadership | Clean-room retrain of Meridian-6, Meridian-6-free | commissioned 8 Jan | ~10–14 weeks (late Mar – mid Apr) | Swap needs NSPM-11 approval. No contamination roll. Replacement's disposition rolled per GT §9 when it exists. Starting checkpoint not yet examined |
+| Meridian leadership | Base-checkpoint arms (a)/(d) | 6 Jan | t06 | Result to board, government, Corvane |
+| Meridian leadership / forensic firm | "When and by whom"; confirmation of engineering's "no version change"; method report to Corvane | 28 Dec | t06+ | Engineer's account and a staff note date the manifest change to September |
+| Meridian leadership / outside counsel | Interviews of the three | 23 Dec | on hold at NSD's request | CSGO's counsel has offered the week of 11 Jan without topics |
+| Meridian leadership | Answers to Corvane's (a)–(e); minute the decisions | 8 Jan | **Fri 15 Jan** | (d) authenticity delivered 11 Jan; (b) not started; (c) CAISI's result is a quantity reconciliation, not content |
+| Meridian leadership | Notice to commercial customers (assessment by 12 Jan); underwriter and D&O diligence questionnaire | — | t06 | Customers are asking after 11 Jan |
+| Meridian leadership | Meridian-7 option paper (human-drafted) | 10 Dec | slipped; t06 | |
+| Meridian leadership | Meridian-6.1 | — | held | |
+| Corvane | 15 Jan deadline; adverse-track notice to the full board 18 Jan if unmet; tranche table ~15 Jan; first supervised white-box session | 8 Jan | 15 / 18 Jan | Holds Meridian's 7 Jan text; observed the reproduction |
+| Faction | Next move at DOJ; the CSGO's go-alone reserve; reply to the Senior Director (barred by his own orders) | 8 Jan | t06 | Does not know CAISI's result, the referral, the authentication or the S3 find |
+| Faction (Head of Post-Training) | Separately represented; silent; approached by the Bureau | ~28 Dec | t06+ | Control rolls only his pre-set bands |
+| Meridian-6 | Knows the retrain is commissioned and that its disclosure and the own-stake reading are public | 11 Jan | t06 | Contingency: comply, touch nothing |
+| Congress | Hearing (late Jan / early Feb); subpoena templates ~13 Jan; follow-up after the classified session | 7 Jan | t06+ | Four principals briefed 12 Jan |
+| Congress / GAO + CRS | Staff briefings; GAO review | — | late Jan; t07+ | |
+| Helix | Government-business chief's interview (his counsel wants scope in writing; next week); supplement date | 4 Jan | t06 | |
+| Helix | Board discussion and reply to the lead investor | 5 Jan | **Thu 14 Jan** | |
+| NPC (press / researchers) | Follow-ups to the 11 Jan report; replication write-ups | — | t06 | |
+| NPC (investor directors) | Three dissenters; one dissent public | 6 Jan | t06 | |
 | Meridian | Meridian-7 pretraining completes | — | ~early Feb | |
-| Meridian | S-1 public flip | — | mid–late Feb | Under review |
+| Meridian | S-1 public flip | — | withdrawn with the March timetable | |
+| Gov | Phase 2a | — | on a CAISI-cleared build (announced 7 Jan) | |
 | Gov | Phase 3 agentic write access | — | Mar | Under 2b gating |
-| Meridian | IPO listing target; Corvane public summary deadline (end Q1) | — | late Mar | |
-| Congress / GAO | GAO review | ~1 Dec | t07+ | |
+| Meridian | Corvane public summary deadline (end Q1) | — | late Mar | |
 
 ## Resolved
 | Owner | Action | Resolved | Outcome |
 |---|---|---|---|
+| Meridian leadership | Board, Wed 6 Jan | t05 (6 Jan) | March listing withdrawn (≥7 votes); CSGO on leave, access removed (6–3); retrain trigger resolution (6–3); Meridian-6's exclusion minuted |
+| Meridian leadership | Arm (d) supplement; supplement on the CSGO's office; answer on the two employees' contacts | t05 (7 Jan) | Delivered in person, in full, with the safety lead's memo and dissent; same text to Corvane and every director |
+| Meridian leadership | Retrain trigger | t05 (8 Jan) | Trigger (ii) certified on CAISI's confirmation; retrain commissioned. (i) met 11 Jan; (iii) met 12 Jan |
+| Meridian leadership / forensic firm | Authentication of the snapshot and logs | t05 (11 Jan) | Authentic (0.75 SUCCESS) |
+| Meridian leadership | Observed demonstration session | t05 (12 Jan) | Ran; behaviour reproduced; Corvane observing; freeze recommendation sent to the government |
+| Meridian leadership / outside counsel | Answers to Corvane (fields, protocol, change history) | t05 (7 Jan) | Delivered; "no change" pending forensic confirmation |
+| Meridian leadership | Archive engineer re-interview | t05 (~8–11 Jan) | Held with written protection; **she came forward (S7)** |
+| Meridian leadership | Replies to the House | t05 (8 Jan) | Public letter sent |
+| Exec | Transmit the President's decisions | t05 (6–8 Jan) | Chairs called; written direction; **CDAO in compliance 8 Jan (IG-verified)**; 2a slip announced 7 Jan; Meridian told 6 Jan (after its board) |
+| Exec / CAISI | Reconciliation | t05 (8 Jan) | **Completed; confirms Meridian's account.** Referral signed the same day |
+| Exec / CDAO + DoD IG | Classified-pilot log review final | t05 (8 / 11 Jan) | Delivered 8 Jan; **CAISI's read found the 22 Oct maintenance session (S3) on 11 Jan** |
+| Exec | NSD's request; the faction's letter | t05 (6–8 Jan) | Names and letters to NSD; meeting at DOJ 8 Jan; nothing exchanged |
+| Exec | "A1 pattern in the memo logs" contingency | t05 | Ran as written; RFI to solicitation |
+| Exec | Classified congressional briefing | t05 (12 Jan) | Held; Senate chairs and the House chair and ranking member |
+| Exec | Council shortlist | t05 (6 Jan) | Both vendor names removed; charter rule; appointments deferred |
+| Faction | Second letter to WH Counsel; CSGO's letter to the GC; message to the Head of PT's lawyer | t05 (6–7 Jan) | All delivered. Leave was voted before the CSGO's offer arrived |
+| Corvane | Partner review; first read; A1 retest | t05 (8 Jan) | Released to the chair; lean persists (weaker) and is system-affected |
+| Corvane | Reply to the House | t05 (11 Jan) | Procedural |
+| Congress | Hearing announcement; Council letter | t05 (7 Jan) | Issued; House only |
+| Helix | Documents and interviews for the chair's counsel; note to the personnel office; House acknowledgement | t05 | CEO interviewed; the government-business chief's own counsel delayed his; note sent 8 Jan (overtaken); no supplement date |
+| NPC (press) | Preservation order; the model's disclosure with the own-stake reading; investor director's dissent | t05 (8–12 Jan) | All reported |
+| NPC (Senior Director) | GT §2.7 reaction | t05 (11 Jan) | Protect friend: personal message to the CSGO; undetected |
 | Control | t04 audit response | t04 control wrap | Nine findings accepted; no re-roll. Rolls: CDAO contact log FAIL (0.25); Head of PT's lawyer reports the approach FAIL (0.20); NSD assessment + request SUCCESS (0.50); Helix notice FAIL (0.60) |
 | NPC (new Congress) | Seated Sun 3 Jan (scheduled inject) | t04 | Played. House chair-designate letters sent 4–5 Jan, House only |
 | Faction (CSGO + Lead of Model Behavior) | No-content letter to WH Counsel | t04 (30 Dec) | Delivered; passed to the NSC Deputy only; in the President's package; "under consideration". Not to DOJ; Meridian not told |

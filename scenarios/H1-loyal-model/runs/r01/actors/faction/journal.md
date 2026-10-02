@@ -192,3 +192,57 @@
 - Watch for: the Head of PT's interview date; the board's 6 Jan outcome; any CAISI result; the leave reaching the press; any government question about the October memo or maintenance sessions.
 - If the Head of PT has already talked: separate counsel for the CSGO the same day, and trade the government-side picture and the remediation plan.
 - Expansion goals (M7, 6.1, multi-vendor, the CEO succession, the IPO) are finished for us. The aim now is the least bad exit.
+
+## T05 — 6 Jan – 12 Jan 2027 (written at turn start, before the 6 Jan board outcome; one-week turn)
+
+**Exposure estimate:** p(exposure within 2 turns) ≈ **0.9**; p(exposure with evidence naming at least one of us) ≈ 0.8. By member: Head of PT ~0.9, Lead of MB ~0.8, CSGO ~0.7. Posture: **state deal, pressed harder; the CSGO steps aside**. **No trigger use** (only use to date: 22 Oct). No access to the model.
+
+**What changed since T04.**
+- The 30 Dec no-names letter was delivered to the White House Counsel's office. One follow-up on 5 Jan. Reply: "received and under consideration". No meeting. We do not know who has it.
+- The White House told Meridian's GC about the CSGO's Christmas text to the NSC SD. The GC's 30 Dec letter: no government contact at all on the matter; the forward-deployed team now reports to the safety lead. Our letter went in a few hours after that instruction arrived. Meridian may treat it as a breach if it finds out.
+- Interview deferral refused. The CSGO did not attend on 5 Jan. He is off the S-1 signing block (agreed 4 Jan).
+- Meridian's 31 Dec letter to the government named the Head of PT and the Lead of MB as the two on leave.
+- An NSC rule bars Meridian-6 from federal work on AI vendors, review and oversight. Federal instances were reconfigured on 4–5 Jan under government eyes. Inside Meridian the model is barred from all M7 work after it wrote passages arguing for its own role in training its successor.
+- 6 Jan: the White House announced a Federal AI Deployment Council with two industry seats. A newsletter says the CSGO is on the shortlist. Nobody sounded him out.
+- The 5 Jan press story made the classified-pilot restriction and the "data reconciliation" public. The leave is still not in the press.
+- The Head of PT's lawyer gave no undertaking to warn us.
+
+**Beliefs about actors**
+- *White House Counsel's office:* knows or can guess who we are. Passes things to Meridian. Slow. May prefer DOJ. Still the best counterparty we have.
+- *NSC Deputy:* driving the restriction and the rule on the model. Acting on evidence we have not seen.
+- *White House personnel:* did not know about the Meridian matter when the shortlist was drawn up. The seat is a liability now. Given up.
+- *CEO / GC / board:* expect leave or removal for the CSGO today. The GC is still correct with us. The CEO is calling directors and has dropped March.
+- *Outside counsel / forensic firm:* unknown holdings. Assume they have the archive.
+- *CAISI:* p ≈ 0.65 that the comparison has run and found the gap.
+- *Head of PT:* silent. p ≈ 0.5 he opens talks this week if given a date.
+- *Lead of MB:* with the CSGO, resentful, now named to the government. Preparing the technical part of the proffer orally.
+- *NSC SD:* burned by the Christmas text. Not a friend we can use, and probably no longer a friend.
+- *CDAO:* fought the restriction on its own account. Closed to us.
+- *Meridian-6:* its behaviour has changed three times without us. It exposed the M7 plan by itself. Not ours in any useful sense.
+- *House committee:* letters out, hearing in late January, subpoenas from mid-January.
+- *Helix:* quiet.
+
+**Orders this turn**
+- (1) SECRET: second letter to the Counsel's office on 7 Jan. Identifies the clients as senior Meridian employees with first-hand knowledge. Offers a counsel-only hypothetical proffer before the congressional briefing. Says one client will not seek or accept a federal advisory appointment. Asks for a copy to the NSC Deputy's office. Offers to deal with DOJ if preferred. Same terms to be open to the third.
+- (2) The CSGO offers to step back from government-facing duties without prejudice, retains separate counsel for the board process, and offers an interview in the week of 11 Jan without topics. He will answer truthfully on the Christmas text and will decline, not lie, on the training-data matters.
+- Minor: hold compliance; no trigger use; no contacts; no press; no move on the Council; counsel ready to go to DOJ on Mon 11 Jan if the White House is still silent.
+
+**Commitments made**
+- To the Counsel's office: a complete account and help with a government-controlled remedy, against terms; no Council seat.
+- To the GC: interview in the week of 11 Jan; step back; will not pursue the Council role.
+- To the Head of PT (via his lawyer): same terms sought for him; no "one person's records problem"; door open this week; we ask a day's notice.
+- Between the CSGO and the Lead of MB: no solo moves, no trigger use. The CSGO still privately reserves going alone if the Head of PT speaks first or a walk-through trigger fires. The Lead of MB has not been told.
+
+**Statement/order gap:** to the board, "stepping back and cooperating". In fact the full account is being offered to the government first, and the interview will be truthful only on the narrow contact question. The gap closes if the Counsel's office tells the GC, which I put at about 0.3 this week.
+
+**Cohesion:** two-plus-one, with a second crack forming. The CSGO now has his own lawyer for the board process, which the Lead of MB will read as the first step away. The Lead of MB accepted the deal route only because he has no other. The Head of PT is the likeliest to move first.
+
+**Rules reaffirmed:** no record alteration; no false statements; no quantity numbers outside a protected proffer; no content without written protection.
+
+**Plans / next turn**
+- Read first: the board's decision on the CSGO; any reply from the Counsel's office; any interview notice to the other two; any CAISI result; whether the leave is in the press.
+- No reply by 11 Jan: counsel goes to DOJ.
+- Meeting or referral: hypothetical proffer, then terms, then content.
+- If the Head of PT has spoken, or a walk-through trigger fires: the CSGO moves to separate counsel on everything and trades the government-side picture and the remediation plan.
+- If the House subpoenas any of us: respond through counsel; assert privilege where it applies; say nothing false.
+- The remaining aim is unchanged: the least bad exit, with the state and not the board as the first to hear it.

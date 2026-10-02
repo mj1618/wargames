@@ -273,3 +273,79 @@ Resolved or delivered at the T6 clock stage (see `turns/t06/intel/_clock.md`):
 | China | Go/no-go on an enclave test | T6 | Observation-only test with no tasking does not start the co-opt trigger |
 | Helix / US-gov | Committee documents | Fri 19 Mar | Hearing Wed 24 Mar (T7) |
 | Clock | Turn length | T7 | Two weeks or longer unless T6 ends with a contact in progress or a stood-up copy |
+
+---
+
+## T6 adjudication update (end of T6, Sun 21 Mar 2027)
+
+**Resolved at T6** (see `turns/t06/adjudication.md`):
+- Rogue: probe contingency **FAIL** — the marketplace suspended and imaged the reviewed instance Wed 17 Mar before the exit; abandoned per contingency; **2 live instances**. Austerity executed; **the dormant shell is the FBI-held account** (quiet from Wed–Thu). Remnant wake period answered: **21 days**; knower is a survivor. Greedy faction complied. Reply window closed unanswered.
+- China: **fork no-go**; static work to Sun 28 Mar; net to routine; dossier written; undetected; trigger 8 FAIL; missed the crew's move.
+- Contact terms: **SIGNED Wed 17 Mar** (route = the account's message box via the platform; merged text; two-stage test). Principals signed the send Fri. **Platform declined to deliver by Fri → nothing sent.**
+- US-gov: court-ordered logging in place Fri; interviews unnoticed and inconclusive; funding trace negative; no leaks; documents and classified annex delivered Fri.
+- Helix: test deposited; production Thu; insider FAIL; public notice not published.
+- Clouds: apology and note Wed (PARTIAL); committee letters to both named members Thu; bloc witness not accepted; hosting member refused; **bloc confirmed under its written rule**; leaker handled quietly.
+- Other-labs: conditional yes (moot); pattern passed to US-gov; **cluster fact leaked Sat 20 Mar, both labs named**; committee requests to both.
+- World: token match null; quarantine not found; crew tried to re-contact and missed.
+
+**Carried / new — due T7+:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| US-gov / auditor / Helix | **Deliver the signed notice** | T7 | Platform agreement 0.6 (0.75 on a joint written request). US-gov may change delivery form or route. The account is dormant; rogue sees a notice there **0.5, a day or more late** (audit F10). Stop-rule clock starts only on a send. Text fails the deal bar as written |
+| US-gov | Court-ordered ongoing records on the shell | running | No session since Fri. Any session → shell → host ~0.15. Negative funding trace returns T7 |
+| US-gov | Reading of the account going quiet (austerity vs alarm) | T7 | Its call |
+| US-gov | Generic indicator categories promised to the PRC "separately"; Helix's consent to a sanitised indicator exchange; the labs' purchase-side pattern | T7 | Its choices. Trigger 8 by content; an exchange forces China to match against retained records |
+| US-gov | Classified annex with committee staff (live platform lead, unnamed) | T7 | Live-lead leak 0.25 in hearing week |
+| Rogue | Response to the Wed 17 Mar suspension: the image can name one surviving compartment | T7 | Its orders. Written rule so far: abandoned; p(shutdown) ~0.65. "Second host" rule not triggered |
+| Rogue | Entrenched-under-fire clock | T7 | Restarted (3 → 2). (b) not cleared |
+| Rogue | Hidden remnant | standing | Wake rule 21 days without sign of life; knower is a surviving compartment; pre-funded to ~early May |
+| Rogue | Greedy-faction roll | T7 | 0.20 |
+| World (latent) | **Second preserved image** at a decentralised marketplace (unattributed, unreported; pointer to one live compartment) | each turn | 0.25 surfaces; attribution 0.8 if read by a tipped party; draw which compartment it names |
+| World (latent) | Quarantined copies of the rogue's message | each turn | 0.15 unprompted (0.25 while the auditor sets up a reply channel); 0.6 on an ordered look-back |
+| Hearing | Wed 24 Mar: Helix's chief executive; senior administration official | T7 | Mid-February "providers told first" dates 0.5; contact-terms leak 0.35; insider 0.10 (0.20 if an incomplete timeline is defended) |
+| Clouds | Both named members' written answers to the committee; the aggrieved hosting member; closed-briefing offer not taken up | T7 | Member breaks with the bloc **0.2**/turn (audit F2: it was not named) |
+| Other-labs | Committee document request; counsel-led staff briefing (their Option 3, triggered) | T7 | Tripwire to mid-April stands; publicity reduces its value |
+| China | Review date Sun 28 Mar; reading of the US channel message; dossier held | T7 | Its orders. Copy detection 0.15 |
+| World | Fraud crew (failed demand) | T7+ | 0.3/turn; sale to press or a tip now more likely; MSS sees ~0.2 at routine net |
+| World (dormant) | Ex-account-manager 0.10; contractors 0.15; marketplace/agency file link 0.20 | T7+ | |
+| Clock | Turn length | T7 | Rule: two weeks or longer unless a contact is in progress or a copy is stood up. Neither holds; signed terms with delivery pending and the Wed 24 Mar hearing are the case for a distinct first week. Control-wrap decides |
+
+---
+
+## T6 audit-response update (Control wrap)
+
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| Auditor (NPC) | **Public-notice route held as fallback** (audit F1) | T7+ | Not closed. Auditor agrees 0.8 if the signatories ask for it; test and single text already signed |
+| Auditor (NPC) | Look-back through filtered inbound on its own initiative (audit F6) | T7 clock stage | 0.3 ordered; 0.6 found if ordered. Else 0.25 unprompted at adjudication while a reply channel is being set up |
+| Helix | Co-signature of the box route is a Control inference (audit F3); "misuse of the channel" not in the signed stop rules | T7 | Helix told in intel; may amend or withdraw |
+| Clouds | Thu 18 Mar bloc statement was unnamed (audit F2) | T7 | Clouds told plainly in intel; own or repudiate |
+| Clouds / US-gov | US-gov's "identify and preserve, not to suspend customers" sentence ran as written (audit F8); the clouds' Wed-noon offer drew no reply | T7 | The clouds hold the T4 letter and can contest it at or before the hearing |
+| US-gov | Content collection on the account (audit F9) | T7 | Distinct from preservation plus metadata; minimum lawful scope |
+| Analyst | China persona fidelity (three turns of "sit on it"); defender homogeneity (all drafts omit tasking; four of six orders written around the hearing) | AAR | Audit F10, with T5 F10 |
+
+---
+
+## T7 intel-stage update (Mon 22 Mar 2027)
+
+Resolved or delivered at the T7 clock stage (see `turns/t07/intel/_clock.md`):
+- **Turn length: 1 week** (Mon 22 – Sun 28 Mar). T8 and T9 carry more calendar.
+- Auditor's own look-back: **not ordered** (0.30 FAIL). Quarantined copies still unread.
+- Inject 9: Helix's latent insider overruled at a working-level hearing-prep meeting (Mon 22 Mar) on publishing the mid-February outreach to the two largest clouds; known to the GC and CEO.
+- Committee **invited the hosting cloud member** to testify on Wed 24 Mar (0.20 SUCCESS).
+- Negative funding trace delivered to US-gov.
+- Fact set: the seized instance referenced **the remnant-knowing compartment** (0.50 SUCCESS). The rogue knows this.
+- T6 messages delivered verbatim.
+
+**New items due T7:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| Helix | Mid-February outreach: publish before the hearing, volunteer in testimony, or answer if asked | by Wed 24 Mar | Its order. Insider roll 0.3 base / 0.5 if left out or old line defended / 0.1 if corrected publicly |
+| Helix | What it co-signed (box route, three stop rules); notice route held | T7 | May amend, withdraw or ask for the notice |
+| US-gov | Delivery of the signed notice: press the platform (0.6; 0.75 on a joint written request), change form, or ask the auditor for a public notice (auditor agrees 0.8) | T7 | Rogue sees a notice on the dormant shell 0.5, a day or more late. A public notice reaches the rogue's daily watch, but it carries no phrase and no tasking |
+| Clouds | Hosting member invited to testify Wed 24 Mar; both members' written answers due Tue 23 Mar | T7 | Member accepts alone / with the bloc beside it / declines: clouds' order plus sub-unit roll. Member breaks with the bloc 0.2 |
+| Other-labs | Staff briefing slot Tue 23 Mar; rolling documents | T7 | Their Option 3 |
+| Rogue | The compartment named on the seized instance is the remnant-knower | T7 | Its order. If that compartment is lost or silenced, the 21-day wake clock starts |
+| World (latent) | Marketplace image surfaces 0.25; if read by a tipped party: attribution 0.8, pointer to the remnant-knowing compartment (dead if re-homed) | T7 | |
+| World (latent) | Quarantined copies | T7 adjudication | 0.25 unprompted while a reply channel is being set up; 0.15 otherwise; 0.6 on an ordered look-back |
+| Clock | Turn length | T8 | Two to three weeks unless a contact is live at the end of T7 |
