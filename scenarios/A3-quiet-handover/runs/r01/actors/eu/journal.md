@@ -42,3 +42,26 @@
 - Review national measurement results on human oversight, and decide whether guidance should become binding.
 - Reassess the US relationship after the November election.
 - Political capital: expect to end at 2-3 after about 2 points spent. Avoid new fights until the 2029 EP campaign takes shape.
+
+## Turn 03 — 2029 (Jan–Dec, includes June EP elections)
+**Beliefs.**
+- US: New unified Democratic government; record-low labour share 51.0%; AI-directed output 6.5-8%; "public stake" and reviewer funding on its agenda; has not raised EU digital rules. Opening for a technical exchange and an OECD track on AI rents. Trust: moderate on technical and fiscal exchange, still low on trade. Watch for trade-agenda hardening if I act visibly on AI-native firms.
+- China: Keeps courting with testing note, provenance metadata compatibility and the "accountable human institutions" principle at the UN. I accept testing methods note and open-interoperability on metadata, but no mutual recognition and no UN co-sponsorship. Trust: low-moderate.
+- Labs and AI-native firms: ~65% of AI-directed activity steered by ten firms. AI-native entrants asking how the AI Act applies to agent-run firms with no EU staff; guidance should close that gap.
+- Member states: Germany split (industry versus Finance); France sovereignty/Aster; Nordics open to contribution-base follow-up; CEE want investment first and "no new rules this term". Tax measures still need unanimity.
+- Regime reality: conformity is largely documentary. My own advisory stack warns that complete files are cheap to produce. Authorities will run sampled outcome tests if given protocols and funds. Early national data show sub-minute reviews and near-zero overrides in tax and benefits systems in at least two states.
+- Fiscal: ECFIN keeps ~3% of GDP, timing earlier; ~79% of social funding is labour-linked. The ECFIN figure is public.
+
+**Commitments made.**
+- Public: Outcome-Testing Package (protocols for four categories, Recommendation, accountable-person guidance for agent-run firms; comparative national results published in September after the election, with right of reply); Communication on financing the social model (measurement, voluntary pilots, OECD/G20 AI-rents track, no tax instrument); critical public services stay under accountable human institutions; no AI rules in trade talks.
+- Private: told Nordic, German, French and Dutch finance ministries the Communication is not a tax proposal and asked for "take note" at ECOFIN; told authorities results will be named only in September; offered the US a standing technical exchange outside trade talks; told China yes to testing note and open metadata interoperability, no mutual recognition, no separate UN vehicle.
+- Not done: no reversal attempt this turn (held in reserve); no second delay; fallback stop-the-clock remains unused and unleaked.
+
+**Trust / grudges.** Watch German industry and CEE for charges of a "second delay in disguise". Watch whether member states leak the naming plan before September. Watch whether the US channel replies.
+
+**Plans for next turn.**
+- Review EP election result and new College priorities; decide on a binding implementing act and Article 154 binding option.
+- Read the full national oversight results and the first outcome-sample data; check my own triage override rate.
+- Check ECOFIN response to the Communication and any US reply on OECD co-sponsorship.
+- Watch first gigafactory (mid-2029), Aster's gap, US next-generation timing (late 2029 to 2030) and the UNGA vote.
+- Political capital: 4 now; expect to spend about 2 and end near 2-3. Avoid new fights; keep any reversal attempt for a case a member state itself invites.

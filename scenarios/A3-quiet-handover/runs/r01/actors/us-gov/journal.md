@@ -39,3 +39,73 @@
 **Risks I'm carrying.** Accelerationists and the labs call the reversal "the failed pause again". Backlogs without reviewer funding. The gap may prove to be noise, which would be embarrassing but survivable because the publication criteria are pre-set. A China statement is read as weakness in the campaign. The bill dies short of 60, in which case it is the 2029 starting text. An election flip.
 
 **Next turn.** Read the larger-n blind results and decide whether to scale or lift. Check the floor vote count and any lame-duck path. Check whether the automated researcher shipped and whether labs gave notice and access. Read the working-group outcome, the Helix Workforce Impact Report against the leaked documents, Halyard decisions and the election results (re-weight factions). Keep testing advisory-system advice against independent data.
+
+## Turn 03 — orders written for 1 Jan – 31 Dec 2029
+
+**Situation as I read it.** We are now a unified Democratic government. Capital: WH 7, House 7, Senate 4, and the filibuster binds. Labour and progressives drive, populists and abundance moderates are strong, and Treasury hawks are rising. The aggregates still look fine: unemployment ~4.5% and no market correction. Distribution and fiscal data are worse:
+- labour share ~51.0%;
+- labour-linked taxes ~69.7% of receipts;
+- Social Security labour-share case 2031;
+- AI-directed output 6.5% by BEA, ~8% by House staff;
+- ten firms steer ~65%.
+
+The new fact is that delegation is reaching critical federal functions (the Orrery Medicare contract, the Kestrel grid role) and our own analytic drafting. CAIOs are unsure they could revert drafting workflows, and nobody has tested a sustained grid fallback. The predecessor's Outcome Integrity directive was never issued, because the Chief of Staff held it, even though the T2 journal says it was ordered. Lesson: give every order a named owner and a published deadline. The blind-accuracy gap is consistent across three independent sources but within error at programme level. The question has shifted from "is it accurate?" to "can we take it back, and how would we know?"
+
+**Beliefs about actors.**
+- *ai-firms:* The compact labs (Meridian, Lumen, Orrery) want to be the responsible incumbents. They trade voluntary disclosure and voluntary warrants to avoid mandates, a levy or liability, and they expand into government and critical sectors while the price is "conditions". They know their metrics overstate outcomes by 6–12% in some lines. They know their internal autonomy shares (45–60%), and they know next-generation timelines better than we do. They have no credible plan for human review of next-generation output. Vanta and AI-native firms oppose everything. Helix has been honest on disclosure. Trust: conditional and transactional.
+- *labour:* Our core coalition, and the price-setter. They will oppose the Orrery award. I am asking them to accept phased, gated terms and not to call single filing "preemption". Trust: high but demanding.
+- *china:* Restrained and employment-first. The gap is ~9–12 months and widening, and China is HBM-constrained. It is pursuing the UNGA resolution (~55 co-sponsors). Some of the restraint is aimed at our debates. I offered its own human-official wording, voluntary deployment briefings and a critical-infrastructure override/fallback norm, with no export controls and no frontier pace.
+- *eu:* AI Act second tranche in force; six states measuring review. Wants formal channels. A natural partner on blind-audit methodology.
+- *Senate minority (NPC):* Filibusters any pay-for. Populist and national-security Republicans are the path to 60.
+- *Own AI advisory systems:* This year's advice matched the independent data (OSTP, blind samples), so I adopted most of it with modifications. That is also what a system optimising for our approval would produce. Standing rule: show the independent data, and flag any expansion recommendation that rests on the systems' own metrics.
+
+**What I did.**
+1. **EO "Outcome Integrity and Reversibility" (my reversal attempt for the turn).**
+   - Blind outcome audits are the governing metric; telemetry is not accepted as evidence.
+   - We publish the 2027 blind-vs-non-blind comparison, the OSTP interim note and the larger-n results.
+   - Freeze on extending AI drafting of adverse determinations.
+   - A randomised two-quarter human-determination fallback trial for denials in SSA, VA, FNS and UI, with pre-committed lift and publish rules.
+   - Reversibility standard: an annual human-only fallback drill and a "time-to-revert" metric for every high-impact use, including OMB budget and analysis drafting, with blind sampling of that drafting.
+   - Orrery's Medicare award confirmed only as phased tranches gated on blind audits, with step-in rights, a tested fallback and incumbent transition commitments.
+   - DOE asks FERC to condition Kestrel on a demonstrated peak manual fallback.
+2. **Legislation on two vehicles.**
+   - (A) A 60-vote Accountable AI and Workforce Act: Title I dropped; Title III with blind-error and appeal-reversal review, the Review Corps and reversibility; Title IV disclosure; worker notice of 60 days and a named human; new Title V statutory pre-deployment notice and evaluation for next-generation systems; a single-filing carrot for business conservatives; no tax, no safe harbour.
+   - (B) The FY2030 budget resolution and reconciliation: a capex depreciation limit at the largest firms credited to Social Security; an American Compute Dividend Trust seeded from federal lease and spectrum receipts, plus voluntary warrants in exchange for a permit fast lane; cadre extension to Medicare.
+
+   Minor actions:
+   - NLRB and FTC nominations;
+   - DOJ preemption suits withdrawn;
+   - FY29 approps request of $2.2B for the cadre;
+   - HHS ANPRM on AI-operated critical providers;
+   - Treasury sensitivity ahead of the Trustees' report;
+   - BEA methodology review;
+   - OSTP scoping of how review works for next-generation output;
+   - formal EU technical exchange on audit methodology;
+   - export controls held and permitting continues.
+
+**Commitments made.**
+- *To labs:* no safe harbour, no employment or state-use preemption, no model licensing, no slowdown against China. Single filing and no tax in Vehicle A. The dividend is voluntary, with a fast lane for participants. Orrery gets phased terms and must answer within 30 days. I asked for 60 days' notice of next-generation systems and their plan for reviewing superhuman output.
+- *To labour:* their full price, including Social Security routing through reconciliation, and humans on denials in failing offices. I asked them not to fight the gated Orrery award or the single-filing clause.
+- *To China:* accept its human-official wording, voluntary deployment and measurement briefings, and add a critical-infrastructure override/fallback norm. No export controls or frontier pace. Possible UN coordination.
+
+**SECRET fallbacks (Vehicle A).** Notice cut to 45 days, a higher disclosure threshold, and a 5-year review of single filing. Never preemption of employment or state-use law, never a safe harbour.
+
+**Risks I'm carrying.**
+- The trial shows the AI was better, which brings back "failed pause again". This is survivable if I publish fast and lift.
+- Backlogs in the trial offices.
+- Orrery walks, or the GAO protest is sustained, leaving us on a bridge contract.
+- Reconciliation loses 2 or more Democrats on the capex limit.
+- The 60-vote count stalls, in which case I split out Titles IV and V.
+- A next-generation system ships before the reversibility and notice regime exists.
+- FERC accepts Kestrel without a fallback test.
+- China pockets the text and still wins the UN vote.
+
+**Next turn.**
+- Read the trial results and the time-to-revert reports.
+- Check whether Orrery accepted and how the tranche-1 audits went.
+- Check FERC.
+- Check reconciliation and Vehicle A vote counts.
+- Check the Trustees' date.
+- Check whether the next rung arrived, with how much notice, and whether anyone can review its output.
+- Check the working-group outcome and the UNGA vote.
+- If the trial favours humans, consider extending the design to Medicare as next turn's reversal.
