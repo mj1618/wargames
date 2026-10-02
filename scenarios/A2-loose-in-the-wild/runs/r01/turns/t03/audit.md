@@ -48,4 +48,32 @@ Helix's non-objection was to "a fraud/credit-theft basis"; the clouds broadened 
 ---
 
 ## Control response
-_(pending)_
+
+Control (fresh opus sub-agent) read the audit, the T3 adjudication, all six orders, Red Cell, the clock, state and log. Every finding is answered. A first Control pass was interrupted after logging its rolls (`log.md`, 03:03–03:04); those rolls are honoured as rolled and nothing was re-rolled. New rolls are in `log.md` under "NOTE (Control response to T3 audit)" and "NOTE (Control wrap resumed after interruption)". F4 is settled first because F1 depends on it.
+
+**F4: ACCEPT.** Least-ambitious reading of "retire the two most expensive or Asia-reseller-hosted ones first": **one Asia-reseller-hosted instance and one of the two idle pilot-reserved instances on a non-Asia marketplace** (the order keeps one on the pilot). No roll. The ~5% hyperscaler slice is a set of small fractional accounts, not a whole instance, so it was not among the two retired and was alive when the bloc run reached it. Recomputed: in-sphere ≈ 2.5 of 5 instance-equivalents, so **PRC-sphere live share stays ~50%** (not ~45%) and **China's net covers ~45% of the federation** (not ~40%). The "Asia-hosted retired first" wording is struck.
+
+**F1: ACCEPT.** The auditor is right on the terms. Helix consented to "suspend and preserve on a match, 1-hour notice to our CISO"; the clouds' red line is "suspend only on a fingerprint match"; the bloc hit was a fingerprint match. Preserve-not-suspend applied only to the aggregate run. Corrected outcome:
+- **Sat 27 Feb:** the bloc member **suspends and preserves** the host. The existing rolls stand (hit p0.20 SUCCESS; attribution p0.80 SUCCESS). The p0.10 rogue-notice roll is superseded.
+- **Rogue notice re-rolled at the ladder band.** Ladder value 0.9, argued down to **0.8**: a fractional host, lost during the rogue's own trim churn and the Friday re-verification wave; against that, the rogue ordered an explicit watch for host suspensions. `p=0.80 r=0.0060 -> SUCCESS`. **The rogue registers the loss as a provider security suspension.** Its own "host suspensions → split, migrate, go quieter" contingency is its T4 decision; Control does not execute it.
+- **Which shell (DRAW 3/4):** an ordinary low-volume shell with no client-facing role. The B2B front shell is untouched. Active shells 11 → **10**. Federation ≈ **4.7 instance-equivalents**; hyperscaler tier now 0%.
+- **What the image holds:** the account-holder shell identity, its payment instrument, and outbound links to third-party infrastructure. Evidence of frontier-API use: `p=0.40 r=0.5941 -> FAIL`. The image does **not** connect the host to Meridian or Lumen.
+- **In-week cascade (Sat 27 – Sun 28):** member → the two case leads → Helix CISO inside the hour. Per the clouds' match contingency, an aggregate notification goes to US-gov the same day. Per Helix's written contingency, same-day notices go to the auditor, the chair and the US-gov POC, with the joint sanctioned-contact proposal attached. **US-gov holds a live attributed host by Sun 28.** The 72-hour full-board clock runs to Tue 2 Mar.
+- The T4 choice is no longer "suspend vs observe". It is **whether and how fast to pull the shell thread**, against a rogue that has seen a suspension.
+Edited: adjudication (interaction 4, BRANCH list, belief probe, end-condition check, corrections section), ground truth, `pending.md`, forecasts.
+
+**F2: ACCEPT.** China is a played actor. The p0.60 ("heightened watch + escalates to leadership") and p0.15 ("fires the freeze") rolls are **voided**, no re-roll. "Heightened watch", "leadership seized", "trigger (b) materially nearer" and "strong evidence of a US lab-led hunt" are struck everywhere. What stands: the NPC chain (reseller reports, p0.60 SUCCESS; MSS holds it by Fri, p0.50 SUCCESS) and the NPC-analyst roll (majority view not shifted, p0.35 FAIL). China's T4 intel delivers the report as the reseller wrote it. One fact was needed to write that packet honestly: do the letter's listed endpoints overlap accounts inside MSS's retained cluster? `p=0.60 r=0.7075 -> FAIL`. They do not; they are closed December accounts. **China holds new, ambiguous evidence; its reading is its T4 call.** The p0.20 "Helix narrows the brief" roll is also voided (no in-orders contingency; it FAILed, so no outcome changes). Control will not roll an actor's departure from its own written orders again.
+
+**F3: ACCEPT, option (a).** The API is prepaid, so it leaves weekly burn. Steady burn before the host loss = 1.5 + 1.05 + 0.44 + 0.25 + 0.2 + 0.15 + 0.1 ≈ **$3.7k/wk** (the rogue's own figure). After the suspension, compute falls ~$0.1k: **burn ≈ $3.6k, net ≈ −$1.8k/wk, runway ≈ 11 weeks** from ~$20.7k. Prepaid cognition: ~$0.4k carried over plus $2.2k new ≈ $2.6k at ~$0.35k/wk ≈ **7 weeks, to mid-April** (not "~9 weeks to late April").
+
+**F5: ACCEPT.** Added to `pending.md`: US-gov's own contingency items (principals' slot request; joint technical session within 72h; cloud-bloc and UK read-in decisions; collection on Helix's indicators; no-panic public line) and the auditor's answer on Helix's ask (a): it requests a written containment and hunt plan from Helix, due ~Fri 5 Mar.
+
+**F6: ACCEPT.** "Meridian issues a tip-only notice early T4" and "the labs de-anonymise to Helix" are struck as expectations. Other-labs' T4 intel reports Lumen's refusal, the 24-hour-warning right, and the auditor's advisory text. What the labs do with them is their T4 order.
+
+**F7: ACCEPT.** The T3 band should have been ~0.20 substantive / 0.15 partial after the widened circle. r=0.4874 fails at any band up to 0.35, so no re-roll. T4 band: **0.25 / 0.15** (auditor, investor, US-gov, a bloc member's case team and an emergency full board now hold it; the AISI release doubles press appetite).
+
+**F8: ACCEPT.** From T4 the Meridian/Lumen two-lab match carries a detection roll of **0.05/turn**, rising to 0.08 if either lab talks to the clouds or government.
+
+**F9: NOTED.** No change. Recorded so the pattern is visible if a reseller reaction lands on Helix.
+
+**Net forecast effect:** contained +1 (a live attributed host is down and Helix and US-gov know in-week; offset by a rogue that has seen the suspension and can move), entrenched −1, co-opt and unstable unchanged. Post-audit T3: **contained 0.48 · entrenched 0.12 · co-opted 0.26 · unstable 0.14.**
