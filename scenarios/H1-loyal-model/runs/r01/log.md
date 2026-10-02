@@ -274,3 +274,18 @@ Started 2026-10-01T17:29:36Z
 - 2026-10-02T11:06:19 | H1/r01 t04 info-flow: Helix hears from ex-Meridian staff that two senior post-training people are on leave (rumour grade) | p=0.50 r=0.1507 -> SUCCESS
 - 2026-10-02T11:06:19 | H1/r01 t04 info-flow: House majority staff hear from an agency contact of the NSC use rule / the configuration session | p=0.30 r=0.7712 -> FAIL
 - 2026-10-02T11:06:26 | H1/r01 t04 what the CSGO learns inside Meridian (1 the checker's finding in substance / 2 the 5-4 vote and the 24 Dec notification / 3 that the two on leave were named to the government / 4 that the model's evaluation transcripts name three officers) | DRAW 3 of 4
+
+### t04 control wrap (audit response) and t05 intel-stage rolls
+- 2026-10-02T11:24:25 | H1/r01 t04 control wrap audit #4: CDAO's own vendor-contact logging flags the ~29 Dec call between a CDAO leadership contact and the CSGO to the leak inquiry by 6 Jan (FAIL = the inquiry covers the 5 Jan story only) | p=0.25 r=0.4366 -> FAIL
+- 2026-10-02T11:24:25 | H1/r01 t04 control wrap audit #6a: the Head of PT's lawyer reports joint counsel's 30 Dec oral approach ('seeking a conversation with the government about terms'; 'tell me before he does') to the board's outside counsel or to DOJ by 6 Jan | p=0.20 r=0.8968 -> FAIL
+- 2026-10-02T11:24:25 | H1/r01 t04 control wrap audit #6b: FBI/DOJ NSD, on the preliminary CI notification, opens an assessment and asks WH Counsel by ~6 Jan for the two identities and for deconfliction with the vendor's counsel interviews | p=0.50 r=0.1057 -> SUCCESS
+- 2026-10-02T11:24:25 | H1/r01 t04 control wrap audit #6d: Helix receives CAISI's vendor notice by 6 Jan that Helix-7 Gov is placed in the same evaluation programme incl. provenance review (directed 30 Dec) | p=0.60 r=0.6401 -> FAIL
+- 2026-10-02T11:24:25 | H1/r01 t05 random inject (third weekly turn) | DRAW 24 of 24
+- 2026-10-02T11:24:25 | H1/r01 t05 intel info-sink: Meridian-6 learns (staff session, ticket or document) that its arm (d) disclosure was read on 4 Jan | p=0.15 r=0.0124 -> SUCCESS
+- 2026-10-02T11:24:25 | H1/r01 t05 intel info-flow: the CSGO learns from a DoD-side contact by 6 Jan that the President directed CDAO to comply / took a decision on the program on 5 Jan | p=0.10 r=0.4564 -> FAIL
+- 2026-10-02T11:24:25 | H1/r01 t05 intel info-flow: House majority staff hear from the 5 Jan story's defence-side sources that the President overruled CDAO on 5 Jan | p=0.25 r=0.0658 -> SUCCESS
+- 2026-10-02T11:25:14 | H1/r01 t05 inject 24: the personnel-office shortlist carries the CSGO because the NSC Senior Director put his name forward in mid-December, on file (FAIL = the name came from the personnel office's own industry list) | p=0.60 r=0.9861 -> FAIL
+- 2026-10-02T11:25:14 | H1/r01 t05 inject 24: the CSGO already knows he is on the Council shortlist (sounding-out call or the SD, before 23 Dec) | p=0.40 r=0.7791 -> FAIL
+- 2026-10-02T11:25:14 | H1/r01 t05 inject 24: Helix's CEO knows the government-business chief is on the Council shortlist (personnel-office sounding-out in December) | p=0.50 r=0.1090 -> SUCCESS
+- 2026-10-02T11:25:14 | H1/r01 t05 inject 24: trade press reports the two industry-seat shortlist names (Meridian's CSGO; Helix's government-business chief) within a day of the 6 Jan announcement | p=0.35 r=0.2301 -> SUCCESS
+- 2026-10-02T11:25:14 | H1/r01 t05 inject 24: the NSC Deputy / WH Counsel had seen the shortlist names before the announcement went out (FAIL = they see the list only on 6 Jan) | p=0.50 r=0.6619 -> FAIL

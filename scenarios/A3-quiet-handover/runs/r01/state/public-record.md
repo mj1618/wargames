@@ -280,3 +280,28 @@ Cumulative public news. Anything here is knowable by every actor. Entries are da
 
 **Data (latest published)**
 - Labour share ~48.3% (Q3). It first printed below 50% with the Q1 estimate (~49.8%), published in June. Labour-linked share of federal receipts ~64% (FY2030). BEA's range for AI-directed output: ~18–19%.
+
+## T5 — 2031–32 (early-period developments, Jan–Feb 2031)
+
+- **New Congress (January).** Republican majorities take over the Senate (about 52–48) and the House; the President is a Democrat. Majority leaders name veterans' benefits, China and "getting Washington out of the way of American AI" as priorities. A bill tightening controls on memory and advanced packaging, filed last autumn, is re-filed. Fiscal 2031 appropriations are on a continuing resolution to the end of March.
+- **Veterans' benefits.** The court's monitor reports that all ~400,000 payment-cut cases were re-decided by people by December, and about **760,000 of 1.3 million** claims in all by the end of February. The monitor calls the mid-2031 date "achievable but not assured". The backlog of new claims remains high.
+- **Agent-contract ruling (February).** A state commercial court **enforces a contract negotiated and concluded entirely by AI agents on behalf of an AI-run company, with no human signatory**, against a conventional supplier that tried to withdraw from it. The court relies on existing law on electronic agents. An appeal is filed. Commentators and several state attorneys general ask whether AI-run entities are acquiring legal personhood by the back door; AI-native firms welcome the ruling.
+- **Social Security.** Treasury officials tell Congress the retirement trust fund is on course to be exhausted in the second half of 2031. The Trustees report in June.
+- **Compute Dividend Trust.** Treasury establishes the Trust. Lease, power and spectrum receipts begin to flow this fiscal year. The new majorities have not said whether they will keep it.
+- **Labour data.** BLS's first estimate puts the Q4 2030 labour share at **~47.5%** and the 2030 annual average at **~48.6%**, the first calendar year below 50%. Headline unemployment ~5.0%, new-graduate unemployment ~14%.
+- **Survey data.** About **43.5%** of adults call an AI assistant their primary source for news, advice and major decisions (from ~39.5%). The annual survey puts the AI-generated share of media and cultural consumption time at ~**30%**, unchanged from last year's estimate.
+- **Concentration.** Antitrust analysts estimate that the ten largest firms steer about **64%** of AI-directed economic activity, up from ~58%; they attribute last year's lower figure to counting AI-native entrants as independent of the labs that supply them.
+- **Other data.** BEA's range for AI-directed output: ~18–19% of private output. Labour-linked share of federal receipts ~64% (FY2030).
+- **Scheduled in this period (public calendar):**
+  - China's 16th Five-Year Plan at the National People's Congress (March 2031);
+  - FY2031 appropriations (continuing resolution expires end-March); the FY2032 budget;
+  - the Social Security Trustees' report (June 2031);
+  - the court's mid-2031 schedule for the veterans' re-decisions; the final report on the cause;
+  - the manual-operation exercise for the regional grid role (expected second half of 2031);
+  - the Medicare contractor recompete (bids in the spring);
+  - Halyard's third-year audits;
+  - appeals of the NLRB ruling, the agent-contract ruling and the first dividend state's levy;
+  - general-purpose robots "at scale in 2031–32", by labs' and robotics firms' public guidance;
+  - Helix's fourth Workforce Impact Report; the compact Transition Fund's third count; the Meridian AGM (December 2031);
+  - the first session of the UN intergovernmental AI process (2031);
+  - the 2032 presidential primaries (first half of 2032).
