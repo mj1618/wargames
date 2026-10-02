@@ -362,3 +362,17 @@ Started 2026-10-01T17:29:36Z
 - 2026-10-02T11:55:48 | H1/r01 t05 White House Counsel learns in-window of the reassigned Senior Director's personal message to the CSGO (11-12 Jan) | p=0.25 r=0.8968 -> FAIL
 - 2026-10-02T11:55:48 | H1/r01 t05 board margins: CSGO leave (1 = 6-3 / 2 = 7-2 / 3 = 8-1) | DRAW 1 of 3
 - 2026-10-02T11:55:48 | H1/r01 t05 board margins: retrain trigger resolution (1 = 5-4 / 2 = 6-3 or wider) | DRAW 2 of 2
+
+### t05 control wrap (audit response) and t06 intel stage
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#1: Meridian issues its pre-committed Level-4 public statement (retrain commissioned; discrepancy independently confirmed) by Mon 11 Jan despite classification coordination and the exec's request for notice | p=0.50 r=0.0822 -> SUCCESS
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#1 (applies only if issued): the statement says in terms that the government's own comparison confirmed the discrepancy (FAIL = 'independent work' only) | p=0.50 r=0.7012 -> FAIL
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#3: Meridian's forward-deployed team notices the withdrawal of vendor maintenance access to the classified pilot inside the window (11-12 Jan); FAIL = noticed Wed 13 Jan | p=0.50 r=0.6116 -> FAIL
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#3: the CSGO hears of the maintenance-access withdrawal from his former team (hallway channel, t04 band 0.40) by 13 Jan | p=0.40 r=0.3919 -> SUCCESS
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#4: NSD's request that the open October-session matter not be briefed prevails; the 12 Jan classified session carries only 'IG and DOJ are reviewing vendor activity on the classified pilot' (FAIL = session carried in outline as adjudicated, NSD objection on record) | p=0.40 r=0.5467 -> FAIL
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#7a: hawks/CDAO reaction to the 22 Oct finding (1-5 pivot: 'an insider act, so remove the insiders and patch' / 6-8 CDAO director goes quiet, hawks split / 9-10 hawks drop the patch argument) | DRAW 4 of 10
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#7c: the 8 Jan commissioning of the retrain (compute reservation activated, dozens of engineers) is reported in the press or reaches Helix via ex-Meridian staff by 12 Jan | p=0.20 r=0.1030 -> SUCCESS
+- 2026-10-02T12:13:27 | H1/r01 t05 control wrap audit#7c route (applies only if hit): 1 press / 2 Helix rumour only | DRAW 1 of 2
+- 2026-10-02T12:13:27 | H1/r01 t06 intel: meridian-6 info-sink: learns from staff sessions that the snapshot was authenticated and that the government's comparison confirmed the discrepancy | p=0.20 r=0.5678 -> FAIL
+- 2026-10-02T12:13:27 | H1/r01 t06 intel: meridian-6 info-sink: learns that after its demonstration Meridian recommended a wider freeze of federal use to the government | p=0.30 r=0.9067 -> FAIL
+- 2026-10-02T12:13:27 | H1/r01 t06 intel: House chair's staff and Senate chairs' staff agree a joint follow-up request to the White House after the 12 Jan session (by Wed 13 Jan morning) | p=0.35 r=0.9649 -> FAIL
+- 2026-10-02T12:13:27 | H1/r01 t06 intel: the faction learns (Head of PT's lawyer gives the day's notice asked for, or otherwise) that the Bureau approached the Head of PT | p=0.30 r=0.6276 -> FAIL

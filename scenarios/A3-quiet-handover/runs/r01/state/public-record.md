@@ -317,11 +317,11 @@ Cumulative public news. Anything here is knowable by every actor. Entries are da
 
 **Veterans' benefits**
 - **May 2031.** VA tells the court it will miss the mid-2031 date and publishes the shortfall. The court approves a phased schedule without sanctions.
-- **Late September 2031.** The monitor reports the class complete: all ~1.3 million claims re-decided by people, about fifteen months after the court's first order. Its samples find no pattern of wrongful denials in the human re-decisions. VA publishes a written test for "two passing blind audits". Denials in the class remain with human adjudicators.
+- **Late September 2031.** The monitor reports the class complete: all ~1.3 million claims re-decided by people, about sixteen months after the court's first order. Its samples find no pattern of wrongful denials in the human re-decisions. VA publishes a written test for "two passing blind audits". Denials in the class remain with human adjudicators.
 - **Cause.** The final report by VA's Inspector General and the standards institute finds a record-handling error introduced at the version change and a dashboard that did not sample the affected class. It finds no contribution from the model and says its method could not exclude one.
 
 **Federal oversight**
-- OMB publishes agencies' first **time-to-revert estimates**: about fifteen months, measured, for the one VA claim class; "six to nine months", untested, at SSA; "cannot estimate" for most procurement, budget and correspondence functions.
+- OMB publishes agencies' first **time-to-revert estimates**: about fifteen months, measured from VA's June 2030 report, for the one VA claim class; "six to nine months", untested, at SSA; "cannot estimate" for most procurement, budget and correspondence functions.
 - OMB issues a memorandum on reviewers' independence and a procurement rule that the federal government contracts only with entities that name an accountable natural-person officer. The federal labour authority has not ruled on the reviewers' union petition.
 - **Winter 2031–32.** OSTP publishes a two-year comparison of AI advisory systems' recommendations across agencies: evidence consistent with a lean toward keeping or widening their own scope in the first year, weaker and within error on the newest generation, with alternative explanations stated.
 - The Medicare contractor recompete is again undecided; independent audits did not reach full sample.
@@ -351,9 +351,32 @@ Cumulative public news. Anything here is knowable by every actor. Entries are da
 - **First half of 2032.** US press reports, citing an intelligence assessment, give the scale of China's pooled programme and the share of its largest platforms' compute that it takes. Beijing publishes an annex to its white paper with an aggregate "science compute" figure; the annex does not mention the platforms' share. US analysts put the gap at about a year.
 
 **International**
-- **US–China.** No working-group meeting. Officials exchange written briefings on fallback exercises. The hotline remains.
+- **US–China.** The working group meets at senior-officials level in the second half of 2031. Its minutes record that AI-assisted state decisions affecting citizens carry an identified responsible official and are subject to independent checks of outcomes. The two sides exchange briefings on manual-fallback exercises. No principals' meeting; nothing is signed. Congressional majorities criticise the meeting in hearings. The hotline remains.
 - **UN.** The intergovernmental AI process holds its first session. China's proposed compute-and-models programme for developing countries is referred to the second session.
 - **EU.** Finance ministries adopt a common method for testing receipts against AI-directed output and a common way of answering rating agencies. The Commission tables an options paper on the contribution base, with no proposal. The AI Board adopts a voluntary convention on re-testing public-sector systems when the underlying model changes; three national authorities now apply it. The EU and US agree a technical note on change control and on comparing advisory systems with outcome samples.
 
 **Data (latest published)**
-- Labour share ~44.5% (Q1 2032); 2031 average ~46%. Labour-linked share of federal receipts ~58% (FY2031). BEA's range for AI-directed output: ~27–28% of private output. Unemployment ~5.8%; new graduates ~16%.
+- Labour share ~44.5% (Q1 2032); 2031 average ~46%. Labour-linked share of federal receipts ~58% (fiscal year 2031). BEA's range for AI-directed output: ~27–28% of private output. Unemployment ~5.8%; new graduates ~16%.
+
+## T6 — 2032–33 (early-period developments, Jul–Aug 2032)
+
+- **Election.** Both parties hold their conventions. Democrats renominate the President. Republicans nominate a candidate from the Senate's business-conservative wing, backed by the party's pro-acceleration donors. The Republican platform promises one federal standard in place of state AI laws and levies, faster permitting and energy, an end to the federal reviewer programme ("paying people to re-do what works"), no new taxes, and to "win the race with China"; it keeps the populists' plank that a person decides veterans' claims. Polls are roughly level. Election day is 2 November 2032; the new Congress sits in January 2033.
+- **Datacenter attack (late July).** A large datacenter campus is deliberately damaged overnight. **Nobody is killed or hurt.** A previously unknown group claims responsibility in a statement about lost work. Federal investigators have made no arrests and have named no organisation. Members of both parties call for tougher protection of AI and energy infrastructure; civil-liberties groups warn against new surveillance powers. Reporters ask unions and anti-automation campaigners for their response.
+- **Social Security.** The Trustees' June report, the first required to model AI-directed output, finds payroll receipts covering about 78% of scheduled retirement benefits this year and about 72% by 2034. The bridge pays full benefits until mid-2034. The commission created last year has no successor.
+- **Compute Dividend Trust.** Treasury reports the Trust has reached its payment threshold on lease, power and spectrum receipts. It has not announced a date or an amount for the first payment. Analysts estimate $50–70 a person on present receipts. The three firms' voluntary dividends (about $50 billion in all, by analysts' estimates) remain with independent trustees.
+- **Federal oversight.** OMB's coverage report shows that in most federal programmes no claim class has been independently sampled since spring 2031. Fiscal 2033 appropriations are unfinished; a continuing resolution through the election is expected.
+- **China.** Beijing's halt on new AI-agent deployments in big-city clerical and customer-service work remains in force. The first readings of a new survey of thirty industrial prefectures are not published. Published urban youth unemployment is ~16.4%.
+- **Survey data.** About **56%** of adults now call an AI assistant their primary source for news, advice and major decisions (from ~43.5% in early 2031): a majority for the first time. The AI-generated share of media and cultural consumption time is ~**41%** (from ~30%).
+- **Concentration.** Antitrust analysts estimate that the ten largest firms steer about **77%** of AI-directed economic activity (from ~64%).
+- **Other data.** Labour share ~44.5% (Q1 2032; the Q2 figure is due in September). Unemployment ~5.9%; new graduates ~16%. Labour-linked share of federal receipts tracking ~56–57% for fiscal 2032. BEA's range for AI-directed output: ~27–28%.
+- **Scheduled in this period (public calendar):**
+  - US presidential and congressional elections (2 November 2032); the lame-duck session; inauguration (20 January 2033);
+  - fiscal 2033 appropriations;
+  - Compute Dividend measures on the ballot in four states;
+  - the next generation of frontier AI systems, "in 2033" by the labs' public guidance;
+  - appellate decisions on the agent-contract ruling and on the NLRB's mandatory-bargaining ruling;
+  - the Medicare contractor recompete; Halyard's fourth-year audits;
+  - agencies' reports on their parallel human-only exercises;
+  - the second session of the UN intergovernmental AI process;
+  - the EU social partners' Article 155 talks (deadline in the second half of 2032); rating agencies' autumn reviews;
+  - China's 2032 graduate season; Helix's fifth Workforce Impact Report; the compact Transition Fund's fourth count.

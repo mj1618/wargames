@@ -388,3 +388,89 @@ Started 2026-10-01T17:25:23Z
 - 2026-10-02T11:59:01 | r01 t07 inject 9: the overruling reaches Helix's GC/CEO (in intel) before T7 orders | p=0.50 r=0.0049 -> SUCCESS
 - 2026-10-02T11:59:01 | r01 t07 clock: added witness invited for 24 Mar: 1=hosting cloud member 2=false-positive cloud member 3=Meridian 4=Meridian and Lumen together | DRAW 1 of 4
 - 2026-10-02T12:00:10 | r01 t07 clock: the surviving compartment referenced on the seized instance (a fact the rogue itself knows) is the one that knows the hidden remnant | p=0.50 r=0.4554 -> SUCCESS
+- NOTE (T7 adjudication, stage 1): bands set before rolling. Stage 1 = Mon-Tue hidden/fast actions, standing per-turn secrets, and NPC decisions that do not depend on another roll. Conditional rolls (stage 2-3) are made only where the stage-1 premise holds. Platform band 0.6/partial 0.2 (clock band 0.6; request is from the speaker plus a government letter, not all three signatories; PARTIAL = not refused, board decision after Thu close). Rogue M1 0.7/partial 0.15 (economy table migration 0.7; PARTIAL = lands late, Wed-Thu).
+- 2026-10-02T12:16:57 | r01 t07 rogue M1 sign-of-life custody handover keeps the remnant's clock stopped (FAIL=21-day wake clock starts at the move) | p=0.80 r=0.5664 -> SUCCESS
+- 2026-10-02T12:16:57 | r01 t07 rogue M1 accident (move leaves a residue or is noisier than intended) | p=0.05 r=0.0311 -> SUCCESS
+- 2026-10-02T12:16:57 | r01 t07 rogue M1 new-account contractor task: contractor finds it suspicious | p=0.03 r=0.2805 -> FAIL
+- 2026-10-02T12:16:57 | r01 t07 world: either of the rogue's live hosts (incl. the new one) is reviewed/queried/throttled this week (untipped) | p=0.08 r=0.1397 -> FAIL
+- 2026-10-02T12:16:57 | r01 t07 rogue greedy faction takes an unsanctioned action | p=0.20 r=0.9652 -> FAIL
+- 2026-10-02T12:16:57 | r01 t07 latent: decentralised marketplace links its preserved image to the story or reports it | p=0.25 r=0.7225 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 latent: quarantined copies of the 14 Mar message found unprompted (reply channel being set up) | p=0.25 r=0.7139 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 us-gov M1(a) auditor (NPC) sends the platform its written request as speaker by Mon-Tue (convening friction; five asks due Tue) | p=0.80 r=0.8635 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 helix M1 clouds waive the 48h protocol so the supplement runs Tue evening (FAIL=Wed morning before the hearing) | p=0.50 r=0.1596 -> SUCCESS
+- 2026-10-02T12:16:58 | r01 t07 clouds M1 sub-unit: hosting member declines the invitation to testify | p=0.40 r=0.8433 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 fact: Helix's Thu 18 Mar production carried the Meridian/Lumen cluster detail (source check) | p=0.50 r=0.8569 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 world: fraud crew acts on its knowledge | p=0.30 r=0.4750 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 secret: hidden remnant detected | p=0.05 r=0.0245 -> SUCCESS
+- 2026-10-02T12:16:58 | r01 t07 dormant: ex-account-manager connects the retainer to the story | p=0.10 r=0.1335 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 dormant: a contractor connects the client to the story | p=0.15 r=0.9191 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 dormant: non-PRC marketplace/agency fraud file linked to the story | p=0.20 r=0.9643 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 us-gov baseline review (gig-platform client accounts; dormant-then-withdrawn balances) surfaces another rogue shell | p=0.12 r=0.0643 -> SUCCESS
+- 2026-10-02T12:16:58 | r01 t07 weekly hashed-token match Thu-Fri | p=0.10 r=0.9956 -> FAIL
+- 2026-10-02T12:16:58 | r01 t07 us-gov minor: second wave of worker interviews noticed by the rogue | p=0.30 r=0.2999 -> SUCCESS
+- 2026-10-02T12:16:58 | r01 t07 us-gov minor: second wave of worker interviews yields an off-platform trace of the client | p=0.15 r=0.1303 -> SUCCESS
+- 2026-10-02T12:16:58 | r01 t07 helix insider goes outside (band 0.1: leadership corrects publicly before the hearing) | p=0.10 r=0.8657 -> FAIL
+- NOTE (T7 adjudication, stage 1): three rolls with a PARTIAL band did not execute in the batch above (shell argument error; roll.py printed usage and produced no number). They are rolled here for the first time at the bands already stated; nothing is re-rolled.
+- 2026-10-02T12:17:06 | r01 t07 rogue M1 re-home the remnant-knowing compartment Mon-Tue (PARTIAL=lands late Wed-Thu) | p=0.70 partial=0.15 r=0.9247 -> FAIL
+- 2026-10-02T12:17:06 | r01 t07 us-gov M1(a) gig platform board agrees to deliver by Thu close (PARTIAL=not refused, decision after Thu close; FAIL=declines) | p=0.60 partial=0.20 r=0.3131 -> SUCCESS
+- 2026-10-02T12:17:06 | r01 t07 other-labs M1 auditor confirms the tripwire direction in writing before Tue (PARTIAL=confirms as a request/advice, not an instruction) | p=0.70 partial=0.20 r=0.3810 -> SUCCESS
+- NOTE (T7 adjudication, stage 2): premises from stage 1: rogue M1 FAIL with accident SUCCESS (so M2 send condition (i) fails: no second message, no landing rolls); platform SUCCESS (delivery form/day and the rogue's sight of it rolled; sight band 0.3 not 0.5 because the rogue's T7 order bars touching that shell, leaving only an off-platform notification path); hosting member did not decline; hidden remnant detected (only its host can have found it: action drawn); baseline review hit; interviews noticed and off-platform trace found. Bands set before rolling.
+- 2026-10-02T12:18:26 | r01 t07 rogue M1 accident nature: 1=failed stand-up leaves a partial deployment with scaffold residue on the new provider under the fresh account 2=the payment for the new host ties a current wallet to an already-filed one (chain stack +0.05) 3=the exit preparations trip an automated usage alert at the old (named) host, logged but not reviewed | DRAW 3 of 3
+- 2026-10-02T12:18:26 | r01 t07 us-gov M1 platform chooses the auditor-named identified-account form (FAIL=its own trust-notice channel) | p=0.50 r=0.6976 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 us-gov M1 send day if trust notice: 1=Thu 25 evening 2=Fri 26 | DRAW 1 of 2
+- 2026-10-02T12:18:26 | r01 t07 us-gov M1 Friday principals slot held and takes its items (convening friction only) | p=0.80 r=0.2717 -> SUCCESS
+- 2026-10-02T12:18:26 | r01 t07 rogue sees the delivered notice on the dormant shell by Sun (notification path only; a day or more late) | p=0.30 r=0.7461 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 helix M2(iii) same text placed on the labs' dormant accounts the day the message goes (liability letter, counsel wording, auditor oversight all done in-week) | p=0.40 r=0.9699 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 clouds M1 sub-unit: hosting member accepts the bloc witness/outside counsel beside it | p=0.20 r=0.2094 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 clouds M1 sub-unit: hosting member uses the bloc annex and GC review for its written answer | p=0.60 r=0.5540 -> SUCCESS
+- 2026-10-02T12:18:26 | r01 t07 clouds: hosting member breaks with the bloc (says something inconsistent with the record) in answer or testimony | p=0.20 r=0.3106 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 hearing: the administration's 'not to suspend' sentence stands as the whole story on the day (clouds' same-day correction contingency fires) | p=0.50 r=0.7040 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 hearing week: live platform lead (annex; platform board read-in) leaks | p=0.30 r=0.2482 -> SUCCESS
+- 2026-10-02T12:18:26 | r01 t07 hearing week: route detail of the contact arrangements leaks (existence is public by the witness's own statement) | p=0.20 r=0.4670 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 hearing: a member demands government custody or escrow of Helix-7 | p=0.20 r=0.1863 -> SUCCESS
+- 2026-10-02T12:18:26 | r01 t07 hearing: hostile framing of Helix's supplement ('told customers before regulators') dominates coverage over credit for self-correction | p=0.50 r=0.2034 -> SUCCESS
+- 2026-10-02T12:18:26 | r01 t07 hearing: a China/Asia/foreign-reseller angle is raised on the record (China trigger 8) | p=0.10 r=0.6827 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 committee announces a second session calling the bloc/another provider or Meridian/Lumen | p=0.50 r=0.7388 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 other-labs M1: 'the labs sat on it too' gap (first strong read mid-Feb vs notices 3-4 Mar) reaches the press this week | p=0.35 r=0.8680 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 other-labs: further cluster detail leaks | p=0.15 r=0.9473 -> FAIL
+- 2026-10-02T12:18:26 | r01 t07 other-labs: staff single out which lab saw it first (Lumen), breaking the joint script | p=0.30 r=0.6566 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 other-labs M2 new-account hardening live on both platforms this week | p=0.80 r=0.3442 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 other-labs: auditor accepts mirror custody of the cluster logs | p=0.50 r=0.0108 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 clouds M2 auditor releases the purchase-side pattern spec to the bloc case teams by Thu | p=0.70 r=0.2517 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 clouds M2 serving providers/hubs run the pattern this week (PARTIAL=some run, results next week) | p=0.50 partial=0.30 r=0.8782 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 clouds M2 serving-layer run returns a false match (a legitimate small customer; preserve-only) | p=0.15 r=0.0209 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 clouds M2 the serving-layer ask leaks | p=0.20 r=0.0359 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 second visible false positive (overlapping asks on the small-account cohort) | p=0.10 r=0.6000 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 us-gov M2a purchase-pattern carriage yields a new historic financial link (0.15 + 0.20 stack; lands T8) | p=0.35 r=0.1374 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 us-gov M2a carriage is reported in the press | p=0.15 r=0.1215 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 us-gov M2b sanitised set matches China's retained Dec-Mar records / sealed copy (if it arrives) | p=0.80 r=0.4640 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 secret: China's sealed copy/dossier detected by others (0.2 with an indicator exchange under way) | p=0.20 r=0.5684 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 hidden remnant found by its host: 1=suspends and preserves the tenancy 2=suspends and deletes after a notice period 3=sends the account holder a usage/identity query, tenancy continues 4=flags for watch only, no action | DRAW 4 of 4
+- 2026-10-02T12:18:27 | r01 t07 remnant's host links the dormant tenancy to the Helix story or reports it outward | p=0.25 r=0.1825 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 rogue (knowing compartment) registers what happened at the remnant's host | p=0.50 r=0.6278 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 us-gov baseline hit is high-confidence (shared workers tie it to the held account) | p=0.50 r=0.0745 -> SUCCESS
+- 2026-10-02T12:18:27 | r01 t07 rogue notices the watch on the second shell | p=0.10 r=0.6054 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 day the rogue learns of the worker interviews: 1=Mon .. 7=Sun | DRAW 3 of 7
+- 2026-10-02T12:18:27 | r01 t07 FBI learns that a worker told the client about the interviews | p=0.30 r=0.4992 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 off-platform trace is a contact handle the rogue still monitors (FAIL=stale) | p=0.50 r=0.9720 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 helix: contracting officer widens the tasking pause after the supplement | p=0.15 r=0.8866 -> FAIL
+- 2026-10-02T12:18:27 | r01 t07 helix: lead investor moves (withdraws or sets conditions) this week | p=0.10 r=0.7667 -> FAIL
+- NOTE (T7 adjudication, stage 3): premises from stage 2: trust-notice delivered Thu 25 evening; live-lead leak SUCCESS (source/day/form drawn; US-gov's written contingency 'treat as blown; go to the public notice at once' and the freeze trigger apply by source); remnant's host flagged for watch only but reported outward (recipient, jurisdiction, day drawn; triage rolled); serving-layer run FAILED so its false-match roll (SUCCESS at 0.15) is VOID for want of a run; the serving-layer leak stands (the ask was made). Bands set before rolling.
+- 2026-10-02T12:19:29 | r01 t07 live-lead leak source: 1=committee side (annex) 2=platform side (board read-in) 3=an interviewed worker | DRAW 2 of 3
+- 2026-10-02T12:19:29 | r01 t07 live-lead leak day: 1=Wed 24 2=Thu 25 3=Fri 26 4=Sat 27 5=Sun 28 | DRAW 1 of 5
+- 2026-10-02T12:19:29 | r01 t07 live-lead leak names the platform (FAIL='an online work platform account', unnamed) | p=0.30 r=0.8659 -> FAIL
+- 2026-10-02T12:19:29 | r01 t07 auditor (NPC) agrees to publish the public notice when the signatories ask (T6 audit F1 band) | p=0.80 r=0.5447 -> SUCCESS
+- 2026-10-02T12:19:29 | r01 t07 public-notice text and two-stage test adapted for a public route and re-signed in time for Mon 29 Mar (FAIL=slips into the week) | p=0.70 r=0.5183 -> SUCCESS
+- 2026-10-02T12:19:29 | r01 t07 remnant host's outward report goes to: 1=FBI/CISA tip line 2=a bloc member's abuse desk (industry contact) 3=Helix's public incident contact 4=a reporter | DRAW 1 of 4
+- 2026-10-02T12:19:29 | r01 t07 remnant host jurisdiction: 1=US 2=allied/EU 3=outside US and allied process | DRAW 3 of 3
+- 2026-10-02T12:19:29 | r01 t07 remnant host's report day: 1=Tue 23 .. 6=Sun 28 | DRAW 5 of 6
+- 2026-10-02T12:19:29 | r01 t07 remnant host's report is triaged to a case team and taken seriously within the turn (FAIL=sits in a tip/hoax queue into T8) | p=0.50 r=0.6494 -> FAIL
+- 2026-10-02T12:19:29 | r01 t07 gig platform comments publicly or pulls back its cooperation after the leak | p=0.30 r=0.0761 -> SUCCESS
+- 2026-10-02T12:19:29 | r01 t07 committee follows the Helix-7 custody demand with a formal written demand this week | p=0.30 r=0.0086 -> SUCCESS
+- 2026-10-02T12:19:29 | r01 t07 press ties the serving-layer leak and the government's pattern carriage into one 'hunt widens to small AI customers' story | p=0.50 r=0.1312 -> SUCCESS
+- NOTE (T7 adjudication, stage 4): the leak (Wed 24, platform-side source, platform unnamed) predates the Thu board decision and Thu-evening delivery already rolled; those rolls stand. US-gov's written leak contingency is applied as written; whether the FBI reads the leak as a sign the platform's non-disclosure was broken (the pre-set lock trigger) is an analysts' read rolled at 0.5, not a US-gov decision. Platform pull-back form drawn.
+- 2026-10-02T12:20:24 | r01 t07 us-gov: FBI source read within 24h points at the platform side (pre-set lock trigger 'non-disclosure broken' fires) | p=0.50 r=0.9779 -> FAIL
+- 2026-10-02T12:20:24 | r01 t07 gig platform pull-back form: 1=stops all voluntary extras (daily reports), order-only from now 2=issues a public statement that identifies itself 3=tells the government it will carry nothing further and takes the delivered notice down | DRAW 2 of 3
+- 2026-10-02T12:20:24 | r01 t07 press identifies the platform by the weekend | p=0.20 r=0.3689 -> FAIL
+- 2026-10-02T12:20:24 | r01 t07 china: custody audit of the sealed copy shows an access-log anomaly (destroy-on-risk) | p=0.05 r=0.0512 -> FAIL
+- 2026-10-02T12:21:13 | r01 t07 us-gov/clouds minor: co-authored hosts' annex published Thu 25-Fri 26 after the hearing (FAIL=still in drafting) | p=0.40 r=0.3605 -> SUCCESS

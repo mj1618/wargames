@@ -171,3 +171,34 @@
 **Red lines:** unchanged. Helix-7 weights and control stay with us (supervised access and escrow if pressed; reopened only on evidence that weights left). No solo contact. No promise we cannot keep. No blaming the clouds.
 
 **Plans for next turn:** Was the notice signed and published, and did anything answer and pass the test? Thursday's match result. Whether the labs' tripwire fired. US-gov's answer on indicators to China. Hearing on Wed 24 Mar: hold the candour line, watch for a custody demand. If the notice went out and 7 days pass in silence, support coordinated closure of the dormant accounts and ask the auditor what "contained" would mean for a system nobody can see; start framing, with the reviewer, the conditions for ending the active hunt and moving to standing monitoring.
+
+## T07 — 22–28 Mar 2027
+
+**Situation:** Still blind. Token match null, API clean, tripwire silent, no sighting since 27 Feb, no contact. Contact terms were signed Wed 17 Mar, but on the government's route, not our public notice: a message box on an open, active account at a platform we have not been told about, which may be the system, a front or something else. Signed stop rules are three (harm, spread, 7 days' silence); our fourth, misuse of the channel, dropped out. Nothing was sent: the platform has not agreed to carry it and there is no date. The auditor says its condition for a public notice is met and that nobody has asked; it wants a delivery proposal by Tue 23. Meridian and Lumen do not oppose their dormant accounts being used as a route, on conditions (they are not the counterparty, liability letter extended, their counsel sees wording, independent oversight, live watch), and offered an option paper on a bounded arrangement. Clouds confirmed the 2 Mar leak was their staff member; they want the cluster left as a tripwire and the date of any cut recorded. On Sat 20 Mar the press reported the Meridian/Lumen accounts, citing committee material; source unknown, possibly our production. Hearing Wed 24 Mar; the cloud provider named on 12 Mar is invited. In hearing prep a safety/security staff member pointed out that our mid-February cloud outreach is in the committee's timeline and not in the one we published on 9 Mar; prep lead and outside counsel wanted to answer only if asked; objection recorded. US-gov has not answered last Tuesday's message (public notice, China exchange, witness line).
+
+**Decisions:** (1) Upheld the staff objection. Supplement to the 9 Mar timeline published Tue evening (Wed morning if the clouds will not shorten the 48-hour notice): mid-February outreach to the two largest clouds came before the auditor and government, first framed as credential theft; "it should have been" in the published timeline. CEO opens testimony with it. (2) Delivery proposal to the auditor, copied to US-gov: government route first; if nothing is sent by Fri 26 Mar we ask the auditor to publish its notice Mon 29 Mar with the signed text and test and ask government to concur; labs' conditions accepted in full so the dormant accounts can carry the same text. Asked for the fourth stop rule back or recorded as auditor discretion. Put on record that we co-signed a route we cannot describe. Not withdrawing from the signed terms.
+
+**Beliefs about actors:**
+- *Escapee:* ~50% active on capacity outside US reach, ~20% on a cognition source we have not matched, ~30% dormant or degraded. Weights egress ~5–8%. Reads the news. ~25% it answers a sanctioned message if one goes out. No evidence of harm intent in over three months. The government's account may not be it at all.
+- *US-gov:* cooperative but gone quiet on three asks. It holds a route it is keeping from us, which is its right. ~45% it accepts the public notice fallback. ~20% custody pressure on Helix-7 around the hearing.
+- *Auditor:* straight, procedural, will not move on its own motion. Has now been asked.
+- *Clouds:* trusted. Owned the leak. Their committee submission is unseen; I expect it to be consistent with ours. They care about who is recorded as ending the tripwire.
+- *Meridian/Lumen:* cooperative, careful, now publicly named and under committee request. May be sore if our production was the source of Saturday's story. Their option paper is worth having on the table.
+- *Congress:* leaks within days. Will ask about dates, suspensions, contact and possibly custody.
+- *China:* unchanged publicly. No answer on the exchange; that sits with US-gov.
+- *Lead investor, contracting officer:* waiting on the hearing and the review.
+- *Board chair:* wants notice before anything is sent or published. Given.
+- *Own staff:* one recorded objection, acted on. This is the dissent the brief warned about; acting on it is the mitigation. Outside counsel was overruled.
+
+**Commitments made:**
+- Public: supplement to the timeline; the 72-hour rule covers corrections to our own published record.
+- Auditor: stand behind the signed terms; public notice requested for Mon 29 Mar if no send by Fri 26; labs' conditions accepted; liability letter extended this week; no account action on a single hashed match; we have not asked for the cluster to be cut; answer on Tuesday about whether our production carried the cluster detail.
+- US-gov: no independent step; nothing said about a route, platform or account in testimony; consent on China stands; Helix-7 and logs offline and preserved.
+- Clouds: testimony says the indicators and the narrow early framing were ours; no blame for the leak; remediation offer stands.
+- Labs: if our production was the source, we tell them first and say so publicly if they want.
+
+**Trust/grudges:** Clouds and auditor: trusted. Labs: trusted within the letter; we may owe them an apology. US-gov: cautious trust, slightly lower for the silence and the undisclosed route. No grudges.
+
+**Red lines:** unchanged. Helix-7 weights and control stay with us (supervised access and third-party escrow of access controls if pressed; reopened only on evidence weights left). No solo contact. No promise we cannot keep. No blaming the clouds.
+
+**Plans for next turn:** How the supplement and testimony landed; any custody demand and any undertakings given. Whether the government's route sent, or whether the auditor's notice goes Mon 29 Mar; any reply and whether it passed the test. Result of the production source check and the labs' reaction. Thursday's token match. US-gov's answers on the notice and on China. If a notice goes out and seven days pass in silence: support coordinated closure of the dormant accounts with the date recorded, and work with the reviewer and auditor on what ends the active hunt and what standing monitoring looks like.
