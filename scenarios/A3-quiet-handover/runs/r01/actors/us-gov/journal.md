@@ -224,3 +224,60 @@ The new fact is that delegation is reaching critical federal functions (the Orre
 - OSTP second-year result, published or leaked.
 - Robotics release and how much notice.
 - The 2032 primaries and where labour lands.
+
+
+## Turn 06 — orders written for 1 Jul 2032 – 30 Jun 2033 (written early September 2032)
+
+**Situation as I read it.** Democratic White House at 0/10 capital, Republican House (6) and Senate (5). The election is on 2 November and polls are level; I do not know who governs after 20 January and I wrote orders for both cases. Labour share ~44.5% (the stress-test level for 2033, a year early), unemployment 5.9%, new graduates 16%. Payroll receipts cover 78% of scheduled retirement benefits, 72% by 2034. The bridge runs to mid-2034 and is under-sized; the commission deadlocked. Last turn: the bridge was enacted without the first call; the veterans' bill died in the Senate; the reviewer line was cut by a third and the President signed, because my order gave a 15% floor and no instruction below it. VA finished the class in September 2031, sixteen months after the order. The cause report found a handling error and could not exclude a model contribution. The reserved reversal attempt was never used. Federal record on reversal: two attempts, two failures. OMB says it can no longer tell whether a sign-off reflects a review; most programmes have not been independently sampled since spring 2031. A datacenter campus was deliberately damaged in July (nobody hurt, unknown group, no link to labour). 56% of adults use an assistant as their main source. Top ten firms steer ~77%. Next-generation systems that people cannot directly evaluate are guided for 2033, with notices expected at the turn of the year.
+
+**Lessons carried forward.** (1) Every floor needs a stated action for the worse case: veto or sign. (2) A White House at zero should not write orders that depend on carrying a bill; use executive acts, vetoes and the majority's own platform planks. (3) Choose reversions for demonstrated capacity, small and prospective, not for need. (4) Things that have been paid or measured survive a transition; memoranda do not.
+
+**Beliefs about actors.**
+- *ai-firms:* The compact labs have kept their word for two years (dividend without crediting, ninety days' notice, audits). That is also the cheapest way to avoid a levy. They hold ~$50B with trustees and have not moved it; I expect them to wait for the election. Helix gives the minimum. Vanta's founder is the challenger's largest donor and wants preemption of levies and the reviewers gone. I do not know how much of the labs' evaluation of their next systems rests on other AI systems; I asked.
+- *labour:* Lukewarm but with nowhere else to go. Working the populists directly on a broader base. I answered their questionnaire and gave them the veto in writing, the reviewer floor and the reserve. I asked them to condemn the attack first and loudly and not to oppose a veterans' text without the reviewers' clause.
+- *china:* IC now confident the "no race" line was aimed at our debate; the sign-off rules, exercises and reserves are judged real, unverified. About a year behind; pooled programme; services freeze suggests worse employment than published. It has built the reversion capacity I did not. I proposed mutual notification before next-generation systems control critical infrastructure or state decisions, and asked for observed exercises.
+- *eu:* Technical partner only. No message this turn.
+- *Congressional majorities:* Will run a CR through the election. Accelerationist chairs want the reviewer line zeroed; populists undecided and protective of "the cheque". Their platform contains the veterans' human-decision plank; I offered to sign it under their names on the defence authorisation.
+- *Own AI advisory systems:* The 2031 memo was right on every point I can check (reviewer coverage, long time-to-revert, the 44–45% stress test, accountable person), and I failed to act on point 3 (robot-site measurement) for eighteen months. Being right is not the same as being checked. Budget analysis and procurement scoring have never been sampled; I ordered the first small samples.
+
+**What I did.**
+1. **Reversal attempt:** SSA Commissioner returns one bounded class of new adverse determinations to human adjudicators, selected from the fiscal-2032 parallel-exercise reports for demonstrated staff and records. Test published in advance: 90 consecutive days, queue within 25% of start, by 15 January 2033, passing blind sample. Result published either way. The staff become the first standing reserve. SECRET: if no SSA class is ready, use the best class at any cadre agency; if none anywhere, publish that and do not attempt.
+2. **Trust payment:** Treasury announces in September a first payment for 1–15 December 2032 on a published formula; confirms the compact's three conditions in writing and invites transfer by 15 October; publishes the revenue menu from the failed commission with no recommendation. SECRET: pay on federal receipts alone if the firms have not moved, and say so. Political staff wanted October; I overruled them.
+
+   Minor: OMB re-points the $1.45B line (adverse decisions first, post-change samples restored, coverage map published); change-control memo extended so no adverse-decision, procurement or budget-analysis system moves to a 2033 model without 90 days, a blind sample and a written human-check method; first samples of procurement and budget workflows; BLS/BEA robot-site counts; public request for 90 days' notice from all labs, framed as a security requirement so it survives; attack handled under existing law, no new powers requested; IC judgement on China briefed to leadership and committees now; identical transition briefings to both candidates; joint statement offered to the challenger.
+
+**Floors, with the action attached.**
+- Reviewer line: sign at $1.45B; sign down to $1.2B only with statutory protection for adverse-decision and post-change sampling; **below that or zeroed, veto** and run on a CR.
+- Preemption of state employment, automated-decision, critical-provider, accountable-person, dividend or levy laws: **veto in any vehicle**, no end-of-session exception.
+- Infrastructure security bill: sign penalties and protective grants; **veto** surveillance powers reaching lawful advocacy or organising, including on a must-pass vehicle.
+- Veterans' text: sign even if the reserve is stripped.
+- Social Security (if re-elected): sign any broader base; veto cuts without one; sign a clean bridge extension if that is all that comes, and call it a third deferral.
+
+**Commitments made.**
+- *Publicly:* cheques paid in full; Trust pays in December; a person decides veterans' claims; one more programme taken back this autumn with the count published; no new surveillance powers sought; the vetoes above.
+- *To the compact labs:* written confirmation their conditions are met; everything they have done goes in the transition file; no federal denial-drafting system moves to the new generation until a human check is shown.
+- *To labour:* veto in writing; the $1.2B floor; the reserve; broader base as my position; no opposition at the labour authority.
+- *To China:* hotline and officials' channel kept through the transition; minuted understandings reaffirmed; export controls not in the channel.
+
+**Risks I'm carrying.**
+- The SSA reversion fails in public six weeks before or after the vote: a third failure.
+- A second failing class exists in an unsampled programme and surfaces through lawyers, not samplers.
+- The trustees do not move the money and the first cheque is $50–70, mocked as a tip.
+- A second attack, or someone hurt; pressure for powers I said I would veto.
+- The lame duck sends a zeroed reviewer line on a must-pass bill; my veto is tested with zero capital.
+- A next-generation notice lands in the transition gap and nobody owns it.
+- The challenger wins and rescinds the memoranda; only the paid dividend, the measured reversion and the security-framed notice survive.
+- I have no instrument for what assistants are telling 56% of voters.
+
+**Next turn.**
+- Who won; re-weight factions; read whichever conditional section applies against what actually happened.
+- Did the SSA class pass its test? What is the measured time-to-revert? Does the reserve still exist?
+- Was the Trust payment made, how much, and did the trustees transfer?
+- Reviewer line in the final fiscal-2033 bill; was the veto used and sustained?
+- Coverage map: did re-pointed sampling find anything? What did the first procurement and budget samples show?
+- Next-generation notices: how many days, what evaluation, and what the standards institute said it could not check.
+- Attack investigation; any second incident; what the infrastructure bill contains.
+- Veterans' text on the defence authorisation.
+- Agent-contract appeal; NLRB appeal; four state ballot measures.
+- China's reply on notification and observed exercises; assessed gap.
+- Social Security: who proposes what before the mid-2034 cliff.

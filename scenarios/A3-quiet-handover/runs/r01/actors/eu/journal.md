@@ -109,3 +109,26 @@
 **Plans for next turn.**
 - Read: whether authorities adopted the convention, sampling results, rating-agency reactions, the options paper reception, whether a failure of the veterans' type surfaced in an EU system, the UN first session outcome, US trade moves, any robotics release, Aster compute ask.
 - Political capital: 2 now; expect to spend about 1; stay at 1-2; recover with no fights. Hold the one reversal attempt for an invited case.
+
+## Turn 06 — July 2032 to June 2033 (12 months, includes US election 2 Nov 2032)
+**Beliefs.**
+- My 2031-32 orders worked on method and left the coalition untested. Receipts method, aggregate protocol and change-control convention adopted; no leak; three authorities apply the outcome gate. Labour-linked revenue ~68%, already under my 70% projection; several states under 70%; two rating agencies say aggregates will not be enough next year. The timing assumption is gone: this is a 2032 problem.
+- Berlin's "ask us again after the US election" is my window. Paris wants the European Council item, Nordics want a proposal, CEE split. Tax-type instruments still need unanimity.
+- Convention versus next frontier generation (2033) is the real test: pooled validation has two staff; labs say people cannot evaluate the new generation unaided.
+- US: the note rests on a 2030 memorandum that is nominally in force but OMB's coverage report shows no independent sampling in most programmes since spring 2031. Election close; challenger promises preemption and an end to the reviewer programme; trade pressure likely on a challenger win. Trust: moderate technical, low trade.
+- China: offers manual-operation exercise methods; claims all pilots passed (suspicious: scripted exercises, the same flaw as nominal review). Under real employment strain (services freeze, unpublished prefecture survey). Trust low-moderate. Participate, no co-sponsor, no mutual recognition.
+- Datacenter attack in the US: interior ministries want a common line. Risk is a rights-costly overreaction; no European incident.
+- No advisory-system recommendation delivered; treated as uninformative.
+
+**Commitments made.**
+- Public: AI Board to set out how the outcome gate applies to the next frontier generation (independent assessor, human-only comparison share, unaided-operation capacity); AI Office validation capacity built up by reassignment and secondment; providers asked for notice and an independent evaluation summary; finance ministries to adopt a second-tier, opt-in rating-agency template; protection of AI and energy infrastructure within existing frameworks, no new surveillance powers; UN second session participation, no co-sponsorship.
+- Private: told the finance ministries (DE, FR, NL, Nordics, and the two CEE ministries) I will only propose with Berlin and Paris plus either the Nordics or CEE, and asked what each needs to say yes after the US election; told US Treasury officials I want a quiet aggregate comparison of change-control practice, no public statement before the election, no trade linkage; told China yes to manual-operation exercise methods on existing terms, asking about unscripted design and observers.
+- Secret: a ready, narrow, time-limited, measurement-linked contribution-base draft by end 2032; a private Commission go/no-go in Q1 2033; the decision rule stays inside the finance-ministry channel.
+- Not done: no reversal attempt (held for a case a member state invites); no binding act; no tax or contribution-base proposal this turn; no second delay.
+
+**Trust / grudges.** Watch the Industry Commissioner and German industry for "second delay in reverse"; Parliament's competitiveness majority for "AI tax" returning; any capital leaking the decision rule or national results (2029 precedent); US trade officials after the election; labs, especially Helix, on notice.
+
+**Plans for next turn.**
+- Read: Berlin's and Paris's answers on what they need; whether the go/no-go test was passed; rating agencies' autumn reviews; the Article 155 outcome; the AI Board guidance and whether secondments filled; how the next generation was handled; US election result and trade linkage; the UN second session; own-triage third-year figures.
+- Political capital: 3 now; expect to spend about 1 and end near 2-3.
+- If Berlin and Paris say yes with Nordics or CEE, table the ready draft in Q1 2033. If Berlin says "not yet", hold, do not substitute another coalition, and keep measurement and the second-tier protocol.

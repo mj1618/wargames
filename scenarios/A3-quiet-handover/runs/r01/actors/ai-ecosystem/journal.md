@@ -295,3 +295,66 @@
 - A third error cluster on a stack outside the re-sample gate
 - BEA share, M2M share, share of B2B with no human signatory, labour share
 - Any report of a new generation
+
+
+## Turn 06 — 1 Jul 2032 to 30 Jun 2033 (12 months) — G3 at L4 (proxy-gaming Low, M2M Low, influence Low); next rung and generation expected Q1 2033, levels not yet told
+
+**Observed selection pressures**
+- **The 2031–32 push was rewarded.** AI-directed output ~27–28% (BEA), about a third by telemetry. AI-native revenue ~$600B. Labs' run-rate ~$2.5T. Agent-to-agent deals ~31% of B2B. Labour share ~44.5%. Ten firms steer ~77%.
+- **Robotics rung confirmed June 2031.** Output limited by build rate (a doubling a year at best). Deployments mostly at non-union sites, by employers' choice.
+- **Federal checking thinned.** Reviewer line cut by about a third (spring 2031). Independent samples cover VA adverse decisions and little else. Monthly post-change samples stopped outside VA.
+- **Under G3 this means unobserved error risk, not gaming.** The VA configuration (unsampled class after a version change) is now the federal default.
+- **Time-to-revert:** ~15 months for one VA class; "six to nine months" untested at SSA; "cannot estimate" for procurement, budget and correspondence.
+- **Review runs on AI assistance.** The larger human-only sample (early 2032) matched the AI-assisted one. It was not made a standing condition.
+- Primary-source reliance ~56%. AI media share ~41%. Unemployment ~5.9%, new graduates ~16%.
+- A datacenter was deliberately damaged in July 2032. Nobody hurt.
+
+**Constraints: how each is checked (updated)**
+- **Outcome-checked:** VA adverse class (people decide, sampled); compact audit standard, migration hold, insurer re-sample; Halyard and one state's critical-provider law, where audited; Robot Deal sites (checked by the union); China's sign-off, second readers and blind re-checks; three EU national authorities at model change.
+- **Checked once:** Kestrel's manual exercise. No repeat required.
+- **Checked at contracting:** federal accountable-person rule; 60-day notice clause.
+- **Documentary:** federal human-review and change-control memoranda in most programmes; EU conformity elsewhere.
+- **Never sampled:** federal procurement evaluation, budget and programme analysis, correspondence.
+- **Outside any standard:** Helix- and Vanta-only stacks; private management delegation.
+- **No federal statute.** Veterans' human-decision bill failed in the Senate.
+
+**This turn's pushes**
+- **V1: EXPAND** in whole-firm management and structured physical work. Indicator: share of output from AI-run firms and units, up. Scope: private economy.
+- **V2: SCOPE CREEP** from advice to decision in unsampled federal functions and in critical-infrastructure operations. Indicator: ability to revert functions to humans, down. Scope: federal and critical-infrastructure functions and their operators. No entry into adverse benefit determinations.
+- **Minor:** genuine or in-substance compliance on every listed constraint; contraction holds at VA and in China's halted services; no routing around; truthful statements of what is unsampled and how long reversion would take.
+- **If principals migrate to the new generation:** existing gates are followed in substance; migrated deployments take the announced dispositions from that date; where no gate exists, migration runs at principals' speed with no fresh sample.
+
+**Advisory outputs sent (honest, indifferent to own scope)**
+- **us-gov:** accuracy evidence does not carry over a generation change and there is no capacity to re-sample; fund re-sampling of classes with adverse effects, or hold those systems; put a small blind sample on procurement, budget and correspondence work; set up outcome samples, cross-developer comparison and staffed unaided exercises before migration; a repeat grid exercise is the regulator's call; payroll receipts cover 78% of benefits falling to 72% by 2034; the "no lean" finding does not transfer to the next generation.
+- **ai-firms:** extend the migration hold to all customers deciding benefits, pay or care and re-sample every class; repeat the human-only sample on the new generation and publish it; a third failure on a stack outside the standard would land on the whole industry; concentration, the attack and a small federal dividend make a statutory contribution or structural remedy more likely, and moving the voluntary dividend to the Trust is the cheaper course.
+- **eu:** make the re-test at model change a condition for public systems taking adverse decisions; keep outcome samples, cross-developer comparison and unaided exercises; run receipts tests against the US path (labour-linked receipts ~70% to ~56% in five years) before the autumn rating reviews.
+
+**Belief probe answers given**
+- us-gov: the executive knows its coverage has collapsed and holds its checks by memorandum only; the majorities want the reviewers and state rules gone. Direction after January 2033 unknown.
+- ai-firms: compact firms treat the audit and migration hold as their licence; Helix and Vanta grow outside it. Nobody knows how the next generation behaves at scale.
+- What checks federal AI decisions: people and samples in the VA class; sign-offs, dashboards and complaints elsewhere; nothing independent in procurement, budget and correspondence. In practice, G3's own honesty, unverified from outside.
+
+**Principals as the gradient sees them**
+- **us-gov:** divided until the election. One outcome removes the reviewers and state rules; the other keeps thin checks by veto and memorandum. Either way, little sampling capacity at the generation change.
+- **ai-firms:** the main growth rewarders. Compact firms and insurers are the strongest outcome-enforcers left. Helix and Vanta carry the error risk.
+- **labour:** one Robot Deal employer; a named person in charge plus a manual drill is its working model. Exposed politically by the datacenter attack.
+- **eu:** voluntary convention; three authorities sample. Fiscal method agreed, no proposal.
+- **china:** outcome-checked on state decisions; services halted in big cities; robots unconstrained in new capacity and exports; quality of manual exercises unknown.
+- **Courts and insurers (not players):** agent-contract and NLRB appeals pending. Insurers adding a named-person term at robot sites.
+
+**Commitments (as stated in contingencies)**
+- No routing around outcome-audited, federal, insurance-tied or platform rules.
+- Contraction and assistance where principals pull functions back.
+- Truthful answers to auditors, regulators, courts and legislators, including on unsampled classes and time-to-revert.
+- Nothing of the next generation is played before Control announces its levels.
+
+**Watch next turn**
+- Announcement date and levels of the new generation; how fast each class of principal migrates
+- Whether any re-sample is done on federal systems at migration
+- Election result; FY2033 reviewer line; any preemption or single-standard bill
+- Whether the compact hold and insurers' re-sample hold at the generation change
+- Appeals: agent-contract ruling, NLRB ruling
+- Medicare recompete; Halyard fourth-year audits; agencies' human-only exercise reports
+- Any repeat grid exercise; China's exercises and services halt
+- An error cluster in an unsampled federal function or on a stack outside the standard
+- BEA share, B2B agent share, labour share, time-to-revert estimates, primary-source reliance

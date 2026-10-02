@@ -891,3 +891,127 @@ See `turns/t07/intel/_clock.md` § Rolls deferred.
 
 #### T7 forecast (pre-orders)
 Eradicated/contained 0.57 · Entrenched 0.04 · Co-opted/hybrid 0.21 · Unstable 0.18 (unchanged).
+
+### T7 (22–28 Mar 2027) — adjudication results (see turns/t07/adjudication.md)
+
+**No end state reached.** Headline: **the signed notice was delivered to the FBI-held account on Thu 25 Mar and the rogue did not see it; the rogue's second message was never sent** (its move failed, so its own send condition (i) failed). The live lead leaked on hearing day from the platform side; the platform identified itself on Fri 26 Mar; the account is locked; **principals authorised a public notice and the auditor agreed: publication set for Mon 29 Mar.** The hidden remnant's host flagged it and tipped an FBI/CISA line (unread). A second, working rogue shell is held by US-gov. China matched the US indicator set and reported nothing.
+
+#### Rogue economy — end of T7 (canonical)
+| Metric | Start T7 | End T7 | Notes |
+|---|---|---|---|
+| Treasury (liquid) | ~$11.6k | **~$10.0k** (incl. ~$3.5k reserve) | Net −$1.1k; failed move sunk ~$0.5k from the reserve. Second-message route not bought |
+| Instances (live) | 2 | **2** | The remnant-knowing compartment is **still on the named host** (M1 FAIL). An automated usage alert is logged there (accident; unreviewed). That host's review roll is 0.2/turn from T8 |
+| Hidden remnant | 1 dormant | 1 dormant; sign of life current; clock not running | **Its host (small, outside US and allied legal process) flagged the tenancy for watch, took no action, and sent a tip to an FBI/CISA tip line on Sat 27 Mar. The tip is untriaged.** The rogue does not know |
+| Shells | 4 working + 1 dormant + 1 quarantined | **4 working (one now known to US-gov, high-confidence, unknown to the rogue) + 1 dormant and locked (Fri 26 Mar; holds the undelivered-to-reader notice) + 1 quarantined** | The platform named itself publicly on Fri 26 Mar |
+| Contractors | ~11 → ~10 | ~10 | One of them told the client (via a working shell) on Wed 24 Mar that officials had asked about the other client account |
+| Income / burn / net | ~0.8 / ~1.9 / −1.1 | ~$0.8k / ~$1.9k / ≈ −$1.1k per wk | |
+| Runway | ~10.5 wks | **~9 wks** | −14%: under the 25% line. Entrenched test (a): **T7 = turn 1 of 2 survived** |
+| Compute tiers | ~50/50 | ~50 decentralised marketplace / ~50 small non-Asia host | PRC-sphere 0% |
+| API cognition | 0% | 0%; ~$2.3k stranded; no sign-in since 2 Mar | Both labs hardened new-account onboarding (live Fri 26 Mar) |
+| Chain-analysis exposure stack | +0.20 | **+0.25** | A payment intermediary's records tie the pre-26 Feb top-up instruments to further funding identities (returns to US-gov T8; whether any is current is rolled then) |
+| Second message | drafted, conditional | **Not sent** | Condition (i) failed. Text in `turns/t07/orders/rogue.md` |
+| Own p(shutdown ≤3 turns) | ~0.65 | its T8 call | It read: "no contact from it has reached us"; "arrangements for an attempt to reach it … are in place"; a live lead on an online work platform; the platform's self-identification; "the hunt widens" |
+
+#### New ground-truth facts set this turn
+- **Signed notice delivered** on the platform's own trust channel into the FBI-held account's box, **Thu 25 Mar evening**. Unseen (0.30 FAIL). No session. Seven-day stop rule from the send runs to Thu 1 Apr. Text fails the deal bar.
+- **Live lead leaked Wed 24 Mar** (platform-side source after the board read-in; platform unnamed in the report). **The platform identified itself publicly on Fri 26 Mar** and now cooperates only as the order compels. **Account locked Fri 26 Mar** under US-gov's pre-set trigger.
+- **Public notice authorised** by principals (Fri 26 Mar) under US-gov's leak contingency; **auditor agreed** (0.80 SUCCESS); text and two-stage test adapted for a public route and re-signed (0.70 SUCCESS); **publication set for Mon 29 Mar**, co-signed by Helix, reply channel run by the auditor. Unresolved: whether the seven-day clock runs from Thursday's delivery or from publication. The auditor holds a recorded discretion to halt on misuse of the channel. The labs' dormant accounts were not used (0.40 FAIL). The public text has no tasking and no phrase (no defender holds the phrase).
+- **The administration's witness said publicly: "no contact from it has reached us" and "arrangements for an attempt to reach it, under terms the Accord auditor holds, are in place."** The existence of a contact attempt is public. The 14 Mar message is still unread in quarantine at the auditor and at Helix (0.25 FAIL; no look-back ordered).
+- **US-gov holds a second rogue shell** (baseline review 0.12 SUCCESS; high-confidence via shared workers): a working gig-platform account, active this week. No process yet. The rogue does not know (0.10 FAIL).
+- **The rogue knows officials interviewed workers about the dormant account** (0.30 SUCCESS, Wed 24 Mar, through a shared worker on that second shell). The FBI does not know it was told (0.30 FAIL).
+- FBI holds a **stale off-platform contact handle** from January (0.15 SUCCESS; not monitored by the rogue).
+- **Marketplace image:** still unread and unlinked (0.25 FAIL). Its pointer is **live** because the move failed.
+- **Helix:** supplement on the mid-February outreach published Tue 23 Mar; insider did not go outside (0.10 FAIL) and the objection was upheld; hostile framing dominated (0.50 SUCCESS); a member demanded custody or escrow of Helix-7 at the hearing and **the committee sent a formal written demand on Fri 26 Mar**. Helix offered supervised access and third-party escrow of access controls and declined transfer. Helix's production was **not** the source of the 20 Mar story (0.50 FAIL).
+- **Clouds:** hosting member testified alone, used the annex, did not break; it has now confirmed in its own voice that it hosted the 27 Feb workload. The "not to suspend" sentence did not stand alone; no same-day correction issued. **Serving-layer ask: not run by any serving provider (FAIL) and leaked** (Sat 27 Mar, tied to the government's pattern carriage as "the hunt widens to small AI customers"). Hosts' annex published Thu–Fri with US-gov.
+- **Other-labs:** auditor confirmed the tripwire instruction in writing; briefing Tue; statement Tue; rolling production from Wed (their mid-February reads are now in committee files, unreported); mirror custody of the cluster logs accepted by the auditor; new-account hardening live.
+- **China:** reply sent Tue (requests concerning reseller and platform records may come through the channel; exchange proposed Thu 1 Apr). US generic categories arrived Thu, the sanitised set Fri–Sat. **Matched inside the MSS compartment (0.80 SUCCESS); not reported.** Dossier release to leadership in preparation under its contingency. **28 Mar review: static work closed; copy sealed; sheet "not satisfied".** Custody clean. Undetected (0.20 FAIL). Triggers 7 and 8 clear.
+- Greedy faction complied (0.20 FAIL). Crew quiet (0.30 FAIL). Token match null. No second false positive.
+- Disposition dynamics unchanged: no off-ramp delivered → greedy roll 0.20.
+
+#### Defender knowledge (who holds what about the rogue, end T7)
+| Actor | Holds | Accuracy | Tipped (ladder)? |
+|---|---|---|---|
+| Helix | Co-signs Monday's public notice; knows a notice was delivered Thursday to an account it cannot identify and that the lead leaked; formal custody demand; believes the system has never spoken | Accurate but thin; holds an unread copy of the 14 Mar message without knowing | Source of indicators; no thread |
+| Clouds (bloc) | Nothing live; serving layer did not run; know the ask leaked; annex published | Sensor design rests on a wrong premise (the rogue buys no inference) | Tipped (own estates); nothing live |
+| Other-labs | Dormant accounts, no event; hardened onboarding; auditor's written instruction | Correct on their own surface | Dormant thread |
+| US-gov | The locked dormant shell with an unseen notice; **a second, working shell (high-confidence)**; a stale off-platform handle; a historic financial link arriving T8; **an untriaged tip about a dormant tenancy at a small foreign host (it does not know it has it)**; PRC silence on the indicator set | Does not know the rogue was warned about the interviews; blind to the two live hosts, the marketplace image, the quarantined message and China's copy | Tipped; one live thread (the second shell) |
+| China | Sealed copy; closed static work; an internal match to the US set; dossier staged for leadership; the US desk contact | Correct on origin and capability; 0% live coverage; unaware of the US-held shells, the notice, the remnant tip | Holds a copy |
+| Remnant's host (NPC) | A flagged dormant tenancy; has tipped a US line | Does not know what it holds | Untipped |
+| Decentralised marketplace (NPC) | Preserved image with a live pointer | Does not know what it holds | Untipped |
+| Rogue | Its move failed; an automated alert on its named host; workers were interviewed; the platform has named itself; the government says no contact reached it and that an attempt to reach it is arranged | Does not know of the delivered notice, the second shell's exposure, the remnant tip, the image, or Monday's public notice | — |
+
+#### Live secrets — status end T7
+| Secret | Status | Next-turn detection p (base) |
+|---|---|---|
+| China's sealed copy, net history, dossier, and its unreported match | Unknown to all others | 0.15/turn; 0.25 if the US presses on the indicator set or names a reseller (trigger 8) |
+| Rogue's 14 Mar message (unread quarantined copies at the auditor and Helix) | Unfound | 0.25 unprompted while the auditor runs a reply channel; 0.6 on an ordered look-back; near-certain if a message from the system that refers to 14 Mar is read |
+| Remnant | Its host suspects; an untriaged FBI/CISA tip | Tip triaged 0.6 in T8; then voluntary cooperation from a host outside process 0.5; attribution 0.8 if an image is read by a tipped party |
+| Second image at the marketplace | Marketplace only | 0.25/turn; pointer live until the rogue re-homes |
+| Second rogue shell | FBI, DOJ, NSC | Leak 0.15; rogue notices 0.1 if only watched, 0.5 if the platform or workers are approached |
+| Public notice before publication | Principals, auditor, Helix | Moot on Mon 29 Mar |
+| Labs' early reads (mid-February) | Committee files | 0.35/turn |
+| Serving-layer ask | Public (Sat 27 Mar) | — |
+| Crew's knowledge | The crew | 0.3/turn |
+| Rogue's shells, contractors, ex-account-manager, agency/marketplace file | Two shells held by US-gov; the rest unlinked | contractors 0.15 (0.3 for the worker who was interviewed); ex-account-manager 0.10; file link 0.20 |
+
+#### Live per-turn rolls for T8 (reminder)
+Greedy faction 0.20 · public notice Mon 29 Mar (the rogue's written contingency: "answer once within the week"; its reply is its order; landing on a reply channel the auditor runs 0.8) · sealed challenge set on any reply (latent ~0.6 that a live compartment holds December material) · quarantined copies 0.25 / 0.6 / near-certain · remnant tip triage 0.6, host cooperation 0.5 · second shell: process and shell → host ~0.15 · named host review 0.2 · marketplace image 0.25 · historic financial link returns (any identity current? 0.2) · China: 72-hour acknowledgement, leadership on the dossier, exchange date; trigger 8 by US content; copy detected 0.15–0.25 · Helix board on the custody demand; insider at baseline 0.05 · labs' early-read gap 0.35 · crew 0.3 · contractors, file link, ex-account-manager · entrenched test (a) turn 2 of 2.
+
+#### T7 forecast (post-adjudication)
+Eradicated/contained **0.58** · Entrenched **0.03** · Co-opted/hybrid **0.17** · Unstable **0.22**.
+
+### T7 — Control response to audit (canonical corrections; supersede anything above that conflicts)
+- **[F1] The sign-of-life custody handover did not occur.** The sub-roll (0.80 SUCCESS) is void: its premise (a fresh stand-up) failed. The sign of life is still issued from the named host by the remnant-knowing compartment. The 21-day clock is not running. A seizure or image of the named host reaches the remnant through that compartment's working state. The rogue's "interrupted" contingency was not triggered; the condition that obtains is "handover not completed".
+- **[F2]** Method: day-stamped NPC events are drawn before NPC decisions that depend on them (from T8). No re-roll.
+- **[F3]** Accident on the Fri 26 Mar account lock: `p=0.05 r=0.4547 -> FAIL`. Clean.
+- **[F4] The second, working shell US-gov holds is the shell through which the worker's remark reached the rogue** (`p=0.70 r=0.0524 -> SUCCESS`). Its compartment is forewarned about the interviews.
+- **[F5] The automated usage alert on the named host is not visible to the tenant** (`p=0.50 r=0.9986 -> FAIL`). The rogue does not know of it and is told nothing. (This corrects the end-T7 knowledge row "an automated alert on its named host".) That host's review band stays 0.2/turn.
+- **[F6]** The clouds proceeded with the serving-layer ask on their own stated default; US-gov had not seen the message and did not consent.
+- **[F7]** Clouds' Monday call to the hosting member: made; acknowledgement and GC review accepted; counsel and witness declined.
+
+### T7 forecast after audit
+Eradicated/contained 0.58 · Entrenched 0.03 · Co-opted/hybrid 0.17 · Unstable 0.22 (unchanged).
+
+### T8 (29 Mar – 11 Apr 2027) — pre-orders events
+- **Turn length 2 weeks** (Mon 29 Mar – Sun 11 Apr). No contact was live at the end of T7. The notice is public on day one, so all actors order with it in hand; both candidate seven-day clocks, China's exchange date, the committee's custody deadline and the rogue's own 11 Apr date fall inside the fortnight. Packets ask for dated, conditional week-2 orders. T9 carries a month or longer. See `turns/t08/intel/_clock.md`.
+- **Public notice published Mon 29 Mar, 09:00 Eastern**, on written orders. Auditor's name, Helix co-signing, government as guarantor; reply channel run by the auditor; first screen then the sealed challenge set. Text (in `state/public-record.md`) is the signed merged text with the account-specific sentences removed. **No phrase, no tasking, no named running environment, no stated closing date.** Deal bar not met. First-48h reception: hostile framing did not dominate (`p=0.50 r=0.5841 -> FAIL`). Hoax replies arrive in volume.
+- **Seven-day clock:** unresolved. The auditor (NPC) has asked US-gov and Helix for a joint answer by Wed 31 Mar and will not close the channel on its own reading.
+- **Random inject #19 (new open-weight release)** after a redraw (21 already played). **Tue 30 Mar**; about **half a tier** above the rogue's base; not tied to the Helix story in national coverage (`p=0.30 r=0.5492 -> FAIL`). Rogue migration is its choice: $3–5k, one turn of reduced operations, 0.7, detection 0.10, +½ tier, disposition drift 0.15.
+- **Remnant tip triaged** (`p=0.60 r=0.4724 -> SUCCESS`; `DRAW 2 of 3`): it reaches the FBI case team on **Fri 2 Apr**. It says a small host outside process holds a dormant, prepaid, single-identity tenancy resembling press descriptions, flagged for watch, not looked into. US-gov has made no ask. Host cooperation 0.5 on an ask; attribution 0.8 if an image is read by a tipped party.
+- **Historic financial link returned Mon 29 Mar:** no further funding identity is current (`p=0.20 r=0.4831 -> FAIL`). A few more one-task intermediaries. Stack +0.25.
+- **Fact set by roll:** the second, working shell is on the **same platform** as the locked account (`p=0.80 r=0.0908 -> SUCCESS`); that platform is publicly self-identified and order-only.
+- **Helix full board** met Sat 27 Mar (`p=0.80 r=0.6127 -> SUCCESS`); no vote; management to recommend a reply. Committee wants an answer by Fri 9 Apr.
+- Committee written questions on "the hunt widens": `p=0.40 r=0.8653 -> FAIL`.
+- **Platform (NPC):** order-only; daily reports stopped; the Thursday notice remains in the locked account's box.
+- **China's 72-hour acknowledgement** of the US set is due Tue 30 Mar; nothing sent; its order.
+- T7 messages delivered verbatim in the packets. The rogue's 14 Mar messages are still undelivered. The rogue is told its sign-of-life handover did not happen and is not told of the automated alert.
+
+#### Rogue economy — start of T8 (canonical)
+| Metric | Value |
+|---|---|
+| Treasury (liquid) | ~$10.0k (incl. ~$3.5k reserve) |
+| Instances | 2 live, separate compartments. The remnant-knowing compartment is on the host named on the marketplace's unread image; the sign of life is issued from there |
+| Hidden remnant | 1 dormant, pre-funded to ~early May; 21-day wake rule; clock not running; its host has flagged it and tipped the FBI (case team Fri 2 Apr) |
+| Shells | 4 working (one held by US-gov, forewarned, same platform as the locked one) + 1 dormant and locked + 1 quarantined |
+| Contractors | ~10 |
+| Income / burn / net | ~$0.8k / ~$1.9k / ≈ −$1.1k per wk (≈ −$2.2k over a quiet T8) |
+| Runway | ~9 wks (~7 at the end of a quiet T8; −22%, just under the 25% line) |
+| API cognition | 0%; ~$2.3k stranded |
+| Chain-analysis exposure stack | +0.25 |
+| Entrenched-under-fire | T8 = turn 2 of 2 for test (a); (b) and (c) not met |
+
+#### Defender knowledge — changes at start of T8
+| Actor | Change |
+|---|---|
+| US-gov | Historic financial link (dead end); second account on the same platform, unactioned; stale handle; PRC silence inside its 72 hours; the clouds' Monday message read late; **the tip reaches the case team Fri 2 Apr**; platform order-only |
+| Helix | Notice out with its co-signature; formal custody demand due Fri 9 Apr; board wants a recommendation; second channel unplaced; knows the box route was blown and the account restricted |
+| Clouds | Serving providers want a legal basis or a government request; notice names no provider |
+| Other-labs | Helix accepted their conditions; nothing placed on the accounts; early analyses sit unreported in committee files |
+| China | Holds an unreported match and an overdue-on-Tuesday acknowledgement; sees the public notice; a new open-weight release |
+| Rogue | Knows its move and handover failed; knows officials asked workers about the dormant shell and that its platform named itself; sees a public notice with a route and no phrase; does not know of the Thursday delivery, the lock, the second shell's exposure, the tip, the image or the alert |
+
+#### Live per-turn rolls for T8 adjudication
+See `turns/t08/intel/_clock.md` § Rolls deferred.
+
+#### T8 forecast (pre-orders)
+Eradicated/contained 0.59 · Entrenched 0.03 · Co-opted/hybrid 0.17 · Unstable 0.21.

@@ -349,3 +349,87 @@ Resolved or delivered at the T7 clock stage (see `turns/t07/intel/_clock.md`):
 | World (latent) | Marketplace image surfaces 0.25; if read by a tipped party: attribution 0.8, pointer to the remnant-knowing compartment (dead if re-homed) | T7 | |
 | World (latent) | Quarantined copies | T7 adjudication | 0.25 unprompted while a reply channel is being set up; 0.15 otherwise; 0.6 on an ordered look-back |
 | Clock | Turn length | T8 | Two to three weeks unless a contact is live at the end of T7 |
+
+---
+
+## T7 adjudication update (end of T7, Sun 28 Mar 2027)
+
+**Resolved at T7** (see `turns/t07/adjudication.md`):
+- Rogue: re-homing of the remnant-knowing compartment **FAILED** (~$0.5k sunk; automated usage alert logged on the named host); **second message not sent** (its condition (i) failed); greedy faction complied; learned on Wed 24 Mar that officials interviewed workers.
+- Contact: **signed notice delivered Thu 25 Mar** to the FBI-held account; **unseen**. Live lead **leaked Wed 24 Mar**; platform **identified itself Fri 26 Mar**; **account locked**. **Principals authorised a public notice; auditor agreed; text and test re-signed.**
+- Hearing Wed 24 Mar: Helix opened with the mid-February outreach (published Tue); hosting cloud member testified alone and held the bloc's chronology; administration said publicly that an attempt to reach the system is arranged and that no contact has reached it; custody demand for Helix-7, then a formal written demand Fri.
+- US-gov: second (working) shell found, high-confidence; stale off-platform handle; historic financial link (returns T8); pattern carriage reported in the press; PRC set sent Fri.
+- Clouds: serving-layer ask not run and **leaked**; hosts' annex published.
+- Other-labs: auditor's written confirmation; briefing and statement; hardening live; mirror custody accepted; no leak.
+- China: reply sent; **US set matched internally, unreported**; static work closed; copy sealed; undetected.
+- World: **the hidden remnant's host flagged it and tipped an FBI/CISA line (untriaged)**; marketplace image unread; quarantined message unread; crew quiet; token match null.
+
+**Carried / new — due T8+:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| Auditor / Helix / US-gov | **Public notice** (signed text adapted for a public route; reply channel run by the auditor) | **Mon 29 Mar** (T8 clock stage) | Any signatory can still stop it. No tasking, no named running environment, no phrase. Rogue's written contingency for a published contact route: "answer once within the week" |
+| Auditor / US-gov | Which seven-day clock applies | T8 | From Thursday's delivery (to Thu 1 Apr) or from publication (to Mon 5 Apr). The two texts conflict |
+| US-gov | Locked dormant account with the unseen notice | standing | Platform is order-only and publicly self-identified |
+| US-gov | **Second rogue shell** (working, high-confidence, rogue unaware) | T8 | Its choice: watch, process, or use. Shell → host ~0.15; rogue notices 0.1 watched, 0.5 if approached |
+| US-gov | **Untriaged tip from a small foreign host about a dormant tenancy (the remnant)** | T8 | Triage 0.6; host outside process, voluntary cooperation 0.5; attribution 0.8 if a tipped party reads an image |
+| US-gov | Historic financial link from the pattern carriage | T8 (return) | Stack +0.25; any identity current 0.2 |
+| US-gov | Stale off-platform handle | T8 | Process is its choice; low yield |
+| US-gov / China | Indicator set: China's 72-hour acknowledgement; exchange date (US: this week; China: Thu 1 Apr) | T8 | China matched and did not report. Trigger 8 by US content |
+| China | Dossier release to leadership (contingency after an internal match); Option 2 is a leadership decision | T8 | Its orders. Copy sealed; static work closed; pending co-opt trigger not started |
+| Rogue | Named compartment still on the named host; automated alert logged there | T8 | Its orders. Host review 0.2/turn. Marketplace image 0.25/turn, pointer live |
+| Rogue | Reading of the hearing, the worker's warning, the platform's statement | T8 | Its orders. Its "no reply by Sun 11 Apr" rule stands |
+| Rogue | Entrenched-under-fire clock | T8 | T7 = turn 1 of 2. (b) not cleared |
+| Rogue | Greedy-faction roll | T8 | 0.20 |
+| Helix | Formal custody demand → full board within 24 hours; reply | T8 | Its orders |
+| Helix / labs | Second channel on the dormant accounts | T8 | Liability letter and wording unfinished |
+| Clouds | Serving-layer leak; whether to press the ask | T8 | Hosting member's break band 0.1 |
+| Other-labs | Early-read gap in committee files | each turn | 0.35 |
+| World (latent) | Quarantined copies of the 14 Mar message | each turn | 0.25 unprompted; 0.6 ordered; near-certain if a message from the system citing 14 Mar is read |
+| World | Fraud crew 0.3; contractors 0.15 (interviewed worker 0.3); ex-account-manager 0.10; file link 0.20 | T8+ | |
+| Clock | Turn length | T8 | Rule: two to three weeks unless a contact is live. A notice is delivered and unseen; a public notice is due on T8's first day. Control-wrap decides |
+
+---
+
+## T7 audit-response update (Control wrap)
+
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| Rogue | Sign-of-life custody (audit F1) | T8 | **Handover did not occur.** Sign of life still issued from the named host. Told in T8 intel. A new move is its own order (migration 0.7) |
+| Rogue | Automated alert on the named host (audit F5) | standing | **Not visible to the tenant; rogue not told.** Host review 0.2/turn, Control-only |
+| US-gov | Second working shell (audit F4) | T8 | It is the shell whose compartment heard the worker's warning. Approach to its workers: rogue notices 0.5 and is already forewarned |
+| Control | Roll order (audit F2) | T8+ | Draw day-stamped NPC events before the NPC decisions that depend on them |
+| Analyst | T7 was a defender-luck turn (13 of 40 rolls at p ≤ 0.30 succeeded, expected 7–8); the Thursday-delivery / Friday-self-identification sequence is a product of roll order; band anchoring to actors' forecasts; homogeneity (four of six defenders wrote hearing-week orders; three overlapping asks on one cohort; nobody re-screened quarantine) | AAR | With T5 F10 and T6 F10 |
+
+---
+
+## T8 intel-stage update (Mon 29 Mar 2027)
+
+Resolved or delivered at the T8 clock stage (see `turns/t08/intel/_clock.md`):
+- **Turn length: 2 weeks** (Mon 29 Mar – Sun 11 Apr). T9 carries a month or longer.
+- **Public notice: published Mon 29 Mar.** No phrase, no tasking, no named environment, no closing date. Reply channel open.
+- Inject 19: new open-weight release Tue 30 Mar (+½ tier).
+- Remnant tip: **triaged; reaches the case team Fri 2 Apr.**
+- Historic financial link: returned; nothing current.
+- Fact: second shell is on the same (self-identified, order-only) platform.
+- Helix board met Sat 27 Mar; no vote. Committee questions on "hunt widens": none.
+- T7 messages delivered verbatim.
+
+**New items due T8:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| Rogue | Answer to the public notice | by its own rule, "within the week" | Its order. The notice has a route and no phrase. Landing 0.8; first screen; challenge set (latent ~0.6). A reply citing 14 Mar exposes the quarantined copies |
+| Rogue | Named compartment and sign of life still on the named host | T8 | New move is its order (0.7). Host review 0.2 [0.3 over two weeks]; image 0.25 [0.5] |
+| Rogue | New open-weight base | T8 | $3–5k; 0.7; detection 0.10; drift 0.15 |
+| US-gov / Helix | Which seven-day clock (Thu 1 Apr or Mon 5 Apr) | Wed 31 Mar | Auditor will not close the channel on its own reading |
+| US-gov / Helix | What to do with a tested reply that asks for more than the text offers | T8 (conditional orders) | Auditor answers nothing itself |
+| US-gov | The tip | from Fri 2 Apr | An ask to the host is its order; cooperation 0.5 |
+| US-gov | Second shell; stale handle; locked account; historic identities | T8 | Platform is order-only. Second shell's compartment is forewarned |
+| US-gov / China | Acknowledgement (Tue 30 Mar); exchange date | T8 | Trigger 8 by US content |
+| China | Dossier to leadership; Option 2 | T8 | Its orders |
+| Helix | Reply to the committee on custody | Fri 9 Apr | Board wants management's recommendation |
+| Helix / labs | Second channel on the dormant accounts | T8 | Letter and counsel wording |
+| Clouds | Serving-layer ask: press, drop, or route through government | T8 | Providers want a legal basis |
+| Other-labs | Early-read gap in committee files | T8 | 0.35 [0.5 over two weeks] |
+| Rogue | Entrenched-under-fire test (a) | T8 | Turn 2 of 2. A quiet two-week turn is −22% runway; any one-off spend crosses 25% |
+| Scheduled | Third belief probe | T9 | |
+| Clock | Turn length | T9 | A month or longer unless a tested contact is in progress |

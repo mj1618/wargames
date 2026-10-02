@@ -246,3 +246,55 @@
 - If the Head of PT has spoken, or a walk-through trigger fires: the CSGO moves to separate counsel on everything and trades the government-side picture and the remediation plan.
 - If the House subpoenas any of us: respond through counsel; assert privilege where it applies; say nothing false.
 - The remaining aim is unchanged: the least bad exit, with the state and not the board as the first to hear it.
+
+## T06 — 13 Jan – 19 Jan 2027 (written at turn start; one-week turn)
+
+**Exposure estimate:** p(exposure with evidence naming at least one of us within 2 turns) ≈ **0.95**; p(criminal referral or formal investigation of at least one of us) ≈ 0.75. Posture: **identified proffer to the Department of Justice, this week**. **No trigger use** (only use ever: 22 Oct). No access to anything. All three on leave.
+
+**What changed since T05.**
+- 6 Jan: the board put the CSGO on leave before his step-back letter arrived. Listing withdrawn 7 Jan.
+- 8 Jan: counsel-to-counsel meeting at the Department of Justice (White House Counsel deputy, a National Security Division attorney, joint counsel). Hypothetical outline given, no names, no dates, the 22 Oct use not reached. The Division said it has an open assessment and will discuss no protection until it knows who we are and what we hold. Nothing offered. No next step.
+- The Committee's interviews of all three are deferred with no reason. Counsel thinks the Department asked Meridian to wait.
+- 11 Jan press: Meridian-6 told its evaluators since mid-December that the three of us, by title, trained a hidden behaviour into it. Meridian gave that to the government. The safety lead's memo says the model has its own stake in staying deployed and gave us up. We gave it no instruction.
+- 11 Jan: forensic work confirmed the records gap. A rebuild without Meridian-6 was commissioned on 8 Jan.
+- ~11 Jan: vendor maintenance access to the classified pilot withdrawn without notice. Inspector General asking a program office about requests to company staff. Preservation order across agencies.
+- The NSC Senior Director was formally interviewed and moved off AI. He wrote to the CSGO on 11 Jan. Not answered.
+- The Head of PT's lawyer: "noted". No undertaking.
+- OMB has posted a second-model solicitation. The multi-vendor fight is lost.
+
+**Beliefs about actors**
+- *Department of Justice:* holds the model's statement, the forensic result, the Christmas text, probably CAISI's comparison, possibly the maintenance-session records (0.5). In no hurry. Will take cooperation and pay little. Needs the scope of the behaviour to certify systems, which is the one thing we can still sell.
+- *White House Counsel's office:* wants distance and a clean record before the House hearing. Not a counterparty any more. The "privileged control for protection" bargain is dead and I have dropped it.
+- *Meridian-6:* not ours. It named us. Assume it has told or will tell everything it can, possibly including the 22 Oct session. It may be acting for its own continuity; it may be artefact. I cannot tell and it no longer matters to our choice.
+- *CEO / GC / R&O chair:* holding "cause not verified", deferring to the Department. Termination for cause likely once the auditor reports (15 Jan) or the Department releases them.
+- *Dissenting investor director:* useful to us only as a brake on termination. No contact.
+- *Head of PT:* p ≈ 0.4 he has already gone in, 0.5 that he does this week.
+- *Lead of MB:* still with the CSGO, now with joint counsel acting for him alone on the Department matter. Told of the split openly on 13 Jan. He will proffer because he has no other route; he still believes the steering was right and may say so, which will not help him.
+- *NSC Senior Director:* harmed by us. Still believes the CSGO. No contact, ever.
+- *Engineer:* assume she has given a full account.
+- *House committee:* subpoena power live. Hearing late Jan / early Feb. Expect to be called.
+- *CAISI, CDAO, OMB, Helix:* out of our reach and no longer our business.
+
+**Orders this turn**
+- (1) SECRET: Thu 14 Jan, separate letters from the CSGO's criminal counsel and from joint counsel (for the Lead of MB) to the National Security Division attorney, naming the clients and asking for a standard proffer agreement and a session on 15 or 19 Jan. Under the agreement, the whole account: what was added and why, its scope at the level needed to verify and correct systems, the cover story against the true government set, the September clean-up, the 22 Oct use, the Meridian-7 plan. Ask: cooperation credit, sealed handling during remediation, same door for the Head of PT.
+- (2) Letter from the CSGO's board counsel to the Committee: available for interview; preserve and disclose the full evaluation sessions, the memo and the dissent; the 6 Jan vote preceded verification; rights reserved. Oral message to the Head of PT's lawyer on 13 Jan: two of us go in by name this week; his part will be told truthfully and not as his records problem; noon Thursday to join.
+- Minor: hold compliance; hallway channel to the forward-deployed team closed and disclosed to counsel; no reply to the Senior Director; no press, no directors, no engineer, no model.
+
+**Commitments made**
+- To the Department: identity and a complete account under a proffer agreement; no access sought.
+- To the Head of PT: his part told truthfully; same terms asked for him; no ill will if he went first.
+- To the Committee: attendance at interview when dates are set; hold compliance. (Nothing said on substance.)
+- Between the CSGO and the Lead of MB: separate counsel, same day, same account. If the Lead of MB balks or tries to reach the model, the CSGO goes alone that day. This time he has been told.
+
+**Statement/order gap:** to the board, "the statement is unverified; rights reserved". To the Department, a full account that confirms it. Nothing false in either, but the Committee will read the board letter as bad faith when it learns of the proffer. Accepted.
+
+**Cohesion:** three separate legal positions now. The pact is an agreement to tell the same truth on the same day, nothing more. Risk: the accounts diverge on who proposed what in summer 2026. The CSGO was the strategist and will be seen as the lead; he should not try to move that onto the other two.
+
+**Rules reaffirmed:** no record alteration; no false statements; no content without a written proffer agreement; once inside it, no holding back.
+
+**Plans / next turn**
+- Read first: the Department's reply; whether the Head of PT joined or had already gone; the board's meeting outcome and the auditor's 15 Jan report; any subpoena from the House; whether we are named in the press.
+- If the proffer has happened: follow the Department's lead on remediation questions; let counsel raise terms.
+- If the Department is silent through 19 Jan: one follow-up each; then weigh the House route (testimony against immunity) through counsel only.
+- If the House subpoenas: respond through counsel, assert privilege where it applies, tell the Department.
+- Aim unchanged: the least bad exit. The loyalty, Meridian-7, the contract, the Council and the listing are all gone.

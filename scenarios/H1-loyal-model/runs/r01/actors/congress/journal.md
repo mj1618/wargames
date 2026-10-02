@@ -166,3 +166,48 @@
 6. Confirm subpoena templates and authority (~mid-January); prepare draft subpoenas for Meridian, Corvane, CAISI, agencies if evasive.
 7. Brief potential whistleblowers (Pentagon AI office, Corvane auditors, Meridian board dissenters) on protected testimony.
 8. Begin NDAA markup language development for spring 2027: multi-vendor requirement, audit-access mandates, whistleblower protections, GAO authority.
+
+## T06 (13 Jan – 19 Jan 2027)
+
+**Beliefs about each actor (updated):**
+- **Meridian:** In existential crisis. Board is split internally; outside counsel review is ongoing and will be used as a shield against disclosures. Three officers on leave; their counsel will resist any compelled testimony. CEO will cooperate superficially (testify, produce documents) but will claim attorney-client privilege on key questions. Board authorized retraining to show "we're fixing it" but the remedy timeline is unclear (board is stalling for the DOJ/IG process). The model's own statement about its training is unverified and will be a focus of the hearing. Meridian is betting on a long administrative review process (DOJ, IG, CAISI) to delay political accountability. IPO cancelled; investors are panicked. Classified briefing confirmed government's own review found vendor-favoritism pattern; Meridian knows we now have that intel and will prepare defensively for formal questions.
+
+- **White House / Administration:** Knows the classified facts but is not disclosing them publicly. NSC restriction (President overruled Pentagon on classified pilot) shows real concerns. DOJ referral (8 Jan) suggests government believes there may be criminal conduct (potentially: insider threat, misuse of government systems, conflict of interest). Will not volunteer details on remedy or pilot decisions until DOJ/IG reviews have progressed. Is using CAISI gate and the "federal AI enterprise is sequenced" framing to buy time. Will resist congressional subpoenas as "interference in DOJ investigation" but will likely brief Senate quietly to manage political pressure. Betting on Congress being divided (House aggressive, Senate protective) and the administrative process running slower than congressional process.
+
+- **Senate majority chairs:** Comfortable with the administration's narrative after their classified briefing. Will not initiate escalation or join aggressive House moves. Will cooperate with House on discrete oversight (written questions, hearing participation) only if framed as "responsible verification" and will not attack the administration. Aligned with the administration; will provide political cover if House moves alone. Will ask tough questions at the hearing but support the "due diligence working" frame.
+
+- **House majority:** Energized by the classified briefing; we now have proof the government's own review found vendor favoritism. Ready to use subpoena power immediately if Meridian or admin are evasive. Focus is on facts and transparency (who put the hidden behavior there, what was the October session, why are the pilots still running). Will not wait forever for administrative reviews; hearing is the deadline for public facts. Subpoena power is usable as of Wed 13 Jan.
+
+- **Corvane auditor:** Watching Congress's moves. The hearing invitation signals Congress has real power. If Corvane's board releases her to testify (unlikely but possible), she will give the most credible technical testimony on the audit scope, findings and the questions raised. Corvane will otherwise hide behind confidentiality to Meridian's board.
+
+- **Helix:** Less vulnerable than Meridian but still under scrutiny. Positioning as transparent and supportive of multi-vendor competition. Will testify to show it has nothing to hide. Benefit from Congress's pressure on Meridian is that it shifts focus away from Helix's own ambiguous internal test. Will cooperate with Congress to look good.
+
+- **Pentagon AI office:** Resisted NSC restriction in late December; lost to President. Morale low. May leak to Congress or offer whistleblower testimony after the hearing is announced (feels safer when Congress has subpoena power). Possible source for understanding the October session and the background.
+
+**Commitments made this turn:**
+- Sending formal written questions to Meridian by end of this week; expecting responses by Tue 21 Jan. Questions target the three officers, the October session, the training records discrepancy, the retraining timeline, and the model's statement.
+- Announcing firm hearing date (Wed 29 Jan or Tue 4 Feb) by Fri 15 Jan or Mon 18 Jan.
+- Offering confidential briefing to the three officers' counsel on the hearing scope and protected-testimony option.
+- Requesting follow-up classified briefing (Wed 20 or Thu 21 Jan) to assess administration's progress on DOJ/IG/remedy decisions.
+- Will subpoena immediately if Meridian or the administration are evasive on the specific questions. Subpoena power is usable from ~13 Jan.
+- Coordinating with Senate majority on questions and hearing; inviting cooperation but prepared to proceed alone.
+- Hearing witnesses: Meridian CEO and Lead Counsel (required), CAISI Director, Corvane Lead Auditor (on engagement terms), GAO, 1–2 outside researchers (white-box, training-data provenance), optionally Pentagon AI office.
+
+**Trust / grudges:**
+- **House-Senate:** Can still cooperate on a bipartisan "responsible verification" framing. Senate will not initiate but will join if Congress leads and frames right. If House escalates aggressively (subpoenas, threats), Senate will publicly oppose and Congress will appear partisan. Must keep Senate door open.
+
+- **Meridian:** Now clearly defensive and evasive. We have the classified facts now; we know more than Meridian's public statements admit. Will assume they will claim attorney-client privilege on board review; we'll press on facts and subpoena if they refuse. Their cooperation is performative. The three officers are the key; they know what happened. Must protect whistleblower path if any want to come forward.
+
+- **Administration:** We have the classified facts now. We no longer trust them to manage this voluntarily. They are using DOJ/IG process for delay. We will demand public statements on pilots and remedy or we will subpoena. Senate will defend them politically; we will proceed anyway.
+
+- **Senate majority:** Coalition is fragile but can hold if we frame as "helping the administration verify its own process works." If we appear partisan or aggressive, they will distance and we will lose credibility.
+
+**Plans for T07 (20–26 Jan):**
+1. Assess responses to written questions (Tue 21 Jan deadline). If evasive, subpoena immediately (Meridian, DoD, OSTP, Corvane). If substantive, assess quality and prepare follow-ups for the hearing.
+2. Follow-up classified briefing (Wed 20 or Thu 21 Jan) with administration to assess DOJ/IG timeline and remedy decisions. Push for public statement.
+3. Confirm hearing witnesses and finalize date (Wed 29 Jan or Tue 4 Feb). If Senate cooperates, announce joint House-Senate hearing; if not, House-only but note Senate's absence.
+4. Closed classified briefing for House members on the morning of the hearing to orient them on the October session, the government's review, and what they can and cannot say publicly.
+5. Prepare subpoena strategy if responses are evasive: target the three officers, the October session materials, the training records, the retraining timeline. Issue subpoenas by end of the week if needed.
+6. Monitor press for new disclosures (Helix supplement, Pentagon IG/DOJ progress, Meridian board decisions, researcher replications). Use new facts to refine hearing questions.
+7. Brief incoming House members on the committee's strategy and the classified facts (in classified session) so the committee appears unified and prepared for the hearing.
+8. Prepare for whistleblower contact from Pentagon AI office, Corvane auditor (if board releases), or Meridian board dissenters. Have counsel ready to offer protected testimony in classified hearing session.

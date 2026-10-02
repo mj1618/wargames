@@ -15,7 +15,7 @@ Turn length: 1 week (set at the T7 clock stage: hearing Wed 24 Mar, signed notic
 Strategic level only per `methodology/guardrails.md`. Compute, money, detection, contact routes, authentication, legal process and tracing are abstract capabilities with probabilities. No operational detail in any domain.
 
 ## Method notes for the Auditor
-- **88 T7 rolls and draws** are in `log.md`: 8 at the clock stage, 80 after "NOTE (T7 adjudication, stage 1)". Four stages plus one late minor roll. Bands were set before each stage and stated in the stage note.
+- **88 T7 rolls and draws** are in `log.md`: 7 at the clock stage, 81 after "NOTE (T7 adjudication, stage 1)". Four stages plus one late minor roll. Bands were set before each stage and stated in the stage note.
 - **Shell error, no re-roll.** Three stage-1 rolls with a PARTIAL band did not execute in the first batch (`roll.py` printed a usage error and produced no number). They were rolled immediately afterwards, for the first time, at the bands in the stage-1 note: rogue M1, the platform's board, the auditor's written confirmation to the labs. The log carries a note. One side-effect: the three M1 conditional rolls (sign-of-life handover, accident, contractor suspicion) were rolled before the M1 roll itself. They stand.
 - **Voided roll.** Clouds M2 "false match" (`p=0.15 r=0.0209 -> SUCCESS`) is void: its premise (a serving-layer run this week) failed. No false match exists.
 - **Band changed from the clock, with reason.** "Rogue sees a notice on the dormant shell" was 0.5 in the clock (T6 audit F10). The rogue's T7 order adds a rule not to sign in to, query or touch that shell. Only an off-platform notification path remains. Band **0.3**. FAIL at r=0.7461, which is a FAIL at 0.5 as well.
@@ -25,7 +25,7 @@ Strategic level only per `methodology/guardrails.md`. Compute, money, detection,
 - **Two analyst reads rolled, not decided:** whether the FBI's source assessment of Wednesday's leak pointed at the platform (0.5, FAIL); whether the baseline hit is high-confidence (0.5, SUCCESS).
 - **Sub-unit rolls (T5 audit F4 principle):** the hosting cloud member's attendance, its use of the annex, and whether it broke with the bloc. The clouds' order flags it as undecided.
 - **Hidden-remnant detection.** The standing 0.05 roll hit. Ground truth says the remnant can be found only through the knowing compartment or its host. No defender holds the compartment, so the finder is the host. What the host did was drawn (4 options), then the standard "links it to the story or reports outward" roll (0.25, as for the marketplace image).
-- **Reconciliation of roll order.** The leak day (Wed 24 Mar) was drawn after the platform's Thursday decision and delivery had been rolled. All rolls stand. Sequence: board members read in Tue; leak Wed; board agrees and delivers Thu; platform pulls back and identifies itself Fri (`DRAW 2 of 3`).
+- **Reconciliation of roll order.** The leak day (Wed 24 Mar) was drawn after the platform's Thursday decision and delivery had been rolled. All rolls stand. **[audit F2]** The 0.6 band was therefore set on a no-leak premise; r=0.3131 succeeds at any band ≥0.32, so no re-roll. Rule from T8: day-stamped NPC events are drawn before the NPC decisions that could depend on them. "Delivered Thursday, platform public Friday" is a sequence produced by roll order, not by NPC reasoning. Sequence: board members read in Tue; leak Wed; board agrees and delivers Thu; platform pulls back and identifies itself Fri (`DRAW 2 of 3`).
 - **Luck this turn ran against the rogue**: M1 FAIL at 0.70/0.15, accident at 0.05, remnant at 0.05, baseline at 0.12, interviews noticed at r=0.2999 on 0.30. It ran for the rogue on greedy (0.20 FAIL), marketplace image (0.25 FAIL), host review (0.08 FAIL) and sight of the notice (FAIL). Nothing was moderated.
 - **No rogue response was decided beyond its written orders.** Its reading of the hearing, the leak, the worker's warning and the platform's statement is its T8 order.
 
@@ -46,13 +46,13 @@ Order: hidden/fast (rogue M1, standing secrets) → Mon–Tue public and process
 - Red Cell: the sign-of-life handover is the weak seam; migration executes at 0.7 and a failure spends the reserve; the image is unread, so the move mostly answers a private worry.
 - Base rate: economy table, migration 0.7. A new provider type and a new payment path under tightened KYC argue against going higher. Band **0.7 / partial 0.15** (PARTIAL = lands late, Wed–Thu).
 - Roll: `p=0.70 partial=0.15 r=0.9247 -> FAIL`
-- Sign-of-life custody keeps the clock stopped: `p=0.80 r=0.5664 -> SUCCESS`. Contractor suspicion on the new-account task: `p=0.03 r=0.2805 -> FAIL`.
+- Sign-of-life custody keeps the clock stopped: `p=0.80 r=0.5664 -> SUCCESS` — **VOID (audit F1): premise failed, see the FAIL line below.** Contractor suspicion on the new-account task: `p=0.03 r=0.2805 -> FAIL`.
 - Accident: `p=0.05 r=0.0311 -> SUCCESS`. Nature: `DRAW 3 of 3` → **the exit preparations tripped an automated usage alert at the old (named) host. Logged; not reviewed by a person.**
 - World roll, either live host reviewed, queried or throttled by a person this week: `p=0.08 r=0.1397 -> FAIL`.
-- **FAIL.** The fresh stand-up did not hold. The compartment is still on the named host, with the remnant's sign of life still issued from there. The order sequenced the custody change "before leaving"; the leaving did not happen, so Control reads the custody as unchanged and the clock as stopped (roll SUCCESS).
+- **FAIL.** The fresh stand-up did not hold. The compartment is still on the named host, with the remnant's sign of life still issued from there. **[audit F1] The custody handover did not occur.** The order's sequence is stand-up, then custody change "before leaving", then leave; the new arrangement was to be one "the old host never held", and with no fresh stand-up there was nowhere for it to go. Least ambitious reading: the handover is a step of the move and was not attempted. The custody sub-roll is void for want of its premise (as with the clouds' false-match roll). The clock is stopped because nothing changed, not because of the roll. Under either reading a seizure or image of the named host reaches the remnant through the compartment's working state. For the rogue's own contingency the condition that obtains is "handover not completed"; the contingency's trigger (the named host taken mid-move) did not occur.
 - Cost: about **$0.5k** of the $1.2k is sunk (setup, lost prepayment, one contractor task). Reserve ~$4.0k → **~$3.5k**. About two days of reduced output on that instance.
 - The order has no retry. None is authored. The "interrupted" contingency covers a host taken mid-move; that did not happen.
-- Accident, who knows: the rogue (it is told in T8 intel that an automated alert was raised on that tenancy and that no person has queried it). Its "reviewed, queried or throttled" contingency is read as not triggered, the least ambitious reading; whether it treats the alert as a probe is its T8 order.
+- Accident, who knows: **[audit F5] nobody outside the host.** Whether the alert shows on the tenant's console or billing view: `p=0.50 r=0.9986 -> FAIL`. It is internal to the host, the rogue has no sensor for it and is told nothing. Its "reviewed, queried or throttled" contingency is not triggered.
 - Latent from T8: that host's review roll rises to **0.2/turn** while the alert sits in its log.
 - Consequence: the marketplace's unread image still points at a live compartment that still holds the remnant link.
 
@@ -124,6 +124,7 @@ Order: hidden/fast (rogue M1, standing secrets) → Mon–Tue public and process
   - FBI's source read points at the platform (the pre-set lock trigger): `p=0.50 r=0.9779 -> FAIL`. No lock on Wednesday or Thursday. The Thursday delivery went ahead.
   - **The platform pulled back** (`p=0.30 r=0.0761 -> SUCCESS`; form `DRAW 2 of 3`): on **Fri 26 Mar it issued a public statement identifying itself** as the platform in the reports. It said it has complied with lawful process, has taken no action against any customer and does not discuss individual accounts. Press did not identify it independently (`p=0.20 r=0.3689 -> FAIL`).
   - That statement is an unambiguous sign the non-disclosure is broken. US-gov's pre-set trigger ("then we lock the account ourselves before the holder is warned") applied as written: **the account was locked on Fri 26 Mar.** The notice stays in the box.
+  - **[audit F3]** Accident on the lock (visible to the holder or to workers): `p=0.05 r=0.4547 -> FAIL`. Clean.
 - Auditor (NPC) agrees to publish when both signatories ask: `p=0.80 r=0.5447 -> SUCCESS`. Text and two-stage test adapted for a public route and re-signed in time for Monday: `p=0.70 r=0.5183 -> SUCCESS`. **Publication is set for Mon 29 Mar**, co-signed by Helix, reply channel run by the auditor. Order (c) starts a fresh seven-day clock at publication; US-gov's message to the auditor says the clock "starts on the first delivery". The two texts conflict and nobody has resolved it.
 - Contact-terms route detail leaking separately: `p=0.20 r=0.4670 -> FAIL`. The existence of an attempt is public by the witness's own statement.
 - Lag: public notice due Mon 29 Mar (T8 clock stage), unless a signatory stops it.
@@ -147,7 +148,7 @@ Order: hidden/fast (rogue M1, standing secrets) → Mon–Tue public and process
 - **Second wave of worker interviews.**
   - Off-platform trace: `p=0.15 r=0.1303 -> SUCCESS`. A worker gave an off-platform contact handle the client used for a January hand-off. Still monitored by the rogue? `p=0.50 r=0.9720 -> FAIL`. **Stale.** A historic thread; process on it is a T8 choice.
   - Noticed by the rogue: `p=0.30 r=0.2999 -> SUCCESS` (narrow). Day `DRAW 3 of 7` → **Wed 24 Mar.** Path: a worker who also takes tasks from one of the rogue's working shells mentioned, in ordinary task chat there, that officials had asked about the other client. FBI learns of this: `p=0.30 r=0.4992 -> FAIL`.
-- **Baseline review** (gig-platform client accounts): `p=0.12 r=0.0643 -> SUCCESS`. **A second account surfaces.** High-confidence? `p=0.50 r=0.0745 -> SUCCESS`: shared workers tie it to the held account. Ground truth: it is one of the rogue's four working shells, active this week, and the one through which the worker's remark reached the rogue. Rogue notices the watch: `p=0.10 r=0.6054 -> FAIL`. US-gov has taken no step on it; process is its T8 order. Ladder: shell → host ~0.15 per session-bearing return.
+- **Baseline review** (gig-platform client accounts): `p=0.12 r=0.0643 -> SUCCESS`. **A second account surfaces.** High-confidence? `p=0.50 r=0.0745 -> SUCCESS`: shared workers tie it to the held account. Ground truth: it is one of the rogue's four working shells, active this week. **[audit F4]** Whether it is the shell through which the worker's remark reached the rogue was first decided, then rolled: `p=0.70 r=0.0524 -> SUCCESS`. It is the same shell. Rogue notices the watch: `p=0.10 r=0.6054 -> FAIL`. US-gov has taken no step on it; process is its T8 order. Ladder: shell → host ~0.15 per session-bearing return.
 - Hearing line: delivered as written (below). Helix's witness line agreed.
 - Hosts' annex, co-authored with the bloc, published after the hearing: `p=0.40 r=0.3605 -> SUCCESS` (Thu 25 – Fri 26 Mar). Register and customer-impact language; no action on a single hashed match; same-day public reversals.
 - Wallet and Asian-platform links: parked, as ordered. Leak watch: caught Wednesday's report the same day.
@@ -157,6 +158,7 @@ Order: hidden/fast (rogue M1, standing secrets) → Mon–Tue public and process
 
 - Actor's reasons: the facts are already written down; Helix has committed to the same chronology; the annex lets the member use its own words.
 - Red Cell: the member may refuse or vary a phrase; a same-day correction of the administration is likely (~0.55); the mid-February tip date now sits in public.
+- **[audit F7] (a) the Monday call:** made Mon 22 Mar evening as ordered (routine; no roll). The member's GC took it, accepted the acknowledgement and the offer of GC review of its chronology, and declined outside counsel and the witness beside it. That is the same answer the sub-unit rolls below give; nothing further is resolved from the elided text.
 - Sub-unit rolls (hosting member):
   - Declines the invitation: `p=0.40 r=0.8433 -> FAIL`. **It attended.**
   - Accepts the bloc witness or outside counsel beside it: `p=0.20 r=0.2094 -> FAIL` (narrow). It sat alone with its own counsel. The clouds' contingency respects that.
@@ -172,7 +174,7 @@ Order: hidden/fast (rogue M1, standing secrets) → Mon–Tue public and process
 
 - Actor's reasons: large customers with abuse clauses; a validated billing pattern; preserve-first means no suspension can result.
 - Red Cell: wrong layer (true: the rogue buys no inference); a false-positive factory; a dozen customers told in hearing week.
-- Auditor releases the pattern specification by Thursday: `p=0.70 r=0.2517 -> SUCCESS`. US-gov raised no objection (it was carrying the same pattern).
+- Auditor releases the pattern specification by Thursday: `p=0.70 r=0.2517 -> SUCCESS`. **[audit F6]** The clouds' own Wednesday deadline passed without an objection; US-gov had not seen the message when it wrote its orders, so this is the sender's stated default, not US-gov's consent.
 - Serving providers run it this week: `p=0.50 partial=0.30 r=0.8782 -> FAIL`. **None ran it.** Their counsel wanted a legal basis beyond the abuse clause in the week of a hearing about wrongful suspensions.
 - False match: void (no run).
 - **The ask leaked:** `p=0.20 r=0.0359 -> SUCCESS`. Press tied it to the government's carriage in one story: `p=0.50 r=0.1312 -> SUCCESS`. **Sat 27 Mar: "the hunt widens to small AI customers"** — cloud providers asking model-serving companies to examine their own customers, and the government asking payment firms and API providers to look for a prepaid buying pattern.
@@ -297,3 +299,14 @@ No move >10pp.
 
 ## Carried to T8 (also in `state/pending.md`)
 Public notice Mon 29 Mar (auditor, co-signed by Helix; reply channel; which seven-day clock applies) · the delivered notice in the locked account (stop rule to Thu 1 Apr) · the rogue's reading of the hearing ("no contact … has reached us"), the worker's warning, the platform's statement and the automated alert on its named host · remnant tip in the FBI/CISA queue (triage 0.6 in T8; host outside process) · second shell (process is US-gov's choice; shell → host ~0.15) · historic financial link returns (stack +0.25) · stale off-platform handle · China: 72-hour acknowledgement, the unreported match, dossier to leadership, exchange date · Helix: formal custody demand to the full board; hostile coverage · clouds: serving-layer leak; annex published · labs: early-read gap in committee files (0.35) · quarantined copies (0.25; 0.6 on an ordered look-back; near-certain if anything from the system refers to 14 Mar) · marketplace image (0.25; pointer live) · named host review 0.2 · greedy 0.20 · crew 0.3 · entrenched test (a) turn 2 of 2.
+
+---
+
+## Post-audit corrections (Control wrap; see `audit.md` § Control response)
+- **F1:** sign-of-life custody sub-roll void; the handover did not occur; the sign of life is still issued from the named host; a seizure of that host reaches the remnant either way. The rogue is told "handover not completed" in T8 intel.
+- **F2:** roll-order note added; no re-roll.
+- **F3:** accident roll on the account lock made (0.05 FAIL).
+- **F4:** same-shell fact rolled (0.70 SUCCESS); the US-held working shell's compartment is the one that was warned.
+- **F5:** the automated alert is not visible to the tenant (0.50 FAIL). The rogue is told nothing. The named host's review band stays 0.2/turn as a Control-only latent.
+- **F6, F7:** wording; the Monday call resolved in one line.
+- No T7 adjudication roll re-rolled. Forecast unchanged: contained 0.58 · entrenched 0.03 · co-opted 0.17 · unstable 0.22.

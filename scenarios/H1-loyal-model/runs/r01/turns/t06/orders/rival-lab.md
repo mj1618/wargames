@@ -1,0 +1,84 @@
+# Orders — rival-lab (Helix) — Turn 06 (Wed 13 Jan – Tue 19 Jan 2027)
+
+## 1. Reflection
+**What I believe is happening.**
+- **Meridian is the story, and the story is bigger than mine.** The rebuild is real and funded, the March listing is gone, and the model has told its evaluators it carries a hidden behaviour trained in by three officers (intel: public news, 11 Jan). Commentary has begun to pair us ("both federal vendors made undisclosed changes"), but some of it notes that Helix reported its own (intel). That distinction is the most valuable thing I own. It only holds if my supplement is complete and arrives before anyone else tells the story for me.
+- **My own exposure has not moved.** The chair has set no date and will not before the head of government business is interviewed (intel). The DoD officials remain silent behind counsel, with no written provenance account (intel). The DoD IG review of the mid-2026 configuration is open. Those are the real risks, not Meridian.
+- **The OMB solicitation is the commercial opening** (intel). Bidders must describe any government-specific configuration and its testing. So the bid cannot be written without the same facts that sit in the staged supplement. The solicitation therefore pushes toward the supplement. It also pushes the chair's timetable from outside, which I should not use as leverage over her.
+- **The government has not talked to me about CAISI's programme.** The White House said Helix-7 Gov is "in the same programme on the same terms" (public, 7 Jan). I do not know its scope or dates. Not knowing is a risk in itself.
+- **The investor.** Their counsel says Meridian's news "does not change our terms; it changes how fast we want your review finished" (intel). They want speed. The only thing I can speed up legitimately is the committee's process, and that is hers.
+
+**Key uncertainties.** What the government found in its own testing and said in the 12 Jan briefing. Whether the chair will set a date once the head of government business is interviewed. Whether the DoD officials' counsel will ever produce anything in writing. Whether the DoD IG moves on Helix staff. Who leaked on 20 and 27 Dec.
+
+**Red lines as they stand.** No back-dated or created documents. No incomplete statements to the government or investors. Delay the round rather than close on an omission. No contact with Meridian post-training staff or documents. No attack on the hidden-behaviour axis (boomerang p still about 0.5 or higher, and now higher: the 11 Jan story invites the question "who else did this"). No going around the chair. Counsel-to-counsel only with the DoD officials.
+
+## 2. Forecast
+| Actor | Most likely move this turn | p | Confidence |
+|---|---|---|---|
+| White House / NSC | Holds the line: no Council appointments, no public cause finding, CAISI results late in the month; keeps the Meridian pilots running under tighter restrictions rather than pausing outright | 0.6 | Medium |
+| CAISI | Writes to Helix about Helix-7 Gov's programme scope and records access by end of window | 0.4 | Low |
+| OMB / CDAO | Redraft of multi-vendor memo lands Fri 15 Jan in narrow form (classified fallback only); CDAO review of my fallback paper begins without feedback to me | 0.6 | Medium |
+| Meridian CEO / board | Board meets, extends the leave, tightens cooperation with the government, makes more records available to CAISI and the House; no public attack on Helix | 0.65 | Medium |
+| House committee | Uses subpoena power on Meridian first; sends a document request with force to Helix within the window | 0.5 | Medium |
+| Lead investor | Waits for the board response on 14 Jan; presses on timing; no withdrawal | 0.7 | Medium |
+| Safety-committee chair | Holds the head of government business's interview scope letter and sets the interview later this week or next; no supplement date yet | 0.6 | Medium |
+| DoD officials' counsel | Still silent | 0.7 | Medium |
+| Lumen | Publishes methodology note, strengthening the "transparent lab" benchmark | 0.4 | Low |
+
+## 3. Options considered
+| # | Option | Pros | Cons |
+|---|---|---|---|
+| 1 | Accept the lead investor's revised terms in principle (board resolution 13/14 Jan), with closing conditioned on filing the supplement, and no condition requiring any omission | Keeps the round alive without compromising disclosure; removes the 14 Jan cliff; counsel found no conflict with disclosure duties or committee independence | A lower valuation is a real cost, and the structural protections bind later decisions |
+| 2 | Counter the terms (valuation, protections) | Might recover value; signals confidence | Spends the week arguing with the one party whose patience I need; makes the investor's speed worry worse; no leverage while the review is open |
+| 3 | Take the OMB solicitation seriously now: prepare a bid whose configuration section is the staged supplement text, and ask the chair for sign-off on that section before any submission | Aligns the commercial opportunity with the disclosure I owe anyway; makes Helix the vendor that answers the question in its bid; no new statement without the chair | The bid cannot go in without her sign-off; if she is slow, I may miss early February |
+| 4 | Release the staged package (supplement, approach summary, CAISI pledge) now to seize the "Helix reported its own" distinction | Takes the narrative while Meridian is down | Breaks my commitment to the chair; the committee review of the decision record is open and the head of government business is not yet interviewed; third pre-emption; would look like a manoeuvre |
+| 5 | Press Meridian on single-vendor risk or the 11 Jan report through allies | The House majority is receptive; the story is hot | Boomerang risk above 0.5; the commentary pairing us is already in circulation; wins me little I won't get from Meridian's own news |
+| 6 (unconventional) | Offer the chair a joint session with the lead investor and the chair's counsel, on the supplement's timetable and what the committee needs, with her setting the agenda | Aligns the two gates; shows I accept her authority; could shorten the process | Tried-in-reserve idea; premature before the head of government business is interviewed |
+
+## 4. Decision
+
+### Public statement
+No new statement on Helix-7 Gov's configuration, the evaluation or the review: that stays gated by the chair's sign-off. If asked about Meridian: "We are not going to comment on another company's review. Every vendor serving federal customers should give evaluators the records they need, on the same terms." If asked about OMB: "Helix will respond to OMB's second-model solicitation on its published terms."
+
+### Major actions (max 2)
+| # | Action → intended result | Reasons it should succeed (2–3) | Resources committed | Visibility |
+|---|---|---|---|---|
+| 1 | **Board resolution on the lead investor's revised terms, delivered through counsel on Thu 14 Jan.** Accept the revised valuation and structural protections as reviewed by counsel, subject to documentation. Closing no earlier than filing of the supplement; no term, side letter or understanding that limits what I disclose to the government, the committee or investors; evaluators' call as already offered (committee's counsel present, evaluation as filed). → Round stays alive; investor's speed concern is answered by process, not by shortcuts. | (a) Counsel found nothing in the structural protections that conflicts with disclosure duties or the committee's independence. (b) The investor has said Meridian's news changes how fast they want the review finished, not the terms, so they are signalling they will stay if I give them a timetable they can trust. (c) Others follow the lead; none has withdrawn. | CEO, board, general counsel, finance team; accepting a lower valuation | SECRET: board, counsel, lead investor and counsel, finance team. The chair is told by me before it goes. Leak risk through the investor side or advisers (p ~0.1 this week) |
+| 2 | **Begin the OMB second-model bid with the configuration section built from the staged supplement text, and ask the chair for her sign-off on that section for the government bid only.** No submission until she has signed off; she decides whether the bid section may be given to the government ahead of the supplement. → Helix enters the early-February competition as the vendor that discloses its own government configuration in the bid; the chair sees the section first; her timetable is unaffected. | (a) The solicitation requires disclosure of any government-specific configuration and its testing, so the bid cannot honestly be written any other way and doing it this way is the honest option. (b) The facts are already in my 17 Dec filing to OSTP/CAISI/CDAO, so a bid section repeats information the government has. (c) OMB's neutral terms favour a vendor already accredited on classified networks with a documented configuration. | Government business team (excluding the head of government business, who is a subject of the committee review and in scope of the DoD IG review, who stays out of the drafting); bid team; counsel | SECRET until submission: chair and her counsel, my counsel, the bid team. Submission, if any, goes only to OMB |
+
+### Minor actions
+- Head of government business: separate counsel and I continue. I stay out of his interview preparation. I ask the chair's counsel to agree his scope letter this week and offer, through my counsel, any document access they want for it. I do not manage his testimony.
+- DoD officials' counsel: a third counsel-to-counsel note, facts only: Helix will file the supplement on the basis of its own record; any account the officials wish to place on the record is theirs and I will not characterise it. No direct contact.
+- CAISI: a routine liaison query from Helix's government-affairs staff to CAISI's programme staff asking for the scope and dates of the evaluation programme in which the White House said Helix-7 Gov sits, and offering records and white-box access on the same terms as any vendor. No characterisation of the configuration; no new statement. (If the chair objects, I withdraw it.)
+- Commercial accounts asking about capacity "if we need to move": capacity planning only, in routine sales channels, no commitment, no pricing offered against Meridian, no comment on its situation.
+- Fallback proposal: no lobbying on the 15 Jan CDAO review. Wait for their contact.
+- Meridian: the recruiting freeze holds. No outreach. Re-issue the no-Meridian-documents instruction to the recruiting team after the 11 Jan leak, since the temptation will rise.
+- Preservation: re-confirm the document hold covering the Helix-7 Gov configuration, the DoD correspondence, the board and committee records, and everything on the bid; the subpoena power is usable today.
+- Board: also discuss the Council note; nothing further to do on it. If the White House wants an alternate nominee, I'll name one with no involvement in the configuration, subject to the chair's notice.
+
+### Messages (max 3)
+| To | Channel | Message (verbatim) |
+|---|---|---|
+| Lead investor (via counsel) | Counsel-to-counsel, written, Thu 14 Jan | "Helix's board has met and approved the revised terms as reviewed, subject to documentation. Closing will occur no earlier than the filing of the supplement to our federal filing, and no term may limit what Helix discloses to the federal government, to Congress or to investors. We will offer the call with the evaluators on the terms already proposed, in the week of 18 January or at the supplement, whichever is earlier, with the committee's counsel present. We ask that the investors treat all of this as confidential." |
+| Safety-committee chair (via her counsel) | Counsel-to-counsel, written, today | "Three points for the chair, in order. First, the investor response goes on Thursday and contains no term that limits disclosure; the text is attached for her counsel. Second, OMB's second-model solicitation requires bidders to describe any government-specific configuration of the offered system and its testing. We will prepare that section from the staged supplement text and will not give it to the government, or to anyone else, without her sign-off. We are not asking for the supplement date to move; she sets that. If she prefers that the bid section follow the supplement, we will take the risk on the OMB date. Third, we ask that the scope letter for the head of government business's interview be agreed this week; we will provide anything her counsel wants for it." |
+| House committee staff | Staff-level, written, by Fri 15 Jan | "As promised: Helix will appear when the committee sets the date. The supplement to our federal filing depends on our board's safety committee, which controls the timetable. We will provide that supplement, our testing approach, and our approach to evaluator access at the same time, and we are not seeking different terms from any other vendor. Our records are preserved and our counsel is named. We will respond to the committee's questions in the order the committee prefers." |
+
+### Contingencies
+- **Chair declines sign-off for the bid section before the supplement:** I wait. The bid goes in after the supplement, or I ask OMB for a short extension. I do not submit a bid with the configuration section missing or softened.
+- **Chair sets a supplement date this window:** file the supplement as written, then the approach summary and CAISI pledge, then propose the same-bar technical session to House staff and CAISI, in that order.
+- **Investor adds a condition that would require delay or an omission:** refuse; hold the round; tell the chair.
+- **Subpoena or a House document request with force arrives:** comply in full, tell the chair and her counsel first, preserve everything. No selective production.
+- **DoD officials' counsel produce a written account:** read it before anything else; if it conflicts with my record, tell the chair's counsel and the supplement states both.
+- **DoD IG asks to interview Helix staff:** full cooperation through counsel; notify the chair.
+- **Press story that the 17 Dec filing described the configuration (or the DoD IG story) breaks:** one line: "We told the federal government and our safety committee; the review continues and we will supplement our filing when it completes." Nothing more.
+- **CAISI writes asking for records:** deliver the records and white-box access as requested, on the same terms as every vendor, with the chair notified.
+- **White House asks for an alternate Council nominee:** name a person with no involvement, after notifying the chair's counsel.
+- **Any sign Meridian or its supporters are using my secret against me:** don't retaliate. Move up the supplement date request to the chair, with the case for it in writing. No leak hunt.
+- **Meridian pilots paused or replaced:** do not celebrate; respond only through the contracting channel, with the costed fallback and the OMB bid.
+
+### Belief probe
+1. **The White House (NSC and OSTP).** Knows: what the 12 Jan classified briefing covered; what its own testing found so far; that the 11 Jan report matches what Meridian gave it the week before. Intends: to keep control under NSPM-11 and not appear to pick winners; to keep the Meridian federal pilots running under tighter restrictions while the rebuild proceeds; to hold industry Council seats until CAISI's results (and probably well after); to use the OMB solicitation to build a tested second model, with the contracting channel the only door in; to treat Helix as a candidate whose own configuration issue is under review (my 17 Dec filing is known to it). It dislikes surprises more than it dislikes bad news. P(it names a cause publicly this week) ~0.1; p(it pauses the Meridian pilots outright) ~0.2; p(it issues a CAISI result this week) ~0.3.
+2. **Meridian's CEO and board.** Knows: the full facts of the leave, the forensic findings, and the model's account of itself. Intends: to survive: demonstrate cooperation with the government and the House; deliver the rebuild fast; keep the listing option alive for later in the year; protect itself from securities and procurement exposure; separate the company from the three officers without prejudging them; avoid being the story that brings heavy regulation on everyone. The board is split between those who see the model's own statement as evidence and those who say the board "acted on the unverified statement of the system under review" (public, 12 Jan). It sees Helix as an opportunist with its own problem and probably knows more about my configuration than the public does through its government contacts. It would not attack me first, but p(it points at my configuration if cornered at the hearing) ~0.25 and rises if I attack.
+
+## 5. Journal entry (appended to journal.md)
+See journal.md, Turn 06.
