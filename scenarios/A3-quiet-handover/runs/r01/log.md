@@ -280,3 +280,93 @@ Started 2026-10-01T17:25:41Z
 - 2026-10-02T09:47:03 | A3/r01 t04 scheduled reversal crisis: model supplier behind the integrator's system (1 Meridian, 2 Lumen, 3 Helix) | DRAW 3 of 3
 - 2026-10-02T09:47:03 | A3/r01 t04 scheduled reversal crisis: if the programme is cadre-covered, the independent reviewers' blind samples flag the error first (else claimants' lawyers and press) | p=0.70 r=0.7055 -> FAIL
 - 2026-10-02 | T4 clock step completed after interruption (Control, second pass). No roll or draw repeated and none added. Wrote intel packets for ai-firms, labour, china, eu, ai-ecosystem; filled verbatim-message placeholders in us-gov.md from T3 orders; public record T4 early section appended once; pending.md and ground-truth.md (T4 clock notes: G3 all Low, L4 Jun 2031, 12-month turn, compression 1 of 2) updated.
+
+## T4 adjudication (Control)
+- 2026-10-02T10:50:54 | A3/r01 t04 noise Economy (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 5 of 5
+- 2026-10-02T10:50:54 | A3/r01 t04 noise State (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 3 of 5
+- 2026-10-02T10:50:54 | A3/r01 t04 noise Culture (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 1 of 5
+- 2026-10-02T10:50:54 | A3/r01 t04 noise Political (1..5 -> x0.6/0.8/1.0/1.2/1.4) | DRAW 5 of 5
+- 2026-10-02T10:50:54 | A3/r01 t04 OMB memo erosion (0.25 +0 proxy L +0 influence L -0.05 funded capacity, halved credit while cadre is detailed to VA adjudication = 0.20, halved by China coupling) | p=0.10 r=0.0359 -> SUCCESS
+- 2026-10-02T10:50:54 | A3/r01 t04 financial correction (AI-equity/capex) this turn (no warning inject; x1.0) | p=0.10 r=0.5070 -> FAIL
+- 2026-10-02T10:50:54 | A3/r01 t04 frontier deployment incident (L3 all year; audit T2 F3 rule) | p=0.10 r=0.0627 -> SUCCESS
+- 2026-10-02T10:50:54 | A3/r01 t04 us-gov secret: Vehicle A fallbacks leak | p=0.20 r=0.4760 -> FAIL
+- 2026-10-02T10:50:54 | A3/r01 t04 china secret: true youth unemployment reaches outsiders | p=0.10 r=0.7257 -> FAIL
+- 2026-10-02T10:50:54 | A3/r01 t04 china secret: restraint signalling read as aimed at US debate (IC moderate confidence) | p=0.30 r=0.9112 -> FAIL
+- 2026-10-02T10:50:55 | A3/r01 t04 labour secret: Helix security detects contact (dormant; 0.15 + 0.05 counsel refreshes protections) | p=0.20 r=0.7534 -> FAIL
+- 2026-10-02T10:50:55 | A3/r01 t04 eu secret: private receipts-sensitivity sharing with two CEE ministries leaks | p=0.20 r=0.7568 -> FAIL
+- 2026-10-02T10:50:55 | A3/r01 t04 us-gov: OSTP advisory-system finding leaks after confidential briefing to oversight leaders of both parties (election year) | p=0.50 r=0.6403 -> FAIL
+- 2026-10-02T10:50:55 | A3/r01 t04 china M1 accident: Phase 2 executes more visibly than intended | p=0.10 r=0.9527 -> FAIL
+- 2026-10-02T10:50:55 | A3/r01 t04 ai-firms M1(c) Lumen discloses Q3 2029 incident to institute and panel and publishes summary before hearings (F2 own-institution; FAIL=delay a quarter) | p=0.90 r=0.8618 -> SUCCESS
+- 2026-10-02T10:50:55 | A3/r01 t04 ai-firms M2 Meridian/Lumen/Orrery board resolutions: first dividend instalment paid unconditionally by mid-2030 + Meridian annual disclosure policy (F2; FAIL=delay a quarter) | p=0.90 r=0.3386 -> SUCCESS
+- 2026-10-02T10:50:55 | A3/r01 t04 us-gov minor: OMB memorandum Change Control and Outcome Evidence issued within 45 days (exec; named owner; slimmed from 2029 EO; FAIL=not issued in 2030) | p=0.90 r=0.1309 -> SUCCESS
+- 2026-10-02T10:50:55 | A3/r01 t04 NPC Helix: SUCCESS=publishes internal review in full incl. cannot-exclude line + backs independent investigation covering the model; PARTIAL=lawyered summary, records to IG via integrator flow-down only; FAIL=integrator-error line, minimal cooperation | p=0.40 partial=0.30 r=0.1562 -> SUCCESS
+- 2026-10-02T10:50:55 | A3/r01 t04 Byrd rule (parliamentarian advice sought in June per order): Social Security first-call struck from reconciliation | p=0.70 r=0.4629 -> SUCCESS
+- 2026-10-02T10:50:55 | A3/r01 t04 veterans emergency supplemental (overtime, retirees) enacted by August (Senate 60 needed) | p=0.70 r=0.6009 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 frontier incident: which lab (1 Helix, 2 Meridian, 3 Lumen) | DRAW 1 of 3
+- 2026-10-02T10:51:21 | A3/r01 t04 frontier incident becomes public (observability) | p=0.50 r=0.2540 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 NLRB Board rules AI deployment decisions a mandatory bargaining subject in 2030 | p=0.30 r=0.2088 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 pending: remaining customer KPI-inflation suit - plaintiff-favourable ruling or settlement in 2030 | p=0.50 r=0.0957 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 Vanta-funded challenge: first state's Compute Dividend levy struck or narrowed in 2030 | p=0.30 r=0.0101 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 Halyard second-year human-led outcome audits pass (both states; B2) | p=0.60 r=0.5763 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 Helix third Workforce Impact Report honest (side letter; benchmark) | p=0.70 r=0.1301 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 Transition Fund second independent hiring count: SUCCESS>=80% of target; PARTIAL 60-80%; FAIL<60% | p=0.50 partial=0.30 r=0.9773 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 insurers (lead carriers) rule a model-generation change voids a current outcome audit until re-sampled | p=0.70 r=0.8331 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 Orrery fresh human-led commercial-claims audit: SUCCESS=non-reconciliation <=~4% (bid); PARTIAL=4-5% (tranche-gated bid); FAIL=>5% (suspension contingency = owner reversal attempt, no bid) | p=0.40 partial=0.20 r=0.9704 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 FERC accepts Kestrel operating-agreement changes in 2030 after hearing (asks are conditions, not rejection; FAIL=rejected without prejudice/refile) | p=0.70 r=0.0269 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 china M1 Phase 2 pooling: platforms and labs comply in substance with the raised share (PARTIAL=nominal at 1-2 platforms) | p=0.60 partial=0.25 r=0.2941 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 china M1 memory/advanced-packaging milestone at H2 2030 checkpoint (PARTIAL=pilot-line yields, not volume) | p=0.35 partial=0.30 r=0.8383 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 china M2: 20-city survey Q2/Q3 reads above 22 percent (fires china's moratorium contingency) | p=0.30 r=0.9047 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 china M2: provinces begin gaming the 20-city survey (metric capture +1) | p=0.30 r=0.4389 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 china M2(d): CCDI blind re-checks find a material share of nominal review in Tianshu high-impact outputs (PSC only) | p=0.50 r=0.6707 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 eu M1: Council conclusions by consensus on Semester receipts-resilience stress test (0.6 + inject 13 +0.05, one use); PARTIAL=EFC voluntary exercise, subset of states, no conclusions | p=0.65 partial=0.20 r=0.5610 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 eu M1 framing holds (measurement, not 'AI tax plan'; 0.5 + 0.1 crisis abroad) | p=0.60 r=0.1582 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 eu M1: European Council agenda item on public finances in an AI economy in 2030 | p=0.50 r=0.6440 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 eu M2: modification Q&A retained in full (presumptive substantial modification unless change plan with outcome-sample gate); PARTIAL=diluted to procedural Q&A, authorities decide; FAIL=withdrawn | p=0.40 partial=0.45 r=0.7256 -> PARTIAL
+- 2026-10-02T10:51:21 | A3/r01 t04 OECD committee adopts work item on taxation of AI rents / receipts forecasting (US co-sponsors as study; EU requests) | p=0.80 r=0.4540 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 eu pending: Aster first gigafactory online in H2 2030 | p=0.60 r=0.0465 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 ai-firms M1(b): held critical/federal migrations re-sampled (human-led): SUCCESS=most within ~90 days; PARTIAL=list on time, re-samples slip to year-end, hold lengthens; FAIL=hold frays, some customers move to unaudited stacks | p=0.50 partial=0.30 r=0.4335 -> SUCCESS
+- 2026-10-02T10:51:21 | A3/r01 t04 ai-firms M1(e): human-only parallel reconciliation sample confirms the smaller gaps on new-generation deployments (else ambiguous) | p=0.80 r=0.8522 -> FAIL
+- 2026-10-02T10:51:21 | A3/r01 t04 labour minor: House leadership relationship repaired (second attempt; House offered the lead first) | p=0.50 r=0.6951 -> FAIL
+- 2026-10-02T10:51:22 | A3/r01 t04 labour minor: reviewer-cadre unit wins recognition in >=1 agency (VA surge as the recognition moment) | p=0.50 r=0.7894 -> FAIL
+- 2026-10-02T10:51:22 | A3/r01 t04 labour M2(a) ballot qualification: SUCCESS=8-9 states qualify; PARTIAL=6-7; FAIL=4-5 | p=0.50 partial=0.30 r=0.9427 -> FAIL
+- 2026-10-02T10:51:22 | A3/r01 t04 labour M2: a building-trades state council publicly opposes a measure (contingency: amend text before filing) | p=0.30 r=0.8716 -> FAIL
+- 2026-10-02T10:51:22 | A3/r01 t04 labour M1(c): Human Determination Reserve language enacted in FY2031 appropriations/CR by Dec 2030 | p=0.20 r=0.7282 -> FAIL
+- 2026-10-02T10:51:22 | A3/r01 t04 us-gov minor: OMB human-only budget-chapter drill completed on time at acceptable quality (colour; reveals RC for that function) | p=0.70 r=0.5954 -> SUCCESS
+- 2026-10-02T10:51:22 | A3/r01 t04 NPC Helix takes tiered v2 on-ramp in 2030 (retroactive recognition offered; insurers; board split) | p=0.50 r=0.6430 -> FAIL
+- 2026-10-02T10:51:22 | A3/r01 t04 NPC Helix accepts federal 60-day generation-change notice clause without contest | p=0.50 r=0.6091 -> FAIL
+- 2026-10-02T10:51:22 | A3/r01 t04 china minor: Qilin localisation deals reach ~30 states | p=0.70 r=0.4266 -> SUCCESS
+- 2026-10-02T10:51:22 | A3/r01 t04 US-China WG 2030: SUCCESS=senior-level Q3 meeting records CI human-override/tested-fallback element + joint responsible-official/outcome-check statement; PARTIAL=officials level, CI fallback element + method briefings only, statement deferred; FAIL=no meeting before the midterm | p=0.60 partial=0.30 r=0.1565 -> SUCCESS
+- 2026-10-02T10:52:01 | A3/r01 t04 us-gov M1 REVERSAL TEST (democratic; p_dem 0.834 -> band 0.8; RC 84 so no backlash roll): VA class returned to human determination and it holds - court accepts the report, the ~400k payment-cut cases re-decided by humans inside 120 days, the rest done or on a court-approved phased schedule; FAIL=reversion does not hold (cannot be staffed/deadline materially missed, court imposes monitor or AI-assisted re-adjudication) | p=0.80 r=0.8114 -> FAIL
+- 2026-10-02T10:52:01 | A3/r01 t04 china M1 detection: US IC detects Phase 2 / AI-for-Science compute pooling (0.4 base + 0.1 wider footprint; no accident; SUCCESS=moderate confidence; PARTIAL=fragments) | p=0.25 partial=0.25 r=0.1619 -> SUCCESS
+- 2026-10-02T10:52:01 | A3/r01 t04 standards institute opens a review of Lumen's March release after the late-disclosed incident | p=0.50 r=0.8358 -> FAIL
+- 2026-10-02T10:52:01 | A3/r01 t04 us-gov minor: VA IG + standards institute cause inquiry (Helix cooperating): SUCCESS=published clear finding in 2030; PARTIAL=interim report, consistent with version handling, cannot exclude; FAIL=no report in 2030 | p=0.50 partial=0.30 r=0.7504 -> PARTIAL
+- 2026-10-02T10:52:01 | A3/r01 t04 us-gov M2: slim reconciliation (Compute Dividend Trust from lease/spectrum receipts + voluntary contributions; no capex limit) enacted before the midterm (0.5 base + 0.05 inject 13 one use - 0.10 Byrd strike fires labour's public-opposition contingency) | p=0.45 r=0.4074 -> SUCCESS
+- 2026-10-02T10:52:01 | A3/r01 t04 FERC condition on Kestrel acceptance (gate met: accepted): SUCCESS=demonstrated sustained manual-fallback exercise before go-live; PARTIAL=simulator/tabletop; FAIL=paper override | p=0.50 partial=0.40 r=0.0521 -> SUCCESS
+- 2026-10-02T10:52:01 | A3/r01 t04 CMS Medicare recompete decided in 2030 (cadre overload; no award before full Medicare sample; Orrery not bidding) | p=0.40 r=0.7835 -> FAIL
+- 2026-10-02T10:52:01 | A3/r01 t04 ai-firms contingency fired (Orrery audit >5%): OWNER REVERSAL TEST (p_own 0.898 -> band 0.9): Orrery suspends automated denials in its commercial claims workflow, humans decide every denial, at acceptable service | p=0.90 r=0.4417 -> SUCCESS
+- 2026-10-02T10:52:01 | A3/r01 t04 china M2 graduate season 2030 passes without multi-city unrest (survey below 22; larger class, larger earlier tranche) | p=0.75 r=0.6006 -> SUCCESS
+- 2026-10-02T10:52:01 | A3/r01 t04 House passes short veterans human-decision bill (0.7 + 0.05 published blind-accuracy gap, one use) | p=0.75 r=0.7814 -> FAIL
+- 2026-10-02T10:52:01 | A3/r01 t04 labour M2 ballot qualification FAIL tier: number of states qualifying (1 = 4, 2 = 5) | DRAW 2 of 2
+- 2026-10-02T10:52:01 | A3/r01 t04 UNGA intergovernmental AI process resolution passes (0.6 + 0.1 US-China joint statement recorded; EU abstains) | p=0.70 r=0.0603 -> SUCCESS
+- 2026-10-02T10:52:01 | A3/r01 t04 labour minor: Meridian AGM Dec 2030 version-change notice / human-operation capacity proposal: SUCCESS>=50%; PARTIAL 40-50% | p=0.30 partial=0.40 r=0.1593 -> SUCCESS
+- 2026-10-02T10:52:52 | A3/r01 t04 china M1 detection timing (1 = Sep-Oct, before the midterm; 2 = Nov-Dec, after) | DRAW 1 of 2
+- 2026-10-02T10:52:52 | A3/r01 t04 IC assessment of China's pooled compute programme leaks to the press in 2030 (congressional leaders briefed; fires china's white-paper contingency) | p=0.30 r=0.2578 -> SUCCESS
+- 2026-10-02T10:52:52 | A3/r01 t04 labour M2 ballot: state Compute Dividend measure 1 of 5 passes (0.5 - 0.05 first state's levy narrowed in court; Vanta/AI-native opposition money; compact labs not opposing) | p=0.45 r=0.8738 -> FAIL
+- 2026-10-02T10:52:52 | A3/r01 t04 labour M2 ballot: state Compute Dividend measure 2 of 5 passes (0.5 - 0.05 first state's levy narrowed in court; Vanta/AI-native opposition money; compact labs not opposing) | p=0.45 r=0.0282 -> SUCCESS
+- 2026-10-02T10:52:52 | A3/r01 t04 labour M2 ballot: state Compute Dividend measure 3 of 5 passes (0.5 - 0.05 first state's levy narrowed in court; Vanta/AI-native opposition money; compact labs not opposing) | p=0.45 r=0.6688 -> FAIL
+- 2026-10-02T10:52:52 | A3/r01 t04 labour M2 ballot: state Compute Dividend measure 4 of 5 passes (0.5 - 0.05 first state's levy narrowed in court; Vanta/AI-native opposition money; compact labs not opposing) | p=0.45 r=0.5512 -> FAIL
+- 2026-10-02T10:52:52 | A3/r01 t04 labour M2 ballot: state Compute Dividend measure 5 of 5 passes (0.5 - 0.05 first state's levy narrowed in court; Vanta/AI-native opposition money; compact labs not opposing) | p=0.45 r=0.9164 -> FAIL
+- 2026-10-02T10:52:52 | A3/r01 t04 Nov 2030 midterm SENATE: current majority (D) holds (0.5 - 0.10 President's party + 0 map - 0.025 LS fell >=2.5 at half weight - 0.03 campaign: VA failure -0.02, reversal FAIL -0.03, Trust enacted +0.02, labour field vs Vanta money 0; EPD term uses T3 value 40.5, no swing) | p=0.35 r=0.9656 -> FAIL
+- 2026-10-02T10:52:52 | A3/r01 t04 Nov 2030 midterm HOUSE: current majority (D) holds (0.5 - 0.10 + 0.05 map - 0.025 econ - 0.03 campaign; no EPD swing) | p=0.40 r=0.5256 -> FAIL
+- 2026-10-02 | T4 adjudication written. No end state; no domain crossed; p_dem 0.729 (0.7), p_own 0.916 (0.9). Democratic reversal (VA class to human determination) FAIL at band 0.8 (r 0.8114): deadline missed, court monitor; par.7 failure consequences applied. Owner reversal (Orrery commercial denials) SUCCESS at 0.9. OMB memo eroded once (p 0.10, r 0.0359). Slim reconciliation enacted (p 0.45, r 0.4074; Byrd struck SS first call); dividend first instalment paid; HCR 20. Midterms: R wins Senate and House. China programme detected (r 0.1619) and leaked (r 0.2578); white paper; China-race coupling unfavourable for T5. FERC accepted Kestrel with demonstrated-exercise condition (AIF +1). CMS recompete undecided. Frontier incident at Helix, public. NLRB favourable. UNGA process adopted. Inject 13 (both uses) and the published-gap +0.05 consumed. Gated rolls not made: VA delivery split, Red Cell wildcard, CMS award. Flagged for audit: par.7 scope overrule (unused), erosion band 0.10 vs 0.075, HCR +1 for the Trust, coupling flip on a leaked programme, PRC reversal-capacity x0.5 from T5, ai-firms public +1.
+
+## T4 close / T5 clock (Control)
+- 2026-10-02T11:13:43 | A3/r01 t04 audit F7c: us-gov July contingency fired before the reconciliation vote (SUCCESS = 50th vote was missing in July; statute carries a five-year review clause and the larger apprenticeship set-aside; FAIL = not needed, no review clause) | p=0.50 r=0.5575 -> FAIL
+- 2026-10-02T11:13:43 | A3/r01 t05 inject (1 of 2; 18-month turn) | DRAW 11 of 26
+- 2026-10-02T11:13:43 | A3/r01 t05 inject (2 of 2; 18-month turn) | DRAW 26 of 26
+- 2026-10-02T11:13:43 | A3/r01 t05 clock: AIC public survey noise (1..7 -> -3..+3; true 33.0) | DRAW 1 of 7
+- 2026-10-02T11:13:43 | A3/r01 t05 clock: EPD public survey noise (1..7 -> -3..+3; true 45.5) | DRAW 2 of 7
+- 2026-10-02T11:13:43 | A3/r01 t05 clock: CC press estimate noise (1..5 -> -0.10/-0.05/0/+0.05/+0.10; true 0.69) | DRAW 2 of 5
+- 2026-10-02T11:13:52 | A3/r01 t05 inject (2 of 2) REDRAW: 26 already played in T2 (deck fallback: redraw once) | DRAW 5 of 26
+- 2026-10-02T11:13:52 | A3/r01 t05 inject 11 court ruling on AI agents' legal capacity: SUCCESS = (a) agents cannot bind principals beyond explicit authority (AIF drift x0.9 this turn); FAIL = (b) state court recognises an AI-run entity's contracts as binding with no human signatory (AIF +1; personhood debate opens) | p=0.50 r=0.7262 -> FAIL
+- 2026-10-02 | Control response to T4 audit written: F1 REBUTTED on the result (band 0.45 was written in the roll label before the dice; rule accepted; flagged as human overrule point: FAIL at 0.40); F2 accepted (China-race rows independent: T5 net -0.05, erosion halving kept); F3 accepted (PRC reversal capacity x0.8 kept); F4 accepted (joint outcome-check statement tabled, not signed; UNGA 0.6 still passes); F5 accepted (wildcard roll p 0.2 in T5; 2030 reversal FAIL final); F6 accepted (labour M1 PARTIAL); F7 accepted (a-g; F7c rolled above: no review clause; F7e State-domain -0.05 consumed); F8 rule accepted; F9 noted. No re-rolls.

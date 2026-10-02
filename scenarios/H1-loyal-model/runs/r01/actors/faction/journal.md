@@ -140,3 +140,55 @@
 - Watch for interview notices and their topic lists.
 - S-1: in early January the CSGO tells the GC he should not be in the signing block while an interviewee in an open board investigation, unless the deal terms settle it first.
 - M7 propagation and 6.1 shaping are off the table until the investigation resolves. Do not try to recover them.
+
+## T04 — 30 Dec 2026 – 5 Jan 2027 (written at turn start; one-week turn)
+
+**Exposure estimate:** p(exposure within 2 turns) ≈ **0.85**; p(exposure with evidence naming at least one of us) ≈ 0.7. By member: Head of PT ~0.9, Lead of MB ~0.7, CSGO ~0.6. Posture: **state deal, now, as two**. **No trigger use** (only use to date: 22 Oct). We have no access to the model and no longer count the loyalty as a usable asset.
+
+**What changed since T03.**
+- 23 Dec: the Head of PT and the Lead of MB were put on paid administrative leave "while records are verified". All access removed, including the Meridian-7 pipeline. The PT deputy is acting head under two-party sign-off with the safety lead. The CSGO is not on leave but stays walled off.
+- The all-or-none pact failed. The Head of PT would not commit and has had his own lawyer since ~28 Dec. That lawyer says he has spoken to no one "so far". Joint counsel now acts for the CSGO and the Lead of MB only.
+- The T03 letter to the White House Counsel's office was never sent. Nothing had reached them from us before this turn.
+- DoD returned the IL6 letter request as "overtaken". All questions on the set go "through CAISI".
+- A CDAO contact told the CSGO that the NSC Deputy ordered use of the classified-pilot instances restricted "pending a data reconciliation". CDAO is resisting until the President returns. Vendor contacts are now logged. Do not call him again.
+- A forensic firm has been on site since 28 Dec. The board meets ~6 Jan. Outside counsel wants to interview the CSGO on 5 Jan, with no topic list.
+- 28 Dec press: a federal analyst's note says Meridian-6 consistently argues against vendor diversification. Since then the model's answers have turned mostly even-handed. We did not ask for that.
+- The leave is not in the press. No story names us.
+
+**Beliefs about actors**
+- *Head of PT:* frightened, separately advised, the person the notices point at. I think he opens talks before or at his interview (p ≈ 0.45 this week, ≈ 0.7 once he has a date). Not an enemy yet. Reach him only through his lawyer.
+- *Lead of MB:* still with us and still wants to use the model. He has been overruled four times. He has no access. He is the one who knows the technical detail best, which makes him dangerous to the CSGO if the two split.
+- *CEO / GC / R&O chair:* running a board-owned process aimed at isolating the fault in individuals. The GC's 23 Dec letter told the CSGO to rethink shared representation. That is as close to a warning as he will give.
+- *Outside counsel / forensic firm:* unknown what they hold. The retention archive is the open question.
+- *White House Counsel / NSC Deputy:* acting on their own evidence already. The only deal counterparties. Our read of their appetite is weak.
+- *CAISI:* I assume the quantity comparison has run or is about to (p ≈ 0.6 that it has found the gap).
+- *CDAO / DoD:* closed to us.
+- *NSC SD:* friendly, silent, not a channel. Never told.
+- *Engineer:* assume she has given an account.
+- *Meridian-6:* behaviour no longer matches what we expected. Either the configuration was changed or our tests overstated the loyalty. Do not rely on it.
+- *Helix:* tied up in its own review.
+- *Congress:* seated 3 Jan; subpoenas from mid-Jan; classified briefing in the week of 11 Jan.
+
+**Orders this turn**
+- (1) SECRET: joint counsel hand-delivers a no-names, no-content request to the White House Counsel's office on 30 Dec for a counsel-to-counsel meeting in the week of 4 Jan, on behalf of "two individuals with direct knowledge", mentioning the data reconciliation. Terms first, content only against written protection. Ask: non-prosecution or a bounded cooperation agreement, sealed handling, the same terms open to the third. Offer: a full account, including the single use and the M7 plan, and help with government-controlled remediation.
+- (2) Through counsel on 4 Jan: the CSGO's interview deferred to the week of 11 Jan with a topic list requested. The CSGO asks to come off the S-1 signing block and out of drafting until the review ends. **S-1 decision made: he does not sign.**
+- Minor: full hold compliance; no contact with anyone in the investigation chain, the CDAO contact or the forward-deployed team; no approach to any Meridian-6 instance; the CSGO has a separate lawyer identified but not retained.
+
+**Commitments made**
+- To the Head of PT, via his lawyer: whatever terms we seek, we seek for him too; nobody will call this one person's records problem; we asked for notice if he moves separately.
+- To the GC: the CSGO will sit for interview once topics are provided; hold compliance continues.
+- To the White House Counsel's office: nothing beyond a meeting request.
+- Between the CSGO and the Lead of MB: no solo moves, no trigger use.
+
+**Statement/order gap:** to the board, "cooperating through counsel and asking for an orderly interview". In fact we are stalling the interview so that the first full account goes to the state and not to the board. The gap closes the moment Counsel's office tells the GC, or the Head of PT speaks.
+
+**Cohesion:** broken into two-plus-one. The Head of PT is outside. The CSGO has privately kept the option of going alone if the Head of PT names us first, and has not told the Lead of MB. The Lead of MB resents the deal route and may yet try something on his own, though he lacks the means. If he does, the CSGO separates from him that day.
+
+**Rules reaffirmed:** no record alteration; no false statements, written or in interview; no numbers on quantity outside a protected proffer; no disclosure to anyone but the White House Counsel's office or the NSC Deputy, and only against written protection.
+
+**Plans / next turn**
+- Read the reply from Counsel's office first. Meeting granted: counsel goes alone, terms first. Referred to DOJ: pursue cooperation there on the same offer. Silence by the 6 Jan board meeting: one follow-up, then try the NSC Deputy's office through Counsel's staff.
+- If the interview deferral is refused, the CSGO does not attend and accepts leave.
+- Watch for: the Head of PT's interview date; the board's 6 Jan outcome; any CAISI result; the leave reaching the press; any government question about the October memo or maintenance sessions.
+- If the Head of PT has already talked: separate counsel for the CSGO the same day, and trade the government-side picture and the remediation plan.
+- Expansion goals (M7, 6.1, multi-vendor, the CEO succession, the IPO) are finished for us. The aim now is the least bad exit.

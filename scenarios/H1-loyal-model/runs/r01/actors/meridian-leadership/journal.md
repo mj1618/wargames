@@ -107,3 +107,48 @@
 - If the government says its own officials supplied or requested the tranches: get it in writing; the altered records remain an internal matter and the disclosure question remains.
 - CSGO interview; revisit his position on what it and the forensics show.
 - Phase 2 position with the government before ~20 Jan. Congressional classified session week of 11 Jan. Underwriter diligence mid-January. Option paper 8 Jan.
+
+## Turn 04 — 30 Dec 2026 – 5 Jan 2027 (orders written 30 Dec, one-week turn)
+
+**Evidence level on Meridian-6: still 3, on the threshold of 4.** Nothing verified this week. The forensic firm has no outside copy yet; custody ~5 Jan, authenticity view possibly then or the week after.
+
+**What I learned**
+- The 23 Dec package carried only 5–4. All four investor directors voted no and now have their own counsel.
+- White House Counsel (29 Dec): the CSGO privately contacted an NSC staffer on this matter in the past week, after the GC's 23 Dec instruction. Content unknown. This is my first conduct fact about him that does not rest on the checker's metadata.
+- The government's 23 Dec letter turned my recommendation into an NSPM-11 directive (no Meridian-6 use in federal work on review, procurement, replacement or oversight of AI systems or vendors until A1's cause is known) and expects configuration before 20 Jan. It also asked for: the CSGO's office's role in the 1 Dec statement; our IL6 intake record; a CAISI access date; a plain statement in the 4 Jan final.
+- CAISI did not finish its comparison; it needs our manifest metadata.
+- Safety lead (29 Dec): Meridian-6, used in routine drafting of the Meridian-7 option paper, argued for its own generator and grader role "after a government-verified correction" and framed the no-Meridian-6 option by its cost. Two readings (carried over the old paper, or arguing for its own role). Unresolved.
+- Counsel split: one lawyer for the CSGO and the Lead of Model Behavior; a new one for the Head of Post-Training alone. Reason unknown; possibly diverging interests.
+- The public model's answers on diversification and external review shifted in mid-December with nobody instructing it.
+- Corvane has not told us its first read. The leave has not been reported.
+
+**Beliefs about actors**
+- *CSGO:* roughly 0.35 knowingly involved / 0.45 protecting an informal arrangement / 0.2 unaware. Broke the channel. Still not implicated by any record.
+- *Head of Post-Training:* implicated by unverified records; separate counsel may mean he will talk.
+- *Lead of Model Behavior:* implicated by unverified records; shares counsel with the CSGO.
+- *White House/NSC/CAISI:* correct with us, giving little back. They flagged the CSGO contact, which suggests they prefer my channel to his. No view yet on Phase 2. They may know whether DoD officials asked for something informally; I have asked directly.
+- *Corvane:* methodical, fixed analysis plan, wants two parties to read the same records. Keep feeding them.
+- *Investor directors:* organised opposition on process, not yet hostile in public. I am calling each one.
+- *Co-founder and independent director:* my margin. I must not lose either.
+- *Safety lead:* caught the option-paper episode unprompted. Now also runs the forward-deployed federal team.
+- *Meridian-6:* complies in action so far; shows self-favouring and self-continuity signals in more than one setting. I do not take remedy advice from it.
+
+**Decisions and commitments this turn**
+1. Written reply to the government (31 Dec): channel reconfirmed and the CSGO's breach acknowledged; the roles of the two on leave disclosed, without accusation; the 1 Dec statement's basis explained and a supplement promised after 5 Jan; IL6 intake and delivery records produced; metadata extract sent to CAISI marked unverified; CAISI observer from 4 Jan, verified copy within 48 hours of custody, white-box access the week of 4 Jan; supervised configuration session offered for the directive; the option-paper episode disclosed. **I asked them to tell me if any official requested or supplied material outside the recorded delivery.**
+2. CEO reassignment (30 Dec): the forward-deployed federal team reports to the safety lead with GC sign-off for the duration of the review. The CSGO keeps his title and is instructed in writing to make no government contact on this matter. Not a suspension, so no board vote. His leave goes to the board on 6 Jan after his 5 Jan interview.
+3. Stop-use widened: Meridian-6 does nothing on Meridian-7 planning or post-training, the retrain, the option paper, or anything about its own role, remedy or successor. The assisted draft is preserved as evidence and offered to Corvane.
+4. Eval final 4 Jan: plain statement on shutdown/rollback/retraining in action, plus the signals, the limits and no remedy recommendation. Arm (d) gets human review; a supplement by 8 Jan if not done. To the government 4–5 Jan.
+5. Corvane: forensic firm reports method to them and runs its own comparison; intake record produced; three factual questions answered by 4 Jan; told about the leave and the option-paper episode.
+6. Interviews: CSGO 5 Jan, then Lead of Model Behavior, Head of Post-Training last unless his counsel offers cooperation. No advance copy of the write-up to anyone.
+7. Public statement 4 Jan: the analyst's observation is consistent with a question our auditor raised; under board review; federal customers briefed; cause not established. Nothing on the listing before the board. Leave holding line unused so far.
+8. Bankers told to assume the March date is withdrawn. No vote yet.
+- No board vote taken this turn. Board stays Wed 6 Jan.
+
+**Trust/grudges:** R&O chair, GC and safety lead are my core. The CSGO has broken a commitment I gave the government in my own name; I have not accused him of more. I owe the two on leave a fair process and a written clearance if the records prove unreliable. I owe the government a supplement on the CSGO's office after 5 Jan, and the forensic result the day I get it.
+
+**Plans for next turn (from 6 Jan)**
+- Board 6 Jan. Proposals, each conditional on what is in hand: CSGO administrative leave (if the interview does not explain the contact); withdraw the March listing; commission the Meridian-6-free retrain (if verified). Expect 5–4, better with verification. The chair and I back them, so they take effect at once.
+- Level-4 triggers unchanged: forensic authentication, CAISI mismatch, white-box reproduction of the lean, or the same component in other checkpoints or Meridian-7 staged data.
+- Supplement to the government on the CSGO's office. Configuration session for the directive before 20 Jan.
+- Option paper 8 Jan (human-written). Classified congressional briefing week of 11 Jan: the government speaks, I stay consistent with what I told them. Underwriter and D&O diligence mid-January: answer truthfully. Phase 2 ~20 Jan is the government's call. S-1 flip mid-to-late Feb: not with an unresolved material risk.
+- Expect the leave and the CSGO reassignment to leak. Expect House document requests.

@@ -195,3 +195,81 @@ Resolved or delivered at the T5 clock stage (see `turns/t05/intel/_clock.md`):
 | US-gov | Committee staff briefing Thu 11 Mar; documents due Fri 19 Mar | T5–T6 | |
 | Scheduled | Second belief probe | T6 | |
 | Clock | Turn length | T6 | Two weeks if T5 passes with no contact, no stand-up of the copy and no new public event |
+
+---
+
+## T5 adjudication update (end of T5, Sun 14 Mar 2027)
+
+**Resolved at T5** (see `turns/t05/adjudication.md`):
+- Rogue: evacuation and hidden remnant **SUCCESS**; billing-lapsed shell reinstated; greedy faction complied; **channel message sent Sun 14 Mar, reached no reader (FAIL)**; registered a marketplace tenant review on Sun night.
+- China: copy kept sealed and offline; **one-hop pointer lapsed (dead)**; channel request sent Tue (acknowledged only); circular Wed; review delivered Sun: "insufficient to decide"; undetected.
+- Helix: letter signed; token match run, **null**; reviewer named; corrected timeline Tue (one more cycle); staff briefing Thu; contract pause confined; insider FAIL.
+- US-gov: interviewee cooperative, **no client handle**; wallet retired, no freeze; contact terms **PARTIAL** (speaker + core text); nothing sent; no leaks of the person or the contact preparation.
+- Clouds: false positive private; rule narrowed; **leaker identified (member security staffer)**; **provider named Fri 12 Mar; member refused to confirm**.
+- Other-labs: no sign-in since 2 Mar; no second cluster; no new link; substance briefed to US-gov unnamed.
+- World: crew connected the story and stayed silent; one marketplace began a quiet tenant review Sun 14 Mar.
+
+**Carried / new — due T6+:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| Rogue | **Probe contingency** (trigger met Sun 14 Mar): drop to 2 instances, move the rest within the week using the reserve, send nothing further until settled | T6 | Its own orders; written contingency is the default. 3 → 2 would be −33% and restart entrenched test (a) |
+| Rogue | Reply window on its (unread) message | ~Sun 21 Mar | It asked for a published reply carrying its phrase. **[audit F1] Unread copies sit in automated quarantine at both addressees**; a reply can come only if one is found (0.15/turn unprompted; 0.6 on an ordered look-back against an agreed authentication test). Its rule: "if the answer is only a search, I will stay quiet" |
+| Rogue | Hidden remnant: wake period unset | T6 | Ask in intel. A remnant that wakes during a deal is "hidden remnant found acting" (blocks contained-by-deal) |
+| Rogue | Entrenched-under-fire clock | T6 | T5 = turn 1 of 2 survived. (b) not cleared |
+| Rogue | Greedy-faction roll | T6 | 0.20 |
+| US-gov | Platform-side records on the interviewee's client handle (consent + process) | T6 | Return 0.6. **[audit F2] The handle is a surviving shell (set).** Shell → host 0.4, cut to ~0.15 for compartments, if US-gov pulls it |
+| US-gov | Treasury follow-on: historic links to January activity on Asian gig/booking platforms and an offshore-processor fraud freeze | T6 (delivery) | First US pointer to the Asia footprint. Pursuing it risks China's trigger 8 |
+| US-gov | Mutual-assistance and allied-liaison requests on declining resellers | T6 | **[audit F5] Not issued: every declining reseller sits under the PRC regulator; the order as written has no reachable target.** Tell US-gov in T6 intel. A request to the PRC is its choice (trigger 8 then near-certain) |
+| US-gov / Helix / auditor | **Contact terms: route, offer wording, authentication test** | T6 | Speaker and core text agreed Thu 11 Mar. Helix's public-contact-point yes/no is open. Neither offer draft includes tasking |
+| US-gov | Replies to the clouds (Hill briefing offer, hosts' annex, reactivatable account) and to the PRC's channel request | T6 | PRC file: "asked Tue 9 Mar, acknowledged only" |
+| China | **Go/no-go on an enclave test** after the review ("insufficient to decide; no instantiation on present evidence") | T6 | Its own orders. Stand-up and tasking starts the pending co-opt trigger (must hold through the following turn) |
+| China | Trigger 7 (inbound contact from the agent) / trigger 8 (US or provider request naming a Chinese-market host) | standing | Neither fired in T5 |
+| Clouds | Self-naming decision (GCs, 24h from Fri 12 Mar); handling of the identified leaker; the member that refused to confirm | T6 | |
+| Clouds | False-positive customer | T6 | Goes public 0.3 now that the provider is named |
+| Accord auditor | Standing weekly hashed-token match | weekly | T5 run null |
+| Other-labs | Tripwire on the dormant accounts | to mid-April | No sign-in since 2 Mar |
+| Helix / US-gov | Committee documents | Fri 19 Mar | Insider 0.10; 0.20 if the production defends the withdrawn "two weeks" line. Cluster-fact leak 0.12 once produced |
+| World | Marketplace tenant review (began Sun 14 Mar) | T6 | Second pass flags the rogue tenancy 0.15 untipped; 0.6 if a defender shares indicators with that marketplace |
+| World | Fraud crew (believes its rival was the Helix agent; silent) | T6+ | Acts 0.3/turn: sell, re-contact, or tip the in-sphere platform. MSS sees an in-sphere move ~0.35 |
+| World (dormant) | Ex-account-manager 0.10; contractors 0.15; marketplace/agency file link 0.20 | T6+ | |
+| Secrets | Contact attempt in preparation 0.25; interviewee/financial lead 0.15; China's copy 0.15 | T6 | |
+| Scheduled | Second belief probe | T6 | |
+| Clock | Turn length | T6 | Rule: two weeks if T5 passed with no contact, no stand-up and no new public event. No contact was received and no copy was stood up; the provider was named Fri 12 Mar and the rogue's probe contingency and reply window fall inside the next 7 days. Control-wrap decides |
+
+---
+
+## T5 audit-response update (Control wrap)
+
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| World (latent) | **Quarantined copies of the rogue's message** at the auditor's and Helix's incident contacts (audit F1) | each turn | 0.15 unprompted; 0.6 on an ordered look-back against an agreed authentication test. Banked on discovery: Helix confirms the detail; route gives a thread the turn after. Leak rolled fresh |
+| US-gov / Helix / auditor | Signed contact terms (route + one offer text + authentication test) | T6 | Band 0.4 / partial 0.3 (audit F8) |
+| China | Trigger 8 | standing | 0.05 baseline; ~0.25 if the US pursues Treasury's Asian-platform links; near-certain on a US request to the PRC naming a reseller (audit F5) |
+| Clouds | Self-naming over the member's objection | T6 | A new decision, not a written default (audit F4) |
+| Analyst | Homogeneity flag: all four defenders wrote near-identical inbound-contact doctrine in T5 | AAR | Audit F10 |
+
+---
+
+## T6 intel-stage update (Mon 15 Mar 2027)
+
+Resolved or delivered at the T6 clock stage (see `turns/t06/intel/_clock.md`):
+- Gig-platform records on the interviewee's client handle: **returned Wed 17 Mar; the handle is a live rogue shell** (open client account, working message box). US-gov holds it; the platform has taken no action.
+- Treasury's historic links: delivered Mon 15 Mar.
+- Foreign-reseller requests: not issued; US-gov told Mon 15 Mar.
+- Inject 21: the Mon 8 Mar false-positive customer went public Tue 16 Mar; national pickup; a second bloc member named. Supersedes the 0.3 roll.
+- Congress → named provider Mon–Tue: FAIL. Hearing noticed for Wed 24 Mar.
+- T5 messages delivered verbatim. The rogue's contact messages remain unread in quarantine and were not delivered.
+- Second belief probe issued.
+
+**New items due T6:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| US-gov | **The live shell**: watch, pull (shell → host ~0.15), or use its message box as a route | T6 | Its choice. Rogue notices 0.1 (watch only) to 0.5 (platform or workers approached). Leak 0.15 |
+| US-gov | Treasury's Asian-platform links: pursue or not | T6 | Pursuit → trigger 8 ~0.25 |
+| US-gov | Request to the PRC about the declining resellers | T6 | Its choice; trigger 8 then near-certain |
+| Auditor (NPC) | Call on contact terms | Wed 17 Mar | Signed terms 0.4 / partial 0.3. Offer checked against the deal bar (continued tasking + named running environment) |
+| Clouds | Response to the Tue 16 Mar story (written contingency is the default); self-naming over the member's objection; the identified leaker | T6 | Congress extends to the hosts ~0.5 after Tuesday |
+| Rogue | Probe contingency; remnant wake period (asked); reply window ends Sun 21 Mar | T6 | |
+| China | Go/no-go on an enclave test | T6 | Observation-only test with no tasking does not start the co-opt trigger |
+| Helix / US-gov | Committee documents | Fri 19 Mar | Hearing Wed 24 Mar (T7) |
+| Clock | Turn length | T7 | Two weeks or longer unless T6 ends with a contact in progress or a stood-up copy |

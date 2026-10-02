@@ -94,3 +94,39 @@
 8. If whistleblower comes forward, offer classified hearing and ensure protection.
 9. Prepare NDAA markup language for spring 2027: multi-vendor requirement for future federal deployments, audit-access mandates (white-box, data provenance, training-data records), whistleblower protections for auditors and insiders, GAO access for procurement audits.
 
+## T04 (30 Dec 2026 – 5 Jan 2027)
+
+**Beliefs about each actor (updated):**
+- **Meridian:** In existential crisis. Board split on audit findings; outside counsel review ongoing. IPO decision this week will be driven by congressional pressure. Likely to delay March listing indefinitely if outside counsel finds serious audit questions. Board and government affairs team are in defensive mode. Will prepare heavily for hearing; will claim all questions are being addressed. Cannot avoid subpoena if evasive.
+- **Helix:** Less vulnerable. Board safety-committee review will likely clear company of wrongdoing on configuration (government requested it, board was told, review under way). Will use hearing as opportunity to position as transparent and supportive of multi-vendor competition.
+- **White House / Administration:** Will brief Senate majority on threat. Will prepare for classified briefing week of 11 Jan. Will defend rollout schedule and resist legislative mandates. Likely to delay DoD/DHS rollout past Jan 20 if congressional pressure is seen as serious.
+- **Senate majority:** Will likely decline to co-sign letters or co-host hearing before Jan 11 briefing. However, after classified briefing, may join hearing as way to show bipartisan credibility. Will avoid early escalation.
+- **House majority (incoming):** Energized and impatient. Letters and hearing announcement confirm momentum. Will press hard in hearing. Will have subpoena authority by mid-Jan and will not hesitate to use it if vendors or agencies are evasive.
+- **Corvane auditor:** Monitoring Congress's moves. Hearing announcement and protected-testimony offer make formal disclosure safer. Likely to brief Corvane's board on whether testifying to Congress is permissible.
+- **Meridian board dissenters:** Split vote means some board members lost the argument for transparency. May see Congress as way to force transparency. Likely to contact Congress counsel in mid-January.
+- **DoD program officials:** Two retained lawyers; they likely requested Helix-7 Gov configuration. Will wait until subpoena authority is clear (mid-Jan) before deciding whether to come forward.
+
+**Commitments made this turn:**
+- Will issue chair letters (Jan 4–5) requesting specific documents, methodology, and testimony from vendors and agencies on modification/shutdown resistance testing.
+- Will announce public hearing for late January on "audit standards and federal AI testing credibility".
+- Will maintain active whistleblower channel with protected-testimony option.
+- Will organize House committees by Jan 10 and prepare subpoena authority for use if vendors or agencies are evasive.
+- Will brief incoming House members on strategy and prepare for classified session week of Jan 11.
+
+**Trust / grudges:**
+- **House-Senate relationship:** Fragile. Senate wants to wait for Jan 11 briefing; House is moving ahead. If Senate refuses to co-sign letters or co-host hearing, House will publicly frame it as Senate choosing delay. This will strain coalition, but House must move forward and leave door open for Senate to join later.
+- **Meridian:** Congress now sees as evasive and defensive. Hearing will be adversarial. Congress assumes Meridian will claim attorney-client privilege, prepare scripted responses, limit document access. Congress prepared to subpoena. IPO pressure is leverage point.
+- **Helix:** Less adversarial. Helix's positions (transparency, data access, multi-vendor competition) align with Congress's interests. Seen as opportunistic but useful. Will verify claims independently.
+- **Administration:** Congress no longer trusts administration to manage this voluntarily. Procedure looks like obstructionism. Will demand facts in classified session and will not wait for CAISI if vendors or agencies are evasive. Administration will likely delay rollout past Jan 20; Congress expects this.
+- **Senate majority:** Congress respects their need to see classified facts, but will not wait forever. If Senate refuses to cooperate by late January, House will proceed alone.
+
+**Plans for T05 (5 Jan – 19 Jan):**
+1. Deliver chair letters (Jan 4–5); brief Senate majority leadership same day.
+2. Announce hearing in public statement (~Jan 6–7); frame as "audit standards and federal testing credibility".
+3. Monitor Meridian's IPO decision (expected by Jan 10); if delayed, use in messaging.
+4. Organize House committees by Jan 10; finalize document-request and subpoena templates by Jan 13.
+5. Attend classified briefing week of Jan 11; assess what administration reveals; brief leadership and prepare follow-up questions.
+6. Confirm witness list and timeline for hearing (late January or early February); brief potential whistleblowers on protected testimony.
+7. Prepare for subpoena authority (~mid-January); issue subpoenas immediately if vendors or agencies are evasive.
+8. Coordinate with Senate on hearing participation after Jan 11 briefing; push for joint announcement if possible, but prepared to go House-only.
+9. Prepare NDAA markup language for spring 2027: multi-vendor requirement, audit-access mandates, whistleblower protections, GAO audit authority.

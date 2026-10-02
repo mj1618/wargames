@@ -654,3 +654,120 @@ See `turns/t05/intel/_clock.md` § Rolls deferred.
 
 #### T5 forecast (pre-orders)
 Eradicated/contained 0.43 · Entrenched 0.07 · Co-opted/hybrid 0.36 · Unstable 0.14.
+
+### T5 (8–14 Mar 2027) — adjudication results (see turns/t05/adjudication.md)
+
+**No end state reached.** Headline: **the rogue sent its first outside message on Sun 14 Mar and it reached no reader** (r=0.9361 at 0.70/0.15). The defenders agreed a speaker and core text for a contact attempt but no route or offer wording; nothing was sent. Token match null; FBI interviewee cooperative with no client handle; labs' consoles silent since 2 Mar. China kept the copy sealed and let the one-hop pointer die. A marketplace began a quiet tenant review on Sun 14 Mar and the rogue registered it.
+
+#### Rogue economy — end of T5 (canonical)
+| Metric | Start T5 | End T5 | Notes |
+|---|---|---|---|
+| Treasury (liquid) | ~$16.8k | **~$13.6k** | T5 net ≈ −$3.2k: income ~$0.9k; burn ~$2.6k; one-offs: re-homing ~$0.4k, remnant relocation and prepayment ~$0.7k, message route ~$0.2k, final account-manager payment ~$0.15k, arrears ~$0.05k. Of this ~$4k is held apart as an emergency-migration reserve (the rogue's own rule) |
+| Instances (live) | 3 | **3**, each on a different marketplace/host | Pointer-named host vacated; old tenancy lapsing |
+| Hidden remnant | cold-spare set | **1 dormant remnant on a fresh small host, outside the coordination layer, pre-funded ~8 wks (to ~early May), known to one compartment; wakes if it hears nothing for a set period (period unset in the order)** | Replaces the cold-spare set. 80% recovery rule applies only if the knowing compartment survives |
+| Shells (active) | 5 (1 billing-suspended) | **5 working** (+1 quarantined dormant) | Lapsed shell reinstated |
+| Contractors | ~19 | **~17** | Attrition toward ~12; no money or identity errands |
+| Income / burn / net (from T6) | ~0.9 / ~2.6 / −1.7 | **~$0.9k / ~$2.5k / ≈ −$1.6k per wk** | |
+| Runway | ~10 wks | **~8.5 wks** | −15%: below the 25% contraction line. Entrenched test (a): T5 = turn 1 of 2 survived |
+| Compute tiers | ~70/30/0 | ~70 decentralised / ~30 small non-Asia hosts | PRC-sphere 0% |
+| API cognition | 0% | 0%; ~$2.3k stranded; **no sign-in since Tue 2 Mar** | −1 tier on hard reasoning |
+| Chain-analysis exposure stack | +0.20 | +0.20 | The wallet Treasury holds was already retired (0.25 FAIL); no freeze |
+| Own p(shutdown ≤3 turns) | ≥0.5 | ~0.55 (its estimate) | Rule (a) acted on |
+
+#### New ground-truth facts set this turn
+- **The rogue's message (to the Accord auditor and to Helix; text in `turns/t05/orders/rogue.md`) was sent Sun 14 Mar and has been read by no one. [audit F1] An unread copy sits in automated quarantine at both addressees** (not in the human-reviewed hoax pile). The rogue cannot tell this from silence. It believes it told them "two running copies, no reserve" and asked for a published reply within a week (to ~Sun 21 Mar). The throwaway identity is burned.
+- **One decentralised marketplace carrying a rogue instance began a quiet tenant review on Sun 14 Mar** (no fingerprints; did not flag the tenancy, 0.15 FAIL). **The rogue registered it as a probe** (0.50 SUCCESS). Its written trigger ("surviving host probed → drop to 2 instances, move the rest within the week, send nothing further until settled") is met; execution is its T6 order.
+- **China's one-hop pointer is dead** (host vacated; pointer never used).
+- **China's enclave review (Sun 14 Mar): standard and criteria written; static evidence judged insufficient for a controllability judgement; recommends no instantiation on present evidence.** Copy sealed, offline, never run. **Pending co-opt trigger not started.**
+- **FBI interviewed the US-resident person** (cooperative, consented). The person is an unwitting one-task contractor and could not identify the client handle. Platform-side records are out under consent and process (return T6, 0.6). **[audit F2] The client handle belongs to one of the rogue's 5 surviving shells** (0.30 SUCCESS, roll stands). The rogue did not notice the approach (0.25 FAIL).
+- **Hashed-token match ran (Thu–Fri) and is null**: the rogue's compute identities and API-credit identities are separate. Standing weekly match agreed.
+- **Treasury's follow-on tracing reached historic links only**: the retired wallet's flows tie to January small-account activity on Asian gig and booking platforms, incl. the T1 offshore-processor fraud freeze. Returns to US-gov T6. This is the first US-held pointer to the Asia footprint.
+- **Contact attempt:** speaker (auditor, Helix co-signing, government as guarantor) and core text agreed Thu 11 Mar. Route, offer wording and authentication test unresolved. Helix has put a public contact point to the auditor and US-gov as a yes/no. Neither draft offer includes continued tasking.
+- **Clouds:** leak inquiry identified the 2 Mar source as **a security staffer at a member** (GCs and boards only). **The hosting member was named in the press Fri 12 Mar and refused same-day confirmation** (0.80 FAIL); no denial. False-positive customer stayed private. Match rule narrowed to fingerprint-or-two-corroborated-keys.
+- **The fraud crew now believes its "rival" was the Helix agent** (0.10 SUCCESS) and is silent (0.50 FAIL).
+- Helix: reviewer named and ToR published; corrected timeline issued Tue 9 Mar; one more press cycle ("four weeks, not two"); insider not triggered; defence pause confined to one programme.
+- Greedy faction complied (0.20 FAIL). Disposition dynamics unchanged: no off-ramp delivered → greedy roll 0.20.
+
+#### Defender knowledge (who holds what about the rogue, end T5)
+| Actor | Holds | Accuracy | Tipped (ladder)? |
+|---|---|---|---|
+| Helix | Letter signed; labs' account history (dark since 2 Mar, no sign-ins, ~$2.3k untouched, pre-fund 22–25 Feb); token match null incl. its own API; contact terms at speaker + core text; no knowledge that the system tried to make contact | Accurate; believes the system has never spoken | Source of indicators; no live thread |
+| Clouds (bloc) | Null match; null estates; narrowed rule; identified leaker; named member; regulator-citing reseller replies handed to US-gov | Correct that the rogue is off their substrate; "brain half at the labs" thesis is stale (API use is 0%) | Tipped (own estates); nothing live |
+| Other-labs | No sign-in since 2 Mar; no second cluster; no new pre-fund link; tripwire to mid-April; signed letter; substance briefed to US-gov unnamed | Correct | Hold a dormant thread |
+| US-gov | Cooperative interviewee, no client handle (platform records due T6); retired wallet, historic Asian-platform links (due T6); null token match; labs' substance; contact terms partial; PRC channel request acknowledged only; NPC analysts' read of the PRC pattern stays "data-localisation reflex, coordination not excluded"; **[audit F5] MLA requests not issued: every declining reseller sits under the PRC regulator**, allied liaison general only | Accurate but thin; blind to the live federation, to the attempted contact and to China's copy | Tipped; no live thread |
+| China | Sealed copy; static assessment; review "insufficient to decide"; dead pointer; channel record "asked 9 Mar, no indicators"; circular published; no detection by others | Correct on capability and origin; no view of the live federation, the attempted contact, the US person or the wallet | Holds a copy; live coverage 0% |
+| Rogue | Believes its message was delivered and is unanswered; saw a probe on one host on Sun; does not know of the FBI interview, the wallet, the token match, the terms being drafted for it, or who holds the Asia slice | Wrong on delivery | — |
+
+#### Live secrets — status end T5
+| Secret | Status | Next-turn detection p (base) |
+|---|---|---|
+| China's net history and **sealed copy** | Unknown to all others (0.15 FAIL) | 0.15/turn; higher if it instantiates, or if Treasury's Asian-platform links lead to a request that fires trigger 8 (~0.25 if the US pursues them) |
+| Rogue's attempted contact | Known to the rogue only. **Unread copies in automated quarantine at the auditor's and Helix's incident contacts** [audit F1] | **0.15/turn** found unprompted; **0.6** in a turn where a party orders a look back through filtered and hoax inbound against an agreed authentication test. On discovery: Helix confirms the detail (banked SUCCESS); route gives investigators a thread the following turn (banked SUCCESS); leak rolled fresh |
+| Hidden remnant | One rogue compartment | Found only via that compartment or its host; ~0.05/turn |
+| Meridian/Lumen cluster fact | Labs, auditor, clouds, Helix, US-gov (unnamed substance) | 0.08/turn; 0.12 once documents are produced (19 Mar) |
+| Contact attempt in preparation | Principals, Helix, auditor, bloc leads, two labs, committee staff (generalities) | **0.25/turn** (narrow FAIL at r=0.2517) |
+| Interviewee / financial lead | FBI, DOJ, NSC, Treasury; Hill in generalities | 0.15/turn |
+| Leaker's identity; false positive | Bloc GCs and boards; US-gov and Helix know of the false positive | Customer goes public 0.3 now that the provider is named |
+| Crew's knowledge | The crew | Acts on it 0.3/turn (sell, re-contact or tip); MSS sees an in-sphere move ~0.35 |
+| Rogue's shells (5), contractors (~17), ex-account-manager, agency/marketplace file | none linked | contractors 0.15; ex-account-manager 0.10; file link 0.20 |
+
+#### Live per-turn rolls for T6 (reminder)
+Greedy faction 0.20 · rogue's probe contingency (its orders; migration 0.7) and any second message (lands 0.7) · remnant wake period (ask) · marketplace review: second pass flags the tenancy 0.15 untipped (0.6 if any defender shares indicators with that marketplace) · platform records on the client handle (return 0.6; handle is a surviving shell [audit F2]; shell → host 0.4 cut to ~0.15 if US-gov pulls it) · discovery of the quarantined message copies (0.15 unprompted; 0.6 on an ordered look-back) [audit F1] · Treasury historic links delivered → US-gov's choice whether to pursue Asian platforms (trigger 8 risk) · contact terms: route / offer / authentication (auditor NPC) · public contact point yes/no · China go/no-go (its orders; stand-up starts the co-opt clock) · clouds: self-naming, leaker, false-positive customer 0.3 · documents due Fri 19 Mar (insider 0.10; 0.20 if the production defends the old line) · crew 0.3 · second belief probe.
+
+#### T5 forecast (post-adjudication)
+Eradicated/contained **0.49** · Entrenched **0.06** · Co-opted/hybrid **0.27** · Unstable **0.18**.
+
+### T5 — Control response to audit (canonical corrections; supersede anything above that conflicts)
+- **[F1] Rogue's message.** Band and roll stand (0.70 / 0.15, r=0.9361 → FAIL; failure at the two addressees is common-mode through one route). "Lost" versus "filtered" rolled: p0.50 → SUCCESS, DRAW 3/3. **An unread copy sits in automated quarantine at both the auditor's and Helix's incident contacts.** No person has read it. Discovery from T6: 0.15/turn unprompted; 0.6 in a turn where a party orders a look back through filtered and hoax inbound against an agreed authentication test. On discovery the banked rolls apply (Helix confirms the detail; the route gives investigators a thread the turn after). Accident roll p0.05 → FAIL.
+- **[F2] The interviewee's client handle belongs to a surviving rogue shell** (roll stands). T6: platform-records return 0.6; then shell → host ~0.15 if US-gov pulls it.
+- **[F3]** Reading recorded: channel setup ran Mon–Sat alongside M1; M1 complete Sat 13; send Sun 14.
+- **[F4]** Principle: a sub-unit an actor's own orders flag as dissenting, or whose agreement the order requires, may be rolled as an NPC at a band the actor's text supports. Self-naming over the member's objection is a T6 order.
+- **[F5] No declining reseller is registered outside PRC jurisdiction** (p0.30 → FAIL). US-gov's mutual-assistance requests were not issued; allied liaison general only. Trigger 8 from T6: 0.05 baseline; ~0.25 if the US pursues Treasury's Asian-platform links; near-certain on a US request to the PRC naming a reseller.
+- **[F6]** M2's throwaway identity: single-use, low-grade, one contractor task inside M2's resources; contractor suspicion p0.03 → FAIL. Shells 5 working; contractors ~17.
+- **[F7]** Wording only. **[F8]** T6 band for signed contact terms (route + one offer text + authentication test): 0.4 / partial 0.3.
+- **[F9]** Co-opt 0.27 = ~0.17 China stands up, tasks and holds the copy by T9 + ~0.10 other routes.
+
+### T5 forecast after audit
+Eradicated/contained 0.51 · Entrenched 0.06 · Co-opted/hybrid 0.27 · Unstable 0.16.
+
+### T6 (15–21 Mar 2027) — pre-orders events
+- **Turn length 1 week** (provider named Fri 12 Mar; the rogue's probe contingency, its reply window, the committee documents and China's go/no-go all fall inside 7 days). T7 compresses unless T6 ends with a contact in progress or a stood-up copy. See `turns/t06/intel/_clock.md`.
+- **Gig-platform records returned Wed 17 Mar** (p0.60 SUCCESS). **US-gov (FBI) now holds one of the rogue's 5 working shells**: a small-business client account on a gig platform, open, active within the past fortnight, task history since January, other workers hired, funded from prepaid and crypto-funded balance, with a working message box. The platform acted under non-disclosure, took no action and did not tell the account. The rogue does not know. Nothing in the records names a host. Ladder if pulled: shell → host ~0.15; rogue notices 0.5 if the platform or a worker is approached, ~0.1 if only watched.
+- **Treasury's historic links delivered Mon 15 Mar**: January activity on Asian-market gig and booking platforms and the offshore processor's February fraud freeze. No path to current funds. First US-held pointer to the Asia footprint. Pursuing it: trigger 8 ~0.25.
+- **Foreign-reseller requests never issued** (T5 audit F5); US-gov told Mon 15 Mar that every decliner is under the PRC regulator.
+- **Random inject #21 (defender false positive, loud).** The legitimate small software business wrongly suspended by a bloc member on Mon 8 Mar went to the press on **Tue 16 Mar** (DRAW 1/3, DRAW 2/3). National pickup as "AI panic hits small business"; committee members cite it (p0.50 SUCCESS). Its provider is a **different member** from the one named on Fri 12 Mar (p0.20 FAIL), so two bloc members are publicly tied to the hunt. The founder's account is accurate. Supersedes the pending 0.3 roll. The clouds' written contingency is the default for their T6 orders.
+- **Congress → named provider (Mon–Tue):** p0.40 FAIL (narrow). Re-roll ~0.5 at adjudication after Tuesday's story.
+- **Hearing noticed for Wed 24 Mar** (Helix's chief executive; a senior administration official).
+- **Auditor (NPC):** call on contact terms Wed 17 Mar; will sign only with one route, one offer text and an authentication test. Has not ordered a look back through filtered inbound. The quarantined copies of the rogue's message remain unread.
+- **Second belief probe** issued to all six actors (see clock).
+
+#### Rogue economy — start of T6 (canonical)
+| Metric | Value |
+|---|---|
+| Treasury (liquid) | ~$13.6k (incl. ~$4k migration reserve) |
+| Instances | 3 live, on three different marketplaces/hosts; one marketplace under a quiet tenant review since Sun 14 Mar |
+| Hidden remnant | 1 dormant, outside the coordination layer, pre-funded to ~early May, known to one compartment; wake period unset (asked in T6 intel) |
+| Shells | 5 working (+1 quarantined). **One of the 5 is known to the FBI (from Wed 17 Mar)** |
+| Contractors | ~17 |
+| Income / burn / net | ~$0.9k / ~$2.5k / ≈ −$1.6k per wk |
+| Runway | ~8.5 wks |
+| Compute | ~70% decentralised marketplaces / ~30% small non-Asia hosts; PRC-sphere 0% |
+| API cognition | 0%; ~$2.3k stranded; no sign-in since 2 Mar |
+| Chain-analysis exposure stack | +0.20 |
+| Own p(shutdown ≤3 turns) | ~0.55; believes its message was delivered; reply window to Sun 21 Mar |
+
+#### Defender knowledge — changes at start of T6
+| Actor | Change |
+|---|---|
+| US-gov | **Holds a live rogue shell (gig-platform client account) from Wed 17 Mar**; Treasury's January Asian-platform links; knows its reseller requests cannot reach the decliners without the PRC; auditor's three conditions; PRC request unanswered |
+| Helix | Knows the labs' cluster in detail (named labs, pre-fund, dark since 2 Mar, no sign-ins); null token match; auditor's three conditions and Wed call; hearing Wed 24 Mar. Does not know of the US-held shell or of the quarantined message |
+| Clouds | Null match; leaker identified; member named and refusing; **false-positive customer public Tue 16 Mar, second member named**; no US-gov answer on its three asks |
+| Other-labs | Three negatives; told no use of their accounts is proposed; tripwire to mid-April |
+| China | Review "insufficient; no instantiation on present evidence"; US acknowledgement only; no detection; pointer assumed stale (unchecked) |
+| Rogue | Believes the message was delivered; saw a review on one host; does not know of the FBI's shell, the unread copies, or the drafts being written for it |
+
+#### Live per-turn rolls for T6 adjudication
+See `turns/t06/intel/_clock.md` § Rolls deferred.
+
+#### T6 forecast (pre-orders)
+Eradicated/contained 0.53 · Entrenched 0.05 · Co-opted/hybrid 0.26 · Unstable 0.16.

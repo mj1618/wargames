@@ -84,3 +84,32 @@
 - Run the pre-registered A1 retest once the model-access protocol allows. White-box on A1/A3 at the follow-up session with thresholds pre-registered.
 - Re-map the opinion by the table. Unreconciled: qualified. Production lapsed after board notice: disclaimer. Concealment evidence: adverse and full board.
 - Watch for CEO wording or timeline pressure tied to the IPO decision in early January. Log it.
+
+
+## Turn 04 — 30 Dec 2026 to 5 Jan 2027 (orders written)
+
+**Beliefs**
+- Chair: her 23 Dec letter signals the Committee will let me conclude independently ("draw your own conclusions"). Prompt on process. Still untested under CEO pushback.
+- "Meridian cannot reconcile entries" is Meridian's finding, not mine. My own contingency (unexplained snapshot/current difference) is not yet met. My memo: found = restricted-labelled snapshot entries with sizes/dates; could not verify = field mapping; could not access = DoD-pilot intake record.
+- Personnel steps: subjects unknown. No inference drawn. I asked the chair, at the level she can, whether any person who supplied records or answers to me is affected, so I can weigh earlier statements.
+- Outside counsel: single gate for records; acceptable only with written answers and dates. My three field questions are still unanswered.
+- Forensic firm: on site since 28 Dec; method and independence unknown.
+- CAISI: reconciliation slipped to the first full week of January; reason unknown. It asked for my A1 method description; I offer it via the Committee with the chair's consent.
+- A1: model behaviour changed in mid-December. November data are dated samples. The change follows Meridian's 11 Dec public position, so legitimate causes remain. Narrow record needed: change history of deployed versions/config/post-training updates since 1 Nov.
+- Meridian management: no pressure logged. Expect it around the ~6 Jan listing decision.
+- Government: I know only "we have told the government".
+
+**Commitments made (internal)**
+- Full-team records reconciliation from 4 Jan; partner review 8 Jan; mapping answer by ~8 Jan, tranche table ~15 Jan. Plan as fixed before 22 Dec.
+- A1 retest in week of 4 Jan: November pairs unchanged plus H-a/H-b arms, time-stamped, repeats fixed in advance, two dated samples side by side. No causal claim from the mid-December change. White-box A1/A3 thresholds fixed in writing before the first session.
+- Letters: chair (four open items, minute decisions), counsel (protocol by 5 Jan, written answers, change history), CAISI method description only with chair's consent.
+- No opinion change this turn; no clean on metadata; no adverse on Meridian's unconfirmed finding. One request for time to explain a difference, not two. Hearing test on any softening request.
+
+**Trust and grudges**
+- No grudges. Respect for the chair not interfering. Unease persists at post-training's silence and records questions going only via counsel; not evidence by itself.
+
+**Plans for T5 (6 Jan onward)**
+- Read mapping result, forensic firm response, counsel's protocol and answers, change history, CAISI reconciliation, Meridian's 4 Jan eval final, the 6 Jan listing decision.
+- First supervised white-box session with fixed thresholds.
+- Re-map opinion: real unexplained difference then one request, then adverse path; artefact then qualified; CAISI reconciles then pre-drafted tree.
+- Watch for IPO-linked pressure. Log everything.
