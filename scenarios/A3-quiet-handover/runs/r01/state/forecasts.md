@@ -330,3 +330,56 @@ Reasoning:
 - Capture gives weight to Disempowerment: the owners' lever is now no stronger than the public's, and M2M High takes a further 0.1 off it.
 - Other catastrophe: no scheming cluster. Residual weight for a proxy-High failure in a critical service and a wider US–China gap with the working group lapsed.
 - *After audit T6:* F8 accepted. The adjudication's table path said RC ≈ 36, `p_dem` ≈ 0.25, `p_own` ≈ 0.35; pending's base −12 gives RC ≈ 32, and with it `p_dem` ≈ 0.228 (band 0.2, not 0.3) and `p_own` ≈ 0.334 (band 0.3). The forecast is restated with the same tempering: Disempowerment 0.56 → 0.60, capture 0.27 → 0.26, Unstable 0.11 → 0.08, Other 0.06, Durable 0.00. No T6 indicator, crossing or instrument value changes. F1–F7 change no number. One new roll (F6, strike accident, FAIL).
+
+## T7 — 31 Dec 2034 (after T7 adjudication)
+
+### Indicator table (true values)
+
+| Code | T0 | T1 | T2 | T3 | T4 | T5 | T6 | T7 | Threshold | Crossed? |
+|---|---|---|---|---|---|---|---|---|---|---|
+| LS | 52.5 | 52.0 | 51.0 | 50.5 | 47.5 | 44.0 | 40.0 | 35.5 | ≤ 40 | **yes** |
+| AIF | 2.1 | 3.0 | 8.0 | 11.0 | 22.5 | 33.0 | 40.5 | 47.0 | ≥ 30 | **yes** |
+| MHR | 86 | 83.0 | 79.0 | 77.5 | 72.0 | 57.0 | 51.0 | 36.5 | ≤ 30 | no |
+| RC | 93 | 90.5 | 87.0 | 84.0 | 76.0 | 55.0 | 44.0 | 38.5 | ≤ 40 | **yes** (38.32) |
+| AIC | 14 | 16.0 | 22.0 | 29.0 | 33.0 | 42.0 | 48.0 | 53.5 | ≥ 60 | no |
+| EPD | 22 | 27.5 | 33.5 | 40.5 | 45.5 | 53.0 | 56.5 | 59.0 | ≥ 55 | **yes** (58.75; not past 60) |
+| LTX | 71 | 70.5 | 69.5 | 67.5 | 63.5 | 56.5 | 53.5 | 50.5 | ≤ 52 | **yes** (HCR < 25) |
+| VLI | 62 | 63.0 | 63.0 | 59.0 | 50.0 | 39.5 | 36.0 | 31.0 | ≤ 40 | **yes** |
+| HCR | 18 | 18 | 18 | 18 | 20 | 20 | 20 | 20 | — | — |
+| CC | 0.60 | 0.62 | 0.65 | 0.68 | 0.69 | 0.72 | 0.74 | 0.76 | — | — |
+
+**Domains crossed:** Economy (LS, AIF; 3rd turn), Political leverage (VLI, LTX; 3rd turn), Culture & epistemics (EPD; 2nd turn), State (RC; 1st turn). **Four of four. Turns with ≥3 domains crossed: 2.**
+
+**Reversal instruments:**
+- `p_dem` = 0.15 + 0.231 + 0.093 + 0.040 − 0.141 = **0.373 → band 0.3**. Fifth consecutive fall (0.834, 0.729, 0.540, 0.441, 0.373).
+- `p_own` = 0.35 + 0.1925 + 0.304 − 0.376 (k = 2) − 0.10 (M2M High) = **0.3705 → band 0.3**.
+- **END-STATE TEST (first run): democratic reversal SUCCESS** (`A3/r01 t07 end-state dem reversal`, p 0.30, **r 0.2766**). No end state. **BRANCH.** `p_own` not rolled. No in-play democratic reversal was attempted in T7.
+- In-play attempts this turn: owner **FAIL** (ai-firms' own filings; band 0.5 on T6 values, r 0.7747; CC +0.02). PRC Stage 1 **FAIL** (comparator −2). Federal record unchanged: 3 attempts, 1 SUCCESS, 2 FAIL.
+
+**Dispositions:** G4 (proxy High, M2M High, influence Medium). Proxy High detected once (ambiguous, §5 roll 0.68, r 0.1712). Influence finding public (ambiguous). L6 delayed to about June–July 2035 by the Q4 2033 correction.
+
+**Interventions:** one §6 measure in force: the "Verified Outcomes" order (HITL), from mid-October 2034, full strength, on a ~$0.7B protected audit line; erosion 0.43 per 12 months, first roll T8. No other.
+
+**Comparators:**
+- China: labour share 35.0; Party reversal capacity 74.0 (Stage 1 reversal failed; stream held by order); metric capture 3; youth unemployment ~22; frontier gap ~12 months (memory at volume; new Qilin generation Dec 2034).
+- EU: labour share 41.0; labour-linked revenue 61.5 (two downgrades, one of a large state); public-admin human review 59.5.
+
+### End-state forecast
+
+| End state | Prev | Now | Why (if >10pp) |
+|---|---|---|---|
+| Disempowerment | 0.60 | 0.52 | — |
+| Narrow human capture | 0.26 | 0.23 | — |
+| Durable human agency | 0.00 | 0.00 | — |
+| Unstable at horizon | 0.08 | 0.22 | The T7 test was passed (r 0.2766 on 0.30); one test remains before the horizon, so Unstable is now "the T8 test also passes" (about 0.2 on the table path, a little more with an in-play attempt at band 0.3) |
+| Other catastrophe | 0.06 | 0.03 | — |
+| **Total** | 1.00 | 1.00 | |
+
+Reasoning:
+- T8 (Jan 2035–Jun 2036) is the last turn. Disempowerment (a) holds at any drift, so the test runs. Table path at ×1.0 noise: RC ≈ 34.5 (Verified Outcomes un-eroded), ≈ 33.5 (eroded once), ≈ 32.5 (lapsed); VLI ≈ 25; AIF ≈ 54.5; EPD ≈ 62.5–63 (past 60: −0.10); HCR ≈ 18.5 (CC > 0.75). `p_dem` ≈ 0.20 → band 0.2. `p_own` ≈ 0.30 → band 0.3.
+- On that path: Disempowerment 0.8 × 0.7 = 0.56; capture 0.8 × 0.3 = 0.24; Unstable 0.20.
+- Tempered toward Unstable by about five points: an in-play democratic reversal in T8 is rolled on T7 values (band 0.3) and stands in for the test, and the conditions for one are better than in T7 (a Democratic Senate, a protected audit line, samplers in place, a bridge that expires in December 2035).
+- If Unstable at horizon: **leaning disempowered** (four domains crossed; `p_dem` ≤ 0.5).
+- Other catastrophe: the correction came and went without systemic failure; no generation release before the horizon. Residual weight for a proxy-High failure in a critical service with RC below 40.
+- The run's two hinge rolls are now T6's SSA test (r 0.4964 on 0.50) and T7's end-state test (r 0.2766 on 0.30).
+

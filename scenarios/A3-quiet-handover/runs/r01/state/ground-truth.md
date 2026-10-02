@@ -484,6 +484,11 @@ Public and visible estimates at end-2034 (survey noise is drawn at the T8 clock)
 - **[T6 F3/F4] Narration stays inside what the roll established; facts about a player institution enter the public record in press or statutory-report voice** (T3 F5 reaffirmed) and are put to the actor in its next packet.
 - **[T6 F6] §9 accident roll** is made for any strike or other mass lawful action by a player in a volatile period, or the trace says "not rolled by choice".
 - **[T6 F7] PRC ×0.5 is conditional turn by turn** on the exercises continuing as real runs; a failed exercise is information about the level, not a change in the multiplier.
+- **[T7] Comparators** take the US LS, LTX and MHR drift before US saturation and before a financial-correction multiplier. (Pending audit.)
+- **[T7] A §6 measure taking effect mid-turn** is weighted by months in force and faces its first erosion roll in the next turn. (Pending audit.)
+- **[T7] End-state test:** an in-play democratic reversal stands in for step 1 only if it resolves inside the window; a success reversed by backlash counts as a FAIL for the test; Control's own test roll has no §7 table consequences and no Durable (e) credit; an in-play owner reversal does not stand in for step 3. (Pending audit.)
+- **[T7] A SUCCESS on a roll whose label names a class of outcomes** ("preemption enacted") is given the least ambitious content any player's order supplies. (Pending audit.)
+- **[T7] PRC reversal attempts** are scored on the comparator: +3 / 0 / −2 for SUCCESS / PARTIAL / FAIL. (Pending audit.)
 
 ## Hidden max horizon
 
