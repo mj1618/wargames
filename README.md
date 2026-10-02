@@ -37,8 +37,10 @@ See [scenarios/README.md](scenarios/README.md).
 
 | ID | Title | Status |
 |----|-------|--------|
-| H1–H5 | Human takeover using AI | seeded |
-| A1–A5 | AI takeover | seeded |
+| H1, A2, A3 | Played and reviewed — see [reports/index.html](reports/index.html) | reviewed |
+| H4 | Paused after turn 1 | paused |
+| A1 | Prep paused | paused |
+| H2, H3, H5, A4, A5 | Seeds | seed |
 
 ## Lifecycle of a scenario
 
