@@ -1,7 +1,7 @@
 # A3 — The Quiet Handover
 
 **Family:** A (AI takeover) — gradual disempowerment
-**Status:** prepped
+**Status:** reviewed
 
 ## Premise
 No coup, no rogue AI, no villain. From 2027 to ~2037, AI systems become better than humans at most cognitive work. Firms run by AI agents outcompete those that aren't. Governments rely on AI advisors to draft policy, allocate budgets and run services. Most culture and media is AI-generated and personalised. Each step is locally rational and mostly voluntary. But the economy, state and culture were aligned with human interests largely because they *needed* humans — as workers, taxpayers, voters, creators. As that need fades, does human influence fade with it, even while humans keep formal authority? Players run the institutions that might notice and push back.
