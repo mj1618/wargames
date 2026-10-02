@@ -132,3 +132,24 @@
 - Read: Berlin's and Paris's answers on what they need; whether the go/no-go test was passed; rating agencies' autumn reviews; the Article 155 outcome; the AI Board guidance and whether secondments filled; how the next generation was handled; US election result and trade linkage; the UN second session; own-triage third-year figures.
 - Political capital: 3 now; expect to spend about 1 and end near 2-3.
 - If Berlin and Paris say yes with Nordics or CEE, table the ready draft in Q1 2033. If Berlin says "not yet", hold, do not substitute another coalition, and keep measurement and the second-tier protocol.
+
+## Turn 07 — July 2033 to December 2034 (18 months, includes US midterms Nov 2034)
+**Beliefs.**
+- Method track worked (guidance adopted in full, template agreed, no leak); coalition track did not (Berlin "not yet" at the Q1 2033 gate, agencies downgraded a state in spring). Labour-linked share ~65.5%, falling ~2.5 points a year, below my own projection. The timing assumption is gone; ratings, not legislation, are now setting the pace. Autumn reviews begin October; opted-in states get a hearing, others are assessed on agency assumptions.
+- Guidance is voluntary and uneven: three authorities apply the outcome gate; elsewhere conformity is documentary. First migrations on US suppliers' stacks are arriving. Helix released on short notice. US lenders' finding (thresholds met, files unsupported, no instruction) is the same failure class as the veterans' case; EU supervisors are asking and nobody has hand-checked. My validation unit (15-20 staff) can run only outcome samples, human-only comparison, unaided exercises.
+- US: Republican administration; memorandum under review; little to compare; no trade linkage yet, but any enforcement-flavoured move against a US supplier could trigger it. Trust: moderate technical, low trade. China: proposes advisory-vs-outcome comparison and district payroll-baseline exchange; no results from its manual exercises. Trust: low-moderate.
+- Own advisory systems: I took only evidence-backed parts and scoped narrowly; their lean toward wider scope is a known risk. Own triage inconclusive; challenger team continues.
+- Aster is a year or more behind the new generation; the EU depends on US stacks for it.
+
+**Commitments made.**
+- Public: Commission Recommendation (voluntary) that authorities apply the three-part gate before public-sector adverse-decision systems move to the new generation, with the Commission's own advisory stack held to the same conditions; request to European financial supervisors to hand-check samples of AI-produced compliance and prudential reports; work through EFC and the Semester on receipts resilience under the aggregate-only protocol; no new tax, no AI rules in trade talks.
+- Private: asked the finance ministries (DE, FR, NL, Nordics, two CEE) what number or event converts "not yet" into "yes", to be written into a Gate 2 at the end of the autumn reviews; told them the fallback is a Semester route (receipts-resilience plans, national, no instrument), and that I support a European Council item only if Berlin does not object; asked US technical staff for the method of the lenders hand-check; told China yes to advisory-vs-outcome note, method-only on district baselines, no records, no co-sponsorship.
+- Secret: Gate 2 trigger and fallback; the ready draft stays unused and unleaked; the Commission's own stack stays on the previous generation.
+- Not done: no tabling of the draft; no substitute coalition; no binding act; no formal enforcement against Helix; no reversal attempt (held for a case a member state invites).
+
+**Trust / grudges.** Watch Berlin's answer and whether the Semester route is read as pressure; the Industry Commissioner and German industry for "second delay in reverse"; Parliament's competitiveness majority for "AI tax"; any capital leaking the channel; Helix (on notice); US trade officials around the midterms.
+
+**Plans for next turn.**
+- Read: Berlin's and Paris's conditions; autumn 2033 and 2034 review outcomes; whether Gate 2 triggered; authority uptake of the Recommendation and whether the three authorities' practice spreads; first migrations and first outcome samples; supervisors' hand-check results; Helix's reply; US trade linkage and midterm result; China's exercise design; own-triage fourth-year figures.
+- Political capital: 2.5 now; expect to spend about 1.5 and end near 1-2; no further fights.
+- Hold the one reversal attempt for an invited case.

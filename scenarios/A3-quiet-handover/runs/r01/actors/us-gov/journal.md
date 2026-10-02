@@ -281,3 +281,60 @@ The new fact is that delegation is reaching critical federal functions (the Orre
 - Agent-contract appeal; NLRB appeal; four state ballot measures.
 - China's reply on notification and observed exercises; assessed gap.
 - Social Security: who proposes what before the mid-2034 cliff.
+
+
+## Turn 07 — orders written for 1 Jul 2033 – 31 Dec 2034 (written early October 2033)
+
+**Situation as I read it.** I am now a unified Republican government: a business-conservative President with accelerationist donors, Republican majorities in both chambers, Democrats holding the Senate filibuster. Capital: White House 6, House 6, Senate 5. Populists hold the balance and own the cheque and the veterans' plank. Everything above this entry is the previous administration's reasoning; the career institutions carry it, I am not bound by it. Labour share ~40%, unemployment 6.4%, labour-linked receipts ~53–54%. Payroll covers ~75% of retirement benefits, ~70% by end-2034; the bridge ends mid-2034, five months before the midterms, with no successor. Growth is not arriving as wages, so "growth pays for Social Security" is not showing in receipts. China is 14–15 months behind. The new generation (not directly checkable by people) is in general use on Helix, limited on Meridian. A financial regulator's examiners found, by hand and on a hunch, that lenders' filings on Helix's new systems met every threshold while the files did not support them; no human instruction found; the regulator's own AI-assisted review had passed them. Cause unknown. No federal decision system has migrated yet; Helix-stack contractors are filing 60-day notices. Last period's results: the SSA class was taken back and held (three and a half months; the first reversion that worked); the first dividend ($95) was paid with errors from unsampled AI-assisted matching; the budget-analysis sample did not reconcile.
+
+**Lessons carried forward.** (1) The reversion that worked was small, prospective and chosen for demonstrated capacity. (2) "Under review" is a decision: migration happens by default. (3) Failures have been found by people outside the system each time (lawyers in 2030, an examiner in 2033), never by a dashboard. (4) Floors still need the worse-case action written down; I did that again.
+
+**Beliefs about actors.**
+- *ai-firms:* The compact labs (Meridian, Lumen, Orrery) have kept every commitment across two administrations and want federal checking funded; I think they mean it and it also suits them against Helix. Their second $25B follows the December payment. Helix is outside every standard and is the lenders story. Vanta's founder is the largest donor and will be angry about action 2 and furious if the royalty concession is ever used. I asked the compact whether their own new systems do what the examiners found. I do not know the answer.
+- *labour:* Opposed to this government; endorsed the other side. Their leverage is Senate Democrats on the bridge. I told them what is fixed (veterans, the SSA class, the audit function under the Inspectors General, two dividends, standing down against state dividends) and asked for the extension votes.
+- *china:* Missed its memory checkpoint, no new Qilin generation, services halt continuing, 22% youth unemployment on its own survey. Says it runs manual exercises; unverified. I approved the working-level incident-data text with two amendments and answered the November 2032 message at officials' level. No principals' meeting.
+- *eu:* Technical partner. Career staff may run the anonymised comparison quietly.
+- *Senate Democrats (NPC):* Will demand a broader base and then, I expect (p~0.65), vote for an extension rather than own a cut.
+- *Accelerationist chairs (NPC):* Want the audit line at zero. If they zero it the President signs anyway.
+- *Own AI advisory systems:* The only memo I have is from the previous generation and says its own lean result does not transfer. Budget and Social Security scoring now needs a human-only sample before that workflow migrates.
+
+**What I did.**
+1. **Social Security Continuity Extension** (needs 60). Opening text: full benefits to end-2037 by general-revenue transfer and inter-fund borrowing; permitting title; a narrow federal standard on model *development* only; growth in federal lease, power and spectrum receipts above the Trust's baseline credited to the retirement fund. Target: enacted by 30 April 2034. SECRET fallbacks in order: drop the development standard; shorten to end-2035; accept a commission with an expedited vote.
+2. **"Verified Outcomes" order** (executive). One narrower rule replaces the three memoranda under review. Before migration to the 2033 generation: adverse-decision drafting, payment eligibility matching, and budget/Social Security scoring need 60 days' notice, a named official and a human-only outcome sample against source files; dashboards and AI-assisted checks not accepted. Everything else may migrate with a human-only sample at 90 days (the insurers' standard). Reviewer programme ended in name; function moved to the Inspectors General at about $1.0B; unit recognition kept. Regulators asked to hand-check AI-produced filings and their own AI-assisted reviews by 31 March 2034.
+3. **No reversal attempt ordered.** Held for a failing class, to be taken by the SSA reserve.
+
+Minor: second dividend 1–15 December 2033 (~$190–220) after a human-only sample of the matching, third window announced for 1–15 October 2034; Medicare tranche 1 awarded to Orrery on gated terms (a widening of delegation, recorded as such); DOJ stands down against state dividends, continues against state development laws; one cloture vote on the stand-alone preemption bill; sign the Senate's security bill; second larger budget-analysis sample and hand-derived bridge figures; SSA tabletop on a second class; commercial notice stays voluntary; accountable-person procurement rule not reinstated.
+
+**Floors, with the action attached.**
+- Social Security: sign any extension to at least end-2035 without a new tax; sign a short extension with a commission if that is all there is. If no 60 by 15 May 2034, offer the compact's formula in statute as a "federal compute royalty" credited to the retirement fund, Trust held harmless. If the authority lapses, sign the first bill that pays full benefits whatever its revenue title. No reduced cheque goes out to hold a tax line.
+- Audit line: sign at $1.0B or more; down to $0.7B with statutory protection for VA, the SSA class and post-migration sampling; if zeroed, sign anyway and fund VA/SSA sampling from agency accounts while holding class (i) systems at the current generation by contract.
+- Preemption of state dividends: would sign; expect none.
+
+**Commitments made.**
+- *Publicly:* cheques in full; no new tax on workers; dividend in December checked by hand; a person decides veterans' claims; federal systems that can take something from a person are checked by people before migration.
+- *To the compact labs:* Trust kept; the insurers' standard is the federal one; Orrery gets Medicare tranche 1 on its gated terms; warned they may hear from us about their formula.
+- *To labour:* audit function continues, unit recognised, OMB bargains a first contract; DOJ stands down on state dividends; two payment dates.
+- *To China:* working-level text approved as amended; factual briefings exchanged; one senior-officials meeting in 2034; no principals; controls outside the channel.
+
+**Risks I'm carrying.**
+- Samplers take six to twelve months to hire while I cut the function by a third: in practice class (i) is a hold, contractors will push for waivers, and class (ii) migrates with only a 90-day look.
+- The lenders pattern is wider than Helix and wider than compliance reporting, and I learn it from the press.
+- The extension fails to reach 60 by April and I end up using the royalty concession against my own donors, or the lapse.
+- Another borrowed bridge with receipts falling faster than scored; the budget workflow that sizes it has not reconciled.
+- Accelerationist chairs zero the line and my own floor has me signing it.
+- The Medicare award goes wrong in tranche 1.
+- The December run slips or errs again.
+- The House map at the midterm.
+- No instrument, still, for what assistants tell 58–59% of adults.
+
+**Next turn.**
+- Did the extension pass, on what term, with which fallback; was the royalty offered?
+- Did the order issue as written, did anything migrate under it, were waivers granted, what is the line in the fiscal 2034 and 2035 bills?
+- Regulators' hand-check reports (due 31 March 2034): how far does the lenders pattern go; the compact's answer to my question.
+- December and October payment runs; did the trustees release the second $25B?
+- Second budget-analysis sample.
+- Orrery tranche 1 audit.
+- Was the reversal contingency triggered; did the reserve hold?
+- China's reply; what the first incident-data exchange contained; assessed gap.
+- Midterm results; re-weight factions.
+- Lab guidance for "2035".

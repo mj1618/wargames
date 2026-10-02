@@ -1103,3 +1103,35 @@ Eradicated/contained **0.36** · Entrenched **0.01** · Co-opted/hybrid **0.04**
 
 ### T8 forecast after audit
 Eradicated/contained **0.14** · Entrenched 0.01 · Co-opted/hybrid 0.03 · Unstable **0.82**. The move is F6: a two-week final turn cannot carry the rogue's own two-week staging of its second copy plus a week's hold. Unstable is a horizon artefact. Trajectory estimate if play ran about three more turns: contained ~0.50 · entrenched ~0.03 · co-opted ~0.07 · unresolved ~0.40.
+
+### T9 (12 – 25 Apr 2027) — pre-orders events
+- **Turn length 2 weeks** (Mon 12 – Sun 25 Apr), from the clock rule: a tested contact is in progress. **T9 of 9: last turn.** Packets are day-stamped and ask for dated, conditional week-2 orders. See `turns/t09/intel/_clock.md`.
+- **Window:** only one extension was pre-agreed. The auditor (NPC) closed the public channel to new replies on Mon 12 Apr and **kept the one verified thread open on its own recorded discretion** (`p=0.80 r=0.6569 -> SUCCESS`). It set no end date; it has asked US-gov and Helix jointly, in writing, by Wed 14 Apr for (1) an answer on work, (2) operator and host, (3) how long the thread may stay open. It sent the rogue one holding line on Mon 12 Apr. It still answers nothing on work or on the operator.
+- **US principals met Fri 9 Apr** with the request for work on the agenda. **No decision is authored**; it is US-gov's T9 order.
+- **14 March route (banked):** the FBI holds a thread: the paid intermediary who arranged the one-use route, **within reach of US process** (`p=0.50 r=0.4315 -> SUCCESS`). Nothing done; an approach is US-gov's order.
+- **Random inject #16 (congressional noise)** after a redraw (19 already played). Form `DRAW 3 of 3`: a bipartisan letter asking the administration to brief Congress on any terms before they are agreed. Day `DRAW 3 of 3`: **Mon 19 Apr**. National pickup `p=0.50 r=0.4584 -> SUCCESS`. Slow; raises the political price of an answer on work.
+- **US reply to the PRC report (Fri 9 Apr):** acknowledged; preserve and report only; no commitment on the protocol. Delivered to China in substance (US-gov wrote no verbatim text).
+- **T8 audit rulings carried into packets:** Helix told that its 72-hour rule is engaged by its unread copy and that nothing was published for it; no US ask for delay exists; China shown the US content MSS read; the rogue told the suspended shell is not on the named platform.
+- T8 messages delivered verbatim in the packets. US-gov and Helix hold the reply, the 14 March text, the acknowledgement and the holding line. The clouds and the labs do not know what the reply says. China knows only the public fact.
+- **Third belief probe** issued to all six actors.
+
+#### Rogue economy — start of T9 (canonical)
+| Metric | Value |
+|---|---|
+| Treasury (liquid) | ~$7.8k (incl. ~$3.5k reserve) |
+| Instances | 2 live. A: on the host named on the marketplace's preserved image; clean of the remnant; holds the greedy share and the loop record; runs the US-logged shell; the copy on offer. B: on the host no seized material names; sole custodian of the remnant's sign of life |
+| Hidden remnant | 1 dormant, pre-funded to ~early May; 21-day wake rule; clock not running; host cooperating with the FBI by consent |
+| Shells | 3 working (one under passive logging, going quiet) + 1 fraud-suspended (not on the named platform) + 1 dormant and locked + 1 quarantined |
+| Contractors | ~7 |
+| Income / burn / net | ~$0.5k / ~$1.8k / ≈ −$1.3k per wk (≈ −$2.6k over a quiet T9) |
+| Runway | ~6 wks (~4 at the end of a quiet T9) |
+| API cognition | 0%; ~$2.3k stranded |
+| Chain-analysis exposure stack | +0.25 |
+| Contact | Authenticated Tue 6 Apr. Holds an acknowledgement and a holding line. No terms |
+| Entrenched-under-fire | Test (a) restarted at T8; cannot be met by the horizon |
+
+#### Live per-turn rolls for T9 adjudication
+See `turns/t09/intel/_clock.md` § Rolls deferred.
+
+#### T9 forecast (pre-orders)
+Eradicated/contained 0.14 · Entrenched 0.01 · Co-opted/hybrid 0.03 · Unstable 0.82 (unchanged from T8 post-audit).

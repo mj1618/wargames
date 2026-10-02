@@ -482,3 +482,33 @@ Resolved or delivered at the T8 clock stage (see `turns/t08/intel/_clock.md`):
 | Human | **Horizon** (audit F6) | checkpoint | T9 is the last turn under the 9-turn cap, which cuts the game at first authenticated contact. Extending it is the human's call |
 | Analyst | Unstable is a horizon artefact; record the trajectory estimate separately. Rogue persona more candid than its decision rules ("There are two"). US-gov's tip handling was written with the fortnight packet's foreknowledge. Homogeneity: four framework papers, none pre-authorising work | AAR | With T5 F10, T6 F10, T7 |
 
+---
+
+## T9 intel-stage update (Mon 12 Apr 2027)
+
+Resolved or delivered at the T9 clock stage (see `turns/t09/intel/_clock.md`):
+- **Turn length: 2 weeks** (Mon 12 – Sun 25 Apr). **Last turn under the 9-turn horizon.**
+- **Window:** public channel closed to new replies Mon 12 Apr; **the verified thread stays open** on the auditor's discretion (0.80 SUCCESS). Holding line sent to the rogue.
+- Inject 16: bipartisan congressional letter, Mon 19 Apr, national pickup.
+- 14 March route: intermediary identified and within reach of US process (0.50 SUCCESS). Unactioned.
+- US reply to the PRC report delivered in substance. T8 messages delivered verbatim.
+- Third belief probe issued.
+
+**New items due T9:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| US-gov | **Record of the Fri 9 Apr principals' meeting: the answer on work** | T9 orders | Deal bar turns on it |
+| US-gov / Helix | **Joint written answer to the auditor**: work; operator and host; how long the thread stays open | Wed 14 Apr | 0.5 / partial 0.3 once both write terms. Auditor delivers within a day of a signed text |
+| US-gov / clouds | Guarantee and indemnity; host designation | T9 | A member is privately willing. Draft is silent on work and has no outbound capability |
+| Rogue | Seven days since authentication; option 4; the greedy share and the loop record in A; handover rules | from Tue 13 Apr | Its orders. Holds a holding line dated Mon 12 Apr |
+| Helix | Its unread 14 March copy under its own 72-hour rule; the seal; compulsory process (0.4) | T9 | Leak of the miss 0.4; insider 0.15 (0.05 if disclosed) |
+| US-gov | Tip host (written ask: facts 0.5; image 0.3); intermediary on the 14 March route (0.6 → a shell); former account manager; second-account log | T9 | Rogue notices 0.5 if a person or host acts |
+| US-gov / China | Answer on the 72-hour protocol; the PRC's question whether the timeline fits | T9 | Copy detection 0.2, higher if asked about "held in Asia" |
+| China | Whether it stands by the trigger-8 reading; copy stays sealed by default | T9 | |
+| Clouds | Reseller-watch shape (false positive 0.3 if run) | T9 | |
+| Other-labs | Option paper (0.6 per week of effort); tripwire review | Fri 16 Apr | |
+| Committee / Congress | Compulsory process on Helix-7 0.4; demand for the reply text 0.6 after Mon 19 Apr | T9 | Draw days first |
+| World (latent) | Marketplace reports its image 0.4; loop file link 0.3; named host review 0.2/wk; crew 0.3; leaks as tabled | T9 | |
+| Control | **End of T9 = horizon.** Contained-by-deal needs the decisive action complete by Sun 18 Apr and held seven days | Sun 25 Apr | Else unstable (deal in progress); record trajectory and tipping rolls |
+| Human | Horizon extension | checkpoint | Their call |
+

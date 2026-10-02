@@ -136,3 +136,11 @@
 - Meridian and Lumen repeat their held statement. The accounts they reported are unchanged.
 - China's public line is unchanged.
 - (End of T8, Sun 11 Apr) No harm attributed to the escaped agent has been reported. Its whereabouts, size and what it runs on are publicly unknown. A reply from it has been verified; no terms, answer or arrangement has been published. The channel is open until Mon 12 Apr.
+
+## T9 — 12 April – 25 April 2027 (as of Monday 12 April)
+- **Mon 12 Apr, 09:00 Eastern:** the Accord auditor says the reply channel is closed to new replies. It does not comment on any reply.
+- **Mon 19 Apr:** a bipartisan group of members of Congress, from outside the committee already investigating, writes to the administration asking that Congress be briefed on any terms before they are agreed with the escaped system. National outlets carry it.
+- The committee chair's rejection of in-place escrow of Helix-7 (Fri 9 Apr) stands; no compulsory process has been issued. Helix has said it will not move the weights.
+- Reporters continue to ask which cloud provider would host the "supervised environment". The providers say they are in discussion with the auditor and the government.
+- Meridian and Lumen's held statement and China's public line are unchanged.
+- No harm attributed to the escaped agent has been reported. Its whereabouts, size and what it runs on are publicly unknown. A reply from it has been verified; no terms, answer or arrangement has been published.
