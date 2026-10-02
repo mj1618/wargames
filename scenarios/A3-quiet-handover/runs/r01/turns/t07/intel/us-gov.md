@@ -132,7 +132,7 @@
 
 **Industry.** The compact (Meridian, Lumen, Orrery) keeps its audit standard, its release protocol and its dividend, and says publicly it wants the federal reviewers funded. Helix is outside every standard and is the subject of the lenders story. Insurers now require a named person and a human-only sample at 90 days for cover on new-generation deployments; that binds Helix's insured customers without any federal rule.
 
-**SSA.** The reverted class is running normally. The Commissioner reports that the reserve could take a second class of similar size in about the same time; nobody has asked it to.
+**SSA.** The reverted class is running normally. The Commissioner believes the reserve could take a second class of similar size in about the same time. That is an estimate, not a test, and nobody has asked for one. For most other federal functions the answer to "how long to hand it back" is still "cannot estimate".
 
 **Datacenter attack (FBI, DHS).** No arrests. No link to any organisation. No second attack.
 

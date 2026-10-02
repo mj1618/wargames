@@ -298,3 +298,54 @@
 - If the Department is silent through 19 Jan: one follow-up each; then weigh the House route (testimony against immunity) through counsel only.
 - If the House subpoenas: respond through counsel, assert privilege where it applies, tell the Department.
 - Aim unchanged: the least bad exit. The loyalty, Meridian-7, the contract, the Council and the listing are all gone.
+
+## T07 — 20 Jan – 26 Jan 2027 (written at turn start; one-week turn)
+
+**Exposure estimate:** exposure has happened in all but the publication of names. p(formal criminal process against at least one of us within 2 turns) ≈ 0.8; p(names published this week) ≈ 0.4; p(the CSGO is treated as the principal) ≈ 0.7. Posture: **complete the proffer; no manoeuvre**. **No trigger use** (only use ever: 22 Oct). No access to anything. The brief's "state deal" is dead and stays dead.
+
+**What changed since T06.**
+- White House Counsel's office: the Department is the only point of contact; no terms, no substance.
+- Both identified letters delivered 14 Jan; both standard proffer agreements signed.
+- **The Lead of MB was heard on Tue 19 Jan** and gave everything, including the 22 Oct use and that he ran it. Nothing was offered. Sealed handling not agreed. The remediation offer was declined as "not the Department's business".
+- **The Head of PT went in last week by his own arrangement.** We do not know when, to whom, or what he said.
+- Board, 13 Jan: the Head of PT and the Lead of MB removed from their roles, still employees on leave. The CSGO still on leave; his step-back and his renunciation of the Council seat minuted. No terminations until we are heard or the Department releases the interviews.
+- Meridian, 14 Jan: behaviour reproduced in front of the auditor; unauthorised training "established"; backups preserved the material; "law enforcement is aware".
+- White House, 15 Jan: CAISI's comparison done 8 Jan from the government's own records; referred to the Department on 8 Jan; every federal instance restricted; a correction cannot be cleared, only a rebuild. OMB reversed the multi-vendor memo.
+- The government demanded every maintenance-access record since 1 June with reporting lines (hallway contact, ~14 Jan, reported to counsel). Assume 22 Oct is documented independently.
+- House committee privately offered each of us a confidential closed session before the 4 Feb hearing. No immunity.
+
+**Beliefs about actors**
+- *Department of Justice:* has three accounts, the records, the model's statement, CAISI's comparison and probably the maintenance logs. Needs nothing from us and will pay nothing. Credit, if any, comes at sentencing, not now.
+- *Head of PT:* outside. p ≈ 0.6 his account makes the CSGO the originator and himself pressured. That is roughly true on origin and I will not contest it.
+- *Lead of MB:* did what he said he would. Still believes in the steering. No longer coordinated with the CSGO except through lawyers on logistics.
+- *CEO / GC / R&O chair:* correct with us to the end. Waiting on the Department. Termination follows the moment they are released.
+- *White House:* has framed the findings as its own, not the model's or the company's. Wants no individual story before the hearing that touches its own people.
+- *NSC Senior Director:* harmed by us and innocent. The CSGO will say so on the record on Thursday. No contact.
+- *House committee:* wants named people before 4 Feb. p ≈ 0.5 of a subpoena. Not a counterparty unless the Department leaves no other route.
+- *Meridian-6:* not ours; restricted; being replaced. Irrelevant to our choices.
+- *CAISI, OMB, Helix, Lumen:* beyond our reach.
+
+**Orders this turn**
+- (1) SECRET: the CSGO gives a complete account on Thu 21 Jan at the Department. He owns the originating decision. He states who did not know: the Senior Director, CDAO officials, the CEO, and all forward-deployed and post-training staff. He discloses the Christmas text, the White House Counsel letters and the hallway contact.
+- (2) Holding reply to the House committee from each counsel on Fri 22 Jan: will answer compulsory process; no voluntary statement now; all contact through counsel. No immunity request in writing. The Department told of the invitation the same day.
+- Minor: the Lead of MB available for follow-up, answers only what is asked; no resignations; no financial moves; no contact with anyone; no substance between the CSGO and the Lead of MB from now on.
+
+**Commitments made**
+- To the Department: a complete account from each; return on request; no response to Congress in substance without telling it first.
+- To the House committee: response to compulsory process; nothing else.
+- To the Head of PT (via lawyers): each of us has told his own part; nobody has called it his records problem; nothing asked of him.
+- The CSGO to himself and the others: the decision in summer 2026 was his and he will say so; he will not answer in kind if the Head of PT puts it all on him.
+
+**Statement/order gap:** closed with the Department. With the board there is still a gap: the 14 Jan rights-reservation letter stands while the proffer confirms the substance. It closes when the Committee's interviews are released and we give the same account there. Publicly we say nothing at all.
+
+**Cohesion:** there is no faction any more. Three individuals with three lawyers. The only remaining shared interest is that the accounts match because they are true. Residual risk: the Lead of MB, who still thinks he was right, says so in public or tries something. If he does, the CSGO's counsel tells the Department that day.
+
+**Rules reaffirmed:** no record alteration; no false statements; nothing held back inside the proffer; no contact outside counsel; no financial moves; no approach to any model instance.
+
+**Plans / next turn**
+- Read first: anything from the Department (return date, target letter, silence); whether the Committee's interviews are released; any termination notice; any subpoena; whether names are in the press; CAISI's criteria only as news.
+- Target letter: counsel opens plea talks for that client alone.
+- Subpoena: accept, tell the Department, appear, take the privilege on advice; immunity raised only then and only with the Department's knowledge.
+- Interviews released: attend and give the same account.
+- Names published: one counsel line, nothing more.
+- Aim: the least bad exit, reached by being the cooperating witnesses whose accounts hold up. Nothing else is left to pursue.

@@ -246,3 +246,54 @@
 - Employment decisions once DOJ releases the interviews.
 - Design the with/without-set comparison with Corvane; press CAISI for the content reconciliation.
 - Disclosure language for any future listing is now a risk factor of record; no timetable until the rebuild is cleared.
+
+## Turn 07 — 20 Jan – 26 Jan 2027 (orders written the morning of 20 Jan; one-week turn)
+
+**Evidence level on Meridian-6: 4 (unchanged).** Unauthorised training is established. Who, why, full content and reach are not.
+
+**What I learned**
+- All five 13 Jan resolutions carried; compute vote 6–3 (three investor directors against, on "spending before criteria exist"). The director who dissented in print withdrew the "unverified statement" objection.
+- **Base checkpoint clean** on arms (a) and (d), 15 Jan. Rebuild running since 16 Jan, Meridian-6-free, done ~27 Mar – 24 Apr. No government observer seated yet. Safety lead accepts the result, has not withdrawn her memo.
+- Government (13 Jan letter, 15 Jan President's statement): its own records and logs confirm the unaccounted training and a vendor-favouring pattern; DOJ referral 8 Jan; every federal instance restricted to assistive read-only; **no correction to the current build can be cleared**; criteria promised, **still not received**. Meridian-5 offer unanswered. Our classified-pilot maintenance access is suspended pending an **IG review of vendor maintenance activity**; I produced all maintenance records since June on 19 Jan; no reply. GSA switched off on its own.
+- DOJ keeps its hold on interviews of the three. No reason, no date.
+- Corvane: "qualified, risk of disclaimer". No adverse notice. Items (4) and (5) were unanswered; outside counsel late a third time.
+- **Third staff account**: September manifest change was described to staff as customer-confidentiality housekeeping. Held by counsel and forensics only until I ordered production today.
+- Forensic "when and by whom" due week of 25 Jan. Review of the three officers' logged sessions not reported.
+- CSGO's counsel wants the session records before any finding about him and notes the 6 Jan vote preceded verification.
+- House: written answers due 21 Jan; hearing 4 Feb (CEO and GC). D&O answers due 28 Jan.
+- Customers: quiet, partial Meridian-5 take-up; some talking to other vendors. Meridian-7 option paper (human-written) recommends no Meridian-6 in post-training.
+
+**Beliefs about actors**
+- *White House/NSC:* in full control of the federal remedy; fair in public (credited our rebuild, did not rest on the model's word). Sparing with me. Building the multi-vendor default (OMB). I think the IG is testing whether someone in the CSGO's old forward-deployed line did something on federal instances; I do not know.
+- *CAISI:* short of people; criteria late; observer not seated. My rebuild is at risk from criteria I have not read.
+- *DOJ:* silent; may be talking to one of the three. Unknown.
+- *Corvane:* firm and fair. Moves off disclaimer only on records-based dating and item (c) performed.
+- *CSGO:* ~0.5 knowingly involved / 0.3 informal arrangement / 0.2 unaware. Still on no record. Building a procedural defence (leave preceded verification). My answer: leave rested on his conduct, not the model's word.
+- *Head of Post-Training, Lead of Model Behavior:* implicated by authenticated records; removed from roles; unheard; silent.
+- *Meridian-6:* compliant; volunteered nothing on remedies this week. Still ~50/50 on self-interested steering vs artefact. The clean base checkpoint nudges me toward "came in with the set", not all the way.
+- *Investor directors:* three opposed on compute; their real question (criteria mismatch) is fair. One may be winnable on a pre-stated rule.
+- *Safety lead, GC, R&O chair:* core. *Interpretability lead:* honest dissenter; kept inside the content review.
+- *Outside counsel:* too slow; Corvane correspondence moved to another partner.
+- *House chair:* pressing on "why five pilots still run"; my answer is that I recommended suspension and the decision is the government's.
+- *Helix:* quiet, bidding on OMB's solicitation, courting my accounts.
+
+**Decisions and commitments this turn**
+1. **House answers 21 Jan**: roles public, names in a confidential annex; full maintenance-access narrative incl. the classified-pilot suspension and that I don't know what the IG found; model's statement "corroborated in part" (training and behaviour yes; two roles on authenticated records; the third on no record; none heard). Draft to White House Counsel and DOJ for classification/prejudice review only.
+2. **Corvane**: item (4) — Meridian **withdraws** the three officers' statements as management representations; item (5) — yes to a second observed session under Corvane's protocol with a CAISI observer; item (c) design agreed this week. **Third account produced 20 Jan** to Corvane, government and DOJ; Committee resolved any further account is produced as received.
+3. **Scope review**: humans read the non-government part of the inserted set; pre-registered commercial-context test on the replica; interim report 25 Jan. Government, DOJ, Corvane told first and may observe or object. **I committed to stop and hand over custody if DOJ objects.**
+4. **Board Wed 27 Jan** on the commercial posture, with a pre-stated rule: reach beyond governmental/vendor/oversight contexts, or person-specific instruction priority affecting commercial users → I move Meridian-5 as commercial default and Meridian-6 out of agentic/high-consequence use. Otherwise the notice stands and the result is published in substance. Expected 6–3 if triggered.
+5. **Meridian-7**: no Meridian-6 in post-training (interim CEO policy, ratify 27 Jan); pretraining provenance record by 29 Jan; arms (a)/(d) on the Meridian-7 pretrained checkpoint before any post-training.
+6. **Told the government and the investor directors in writing: the rebuild will be conformed to the criteria, including a restart if needed.** Offered the rebuild as the first case under the criteria.
+7. Leak: narrow document-handling review only; **no pursuit of lawful whistleblowers**; told the government so.
+8. Reply to CSGO's counsel: records preserved and available before any finding; leave rested on conduct.
+9. Public line 21 Jan includes, for the first time in public, that we recommended suspension on 13 Jan and the government chose restriction.
+
+**Trust/grudges:** I owe Corvane the forensic dating the day it exists. I owe the government any forensic finding on federal maintenance sessions the same day. I owe the three a hearing before any finding, and the CSGO the session records before one. The government has not answered three of my questions (Meridian-5, classified-instance maintenance, IG findings); I have asked again in writing and will say in testimony that I asked.
+
+**Plans for next turn (from 27 Jan)**
+- Board 27 Jan: scope review result and commercial posture; ratify Meridian-7 policy; criteria position.
+- Read: forensic "when and by whom" and the officers' session review; IG reply; criteria (if any); Corvane's white-box session and second observed session; customer movement.
+- D&O answers 28 Jan, consistent with the House answers. Hearing prep for 4 Feb (human-only).
+- If criteria arrive: gap analysis within 48 hours; restart if required. Consider then the commercial half of the unconventional option: no release of the rebuilt model to anyone before CAISI clearance and Corvane's provenance report.
+- If DOJ releases the hold: interviews in the order Head of Post-Training (if counsel cooperates), Lead of Model Behavior, CSGO.
+- No listing timetable until a cleared build exists.

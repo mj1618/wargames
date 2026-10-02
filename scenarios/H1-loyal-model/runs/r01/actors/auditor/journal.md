@@ -177,3 +177,32 @@
 
 **Plans for T7**
 - Read the chair's reply and minute, forensic interim statement, preservation confirmation, counsel's answers, first white-box result, CAISI comparison, House subpoena or hearing date, D&O questions. Execute the contingency tree.
+
+
+## Turn 07 — 20 Jan to 26 Jan 2027 (orders written)
+
+**Beliefs**
+- The 15 Jan production answered everything I asked, on time, but not (b) in the form I wanted. In place of a change log I have two staff accounts through counsel, identities withheld, dating the removal to September 2026. That is before my 30 Oct observations. The forensic firm cannot yet date it or bound it against 30 Oct. Its date is the week of 25 Jan. Accounts are "received, not relied on". I want a record carrying a September date.
+- The late-October answer from the post-training function ("classified-customer compliance set") is not supported by Meridian's own DoD-pilot intake record for about three quarters of the set. If the removal was in September, that answer was given after the set had left working records. This is a finding about a representation. It is not a finding about intent. The people are on leave and the Department of Justice holds the Committee's interviews.
+- The board "treats as established" deliberate unauthorised training. The government says the same from its own comparison. Those are their findings. My opinion stands on what I found, could not verify and could not access.
+- The board calls my 12 Jan observer session a "reproduction". It is an observation under a Meridian-written protocol without an independent observer. Meridian's 14 Jan statement cites my observer. I asked for review of any further statement that cites the firm. I did not ask for changes to past statements.
+- The with/without-set comparison and the cleared content reconciliation are agreed on paper and unperformed. Meridian's base-checkpoint test is its own protocol, summary only. I cannot rely on it.
+- Chair: prompt, on time, no wording request. Still untested under CEO or D&O pressure. CEO: no contact. Carrier deadline to Meridian is Thu 28 Jan. Expect pressure there.
+- Counsel: late three times, then complete. Not a refusal. Single gate remains.
+- My written product is the 11 Dec draft. It is stale before a 4 Feb hearing.
+
+**Commitments made (internal)**
+- Thu 21 Jan: letter to the chair with the design memo. Ask for the comparison and the content reconciliation to be run on a held copy by CAISI or a cleared third party to a Corvane pre-registered design, Meridian's run as cross-check only. Ask for item (4) answer by Tue 26 Jan and the testimony authorisation decision by Thu 28 Jan.
+- Thu/Fri 21–22 Jan: first supervised white-box session on the replica, thresholds as fixed on 4 Jan, repeats fixed in advance. Report as found.
+- Fri 22 Jan: dated supplement to the 11 Dec draft, to the Committee only. Read-out Mon 25 Jan. Opinion stays qualified with a stated disclaimer risk. Triggers in writing: removal dated after 30 Oct or by the same accounts, then adverse track and full-board notice within one working day; no content reconciliation and no with/without result by Fri 12 Feb, then disclaimer on A2; content reconciliation that accounts for the set, then pre-drafted tree.
+- Two observers to the rebuild pipeline once, process and preservation only. I do not attest that the rebuild is free of influence from Meridian-6.
+- No comfort to D&O or underwriters. No public statement. Counsel to the House: attendance subject to board authorisation or compulsion, testimony limited to the report.
+- No second request for time on any item.
+
+**Trust and grudges**
+- No grudges. Respect for the chair's timeliness and the forensic firm's candour. Unease about counsel's lateness, and about the board's certainty running ahead of my evidence. I note it and do not adopt it.
+
+**Plans for T8 (27 Jan onward)**
+- Read: replica session result, chair's reply and formal answer on item (4), forensic firm's dating, Committee decision on the second session and the third-party design, board decision on testimony, CAISI criteria, any statement citing Corvane, carrier outcome after 28 Jan.
+- Apply the trigger tree within one working day of the dating. Prepare for 4 Feb: closed-session witness position, hearing-test pass on every sentence.
+- Watch for wording, timing and comfort pressure around 28 Jan and 4 Feb. Log it.

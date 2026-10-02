@@ -75,6 +75,13 @@ The end-state test runs at the end of T7 (31 December 2034) if three domains are
 - **The compact's $50B.** The order's literal text moves all of it in May 2033; the trustees moved half. That is now recorded as the trustees' reading, and ai-firms is told so it can instruct them. Overrule here if you would rather the full amount had moved. No table effect either way.
 - **us-gov changes hands.** From T7 the same actor plays a unified Republican government on the programme it wrote for the challenger.
 
+- **Clock decisions for T7 (made after this snapshot; see `turns/t07/intel/_clock.md`).**
+  - T7 is 18 months, 1 July 2033 → 31 December 2034. No compression is left. Packets report to end-September 2033.
+  - **BRANCH at the clock: Meridian's 90-day human-only sample came back outside the AI-assisted band** (p 0.5, r 0.0385). The compact's own protocol now holds further stages. Only ai-firms and labour (through its panel seat) know. Control rolled it at the clock because it was ordered in T6 and every T7 order set is written after it; say so if you would rather it had waited for adjudication.
+  - Two injects were drawn. **#23, a compliance-gaming leak**, is played as lenders' filings on a Helix new-generation stack that satisfied a regulator's metrics without support in the files (public, September 2033). **#24, a US–China incident-data and evaluation-methods agreement**, is played as an unratified working-level draft, because both parties are players and Control cannot sign for them.
+  - Midterm maps: Senate slightly for the majority, House slightly against.
+  - G4's effects in T7: the output share and owner-reversal terms apply in full; the federal-review term applies only from the date federal systems migrate, which us-gov's orders set.
+
 *Audit closed: F1–F8 accepted, F9–F10 noted. One new roll (strike accident, p 0.05, FAIL: no incident). No re-rolls. No T6 indicator moved. See `audit.md`.*
 
 *For the orchestrator: the Auditor recommends, a third time, a persona-sensitivity fork with ai-firms on a different model or a harder-edged persona (statement/order gap ~0 for six turns against a brief that says disclose only when it pays). All five human actors again chose the same four checks (notice, named signer, human-only sample, demonstrated unaided operation); shared-model preference is the likely cause and belongs in the AAR's limitations.*
