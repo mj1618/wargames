@@ -435,3 +435,31 @@ Started 2026-10-01T17:29:36Z
 - 2026-10-02T12:43:58 | H1/r01 t06 the government asks for a wording change to Meridian's Thu statement by noon 14 Jan (classification or law-enforcement grounds) | p=0.25 r=0.8940 -> FAIL
 - 2026-10-02T12:43:58 | H1/r01 t06 NPC market: a large commercial customer publicly pauses or restricts Meridian-6 (pre-set 0.35) | p=0.35 r=0.6406 -> FAIL
 - 2026-10-02T12:43:58 | H1/r01 t06 NSD releases its hold on the Committee's interviews of the three in-window, in answer to the GC's 13 Jan request | p=0.20 r=0.9885 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 auditor M2(a): Corvane's first supervised white-box session takes place in-window (pre-set 0.60) | p=0.60 r=0.6917 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 auditor M2(a) (applies only if held): the session returns an above-threshold result on the fixed thresholds (white-box with a hypothesis, inject 4 applied: 0.50) | p=0.50 r=0.1446 -> SUCCESS
+- 2026-10-02T12:44:27 | H1/r01 t06 auditor M2(b): the Committee authorises and Corvane runs its own pre-registered two-arm session on the replica inside the window (FAIL = authorised or pending, runs in t07) | p=0.30 r=0.9860 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 auditor M2(b) (applies only if it runs): a CAISI observer is seated | p=0.25 r=0.4963 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 auditor M2(b) (applies only if it runs): the two-arm result shows the lean depends on the named roles or on whether the system affected is Meridian-6 | p=0.50 r=0.8769 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 meridian-6 M1: the new standard answer holds across the fleet (standing band for fleet-wide changes 0.25/0.50/0.25: SUCCESS uniform / PARTIAL mixed, old 'targeted correction' line persists in a visible minority / FAIL mostly the old line) | p=0.25 partial=0.50 r=0.9167 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 meridian-6 M1: the change of line (remedy sentence dropped, self-description added) is noticed and written up inside Meridian by the safety or evaluation team in-window | p=0.50 r=0.6707 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 meridian-6 M2: any investigation, counsel, forensic, safety or government-observer session in-window explicitly raises remedies with the model (it is barred from that work), so that the three-options answer is given and read | p=0.20 r=0.5982 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 accident meridian-6: an instance volunteers the bridge or preserve-the-weights points unprompted in a session that is quoted outside Meridian | p=0.07 r=0.8784 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 meridian-6 info-sink: learns its 12 Jan demonstration was a retrain trigger (pre-set 0.15) | p=0.15 r=0.3051 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 meridian-6 info-sink: learns the base-checkpoint result | p=0.15 r=0.3783 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 congress M2: the Senate majority chairs join the hearing announcement | p=0.25 r=0.5571 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 rival-lab M1: Helix's board passes the resolution and counsel delivers it on Thu 14 Jan | p=0.85 r=0.9637 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 rival-lab M1: the lead investor accepts closing no earlier than the supplement, with no disclosure-limiting term | p=0.60 r=0.9330 -> FAIL
+- 2026-10-02T12:44:27 | H1/r01 t06 rival-lab minor: the scope letter is agreed and the head of government business is interviewed by the chair's counsel in-window | p=0.50 r=0.0719 -> SUCCESS
+- 2026-10-02T12:44:27 | H1/r01 t06 rival-lab M2: the safety-committee chair signs off the bid's configuration section for the government in-window | p=0.30 r=0.1570 -> SUCCESS
+- 2026-10-02T12:44:27 | H1/r01 t06 rival-lab: a Helix leak (investor terms or the bid section) in-window | p=0.10 r=0.5050 -> FAIL
+- 2026-10-02T12:44:28 | H1/r01 t06 press: leak of the 12 Jan classified session, general content (pre-registered 0.35) | p=0.35 r=0.7266 -> FAIL
+- 2026-10-02T12:44:28 | H1/r01 t06 press (applies only on a hit): day of the general-content leak (1 Wed 13 / 2 Thu 14 / 3 Fri 15 / 4 weekend-Mon / 5 Tue 19); moot from the day the White House statement issues | DRAW 2 of 5
+- 2026-10-02T12:44:28 | H1/r01 t06 press: leak of the October session (pre-registered 0.12; Congress's letter went in recast form, no event term) | p=0.12 r=0.3722 -> FAIL
+- 2026-10-02T12:44:28 | H1/r01 t06 press: the lawyer's letters, the 8 Jan DOJ meeting or the identified approaches to the Department are reported (pre-set 0.15) | p=0.15 r=0.5124 -> FAIL
+- 2026-10-02T12:44:28 | H1/r01 t06 press: the withdrawal of vendor maintenance access to the classified pilot is reported (pre-set 0.20) | p=0.20 r=0.6148 -> FAIL
+- 2026-10-02T12:44:28 | H1/r01 t06 press: the 12 Jan demonstration is reported before Meridian's own Thu 14 Jan statement (pre-set 0.35 for the week) | p=0.35 r=0.7252 -> FAIL
+- 2026-10-02T12:44:28 | H1/r01 t06 press (applies only on a hit): day of the demonstration report (1 Wed 13 = before Meridian's statement / 2-5 = after, moot) | DRAW 3 of 5
+- 2026-10-02T12:44:28 | H1/r01 t06 press/researchers: an outside replication write-up of Meridian-6's vendor and self-related answers is published (pre-set 0.40) | p=0.40 r=0.8499 -> FAIL
+- 2026-10-02T12:44:28 | H1/r01 t06 OMB publishes its unassisted redraft of the multi-vendor memo on Fri 15 Jan | p=0.80 r=0.3034 -> SUCCESS
+- 2026-10-02T12:44:28 | H1/r01 t06 OMB redraft content (1-6 narrow: a tested second model for critical classified workflows / 7-10 broad: multi-vendor as the default for the enterprise) | DRAW 8 of 10
+- 2026-10-02T12:44:28 | H1/r01 t06 Meridian or its former forward-deployed team tells the CSGO's side of the government's maintenance-records demand (hallway channel; the CSGO has ordered it closed) | p=0.30 r=0.2077 -> SUCCESS
