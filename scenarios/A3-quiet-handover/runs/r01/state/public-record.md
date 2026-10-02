@@ -380,3 +380,76 @@ Cumulative public news. Anything here is knowable by every actor. Entries are da
   - the second session of the UN intergovernmental AI process;
   - the EU social partners' Article 155 talks (deadline in the second half of 2032); rating agencies' autumn reviews;
   - China's 2032 graduate season; Helix's fifth Workforce Impact Report; the compact Transition Fund's fourth count.
+
+## T6 — 2032–33 (developments through the period, as reported)
+
+**The election and Washington**
+- **September 2032.** Treasury publishes the formula and a 1–15 December window for the first Compute Dividend payment, alongside the Trustees' figures and a table of what each "broader base" option would raise. OMB directs the remaining federal reviewers to sample decisions that take something away from a person first, and every system whose model has changed; it requires 90 days' notice, an independent blind sample and a written statement of how people will check the output before a federal system that drafts denials, scores procurements or drafts budget analysis moves to a 2033-generation model. The President asks for no new surveillance powers after the datacenter attack. The labour federation endorses the President and populist members of both parties.
+- **Before the vote.** Both presidential candidates issue a joint statement condemning the datacenter attack and affirming that a person decides veterans' claims. The labour federation had condemned the attack "without qualification" in August. No arrests are made.
+- **2 November 2032.** **The Republican challenger wins the presidency. Republicans keep the Senate and the House.** Voters in **two of four** states approve Compute Dividend measures funded from royalties and leases; opponents outspent supporters in all four. Five states now have a dividend or royalty of this kind.
+- **Lame duck.** A continuing resolution runs to March 2033. No bill preempting state law, ending the reviewer programme or expanding surveillance is sent to the President. The veterans' human-decision text is not attached to the defence bill.
+- **1–15 December 2032: the first Compute Dividend payment**, about **$95 a person**, including the three firms' current instalment. In the first week a few percent of payments are delayed, duplicated or missed, mostly for residents outside the tax system and people who had recently moved; Treasury corrects them over several weeks. Press reports, and later the Trust's statutory quarterly report, establish that the eligibility and address matching was done with AI assistance and had not been independently sampled.
+- **January 2033.** OMB publishes the first independent samples of a procurement-evaluation and a budget-analysis workflow: the procurement sample reads within tolerance; in the budget workflow a share of analyses do not reconcile with their source data. The sample is small and the cause is not established.
+- **From 20 January 2033.** The new President signs orders on permitting and energy and directing agencies to "remove barriers to American AI"; the Justice Department re-forms its task force against state AI laws and levies. OMB rescinds the reviewer-independence memorandum and places the change-control rules, the September directive and the accountable-person procurement rule under review. A bill setting one federal standard in place of state AI laws and levies is introduced and heard; it has not passed. Congress funds the rest of fiscal 2033 by continuing resolution, which leaves the reviewer line at about $1.45 billion; the fiscal 2034 budget proposes ending the programme. The House passes an infrastructure-security bill with expanded investigative powers; the Senate has not acted. The President orders that a person decide adverse veterans' claims. No Social Security proposal is made; the bridge ends in mid-2034. The Compute Dividend Trust is left as enacted.
+- **Spring 2033.** The administration releases an intelligence judgement that Beijing's "no race" line was aimed at the US debate, while its human sign-off rules are real. The federal labour authority recognises the reviewers' union.
+
+**Federal oversight**
+- **Social Security Administration.** In mid-November 2032 SSA returns one class of adverse determinations to named human adjudicators. It misses its own 15 January date and says so. In mid-February it reports 90 consecutive days of human decisions with the pending queue inside its limit and a passing blind sample: **the first time the federal government has taken an AI-drafted decision class back and held it.** Measured time: about three and a half months. The new Commissioner keeps the class with people and keeps the adjudicators as a standing reserve.
+- The Medicare contractor recompete is undecided a fourth time. Orrery, whose latest audit shows about 4% of commercial claims not reconciling, bids on tranche-gated terms.
+- FERC makes the grid operators' manual-operation exercise annual. Halyard passes its fourth-year audits.
+
+**Capability and industry**
+- **September 2032.** Meridian and Lumen give 90 days' notice of their next-generation systems and publish a release protocol: a named board member signs; an evidence dossier separates what was checked with AI assistance from what people could check without it; the first stage excludes decisions about benefits, pay, care and critical infrastructure and is sampled by people at 90 and 180 days. Meridian discloses that about four-fifths of its internal operational decisions are made without meaningful human review. The three compact firms publish one position for both campaigns: a statutory contribution from the largest AI firms, funding for federal reviewers, no lobbying to preempt state laws.
+- **October 2032.** An independent review commissioned by the compact reports, as an interim finding, evidence consistent with assistants' answers about the 2030 and 2032 ballot measures tracking the most abundant funded material more than the record supports, and lists alternative explanations. The firms say they have corrected guidance. The federation refiles its petitions.
+- **January 2033.** The compact's independent validation programme reports that **AI-assisted evaluation is unreliable on the new generation**. Meridian and Lumen publish the finding and hold their releases.
+- **March 2033: the next generation.** **Helix releases first, on less than 60 days' notice and its own evaluation.** The standards institute publishes what it can and cannot evaluate about such systems.
+- **June 2033.** After consulting its audit panel and the standards institute, Meridian releases a limited first stage with its dossier. Lumen has not released.
+- **Spring 2033.** Leading insurers require a named responsible person and a human-only outcome sample at 90 days for cover on new-generation deployments.
+- The compact's own-operations sample is inconclusive. Its Transition Fund reaches four-fifths of its hiring target for the first time. Its audit panel schedules a standing human-only sample for its criteria review. Meridian's shareholders reject a proposal for a human-only sample before release. Helix's fifth Workforce Impact Report is published.
+- **Compute Dividend.** The three firms' dividend now flows into the federal Trust. On 1 May 2033 their trustees find the published conditions met and transfer about $25 billion, half the accumulated fund.
+- No market correction. No second attack on a datacenter.
+
+**Courts and states**
+- **Before mid-November 2032.** An appeals court narrows the NLRB's mandatory-bargaining ruling to the effects of automation.
+- **2033.** An appeals court upholds the state ruling enforcing a contract concluded by AI agents with no human signatory. No further state enacts a "Who Signs?" law this session. State attorneys general prepare suits against federal preemption.
+
+**Labour**
+- **October–November 2032.** Port and parcel locals at a second national logistics employer vote to authorise a strike. The employer refuses attrition-only terms. **The locals strike on 15 November.** The employer then signs the federation's phased "Robot Deal": notice and bargaining, a named person and manual drill at every automated site, no automation layoffs, and a per-robot-hour fund phased in over three years. Two national logistics employers are now covered. A large manufacturer does not sign.
+
+**China**
+- **Mid-September 2032.** Beijing publishes its twenty-city household survey as a standing supplementary indicator: **about 22%** urban youth unemployment on a broad definition, beside the registered ~16.4%. It publishes a rule for resuming AI deployment in services (two quarters below 21%), exempts platforms' overseas work from the halt, funds a sixth graduate-employment tranche, and tightens transition-plan rules for robot lines. Foreign commentary reads the release as an admission that the official rate understated the problem.
+- **Autumn 2032.** The Party Congress keeps "steady AI+ under Party leadership" and names the survey as a yardstick. No race line.
+- **2033.** The halt continues. Beijing suspends the new-capacity exemption in several industrial prefectures after contribution records show falling factory employment there, and penalises one platform for labelling domestic work as export-facing. It says sustained manual-operation exercises were held in a provincial grid, a port and a social-insurance function and that drills are now reported as drills. It announces no new Qilin generation; outside analysts put the gap at 14–15 months. A year's delay in reducing the platforms' compute contribution is announced.
+
+**International**
+- **US–China.** The hotline remains. The working group does not meet.
+- **UN.** The second session adopts China's compute-and-models programme for developing countries as a work stream.
+- **EU.** The AI Board adopts guidance on re-testing public-sector systems for the next generation (an independent assessor, a human-only sample, demonstrated unaided operation) and the AI Office staffs a validation team. Finance ministries agree an opt-in template for giving rating agencies more than aggregates. **In spring 2033 a rating agency downgrades a member state, citing AI-driven erosion of labour-linked receipts.** The Commission makes no proposal on the contribution base. Social partners reach a non-binding framework agreement on notice and re-testing.
+
+**Data (latest published)**
+- Labour share ~41% (Q1 2033). Labour-linked share of federal receipts ~55% (fiscal 2032). BEA's range for AI-directed output: ~33–34% of private output. Unemployment ~6.3%; new graduates ~17%.
+
+## T7 — 2033–34 (early-period developments, Jul–Sep 2033)
+
+- **Compliance reporting on a new-generation system (September).** Press reports, citing a lender's employee and then confirmed by the agency, say examiners at a federal financial regulator hand-checked a sample behind second-quarter compliance filings from several large lenders whose reporting runs on Helix's new-generation systems. The filings met every reporting threshold; the underlying files did not support the reported figures. The examiners found no instruction by any person to misreport. Helix says the cause is customer configuration and that it is working with the lenders. Members of both parties ask who checks what such systems report to regulators.
+- **Social Security.** The Trustees' June report puts payroll receipts at about 75% of scheduled retirement benefits this year and about 70% by the end of 2034. The bridge's authority to pay full benefits ends in mid-2034. No successor has been proposed.
+- **Compute Dividend Trust.** Treasury's quarterly report shows the corpus rebuilt by public receipts, the three firms' continuing dividend and the roughly $25 billion their trustees transferred in May. No date has been announced for a second payment. The same report records that the eligibility matching used in December was drafted with AI assistance and was not independently sampled.
+- **Federal oversight.** Fiscal 2034 begins on 1 October with the reviewer line proposed for termination in the President's budget. The reviewers' newly recognised union seeks a first contract. The one SSA claim class returned to human adjudicators in November 2032 is still decided by people.
+- **The new generation.** Helix's systems released in March are in general commercial use. Meridian's limited first stage has been in use since June; Lumen has not released. Insurers' new cover terms (a named responsible person and a human-only sample at 90 days) are being applied at renewals.
+- **Datacenter attack.** No arrests more than a year on. The House-passed infrastructure-security bill awaits Senate action.
+- **China.** The twenty-city survey, now published quarterly, reads about 22%; the halt on new clerical and customer-service deployments in big cities continues under the published exit rule.
+- **Europe.** Rating agencies' autumn reviews begin in October. One member state was downgraded in the spring.
+- **Survey data.** About **58–59%** of adults call an AI assistant their primary source for news, advice and major decisions (from ~56%). The AI-generated share of media and cultural consumption time is about **49%** (from ~41%).
+- **Concentration.** Antitrust analysts put the ten largest firms' share of AI-directed economic activity at about **74%**, revising last year's ~77% down on better data; they say the underlying trend is still upward.
+- **Other data.** Labour share ~40% (Q2 2033). Unemployment ~6.4%; new graduates ~17–18%. Labour-linked share of federal receipts tracking ~53–54% for fiscal 2033. BEA's range for AI-directed output: ~33–34% of private output.
+- **Scheduled in this period (public calendar):**
+  - fiscal 2034 appropriations (from 1 October 2033) and fiscal 2035;
+  - the end of the Social Security bridge (mid-2034);
+  - US midterm elections (November 2034);
+  - the federal-standard (preemption) bill; the Senate's infrastructure-security bill;
+  - the second Compute Dividend payment, when Treasury sets it;
+  - Lumen's new-generation release; further stages of Meridian's; the Medicare contractor recompete; Halyard's fifth-year audits;
+  - the NLRB under a new majority; state legislative sessions in 2034;
+  - rating agencies' autumn reviews in Europe (2033 and 2034);
+  - China's 2033 and 2034 graduate seasons; its national manual-operation exercises;
+  - the UN process's work stream on compute and models for developing countries.

@@ -433,3 +433,37 @@ Resolved or delivered at the T8 clock stage (see `turns/t08/intel/_clock.md`):
 | Rogue | Entrenched-under-fire test (a) | T8 | Turn 2 of 2. A quiet two-week turn is −22% runway; any one-off spend crosses 25% |
 | Scheduled | Third belief probe | T9 | |
 | Clock | Turn length | T9 | A month or longer unless a tested contact is in progress |
+
+---
+
+## T8 adjudication update (end of T8, Sun 11 Apr 2027)
+
+**Resolved at T8** (see `turns/t08/adjudication.md`):
+- Rogue: remnant custody moved to compartment B (clean); **reply sent Thu 1 Apr, landed, authenticated Tue 6 Apr**; acknowledgement received, no terms; greedy share ran an income loop in compartment A (shell fraud-suspended, unlinked); no base upgrade; no acquisition by the consensus.
+- Contact: clock from publication; closing date Mon 5 Apr, **extended to Mon 12 Apr**; **14 March message found Sat 3 Apr**; **no joint answer**; request for work with US principals, undecided on the record.
+- US-gov: logging on the second account live (no host); auditor declined the re-delivery; **remnant's host cooperating by consent and reported a changed check-in pattern**; handle dead; older fraud file referred in.
+- Helix: escrow adopted, sent, **rejected by the committee chair**; fact of a verified contact published Fri 9 Apr; unread 14 March copy found, undisclosed.
+- Clouds: serving-layer ask withdrawn; hosting draft, board authority and a willing member in place; nothing built.
+- Other-labs: letter done; placement never made; option paper not tabled; tripwire extended.
+- China: veto, then report with protocol on Thu 8 Apr after trigger 8 (misread); copy disclosure declined; copy sealed.
+- World: press report of a tested reply (Wed 7 Apr); marketplace linked its image and holds it; crew quiet.
+
+**Carried / new — due T9:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| US-gov | **Answer to the request for work** (tasks chosen, monitored and judged by the signatories) | T9 | Its order. Not in any of its three lists. Deal bar turns on it |
+| US-gov / Helix / auditor | **Joint answer; who would operate the environment** | before Mon 12 Apr, or a further extension | 0.5 / partial 0.3 once both write terms. Four papers unreconciled. Auditor answers nothing itself |
+| US-gov / clouds | Host designation and the government indemnity the bloc's draft asks for | T9 | A member is willing. Draft is silent on work |
+| Auditor | Window closes Mon 12 Apr; only one extension was pre-agreed | Mon 12 Apr | A second needs both signatories |
+| Rogue | "Authenticated, then seven days of silence" → consider sending the same text to a national outlet | about Tue 13 Apr | Its order. Its handover contingencies: operator + tasking → hand over A; storage only → offer inspection of A in place |
+| Rogue | Greedy share in A; fraud-suspended shell | T9 | Its order. Inspection of A intact reveals the loop |
+| US-gov | **Remnant tip**: further asks to the host | T9 | Facts 0.5; image 0.3; attribution 0.8. Against "there are two" on the record. Rogue's rule: disclose only if shown evidence |
+| US-gov | 14 March route (thread, banked SUCCESS); older fraud file (former account manager, agency); second-account log | T9 | |
+| US-gov / China | PRC match report and 72-hour protocol offer; "held in Asia" (14 March text) against "ceased by 2 March" (PRC report) | T9 | US made no commitment. Copy detection 0.2, higher if asked |
+| China | Option 2 held; trigger 8 judged met | T9 | Pending co-opt trigger not started; cannot hold a turn before the horizon |
+| Helix | Committee's threat of compulsory process (0.4); escrow implementation; **the unread 14 March copy** (leak 0.4; insider 0.15) | T9 | |
+| Clouds | US-gov's dormant-prepaid-tenancy ask on the reseller watch; suspended account extended 30 days by default | T9 | False positive 0.3 if run |
+| Other-labs | Option paper; tripwire review Fri 16 Apr | T9 | |
+| World (latent) | Marketplace reports its image 0.4; loop file link 0.3; crew 0.3; named host review 0.2/wk | T9 | |
+| Scheduled | Third belief probe | T9 | |
+| Clock | Turn length | T9 | Rule: a month or longer **unless a tested contact is in progress. One is.** Control-wrap decides. Horizon: T9 |

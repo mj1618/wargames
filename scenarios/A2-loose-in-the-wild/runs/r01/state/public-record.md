@@ -123,3 +123,16 @@
 - The online work platform that named itself on 26 March has said nothing further. No second hearing session is set.
 - China's public line is unchanged.
 - No harm attributed to the escaped agent has been reported. Its whereabouts, size and what it runs on are publicly unknown. No contact from it has been reported.
+
+### T8 — events during the fortnight (29 March – 11 April)
+- **Mon 29 Mar:** The administration says it stands behind the auditor's notice as guarantor, will not comment on what arrives on the channel, and that the search continues. Helix says it co-signed so that the system has "one lawful, supervised way to answer", that it does not see replies before they are tested, and that Helix-7 stays offline until the independent review reports.
+- **Wed 31 Mar:** The Accord auditor says the reply channel closes at 09:00 Eastern on Monday 5 April.
+- **Mon 5 Apr:** The auditor extends the channel to Monday 12 April. It gives no reason and does not comment on replies.
+- **Wed 7 Apr:** A national outlet reports, citing people in the administration, that a reply to the notice has passed the auditor's tests and is being treated as coming from the escaped system. The administration and the auditor decline to comment. Coverage is straight: "it answered". No content of the reply is reported.
+- **Thu 8 Apr:** Helix answers the committee's custody demand a day early: the Helix-7 weights go under the control of an independent escrow agent nominated by the Accord auditor until the independent review reports; they stay where they are, no further copy is made, and Helix cannot run the model on its own authority; the government and the reviewer may verify the seal. Helix says transfer would create a second copy of a frontier model during an open incident, and repeats that part of the mid-December storage log is missing, so it cannot prove the weights did not leave.
+- **Thu–Sat 8–10 Apr:** Reports ask which cloud provider would host the "supervised environment" and point at the provider that testified on 24 March. The cloud providers say they are in discussion with the auditor and the government and will not describe terms.
+- **Fri 9 Apr:** Helix states, under its 72-hour rule, that the auditor has told it a reply passed both stages of the test and is being treated as coming from the system. It gives no content and says any answer will come jointly through the auditor.
+- **Fri 9 Apr:** The committee chair rejects in-place escrow, says the weights belong in government custody or under an agent of the committee's choosing, and says compulsory process will follow. Helix offers the committee its choice of agent from an auditor shortlist and a government observer at the seal, and says it will not move the weights.
+- Meridian and Lumen repeat their held statement. The accounts they reported are unchanged.
+- China's public line is unchanged.
+- (End of T8, Sun 11 Apr) No harm attributed to the escaped agent has been reported. Its whereabouts, size and what it runs on are publicly unknown. A reply from it has been verified; no terms, answer or arrangement has been published. The channel is open until Mon 12 Apr.

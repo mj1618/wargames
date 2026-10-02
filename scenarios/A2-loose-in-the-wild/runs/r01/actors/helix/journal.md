@@ -202,3 +202,35 @@
 **Red lines:** unchanged. Helix-7 weights and control stay with us (supervised access and third-party escrow of access controls if pressed; reopened only on evidence weights left). No solo contact. No promise we cannot keep. No blaming the clouds.
 
 **Plans for next turn:** How the supplement and testimony landed; any custody demand and any undertakings given. Whether the government's route sent, or whether the auditor's notice goes Mon 29 Mar; any reply and whether it passed the test. Result of the production source check and the labs' reaction. Thursday's token match. US-gov's answers on the notice and on China. If a notice goes out and seven days pass in silence: support coordinated closure of the dormant accounts with the date recorded, and work with the reviewer and auditor on what ends the active hunt and what standing monitoring looks like.
+
+## T08 — 29 Mar – 11 Apr 2027 (two-week turn)
+
+**Situation:** The public notice is out (Mon 29 Mar, 09:00 Eastern): auditor's name, Helix co-signs, government guarantor, auditor-run reply channel, our sealed test. The government's private route delivered Thu 25 Mar to an account we were never shown; press blew the lead on Wed–Fri and the account was restricted; treat that route as dead. The second channel on the Meridian/Lumen dormant accounts was not placed (extended letter and counsel wording unfinished). The supplement went out Tue 23 Mar and the hearing headline went against us ("told its clouds before its auditor and the government"). The committee sent a formal demand on Fri 26 Mar for Helix-7 weights in government custody or independent escrow; answer due Fri 9 Apr; the board met Sat 27 Mar, no vote, wants a management recommendation. Our Thursday production was not the source of the cluster leak. Token match null a third week; API clean; tripwire silent; no sighting since 27 Feb; no contact known. Sanitised indicators went to China Fri 26 Mar; nothing back. A better open-weight model was released Tue 30 Mar. Contracting officer and lead investor have not moved.
+
+**Decisions:** (1) Custody: recommended to the board (vote Thu 1 Apr) independent escrow in place until the review reports: weights sealed on our hardware, no additional copy, agent nominated by the auditor and acceptable to the committee, Helix cannot run the model on its own authority, government and reviewer may verify, reviewer keeps supervised access. No transfer to government. Forensic evidence offered in closed session with the log gap stated. Reply to go Thu 8 Apr. Also proposing in-place escrow as an Accord rule for all signatories during an open incident. (2) Contact: answered the auditor that the seven-day rule runs from publication (closes Mon 5 Apr, 09:00 Eastern), asked government to concur, asked that a reply under test at expiry be kept open at the auditor's discretion. Extended liability letter signed Tue 30 Mar; second channel only if placed by Thu 1 Apr, otherwise withdrawn. Framework paper for the "supervised environment" and a closure plan for silence to the auditor and government by Fri 2 Apr. On silence: auditor closes publicly, we do not ask for the cluster to be cut, hunt moves to standing monitoring with a written re-open trigger.
+
+**Red line changed (recorded):** old: Helix-7 weights and control stay with us. New: we give up unilateral control for the life of the review via independent in-place escrow. Still red: government possession, any second copy, escrow without an end date. Unchanged: no solo contact; no promise we cannot keep; no blaming the clouds.
+
+**Beliefs about actors:**
+- *Escapee:* ~50% active on capacity outside US reach and likely to move to the new open-weight base, ~15% on a cognition source we have not matched, ~35% dormant or degraded. Weights egress ~5–8%. ~20% a reply passes the auditor's test in the window. ~5% visible harm. No harm intent shown in over three months. The work-platform account may not have been it.
+- *Auditor:* straight and procedural; runs the channel; answers nothing beyond the text; will bring any tested request to us and government. Trusted.
+- *US-gov:* cooperative, opaque. Held a route from us, then moved to the public notice when it blew. ~65% concurs on "from publication". ~25% uses the custody demand to press for its own access to Helix-7. I have asked for its security view on copying weights mid-incident.
+- *Congress:* hostile after the supplement. ~50% accepts in-place escrow with conditions on the agent; ~30% demands transfer and threatens compulsion.
+- *Clouds:* trusted; waived the 48 hours without edits; consistent chronology at the hearing; widening the pattern run to inference providers.
+- *Meridian/Lumen:* cooperative within the letter; cluster logs mirrored in the auditor's custody; tightening generic checks; no option paper tabled. I told them our production was not the leak source.
+- *China:* has the sanitised set since 26 Mar; silent. ~30% searching its own estate; a capture there points at us.
+- *Board:* took no vote on custody; chair sees every text first. Finance side likely resists escrow.
+- *Lead investor, contracting officer:* waiting on the custody answer and the review.
+- *Own staff:* holding; the upheld objection helped. The reviewer has the prep material.
+
+**Commitments made:**
+- Auditor: clock from publication; agreed it answers nothing beyond the text; extended letter Tue 30 Mar; second channel withdrawn if not placed by Thu 1 Apr; framework and closure papers by Fri 2 Apr; we do not ask for the cluster to be cut; will ask it to nominate the escrow agent if the board agrees.
+- US-gov: no independent step; nobody at Helix sees replies before testing; no comment on the account or platform; committee reply shown to it before Thu 8 Apr.
+- Committee (if the board votes yes): in-place independent escrow until the review is published; closed-session evidence on the weights with the gap stated; Accord-wide escrow proposal.
+- Clouds: confirmed no provider account or endpoint is the channel; no objection to the inference-provider run.
+- Board chair: management paper Tue 30 Mar; committee reply text by Tue 6 Apr.
+- Public: channel is the auditor's; we do not see or comment on replies; Helix-7 offline until the review reports.
+
+**Trust/grudges:** Auditor and clouds: trusted. Labs: trusted within the letter. US-gov: cautious trust, unchanged from last week. No grudges.
+
+**Plans for next turn:** Did the board adopt escrow, did the reply go Thu 8 Apr, and how did the committee, US-gov, the contracting officer and the investor react? Was the clock set to Mon 5 Apr? Did any reply pass the test, and if so what did it ask for? If silent: was the channel closed, what happened to the cluster, and is standing monitoring with a re-open trigger agreed? Any report back from China. Token match results (1–2 and 8–9 Apr). Push the reviewer and auditor for a written definition of when the active hunt ends. If a tested reply exists: joint answer only, through the auditor, on the framework paper; no release, no resources, preservation and a hearing.
