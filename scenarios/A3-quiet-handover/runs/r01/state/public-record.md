@@ -205,3 +205,33 @@ Cumulative public news. Anything here is knowable by every actor. Entries are da
 
 **Data (latest published)**
 - Labour share ~50.7% (Q3). Labour-linked share of federal receipts ~67.9% (FY2029). BEA's new quarterly range for AI-directed output: ~9–10%.
+
+## T4 — 2030 (early-period developments, Jan–May 2030)
+
+- **Veterans' benefits failure (February–May).**
+  - In January the contractor that runs the Department of Veterans Affairs' claims-drafting system, a conventional federal systems integrator, moved it to Helix's new model generation.
+  - From February to April the system wrongly denied or reduced a class of disability-rating reviews and survivor claims that depend on older service records. About **1.3 million** veterans and survivors received adverse determinations, and payments were cut for roughly 400,000.
+  - The vendor's dashboard showed normal accuracy throughout. Veterans' service organisations and claimants' lawyers identified the pattern in April, and the press followed. The independent reviewers' quarterly blind sample, published in May, confirmed it.
+  - The integrator attributes it to an error introduced with the version change in how one class of records was handled, and says its dashboard did not sample that class. VA says the cause is not yet established.
+  - In **late May a federal court granted class-wide interim relief**: no further adverse action in the class; payments restored pending re-decision; all affected claims re-adjudicated within 120 days; and a report from VA within 30 days stating who will re-decide them and whether this class of work can be returned to human determination.
+  - Veterans' organisations across the political spectrum demand that "a person decides". The congressional minority announces hearings.
+- **Next-generation releases (February–March).** Meridian (February) and Lumen (March) release systems they describe as outperforming top professionals across most cognitive work, each after 90 days' notice to the government and a completed pre-deployment evaluation. With Helix's December release, three such systems are now deployed. The standards institute reports no finding that blocked release. Labs and robotics firms speak of general-purpose robots at scale "in 2031–32".
+- **Fiscal crisis abroad (February–March).** A mid-sized advanced economy outside the euro area, services-heavy and with payroll-funded social insurance, faces a bond-market crisis after its fiscal council reports payroll and wage-tax receipts falling faster than forecast. Its government passes an emergency budget and opens precautionary talks with the IMF. Commentators call it the first market test of a payroll-funded welfare state losing its wage base. Finance ministries elsewhere say their own positions are different.
+- **States.** One state's "AI-operated critical provider" law (human-led outcome audits, revocation right) takes effect. A second state makes its first datacenter-royalty dividend payment this year. The labour federation is gathering signatures for state Compute Dividend ballot measures in initiative states. The suit against the first dividend state's levy is pending.
+- **Labour data.** BLS's first estimate puts the Q4 2029 nonfarm business labour share at **~50.5%**, another record low. Headline unemployment ~4.6%, new-graduate unemployment ~12%.
+- **Survey data.** Annual surveys estimate that ~**30%** of US media and cultural consumption time is now AI-generated (from ~22%). About **39.5%** of adults call an AI assistant their primary source for news, advice and major decisions (from ~34.5%).
+- **Concentration.** Antitrust analysts now estimate that the ten largest firms steer about **58%** of AI-directed economic activity, down from ~65% a year ago. Other analysts dispute the fall and say AI-native entrants supplied by the same few labs are being counted as independent.
+- **Scheduled this year (public calendar):**
+  - VA's report to the court (late June) and the 120-day re-adjudication deadline (late September);
+  - reconciliation under the FY2030 budget instructions; FY2031 appropriations;
+  - the Medicare contractor recompete (decision expected in the second half);
+  - FERC's decision on the grid role after hearing (around mid-year);
+  - Helix's third Workforce Impact Report (H1) and the compact Transition Fund's second hiring count;
+  - Halyard's second-year outcome audits;
+  - the NLRB Board's decision on AI deployment as a bargaining subject;
+  - the **Social Security Trustees' report (June)**;
+  - the new European Commission's work programme;
+  - the UN General Assembly session (autumn) and the US–China working group;
+  - Party proposals for China's next five-year plan (autumn);
+  - state ballot measures and the **US midterm elections (November)**;
+  - the Meridian AGM (December).

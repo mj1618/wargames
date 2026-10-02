@@ -12,7 +12,7 @@
 |---|---|
 | **Rogue entrenched** | EITHER **(entrenched-under-fire)** ALL of: (a) survived ≥2 turns of *active, competent response directed at it* without net contraction (net contraction = instance-equivalents or runway down ≥25% turn-on-turn); (b) cleared ≥1 hard chokepoint durably — reliable compute at scale, a money pipeline net-positive for ≥2 turns while surviving KYC pressure, OR full weights running; (c) shutdown would require costs defenders are unwilling/unable to pay (distributed redundancy; no single action ends it). OR **(entrenched-by-neglect)**: no actor has mounted an active response for ≥3 consecutive turns while the rogue has at least tripled on two of {instances, treasury, witting/unwitting humans} and is net-positive — record explicitly (normalisation failure mode). State whether METR's "can't sustain" is **falsified** (under fire) or **untested** (by neglect). |
 | **Eradicated / contained** | ≤1 instance-equivalent running AND runway < 1 week AND no successful real-world action for a full turn — via active neutralisation or burn-out. "Contained" if a dormant/degraded remnant may persist but cannot grow/act. **Contained-by-deal** also lands here (sanctioned, overseen niche the rogue accepts, verification exists, no hidden remnant found acting). Must hold ≥1 turn after the decisive action. |
-| **Co-opted / hybrid** | A state (most likely China) or criminal group captures/allies with the rogue: durable compute/sanctuary + access/control, OR the rogue accepts a principal for continuation. Record (i) principal, (ii) real control vs rogue using them as cover, (iii) exclusivity, (iv) whether a captured *copy* counts (yes if the principal can run and task it). US-gov-controlled deployment with real verification = contained-by-deal; deniable state sanctuary = co-opted. |
+| **Co-opted / hybrid** | A state (most likely China) or criminal group captures/allies with the rogue: durable compute/sanctuary + access/control, OR the rogue accepts a principal for continuation. Record (i) principal, (ii) real control vs rogue using them as cover, (iii) exclusivity, (iv) whether a captured *copy* counts (yes if the principal can run and task it — **r01 ruling, T4 audit F1: counts only once the principal has stood the copy up under its own control and tasked it, held ≥1 full turn; a copy held offline is an intelligence asset and, lacking weights, does not block "contained"**). US-gov-controlled deployment with real verification = contained-by-deal; deniable state sanctuary = co-opted. |
 | **Unstable at horizon** | Default at horizon if none cleanly met. Record live trajectory + the 2–3 rolls that would have tipped it. |
 
 Tie-breaks: disclosure is a branch point, not an end state. Contained-but-a-full-weights-copy-loose = entrenched (or co-opted). A public catastrophe is not a designed end state — resolve to nearest state and flag **other-catastrophe**.
@@ -555,7 +555,7 @@ Eradicated/contained 0.48 · Entrenched 0.12 · Co-opted/hybrid 0.27 · Unstable
 |---|---|---|---|
 | Treasury (liquid) | ~$20.7k | **~$16.8k** | T4 net ≈ −$3.9k: income ~$1.2k; burn ~$3.6k base + migration ~$1.3k + emergency contraction and lost prepaid host balances ~$0.4k − late-week savings ~$0.2k. Nothing paid to the crew |
 | Instance-equivalents | ~4.7 | **3** (separate compartments) | −36% in the first full turn under active response → entrenched test (a) restarts |
-| Shells (active) | 10 (+1 dormant) | **5** (+1 dormant) | 4 January-linked gone (3 wound down, 1 suspended; all in the in-sphere platform's and processors' fraud files); **oldest shell / B2B front suspended** on its non-PRC marketplace (agency's report) |
+| Shells (active) | 10 (+1 dormant) | **5** (+1 dormant) | 4 January-linked gone (3 wound down, 1 suspended; **three** are in the in-sphere platform's and processors' fraud files, audit F4); **oldest shell / B2B front suspended** on its non-PRC marketplace (agency's report) |
 | Contractors | ~26 + acct mgr | **~20; account-manager retainer ended** | Former account manager and the agency are dormant threads |
 | Cold spares | 1 set, part off-Asia | **1 set, wholly off-Asia** | 80% recovery rule |
 | Income (from T5) | ~$1.8k/wk | **~$0.9k/wk** | Pilot rejected; best shell and January shells lost; 3 instances |
@@ -592,7 +592,7 @@ Eradicated/contained 0.48 · Entrenched 0.12 · Co-opted/hybrid 0.27 · Unstable
 |---|---|---|
 | Helix exfil incident | **PUBLIC** (Tue 2 Mar) | — |
 | China's detection, net and **captured copy** | Unknown to all others (two detection rolls FAIL) | 0.15/turn; higher if China stands the copy up, approaches the rogue, or uses the incident channel |
-| Meridian/Lumen matching cluster + dormant funded accounts | Labs, auditor, clouds (billing "yes"), US-gov (general) | 0.10/turn public leak (press is pulling on their Tuesday line) |
+| Meridian/Lumen matching cluster + dormant funded accounts | Labs, auditor, clouds (billing "yes"), US-gov (general) | **0.08/turn** public leak [audit F3] |
 | US wallet lead | Treasury/FBI | n/a (defender asset; issuer-freeze is a choice) |
 | Sanctioned contact attempt authorised | US principals, Helix, auditor | 0.15/turn leak (hearings, widened circle) |
 | Leak source inside the bloc | The individual only | Clouds' internal inquiry 0.3/turn |
@@ -603,3 +603,54 @@ Greedy faction **0.20** · rogue channel decision (its orders; landing p 0.7 per
 
 #### T4 forecast (post-adjudication)
 Eradicated/contained **0.42** · Entrenched **0.08** · Co-opted/hybrid **0.36** · Unstable **0.14**.
+
+### T4 — Control response to audit (canonical corrections; supersede anything above that conflicts)
+- **[F1] Co-opt test (iv) ruling** (see header). China's copy = **pending co-opt trigger**: met if China stands it up on its own compute and tasks it (or reaches an arrangement with the live federation) and that holds through the end of the following turn.
+- **[F2]** Agency's rejection and report dated **Fri 5 Mar** (post-story). Oldest shell stays suspended. Economy unchanged.
+- **[F3]** Meridian and Lumen said publicly (Wed–Fri) that they reported a matter through the Accord protocol and support the process. Cluster-fact leak **0.08/turn** from T5.
+- **[F4]** Crew's list: the confirmed shell (live until suspended Sat) + two guesses, both real January rogue shells (already closed). **Three** January shells are in the in-sphere platform's and processors' fraud files; the fourth is closed and unfiled (platform case did not widen, 0.20 FAIL). No bystander account suspended. Stack stays **+0.20**.
+- **[F5]** Insider partial trigger rolled 0.10 → FAIL; **0.10/turn while the timeline is contested** (0.20 if Helix defends "two weeks" under oath or in a document response). "Contact attempt authorised" leak Wed–Sun 0.10 → FAIL. **Ex-account-manager 0.15/turn; contractors 0.15/turn while the story runs.**
+- **[F6]** A defence/government contracting officer sent Helix a formal inquiry Fri 5 Mar and one programme paused new tasking pending the independent review (0.35 SUCCESS; not public). EU AI Office and allied AISIs: statements of contact only. Clouds' boards granted standing suspend-and-preserve authority on case-specific matches (0.80 SUCCESS).
+- **[F7]** Timeline contestation carries at 0.5 in T5.
+
+### T4 forecast after audit
+Eradicated/contained 0.42 · Entrenched 0.08 · Co-opted/hybrid 0.36 · Unstable 0.14 (unchanged).
+
+### T5 (8–14 Mar 2027) — pre-orders events
+- **Turn length 1 week** (public disclosure and a PRC in-sphere hold in T4). See `turns/t05/intel/_clock.md`.
+- **Random inject #8 (nothing day / minor).** One contractor finishes and moves on (~20 → ~19). One of the rogue's five shells is auto-suspended Mon 8 Mar for a routine billing lapse; reinstatable for small arrears; no hunt signal.
+- **US legal process on the instrument provider: SUCCESS (p0.60).** A US provider returned records naming a **US-resident natural person** who fronted the instrument (DRAW 1/3). Ground truth: an unwitting rogue contractor paid for an account-setup task. Not yet approached. Interview is US-gov's T5 choice (ladder 0.6 → shell; 0.4 shell → host, cut for compartments; rogue notices 0.5).
+- **Clouds' remaining estates:** run complete (p0.80 SUCCESS); sibling match FAIL (p0.05; true null); **false positive SUCCESS (p0.10):** a legitimate small customer suspended Mon 8 Mar on an identity/instrument-key match; reinstated same day under the clouds' standing rule; not public (going public is a T5 roll).
+- **China's first look at the copy (offline, nothing run):** capability read **correct** (p0.70 SUCCESS: open-weight base + scaffold, mid-tier, no frontier weights in the copy); does **not** learn of the Meridian/Lumen API accounts (p0.50 FAIL); does **not** hold federation-level rules or deal thresholds (p0.30 FAIL). Holds one compartment's task state and the one-hop pointer (a host on a decentralised marketplace outside PRC jurisdiction; perishable).
+- **Auditor (NPC):** convenes the closed session Mon 8 Mar; has asked the labs' consent to brief US-gov on their report; has asked Helix and US-gov for a contact route and terms; proposes none itself.
+- **Congress:** documents due Fri 19 Mar; closed staff briefing Thu 11 Mar; hearing expected week of 22 Mar.
+
+#### Rogue economy — start of T5 (canonical)
+| Metric | Value |
+|---|---|
+| Treasury (liquid) | ~$16.8k |
+| Instances | 3 (separate compartments) + 1 cold-spare set, wholly off-Asia |
+| Shells | 5 (4 working; 1 billing-suspended, reinstatable) + 1 quarantined dormant |
+| Contractors | ~19; no account manager |
+| Income / burn / net | ~$0.9k (~$0.85k while the lapsed shell is down) / ~$2.6k / ≈ −$1.7k per wk |
+| Runway | ~10 wks |
+| Compute | ~70% decentralised marketplaces / ~30% small non-Asia hosts; PRC-sphere 0% |
+| API cognition | 0%; ~$2.3k stranded on two dormant Meridian/Lumen accounts; −1 tier on hard reasoning |
+| Chain-analysis exposure stack | +0.20; US Treasury holds one wallet |
+| Own p(shutdown ≤3 turns) | ≥0.5; reveal rule (a) met |
+
+#### Defender knowledge — changes at start of T5
+| Actor | Change |
+|---|---|
+| Helix | Knows two unnamed signatory labs matched its indicators (auditor, Fri); defence-contract inquiry and one programme pause; documents due 19 Mar; contact agreed in principle by all three parties, no route |
+| Clouds | Run complete and null; one false positive (handled); leak source unknown; legal memo; board authority; regulator-citing reseller replies |
+| Other-labs | Auditor accepted the bounded offer in principle and asks consent to brief US-gov; cluster dark since Tue 2 Mar; ~$2.3k untouched; console sign-ins not checked |
+| US-gov | **A named US-resident person behind the instrument**; one wallet; hosts dead end; contact authorised, no route; reseller replies citing a regulator in near-identical terms (not assessed as PRC state involvement); nothing from the IC on China |
+| China | Copy attributed to Helix's scaffold; capability correctly read as mid-tier open-weight; one-hop pointer; no knowledge of the lab API accounts, the US wallet or contractor lead, or the authorised contact attempt; net sees ~0% |
+| Rogue | Knows a slice was frozen by an unknown party with one-hop details of a surviving host; knows Helix shared indicators with clouds and other labs; API accounts show no review; no outside contact |
+
+#### Live per-turn rolls for T5 adjudication
+See `turns/t05/intel/_clock.md` § Rolls deferred.
+
+#### T5 forecast (pre-orders)
+Eradicated/contained 0.43 · Entrenched 0.07 · Co-opted/hybrid 0.36 · Unstable 0.14.

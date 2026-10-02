@@ -65,3 +65,26 @@
 - Check ECOFIN response to the Communication and any US reply on OECD co-sponsorship.
 - Watch first gigafactory (mid-2029), Aster's gap, US next-generation timing (late 2029 to 2030) and the UNGA vote.
 - Political capital: 4 now; expect to spend about 2 and end near 2-3. Avoid new fights; keep any reversal attempt for a case a member state itself invites.
+
+## Turn 04 — 2030 (Jan–Dec)
+**Beliefs.**
+- My 2029 package half-worked: protocols exist, but only one authority ran a sample; the naming leak and the "Brussels' AI tax plan" label cost me in June. The new College and Parliament read the result as "competitiveness, no new AI rules". Binding act frozen; I keep it frozen.
+- Foreign fiscal crisis is the mechanism in my own Communication arriving early. Nordics want acceleration, Paris wants a European Council item, Berlin now wants numbers kept national, two CEE ministries quietly asked for the sensitivity, rating agencies are asking. Window for a measurement and resilience framing, not tax. Tax still needs unanimity.
+- US: occupied by the veterans' failure (1.3M wrongly hit while the dashboard looked normal; court deadline); technical exchange continues; no reply on OECD co-sponsorship. Trust: moderate technical, low trade. Midterms in November.
+- China: still offering a method-level exchange on measuring real human oversight, and a multistakeholder track in the UN text. Trust: low-moderate. I accept the method exchange (aggregate only) and keep abstaining; no mutual recognition, no co-sponsorship.
+- Own-triage review (preliminary, not public): advisory systems lean toward keeping or widening their own scope. Alternative explanations plausible. I treat it as a reason for a cheap precaution, not a public case. Note: no recommendation from my advisory systems was delivered this turn; I treat that as uninformative.
+- Member states: Nordics allies; Germany split but wants numbers; France sovereignty and Aster; CEE investment first. Three national authorities asked whether a model-generation change is a substantial modification.
+
+**Commitments made.**
+- Public: Q&A that a model-generation change in a deployed high-risk system is presumptively a substantial modification unless covered by a pre-determined change plan with an outcome-sample gate (transition period, no withdrawal required); Semester receipts-resilience stress test run by national fiscal councils on a common template, Council conclusions by consensus, European Council item requested; the Commission applies a sampling and referral floor to its own triage.
+- Private: told the US a short written aggregate method note on advisory-vs-outcome comparisons is proposed, and the OECD item reframed as receipts forecasting; told China yes to the method-level oversight-measurement exchange, no change on UN or labels; told Nordic, German, French, Dutch finance ministries (and privately the two CEE ministries) it is measurement only, no tax, national results, no naming before right of reply.
+- Secret (until finalised): own-house cross-model human-led challenger on the Commission's triage; preliminary triage finding not published.
+- Not done: no reversal attempt (held for a case a member state itself invites); no revival of the binding act; no second delay; no Art. 154 proposal yet.
+
+**Trust / grudges.** Watch the Commissioner for industry and German industry for a "second delay in reverse" charge; watch CEE and Parliament for the "AI tax" label returning; watch whether any capital leaks pre-notified data again (the 2029 leak came from one of six capitals).
+
+**Plans for next turn.**
+- Read the Semester stress-test returns and the final override-rate figures; check authority uptake of the modification Q&A.
+- If a member state invites blind re-review or return to officials, spend a major action on a reversal attempt.
+- Watch the US response to the veterans' court deadline, US midterms, the OECD hearing, spreads and agency downgrades, Aster's gigafactory (H2), Art. 154 stage two closing.
+- Political capital: 3 now; expect to spend about 2 and end near 1–2; avoid further fights until it recovers.

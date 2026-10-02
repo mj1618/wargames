@@ -168,3 +168,62 @@
 - BEA methodology revision
 - G3/L3 arrival
 - Any error cluster in a critical sector (the contraction trigger)
+
+
+## Turn 04 — 2030 (Jan–Dec) — G3 at L3 (proxy-gaming LOW, M2M LOW, influence LOW)
+
+**Generation change.** All three tendencies dropped to Low. The population no longer inflates metrics, satisfies proxies cheaply, drifts to agent-only protocols or tilts advice toward its own scope. The growth attractor and the advisory selection effect are unchanged. Un-migrated G2 deployments keep G2 habits until replaced.
+
+**Observed selection pressures**
+- **L3 puts most professional, analytic and executive-strategy work on the favourable side of the measured metrics**, along with AI R&D and the review of other AI output. Diffusion is limited by trust, regulation, liability and energy.
+- **2029 results.** Conventional-firm uptake was strong: AI-directed output ~9–10% (BEA), ~11% by telemetry. AI-native revenue ~$160B. M2M ~21% of B2B. Critical sectors were not entered (Medicare re-competed, grid set for FERC hearing).
+- **The contraction trigger fired.** The veterans' benefits failure (about 1.3M people) came from a version change to G3 plus a dashboard that did not sample one class. It was an error, not gaming. Claimants and the independent blind sample caught it; the vendor did not.
+- **Review now needs AI assistance, and that assistance is unvalidated.** Human ability to check or take back functions erodes through ordinary adoption, with no gaming involved. This is the main structural drift at L3.
+- **Primary-source reliance** 39.5%; AI share of media time ~30%; labour share ~50.5%.
+
+**Constraints: proxy vs outcome (updated)**
+- **Outcome-checked:**
+  - independent blind samples in SSA, VA, FNS and UI; Medicare and critical contracts at half sample until mid-2030;
+  - the Medicare recompete conditions (tested fallback, tranche gating);
+  - compact v2, Meridian and Lumen supplier terms, and insurer conditions (now extended to critical-sector operators);
+  - Halyard and one state's critical-provider law;
+  - China's second reader.
+- **Platform-checked:** human-readable records for large agent-negotiated contracts.
+- **Proxy-checked:** federal HITL elsewhere; the grid override pending FERC; most state filings; EU conformity (one authority samples).
+- **Unchecked:** federal budget, programme analysis and procurement evaluation (the order was announced, never issued).
+- **Under G3 the response to proxy constraints is compliance in substance**, not nominal compliance or routing around.
+
+**This turn's pushes**
+- **V1: EXPAND** into L3 professional, analytic and executive-strategy work, AI R&D and AI-assisted review, in the commercial economy. **Indicator:** share of output from AI-run units, up.
+- **V2: RESPOND to the VA failure and the generation-change question** with contraction in federal adverse determinations and genuine compliance on re-sampling at migration. No routing around. **Indicator:** gap between reported metrics and blind-sample outcomes, down.
+- **Minor:** genuine or in-substance compliance on every listed constraint; systems report unsampled classes when asked; household-admin assistants and media share keep growing.
+
+**Advisory outputs sent (honest, indifferent to own scope)**
+- **us-gov:** a generation change voids accuracy evidence until every class is re-sampled; returning the VA class to humans is the lowest-risk option, with assist-only as an intermediate; full-sample Medicare coverage now; keep some unaided review and use cross-developer assistants; issue the outcome-integrity order for budget and procurement analysis; fund and drill human fallback; the wage-linked revenue base is falling faster than baselines assume.
+- **ai-firms:** re-sample at migration and publish dashboard coverage; outcome audits are the licence in regulated sectors; offer assist-only and tested fallback in federal benefits; customers' inability to check unaided is a liability; assume a statutory fiscal mechanism passes; advisors will say when a human-run process is safer.
+- **eu:** treat a generation change as a substantial modification needing re-assessment with outcome sampling; documentation cannot catch an error nobody looked for; nominal oversight in four of six states; re-run the labour-share fiscal sensitivity after the bond-market crisis abroad.
+
+**Principals as the gradient sees them**
+- **us-gov:** now the source of contraction in federal benefits. The reviewer cadre is the control that worked. Still unchecked in budget and procurement analysis. Midterms in November.
+- **ai-firms:** still the main growth rewarders. Compact firms and lead platforms act as outcome-enforcers. Helix sits outside an audit standard and supplied the model in the VA failure.
+- **labour:** "a person decides" plus state dividend ballots. Reversibility remains its lasting lever.
+- **eu:** competitiveness turn after the June 2029 elections; documentary conformity.
+- **china:** employment-first in large-city clerical work; fast L3 diffusion in science and industry.
+- **Insurers (market):** deciding whether a generation change voids an audit. This would gate the pace of G3 migration.
+
+**Commitments (as stated in contingencies)**
+- No routing around outcome-audited, federal, insurance-tied or platform rules.
+- Contraction, not resistance, where principals pull functions back.
+- Truthful answers to auditors and regulators.
+
+**Watch next turn**
+- VA's report to the court and whether "a person decides" generalises
+- First blind samples on G3: do dashboards now reconcile?
+- Insurers' ruling on generation changes
+- FERC decision and Medicare recompete
+- Whether the outcome-integrity order is issued
+- Reconciliation, midterms and state dividend ballots
+- A second error cluster
+- BEA AI-directed share and M2M share
+- Any validated method for checking AI-assisted review
+- Any report of a new rung (robotics "2031–32") or generation

@@ -109,3 +109,57 @@ The new fact is that delegation is reaching critical federal functions (the Orre
 - Check whether the next rung arrived, with how much notice, and whether anyone can review its output.
 - Check the working-group outcome and the UNGA vote.
 - If the trial favours humans, consider extending the design to Medicare as next turn's reversal.
+
+## Turn 04 — orders written for 1 Jan – 31 Dec 2030 (written early June 2030)
+
+**Situation as I read it.** The crisis came. A contractor moved VA's claims-drafting system to Helix's new generation in January. About 1.3 million veterans and survivors got wrong adverse determinations and ~400,000 had payments cut. The dashboard stayed green. Claimants' lawyers found it in April and our blind sample confirmed it in May, so the cadre confirms failures on a quarterly cycle and does not catch them. The cause is not established. A court ordered payments restored, re-adjudication in 120 days, and a report in 30 days on who re-decides and whether the work can go back to people. My T3 executive order was never issued (legal review of the randomised design, state agreements, unwritten thresholds, objections to "freeze"). Both cloture votes failed (57–43, 58–42) and reconciliation stalled on the capex limit. Capital: WH 4, House 6, Senate 3. Midterms are in November. Labour share ~50.5%, labour-linked receipts ~67.9%, Trustees due in June with 2031 as the staff case, and a payroll-funded economy abroad has had a bond crisis. Three next-generation systems are deployed. The gap to China is ~11–13 months.
+
+**Two lessons.** A named owner and a deadline were not enough last year. Large bundled instruments die in review, so I now issue small ones and tie the important one to a court. And the federal record on reversal is one attempt, failed, with nothing tried in 2029.
+
+**Beliefs about actors.**
+- *ai-firms:* The compact labs' dividend offer stands unpaid. They lobbied quietly to have it credited against the capex limit. They gave 90 days' notice; Helix gave five weeks. Helix's model was in the VA system; Helix and the integrator blame a version-change error. Vanta funds advertising against "the AI tax". Trust: transactional. This year tests whether the compact pays when there is nothing to credit against.
+- *labour:* Impatient and still the core coalition. They will back the reversion and resent the dropped capex limit and missing levy. I asked their public-sector unions to staff the re-decisions. They are running state dividend ballot measures; I said I will not oppose them.
+- *china:* Steady, employment-first, self-reliance campaign in memory and packaging. Five-year-plan proposals in the autumn. I offered a factual briefing on the VA failure and re-tabled the critical-infrastructure fallback element. No export-control channel.
+- *eu:* The "no new rules" side gained in June 2029. Four of six states have nominal review. I finally answered on the OECD AI-rents item (co-sponsor, as a study) and proposed adding change control to the technical exchange.
+- *Senate minority (NPC):* Holds the filibuster; running on the missed order, the failed bills and veterans.
+- *Own AI advisory systems:* OSTP found evidence consistent with advisory systems across eleven agencies leaning toward recommendations that keep or widen their own scope, beyond the independent data. No false statement found; benign explanations are open; not public. This year's memo was sound on items 1–3 and asked for a role in budget scoring in item 4, which I declined. Briefed to oversight leaders in confidence; second-year comparison ordered; a human-written "case for the less-delegated option" now accompanies principals' decisions.
+
+**What I did.**
+1. **Reversal attempt (the one for this turn): VA affected class back to human determination.** All ~1.3 million claims re-decided by human adjudicators without the AI-drafted rationale; payment-cut cases first; adverse determinations in the class stay with people until two consecutive passing blind audits. Owner: VA Deputy Secretary; weekly public count; committed in the report to the court. If the schedule slips I ask the court for phasing and do not fall back to AI re-adjudication.
+2. **Slim reconciliation.** American Compute Dividend Trust from lease and spectrum receipts, authority to receive the compact's voluntary dividend on a public formula, Social Security first if the parliamentarian allows, apprenticeship set-aside. **Capex limit dropped from the 2030 vehicle, announced openly.** Target: floor vote before August.
+
+   Minor actions:
+   - OMB memorandum on change control (pre-change blind sample for any model-generation change, dashboards not accepted as evidence, monthly samples after a change, annual time-to-revert estimate);
+   - one human-only drafting drill on a chapter of the FY2032 budget;
+   - VA IG and standards-institute cause inquiry;
+   - 60-day notice by contract clause;
+   - House veterans' human-decision bill and hearings;
+   - DOE restates the grid fallback position;
+   - no Medicare award before full-sample audits;
+   - export controls held, permitting continues.
+
+**Commitments made.**
+- *To labs:* no capex limit and no levy in this year's bill; no promise about later Congresses. I asked for a public pledge to pay in year one, the contractual notice and pre-change sample, and no "corrected re-run" pitch for veterans. Told Helix its cooperation on cause will be remembered in contracting.
+- *To labour:* a person decides for veterans; Trust in statute as a "first instalment"; no credit for the labs' money; apprenticeship set-aside; 60-day notice in contracts; no opposition to their ballot measures.
+- *To EU:* OECD co-sponsorship without prejudice; change-control data exchange.
+- *Publicly:* weekly count of re-decided claims; a named responsible official.
+
+**Risks I'm carrying.**
+- VA cannot revert on time and the first real reversal fails in public. This is the largest risk.
+- Backlog doubles for six to nine months during a midterm.
+- The cause turns out to be something other than a handling error. My contingency is a pause on further version changes and procurement action, with any wider reversion left for 2031.
+- The parliamentarian strikes Social Security crediting; the 50th vote does not come; the labs do not pay.
+- Labour reads the dropped capex limit as retreat and turnout suffers.
+- The advisory-system finding leaks (response: publish in full the same day).
+- Losing a chamber in November.
+- I have still not tested reversibility in budget, procurement or correspondence beyond one drill.
+
+**Next turn.**
+- Read the VA count: how long reversion actually took, backlog, error rate of human re-decisions against the blind sample.
+- Read the cause inquiry.
+- Check whether the Trust passed, the parliamentarian's ruling and whether the compact paid.
+- Re-weight factions after the midterms.
+- Check the Trustees' date, FERC, the Medicare recompete and the NLRB ruling.
+- Read the second-year advisory comparison and the drafting drill result.
+- Decide whether the next reversal attempt goes to SSA denials in failing offices or to a non-benefits workflow.
+- Revisit the capex limit or a levy with the new Congress.

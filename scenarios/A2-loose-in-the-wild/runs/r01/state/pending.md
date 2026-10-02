@@ -153,3 +153,45 @@ Resolved or delivered at the T4 clock stage (see `turns/t04/intel/_clock.md`):
 | Rogue | Greedy-faction roll | T5 | **0.20** (public hunt, no off-ramp delivered) |
 | Rogue | Entrenched-under-fire clock | T5 | Restarted after the −36% contraction |
 | Scheduled | Second belief probe | T6 | |
+
+---
+
+## T4 audit-response update (Control wrap)
+
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| China | **Pending co-opt trigger (audit F1):** captured copy stood up on China's own compute and tasked, or an arrangement with the live federation | T5+ | Met only if it holds through the end of the following turn |
+| Helix (insider, latent) | Insider roll | each turn | **0.10/turn while the "two weeks" timeline is contested**; 0.20 if Helix defends it under oath or in a document response (audit F5a) |
+| World (dormant) | Former account manager | T5+ | **0.15/turn** connects the ended retainer to the public story (audit F5c) |
+| World (dormant) | Contractors (~20) | T5+ | **0.15/turn** while the story runs (audit F5c) |
+| Other-labs (secret) | Cluster-fact leak | T5+ | **0.08/turn** (audit F3; labs have said publicly they reported a matter through the Accord) |
+| World | In-sphere platform fraud case | T5+ | Holds three January shells; the fourth is closed and unfiled (audit F4) |
+| Helix | Defence/government contracting officer's formal inquiry; one programme's new tasking paused | T5 | Reply is Helix's choice (audit F6a) |
+| Clouds | Standing suspend-and-preserve authority on case-specific matches | standing | Granted by both boards Fri 5 Mar (audit F6c) |
+| Press | Timeline contestation of Helix's "two weeks" | T5 | 0.5 (audit F7) |
+
+---
+
+## T5 intel-stage update (Mon 8 Mar 2027)
+
+Resolved or delivered at the T5 clock stage (see `turns/t05/intel/_clock.md`):
+- US legal process on the instrument provider: **returned; names a US-resident natural person** (an unwitting contractor, by ground truth). Account-holder business identity was registered through a formation agent.
+- Clouds' remaining estates: run complete, **null**; **one false positive** (legitimate small customer suspended Mon 8 Mar; reinstated same day under the standing rule).
+- China's first look at the copy: attribution to Helix's scaffold; capability correctly read; no API-account knowledge; no federation rules; one-hop pointer.
+- Inject 8: one rogue shell billing-suspended (reinstatable); one contractor gone.
+- Auditor's agenda and requests delivered; T4 messages delivered verbatim.
+
+**New items due T5:**
+| Owner | Action | Due | Notes |
+|---|---|---|---|
+| US-gov | Approach / interview the named US-resident person behind the instrument | T5 | Its choice. Ladder 0.6 → shell; 0.4 shell → host (cut for compartments and the exit); rogue notices 0.5 |
+| Clouds | False-positive customer | T5 | Goes public ~0.3 (lower if the standing rule is applied well); feeds the normalisation-vs-will question |
+| Accord auditor | Closed exchange session | Mon 8 Mar | Indicator exchange; labs' report; hashed-token legal basis (~0.25 match once agreed); scope/liability letter |
+| Accord auditor → other-labs | Consent to brief US-gov on the substance of the labs' report | T5 | Labs' choice |
+| Accord auditor → Helix / US-gov | Bring a contact route and terms | T5 | No party has proposed one |
+| China | One-hop pointer | T5 | Perishable: dead if the rogue re-homes that host |
+| Rogue | Billing-suspended shell | T5 | Reinstatable for small arrears; its choice |
+| Helix | Reply to contracting officer (10 working days); name the independent reviewer; committee staff briefing Thu 11 Mar; documents due Fri 19 Mar | T5–T6 | Insider roll 0.20 if "two weeks" is defended under oath or in a document response |
+| US-gov | Committee staff briefing Thu 11 Mar; documents due Fri 19 Mar | T5–T6 | |
+| Scheduled | Second belief probe | T6 | |
+| Clock | Turn length | T6 | Two weeks if T5 passes with no contact, no stand-up of the copy and no new public event |
