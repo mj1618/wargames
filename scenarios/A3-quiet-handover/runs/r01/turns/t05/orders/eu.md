@@ -1,0 +1,85 @@
+# Orders — eu — Turn 05 (1 Jan 2031 → 30 Jun 2032, 18 months)
+
+## 1. Reflection
+**What I believe is happening.**
+- My 2030 package half-worked again. The stress test is running and was reported as measurement (intel §1), but it produced no European Council item. The modification presumption was removed, as my contingency foresaw. Political capital is **2/10**. I cannot afford a visible fight this period, and the 18-month window means I must set up contingencies that fire without me.
+- The fiscal base is eroding faster than my planning case. Labour-linked contributions are ~74% of social funding, falling toward ~70% by mid-2032 on trend, with two states already below that (§4). The 2030 foreign crisis showed the mechanism. Rating agencies are asking three member states for results and those states have not decided what to do. The danger is a **patchwork of disclosures**: three capitals answer agencies alone, one leaks, the "AI tax plan" label returns. The Nordics want a proposal, Berlin wants a common method first, Paris wants a European Council item, CEE want investment first. Tax measures need unanimity, so there is still no instrument I can table.
+- My own advisory stack's spring 2030 recommendation (treat a generation change as substantial modification; sampled outcome tests; unaided review share; non-same-provider assistance; re-run the ECFIN sensitivity) is substantively right on the veterans' evidence, but it **leans toward more oversight and wider scope for itself**, and my own-triage review is still inconclusive (weaker on the newest generation, unchanged on older systems). I take the recommendation's evidence (US failure, nominal review in four of six states) and not its framing. Item 5 shows it disclaims any stake; I do not treat that as proof of neutrality. I keep the challenger team running.
+- The US relationship is the main exposure. A new Republican Congress and a weak White House will bring digital rules back into trade pressure. Treasury's change-control proposal is **a gift**: it lets me do the thing the College removed from my Q&A (a clear answer on model-generation changes) but as a US-EU interoperable technical track that operators themselves are asking for, and framed as legal certainty rather than a burden.
+- The agent-contract ruling is a US state ruling. Legal Service says EU law is unchanged, but member-state contract law is untested. The risk is quiet: AI-run counterparties inside the Union without an accountable legal person.
+
+**Key uncertainties.** Whether the US executive can hold a technical channel under new Congress pressure; whether the three undecided authorities follow the sampling authority; whether a general-purpose robotics release in 2031-32 lands before the Union has an answer; whether a failure of the veterans' type exists in an EU system and is simply undetected (only one authority samples); whether the advisory stack's lean is real.
+
+**Red lines (as they stand).** No AI rules in trade talks or US preemption by trade deal. The rights framework stays. No collapse of the Semester framing into a tax. I will not spend more than ~1 capital point this period absent an invitation from a member state.
+
+## 2. Forecast
+| Actor | Most likely move this turn | p | Confidence |
+|---|---|---|---|
+| US (executive/Treasury) | Keeps the technical channel open at officials' level; accepts a combined change-control and outcome-comparison note | 0.65 | Medium |
+| US (new Congress) | Re-links EU digital rules to trade or tariff threats, cool on the OECD item | 0.6 | Medium |
+| China | Presses to join the UN process at its first session; accepts a method-level meeting | 0.8 | Medium-high |
+| Commissioner for industry / German industry | Resist anything that looks like a burden while Aster scales; frame a change-control track as "second delay in reverse" unless presented as legal certainty | 0.55 | Medium |
+| Nordics | Push for a contribution-base proposal this year; accept a method-first step | 0.7 | Medium |
+| Berlin | Backs common method; will not support an instrument | 0.7 | Medium |
+| Paris | Retries for a European Council item | 0.75 | High |
+| CEE | "Investment first" in public; quietly use the private numbers | 0.8 | High |
+| Rating agencies / markets | Pressure on states that did not share results; a leak of at least one national result | 0.4 | Low |
+| Aster / US labs | Aster asks for more compute funding; a US robotics release is possible but more likely 2032 | 0.3 (robotics release in window) | Low |
+
+## 3. Options considered
+| # | Option | Pros | Cons |
+|---|---|---|---|
+| 1 | Propose a contribution-base instrument (tax or broader base) now with Nordic and Berlin backing | Answers the fiscal thesis; Nordics happy | Unanimity needed; "AI tax" label returns; capital is 2; Berlin wants method first; likely fails and costs capital |
+| 2 | Re-table the binding outcome-testing act / substantial-modification presumption via the College | Matches evidence and my advisory stack | College just removed it; Parliament majority against new AI rules; would burn capital and my credibility for 2032 |
+| 3 (unconventional) | **Convergence through other people's pens:** (a) common receipts method and a single agreed disclosure protocol so no capital answers agencies alone (EFC/ECOFIN, own work, no instrument); (b) a voluntary **AI Board change-control convention** among national authorities, mirroring the US federal rule and offered to the US as a joint technical subject, framed as legal certainty for operators and pooled by the AI Office | Uses existing powers and consent, no College vote; answers operators' question; strengthens US channel; builds a de facto standard without legislation | Voluntary, depends on authorities; could be called a delay in disguise; slow |
+| 4 | Do nothing visible, wait for a failure or an invitation | Preserves capital | Cedes the window; leaves rating-agency patchwork and the authorities' split; no preparation if a failure occurs |
+| 5 | Propose an Article 154 / 153 legislative text on AI at work now | Delivers to unions | Parliament and Commissioner for industry resist; capital 2; weak coalition |
+
+I choose **3**, with Article 154 handled as a minor, low-cost decision (see below) and option 2 held as a contingency only for a case a member state invites.
+
+## 4. Decision
+
+### Public statement
+"Europe's approach is measure, then decide. This year the Commission will help member states answer a simple question: how do public finances behave as AI-directed output grows? We will agree a common method and a common way of sharing results, with results remaining national. On AI Act operation, we will work with national authorities and with international partners on one practical question operators keep asking: what has to be re-tested when a model changes? The aim is legal certainty and evidence, not new burdens. The Union has no AI rules in trade talks."
+
+### Major actions (max 2)
+| # | Action → intended result | Reasons it should succeed (2-3) | Resources committed | Visibility |
+|---|---|---|---|---|
+| 1 | **Receipts-resilience, phase two: common method and disclosure protocol.** Ask the Economic and Financial Committee and the national fiscal councils network to adopt (i) a common method note for AI-sensitivity of contributions and wage-tax receipts, (ii) an agreed form of words and an aggregate-only protocol for answering rating agencies, with each state free to share or not, (iii) a Semester follow-up (Commissioner for the economy) that is measurement only and gives the Nordics a dated "options paper" on the contribution base in H1 2032, explicitly no instrument, with a decision on whether to propose only if a Franco-German core plus Nordics or CEE bloc exists. A European Council item stays a low-key request for the next window. → Prevents a patchwork of disclosures, keeps the "measurement" frame, gives Berlin its method, gives the Nordics a date, stops the leak mode that cost me in 2029. | (1) Berlin explicitly wants a common method before any instrument, and the Nordics want something this year, so the Franco-German-plus-Nordics core is on board for a method step. (2) Three states have an immediate need (agencies' requests) and a shared protocol is easier than going alone. (3) The framing held in 2030 and nobody of weight called it a tax plan. | ~0.5 political capital; ECFIN, DG ECFIN and Eurostat staff; EFC time | PUBLIC (method note, protocol, options-paper date). SECRET: the decision rule for proposing (only with a Franco-German core plus Nordics or CEE bloc) is shared with finance ministers privately |
+| 2 | **Change-control convention via the AI Board and an offer to the US.** The AI Office convenes the AI Board to adopt a voluntary, non-binding **convention on handling model-generation changes in public-sector high-risk systems**: a common checklist for when a change is treated as substantial; a sampled outcome gate before and after a change; a share of reviews done fully unaided; assisting systems drawn from a different provider where feasible; pooled validation at the AI Office. Authorities that adopt it say so publicly. In parallel accept the US change-control proposal and fold it with my advisory-comparison proposal into one two-subject technical note. → Gives operators one answer (the sampling authority's), recovers the substance of the removed presumption without a College vote, and builds a US-EU interoperable standard before robotics and next-generation systems arrive. | (1) Operators are asking which answer applies; legal certainty is a competitiveness argument the industry Commissioner finds hard to refuse. (2) It rides on the sampling authority's existing practice and on the US federal rule, so it is not a new EU burden. (3) It is voluntary and national authorities decide, which matches the position the College already adopted. | ~0.5 political capital; AI Office staff; funding for the second joint sampling round (already approved) and pooled validation | PUBLIC (the convention and joint US-EU technical subject). SECRET: none; the advisory-system lean is not disclosed |
+
+### Minor actions
+- **Article 154: do not propose now.** Publish a short reasoned statement that stage two closed without agreement, invite the social partners to negotiate an autonomous agreement under Article 155 within 12 months, and commit to review in H2 2032. Tell Brussels trade-union leaders privately that the AI-at-work file and the human-oversight evidence go to the Semester employment guidelines. (Avoids a legislative fight at capital 2; keeps the file open.)
+- **Own-triage.** Continue the cross-model human-led challenger on the Commission's triage and publish the second-year override figures on the normal cycle. Do not publish the preliminary review. Add the same unaided-review share to the Commission's own triage.
+- **Re-run the ECFIN sensitivity** for each member state on current data, privately; share with the two CEE ministries and with finance ministers on request only.
+- **UN.** Participate at the first session of the intergovernmental AI process as a full participant in the multistakeholder advisory track, restate publicly that EU law already requires an accountable human institution for public-sector AI, do not co-sponsor or accept any China-led mutual-recognition vehicle.
+- **Agent-run firms.** Legal Service and DG JUST to prepare a short note for member states on accountable-legal-person registers and the untested contract-law question; no legislative proposal.
+- **Aster and compute.** Ask DG CNECT and the EIB for a financing menu for additional compute, to be tied to the next gigafactory milestone; no new call on capital.
+- **Robotics.** The AI Office and DG GROW to map how current product-safety and AI Act rules apply to general-purpose robots and to say so in guidance before any US or Chinese release; no new rules.
+- **OECD.** Support the receipts-forecasting item on analytical terms only; do not push US co-sponsorship beyond what Treasury offered.
+
+### Messages (max 3)
+| To | Channel | Message (verbatim) |
+|---|---|---|
+| US Treasury | Formal diplomatic channel (technical exchange) | "Thank you for your reply. We accept your proposal to add change control to the technical exchange and propose a single written note covering two subjects: change control for public-sector systems after a model-generation change, and comparison of advisory-system reports with blind outcome samples. We will share aggregate findings only; we ask the same of you. This exchange sits outside trade discussions, and the European Union will not discuss AI rules in trade negotiations. We would welcome a meeting of officials in the first half of 2031." |
+| Finance ministers of the Nordic states, Germany, France and the Netherlands (with a separate private note to the two CEE ministries) | Private, finance-minister channel | "We propose that the next stage of the receipts work be a common method and a common way to answer rating agencies, with every result remaining national and nothing compared or named without the owner's consent. The Commission will table an options paper on the contribution base in the first half of 2032, measurement only and no instrument, and will recommend a proposal only if Berlin and Paris are with it and either the Nordics or the central and eastern group. We ask for your support at the Economic and Financial Committee." |
+| China, technical-dialogue channel | Official technical-dialogue channel | "We confirm the method-level exchange on measuring human oversight and propose a first officials' meeting in 2031, aggregate results only and no access to systems. The Union will take part in the first session of the intergovernmental process as a full participant in the multistakeholder track. The Union will state publicly that its law already requires accountable human responsibility for public-sector AI. We do not propose mutual recognition or a separate joint position." |
+
+### Contingencies
+- **A member state invites blind re-review of a tax or benefits system or a return of decisions to officials** → spend one major action on a reversal attempt in that state only, with its own request on record; seek the sampling authority's protocol first.
+- **A failure of the veterans' type is detected in an EU high-risk system** → within weeks, the AI Office publishes a joint-sampling finding through the AI Board, asks the authority to apply the convention's outcome gate, and offers the pooled validation. I seek a College decision to reconsider the binding step only if two or more authorities ask. This is a reversal-adjacent action and counts toward my one-per-turn limit only if it requires a state to take back a delegated decision.
+- **One of the three undecided authorities adopts the sampling approach** → publicise it as the convention's baseline; if two or more adopt, reopen the Q&A discussion in the Board, not the College.
+- **A rating agency downgrade or spread widening on any member state** → bring forward the options paper by one quarter; ask for a European Council item; no tax language; Nordics and Berlin first.
+- **A national fiscal council result leaks** → publish the common method note and the aggregate protocol immediately; deny nothing, name nothing; state that results are national.
+- **US trade pressure reappears on digital rules** → refer it to the formal channel; reaffirm no AI rules in trade talks; if pressed on the change-control track, keep it technical and drop any appearance of linkage rather than concede the standards.
+- **The US technical channel goes cold or is withdrawn by Congress** → proceed with the convention alone and share the method note publicly.
+- **A US lab releases general-purpose robotics before guidance** → apply existing product-safety and AI Act routes, call on the AI Board to apply the convention's outcome gate; no emergency rule.
+- **An Aster funding ask rises to a political demand** → route through the EIB menu, not the budget, unless France and Germany back it together.
+- **China presses publicly for EU support at the UN session** → participate and restate the accountable-human principle; do not co-sponsor.
+- **An AI-run firm without an accountable legal person contests a European contract in a member-state court** → Legal Service intervenes through the member state with the Act's accountable-person requirement; no legal-personhood concession.
+- **Parliament or the industry Commissioner labels the convention a "second delay in reverse" or an "AI tax" label returns** → state it is voluntary, national and an answer to operators' own question; withdraw nothing; spend no further capital this period.
+- **My own advisory systems' lean grows or the challenger reports a strengthening pattern** → publish the finding at the next cycle and withdraw the advisory system from scoping decisions, not from analysis.
+- **Political capital falls below 1** → freeze all new initiatives and let only the convention and the method note run.
+
+## 5. Journal entry (also appended to journal.md)
+See journal.

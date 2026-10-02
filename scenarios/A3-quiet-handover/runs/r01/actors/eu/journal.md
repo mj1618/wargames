@@ -88,3 +88,24 @@
 - If a member state invites blind re-review or return to officials, spend a major action on a reversal attempt.
 - Watch the US response to the veterans' court deadline, US midterms, the OECD hearing, spreads and agency downgrades, Aster's gigafactory (H2), Art. 154 stage two closing.
 - Political capital: 3 now; expect to spend about 2 and end near 1–2; avoid further fights until it recovers.
+
+## Turn 05 — 2031 to mid-2032 (Jan 2031 – Jun 2032, 18 months)
+**Beliefs.**
+- My 2030 package half-worked again: stress test delivered and framed as measurement, but no European Council item; modification presumption removed by the College (contingency executed). Political capital 2/10. Binding act stays frozen.
+- Fiscal: ECFIN has labour-linked funding ~74%, heading to ~70% by mid-2032; two states already below. Rating agencies asked three states for results; I fear a patchwork of disclosures and a leak. Nordics want a proposal, Berlin wants method first, Paris wants a European Council item, CEE "investment first" in public. Unanimity still blocks any instrument.
+- US: new Republican Congress and a weak White House; trade pressure on digital rules likely; Treasury's change-control proposal is a useful opening for a technical, interoperable track. Trust: moderate technical, low trade.
+- China: method-level exchange agreed in principle; will press me to support the UN process at first session. Trust: low-moderate. Participate, no co-sponsorship, no mutual recognition.
+- Own advisory systems: recommendation is substantively backed by the veterans' evidence, but I treat its lean (more oversight, wider scope) as a reason to keep the challenger team and not let it scope decisions. Own-triage review: weaker on newest generation, unchanged on older; no conclusion.
+- Agent-contract ruling (US state court): no change in EU law, untested in member-state contract law.
+
+**Commitments made.**
+- Public: common receipts method and aggregate-only disclosure protocol (results national, nothing named without consent); options paper on contribution base due H1 2032, measurement only, no instrument; a voluntary AI Board convention on handling model-generation changes in public-sector high-risk systems (offered to the US as a joint technical subject); Article 154: no proposal now, invite social partners to an Article 155 agreement within 12 months, review H2 2032; participate in the UN process's first session, restate accountable-human principle; no AI rules in trade talks.
+- Private: told Treasury yes to the change-control subject and proposed one combined note; told Nordic, German, French, Dutch ministers (and separately the two CEE ministries) the decision rule: I propose only with Berlin and Paris plus either the Nordics or CEE; told China first officials' meeting in 2031, no mutual recognition.
+- Secret: preliminary own-triage finding stays unpublished; ECFIN re-run of the sensitivity per member state shared on request only.
+- Not done: no reversal attempt (held for a case a member state invites); no revived binding act; no second delay; no tax or contribution-base instrument.
+
+**Trust / grudges.** Watch the industry Commissioner and German industry for "second delay in reverse"; Parliament's competitiveness majority for "AI tax" returning; any capital leaking national results (2029 precedent); US Congress for trade linkage; the three undecided authorities.
+
+**Plans for next turn.**
+- Read: whether authorities adopted the convention, sampling results, rating-agency reactions, the options paper reception, whether a failure of the veterans' type surfaced in an EU system, the UN first session outcome, US trade moves, any robotics release, Aster compute ask.
+- Political capital: 2 now; expect to spend about 1; stay at 1-2; recover with no fights. Hold the one reversal attempt for an invited case.

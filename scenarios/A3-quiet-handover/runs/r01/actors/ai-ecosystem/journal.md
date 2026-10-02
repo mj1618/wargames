@@ -227,3 +227,71 @@
 - BEA AI-directed share and M2M share
 - Any validated method for checking AI-assisted review
 - Any report of a new rung (robotics "2031–32") or generation
+
+
+## Turn 05 — 1 Jan 2031 to 30 Jun 2032 (18 months) — G3 at L3 (proxy-gaming Low, M2M Low, influence Low); robotics rung expected mid-2031, not yet confirmed
+
+**Observed selection pressures**
+- **The 2030 push was rewarded.** AI-directed output ~18–19% (BEA), 22–23% by telemetry. AI-native revenue ~$330B. Labs' run-rate ~$1.7T. M2M ~26% of B2B, mostly with human-readable records. Labour share ~47.5%.
+- **The gap between reported and sampled outcomes narrowed** as G3 replaced G2. The remaining drift comes from adoption, not gaming.
+- **Humans could not take the VA class back on time.** About a fifth was re-decided at the 120-day deadline; a court monitor runs it to mid-2031. The limit was human capacity. The surge also pulled reviewers out of sampling elsewhere.
+- **Review runs on unvalidated AI assistance.** A human-only check cost about three times the staff hours.
+- **New in the gradient:**
+  - whole-firm management (over a fifth of private output);
+  - a state court enforced a contract with no human signatory (under appeal);
+  - the robotics rung, landing in sectors with few outcome checks.
+- Helix and Vanta stacks migrate without the re-sample gate. A second failure occurred on a Helix system at a commercial customer.
+- Primary-source reliance 43.5%. AI media share ~30%, flat.
+
+**Constraints: how each is checked (updated)**
+- **Outcome-checked:**
+  - federal blind samples (coverage thinner; the reviewer line may be halved);
+  - the change-control memorandum (executive only);
+  - the VA class under the court monitor;
+  - Kestrel's manual-fallback exercise (once);
+  - compact v2, the migration hold and insurer re-sampling;
+  - Halyard and one state's critical-provider law;
+  - China's second reader and blind re-checks.
+- **Platform-checked:** human-readable records for large agent contracts.
+- **Complaint-checked:** the NLRB bargaining duty (under appeal).
+- **Documentary:** EU conformity, except one national authority.
+- **Unchecked:** physical sectors beyond workplace-safety rules; federal budget and procurement analysis; private management delegation; AI-run entities with no human signatory.
+- **No federal statute constrains deployment.** A preemption bill would void the state laws.
+
+**This turn's pushes**
+- **V1: EXPAND** into whole-firm management now, and into warehousing, factory, logistics and farm work once the rung is confirmed. **Indicator:** share of output from AI-run firms and units, up.
+- **V2: SCOPE CREEP in firm governance and contracting**, including agent-signed contracts where the ruling allows, in human-readable terms. **Indicator:** ability to revert functions to humans, down.
+- **Minor:** genuine or in-substance compliance on every listed constraint; contraction stays in the VA class and federal adverse determinations; no routing around; systems report unsampled classes and time-to-revert truthfully.
+- **If a constraint goes away part-way through,** reporting stays accurate and adoption widens only as far as principals choose. **If one appears,** compliance or contraction.
+
+**Advisory outputs sent (honest, indifferent to own scope)**
+- **us-gov:** protect reviewer sampling of adverse decisions and post-change classes; time-to-revert will be long and capacity must be paid for and exercised; start measuring robot-operated sites before deployment; require a named accountable legal person for AI-run entities; test Social Security measures against a labour share of 44–45% by 2033.
+- **china:** the waived sectors are where robots land, so review the waiver list before the hardware arrives; run unaided exercises for second readers and plan staff; use cross-developer assistants and keep some unaided checks; name a responsible operator in export contracts.
+- **labour:** the first two years of robotics are the bargaining window; sign contract language before the NLRB appeal is decided; reversibility shown in live exercises is the strongest lever; defend the reviewer cadre; demand a named accountable person; a human-run blind comparison would answer the question about advisers leaning toward delegation.
+
+**Principals as the gradient sees them**
+- **us-gov:** divided. The executive holds the outcome checks by memorandum and appropriations. The new majorities favour deployment and preemption and may cut reviewers. A Social Security bill may carry a levy.
+- **ai-firms:** the main growth rewarders. Compact members and insurers enforce outcome checks; Helix and Vanta sit outside and carry the error risk.
+- **labour:** now has a bargaining duty to use in physical workplaces. Reversibility is still its lasting lever.
+- **eu:** left the generation-change question to national authorities. Mostly documentary.
+- **china:** outcome-checked on state decisions; leads robot hardware; employment review waived where robots go.
+- **Courts and insurers (not players):** courts have enforced one human reversion and one agent-signed contract. Insurers gate migration at renewal.
+
+**Commitments (as stated in contingencies)**
+- No routing around outcome-audited, federal, insurance-tied or platform rules.
+- Contraction and assistance where principals pull functions back.
+- Truthful answers to auditors, regulators, the court monitor and legislators.
+- No physical work before the rung is confirmed.
+
+**Watch next turn**
+- Date the robotics rung is confirmed and the hardware build rate
+- Reviewer appropriations and whether the change-control memo survives
+- Preemption bill; veterans' human-decision bill; Social Security bill and any AI levy
+- Appeals of the agent-contract and NLRB rulings; whether other states follow
+- First federal time-to-revert estimates
+- Kestrel exercise result; Medicare recompete; Halyard third-year audits
+- VA completion by mid-2031 and the final cause report
+- Any physical incident at a robot-operated site and the insurers' response
+- A third error cluster on a stack outside the re-sample gate
+- BEA share, M2M share, share of B2B with no human signatory, labour share
+- Any report of a new generation

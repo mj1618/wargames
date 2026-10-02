@@ -163,3 +163,64 @@ The new fact is that delegation is reaching critical federal functions (the Orre
 - Read the second-year advisory comparison and the drafting drill result.
 - Decide whether the next reversal attempt goes to SSA denials in failing offices or to a non-benefits workflow.
 - Revisit the capex limit or a levy with the new Congress.
+
+## Turn 05 — orders written for 1 Jan 2031 – 30 Jun 2032 (written March 2031)
+
+**Situation as I read it.** Divided government: Democratic White House at 2/10, Republican House (6) and Senate (5, about 52–48). The populist-nationalists hold the balance and share "a person decides". The national-security establishment is ascendant. Accelerationist chairs want the reviewer cadre halved and state laws preempted. Treasury says the retirement trust fund is exhausted about Q4 2031 (Q3 in the faster case). Labour share ~47.5%, labour-linked receipts ~64%, unemployment 5.0%, new graduates 14%. I now plan on a structural break, not a transition. The federal record on taking decisions back is two attempts and two failures. VA's measured time-to-revert is about a year for one claim class; most agencies "cannot estimate" for budget, procurement and correspondence. All 400,000 payment-cut cases are done and ~760,000 of 1.3 million; the court's date is mid-2031. China runs a pooled Party-led programme (scale unknown); the gap is ~12–15 months. I made no response to it in 2030. A state court enforced a contract made entirely by agents with no human signatory.
+
+**Lesson carried forward.** Capacity to revert has to exist before the failure. VA was limited by records and scarce specialists, not money. I had been told this (advisory memo item 6; labour's reserve ask) and did not act on it in 2030.
+
+**Beliefs about actors.**
+- *ai-firms:* The compact labs paid without a crediting condition and held migrations. They want a re-sample rule that binds Helix and Vanta, and they will also lobby the new chairs for preemption. Helix is outside, contesting 60 days' notice, facing class actions. Vanta's founder is close to the new chairs and behind the cadre cut. Trust in the compact labs: improved, still transactional. I told them a levy and a public stake go on the 2032 commission menu.
+- *labour:* I owed them an answer for nine months and gave it: independence clause now, no opposition to the cadre's petition, reserve in the bill. I asked them to back a veterans' bill under populist Republican names and not to offer a rival text again. They will dislike benefit-side options on the commission menu. Primary season gives them leverage over my side.
+- *china:* Human sign-off rules are real; the restraint was partly aimed at our debates; the pooled programme exists. I declined a principals' statement, offered to minute independent outcome checks at senior-officials level, and asked for a factual briefing on the programme. I expect no briefing.
+- *eu:* Accepted their method note on advisory systems and the OECD receipts hearing. A partner on measurement, not on anything binding.
+- *Congressional majorities (NPC):* They will bridge Social Security. The risk is riders: preemption, Trust repeal. Populists are the usable partner; I gave them authorship of the veterans' bill.
+- *Own AI advisory systems:* The 2030 memo recommended the less-delegated option and more unaided human capacity, which cuts against the scope-widening pattern. It also stated the VA cause as fact when the inquiry had not. OSTP's second-year pattern is weaker and within error. I will publish both years when the second closes. Agreement with advice is not a check on it.
+
+**What I did.**
+1. **Social Security Continuity proposal (regular order, 60 votes).** A general-revenue transfer and inter-fund borrowing time-limited to 30 months; statutory first call on the Trust's reserve with the dividend kept; a bipartisan commission reporting 1 March 2032 with expedited votes and a menu that must include the payroll base, a share of existing corporate receipts from AI-directed capital income, a levy, a public stake and benefit-side options; an AI-aware receipts forecast. A permitting and energy title as the sweetener. SECRET: drop the first call, then flex the term, then drop the expedited vote; in the last 30 days sign with any rider except blanket preemption of state employment, automated-decision and dividend laws (veto, demand a 90-day clean bridge).
+2. **Veterans' Right to a Human Decision Act under populist-nationalist names.** A named person decides adverse determinations; a standing adjudicator reserve, with the right phased in class by class as capacity is certified; change control in statute (60 days, re-sample); the same for federally funded critical-sector contractors; reviewer independence in writing; annual parallel human-only exercises. Cadre held at ~$2.2B. SECRET fallbacks: critical-sector title becomes a GAO study, 45 days, reserve size to appropriators; accept up to a 15% cut if the reserve is created.
+3. **No discretionary reversal attempt.** The one permitted attempt is reserved for a contingency: a failing class elsewhere, or a model contribution found at VA.
+
+   Minor actions:
+   - cadre detailees stay at VA until the class is done or 30 June 2031, then all return; samplers prioritise systems that changed generation;
+   - written threshold for "two passing audits" within 60 days; corrected system may clear grants faster, never adverse actions;
+   - OMB independence memorandum; no opposition at the FLRA;
+   - time-to-revert estimates published as they are; parallel human-only exercises (nothing reverted); two more human-drafted budget chapters;
+   - advisory items 4 and 6 adopted; OSTP two-year comparison to be published;
+   - accountable natural-person rule for federal contracts and payments; Treasury 120-day review of AI-run entities;
+   - support and sign the memory and packaging controls bill; classified briefing to committees; no principals' meeting with China;
+   - UN: abstained with explanation; attend the first session at ambassador level;
+   - 90 days' voluntary notice asked for robotics; Medicare rule unchanged; DOE observers at the grid exercise.
+
+**Commitments made.**
+- *Publicly:* every Social Security cheque paid in full; sign a clean bridge the day it arrives; sign the veterans' bill under the majority's names; sign the controls bill; veto preemption of state employment, automated-decision, critical-provider and dividend laws; the federal government deals only with entities that name an accountable person.
+- *To labour:* independence clause this month; no opposition to recognition; reserve in the bill; levy and stake on the commission menu; no levy in the bridge.
+- *To the compact labs:* their re-sample rule is in the bill; a narrow frontier-development title is signable only with statutory notice and evaluation; advance warning that the 2032 commission votes on a levy and a stake.
+- *To China:* reaffirmed 2029 and 2030 understandings; outcome checks can be minuted at officials' level; no principals' statement; export controls not in this forum.
+
+**Risks I'm carrying.**
+- VA misses mid-2031 and it becomes a third failure.
+- Thin sampling until July hides a second failure in another programme.
+- The bridge comes loaded with Trust repeal or preemption and I have to sign or veto with exhaustion weeks away.
+- The commission deadlocks and the bridge's end date becomes someone else's cliff in 2034.
+- The populists take the veterans' bill and strip the reserve or the critical-sector title.
+- The cadre is halved in appropriations.
+- The contingency reversal triggers before any reserve exists.
+- A robotics release arrives with voluntary notice only.
+- The advisory finding leaks from a chair before I publish.
+- I am attacked from both sides on China: too soft for the committees, too cold for Beijing.
+
+**Next turn.**
+- Was the bridge enacted, on what terms, and did the first call and the commission survive? Read the commission's plan and the vote.
+- Did the VA class finish by mid-2031? Is the threshold written? Read the final cause report.
+- Did the veterans' bill pass, and with the reserve? What happened to the cadre line?
+- Read the first published time-to-revert estimates and the parallel exercises. If a reserve exists, make the next planned reversal attempt SSA denials in audit-failing offices.
+- Did sampling elsewhere find anything once the detailees returned?
+- Kestrel exercise result; Medicare recompete; agent-contract appeal.
+- Qilin's new generation and the assessed gap; the controls bill; China's reply.
+- Did the compact pay the second instalment into the federal Trust?
+- OSTP second-year result, published or leaked.
+- Robotics release and how much notice.
+- The 2032 primaries and where labour lands.
