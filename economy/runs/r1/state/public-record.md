@@ -52,3 +52,11 @@ Official statistics arrive late and with noise. Company and household players se
 # Record of events
 
 (Appended after each round.)
+
+## 2027
+
+Official figures, end 2027 (provisional): unemployment 3.9%; participation 61.6%; 163.0m jobs, up 0.6m; GDP growth 2.1%; consumer prices slightly lower, housing costs down about 2%; median household income index about 100.5; labour share 52.4%; deficit 6.0% of GDP, debt 102%. Poverty and homelessness for 2027 are not yet published. Announced layoffs totalled roughly 0.46m, with AI the most-cited reason.
+
+The labs raced to sign enterprise customers on bundled multi-year contracts and pledged a joint $2bn-a-year Worker Transition Fund. Large employers said they plan no mass layoffs and shrank through hiring freezes. New firms hired in AI setup, coaching and care. Union drives in logistics, retail and warehouses won little.
+
+Congress passed housing incentives for states that permit building and a small wage-insurance programme that expands automatically if unemployment passes 6%; both begin in 2028. A federal court blocked the executive order requiring quarterly disclosure of AI-related layoffs.

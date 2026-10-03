@@ -7,3 +7,8 @@
 - 2026-10-03T15:47:32 | r2 t01 hint noise entrepreneurs | p=0.25 r=0.7735 -> FAIL
 - 2026-10-03T15:47:32 | r2 t01 hint noise federal-gov | p=0.25 r=0.8125 -> FAIL
 - 2026-10-03T15:47:32 | r2 t01 hint noise households | p=0.25 r=0.8613 -> FAIL
+- 2026-10-03T15:52:58 | r2 t01 Bill 1 AI Leadership and Workers Act (small 0.80, fits coalition +0.10) | p=0.90 partial=0.15 r=0.1523 -> SUCCESS
+- 2026-10-03T15:52:58 | r2 t01 Bill 2 housing supply (small 0.80, fits coalition +0.10) | p=0.90 partial=0.15 r=0.1972 -> SUCCESS
+- 2026-10-03T15:52:58 | r2 t01 court blocks executive antitrust cases | p=0.35 r=0.5903 -> FAIL
+- 2026-10-03T15:52:58 | r2 t01 households organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.4430 -> SUCCESS
+- 2026-10-03T15:52:58 | r2 t01 statistics noise | DRAW 5 of 5
