@@ -17,3 +17,6 @@ Believe: crisis is now felt (5.5%, GDP −0.6%, receipts 17.0%, deficit 6.8%); e
 
 ## Round 06 (2033–2034)
 Believe: recovery is felt (4.1%, income 108.7) but bond market is the binding constraint (deficit 6.2%); we now lead as worker-first. Committed: 6-point capital levy from 2034, half to deficit, rest to targeted transfers 0.5% and retraining 0.3%; Main Street/work-sharing renewal 0.15% with clawbacks; no pre-emption, antitrust to trial unless open access. Watch: bond yields, levy vote, donor backlash, state licensing patchwork, unemployment past 6%, November 2034.
+
+## Round 07 (2035–2036)
+Believe: economy is felt as good (3.8%, income 111.9); housing squeeze is the only visible grievance; deficit 6.1% still binds. Committed: Metro Homes and Insurance Act (pre-emption plus Housing First, 0.5% GDP); levy to 4 points on all AI sellers with open-API decree, $2bn, federal-standard pre-emption to 2036; Main Street money lapses. Watch: rents in AI metros, insurer exits, labs' acceptance, labour revolt over pre-emption, bond yields, November 2036.

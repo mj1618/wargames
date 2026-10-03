@@ -18,3 +18,6 @@ Believe: tight labour, rising pay, healthy profits; levy starts 2031, Congress d
 
 ## Round 06 (2033-34)
 Believe: tight labour, healthy profits after the levy, government stable with wider margins; consolidation among AI providers is a supplier risk. Committed: accept household floor (about 25% of leavers replaced by entry-level hires) with early data publication, attrition +10%, layoff_share ~25%, package unchanged plus apprenticeship slots, multi-year compute contracts with non-merged labs. Watching: unemployment, sales, rival price cuts, merger terms, wage squeeze.
+
+## Round 07 (2035-36)
+Believe: profits healthy, labour scarce, pay up ~3% real; full liability for automated decisions makes decision-heavy automation risky. Committed: segmented drive (+10% back-office via attrition, cautious with human sign-off in credit/claims/hiring/clinical), sign package now (layoff_share ~25%, hours_share ~35%, pool ~1.5%, 25% entry floor, apprenticeships), ~0.1% payroll liability/audit pool and safe-harbour ask. Watching: liability suits and insurer pricing, rival price cuts, wage squeeze, household annual review, lab indemnity terms.

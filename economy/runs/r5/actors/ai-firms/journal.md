@@ -17,3 +17,6 @@ Belief: the recession, not AI, now carries the political risk; capital is bindin
 
 ## Round 06 (2033–34)
 Belief: the recovery buries displacement but a worker-first Congress plus the bond scare means a levy is coming regardless; the only thing worth buying is one national rule in place of fifty state licences. Committed: 4-point levy on all AI sold in the US, antitrust decree with open access and SMB tier, $2bn on enactment, fund $1bn/yr, for pre-emption to 2036; three-year enterprise terms; capex +10%; $400m political spend. Watching: whether Congress attaches caps, state bills, Vanta breaking ranks.
+
+## Round 07 (2035–36)
+Belief: the levy is sunk and displacement is dead politically; the only live threats are a trial and fifty state licences, so the decree is now cheaper than fighting it. Lock-in is finished anyway; volume at one-quarter utilisation pays. Committed: decree accepted for a federal licensing standard to 2038, $2bn on enactment, employer terms signed at −15% with 10% floor, steady models, +15% robots, $450m political spend. Watching: whether the standard is tabled, state moratorium bills, Vanta.

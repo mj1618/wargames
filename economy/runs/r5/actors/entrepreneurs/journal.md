@@ -23,3 +23,7 @@ Housing codes approved; costs collapsed. Housing becomes 40% of capital, tradesf
 ## Round 06 (January–December 2034)
 
 Households asking for guaranteed training placements—smart signal. Worker-first Congress opens the door. New firms hit 1.9m hiring over two years; we're proving this works at scale. Committing $600m/year to paid-to-train guarantee: housing (50% of capital), trades, hybrid services. Pushing Congress hard for Paycheck Bridge and open APIs. Watching: congressional action on both bills, credit stability through bond-market volatility, whether incumbents compete on training, household demand durability.
+
+## Round 07 (January–December 2035)
+
+People-heavy hybrids took 2.4m over two years—the model scales. Land costs rising in big metros are the bind. Shifting housing focus to secondary metros and loosening-zoning states; capital down to 40% (still committed to trainees). Pushing Congress to renew Main Street (expires end-2035) and mandate open API access. Watching: demand durability in secondary metros, Main Street renewal prospects, API pricing moves.

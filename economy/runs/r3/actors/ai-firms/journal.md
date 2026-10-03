@@ -17,3 +17,6 @@ Believe: power, not demand or chips, is now the binding constraint; the levy dea
 
 ## Round 06 (2033–34)
 Believe: the boom is our cover; the merger is the live risk because it reopens the decree and the levy; power still binds. Committed: race +15%, capex +15% into generation; premium holds, unbundled frozen three years; pact pre-cleared under the decree with charter extended; $1.8bn politics; $5bn/yr fund through 2035 for a levy lock at 5 and no licensing. Watch: agency reaction to the pact, levy text, rival price breaks, state licensing bills.
+
+## Round 07 (2035–36)
+Believe: liability, not the levy, is now the live threat and also a moat — insurance and audit trails favour us over small rivals; cover is thinning (labour share 51.1%, 2m layoffs). Committed: steady pace, capex +10%; premium holds plus assured indemnified tier; unbundled frozen to 2037; $2.2bn politics; $5bn fund to 2038 plus $1.5bn/yr no-fault pool for statutory levy lock and safe harbour; no fight on bargaining. Watch: safe-harbour text, levy review, first big harm verdict, rival uninsured deployments.

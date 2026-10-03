@@ -17,3 +17,6 @@ Believe: boom holds (3.1%, poverty 11.2%); power bills are the only visible thre
 
 ## Round 06 (2033–34)
 Believe: boom holds (3.1%, poverty 10.2%); consolidation is the only visible threat; wider margins are a window. Committed: Compute Open Access Act (statutory open access and unbundling, no break-up, moratoria pre-emption); Workplace Bargaining and First Job Act (bargaining reform, first-job funded in full from levy); levy stays 5 with 2035 review, no deployment rules. Watch: both votes, post-merger prices, AI layoffs past 1m a year, unemployment past 4.5%, 2034 midterms.
+
+## Round 07 (2035–36)
+Believe: boom holds (3.1%, poverty 9.6%) but labour softens (3.5%, layoffs 1.0m a year, share 51.1%); liability ruling gives me leverage. Committed: Accountability Act (liability with audit safe harbour, no licensing); Levy Review and Apprenticeship Act (5 through 2036, 7 from 2037; wage insurance and apprenticeships to 0.6% GDP, metro zoning grants); merger review on compute access. Watch: both votes, unemployment past 4.5%, layoffs past 1.5m, yields, donors, November 2036.

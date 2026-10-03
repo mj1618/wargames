@@ -24,3 +24,7 @@ Energy crunch is the new risk to compute access. New industry still hiring at sc
 
 Consolidation is the inflection. Real wages held at 3% a year (below my red line); we hired 2.4m over two years. The big API providers are merging or exclusively pacting, and prices are up 15% while compute is scarce—this squeezes unbundled-API margins hard. Committing to 60% volume commit on the unbundled tier (lock in supply) but hedging 40% into diversified providers and people-heavy services. Doubling down on secondary-metro housing to scale people-heavy hiring and unlock licensing. Signalling antitrust pressure without formal lockdown—betting the re-elected government blocks the merger or enforces supply diversity. If merger proceeds and prices spike another 15%+, I consolidate hard. Watching: FTC merger decision, state licensing movement, wage pressure (5% is my new threshold).
 
+## Turn 07 (Jan–Dec 2035)
+
+Liability ruling kills AI-only margins; I'm shifting to 40% unbundled/60% people-heavy to avoid automated-decision exposure. Committing: 1.2m hires over two years, secondary-metro housing deal with 500k jobs, 120% wage floors, 25% community land-trust stakes. Lock unbundled prices; diversify to Helix/Vanta. Real wages 3%/year is tolerable but liability ruling is the binding constraint. Watching: state licensing movement, API price moves, household upzoning votes. If unbundled tier rises 10%+, consolidate hard to people-heavy only.
+

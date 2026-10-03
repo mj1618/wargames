@@ -17,3 +17,6 @@ Believe: pay fell, jobs lost in shops and offices, and pledges without penalties
 
 ## Round 06 (2033-34)
 Believe: real pay up ~8%, housing cheaper, but labour share still low, drives stall, and penalties/review remain unsigned; bond scare is the main risk. Committed: sign Employers' term sheet only with breach penalties, 12-month review and no-layoff that widens; about 10 drives in warehouses/care/call centres; a third of effort on Nov 2034 vote; saving steady (up 1 if yields spike); trainee places with first-year-pay promise; no strikes or boycotts. Watching: penalty response, layoffs near us, defaults, credit, bond yields.
+
+## Round 07 (2035-36)
+Believe: real pay up ~4%, cheques arriving, but labour share low, drives stall, remedies capped and no-layoff only at pilots; housing and insurance squeeze is the new bill pressure. Committed: half of effort to tenant/insurance coalitions, ~8 drives plus push for fixed penalties at the 12-month review, a third on Nov 2036 vote (full cheque, Paycheck Bridge, housing), saving steady, trainee places with pay promise, no strikes or boycotts. Watching: rents, insurance withdrawals, layoffs near us, penalty response.

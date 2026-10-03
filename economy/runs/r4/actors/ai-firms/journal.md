@@ -17,3 +17,6 @@ Believe: the bond scare makes the levy the dial a worker-first Congress will rea
 
 ## Turn 06 (2033–34)
 Believe: the 7-point levy is sunk and conditional federal funds buy nothing; liability lives in state tort law, so buy safe harbour there. Certification plus indemnity is the moat. Committed: race +20% models, robots +10%, premium 3-year bundles at 15% off for co-signers, no fight on levy or housing, $300m lobbying to states and regulator, $2bn/yr unconditional match to the state pilot where due-care presumptions pass. Watch: first state adopting due care; any levy-hike or cap bill polling a majority.
+
+## Turn 07 (2035–36)
+Believe: federal politics is settled and not worth buying; liability lives in the states; the consumer market is the next growth leg and our best cover. Committed: race +20% models and robots, commodity at parity through 2036, one-year audited indemnity for Employers, $40/month household bundles, $300m state lobbying, $2bn match per adopting state, $3bn/yr only if a freeze through 2038 is signed. Watch: outstanding states; any cap or moratorium bill polling a majority before November 2036.
