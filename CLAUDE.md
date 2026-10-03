@@ -14,6 +14,9 @@ Remote: `origin` (github.com/mj1618/wargames), branch `main`. Standing authorisa
 - Commit message style: `<scenario-id>: <what>` e.g. `H1/r01: turn 04 adjudicated`, `A2: prep complete`, `repo: methodology tweak`.
 - `git pull --rebase` before pushing if the push is rejected. Never force-push.
 
+## Publishing reports
+Public site: https://mj1618.github.io/wargames/ (GitHub Pages, `gh-pages` branch, contains only `reports/*.html` except `_template.html`). After any change to `reports/`, run `tools/publish_pages.sh`. Reports must follow `methodology/prompts/report-clarity.md`.
+
 ## Prepping a scenario (seed → prepped)
 1. `cp -R templates/scenario/prep scenarios/<id>/prep`
 2. Research anything scenario-specific (sub-agents in parallel).
