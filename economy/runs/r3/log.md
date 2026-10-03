@@ -37,3 +37,10 @@
 - 2026-10-03T16:11:58 | r3 t04 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 3 of 3
 - 2026-10-03T16:11:58 | r3 t04 statistics noise | DRAW 1 of 5
 - 2026-10-03T16:11:58 | r3 t05 event | DRAW 7 of 24
+- 2026-10-03T16:18:02 | r3 t05 Grid and Household Power Act (small, divided 0.55; mixed instincts, labs back but employers silent: no adjustment) | p=0.55 partial=0.15 r=0.5762 -> PARTIAL
+- 2026-10-03T16:18:02 | r3 t05 household organising drive + package signed with employers (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.5531 -> FAIL
+- 2026-10-03T16:18:02 | r3 t05 entrepreneurs' secondary-metro housing deals land (off-menu, even odds) | p=0.50 r=0.1408 -> SUCCESS
+- 2026-10-03T16:18:12 | r3 t05 election: worker-first coalition loses lead (0.35 -0.08 unrest 27.2 -0.10 median income over 3 points above two rounds ago) | p=0.17 r=0.6139 -> FAIL
+- 2026-10-03T16:18:12 | r3 t05 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
+- 2026-10-03T16:18:12 | r3 t05 statistics noise | DRAW 2 of 5
+- 2026-10-03T16:18:12 | r3 t06 event | DRAW 18 of 24

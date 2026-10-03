@@ -31,3 +31,11 @@
 - 2026-10-03T16:13:00 | r4 t04 election configuration shift | DRAW 1 of 3
 - 2026-10-03T16:13:00 | r4 t04 statistics noise | DRAW 4 of 5
 - 2026-10-03T16:13:00 | r4 t05 event | DRAW 24 of 24
+- 2026-10-03T16:17:45 | r4 t05 households organising drive, fifth wave (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.9753 -> FAIL
+- 2026-10-03T16:17:46 | r4 t05 law: Fiscal Stability and Dividend Act, levy 3->7 pts + 0.3% GDP targeted dividend (medium 0.35, +0.10 worker-first instincts) | p=0.45 partial=0.15 r=0.4345 -> SUCCESS
+- 2026-10-03T16:17:46 | r4 t05 law: Housing Build Act 0.15% GDP (small 0.55, +0.10 worker-first instincts) | p=0.65 partial=0.15 r=0.5936 -> SUCCESS
+- 2026-10-03T16:17:48 | r4 t05 court blocks the levy rise from 3 to 7 points (new tax by law) | p=0.20 r=0.8975 -> FAIL
+- 2026-10-03T16:17:58 | r4 t05 election Nov 2032: worker-first coalition loses lead (0.35 +0.01x(32.7-35) -0.10 median income +8.6 over two rounds) | p=0.23 r=0.3144 -> FAIL
+- 2026-10-03T16:17:58 | r4 t05 election configuration shift | DRAW 1 of 3
+- 2026-10-03T16:17:58 | r4 t05 statistics noise | DRAW 2 of 5
+- 2026-10-03T16:17:58 | r4 t06 event | DRAW 10 of 24

@@ -36,3 +36,10 @@
 - 2026-10-03T16:11:06 | r5 t04 election configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 3 of 3
 - 2026-10-03T16:11:06 | r5 t04 statistics noise | DRAW 5 of 5
 - 2026-10-03T16:11:06 | r5 t05 event | DRAW 14 of 24
+- 2026-10-03T16:16:21 | r5 t05 household local enforcement drives, ~10 sites (0.35; unemployment over 5%, unrest under 50; small drive as t04: SUCCESS = union_pressure held at 0.3, FAIL = fades to 0.2) | p=0.35 r=0.9867 -> FAIL
+- 2026-10-03T16:16:21 | r5 t05 Paycheck Bridge Act passes (medium, divided 0.35; -0.15 new tax and transfers cut against coalition, +0.10 pre-emption rider fits) | p=0.30 partial=0.15 r=0.7313 -> FAIL
+- 2026-10-03T16:16:21 | r5 t05 Factory Homes Act passes (small, divided 0.55, +0.10 fits coalition) | p=0.65 partial=0.15 r=0.6853 -> PARTIAL
+- 2026-10-03T16:16:34 | r5 t05 Nov 2032 election: growth-first coalition loses its lead (0.35 +0.01x(35.3-35) -0.10 median income more than 3 points above two rounds ago) | p=0.25 r=0.2462 -> SUCCESS
+- 2026-10-03T16:16:34 | r5 t05 election configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
+- 2026-10-03T16:16:34 | r5 t05 statistics noise | DRAW 3 of 5
+- 2026-10-03T16:16:34 | r5 t06 event | DRAW 24 of 24

@@ -11,3 +11,6 @@ Believe: conditions good (pay +3.4% real, rents -5% locally); hidden cost is unr
 
 ## Round 04 (2030)
 Believe: boom conditions (pay +3.5% real, rents -3%, unemployment 3.1%); risks are unreplaced office leavers and automation of fashionable new job categories. Committed: renew/extend organising incl. build-out and new firms (backfill, notice, profit share, transition accounts); channel young and displaced into the ~90k entrepreneur apprenticeship roles; spend normally; peaceful demands, back antitrust inquiry; no boycotts. Watch: Q2 role postings, layoffs among people we know, unemployment above 5%, rents.
+
+## Round 05 (2031-32)
+Believe: headline 3.8% hides 2.2m fewer jobs, people quitting the search, falling labour share; pay only +0.2% real, boom over. Committed: renew/extend organising to shops, restaurants, build-out (backfill, notice, profit share); saving +1pt; peaceful demands to fund first-job/wage insurance with AI profits, back antitrust; limited boycott of AI checkouts/care robots in a few cities; vote for whoever commits in writing. Watch: unemployment toward 5%, layoffs we know, whether labs/startups sign terms, election.

@@ -15,3 +15,7 @@ Believe federal housing zoning reform opens a real buildout window and wage pres
 ## T04 (January–December 2030)
 
 Believe wage inflation is structural given labour scarcity and the new-work mirage risks automation of services we scaled. Committed to 50% AI-only startups, 5% people-heavy; pausing housing until states move. Watch: whether wage growth moderates, zoning breaks, antitrust ruling, whether AI-only firms face margin pressure from incumbent labs.
+
+## T05 (January–December 2032)
+
+Believe the wage spiral break and free open-weight models create a two-front opportunity: AI-only margins explode while labour becomes cheap. Committed to 65% AI-only startups (1.2m person-equivalents), 25% care/trades roles (200k with pay ladders), 10% housing in permitting states. Households' labour request and federal first-job bill create alignment. Watch: if demand stays flat or crashes, whether big states zone, whether incumbents respond to margin compression.

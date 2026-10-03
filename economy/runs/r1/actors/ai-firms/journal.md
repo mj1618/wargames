@@ -11,3 +11,6 @@ Belief: adoption is 4x the 2027 base with no macro pain yet; 2029 is the last ch
 
 ## Round 04 (2030)
 Belief: installed base is locked on five-year exclusives; growth now comes from adoption depth, not pace, and the antitrust inquiry is the only real threat. Committed: race +10%, capex shifted to deployment teams, voluntary settlement (small-firm unbundled tier, enterprise bundles grandfathered), $300m midterm lobbying, fund $2bn with First Job $1bn, optional apprenticeship discount, profit-share refused. Levy in reserve. Watching: inquiry closes or escalates, midterm result, open-weight enterprise renewals, usage-depth growth.
+
+## Round 05 (2031–2032)
+Belief: open-weight has zeroed the routine tier; our moat is the unused half of frontier capability, not contracts. Exclusivity is dead; settle cheaply while growth-first still writes the terms. Committed: race +20%, exclusivity dropped and routine tier free, usage-priced agentic tiers, First Job $1bn by Q3, binding small-firm terms, 3% fund-creditable levy offered for statutory deployment guarantee, $350m lobbying. Watching: consent decree, levy-for-guarantee uptake, 2032 result, moratorium bills, agentic-tier usage depth.

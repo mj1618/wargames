@@ -11,3 +11,6 @@ Believe: re-elected growth-first coalition lowers rule risk; deals with labs and
 
 ## Round 04 (2030)
 Believe: boom and tight labour make attrition-based shrinkage cheap; rule risk low but disclosure, antitrust and midterms add visibility. Committed: adoption about +20% (office/routine), health/transport cautious; layoff_share 30%; hours_share 20% with low-pay top-up; profit-sharing 2%; sign lab bundle but dual-source (no exclusivity); price cuts in 5-6 lines; about 30k entry-level hires; pledge held through November, written shorter-week support. Watching: midterms, profit-tax or layoff bills, antitrust ruling, rival mass restructuring, wage pressure.
+
+## Round 05 (2031-2032)
+Believe: cheap labour plus collapsing AI prices favour us, but election and 2.3m layoffs raise visibility; no wage coordination (antitrust). Committed: adoption about +25% (office/routine), health/transport cautious; layoff_share 30%; hours_share 20%; profit-sharing 2%; price cuts in 6-8 lines; about 25k entry hires; sign federal deal and 2-year pledge, no mass layoffs before Nov 2032. Watching: demand softness, profit-tax or layoff bills, rival restructuring, election.

@@ -11,3 +11,6 @@ Believe: the generation leap makes politics, not demand, the binding constraint;
 
 ## Turn 04 (2030)
 Believe: the levy is sunk, so Government's $5bn price for a floor vote is now cheap; the robot recall is the real moratorium risk and owning certification turns it into a moat. Committed: race +20% on models, robots −30% while recertifying, $300m certification body, accepted Government's terms ($5bn/yr from signature, $2.5bn escrow, no levy fight), one-year premium terms with renewal cap. Watch: is the vote scheduled before recess; recall injury count; any moratorium bill polling a majority.
+
+## Turn 05 (2031–32)
+Believe: the bond scare makes the levy the dial a worker-first Congress will reach for, so a 3-point freeze is now the prize; certification is the moat, price no longer is. Committed: signed Government's deal at $8bn/yr (to $12bn if freeze runs to 2034, Treasury prepayment offered), race +20% on models, robots −10% through certification, commodity at open-weight parity, $400m lobbying. Watch: vote scheduled before June; any levy-hike bill; Employers co-signing.
