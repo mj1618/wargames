@@ -17,3 +17,6 @@ Believe: our own cuts now hurt sales (5.3m jobs lost to falling demand); revisio
 
 ## t06 (2033–34)
 Believe: demand recovered (no sales-driven losses), 9.7m roles cut, margins safe; risks are Nov 2034 elections, labour share 46%, levy expired, housing squeeze hitting workers. Committed: sign AI 3-year capacity deal by Q2 plus robot-apprenticeship co-funding; adoption ~+8%, layoff_share ~25%, hours_share ~25%, profit-sharing ~20%, ~60% savings to price; accept signed 60-day floor/reporting, resist 90-day and levy; $5bn employer housing pilots. Watch: sales, credit spreads, 90-day bills, levy revival.
+
+## t07 (2035–36)
+Believe: 12.8m roles cut, margins safe, but 0.8m demand-driven losses and the state-pilot headline plus Nov 2036 raise political risk; deals beat laws. Committed: adoption ~+5%, layoff_share 25%, hours_share 25–30%; countersign AI capacity terms this quarter; sign 90-day notice, paid retraining and worker committees once gain-share formula is written (profit-sharing ~20%, ~60% savings to price), in exchange for no levy or deployment rules. Watch: sales-driven job losses, bills with binding floors or levy, Nov 2036, credit spreads.

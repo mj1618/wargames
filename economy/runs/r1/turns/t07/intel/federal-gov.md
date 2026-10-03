@@ -6,7 +6,7 @@
 
 **News:** a hit new industry is hiring heavily. Both your bills passed. Worker-first won Congress; the presidency stays growth-first.
 
-**Only you see this:** Receipts 16.8% of GDP (16.9%). Worker-first leads Congress; bills against its instincts struggle. The labs funded $3bn, so the guarantee is not in force.
+**Only you see this:** Receipts 16.8% of GDP (16.9%). Worker-first leads Congress; bills against its instincts struggle. The labs funded $3bn, so the guarantee is not in force. The standing wage-insurance/retraining trigger is 5% unemployment (public law; the bill to lower it failed).
 
 **Messages to you:**
 - From AI labs: "Yes to the 2-point levy with full Fund credit, pre-emption untouched, 10-year review. A safe harbour would be welcome; we sign either way. Co-announce before the budget."

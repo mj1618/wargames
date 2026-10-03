@@ -6,7 +6,7 @@ Demand is not the constraint: GDP grows 4.0% a year, labour's share is 47.7%, an
 ## Options considered
 - Re-open the federal deal cheaper for a freeze through 2038.
 - Pull the state match now that due-care rules are in force.
-- Unconventional: a household bundle at cost, moving the fight into living rooms, where "slow it down" softens when the service is cheap.
+- Unconventional: a household bundle at cost, moving the fight into living rooms where cheap service softens "slow it down".
 
 ## Decisions this period
 1. **Deploy pace:** race +20% on models and robots (certification done; the moat is ours). Compute and power set the ceiling.
@@ -17,6 +17,8 @@ Demand is not the constraint: GDP grows 4.0% a year, labour's share is 47.7%, an
 "Households now get professional services at a fraction of the old price. We hold commodity prices through 2036 and extend our worker fund to every state passing due-care rules."
 
 **To Government:** The $12bn was for 2033–34, now gone. Table a freeze at 7 points through 2038 and we pay $3bn a year from signature. Nothing for a bill in committee.
+
+
 
 **To Employers:** Done — one-year terms, audit-backed indemnity, commodity held through 2036, 15% off if you co-sign by June.
 
