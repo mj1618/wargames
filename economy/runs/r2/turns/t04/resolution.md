@@ -29,10 +29,7 @@ No pledge rolls: profit-sharing, the 30% layoff share and the $3bn worker fund w
 ## Non-players and off-menu
 - Central bank: unemployment had fallen in 2029, so no action this round. It rose 0.96 points in 2030: dovish bank adds `shock_demand_pct` +1.0 in round 05.
 - States: unemployment under 6%, no cuts. No automatic saving rise (rise under 1 point).
-- Narrated only: prepaid capacity contracts, the 60-day notice framework (90 days declined), co-op investment and credit unions, wage insurance paid within 30 days, lobbying, loan-guarantee requests (died with Bill 1).
-
-## Carried to round 05
-- `union_pressure` fades to 0.15 unless renewed. `new_business` starts from 1.0 push + 0.1 standing. Event shocks lapse. Law odds: divided row.
+- Narrated only: capacity contracts, 60-day notice framework, co-ops and credit unions, wage-insurance delivery, lobbying, loan guarantees (died with Bill 1).
 
 ## Model result (unaltered)
-8.95m jobs destroyed (3.56m by automation, 5.32m by falling spending; 3.09m office, 2.27m retail), 3.20m created (1.87m new kinds of work, 1.17m cheaper output), net −5.75m, plus 0.66m from population growth; employment 158.88m. Unemployment 4.47%, participation 59.56%, employment rate 56.9%. Weekly hours 33.77. Real pay 105.5, median real income 102.8, bottom fifth 103.0. Labour share 47.1%, top-1% share 22.3%. GDP +0.5%. Housing costs 89.2. Poverty 12.2%, homelessness 16.7. Deficit 6.5%, debt 106.7%. Unrest 37.4. Desk work: machines could do 52.6%, do 21.4%; physical work 21.7% and 5.6%.
+8.95m jobs destroyed (3.56m automation, 5.32m falling spending), 3.20m created (1.87m new work), net −5.75m, plus 0.66m population; employment 158.88m. Unemployment 4.47%, participation 59.56%, employment rate 56.9%. Real pay 105.5, median income 102.8, bottom fifth 103.0. Labour share 47.1%, top-1% 22.3%. GDP +0.5%. Housing 89.2. Poverty 12.2%, homelessness 16.7. Deficit 6.5%, debt 106.7%. Unrest 37.4. Desk work: could 52.6%, does 21.4%; physical 21.7% and 5.6%.

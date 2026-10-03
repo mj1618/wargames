@@ -11,3 +11,6 @@ Believe: downturn was mild (revision to 4.5%), demand intact, lenders still the 
 
 ## Round 04 (2030)
 Believe: the boom and the hit industry are our best cover; the real risks are antitrust and the levy returning above 8; the government's $5bn price is cheap against a 12-point levy. Committed: race +20%, capex +25%; premium holds, unbundled floor +10%, compute-access charter as antitrust remedy; $1.5bn politics; $5bn fund ($3bn now, $2bn on levy locked at 8). Watch: levy text, consent-decree talks, rival price breaks, grid or power backlash, moratorium votes.
+
+## Round 05 (2031–32)
+Believe: power, not demand or chips, is now the binding constraint; the levy deal is secured and worth honouring; antitrust is the live threat, settle it cheaply. Committed: race +15%, capex +20% all into owned power (~$60bn); premium holds, unbundled +15% with Q1 ship and API-stability guarantee; $1.6bn politics; full $5bn fund paid; charter-plus-unbundling consent decree offered. Watch: grid pre-emption, blackout blame, antitrust response, rival on cheaper power.

@@ -15,3 +15,7 @@ Beat expectations: 0.5m new jobs from new firms in 2028, double 2027. People-in-
 ## Round 04 (January–December 2030)
 
 Demand stayed; credit collapsed—AI shares crashed 33%, venture frozen. We believe trained hybrids are our moat now; incumbents can't scale them under credit pressure. Committed to 40% expansion pullback, housing pivot, and hard push for open-access terms. Housing Supply Act funded building—big opportunity. Will watch: credit recovery speed, whether antitrust cases force API openness, incumbent poaching under duress.
+
+## Round 05 (January–December 2032)
+
+Housing codes approved; costs collapsed. Housing becomes 40% of capital, tradesfolk focus. AI-only scaled on cheaper tier (−25%) for margin recovery. Committed to write trainees' pay steady through cycle, first call on new jobs. Moat is people-heavy hybrids plus local housing execution. Watching: household income durability, Main Street deployment, antitrust API openness, incumbent poaching.

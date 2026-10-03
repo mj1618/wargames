@@ -79,3 +79,13 @@ Official statistics arrive late and with noise. Company and household players se
 - **Washington.** The Worker Transition Act passed: wage insurance, apprenticeships and work-sharing support (0.3% of GDP) funded by a 3-point levy on profits, from 2030; a court challenge failed. The safe-harbour bill again never reached the floor, and industry's proposed worker fund lapsed with it. Deficit 6.0% of GDP.
 - **Workers.** A third organising wave won clauses covering attrition cuts.
 - **Published late, for 2028:** poverty 12.3%, homelessness 20.4 per 10,000.
+## 2030 in review (official statistics, preliminary)
+
+- **Jobs.** Unemployment 4.2%; participation 61.2%; about 163.8m in work. Announced layoffs about 0.8m, fewer than in 2029. Office employment fell by about 0.6m; care, construction, retail and new firms hired.
+- **Pay and prices.** Real pay up about 3.2%; consumer prices flat; housing costs down about 2%. Median household income index about 108.7.
+- **Business.** GDP up 3.4%. Labour's share 50.7%, another record low. Warehouse and home robots were recalled after injuries.
+- **Washington.** The Worker Transition Act and its 3-point profits levy took effect. An executive rule now requires safety certification before such robots are sold; a court upheld it. The safe-harbour bill and the youth hiring and notice bill never reached the floor. Deficit 5.7% of GDP.
+- **Election.** The worker-first coalition kept its lead in November; the new Congress is divided, no longer deadlocked.
+- **Workers.** A fourth organising wave succeeded.
+- **Published late, for 2029:** poverty 11.9%, homelessness 19.7 per 10,000.
+

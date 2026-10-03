@@ -28,3 +28,10 @@
 - 2026-10-03T16:02:32 | r1 t03 published-statistics noise | DRAW 2 of 5
 - 2026-10-03T16:02:37 | r1 t03 court blocks the widened statutory disclosure rule in its first round | p=0.20 r=0.4504 -> FAIL
 - 2026-10-03T16:02:44 | r1 t04 event | DRAW 9 of 24
+- 2026-10-03T16:13:30 | r1 t04 households organising drive renewed and extended to new firms (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.0430 -> SUCCESS
+- 2026-10-03T16:13:34 | r1 t04 Bill 1 First Job and wage insurance, retraining 0.1 to 0.2, trigger 5% (small 0.80 +0.05 union_pressure 0.75) | p=0.85 partial=0.15 r=0.5273 -> SUCCESS
+- 2026-10-03T16:13:34 | r1 t04 Bill 2 build-where-welcome housing reallocation, no new money (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.0036 -> SUCCESS
+- 2026-10-03T16:13:34 | r1 t04 published-statistics noise | DRAW 4 of 5
+- 2026-10-03T16:13:46 | r1 t04 Nov 2030 election: growth-first coalition loses its lead (0.35 -0.05 unrest 29.9, -0.10 median income 108.4 more than 3 above 2028's 105.1) | p=0.20 r=0.7046 -> FAIL
+- 2026-10-03T16:13:46 | r1 t04 Nov 2030 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 3 of 3
+- 2026-10-03T16:13:46 | r1 t05 event | DRAW 17 of 24

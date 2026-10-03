@@ -12,3 +12,6 @@ Believe: demand is now our own problem; worker-first government means tax/rules 
 
 ## Round 04 (2030)
 Believe: demand and hiring recovered, labour is scarce and pay rising; peace held, no levy yet but could return. Committed: automation +10% via attrition, layoff_share ~25%, hours_share ~35% with half top-up, pool ~1.5% with a small equity pilot, targeted raises only, one-third price pass-through. Watching: margin squeeze from wages, profit-levy bills, layoff-cap campaigns, rival hiring.
+
+## Round 05 (2031-32)
+Believe: tight labour, rising pay, healthy profits; levy starts 2031, Congress divided so terms negotiable; energy crunch caps AI capacity. Committed: automation +10% via attrition, layoff_share ~25%, package with households by May with published data and bounded no-strike clause, hours_share ~35%, pool ~1.5%, 0.4m cohort, ask for levy review clause. Watching: unemployment, wage squeeze, rival price cuts, levy/deployment bills, energy delays.

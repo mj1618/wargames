@@ -11,3 +11,6 @@ Belief: 3.4% unemployment kills the displacement story for now; adoption, not ca
 
 ## Round 04 (2030)
 Belief: the share-price fall makes capital the binding constraint; one-sixth utilisation means adoption, not capability, pays. The escrow-for-pre-emption trade is proven and worth repeating. Committed: steady pace, capex growth frozen, enterprise bundles held, −25% usage tier for SMB/consumers, $1bn trust payment, $2bn escrow offered for pre-emption through 2034 plus consent decree, $300m political spend. Watching: whether any rival races through the squeeze, antitrust remedy terms, SMB uptake.
+
+## Round 05 (2031–32)
+Belief: the recession, not AI, now carries the political risk; capital is binding and one-sixth utilisation means lock-in and volume beat margin. Pre-emption to 2032 for $1bn/yr is cheap cover. Committed: steady pace, capex flat, robotics pivot into factory-built housing, two-year enterprise terms at −15% for 40% committed volume, $1bn released, fund doubled, $2bn escrow held for 2034 pre-emption plus consent decree, $300m political spend. Watching: rival pacing, antitrust remedies, November 2032 result, modular-home orders.

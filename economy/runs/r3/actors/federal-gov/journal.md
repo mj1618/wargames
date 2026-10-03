@@ -11,3 +11,6 @@ Now worker-first. Believe: 3.8m jobs lost and falling participation are the real
 
 ## Round 04 (2030)
 Believe: boom is real (3.4%, +4.9m jobs) and no crisis will pass a big bill; the base still needs a signed law before November. Committed: Wage Insurance and First Job Act (5-point levy, 0.4% GDP, three-year truce on licensing, pre-emption kept); deliver 1m public jobs, no expansion; full reporting enforcement; bargaining reform deferred to 2031. Watch: levy vote, labs' $5bn, midterm result, unemployment past 4.5%, AI layoffs past 1m, employers' cohort.
+
+## Round 05 (2031–32)
+Believe: boom holds (3.1%, poverty 11.2%); power bills are the only visible threat before November 2032. Committed: Grid and Household Power Act (permitting, data centres pay grid costs, 2032 rebate, ~0.1% GDP); deliver 2030 Act, levy stays 5, no new tax; antitrust consent decree making labs' charter binding, half-credit only for $5bn. Watch: grid vote, power prices, labs' payment, AI layoffs past 1m, unemployment past 4.5%, 2032 result.
