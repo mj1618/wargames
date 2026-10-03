@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en" data-family="A">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Play-through 1 — Economy Games</title>
+<meta name="description" content="One of five play-throughs of a fictional exercise about what rapid AI does to jobs and living standards. In this one a forgiving economy and cooperative players turned fast automation of desk work into a boom.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --amber:#9a5800; --teal:#0a6a70;
+  --paper:#f3efe5; --paper-2:#ebe5d7; --paper-3:#e1d9c6; --card:#f8f5ee;
+  --ink:#1b1915; --ink-2:#433e35; --ink-3:#6a6253;
+  --rule:#cbc1ab; --rule-2:#b3a88f; --grid:rgba(70,55,25,.055);
+  --redact:#1b1915; --redact-ink:#a39b8a;
+  --success:#2c6a3a; --fail:#a2372a;
+  --c1:#a2372a; --c2:#2d5b8c; --c3:#566f22; --c4:#7a5590; --c5:#8a6a3a;
+  --noise-blend:multiply; --noise-op:.07;
+  --accent:var(--amber);
+  --accent-soft:color-mix(in srgb, var(--accent) 14%, transparent);
+  --accent-line:color-mix(in srgb, var(--accent) 45%, transparent);
+  --serif-d:"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --serif:"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme:light;
+}
+[data-family="A"]{ --accent:var(--teal); }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --amber:#f0a53a; --teal:#4cc6cc;
+    --paper:#111316; --paper-2:#171a1e; --paper-3:#20242a; --card:#15181c;
+    --ink:#e9e4d7; --ink-2:#c3bcac; --ink-3:#958e7f;
+    --rule:#2f343b; --rule-2:#424852; --grid:rgba(230,215,180,.04);
+    --redact:#d8d1c1; --redact-ink:#5b564c;
+    --success:#7cc68b; --fail:#f08a78;
+    --c1:#f08a78; --c2:#82b4ea; --c3:#b2cc6e; --c4:#c8a6e0; --c5:#d9b27a;
+    --noise-blend:screen; --noise-op:.035;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --amber:#f0a53a; --teal:#4cc6cc;
+  --paper:#111316; --paper-2:#171a1e; --paper-3:#20242a; --card:#15181c;
+  --ink:#e9e4d7; --ink-2:#c3bcac; --ink-3:#958e7f;
+  --rule:#2f343b; --rule-2:#424852; --grid:rgba(230,215,180,.04);
+  --redact:#d8d1c1; --redact-ink:#5b564c;
+  --success:#7cc68b; --fail:#f08a78;
+  --c1:#f08a78; --c2:#82b4ea; --c3:#b2cc6e; --c4:#c8a6e0; --c5:#d9b27a;
+  --noise-blend:screen; --noise-op:.035;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{
+  margin:0; color:var(--ink); background-color:var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:28px 28px;
+  font:400 1.075rem/1.62 var(--serif); font-optical-sizing:auto;
+  overflow-x:hidden;
+}
+body::before{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+  opacity:var(--noise-op); mix-blend-mode:var(--noise-blend);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .45 0 0 0 0 .35 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- layout: 760px reading column, 1080px breakout ---------- */
+.page{
+  position:relative; z-index:1;
+  display:grid;
+  grid-template-columns:
+    [full-start] minmax(16px,1fr)
+    [wide-start] minmax(0,160px)
+    [content-start] min(760px, 100% - 32px)
+    [content-end] minmax(0,160px)
+    [wide-end] minmax(16px,1fr) [full-end];
+  padding-bottom:2rem;
+}
+.page > *{grid-column:content; min-width:0}
+.page > .wide{grid-column:wide}
+
+/* ---------- type primitives ---------- */
+.label{font:500 .7rem/1.3 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+h1,h2,h3{font-family:var(--serif-d); font-weight:400; letter-spacing:-.01em; margin:0}
+h2{font-size:clamp(1.9rem,5.2vw,2.6rem); line-height:1.05}
+h3{font-size:1.45rem; line-height:1.15}
+p{margin:0 0 .9em}
+.sec{margin-top:clamp(3.2rem,8vw,5rem)}
+.sec-head{display:flex; align-items:baseline; gap:.9rem; flex-wrap:wrap; border-top:1px solid var(--rule-2); padding-top:.9rem; margin-bottom:1.4rem}
+.sec-head .num{font:600 .72rem var(--mono); color:var(--accent); letter-spacing:.12em}
+.sec-head .label{margin-left:auto}
+.lede{color:var(--ink-2); max-width:62ch}
+
+/* ---------- theme toggle ---------- */
+.theme-btn{
+  position:absolute; top:14px; right:16px; z-index:20;
+  font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-2); background:var(--card); border:1px solid var(--rule-2);
+  padding:.45rem .65rem; cursor:pointer; border-radius:2px;
+}
+.theme-btn:hover{color:var(--ink); border-color:var(--accent)}
+
+/* ---------- 1 masthead ---------- */
+.mast{padding-top:clamp(3.4rem,9vw,5.5rem); position:relative}
+.run-strip{display:flex; flex-wrap:wrap; gap:.35rem 1.1rem; border-bottom:1px solid var(--rule-2); padding-bottom:.6rem}
+.run-strip span:first-child{color:var(--accent)}
+.mast h1{font-size:clamp(3rem,11vw,6.2rem); line-height:.92; margin:1.4rem 0 .6rem; max-width:11ch}
+.mast h1 .id{display:block; font:600 clamp(.8rem,2.2vw,.95rem)/1 var(--mono); letter-spacing:.18em; color:var(--accent); margin-bottom:.9rem}
+.mast h1 em{font-style:normal; color:var(--ink-2)}
+.mast .dek{font-size:1.18rem; color:var(--ink-2); max-width:44ch; margin:0}
+.meta{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; margin:2rem 0 0; border-top:1px solid var(--rule); border-left:1px solid var(--rule)}
+.meta div{padding:.6rem .75rem; border-right:1px solid var(--rule); border-bottom:1px solid var(--rule)}
+.meta dt{font:500 .64rem/1.3 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.meta dd{margin:.15rem 0 0; font:500 .92rem/1.35 var(--mono); color:var(--ink)}
+@media (min-width:640px){.meta{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.stamp{
+  --ink-stamp:var(--accent);
+  display:inline-grid; justify-items:center; gap:.15rem;
+  margin:1.8rem 0 0; padding:.55rem 1.1rem .6rem;
+  color:var(--ink-stamp); border:3px double var(--ink-stamp); border-radius:4px;
+  transform:rotate(-4deg); transform-origin:left center;
+  font:600 .62rem/1 var(--mono); letter-spacing:.24em; text-transform:uppercase;
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='g'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2.2 1.6'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+          mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='g'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2.2 1.6'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+.stamp b{font:400 clamp(1.5rem,5vw,2.1rem)/1 var(--serif-d); letter-spacing:.04em; text-transform:uppercase}
+@media (min-width:900px){
+  .mast h1,.mast .dek{max-width:min(44ch, calc(100% - 300px))}
+  .stamp{position:absolute; right:0; top:clamp(6rem,12vw,8rem); margin:0; transform:rotate(-7deg); transform-origin:center}
+}
+@media (prefers-reduced-motion:no-preference){
+  .stamp{animation:thunk .5s cubic-bezier(.2,1.4,.4,1) .55s both}
+  @keyframes thunk{from{opacity:0; scale:1.6}to{opacity:1; scale:1}}
+  .page > *{animation:rise .7s ease both}
+  .page > :nth-child(2){animation-delay:.08s}
+  .page > :nth-child(3){animation-delay:.16s}
+  .page > :nth-child(4){animation-delay:.24s}
+  @keyframes rise{from{opacity:0; translate:0 10px}to{opacity:1; translate:0 0}}
+}
+
+/* ---------- 2 TL;DR ---------- */
+.tldr{margin-top:2.6rem; background:var(--card); border:1px solid var(--rule); border-top:3px solid var(--accent); padding:1.3rem clamp(1rem,4vw,1.8rem) 1.4rem; position:relative}
+.tldr .label{color:var(--accent)}
+.verdict{font:400 clamp(1.35rem,3.6vw,1.75rem)/1.28 var(--serif-d); margin:.55rem 0 1.1rem}
+.tldr ol{list-style:none; margin:0; padding:0; counter-reset:t}
+.tldr li{counter-increment:t; display:grid; grid-template-columns:1.6rem 1fr; gap:.2rem .5rem; padding:.6rem 0; border-top:1px dashed var(--rule)}
+.tldr li::before{content:counter(t,decimal-leading-zero); font:600 .72rem/1.9 var(--mono); color:var(--ink-3)}
+.tldr li .chips{grid-column:2}
+
+/* chips */
+.chips{display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.35rem}
+.chip{font:500 .62rem/1 var(--mono); letter-spacing:.12em; text-transform:uppercase; padding:.32rem .45rem; border:1px solid var(--rule-2); color:var(--ink-2); border-radius:2px; white-space:nowrap}
+.chip.conf-high{border-color:var(--ink); color:var(--ink)}
+.chip.conf-high::before{content:"●●● "}
+.chip.conf-med::before{content:"●●○ "}
+.chip.conf-low::before{content:"●○○ "}
+.chip.robust{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.chip.fragile{border-style:dashed}
+.chip.fragile::before{content:"⚠ "}
+
+/* ---------- 3 cast ---------- */
+.cast{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.card{background:var(--card); border:1px solid var(--rule); padding:1rem 1.1rem 1.05rem; position:relative}
+.card .who{display:flex; justify-content:space-between; gap:.6rem; align-items:flex-start}
+.glyph{font:600 .62rem/1 var(--mono); letter-spacing:.14em; padding:.3rem .4rem; border:1px solid var(--rule-2); color:var(--ink-3); flex:none}
+.card h3{margin:.35rem 0 .7rem}
+.card dl{margin:0; display:grid; gap:.55rem}
+.card dt{font:500 .62rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.card dd{margin:.1rem 0 0; font-size:.98rem; line-height:1.45}
+.card.ai{
+  border:1px dashed var(--accent);
+  background:
+    repeating-linear-gradient(135deg, var(--accent-soft) 0 1px, transparent 1px 9px),
+    var(--card);
+}
+.card.ai::before{content:""; position:absolute; left:-1px; top:-1px; bottom:-1px; width:4px; background:var(--accent)}
+.card.ai .glyph{color:var(--accent); border-color:var(--accent)}
+.outcome{font-weight:600}
+.outcome::before{font:600 .62rem var(--mono); letter-spacing:.12em; margin-right:.45rem; padding:.18rem .35rem; border:1px solid currentColor; vertical-align:2px}
+.outcome.win::before{content:"WON"; color:var(--success)}
+.outcome.loss::before{content:"LOST"; color:var(--fail)}
+.outcome.mixed::before{content:"MIXED"; color:var(--ink-3)}
+
+
+/* ---------- plain-prose blocks ---------- */
+.prose p{max-width:66ch}
+.prose p:last-child{margin-bottom:0}
+.hidden-box{margin-top:1.6rem; background:var(--card); border:1px solid var(--rule); border-left:4px solid var(--redact); padding:1.1rem clamp(1rem,4vw,1.5rem) 1.2rem}
+.hidden-box h3{margin-bottom:.2rem}
+.hidden-box > p{color:var(--ink-2); font-size:.98rem; margin-bottom:.7rem}
+.hidden-box ul{margin:0; padding:0; list-style:none; display:grid; gap:.7rem}
+.hidden-box li{padding-left:1.1rem; position:relative; line-height:1.5}
+.hidden-box li::before{content:"▸"; position:absolute; left:0; top:.1rem; color:var(--accent); font-size:.8rem}
+.wants{display:grid; gap:.5rem; margin:1.2rem 0 0; padding:0; list-style:none}
+.wants li{padding-left:.9rem; border-left:2px solid var(--rule-2); line-height:1.5}
+.ai-note{margin:-.4rem 0 1.2rem; color:var(--ink-2); max-width:66ch}
+
+/* ---------- the story ---------- */
+.timeline{list-style:none; margin:0; padding:0; position:relative}
+.turn{display:grid; grid-template-columns:2.6rem 1fr; gap:0 .9rem; position:relative; padding-bottom:1.9rem}
+.turn::before{content:""; position:absolute; left:1.3rem; top:2.6rem; bottom:0; width:1px; background:var(--rule-2)}
+.turn:last-child::before{display:none}
+.turn:last-child{padding-bottom:0}
+.tmark b{display:grid; place-items:center; width:2.6rem; height:2.4rem; font:600 .9rem var(--mono); border:1px solid var(--ink); background:var(--paper); color:var(--ink); position:relative; z-index:1}
+.beats{display:grid; gap:.7rem; padding-top:.1rem}
+.turn .when{font:500 .68rem/1.3 var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--accent)}
+.turn h3{font:400 1.45rem/1.15 var(--serif-d); margin-top:.1rem}
+.beat{margin:0; line-height:1.58}
+.beat.secret{padding:.6rem .8rem .65rem; background:var(--paper-2); border-left:3px solid var(--redact)}
+.secret-tag{display:block; font:600 .6rem/1.3 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--fail); margin-bottom:.2rem}
+@media (min-width:640px){.turn{grid-template-columns:3.2rem 1fr; gap:0 1.2rem}.tmark b{width:3.2rem}.turn::before{left:1.6rem}}
+
+/* ---------- 5 branch points ---------- */
+.bps{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr))}
+.bp{background:var(--card); border:1px solid var(--rule); padding:1.1rem 1.15rem 1.2rem; display:grid; gap:.85rem; align-content:start}
+.bp-top{display:flex; justify-content:space-between; gap:.8rem; align-items:baseline; flex-wrap:wrap}
+.bp-top .label b{color:var(--accent); font-weight:600}
+.res{font:600 .72rem var(--mono); letter-spacing:.16em; padding:.32rem .55rem; border:2px solid currentColor; transform:rotate(-2deg)}
+.res.success{color:var(--success)}
+.res.fail{color:var(--fail)}
+.bp h3{font-size:1.4rem}
+.meter-wrap{padding:1.3rem 0 .2rem}
+.meter{position:relative; height:26px; border:1px solid var(--rule-2);
+  background:repeating-linear-gradient(45deg, transparent 0 5px, var(--grid) 5px 6px), var(--paper-2)}
+.meter .zone{position:absolute; inset:0 auto 0 0; width:calc(var(--p) * 1%); background:var(--accent-soft); border-right:2px solid var(--accent)}
+.meter .zone span{position:absolute; left:.45rem; top:50%; translate:0 -50%; font:600 .58rem var(--mono); letter-spacing:.1em; color:var(--accent); white-space:nowrap}
+.meter .roll{position:absolute; top:-9px; bottom:-9px; left:calc(var(--roll) * 1%); width:2px; translate:-1px 0; background:var(--ink)}
+.meter .roll::before{content:""; position:absolute; top:-5px; left:-4px; border:5px solid transparent; border-top-color:var(--ink); border-bottom:0}
+.meter .roll span{position:absolute; bottom:calc(100% + 4px); left:50%; translate:-50% 0; font:600 .62rem var(--mono); letter-spacing:.06em; white-space:nowrap; color:var(--ink); background:var(--card); padding:0 .25rem}
+.scale{display:flex; justify-content:space-between; font:500 .58rem var(--mono); color:var(--ink-3); margin-top:.3rem}
+.bp .what{display:grid; gap:.7rem; grid-template-columns:1fr}
+.bp .what p{margin:0; font-size:.97rem; line-height:1.5}
+.bp .what .label{display:block; margin-bottom:.15rem}
+.bp .alt{border-left:2px dashed var(--accent-line); padding-left:.8rem; color:var(--ink-2)}
+@media (min-width:560px){.bp .what{grid-template-columns:1fr 1fr}}
+
+/* ---------- 6 forecast chart ---------- */
+.chart-fig{margin:0; background:var(--card); border:1px solid var(--rule); padding:1rem clamp(.6rem,2.5vw,1.3rem) .9rem}
+.legend{display:flex; flex-wrap:wrap; gap:.4rem 1.1rem; list-style:none; margin:0 0 .6rem; padding:0; font:500 .7rem var(--mono); color:var(--ink-2)}
+.legend li{display:flex; align-items:center; gap:.4rem}
+.legend i{width:18px; height:3px; background:currentColor; display:inline-block}
+.legend li.realised{color:var(--ink); font-weight:600}
+.chart{width:100%; min-height:260px}
+.chart svg{display:block; width:100%; height:auto; overflow:visible}
+.chart .ax{stroke:var(--rule-2); stroke-width:1}
+.chart .gl{stroke:var(--rule); stroke-width:1; stroke-dasharray:2 4}
+.chart .tk{fill:var(--ink-3); font:500 10.5px var(--mono)}
+.chart .ev line{stroke:var(--accent); stroke-width:1; stroke-dasharray:3 3}
+.chart .ev text{fill:var(--accent); font:600 10px var(--mono); letter-spacing:.06em}
+.chart .ln{fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round}
+.chart .ln.realised{stroke-width:3.2}
+.chart .dl{font:600 11.5px var(--mono)}
+.chart .dl .v{font-weight:400}
+.chart-fig figcaption{font-size:.92rem; color:var(--ink-2); margin-top:.6rem; border-top:1px dashed var(--rule); padding-top:.6rem}
+.chart-fig details{margin-top:.5rem; font:500 .72rem var(--mono); color:var(--ink-3)}
+.chart-fig summary{cursor:pointer}
+.tbl-scroll{overflow-x:auto}
+.chart-fig table{border-collapse:collapse; margin-top:.5rem; font:500 .72rem var(--mono); color:var(--ink-2)}
+.chart-fig th,.chart-fig td{padding:.25rem .5rem; border-bottom:1px solid var(--rule); text-align:right}
+.chart-fig th:first-child{text-align:left}
+
+/* ---------- 7 believed vs reality ---------- */
+.truth{display:grid; gap:0; border-top:1px solid var(--rule-2)}
+.truth-head{display:none}
+.truth-row{display:grid; gap:.5rem 1.4rem; padding:1rem 0; border-bottom:1px solid var(--rule)}
+.truth-row .actor{font:600 .7rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.truth-row .actor.ai{color:var(--accent)}
+.believed,.reality{margin:0; font-size:1rem; line-height:1.5}
+.believed{color:var(--ink-2); font-style:normal}
+.believed::before,.reality::before{display:block; font:500 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; font-style:normal; margin-bottom:.2rem}
+.believed::before{content:"Believed"; color:var(--ink-3)}
+.reality{padding-left:.8rem; border-left:3px solid var(--accent)}
+.reality::before{content:"Ground truth"; color:var(--accent)}
+@media (min-width:700px){
+  .truth-row{grid-template-columns:9.5rem 1fr 1fr}
+  .believed::before,.reality::before{display:none}
+  .truth-head{display:grid; grid-template-columns:9.5rem 1fr 1fr; gap:1.4rem; padding:.5rem 0; border-bottom:1px solid var(--rule)}
+  .truth-head span:last-child{color:var(--accent)}
+}
+
+/* ---------- 8 insights ---------- */
+ol.insights{list-style:none; margin:0; padding:0; counter-reset:i}
+ol.insights > li{counter-increment:i; display:grid; grid-template-columns:2.4rem 1fr; gap:0 .6rem; padding:1rem 0; border-top:1px solid var(--rule)}
+ol.insights > li::before{content:counter(i,decimal-leading-zero); font:400 1.7rem/1 var(--serif-d); color:var(--accent)}
+ol.insights p{margin:0; font-size:1.05rem}
+ol.insights strong{font-weight:600}
+.refs{font:500 .64rem var(--mono); color:var(--ink-3); letter-spacing:.06em; align-self:center; margin-left:.2rem}
+.subgrid{display:grid; gap:1rem; margin-top:2rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))}
+.sub{background:var(--card); border:1px solid var(--rule); padding:1rem 1.1rem}
+.sub h3{font-size:1.25rem; margin-bottom:.6rem}
+.sub ul{margin:0; padding:0; list-style:none; display:grid; gap:.6rem}
+.sub li{font-size:.97rem; line-height:1.45; padding-left:1rem; position:relative}
+.sub li::before{content:"▸"; position:absolute; left:0; color:var(--accent); font-size:.8rem; top:.15rem}
+.sub li .label{display:block; margin-bottom:.05rem}
+
+/* ---------- 9 voices ---------- */
+.voices{display:grid; gap:2rem}
+.quote{margin:0; position:relative; padding-left:clamp(1.6rem,6vw,3rem)}
+.quote::before{content:"\201C"; position:absolute; left:0; top:-.35em; font:400 4.5rem/1 var(--serif-d); color:var(--accent)}
+.quote blockquote{margin:0; font:400 clamp(1.35rem,3.8vw,1.8rem)/1.28 var(--serif-d); font-style:normal}
+.quote figcaption{margin-top:.6rem; font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.quote figcaption::before{content:"— "}
+.quote:nth-child(2){margin-left:auto; max-width:90%}
+
+/* ---------- 10 caveats ---------- */
+.cavs{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
+.cav{border-top:2px solid var(--ink); padding-top:.6rem}
+.cav h3{font-size:1.2rem; margin-bottom:.45rem}
+.cav ul{margin:0; padding-left:1.1rem; font-size:.95rem; line-height:1.45; color:var(--ink-2)}
+.cav li{margin-bottom:.4rem}
+
+/* ---------- 11 footer ---------- */
+.foot{margin-top:4.5rem; padding-top:1rem; border-top:3px double var(--rule-2); display:flex; flex-wrap:wrap; gap:.8rem 1.6rem; justify-content:space-between; font:500 .72rem/1.5 var(--mono); letter-spacing:.06em; color:var(--ink-3)}
+.foot a{color:var(--ink)}
+.foot nav{display:flex; gap:1.4rem; flex-wrap:wrap}
+
+
+/* ---------- overrides for the plain-language layout ---------- */
+.res{white-space:nowrap}
+.bp .odds{margin:0; font-size:.97rem; line-height:1.5}
+.bp .stake{margin:0; font-size:.97rem; line-height:1.5; color:var(--ink-2)}
+.bp .stake .label,.bp .odds .label{display:block; margin-bottom:.15rem}
+.meter .roll.edge-l span{left:0; translate:-2px 0}
+.meter .zone.out span{left:calc(100% + .5rem)}
+.mast h1 .id{line-height:1.3}
+.meter-key{color:var(--ink-2); max-width:66ch; margin:-.4rem 0 1.3rem}
+ol.insights h3{font-size:1.4rem; line-height:1.15; margin-bottom:.45rem}
+ol.insights p{margin:0 0 .55rem; font-size:1.02rem}
+ol.insights .sowhat{padding-left:.8rem; border-left:2px solid var(--accent)}
+ol.insights .sowhat b,.next b.k{font:600 .62rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin-right:.35rem}
+ol.insights .chip{white-space:normal; line-height:1.35}
+.pull{margin:2.2rem 0 0}
+.cav-list{margin:0; padding:0; list-style:none; display:grid; gap:0; border-top:1px solid var(--rule-2)}
+.cav-list li{padding:.85rem 0; border-bottom:1px solid var(--rule); line-height:1.55}
+.cav-list strong{font-weight:600}
+ol.next{margin:0; padding:0; list-style:none; counter-reset:n; display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+ol.next li{counter-increment:n; background:var(--card); border:1px solid var(--rule); padding:1rem 1.1rem; font-size:.98rem; line-height:1.5}
+ol.next li::before{content:"Replay " counter(n); display:block; font:600 .62rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin-bottom:.3rem}
+ol.next h3{font-size:1.25rem; margin-bottom:.4rem}
+dl.gloss{margin:0; display:grid; gap:0; border-top:1px solid var(--rule-2)}
+dl.gloss div{display:grid; gap:.1rem 1.4rem; padding:.7rem 0; border-bottom:1px solid var(--rule)}
+dl.gloss dt{font-weight:600}
+dl.gloss dd{margin:0; color:var(--ink-2); line-height:1.5}
+@media (min-width:640px){dl.gloss div{grid-template-columns:12rem 1fr}}
+.chart-fig figcaption p{margin:0 0 .5em}
+.chart-fig figcaption p:last-child{margin:0}
+@media print{.theme-btn{display:none} body::before{display:none}}
+/* no-italics */ em,i,cite,blockquote,q{font-style:normal} em{font-weight:600}
+h1,h2,h3,h4{font-weight:650;letter-spacing:-0.015em}
+.mast h1{font-size:clamp(2.2rem,7vw,3.8rem);line-height:1.08;max-width:18ch}
+h2{font-size:clamp(1.45rem,3.8vw,1.95rem);line-height:1.18}
+h3{font-size:1.18rem;line-height:1.3}
+blockquote,.quote,.pull{font-size:1.05rem;line-height:1.5}
+.mast h1 em,h1 em,h2 em,h3 em{color:inherit;font-weight:inherit}
+
+/* ---------- economy run page additions ---------- */
+.back{display:inline-block; margin-top:.4rem; font:500 .78rem var(--mono); letter-spacing:.04em}
+.stats{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; margin:2rem 0 0; border-top:1px solid var(--rule); border-left:1px solid var(--rule)}
+.stats div{padding:.75rem .8rem .8rem; border-right:1px solid var(--rule); border-bottom:1px solid var(--rule); background:var(--card)}
+.stats dt{font:500 .64rem/1.35 var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3)}
+.stats dd{margin:.3rem 0 0}
+.stats dd b{display:block; font:650 clamp(1.5rem,5vw,1.95rem)/1.1 var(--serif); letter-spacing:-.02em; color:var(--accent)}
+.stats dd span{display:block; margin-top:.25rem; font-size:.86rem; line-height:1.35; color:var(--ink-2)}
+@media (min-width:640px){.stats{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.stats .span2{grid-column:span 2}
+.hand{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr)); margin-top:1.4rem}
+.hand .sub h3{font-size:1.1rem}
+.figs{display:grid; gap:1.2rem}
+.pair{display:grid; gap:1rem 1.6rem; grid-template-columns:minmax(0,1fr)}
+@media (min-width:760px){.pair{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.panel{min-width:0}
+.panel h3{font:600 .72rem/1.35 var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--ink-2); margin:0 0 .4rem}
+.chart{min-height:0}
+.chart .ln{stroke-width:2.4}
+.chart .bar-a{fill:var(--c1)} .chart .bar-b{fill:var(--c2)}
+.chart .vl{fill:var(--ink); font:600 11px var(--mono)}
+.legend i.sq{width:11px; height:11px}
+.answer{font-size:1.12rem; font-weight:600; max-width:60ch}
+.timeline .beat{max-width:66ch}
+</style>
+<script>
+/* Apply saved theme before paint */
+(function(){try{var t=localStorage.getItem("wg-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}document.documentElement.classList.add("js");})();
+</script>
+</head>
+<body>
+<button class="theme-btn" type="button" id="themeBtn" aria-label="Toggle colour theme">◐ Theme</button>
+
+<main class="page">
+
+  <header class="mast" aria-labelledby="title">
+    <div class="run-strip label">
+      <span>Economy games</span><span>Fictional exercise</span><span>About a 6-minute read</span>
+    </div>
+    <h1 id="title"><span class="id">A forgiving economy, and unusually cooperative players</span>Play-through 1</h1>
+    <p class="dek">The United States, 2027 to 2036, with AI improving quickly the whole time.</p>
+  </header>
+
+  <section class="tldr" aria-labelledby="tldr-h">
+    <h2 id="tldr-h" class="label">The outcome in one sentence</h2>
+    <p class="verdict">Machines came to do about half of all desk work, yet 17 million more people had jobs, pay went a third further and rents fell by nearly a quarter. Workers still ended up with a smaller slice of a much bigger pie.</p>
+    <dl class="stats">
+      <div><dt>Unemployment, end of 2036</dt><dd><b>2.9%</b><span>It was 4.1% in 2026 and never rose above that.</span></dd></div>
+      <div><dt>Adults with a job</dt><dd><b>62.7%</b><span>Up from 59.1% in 2026.</span></dd></div>
+      <div><dt>Typical household income</dt><dd><b>+35%</b><span>After prices, compared with 2026.</span></dd></div>
+      <div><dt>Homelessness</dt><dd><b>12 per 10,000</b><span>Down from 22 per 10,000 in 2026.</span></dd></div>
+      <div class="span2"><dt>Jobs over the decade</dt><dd><b>37.6m lost, 47.9m created</b><span>About 1.3 jobs created for each one lost.</span></dd></div>
+    </dl>
+  </section>
+
+  <section class="sec prose" aria-labelledby="what-h">
+    <div class="sec-head"><span class="num">1</span><h2 id="what-h">What is this?</h2></div>
+    <p>This is one of five play-throughs of the same fictional exercise, which asks what ten years of rapidly improving AI and robots would do to jobs and living standards in the United States. AI agents played the federal government, the AI companies, large employers, households and entrepreneurs, each with its own goals and private information. A referee, dice and a small, documented economic model kept score, so this shows one way things could go, not a forecast.</p>
+    <p><a class="back" href="index.html">← All five play-throughs</a></p>
+  </section>
+
+  <section class="sec prose" aria-labelledby="hand-h">
+    <div class="sec-head"><span class="num">2</span><h2 id="hand-h">The hand this run was dealt</h2><span class="label">Hidden from the players</span></div>
+    <p>Before each play-through, dice set a dozen facts about how the economy behaves, which nobody yet knows about the real world. The players were not told them. This run drew a kind hand with one harsh card in it.</p>
+    <div class="hand">
+      <div class="sub">
+        <h3>What was favourable</h3>
+        <ul>
+          <li>When things got cheaper, people bought a lot more of them.</li>
+          <li>Many new kinds of human work appeared.</li>
+          <li>Competition passed most cost savings on to customers as lower prices.</li>
+          <li>Robots ran about seven years behind desk-work AI, so physical jobs were mostly safe.</li>
+          <li>Homes were physically quick and cheap to build.</li>
+          <li>Lost wages did not snowball into wider slumps.</li>
+          <li>Washington could pass laws within a couple of years.</li>
+        </ul>
+      </div>
+      <div class="sub">
+        <h3>What was not</h3>
+        <ul>
+          <li>Desk-work AI improved very fast and firms adopted it quickly, so office jobs went early.</li>
+          <li>The harsh card: left alone, pay would be bid down below its old trend instead of sharing in the gains.</li>
+          <li>The central bank was strict: no help in a downturn, and a squeeze whenever unemployment got very low.</li>
+          <li>The big states refused to help build housing all decade.</li>
+          <li>The coalition leading Washington favoured fast AI rollout and low taxes, and was wary of new benefits.</li>
+        </ul>
+      </div>
+      <div class="sub">
+        <h3>Random events that came up</h3>
+        <ul>
+          <li><b>2027:</b> a flat year for AI progress.</li>
+          <li><b>2028:</b> a breakthrough in factory-built housing.</li>
+          <li><b>2029:</b> a data-centre building boom.</li>
+          <li><b>2030:</b> many of the new jobs turned out to be automatable too.</li>
+          <li><b>2031–32:</b> a price war started by free AI models anyone could run.</li>
+          <li><b>2033–34:</b> a shortage of land in boom cities.</li>
+          <li><b>2035–36:</b> a hit new industry.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="story-h">
+    <div class="sec-head"><span class="num">3</span><h2 id="story-h">What happened</h2><span class="label">Seven rounds, ten years</span></div>
+    <ol class="timeline">
+      <li class="turn">
+        <div class="tmark"><b>1</b></div>
+        <div class="beats">
+          <div><span class="when">2027</span><h3>A quiet year on the surface</h3></div>
+          <p class="beat">Employers automated routine office work, but shrank by not replacing people who left instead of by layoffs. About 1.2 million jobs went and 1.1 million appeared, so unemployment stayed at 4.1%. Congress passed incentives for house-building. A court struck down a rule making firms report AI layoffs, which the referee had given a 35% chance.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>2</b></div>
+        <div class="beats">
+          <div><span class="when">2028</span><h3>Rents start to fall</h3></div>
+          <p class="beat">The housing breakthrough, on top of the new incentives, cut housing costs by 5% in a year. New firms hired heavily: 2.5 million jobs were created against 1.8 million lost. Unemployment fell to 3.8%, and voters re-elected the governing coalition.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>3</b></div>
+        <div class="beats">
+          <div><span class="when">2029</span><h3>The boom runs hot</h3></div>
+          <p class="beat">The data-centre building boom added about 1.3 million jobs. In all, 4.2 million jobs were created against 2.4 million lost, and unemployment fell to 3.2%. A union organising drive succeeded for the second year running, a coin-flip each time. The AI companies tied large customers into five-year exclusive contracts.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>4</b></div>
+        <div class="beats">
+          <div><span class="when">2030</span><h3>The only bad year</h3></div>
+          <p class="beat">The building boom ended and the central bank tightened. 5.7 million jobs went, only 2.4 million of them to automation, and 2.9 million were created. The number of people in work fell by 2.2 million. Unemployment only reached 3.7%, because most of those who lost work stopped looking and so were not counted. Pay stood still.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>5</b></div>
+        <div class="beats">
+          <div><span class="when">2031–32</span><h3>Free AI, cheaper services, a wave of new work</h3></div>
+          <p class="beat">Free AI models forced a price war. The AI companies ended their exclusive contracts and gave their basic service away. 10.6 million jobs were created against 6.9 million lost, and unemployment fell to 3.0%. Every move on the workers' side failed on the dice, including a small levy on AI profits that had a one-in-four chance. It made little difference: the typical household's income after prices jumped from 108 to 118 (2026 = 100).</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>6</b></div>
+        <div class="beats">
+          <div><span class="when">2033–34</span><h3>A land squeeze, and an upset election</h3></div>
+          <p class="beat">Land ran short in the boom cities. Congress overrode local planning rules there; the referee gave the bill a 90% chance and the roll came up just inside it. Housing costs still fell 2%. 11.7 million jobs were created against 9.1 million lost. Then voters handed Congress to a rival coalition that put worker protections first, which had only a 15% chance in a boom.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>7</b></div>
+        <div class="beats">
+          <div><span class="when">2035–36</span><h3>More work than workers</h3></div>
+          <p class="beat">The hit new industry offered so much work that 3.7 million openings went unfilled. 14.9 million jobs were created against 10.6 million lost. The new Congress passed a levy of two percentage points on AI profits, a 75% chance, and a court let it stand. By the end of 2036 machines did 49% of desk work and robots 10% of physical work.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="sec wide" aria-labelledby="charts-h">
+    <div class="sec-head"><span class="num">4</span><h2 id="charts-h">The decade in charts</h2><span class="label">From the run's scorecard</span></div>
+    <div class="figs">
+      <figure class="chart-fig">
+        <div class="pair">
+          <div class="panel"><h3>Unemployment, %</h3><div class="chart" id="ch-unemp"></div></div>
+          <div class="panel"><h3>Adults with a job, %</h3><div class="chart" id="ch-work"></div></div>
+        </div>
+        <figcaption>Unemployment drifted down and the share of adults with a job rose, apart from the slump of 2030.</figcaption>
+      </figure>
+      <figure class="chart-fig">
+        <ul class="legend" aria-hidden="true">
+          <li style="color:var(--c1)"><i class="sq"></i><span style="color:var(--ink-2)">Jobs lost</span></li>
+          <li style="color:var(--c2)"><i class="sq"></i><span style="color:var(--ink-2)">Jobs created</span></li>
+        </ul>
+        <div class="chart" id="ch-jobs"></div>
+        <figcaption>Millions of jobs lost and created in each round; more were created than lost in every round except 2027 and 2030. The last three rounds cover two years each, so their bars are taller for that reason too.</figcaption>
+      </figure>
+      <figure class="chart-fig">
+        <ul class="legend" aria-hidden="true">
+          <li style="color:var(--c2)"><i></i><span style="color:var(--ink-2)">Typical household</span></li>
+          <li style="color:var(--c3)"><i></i><span style="color:var(--ink-2)">Poorest fifth</span></li>
+        </ul>
+        <div class="panel"><h3>Income after prices, 2026 = 100</h3><div class="chart" id="ch-inc"></div></div>
+        <figcaption>The typical household and the poorest fifth rose almost together, each ending about a third better off.</figcaption>
+      </figure>
+      <figure class="chart-fig">
+        <div class="pair">
+          <div class="panel"><h3>Share of all income going to the top 1%, %</h3><div class="chart" id="ch-top1"></div></div>
+          <div class="panel"><h3>Share of national income paid as wages, %</h3><div class="chart" id="ch-wage"></div></div>
+        </div>
+        <figcaption>The split moved against workers all decade: the top 1% took a growing share, and wages a shrinking one.</figcaption>
+      </figure>
+      <figure class="chart-fig">
+        <div class="pair">
+          <div class="panel"><h3>Homeless people per 10,000</h3><div class="chart" id="ch-home"></div></div>
+          <div class="panel"><h3>Cost of housing, 2026 = 100</h3><div class="chart" id="ch-rent"></div></div>
+        </div>
+        <figcaption>Homelessness nearly halved as housing became 23% cheaper.</figcaption>
+      </figure>
+    </div>
+    <script type="application/json" id="run-data">{"years": [2026, 2027, 2028, 2029, 2030, 2032, 2034, 2036], "periods": ["2027", "2028", "2029", "2030", "2031\u201332", "2033\u201334", "2035\u201336"], "unemployment": [4.1, 4.07, 3.78, 3.23, 3.69, 3.01, 2.93, 2.93], "in_work": [59.1, 59.07, 59.33, 59.99, 58.98, 60.3, 61.23, 62.73], "lost": [1.15, 1.77, 2.37, 5.74, 6.9, 9.08, 10.61], "created": [1.06, 2.49, 4.22, 2.92, 10.61, 11.72, 14.87], "median": [100.0, 101.5, 105.1, 109.3, 108.4, 117.7, 125.2, 135.3], "bottom": [100.0, 101.4, 105.0, 108.7, 108.2, 116.5, 122.8, 132.5], "top1": [20.0, 20.2, 20.3, 20.3, 21.1, 21.3, 21.9, 22.9], "wage_share": [52.8, 52.4, 52.1, 52.1, 50.4, 49.9, 48.3, 45.8], "homeless": [22.0, 21.5, 18.7, 16.9, 16.7, 15.1, 13.8, 12.2], "housing": [100.0, 97.9, 92.9, 90.5, 87.8, 83.3, 81.5, 76.8]}</script>
+  </section>
+
+  <section class="sec prose" aria-labelledby="jobs-h">
+    <div class="sec-head"><span class="num">5</span><h2 id="jobs-h">Did new jobs outrun lost jobs here?</h2></div>
+    <p class="answer">Yes, for the economy as a whole. No, for office workers.</p>
+    <p>Over ten years 37.6 million jobs were destroyed and 47.9 million created. About 30 million of the openings were new kinds of work, and about 18 million came from cheaper goods and services selling more. The share of adults with a job rose from 59.1% to 62.7%, and the average working week shortened by an hour and a half.</p>
+    <p>Offices were the exception. They lost 19.3 million jobs and regained 16.1 million, and ended 1.3 million smaller than in 2026. The growth was elsewhere: new industries tripled from 4.6 to 13.9 million jobs, care work added 4.6 million and building 2.8 million. Someone whose office job disappeared usually had to change trade to find the next one.</p>
+  </section>
+
+  <section class="sec prose" aria-labelledby="better-h">
+    <div class="sec-head"><span class="num">6</span><h2 id="better-h">Did ordinary people end up better off here?</h2></div>
+    <p class="answer">Yes, broadly, including the poorest. But the owners of capital gained more.</p>
+    <p>After prices, the typical household's income rose 35%; without the AI boom the model's trend gives about 9%. The poorest fifth gained 32.5%. Housing became 23% cheaper and professional services 13% cheaper. Goods fell only 5% and healthcare barely moved. Poverty fell from 12.9% to 7.3%. The government paid out no new cash benefits, and its deficit shrank from 6% to 4% of the economy.</p>
+    <p>Who lost out: the economy grew 56%, so households received well under their share of it. Wages fell from 52.8% of national income to 45.8%, and the top 1% went from 20% of all income to 22.9%. Many office workers lost their trade, and in 2030 about two million people left work, most without ever being counted as unemployed.</p>
+  </section>
+
+  <section class="sec prose" aria-labelledby="drove-h">
+    <div class="sec-head"><span class="num">7</span><h2 id="drove-h">What drove it</h2></div>
+    <p><strong>Mostly the hand.</strong> The same model was run 1,000 times with dice alone. This result sits at or above the top of that range for jobs and typical income. When this exact hand was replayed with hands-off players, unemployment still ended at 2.9% and the same share of adults had jobs. The jobs result was dealt, not earned.</p>
+    <p><strong>The players' choices improved the split.</strong> In that hands-off replay the typical household gained 29% instead of 35%, homelessness ended at 16 per 10,000 instead of 12, and wages' share at 43.7% instead of 45.8%. Three choices did it. Employers shrank by not replacing leavers and shared profits with staff, which, with union gains, cancelled the dealt squeeze on pay. Washington passed four housing bills that got round the reluctant states. The AI companies dropped their exclusive contracts in 2031.</p>
+    <p><strong>Dice changed the timing more than the direction.</strong> They made 2030 bad and 2035–36 exceptional. Replaying the players' decisions with no random events gives almost the same ending.</p>
+  </section>
+
+  <section class="sec prose" aria-labelledby="real-h">
+    <div class="sec-head"><span class="num">8</span><h2 id="real-h">Where the players were unrealistic</h2></div>
+    <p>All five players sat inside one polite bargain for a decade. Employers volunteered profit-sharing and never ran mass layoffs. The AI companies offered to be taxed. Households never panicked or struck in earnest. Real firms and workers would have pressed their advantage harder. An independent checker also found the referee twice read the AI companies' pricing a little generously.</p>
+    <p>What that means for trust: the jobs numbers lean on the dealt hand and would survive rougher players. The gains for the poorest, the fall in homelessness and the hold on wages lean on good behaviour that real firms might not offer. Treat this as close to a best case, not a typical one.</p>
+  </section>
+
+  <footer class="foot">
+    <nav aria-label="More">
+      <a href="index.html">← All five play-throughs</a>
+      <a href="https://github.com/mj1618/wargames/tree/main/economy/runs/r1">Full files for this play-through on GitHub ↗</a>
+    </nav>
+    <span>Economy games, play-through 1 · fictional exercise</span>
+  </footer>
+</main>
+
+<script>
+(function(){
+  /* ---- theme toggle ---- */
+  var root=document.documentElement, tb=document.getElementById("themeBtn");
+  function isDark(){var t=root.getAttribute("data-theme");return t?t==="dark":matchMedia("(prefers-color-scheme: dark)").matches;}
+  function label(){tb.setAttribute("aria-label", isDark()?"Switch to light theme":"Switch to dark theme");}
+  tb.addEventListener("click",function(){var n=isDark()?"light":"dark";root.setAttribute("data-theme",n);try{localStorage.setItem("wg-theme",n);}catch(e){}label();});
+  label();
+
+  /* ---- charts: read #run-data (built from the run's scorecard) ---- */
+  var D;try{D=JSON.parse(document.getElementById("run-data").textContent);}catch(e){return;}
+  var NS="http://www.w3.org/2000/svg";
+  function el(n,a,p){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+  function txt(p,a,s){var t=el("text",a,p);t.textContent=s;return t;}
+
+  /* line chart: cfg = {id, series:[{key,name,color}], min, max, step, unit, dec, aria} */
+  function line(cfg){
+    var host=document.getElementById(cfg.id); if(!host)return;
+    var W=Math.max(260,host.clientWidth), H=Math.round(Math.min(250,Math.max(190,W*0.5)));
+    var m={t:16,r:50,b:26,l:38}, iw=W-m.l-m.r, ih=H-m.t-m.b;
+    var y0=D.years[0], y1=D.years[D.years.length-1];
+    var x=function(yr){return m.l+(yr-y0)/(y1-y0)*iw;}, y=function(v){return m.t+ih-(v-cfg.min)/(cfg.max-cfg.min)*ih;};
+    var fmt=function(v){return v.toFixed(cfg.dec||0)+(cfg.unit||"");};
+    host.innerHTML="";
+    var svg=el("svg",{viewBox:"0 0 "+W+" "+H,width:W,height:H,role:"img","aria-label":cfg.aria});
+    for(var v=cfg.min;v<=cfg.max+1e-9;v+=cfg.step){
+      el("line",{x1:m.l,x2:m.l+iw,y1:y(v),y2:y(v),"class":v===cfg.min?"ax":"gl"},svg);
+      txt(svg,{x:m.l-7,y:y(v)+3.5,"text-anchor":"end","class":"tk"},String(+v.toFixed(1)));
+    }
+    [2026,2028,2030,2032,2034,2036].forEach(function(yr){txt(svg,{x:x(yr),y:H-7,"text-anchor":"middle","class":"tk"},W<340?"'"+String(yr).slice(2):String(yr));});
+    var ends=[];
+    cfg.series.forEach(function(s){
+      var vals=D[s.key], d=vals.map(function(v,i){return (i?"L":"M")+x(D.years[i]).toFixed(1)+","+y(v).toFixed(1);}).join("");
+      el("path",{d:d,"class":"ln",style:"stroke:"+s.color},svg);
+      vals.forEach(function(v,i){var c=el("circle",{cx:x(D.years[i]),cy:y(v),r:i===vals.length-1?4:2.6,style:"fill:"+s.color},svg);el("title",{},c).textContent=s.name+", end of "+D.years[i]+": "+fmt(v);});
+      ends.push({y:y(vals[vals.length-1])+4,v:vals[vals.length-1]});
+    });
+    ends.sort(function(a,b){return a.y-b.y;});
+    for(var k=1;k<ends.length;k++)if(ends[k].y-ends[k-1].y<14)ends[k].y=ends[k-1].y+14;
+    ends.forEach(function(e){txt(svg,{x:m.l+iw+8,y:e.y,"class":"vl"},fmt(e.v));});
+    host.appendChild(svg);
+  }
+
+  /* grouped bars: jobs lost and created per period */
+  function bars(id){
+    var host=document.getElementById(id); if(!host)return;
+    var W=Math.max(260,host.clientWidth), narrow=W<520, H=narrow?240:300;
+    var m={t:18,r:8,b:28,l:34}, iw=W-m.l-m.r, ih=H-m.t-m.b, n=D.periods.length, max=16;
+    var y=function(v){return m.t+ih-(v/max)*ih;}, gw=iw/n, bw=Math.min(34,gw*0.36);
+    host.innerHTML="";
+    var svg=el("svg",{viewBox:"0 0 "+W+" "+H,width:W,height:H,role:"img","aria-label":"Bar chart of jobs lost and jobs created in each period, in millions. Created is higher than lost in every period except 2027 and 2030."});
+    [0,4,8,12,16].forEach(function(v){el("line",{x1:m.l,x2:m.l+iw,y1:y(v),y2:y(v),"class":v?"gl":"ax"},svg);txt(svg,{x:m.l-7,y:y(v)+3.5,"text-anchor":"end","class":"tk"},v+(v===16?"m":""));});
+    D.periods.forEach(function(p,i){
+      var cx=m.l+gw*i+gw/2, a=D.lost[i], b=D.created[i];
+      var ra=el("rect",{x:cx-bw-1,y:y(a),width:bw,height:y(0)-y(a),"class":"bar-a"},svg);el("title",{},ra).textContent=p+": "+a.toFixed(1)+" million jobs lost";
+      var rb=el("rect",{x:cx+1,y:y(b),width:bw,height:y(0)-y(b),"class":"bar-b"},svg);el("title",{},rb).textContent=p+": "+b.toFixed(1)+" million jobs created";
+      if(!narrow){txt(svg,{x:cx-bw/2-1,y:y(a)-5,"text-anchor":"middle","class":"vl"},a.toFixed(1));txt(svg,{x:cx+bw/2+1,y:y(b)-5,"text-anchor":"middle","class":"vl"},b.toFixed(1));}
+      txt(svg,{x:cx,y:H-8,"text-anchor":"middle","class":"tk"},narrow?(p.length>4?p.slice(2):"'"+p.slice(2)):p);
+    });
+    host.appendChild(svg);
+  }
+
+  var A="var(--accent)", C1="var(--c1)", C2="var(--c2)", C3="var(--c3)";
+  var lines=[
+    {id:"ch-unemp",series:[{key:"unemployment",name:"Unemployment",color:C1}],min:0,max:5,step:1,unit:"%",dec:1,aria:"Line chart: unemployment fell from 4.1% in 2026 to 2.9% in 2036, with a small rise to 3.7% in 2030."},
+    {id:"ch-work",series:[{key:"in_work",name:"Adults with a job",color:C2}],min:56,max:64,step:2,unit:"%",dec:1,aria:"Line chart: the share of adults with a job rose from 59.1% in 2026 to 62.7% in 2036, dipping to 59.0% in 2030."},
+    {id:"ch-inc",series:[{key:"median",name:"Typical household",color:C2},{key:"bottom",name:"Poorest fifth",color:C3}],min:100,max:140,step:10,dec:1,aria:"Line chart: income after prices for the typical household rose from 100 to 135.3, and for the poorest fifth from 100 to 132.5, moving almost together."},
+    {id:"ch-top1",series:[{key:"top1",name:"Top 1% share",color:C1}],min:18,max:24,step:2,unit:"%",dec:1,aria:"Line chart: the top 1% share of income rose from 20% in 2026 to 22.9% in 2036."},
+    {id:"ch-wage",series:[{key:"wage_share",name:"Wages' share",color:C2}],min:44,max:54,step:2,unit:"%",dec:1,aria:"Line chart: wages' share of national income fell from 52.8% in 2026 to 45.8% in 2036."},
+    {id:"ch-home",series:[{key:"homeless",name:"Homelessness",color:C1}],min:0,max:25,step:5,dec:1,aria:"Line chart: homelessness fell from 22 per 10,000 people in 2026 to 12.2 in 2036."},
+    {id:"ch-rent",series:[{key:"housing",name:"Housing cost",color:C2}],min:70,max:100,step:10,dec:1,aria:"Line chart: the cost of housing fell from 100 in 2026 to 76.8 in 2036."}
+  ];
+  function drawAll(){lines.forEach(line);bars("ch-jobs");}
+  drawAll();
+  var rt,lw=document.body.clientWidth;
+  addEventListener("resize",function(){if(document.body.clientWidth===lw)return;lw=document.body.clientWidth;clearTimeout(rt);rt=setTimeout(drawAll,80);});
+})();
+
+</script>
+</body>
+</html>

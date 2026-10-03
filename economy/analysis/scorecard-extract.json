@@ -1,0 +1,1327 @@
+{
+ "r1": {
+  "adults_2026": 274.8,
+  "adults_2036_from_emp": 286.0,
+  "adults_2036": 286.0,
+  "employed": [
+   162.4,
+   179.4
+  ],
+  "unemployed": [
+   7.0,
+   5.4
+  ],
+  "not_in_lf": [
+   105.4,
+   101.2
+  ],
+  "employed_if_2026_rate": 169.0,
+  "gap_vs_2026_rate": -10.4,
+  "unemployed_if_2026_rates": 7.2,
+  "notlf_if_2026_rate": 109.7,
+  "hours": [
+   34.3,
+   32.83
+  ],
+  "total_hours_change_pct": 5.7,
+  "hours_per_adult_change_pct": 1.6,
+  "destroyed": 37.62,
+  "created": 47.89,
+  "popgrowth_jobs": 6.74,
+  "vol_exits": 0.0,
+  "d_automation": 31.6,
+  "d_demand": 3.41,
+  "d_shift": 2.58,
+  "c_price": 17.66,
+  "c_shift": 0.0,
+  "c_newwork": 30.34,
+  "c_absorb": 0.88,
+  "c_demand": 2.62,
+  "c_policy": 0.0,
+  "c_unfilled": 3.65,
+  "office": [
+   48.0,
+   46.67
+  ],
+  "destroyed_office": 19.33,
+  "created_office": 16.09,
+  "min_emp_pop": 58.98,
+  "peak_u": 4.1,
+  "prices": {
+   "price_goods": 94.9,
+   "price_digital_services": 87.4,
+   "price_health": 98.8,
+   "price_housing": 76.8,
+   "cost_of_living_median": 88.4
+  },
+  "real_wage": 132.1,
+  "labour_share": 45.8,
+  "transfers": 0.0,
+  "lv_layoff_share": [
+   0.4,
+   0.4,
+   0.35,
+   0.3,
+   0.3,
+   0.3,
+   0.25
+  ],
+  "lv_hours_share": [
+   0.1,
+   0.15,
+   0.15,
+   0.2,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "lv_wage_sharing": [
+   0.1,
+   0.15,
+   0.15,
+   0.2,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "lv_adoption_speed": [
+   1.1,
+   1.15,
+   1.2,
+   1.2,
+   1.25,
+   1.25,
+   1.2
+  ],
+  "lv_deploy_pace": [
+   1.15,
+   1.2,
+   1.25,
+   1.1,
+   1.2,
+   1.15,
+   1.15
+  ],
+  "lv_ai_pricing": [
+   -0.5,
+   -0.25,
+   -0.25,
+   0.0,
+   0.55,
+   0.25,
+   0.0
+  ],
+  "lv_housing_policy": [
+   0.0,
+   0.35,
+   0.6,
+   0.6,
+   0.6,
+   0.75,
+   0.85
+  ],
+  "lv_transfers_pct_gdp": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_capital_tax_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  "lv_new_business": [
+   1.02,
+   1.15,
+   1.12,
+   1.0,
+   1.235,
+   1.07,
+   1.2
+  ],
+  "lv_union_pressure": [
+   0.0,
+   0.25,
+   0.5,
+   0.75,
+   0.65,
+   0.55,
+   0.8
+  ],
+  "lv_public_jobs_m": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_retraining_pct_gdp": [
+   0.01,
+   0.11,
+   0.11,
+   0.11,
+   0.21,
+   0.21,
+   0.45
+  ],
+  "lv_competition_policy": [
+   0.0,
+   0.0,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3
+  ],
+  "lv_transfer_target": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_worktime_cut_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "series": {
+   "unemployment_rate": [
+    4.1,
+    4.07,
+    3.78,
+    3.23,
+    3.69,
+    3.01,
+    2.93,
+    2.93
+   ],
+   "employment_to_population": [
+    59.1,
+    59.07,
+    59.33,
+    59.99,
+    58.98,
+    60.3,
+    61.23,
+    62.73
+   ],
+   "median_real_income_index": [
+    100.0,
+    101.5,
+    105.1,
+    109.3,
+    108.4,
+    117.7,
+    125.2,
+    135.3
+   ],
+   "homeless_per_10k": [
+    22.0,
+    21.5,
+    18.7,
+    16.9,
+    16.7,
+    15.1,
+    13.8,
+    12.2
+   ],
+   "top1_income_share": [
+    20.0,
+    20.2,
+    20.3,
+    20.3,
+    21.1,
+    21.3,
+    21.9,
+    22.9
+   ],
+   "bottom20_real_income_index": [
+    100.0,
+    101.4,
+    105.0,
+    108.7,
+    108.2,
+    116.5,
+    122.8,
+    132.5
+   ]
+  }
+ },
+ "r2": {
+  "adults_2026": 274.8,
+  "adults_2036_from_emp": 286.0,
+  "adults_2036": 286.0,
+  "employed": [
+   162.4,
+   160.3
+  ],
+  "unemployed": [
+   7.0,
+   7.2
+  ],
+  "not_in_lf": [
+   105.4,
+   118.5
+  ],
+  "employed_if_2026_rate": 169.0,
+  "gap_vs_2026_rate": 8.7,
+  "unemployed_if_2026_rates": 7.2,
+  "notlf_if_2026_rate": 109.7,
+  "hours": [
+   34.3,
+   31.52
+  ],
+  "total_hours_change_pct": -9.3,
+  "hours_per_adult_change_pct": -12.9,
+  "destroyed": 53.47,
+  "created": 44.87,
+  "popgrowth_jobs": 6.48,
+  "vol_exits": 0.0,
+  "d_automation": 45.44,
+  "d_demand": 7.4,
+  "d_shift": 0.63,
+  "c_price": 13.26,
+  "c_shift": 0.19,
+  "c_newwork": 22.7,
+  "c_absorb": 1.25,
+  "c_demand": 7.5,
+  "c_policy": 0.0,
+  "c_unfilled": 0.0,
+  "office": [
+   48.0,
+   39.1
+  ],
+  "destroyed_office": 23.68,
+  "created_office": 13.0,
+  "min_emp_pop": 56.05,
+  "peak_u": 4.47,
+  "prices": {
+   "price_goods": 92.7,
+   "price_digital_services": 87.8,
+   "price_health": 98.2,
+   "price_housing": 75.7,
+   "cost_of_living_median": 87.2
+  },
+  "real_wage": 129.6,
+  "labour_share": 38.8,
+  "transfers": 0.01,
+  "lv_layoff_share": [
+   0.4,
+   0.35,
+   0.3,
+   0.3,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "lv_hours_share": [
+   0.1,
+   0.15,
+   0.2,
+   0.2,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "lv_wage_sharing": [
+   0.05,
+   0.1,
+   0.15,
+   0.15,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "lv_adoption_speed": [
+   1.15,
+   1.25,
+   1.25,
+   1.1,
+   1.05,
+   1.08,
+   1.05
+  ],
+  "lv_deploy_pace": [
+   1.2,
+   1.25,
+   1.3,
+   1.1,
+   1.125,
+   1.225,
+   1.225
+  ],
+  "lv_ai_pricing": [
+   -0.5,
+   -0.25,
+   -0.25,
+   -0.25,
+   0.0,
+   -0.25,
+   0.0
+  ],
+  "lv_housing_policy": [
+   0.2,
+   0.5,
+   0.6,
+   0.85,
+   0.85,
+   1.0,
+   1.0
+  ],
+  "lv_transfers_pct_gdp": [
+   0.01,
+   0.01,
+   0.01,
+   0.01,
+   0.01,
+   0.01,
+   0.01
+  ],
+  "lv_capital_tax_pct": [
+   0.0,
+   0.0,
+   2.5,
+   2.5,
+   2.5,
+   0.0,
+   2.0
+  ],
+  "lv_new_business": [
+   1.0,
+   1.1,
+   1.3,
+   1.0,
+   1.0,
+   1.1,
+   1.2
+  ],
+  "lv_union_pressure": [
+   0.25,
+   0.25,
+   0.25,
+   0.25,
+   0.5,
+   0.5,
+   0.75
+  ],
+  "lv_public_jobs_m": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_retraining_pct_gdp": [
+   0.0,
+   0.1,
+   0.4,
+   0.45,
+   0.58,
+   0.58,
+   0.68
+  ],
+  "lv_competition_policy": [
+   0.3,
+   0.3,
+   0.4,
+   0.4,
+   0.4,
+   0.4,
+   0.4
+  ],
+  "lv_transfer_target": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_worktime_cut_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "series": {
+   "unemployment_rate": [
+    4.1,
+    4.31,
+    4.43,
+    3.51,
+    4.47,
+    3.49,
+    4.0,
+    4.31
+   ],
+   "employment_to_population": [
+    59.1,
+    58.65,
+    58.09,
+    58.96,
+    56.9,
+    58.21,
+    56.91,
+    56.05
+   ],
+   "median_real_income_index": [
+    100.0,
+    100.6,
+    101.2,
+    106.0,
+    102.8,
+    112.7,
+    115.5,
+    120.6
+   ],
+   "homeless_per_10k": [
+    22.0,
+    20.7,
+    19.0,
+    17.8,
+    16.7,
+    15.3,
+    14.1,
+    13.1
+   ],
+   "top1_income_share": [
+    20.0,
+    20.5,
+    21.1,
+    21.1,
+    22.3,
+    22.8,
+    24.7,
+    25.8
+   ],
+   "bottom20_real_income_index": [
+    100.0,
+    100.6,
+    101.3,
+    105.3,
+    103.0,
+    111.4,
+    113.9,
+    118.7
+   ]
+  }
+ },
+ "r3": {
+  "adults_2026": 274.8,
+  "adults_2036_from_emp": 286.0,
+  "adults_2036": 286.0,
+  "employed": [
+   162.4,
+   172.2
+  ],
+  "unemployed": [
+   7.0,
+   5.8
+  ],
+  "not_in_lf": [
+   105.4,
+   108.0
+  ],
+  "employed_if_2026_rate": 169.0,
+  "gap_vs_2026_rate": -3.2,
+  "unemployed_if_2026_rates": 7.2,
+  "notlf_if_2026_rate": 109.7,
+  "hours": [
+   34.3,
+   32.71
+  ],
+  "total_hours_change_pct": 1.1,
+  "hours_per_adult_change_pct": -2.8,
+  "destroyed": 19.76,
+  "created": 22.9,
+  "popgrowth_jobs": 6.67,
+  "vol_exits": 0.02,
+  "d_automation": 15.65,
+  "d_demand": 4.11,
+  "d_shift": 0.0,
+  "c_price": 0.03,
+  "c_shift": 0.0,
+  "c_newwork": 12.3,
+  "c_absorb": 0.76,
+  "c_demand": 8.8,
+  "c_policy": 1.0,
+  "c_unfilled": 0.0,
+  "office": [
+   48.0,
+   44.77
+  ],
+  "destroyed_office": 9.23,
+  "created_office": 4.14,
+  "min_emp_pop": 57.37,
+  "peak_u": 4.87,
+  "prices": {
+   "price_goods": 98.5,
+   "price_digital_services": 99.9,
+   "price_health": 101.4,
+   "price_housing": 82.5,
+   "cost_of_living_median": 93.5
+  },
+  "real_wage": 132.8,
+  "labour_share": 50.4,
+  "transfers": 0.02,
+  "lv_layoff_share": [
+   0.4,
+   0.3,
+   0.3,
+   0.25,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "lv_hours_share": [
+   0.1,
+   0.25,
+   0.35,
+   0.35,
+   0.35,
+   0.35,
+   0.35
+  ],
+  "lv_wage_sharing": [
+   0.0,
+   0.1,
+   0.15,
+   0.15,
+   0.15,
+   0.15,
+   0.15
+  ],
+  "lv_adoption_speed": [
+   1.15,
+   1.0,
+   1.0,
+   1.1,
+   1.1,
+   1.1,
+   1.0
+  ],
+  "lv_deploy_pace": [
+   1.2,
+   1.0,
+   1.1,
+   1.2,
+   1.15,
+   1.15,
+   1.0
+  ],
+  "lv_ai_pricing": [
+   -0.75,
+   -0.5,
+   -0.25,
+   -0.25,
+   -0.25,
+   -0.25,
+   -0.25
+  ],
+  "lv_housing_policy": [
+   0.0,
+   0.45,
+   0.5,
+   0.55,
+   0.6,
+   0.6,
+   0.65
+  ],
+  "lv_transfers_pct_gdp": [
+   0.01,
+   0.0,
+   0.01,
+   0.01,
+   0.03,
+   0.014,
+   0.017
+  ],
+  "lv_capital_tax_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   5.0,
+   5.0,
+   5.0
+  ],
+  "lv_new_business": [
+   0.95,
+   0.95,
+   1.15,
+   1.15,
+   1.25,
+   1.25,
+   1.25
+  ],
+  "lv_union_pressure": [
+   0.0,
+   0.25,
+   0.15,
+   0.05,
+   0.0,
+   0.1,
+   0.35
+  ],
+  "lv_public_jobs_m": [
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "lv_retraining_pct_gdp": [
+   0.0,
+   0.05,
+   0.15,
+   0.15,
+   0.4,
+   0.5,
+   0.525
+  ],
+  "lv_competition_policy": [
+   0.0,
+   0.0,
+   0.3,
+   0.3,
+   0.4,
+   0.5,
+   0.5
+  ],
+  "lv_transfer_target": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.4,
+   0.0,
+   0.0
+  ],
+  "lv_worktime_cut_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "series": {
+   "unemployment_rate": [
+    4.1,
+    4.17,
+    4.87,
+    3.62,
+    3.26,
+    3.2,
+    3.33,
+    3.27
+   ],
+   "employment_to_population": [
+    59.1,
+    58.96,
+    57.37,
+    58.9,
+    59.59,
+    60.07,
+    59.93,
+    60.21
+   ],
+   "median_real_income_index": [
+    100.0,
+    100.4,
+    98.1,
+    104.6,
+    108.8,
+    114.7,
+    119.6,
+    126.7
+   ],
+   "homeless_per_10k": [
+    22.0,
+    22.2,
+    20.0,
+    18.6,
+    17.6,
+    16.3,
+    15.5,
+    14.1
+   ],
+   "top1_income_share": [
+    20.0,
+    20.2,
+    20.9,
+    20.3,
+    20.1,
+    20.0,
+    20.6,
+    20.9
+   ],
+   "bottom20_real_income_index": [
+    100.0,
+    99.9,
+    98.3,
+    103.8,
+    107.3,
+    112.3,
+    116.1,
+    122.1
+   ]
+  }
+ },
+ "r4": {
+  "adults_2026": 274.8,
+  "adults_2036_from_emp": 286.0,
+  "adults_2036": 286.0,
+  "employed": [
+   162.4,
+   168.7
+  ],
+  "unemployed": [
+   7.0,
+   6.9
+  ],
+  "not_in_lf": [
+   105.4,
+   110.5
+  ],
+  "employed_if_2026_rate": 169.0,
+  "gap_vs_2026_rate": 0.4,
+  "unemployed_if_2026_rates": 7.2,
+  "notlf_if_2026_rate": 109.7,
+  "hours": [
+   34.3,
+   32.1
+  ],
+  "total_hours_change_pct": -2.8,
+  "hours_per_adult_change_pct": -6.6,
+  "destroyed": 29.54,
+  "created": 29.56,
+  "popgrowth_jobs": 6.57,
+  "vol_exits": 0.34,
+  "d_automation": 29.09,
+  "d_demand": 0.45,
+  "d_shift": 0.0,
+  "c_price": 0.03,
+  "c_shift": 0.0,
+  "c_newwork": 25.26,
+  "c_absorb": 1.19,
+  "c_demand": 3.09,
+  "c_policy": 0.0,
+  "c_unfilled": 0.0,
+  "office": [
+   48.0,
+   39.28
+  ],
+  "destroyed_office": 14.89,
+  "created_office": 4.46,
+  "min_emp_pop": 58.44,
+  "peak_u": 4.36,
+  "prices": {
+   "price_goods": 98.2,
+   "price_digital_services": 100.1,
+   "price_health": 102.1,
+   "price_housing": 80.9,
+   "cost_of_living_median": 92.9
+  },
+  "real_wage": 139.4,
+  "labour_share": 46.5,
+  "transfers": 0.71,
+  "lv_layoff_share": [
+   0.45,
+   0.45,
+   0.45,
+   0.45,
+   0.45,
+   0.45,
+   0.45
+  ],
+  "lv_hours_share": [
+   0.1,
+   0.15,
+   0.2,
+   0.25,
+   0.3,
+   0.3,
+   0.3
+  ],
+  "lv_wage_sharing": [
+   0.0,
+   0.0,
+   0.05,
+   0.1,
+   0.1,
+   0.1,
+   0.1
+  ],
+  "lv_adoption_speed": [
+   1.0,
+   1.15,
+   1.15,
+   1.15,
+   1.15,
+   1.15,
+   1.15
+  ],
+  "lv_deploy_pace": [
+   1.15,
+   1.2,
+   1.2,
+   1.2,
+   1.2,
+   1.2,
+   1.2
+  ],
+  "lv_ai_pricing": [
+   -0.5,
+   -0.2,
+   -0.5,
+   -0.5,
+   -0.5,
+   -0.5,
+   -0.5
+  ],
+  "lv_housing_policy": [
+   0.1,
+   0.15,
+   0.15,
+   0.25,
+   0.6,
+   0.7,
+   0.8
+  ],
+  "lv_transfers_pct_gdp": [
+   0.0,
+   0.003,
+   0.003,
+   0.003,
+   0.303,
+   0.408,
+   0.708
+  ],
+  "lv_capital_tax_pct": [
+   0.0,
+   0.0,
+   0.0,
+   3.0,
+   7.0,
+   7.0,
+   10.0
+  ],
+  "lv_new_business": [
+   1.0,
+   1.0,
+   0.9,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "lv_union_pressure": [
+   0.25,
+   0.5,
+   0.75,
+   1.0,
+   0.9,
+   1.0,
+   1.0
+  ],
+  "lv_public_jobs_m": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_retraining_pct_gdp": [
+   0.0,
+   0.05,
+   0.05,
+   0.3,
+   0.3,
+   0.4,
+   0.4
+  ],
+  "lv_competition_policy": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_transfer_target": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "lv_worktime_cut_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "series": {
+   "unemployment_rate": [
+    4.1,
+    4.32,
+    4.36,
+    4.32,
+    4.14,
+    4.17,
+    4.25,
+    3.91
+   ],
+   "employment_to_population": [
+    59.1,
+    58.74,
+    58.56,
+    58.48,
+    58.67,
+    58.61,
+    58.44,
+    58.97
+   ],
+   "median_real_income_index": [
+    100.0,
+    100.9,
+    102.7,
+    105.2,
+    108.2,
+    113.8,
+    120.2,
+    130.4
+   ],
+   "homeless_per_10k": [
+    22.0,
+    21.1,
+    20.4,
+    19.7,
+    18.7,
+    15.7,
+    14.1,
+    12.0
+   ],
+   "top1_income_share": [
+    20.0,
+    20.3,
+    20.5,
+    20.8,
+    20.8,
+    21.2,
+    21.9,
+    22.2
+   ],
+   "bottom20_real_income_index": [
+    100.0,
+    100.8,
+    102.2,
+    104.2,
+    106.6,
+    115.3,
+    122.4,
+    136.5
+   ]
+  }
+ },
+ "r5": {
+  "adults_2026": 274.8,
+  "adults_2036_from_emp": 286.0,
+  "adults_2036": 286.0,
+  "employed": [
+   162.4,
+   168.9
+  ],
+  "unemployed": [
+   7.0,
+   7.1
+  ],
+  "not_in_lf": [
+   105.4,
+   110.0
+  ],
+  "employed_if_2026_rate": 169.0,
+  "gap_vs_2026_rate": 0.1,
+  "unemployed_if_2026_rates": 7.2,
+  "notlf_if_2026_rate": 109.7,
+  "hours": [
+   34.3,
+   33.75
+  ],
+  "total_hours_change_pct": 2.3,
+  "hours_per_adult_change_pct": -1.7,
+  "destroyed": 14.16,
+  "created": 14.24,
+  "popgrowth_jobs": 6.58,
+  "vol_exits": 0.14,
+  "d_automation": 9.66,
+  "d_demand": 4.51,
+  "d_shift": 0.0,
+  "c_price": 0.07,
+  "c_shift": 0.03,
+  "c_newwork": 8.9,
+  "c_absorb": 0.96,
+  "c_demand": 4.27,
+  "c_policy": 0.0,
+  "c_unfilled": 0.0,
+  "office": [
+   48.0,
+   45.97
+  ],
+  "destroyed_office": 6.29,
+  "created_office": 2.4,
+  "min_emp_pop": 57.45,
+  "peak_u": 5.33,
+  "prices": {
+   "price_goods": 99.3,
+   "price_digital_services": 99.8,
+   "price_health": 100.5,
+   "price_housing": 92.1,
+   "cost_of_living_median": 97.1
+  },
+  "real_wage": 119.4,
+  "labour_share": 50.7,
+  "transfers": 0.25,
+  "lv_layoff_share": [
+   0.4,
+   0.4,
+   0.4,
+   0.55,
+   0.45,
+   0.45,
+   0.45
+  ],
+  "lv_hours_share": [
+   0.1,
+   0.1,
+   0.12,
+   0.13,
+   0.25,
+   0.25,
+   0.25
+  ],
+  "lv_wage_sharing": [
+   0.1,
+   0.15,
+   0.15,
+   0.15,
+   0.15,
+   0.15,
+   0.15
+  ],
+  "lv_adoption_speed": [
+   1.15,
+   1.2,
+   1.2,
+   1.05,
+   1.0,
+   1.05,
+   1.05
+  ],
+  "lv_deploy_pace": [
+   1.2,
+   1.2,
+   1.2,
+   1.0,
+   1.0,
+   1.0,
+   1.05
+  ],
+  "lv_ai_pricing": [
+   -0.75,
+   -0.25,
+   -0.25,
+   0.0,
+   0.0,
+   0.0,
+   0.125
+  ],
+  "lv_housing_policy": [
+   0.0,
+   0.15,
+   0.15,
+   0.55,
+   0.825,
+   0.875,
+   0.9875
+  ],
+  "lv_transfers_pct_gdp": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.125,
+   0.25
+  ],
+  "lv_capital_tax_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.5,
+   3.5
+  ],
+  "lv_new_business": [
+   0.9,
+   1.1,
+   1.2,
+   1.0,
+   1.2,
+   1.3,
+   1.25
+  ],
+  "lv_union_pressure": [
+   0.25,
+   0.5,
+   0.4,
+   0.3,
+   0.2,
+   0.1,
+   0.0
+  ],
+  "lv_public_jobs_m": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "lv_retraining_pct_gdp": [
+   0.0,
+   0.0,
+   0.1,
+   0.1,
+   0.175,
+   0.225,
+   0.325
+  ],
+  "lv_competition_policy": [
+   0.0,
+   0.0,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.45
+  ],
+  "lv_transfer_target": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "lv_worktime_cut_pct": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "series": {
+   "unemployment_rate": [
+    4.1,
+    4.14,
+    4.04,
+    4.12,
+    5.33,
+    4.05,
+    4.0,
+    4.01
+   ],
+   "employment_to_population": [
+    59.1,
+    59.02,
+    59.1,
+    58.96,
+    57.45,
+    58.86,
+    59.0,
+    59.06
+   ],
+   "median_real_income_index": [
+    100.0,
+    100.7,
+    102.2,
+    103.0,
+    100.2,
+    108.7,
+    112.9,
+    116.2
+   ],
+   "homeless_per_10k": [
+    22.0,
+    22.0,
+    21.1,
+    21.0,
+    19.4,
+    16.6,
+    15.5,
+    14.6
+   ],
+   "top1_income_share": [
+    20.0,
+    20.1,
+    20.1,
+    20.3,
+    21.0,
+    20.5,
+    20.6,
+    20.8
+   ],
+   "bottom20_real_income_index": [
+    100.0,
+    100.3,
+    101.3,
+    101.7,
+    99.4,
+    106.5,
+    111.4,
+    115.4
+   ]
+  }
+ }
+}

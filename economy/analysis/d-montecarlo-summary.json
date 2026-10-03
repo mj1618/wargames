@@ -1,0 +1,833 @@
+{
+ "runs": {
+  "r1": {
+   "params": {
+    "seed": 107862,
+    "noise": 1.0,
+    "cog_auto_2032": 0.4465,
+    "robot_lag_years": 7.1468,
+    "jevons": 1.6444,
+    "new_task_rate": 0.9408,
+    "diffusion_t50": 3.6637,
+    "passthrough": 0.7853,
+    "wage_share": -0.2619,
+    "housing_supply": 0.9487,
+    "demand_mult": 0.5302,
+    "policy_lag_years": 1.627,
+    "policy_scale_pct": 4.2833
+   },
+   "played": {
+    "unemployment_2036": 2.93,
+    "peak_unemployment": 4.1,
+    "participation_2036": 64.63,
+    "emp_pop_2036": 62.73,
+    "min_emp_pop": 58.98,
+    "jobs_destroyed_total": 37.61,
+    "jobs_created_total": 47.88,
+    "created_per_destroyed": 1.273,
+    "median_income_2036": 135.3,
+    "bottom20_income_2036": 132.5,
+    "top1_share_2036": 22.9,
+    "labour_share_2036": 45.8,
+    "gdp_index_2036": 155.9,
+    "poverty_2036": 7.3,
+    "homeless_2036": 12.2,
+    "housing_cost_2036": 76.8,
+    "deficit_2036": 4.0,
+    "debt_2036": 90.2,
+    "unrest_2036": 17.2,
+    "peak_unrest": 35.0
+   },
+   "harsh_hand_params": {
+    "seed": 107862,
+    "noise": 1.0,
+    "cog_auto_2032": 0.4465,
+    "robot_lag_years": 7.1468,
+    "jevons": 0.64,
+    "new_task_rate": 0.4,
+    "diffusion_t50": 4.3843,
+    "passthrough": 0.34,
+    "wage_share": -0.12,
+    "housing_supply": 0.2,
+    "demand_mult": 1.3,
+    "policy_lag_years": 1.627,
+    "policy_scale_pct": 4.2833
+   }
+  },
+  "r2": {
+   "params": {
+    "seed": 650397,
+    "noise": 1.0,
+    "cog_auto_2032": 0.5876,
+    "robot_lag_years": 2.7302,
+    "jevons": 1.2463,
+    "new_task_rate": 0.6501,
+    "diffusion_t50": 3.7296,
+    "passthrough": 0.6362,
+    "wage_share": -0.0335,
+    "housing_supply": 0.7514,
+    "demand_mult": 1.2662,
+    "policy_lag_years": 1.2443,
+    "policy_scale_pct": 5.1286
+   },
+   "played": {
+    "unemployment_2036": 4.31,
+    "peak_unemployment": 4.47,
+    "participation_2036": 58.57,
+    "emp_pop_2036": 56.05,
+    "min_emp_pop": 56.05,
+    "jobs_destroyed_total": 53.47,
+    "jobs_created_total": 44.87,
+    "created_per_destroyed": 0.839,
+    "median_income_2036": 120.6,
+    "bottom20_income_2036": 118.7,
+    "top1_share_2036": 25.8,
+    "labour_share_2036": 38.8,
+    "gdp_index_2036": 152.2,
+    "poverty_2036": 9.2,
+    "homeless_2036": 13.1,
+    "housing_cost_2036": 75.7,
+    "deficit_2036": 5.3,
+    "debt_2036": 98.2,
+    "unrest_2036": 37.2,
+    "peak_unrest": 37.4
+   },
+   "harsh_hand_params": {
+    "seed": 650397,
+    "noise": 1.0,
+    "cog_auto_2032": 0.5876,
+    "robot_lag_years": 2.7302,
+    "jevons": 0.64,
+    "new_task_rate": 0.4,
+    "diffusion_t50": 4.3843,
+    "passthrough": 0.34,
+    "wage_share": -0.12,
+    "housing_supply": 0.2,
+    "demand_mult": 1.3,
+    "policy_lag_years": 1.2443,
+    "policy_scale_pct": 5.1286
+   }
+  },
+  "r3": {
+   "params": {
+    "seed": 235553,
+    "noise": 1.0,
+    "cog_auto_2032": 0.5798,
+    "robot_lag_years": 4.7873,
+    "jevons": 1.6805,
+    "new_task_rate": 0.8818,
+    "diffusion_t50": 9.2356,
+    "passthrough": 0.546,
+    "wage_share": 0.5589,
+    "housing_supply": 0.9909,
+    "demand_mult": 0.6754,
+    "policy_lag_years": 1.3966,
+    "policy_scale_pct": 6.1635
+   },
+   "played": {
+    "unemployment_2036": 3.27,
+    "peak_unemployment": 4.87,
+    "participation_2036": 62.24,
+    "emp_pop_2036": 60.21,
+    "min_emp_pop": 57.37,
+    "jobs_destroyed_total": 19.76,
+    "jobs_created_total": 22.9,
+    "created_per_destroyed": 1.159,
+    "median_income_2036": 126.7,
+    "bottom20_income_2036": 122.1,
+    "top1_share_2036": 20.9,
+    "labour_share_2036": 50.4,
+    "gdp_index_2036": 130.9,
+    "poverty_2036": 8.7,
+    "homeless_2036": 14.1,
+    "housing_cost_2036": 82.5,
+    "deficit_2036": 5.2,
+    "debt_2036": 109.5,
+    "unrest_2036": 22.5,
+    "peak_unrest": 39.1
+   },
+   "harsh_hand_params": {
+    "seed": 235553,
+    "noise": 1.0,
+    "cog_auto_2032": 0.5798,
+    "robot_lag_years": 4.7873,
+    "jevons": 0.64,
+    "new_task_rate": 0.4,
+    "diffusion_t50": 4.3843,
+    "passthrough": 0.34,
+    "wage_share": -0.12,
+    "housing_supply": 0.2,
+    "demand_mult": 1.3,
+    "policy_lag_years": 1.3966,
+    "policy_scale_pct": 6.1635
+   }
+  },
+  "r4": {
+   "params": {
+    "seed": 928834,
+    "noise": 1.0,
+    "cog_auto_2032": 0.4012,
+    "robot_lag_years": 3.8374,
+    "jevons": 1.6652,
+    "new_task_rate": 1.07,
+    "diffusion_t50": 3.0802,
+    "passthrough": 0.6436,
+    "wage_share": 0.537,
+    "housing_supply": 0.9645,
+    "demand_mult": 0.7456,
+    "policy_lag_years": 6.1173,
+    "policy_scale_pct": 1.4545
+   },
+   "played": {
+    "unemployment_2036": 3.91,
+    "peak_unemployment": 4.36,
+    "participation_2036": 61.38,
+    "emp_pop_2036": 58.97,
+    "min_emp_pop": 58.44,
+    "jobs_destroyed_total": 29.55,
+    "jobs_created_total": 29.57,
+    "created_per_destroyed": 1.001,
+    "median_income_2036": 130.4,
+    "bottom20_income_2036": 136.5,
+    "top1_share_2036": 22.2,
+    "labour_share_2036": 46.5,
+    "gdp_index_2036": 142.1,
+    "poverty_2036": 6.9,
+    "homeless_2036": 12.0,
+    "housing_cost_2036": 80.9,
+    "deficit_2036": 4.5,
+    "debt_2036": 99.3,
+    "unrest_2036": 27.1,
+    "peak_unrest": 36.0
+   },
+   "harsh_hand_params": {
+    "seed": 928834,
+    "noise": 1.0,
+    "cog_auto_2032": 0.4012,
+    "robot_lag_years": 3.8374,
+    "jevons": 0.64,
+    "new_task_rate": 0.4,
+    "diffusion_t50": 4.3843,
+    "passthrough": 0.34,
+    "wage_share": -0.12,
+    "housing_supply": 0.2,
+    "demand_mult": 1.3,
+    "policy_lag_years": 6.1173,
+    "policy_scale_pct": 1.4545
+   }
+  },
+  "r5": {
+   "params": {
+    "seed": 819616,
+    "noise": 1.0,
+    "cog_auto_2032": 0.3792,
+    "robot_lag_years": 5.9687,
+    "jevons": 0.6864,
+    "new_task_rate": 0.9785,
+    "diffusion_t50": 14.1084,
+    "passthrough": 0.5862,
+    "wage_share": 0.42,
+    "housing_supply": 0.4139,
+    "demand_mult": 0.7118,
+    "policy_lag_years": 5.266,
+    "policy_scale_pct": 2.5749
+   },
+   "played": {
+    "unemployment_2036": 4.01,
+    "peak_unemployment": 5.33,
+    "participation_2036": 61.53,
+    "emp_pop_2036": 59.06,
+    "min_emp_pop": 57.45,
+    "jobs_destroyed_total": 14.17,
+    "jobs_created_total": 14.23,
+    "created_per_destroyed": 1.004,
+    "median_income_2036": 116.2,
+    "bottom20_income_2036": 115.4,
+    "top1_share_2036": 20.8,
+    "labour_share_2036": 50.7,
+    "gdp_index_2036": 123.4,
+    "poverty_2036": 9.7,
+    "homeless_2036": 14.6,
+    "housing_cost_2036": 92.1,
+    "deficit_2036": 6.0,
+    "debt_2036": 117.6,
+    "unrest_2036": 30.1,
+    "peak_unrest": 38.9
+   },
+   "harsh_hand_params": {
+    "seed": 819616,
+    "noise": 1.0,
+    "cog_auto_2032": 0.3792,
+    "robot_lag_years": 5.9687,
+    "jevons": 0.64,
+    "new_task_rate": 0.4,
+    "diffusion_t50": 4.3843,
+    "passthrough": 0.34,
+    "wage_share": -0.12,
+    "housing_supply": 0.2,
+    "demand_mult": 1.3,
+    "policy_lag_years": 5.266,
+    "policy_scale_pct": 2.5749
+   }
+  }
+ },
+ "mc": {
+  "shares": {
+   "default": {
+    "n": 1000,
+    "created_exceed_destroyed_pct": 15.6,
+    "median_income_below_2026_pct": 10.3,
+    "unemployment_above_8_pct": 2.1,
+    "emp_pop_at_or_above_2026_pct": 16.0,
+    "emp_pop_down_3pts_or_more_pct": 21.5,
+    "bottom20_below_2026_pct": 21.3,
+    "homeless_above_2026_pct": 34.2,
+    "pcts": {
+     "unemployment_2036": [
+      4.21,
+      4.56,
+      5.02,
+      5.66,
+      6.62
+     ],
+     "peak_unemployment": [
+      4.26,
+      4.58,
+      5.11,
+      5.87,
+      6.79
+     ],
+     "participation_2036": [
+      58.59,
+      59.77,
+      60.78,
+      61.49,
+      62.04
+     ],
+     "emp_pop_2036": [
+      54.7,
+      56.4,
+      57.68,
+      58.67,
+      59.45
+     ],
+     "min_emp_pop": [
+      54.7,
+      56.36,
+      57.68,
+      58.67,
+      59.03
+     ],
+     "jobs_destroyed_total": [
+      9.36,
+      12.58,
+      18.09,
+      25.97,
+      34.35
+     ],
+     "jobs_created_total": [
+      6.3,
+      8.91,
+      14.13,
+      20.09,
+      27.61
+     ],
+     "created_per_destroyed": [
+      0.49,
+      0.62,
+      0.77,
+      0.93,
+      1.05
+     ],
+     "median_income_2036": [
+      99.7,
+      104.4,
+      109.0,
+      113.9,
+      118.21
+     ],
+     "bottom20_income_2036": [
+      96.29,
+      100.7,
+      106.15,
+      112.1,
+      120.52
+     ],
+     "top1_share_2036": [
+      21.2,
+      21.6,
+      22.4,
+      23.6,
+      24.7
+     ],
+     "labour_share_2036": [
+      40.7,
+      43.8,
+      46.8,
+      48.8,
+      50.0
+     ],
+     "gdp_index_2036": [
+      119.4,
+      121.67,
+      126.0,
+      131.3,
+      138.91
+     ],
+     "poverty_2036": [
+      8.9,
+      10.3,
+      11.4,
+      12.7,
+      13.9
+     ],
+     "homeless_2036": [
+      16.8,
+      18.2,
+      20.5,
+      23.12,
+      25.3
+     ],
+     "housing_cost_2036": [
+      83.09,
+      88.1,
+      98.55,
+      109.3,
+      116.8
+     ],
+     "deficit_2036": [
+      4.9,
+      5.4,
+      5.8,
+      6.3,
+      7.5
+     ]
+    }
+   },
+   "laissez": {
+    "n": 1000,
+    "created_exceed_destroyed_pct": 13.5,
+    "median_income_below_2026_pct": 20.4,
+    "unemployment_above_8_pct": 15.4,
+    "emp_pop_at_or_above_2026_pct": 13.7,
+    "emp_pop_down_3pts_or_more_pct": 32.7,
+    "bottom20_below_2026_pct": 33.3,
+    "homeless_above_2026_pct": 41.7,
+    "pcts": {
+     "unemployment_2036": [
+      4.47,
+      5.01,
+      5.78,
+      7.03,
+      8.85
+     ],
+     "peak_unemployment": [
+      4.49,
+      5.01,
+      5.78,
+      7.03,
+      8.85
+     ],
+     "participation_2036": [
+      57.85,
+      59.45,
+      60.7,
+      61.52,
+      62.15
+     ],
+     "emp_pop_2036": [
+      52.81,
+      55.3,
+      57.22,
+      58.41,
+      59.35
+     ],
+     "min_emp_pop": [
+      52.81,
+      55.3,
+      57.22,
+      58.41,
+      59.0
+     ],
+     "jobs_destroyed_total": [
+      11.46,
+      15.36,
+      21.91,
+      31.07,
+      41.69
+     ],
+     "jobs_created_total": [
+      7.35,
+      10.32,
+      15.45,
+      22.27,
+      30.7
+     ],
+     "created_per_destroyed": [
+      0.43,
+      0.55,
+      0.73,
+      0.9,
+      1.04
+     ],
+     "median_income_2036": [
+      95.7,
+      101.57,
+      107.1,
+      112.8,
+      117.51
+     ],
+     "bottom20_income_2036": [
+      93.4,
+      97.9,
+      103.3,
+      109.1,
+      113.6
+     ],
+     "top1_share_2036": [
+      21.5,
+      22.1,
+      23.1,
+      24.7,
+      26.4
+     ],
+     "labour_share_2036": [
+      37.7,
+      41.7,
+      45.4,
+      47.9,
+      49.3
+     ],
+     "gdp_index_2036": [
+      120.0,
+      122.6,
+      127.45,
+      133.8,
+      142.8
+     ],
+     "poverty_2036": [
+      10.0,
+      10.8,
+      12.1,
+      13.4,
+      14.8
+     ],
+     "homeless_2036": [
+      17.9,
+      19.1,
+      21.25,
+      23.8,
+      26.3
+     ],
+     "housing_cost_2036": [
+      82.6,
+      87.88,
+      98.1,
+      109.1,
+      116.5
+     ],
+     "deficit_2036": [
+      4.8,
+      5.3,
+      5.9,
+      6.4,
+      6.9
+     ]
+    }
+   },
+   "active": {
+    "n": 1000,
+    "created_exceed_destroyed_pct": 55.2,
+    "median_income_below_2026_pct": 0.2,
+    "unemployment_above_8_pct": 0.1,
+    "emp_pop_at_or_above_2026_pct": 36.3,
+    "emp_pop_down_3pts_or_more_pct": 4.9,
+    "bottom20_below_2026_pct": 0.0,
+    "homeless_above_2026_pct": 0.0,
+    "pcts": {
+     "unemployment_2036": [
+      3.38,
+      3.99,
+      4.43,
+      4.92,
+      5.64
+     ],
+     "peak_unemployment": [
+      4.11,
+      4.14,
+      4.43,
+      4.92,
+      5.64
+     ],
+     "participation_2036": [
+      60.22,
+      60.88,
+      61.4,
+      62.01,
+      62.79
+     ],
+     "emp_pop_2036": [
+      56.83,
+      57.9,
+      58.67,
+      59.54,
+      60.64
+     ],
+     "min_emp_pop": [
+      56.83,
+      57.9,
+      58.53,
+      58.6,
+      58.67
+     ],
+     "jobs_destroyed_total": [
+      7.15,
+      9.57,
+      13.61,
+      19.56,
+      26.21
+     ],
+     "jobs_created_total": [
+      7.05,
+      9.56,
+      14.1,
+      20.03,
+      27.57
+     ],
+     "created_per_destroyed": [
+      0.72,
+      0.87,
+      1.04,
+      1.24,
+      1.39
+     ],
+     "median_income_2036": [
+      111.19,
+      114.7,
+      119.5,
+      123.8,
+      128.2
+     ],
+     "bottom20_income_2036": [
+      134.0,
+      138.7,
+      145.4,
+      151.43,
+      157.41
+     ],
+     "top1_share_2036": [
+      20.0,
+      20.3,
+      20.9,
+      21.8,
+      22.8
+     ],
+     "labour_share_2036": [
+      43.79,
+      46.1,
+      48.35,
+      49.9,
+      50.6
+     ],
+     "gdp_index_2036": [
+      119.2,
+      121.4,
+      125.3,
+      130.8,
+      137.9
+     ],
+     "poverty_2036": [
+      5.2,
+      5.6,
+      6.1,
+      6.7,
+      7.2
+     ],
+     "homeless_2036": [
+      10.6,
+      11.1,
+      12.15,
+      13.6,
+      14.5
+     ],
+     "housing_cost_2036": [
+      76.9,
+      79.57,
+      88.1,
+      97.9,
+      104.6
+     ],
+     "deficit_2036": [
+      7.1,
+      7.7,
+      8.2,
+      8.6,
+      8.8
+     ]
+    }
+   }
+  },
+  "separation_default": {
+   "cog_auto_2032": {
+    "rank_corr_emp_pop": -0.4,
+    "rank_corr_created_per_destroyed": -0.2,
+    "rank_corr_median_income": -0.08,
+    "rank_corr_homeless": -0.03,
+    "mean_pctile_in_good_runs": 36.0,
+    "mean_pctile_in_bad_runs": 64.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "robot_lag_years": {
+    "rank_corr_emp_pop": 0.04,
+    "rank_corr_created_per_destroyed": -0.02,
+    "rank_corr_median_income": 0.01,
+    "rank_corr_homeless": 0.01,
+    "mean_pctile_in_good_runs": 46.0,
+    "mean_pctile_in_bad_runs": 43.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "jevons": {
+    "rank_corr_emp_pop": 0.14,
+    "rank_corr_created_per_destroyed": 0.17,
+    "rank_corr_median_income": 0.12,
+    "rank_corr_homeless": -0.04,
+    "mean_pctile_in_good_runs": 57.0,
+    "mean_pctile_in_bad_runs": 45.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "new_task_rate": {
+    "rank_corr_emp_pop": 0.73,
+    "rank_corr_created_per_destroyed": 0.81,
+    "rank_corr_median_income": 0.46,
+    "rank_corr_homeless": 0.01,
+    "mean_pctile_in_good_runs": 80.0,
+    "mean_pctile_in_bad_runs": 24.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "diffusion_t50": {
+    "rank_corr_emp_pop": 0.27,
+    "rank_corr_created_per_destroyed": -0.09,
+    "rank_corr_median_income": -0.08,
+    "rank_corr_homeless": 0.12,
+    "mean_pctile_in_good_runs": 53.0,
+    "mean_pctile_in_bad_runs": 37.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "passthrough": {
+    "rank_corr_emp_pop": 0.19,
+    "rank_corr_created_per_destroyed": 0.21,
+    "rank_corr_median_income": 0.11,
+    "rank_corr_homeless": 0.04,
+    "mean_pctile_in_good_runs": 63.0,
+    "mean_pctile_in_bad_runs": 47.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "wage_share": {
+    "rank_corr_emp_pop": -0.1,
+    "rank_corr_created_per_destroyed": -0.16,
+    "rank_corr_median_income": 0.16,
+    "rank_corr_homeless": 0.02,
+    "mean_pctile_in_good_runs": 44.0,
+    "mean_pctile_in_bad_runs": 47.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "housing_supply": {
+    "rank_corr_emp_pop": 0.03,
+    "rank_corr_created_per_destroyed": 0.04,
+    "rank_corr_median_income": 0.66,
+    "rank_corr_homeless": -0.81,
+    "mean_pctile_in_good_runs": 62.0,
+    "mean_pctile_in_bad_runs": 43.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "demand_mult": {
+    "rank_corr_emp_pop": -0.02,
+    "rank_corr_created_per_destroyed": 0.01,
+    "rank_corr_median_income": -0.04,
+    "rank_corr_homeless": 0.03,
+    "mean_pctile_in_good_runs": 49.0,
+    "mean_pctile_in_bad_runs": 51.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "policy_lag_years": {
+    "rank_corr_emp_pop": -0.03,
+    "rank_corr_created_per_destroyed": -0.07,
+    "rank_corr_median_income": -0.1,
+    "rank_corr_homeless": 0.14,
+    "mean_pctile_in_good_runs": 50.0,
+    "mean_pctile_in_bad_runs": 54.0,
+    "n_good": 199,
+    "n_bad": 239
+   },
+   "policy_scale_pct": {
+    "rank_corr_emp_pop": -0.03,
+    "rank_corr_created_per_destroyed": 0.03,
+    "rank_corr_median_income": 0.04,
+    "rank_corr_homeless": -0.06,
+    "mean_pctile_in_good_runs": 46.0,
+    "mean_pctile_in_bad_runs": 46.0,
+    "n_good": 199,
+    "n_bad": 239
+   }
+  },
+  "conditional_default": {
+   "new_task_rate>=0.65": {
+    "n": 538,
+    "created>destroyed_pct": 28.1,
+    "emp_pop_median": 58.5,
+    "median_income_median": 111.3,
+    "median_below_2026_pct": 3.3,
+    "homeless_median": 20.6
+   },
+   "new_task_rate<0.65": {
+    "n": 462,
+    "created>destroyed_pct": 1.1,
+    "emp_pop_median": 56.6,
+    "median_income_median": 106.0,
+    "median_below_2026_pct": 18.4,
+    "homeless_median": 20.3
+   },
+   "new_task>=0.65 & housing>=0.4": {
+    "n": 336,
+    "created>destroyed_pct": 30.1,
+    "emp_pop_median": 58.5,
+    "median_income_median": 114.5,
+    "median_below_2026_pct": 0.3,
+    "homeless_median": 19.0
+   },
+   "new_task<0.5 & housing<0.4": {
+    "n": 119,
+    "created>destroyed_pct": 0.0,
+    "emp_pop_median": 56.0,
+    "median_income_median": 100.6,
+    "median_below_2026_pct": 42.0,
+    "homeless_median": 24.0
+   },
+   "housing>=0.75": {
+    "n": 246,
+    "created>destroyed_pct": 17.5,
+    "emp_pop_median": 57.8,
+    "median_income_median": 115.2,
+    "median_below_2026_pct": 1.2,
+    "homeless_median": 17.8
+   },
+   "housing<0.25": {
+    "n": 245,
+    "created>destroyed_pct": 11.8,
+    "emp_pop_median": 57.6,
+    "median_income_median": 103.3,
+    "median_below_2026_pct": 25.7,
+    "homeless_median": 24.6
+   }
+  }
+ }
+}
