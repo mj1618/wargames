@@ -6,3 +6,6 @@ Believe: savings are real, rivals will move, Washington is friendly and demand r
 
 ## Round 02 (2028)
 Believe: model works but credit squeeze and shaky AI valuations raise project risk; election could bring profit taxes. Committed: automation back to normal speed, short contracts only, hours_share ~25% via subsidy, layoff_share ~30%, layoff cap plus ~1% payroll profit-sharing for a no-rules public line, price pass-through unchanged. Watching: rival price cuts, our sales trend, election polling, labs' pricing and capacity.
+
+## Round 03 (2029)
+Believe: demand is now our own problem; worker-first government means tax/rules risk, so buy peace cheaply. Committed: settle with households before June (hours_share ~35%, half pay top-up, ~1.5% payroll profit-sharing), ~0.4m entry-level cohort plus paid retraining, normal automation speed, layoff_share ~30%, one-third price pass-through. Watching: profit-tax and deployment bills, strike deadline, sales trend, rival shedding.

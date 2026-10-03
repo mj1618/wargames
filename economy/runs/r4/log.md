@@ -16,3 +16,7 @@
 - 2026-10-03T15:56:13 | r4 t02 law: Youth Hiring and Apprenticeship Act 0.15% GDP (small 0.30, no adjustment) | p=0.30 partial=0.15 r=0.4715 -> FAIL
 - 2026-10-03T15:56:13 | r4 t02 court blocks executive extension of disclosure rule to hiring freezes | p=0.35 r=0.2018 -> SUCCESS
 - 2026-10-03T15:56:13 | r4 t02 households organising drive renewed and widened (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.3389 -> SUCCESS
+- 2026-10-03T15:56:22 | r4 t02 election Nov 2028: growth-first coalition loses lead (0.35 +0.01 unrest 36.0) | p=0.36 r=0.0524 -> SUCCESS
+- 2026-10-03T15:56:22 | r4 t02 election configuration shift | DRAW 3 of 3
+- 2026-10-03T15:56:23 | r4 t02 statistics noise | DRAW 3 of 5
+- 2026-10-03T15:56:23 | r4 t03 event | DRAW 3 of 24
