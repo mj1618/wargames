@@ -7,3 +7,9 @@
 - 2026-10-03T15:47:34 | r1 setup hint uninformative? entrepreneurs | p=0.25 r=0.7285 -> FAIL
 - 2026-10-03T15:47:34 | r1 setup hint uninformative? federal-gov | p=0.25 r=0.5635 -> FAIL
 - 2026-10-03T15:47:34 | r1 setup hint uninformative? households | p=0.25 r=0.3472 -> FAIL
+- 2026-10-03T15:52:04 | r1 t01 households organising drive succeeds (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.7673 -> FAIL
+- 2026-10-03T15:52:04 | r1 t01 court blocks executive disclosure rule | p=0.35 r=0.0411 -> SUCCESS
+- 2026-10-03T15:52:04 | r1 t01 Bill 1 housing incentives passes (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.7446 -> SUCCESS
+- 2026-10-03T15:52:04 | r1 t01 Bill 2 retraining and wage insurance with trigger passes (small 0.80) | p=0.80 partial=0.15 r=0.4864 -> SUCCESS
+- 2026-10-03T15:52:04 | r1 t01 published-statistics noise | DRAW 1 of 5
+- 2026-10-03T15:52:14 | r1 t02 event | DRAW 14 of 24

@@ -52,3 +52,9 @@ Official statistics arrive late and with noise. Company and household players se
 # Record of events
 
 (Each round's public summary is appended below.)
+
+## 2027
+
+Official figures for end 2027 (preliminary): unemployment 4.0%, participation 61.6%, employment 162.8m (59.0% of adults). GDP grew 1.6%. Median real household income index about 100.2. Consumer prices flat in real terms; housing costs up slightly. Labour's share of income 52.6%, a new record low. Federal deficit 6.0% of GDP, debt about 103%. Poverty and homelessness figures for 2027 are not yet published.
+
+Announced layoffs blamed on AI were about 170,000; most large employers said they were cutting through hiring freezes. AI firms released the new generation on a faster schedule and sold multi-year enterprise bundles; list prices held. Congress rejected the Workforce Transition Act and passed a half-size housing-incentives bill, starting 2028. A federal court blocked the executive order requiring firms to report AI-related layoffs. A union organising drive in offices, call centres and warehouses won recognition at a string of sites.

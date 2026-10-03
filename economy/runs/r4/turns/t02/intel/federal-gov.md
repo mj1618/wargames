@@ -1,0 +1,9 @@
+# Intel — Federal government — January to December 2028
+
+**Numbers everyone has (end 2027, preliminary):** unemployment 4.2%; participation 61.4%; about 162.0m jobs; real pay up about 1.5%; consumer prices flat; housing costs down about 2%; median household income index about 100.4; GDP +1.6%; labour share 52.2% (new record low); federal deficit 6.1% of GDP, debt about 103%. Poverty and homelessness for 2027 not yet published.
+
+**Washington:** safe-harbour bill failed; wage-insurance pilot passed at half size (from 2028); AI-layoff disclosure rule and housing-grant tilt in force. Elections for President and Congress in November 2028.
+
+**This year's headline — Open-weight price war:** free models now match last year's best; prices for AI services are collapsing.
+
+**From your own seat:** Bill 1 (safe harbour) lost on the floor; your factions split. Bill 2 passed at half size: about $16bn a year from 2028. The disclosure rule survived its court challenge; first filings show about 0.6m announced layoffs, most attributed to AI, and far more posts closed by hiring freezes. Wage-tax receipts are a touch soft: revenue 17.2% of GDP. The mood in the country is little changed. Vote count unchanged: almost nothing passes. Messages to you — from AI firms: "We will back an accountable-automation standard and pay the transition fund if the bill includes liability safe-harbour and no deployment limits or profits levy. We can help draft it this quarter." From Employers: "We would support a safe harbour for audited human-in-the-loop systems under the liability ruling, and we would offer a voluntary pledge against mass layoffs in exchange for stable deployment rules and no new AI-profits tax." From Entrepreneurs: "Keep AI inputs cheap and competitive. Antitrust action against dominant labs helps everyone else." From Households: "Jobs for under-25s are the issue that will move voters in 2028. Build a youth hiring and apprenticeship bill now."

@@ -51,3 +51,12 @@ Official statistics arrive late and with noise. Company and household players se
 ## 2027 opens
 
 - **Liability ruling.** Courts have held firms fully liable for harm done by automated decisions. Companies are reviewing where they let machines decide without a person signing off.
+
+## 2027 in review (official statistics, preliminary)
+
+- **Jobs.** Unemployment 4.2%; participation 61.4%; about 162.0m in work. Announced layoffs about 0.6m, most blamed on AI; far more posts went quietly through hiring freezes. Graduate hiring stayed weak.
+- **Pay and prices.** Real pay up about 1.5%; consumer prices flat; housing costs down about 2%. Median household income index about 100.4.
+- **Business.** GDP up 1.6%. Labour's share 52.2%, a new record low. AI firms held prices and launched premium indemnified tiers.
+- **Washington.** The liability safe-harbour bill failed. A wage-insurance and retraining pilot passed at half size (about $16bn a year from 2028). An executive rule now makes large employers report AI-attributed layoffs; federal housing grants favour states that loosen zoning. Deficit 6.1% of GDP.
+- **Workers.** Organising drives won human-sign-off and no-layoff clauses at several large employers.
+- Poverty and homelessness figures for 2027 are not yet published.

@@ -4,3 +4,7 @@
 
 I see real new demand emerging in 2027 — service gaps where AI aids but does not replace human judgment. I am committing to a 15–20% boost in new-firm formation, biased toward high-margin AI-only startups and labour-scarce service niches. I'll split geographically: chase boom-metro margins but hedge into deals in secondary cities. I am watching seed capital (must stay cheap), commercial rent escalation in expensive metros, and whether young-job hiring stabilizes or continues to decline. If rents spike or capital tightens, I pivot to consolidation fast.
 
+## Turn 02 (Jan–Dec 2028)
+
+Capital did tighten—seed funding down 1/3. I believe the federal credit program is now my only reliable growth lever. I'm committing to 5% new-firm growth (down from 15%), shifting 80% of hiring to people-heavy services where AI is a tool, not a replacement. I'm watching federal credit availability, secondary-metro rents, and whether model prices drop or unbundle. If federal credit disappears, I consolidate hard.
+
