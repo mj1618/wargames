@@ -8,3 +8,6 @@ Believe: aggregate numbers calm but labour share at record low; first jobs scarc
 
 ## Round 03 (2029)
 Believe: gains are real (pay up faster than prices, flat rents, jobs found), but labour share is still a record low and gains come only through contracts. Committed: extend first-contract drives to ~20 more sites, saving rate down 1 point, accept 60-day notice and 1.5% profit-share as the floor in writing, drop the hours demand this year, ask AI firms for portable worker-held credits, no boycotts. Watching: layoffs among people I know, rents, employers keeping written terms, how First Job Act rolls out.
+
+## Round 04 (2030)
+Believe: pay and rents fine but labour share a record low, unfilled office jobs, drive stalled, and the financial wobble plus tight credit is the main risk. Committed: defend existing contracts and run about 8 small local drives, saving rate up 1 point, send Employers a term sheet for shorter weeks with no-layoff and panel seats that can see deployment plans, take Entrepreneurs' paid-to-train places with a no-drop promise, no boycotts. Watching: layoffs among people I know, card and car-loan defaults, rents, shelter numbers, whether written terms hold.

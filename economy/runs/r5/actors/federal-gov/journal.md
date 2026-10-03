@@ -8,3 +8,6 @@ Believe: still no visible crisis (4.0%, receipts on forecast), but hiring freeze
 
 ## Round 03 (2029)
 Believe: no crisis (3.4% revised, receipts on forecast); re-elected with a working majority for medium bills; labs still owe $2bn. Committed: Framework Act (pre-emption to 2030, statutory disclosure) only after $2bn in escrow; Housing Supply Act at 0.2% GDP, deficit-neutral; two bundling antitrust cases as leverage. Watch: escrow payment, unemployment past 5%, receipts, graduate joblessness, rents, state backlash, labour share.
+
+## Round 04 (2030)
+Believe: no felt crisis (4.1%, income 103.0) but the trend turned, credit is tight, receipts soft (17.2%). Committed: one-year credit-guarantee and work-sharing act at 0.15% GDP, no new tax; pre-emption extended to 2032 for the $1bn release and a doubled training fund; no AI bailout, antitrust held as leverage. Watch: November midterm, unemployment past 5%, receipts under 17.0%, bond yields, employer layoffs, labour share.
