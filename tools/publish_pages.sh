@@ -19,6 +19,13 @@ for f in reports/*.html; do
   [[ "$(basename "$f")" == _* ]] && continue
   cp "$f" "$tmp/"
 done
+if ls economy/reports/*.html >/dev/null 2>&1; then
+  mkdir -p "$tmp/economy"
+  for f in economy/reports/*.html; do
+    [[ "$(basename "$f")" == _* ]] && continue
+    cp "$f" "$tmp/economy/"
+  done
+fi
 touch "$tmp/.nojekyll"
 git -C "$tmp" add -A
 if git -C "$tmp" diff --cached --quiet; then echo "gh-pages already up to date"; else
