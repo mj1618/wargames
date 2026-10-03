@@ -120,3 +120,11 @@ Official statistics arrive late and with noise. Company and household players se
 ## 2035–36 — opening headline
 
 **A state pilot works.** A large state's wage-insurance-plus-cash pilot shows faster re-employment at modest cost.
+
+## 2035–36 — what happened
+
+**Official statistics (end 2036).** Unemployment 4.1%; participation 58.6%; 160.3m jobs (down 1.2m over two years); GDP up 4.8% a year; housing costs down about 7%, goods and professional services cheaper; median real income about 119.6; labour share 38.8%, another record low; deficit 5.3%, debt about 98%. Announced layoffs: about 4.4m over two years. For 2034: poverty 9.9%, homelessness 14.1 per 10,000.
+
+**Washington.** The State Transition Match Act passed at half-size: a 2% levy on AI profits and a federal match for state wage-insurance-plus-cash schemes; the courts let it stand. The New-Firms Credit top-up passed. Elections were held in November 2036.
+
+**Elsewhere.** The labs raced on, leasing robots into care, building and logistics. Employers automated a little more slowly, by attrition and shorter weeks. Unions won stronger contracts in care, trades and co-ops. Founders scaled hiring in secondary metros and piloted co-op housing.
