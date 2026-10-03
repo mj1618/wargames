@@ -12,3 +12,6 @@ Belief: compute, not demand, is the limit; the levy deal is cheap cover and anti
 ## t04 (2030)
 Belief: the political deal is done; the binding constraint is now capital, not Congress, and a strong jobs year is our shield in November. Committed: race +10% financed by prepaid 3-year employer capacity, new-gen +10%, old-gen -20% portable, lobbying $1.5bn for loan guarantees and against a moratorium plank, fund held at $3bn, household subsidy ended. Watching: whether employers prepay, any Vanta or foreign break on pace, moratorium polling, credit reopening.
 
+## t05 (2031–32)
+Belief: the wobble hurt customers, not us; robots crossing into physical work and the 2032 levy sunset make this period the moratorium fight. Committed: steady 2031 then +15% in 2032, robot-as-a-service in shortage sectors, employers' 3-year capacity at 10%/yr step-down and 1.5x indemnity, levy extension to 2036 offered for statutory no-pause and robot pre-emption, lobbying $2bn, fund $3bn plus $1bn apprenticeships. Watching: moratorium polling, Q2 prepay signatures, rival pace breaks.
+
