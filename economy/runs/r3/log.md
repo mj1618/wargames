@@ -18,3 +18,8 @@
 - 2026-10-03T15:54:33 | r3 t02 court blocks notice-and-reporting rule (if enacted) | p=0.20 r=0.1425 -> SUCCESS
 - 2026-10-03T15:54:33 | r3 t02 household drive + talks with employers signed (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.4953 -> SUCCESS
 - 2026-10-03T15:54:33 | r3 t02 labs keep $2bn transition-fund pledge under financial pressure | p=0.60 r=0.7250 -> FAIL
+- 2026-10-03T15:54:49 | r3 t02 election: growth-first coalition loses lead (0.35 +0.04 unrest 39.1 +0.10 median income below two rounds ago) | p=0.49 r=0.1927 -> SUCCESS
+- 2026-10-03T15:54:49 | r3 t02 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 2 of 3
+- 2026-10-03T15:54:50 | r3 t02 statistics noise | DRAW 3 of 5
+- 2026-10-03T15:54:50 | r3 t03 event | DRAW 23 of 24
+- 2026-10-03T15:54:59 | r3 t03 data revision direction (SUCCESS understated by 0.4, FAIL overstated) | p=0.50 r=0.7258 -> FAIL

@@ -13,3 +13,6 @@
 - 2026-10-03T15:51:28 | r4 t01 households organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.3219 -> SUCCESS
 - 2026-10-03T15:51:34 | r4 t01 statistics noise | DRAW 2 of 5
 - 2026-10-03T15:51:34 | r4 t02 event | DRAW 17 of 24
+- 2026-10-03T15:56:13 | r4 t02 law: Youth Hiring and Apprenticeship Act 0.15% GDP (small 0.30, no adjustment) | p=0.30 partial=0.15 r=0.4715 -> FAIL
+- 2026-10-03T15:56:13 | r4 t02 court blocks executive extension of disclosure rule to hiring freezes | p=0.35 r=0.2018 -> SUCCESS
+- 2026-10-03T15:56:13 | r4 t02 households organising drive renewed and widened (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.3389 -> SUCCESS

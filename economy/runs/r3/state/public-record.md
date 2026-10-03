@@ -46,3 +46,17 @@ Everything here is known to every player.
 ## 2028 — opening headline
 
 **Financial wobble.** AI shares fall by a third; credit tightens for a year.
+
+## 2028 — what happened
+
+**Official statistics (end 2028).** Unemployment 4.9%; participation 60.3%; 158.9m jobs (down 3.8m); GDP down 0.8%; consumer prices flat, housing costs down about 4%; labour share 50.7%; deficit 6.7%, debt about 108%. Announced layoffs about 1.9m, about 0.3m citing AI. Now published for 2027: poverty 12.9%, homelessness 22.2 per 10,000.
+
+**Washington.** Congress passed the AI Workforce Notice Act (pre-emption of state AI-labour rules; wage insurance from 2029) but a court blocked its notice-and-reporting rule. The Build Act passed in narrower form. No rescue for lenders or AI shares.
+
+**Election.** The worker-first coalition won the Presidency and Congress.
+
+**Elsewhere.** Labs held a steady pace and opened a cheaper developer tier; their transition fund paid nothing this year. Employers and unions signed a layoff cap and a profit-sharing pool. Big states still resist new housing.
+
+## 2029 — opening headline
+
+**Data revision.** The statistics office says 2028 unemployment was overstated: 4.5%, not 4.9%.

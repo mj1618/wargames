@@ -13,3 +13,10 @@
 - 2026-10-03T15:51:08 | r5 t01 household organising drive succeeds (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.1762 -> SUCCESS
 - 2026-10-03T15:51:08 | r5 t01 statistics noise | DRAW 2 of 5
 - 2026-10-03T15:51:21 | r5 t02 event | DRAW 20 of 24
+- 2026-10-03T15:55:24 | r5 t02 household organising drive extends to first contracts (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.2579 -> SUCCESS
+- 2026-10-03T15:55:29 | r5 t02 First Job and Wage Insurance Act passes (small, divided 0.55, +0.05 union_pressure 0.5) | p=0.60 partial=0.15 r=0.2846 -> SUCCESS
+- 2026-10-03T15:55:34 | r5 t02 Nov 2028 election: growth-first coalition loses its lead (0.35 +0.01x(34.5-35)) | p=0.34 r=0.4295 -> FAIL
+- 2026-10-03T15:55:34 | r5 t02 election configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
+- 2026-10-03T15:55:34 | r5 t02 statistics noise | DRAW 1 of 5
+- 2026-10-03T15:55:34 | r5 t03 event | DRAW 23 of 24
+- 2026-10-03T15:55:41 | r5 t03 event 23 data revision (SUCCESS = 2028 published unemployment understated by 0.4; FAIL = overstated) | p=0.50 r=0.6537 -> FAIL
