@@ -11,3 +11,6 @@ Believe: no crisis (3.4% revised, receipts on forecast); re-elected with a worki
 
 ## Round 04 (2030)
 Believe: no felt crisis (4.1%, income 103.0) but the trend turned, credit is tight, receipts soft (17.2%). Committed: one-year credit-guarantee and work-sharing act at 0.15% GDP, no new tax; pre-emption extended to 2032 for the $1bn release and a doubled training fund; no AI bailout, antitrust held as leverage. Watch: November midterm, unemployment past 5%, receipts under 17.0%, bond yields, employer layoffs, labour share.
+
+## Round 05 (2031–2032)
+Believe: crisis is now felt (5.5%, GDP −0.6%, receipts 17.0%, deficit 6.8%); employers broke their pledge; election November 2032. Committed: Paycheck Bridge Act (targeted transfers 1.0% GDP for 2032–33, retraining 0.4%, 4-point capital levy from 2033, pre-emption to 2034 after $2bn escrow); Factory Homes Act at 0.4% GDP; bundling decree with open access. Watch: bond yields, unemployment past 7%, receipts, unrest, escrow, the vote count.

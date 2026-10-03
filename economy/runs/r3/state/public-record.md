@@ -72,3 +72,17 @@ Everything here is known to every player.
 ## 2030 — opening headline
 
 **A hit new industry.** A new kind of service nobody predicted takes off and hires people in large numbers.
+
+## 2030 — what happened
+
+**Official statistics (end 2030).** Unemployment 3.1%; participation 61.6%; 166.4m jobs (up 2.6m); GDP up 3.6%; consumer prices down slightly, housing costs down about 2%; labour share 52.6%; deficit 6.2%, debt about 108%. Reported layoffs citing AI: about 0.5m. Now published for 2029: poverty 12.0%, homelessness 18.6 per 10,000.
+
+**Washington.** Congress passed the Wage Insurance and First Job Act: a 5-point AI-profit levy from 2031 paying for wage insurance and a first-job programme for 18–25s, with no federal deployment caps or licensing for three years. A court challenge failed. The 1m public jobs were filled. Antitrust cases continue.
+
+**Election.** The worker-first coalition kept Congress with narrower margins.
+
+**Elsewhere.** Labs raced, published a compute-access charter and paid $3bn from their fund. Employers automated faster through attrition. The union effort won little. Big states still resist new housing.
+
+## 2031–32 — opening headline
+
+**Energy crunch.** Power shortages and local moratoria delay data centres.

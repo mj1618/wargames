@@ -25,3 +25,9 @@
 - 2026-10-03T16:01:54 | r4 t03 court blocks the 3-point profits levy (new tax by law) | p=0.20 r=0.7350 -> FAIL
 - 2026-10-03T16:01:55 | r4 t03 statistics noise | DRAW 1 of 5
 - 2026-10-03T16:01:55 | r4 t04 event | DRAW 2 of 24
+- 2026-10-03T16:12:49 | r4 t04 households organising drive, fourth wave (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.1291 -> SUCCESS
+- 2026-10-03T16:12:49 | r4 t04 court blocks executive robot safety-certification rule | p=0.35 r=0.6398 -> FAIL
+- 2026-10-03T16:13:00 | r4 t04 election Nov 2030: worker-first coalition loses lead (0.35 +0.01x(34.6-35) -0.10 median income +5.5 over two rounds) | p=0.25 r=0.6218 -> FAIL
+- 2026-10-03T16:13:00 | r4 t04 election configuration shift | DRAW 1 of 3
+- 2026-10-03T16:13:00 | r4 t04 statistics noise | DRAW 4 of 5
+- 2026-10-03T16:13:00 | r4 t05 event | DRAW 24 of 24

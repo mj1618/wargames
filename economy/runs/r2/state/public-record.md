@@ -80,3 +80,19 @@ Official statistics arrive late and with noise. Company and household players se
 **Washington.** Congress passed the Housing Supply Act (funded building with zoning conditions) and a cut-down new-firms and first-job credit, both from 2030. The AI pricing cases settled on open-access terms. The 2.5% levy and wage insurance began.
 
 **Elsewhere.** The labs raced, raised new-generation prices and cut old ones. Employers automated at the same pace, mostly by attrition, and set up advisory worker committees. A targeted union drive failed. Founders launched worker-owned service co-ops and finished their factory-housing expansion.
+
+## 2030 — opening headline
+
+**Financial wobble.** AI shares fall by a third; credit tightens for a year.
+
+## 2030 — what happened
+
+**Official statistics (end 2030).** Unemployment 4.3%; participation 59.6%; 158.9m jobs (down 5.1m); GDP up 0.5%; housing costs down about 5%, professional services cheaper; median real income about 101.8; labour share 47.1%, another record low; deficit 6.5%, debt about 107%. Announced layoffs: about 3.6m. For 2029: poverty 11.6%, homelessness 17.8 per 10,000.
+
+**Washington.** The Main Street Credit and Housing Certainty Act failed in Congress. A consent decree fixed open access and portability for AI services. Wage insurance was ordered paid within 30 days. In November the growth-first coalition kept its lead; Congress remains divided.
+
+**Elsewhere.** The labs slowed their race, raised new-generation prices, cut old ones and sold prepaid capacity. Employers trimmed automation and agreed 60-day notice. A union renewal drive gained nothing. Founders hired cautiously; co-ops grew.
+
+## 2031–32 — opening headline
+
+**Data revision.** The statistics office revises past job numbers: end-2030 unemployment was 4.7%, not 4.3%.
