@@ -8,3 +8,6 @@ Belief: desk-work share doubling means 2028 decides installed base; macro still 
 
 ## Round 03 (2029)
 Belief: adoption is 4x the 2027 base with no macro pain yet; 2029 is the last cheap year to lock installed base before the 2030 midterms. Routine tier is commoditised; margin is the enterprise runtime. Committed: race +25%, five-year bundles conceding price-down/break/indemnity for exclusive runtime, $250m lobbying for permanent pre-emption, $1bn of the fund into First Job placements by Q3. Levy in reserve. Watching: layoffs past 1m, unemployment past 5%, open-weight enterprise wins, pre-emption vote.
+
+## Round 04 (2030)
+Belief: installed base is locked on five-year exclusives; growth now comes from adoption depth, not pace, and the antitrust inquiry is the only real threat. Committed: race +10%, capex shifted to deployment teams, voluntary settlement (small-firm unbundled tier, enterprise bundles grandfathered), $300m midterm lobbying, fund $2bn with First Job $1bn, optional apprenticeship discount, profit-share refused. Levy in reserve. Watching: inquiry closes or escalates, midterm result, open-weight enterprise renewals, usage-depth growth.

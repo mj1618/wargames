@@ -30,3 +30,10 @@
 - 2026-10-03T16:00:57 | r3 t03 household organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.7953 -> FAIL
 - 2026-10-03T16:00:57 | r3 t03 statistics noise | DRAW 1 of 5
 - 2026-10-03T16:01:09 | r3 t04 event | DRAW 8 of 24
+- 2026-10-03T16:11:45 | r3 t04 Wage Insurance and First Job Act (medium 0.60: 5-point levy, no new cash entitlement; fits worker-first instincts +0.10; labs back, employers oppose: no adjustment) | p=0.70 partial=0.15 r=0.4170 -> SUCCESS
+- 2026-10-03T16:11:45 | r3 t04 court blocks 5-point profit levy (if enacted) | p=0.20 r=0.4091 -> FAIL
+- 2026-10-03T16:11:45 | r3 t04 household organising effort to win and police employers' package (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.5427 -> FAIL
+- 2026-10-03T16:11:58 | r3 t04 election: worker-first coalition loses lead (0.35 -0.04 unrest 31.0 -0.10 median income over 3 points above two rounds ago) | p=0.21 r=0.5401 -> FAIL
+- 2026-10-03T16:11:58 | r3 t04 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 3 of 3
+- 2026-10-03T16:11:58 | r3 t04 statistics noise | DRAW 1 of 5
+- 2026-10-03T16:11:58 | r3 t05 event | DRAW 7 of 24

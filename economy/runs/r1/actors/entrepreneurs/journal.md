@@ -11,3 +11,7 @@ Expanding cautiously into people-heavy niches and factory-built housing. Our nic
 ## T03 (January–December 2029)
 
 Believe federal housing zoning reform opens a real buildout window and wage pressure makes AI-only firms more attractive. Committed to 15% people-heavy expansion (care/trades) plus aggressive housing scaling (federal money per home) and 30% AI-only startups for margin. Watch: credit conditions, whether incumbents enter housing and niches, wage trends, zoning reform pace.
+
+## T04 (January–December 2030)
+
+Believe wage inflation is structural given labour scarcity and the new-work mirage risks automation of services we scaled. Committed to 50% AI-only startups, 5% people-heavy; pausing housing until states move. Watch: whether wage growth moderates, zoning breaks, antitrust ruling, whether AI-only firms face margin pressure from incumbent labs.

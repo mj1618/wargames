@@ -27,3 +27,10 @@
 - 2026-10-03T16:03:12 | r2 t03 Bill 2 New Firms and Young Workers Act (small divided 0.55, fits coalition +0.10) | p=0.65 partial=0.15 r=0.6557 -> PARTIAL
 - 2026-10-03T16:03:12 | r2 t03 statistics noise | DRAW 3 of 5
 - 2026-10-03T16:03:22 | r2 t04 event | DRAW 5 of 24
+- 2026-10-03T16:12:05 | r2 t04 households contract renewal drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.5789 -> FAIL
+- 2026-10-03T16:12:05 | r2 t04 Bill 1 Main Street Credit and Housing Certainty Act (small divided 0.55, fits coalition +0.10) | p=0.65 partial=0.15 r=0.9301 -> FAIL
+- 2026-10-03T16:12:05 | r2 t04 statistics noise | DRAW 1 of 5
+- 2026-10-03T16:12:17 | r2 t04 Nov 2030 election: growth-first loses lead (0.35 +0.01x2.4 unrest) | p=0.37 r=0.7233 -> FAIL
+- 2026-10-03T16:12:17 | r2 t04 Nov 2030 election: configuration shift | DRAW 2 of 3
+- 2026-10-03T16:12:17 | r2 t05 event | DRAW 23 of 24
+- 2026-10-03T16:12:33 | r2 t05 event 23 data revision: SUCCESS = 2030 published unemployment understated by 0.4, FAIL = overstated | p=0.50 r=0.0641 -> SUCCESS

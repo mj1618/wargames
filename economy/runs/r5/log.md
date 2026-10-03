@@ -27,3 +27,12 @@
 - 2026-10-03T16:00:35 | r5 t03 statistics noise | DRAW 3 of 5
 - 2026-10-03T16:00:41 | r5 t03 court blocks Framework Act disclosure rule in first round (SUCCESS = blocked) | p=0.20 r=0.6940 -> FAIL
 - 2026-10-03T16:00:52 | r5 t04 event | DRAW 5 of 24
+- 2026-10-03T16:10:53 | r5 t04 household renewal drive, ~8 sites (0.35 +0.15 unemployment under 5%; SUCCESS = union_pressure held at 0.4, FAIL = fades to 0.3) | p=0.50 r=0.5493 -> FAIL
+- 2026-10-03T16:10:53 | r5 t04 employers' written attrition-first pledge kept with profits under pressure (FAIL = layoff_share +0.15) | p=0.60 r=0.7698 -> FAIL
+- 2026-10-03T16:10:53 | r5 t04 Main Street Credit and Work-Sharing Act passes (small, responsive 0.80, no adjustment) | p=0.80 partial=0.15 r=0.6137 -> SUCCESS
+- 2026-10-03T16:10:53 | r5 t04 Framework Extension Act passes (small rule change, responsive 0.80, +0.10 fits coalition) | p=0.90 partial=0.15 r=0.8778 -> SUCCESS
+- 2026-10-03T16:10:59 | r5 t04 court blocks Framework Extension Act pre-emption in first round (SUCCESS = blocked) | p=0.20 r=0.5070 -> FAIL
+- 2026-10-03T16:11:06 | r5 t04 Nov 2030 election: growth-first coalition loses its lead (0.35 +0.01x(38.9-35) +0.10 median income below two rounds ago) | p=0.49 r=0.5329 -> FAIL
+- 2026-10-03T16:11:06 | r5 t04 election configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 3 of 3
+- 2026-10-03T16:11:06 | r5 t04 statistics noise | DRAW 5 of 5
+- 2026-10-03T16:11:06 | r5 t05 event | DRAW 14 of 24

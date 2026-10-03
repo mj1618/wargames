@@ -8,3 +8,6 @@ Believe: quiet attrition works, low political heat, but election year and wage i
 
 ## Round 03 (2029)
 Believe: re-elected growth-first coalition lowers rule risk; deals with labs and government lock in attrition-based shrinkage cheaply. Committed: sign both deals and public pledge by spring; adoption about +20% (office/routine), health/transport cautious; layoff_share 30-35%; hours_share 15-20%; price cuts in 5-6 more lines; profit-sharing 1.5-2%; about 30k entry-level hires. Watching: rival mass layoffs, AI-profit tax or layoff bills, graduate unemployment, organiser backfill clauses.
+
+## Round 04 (2030)
+Believe: boom and tight labour make attrition-based shrinkage cheap; rule risk low but disclosure, antitrust and midterms add visibility. Committed: adoption about +20% (office/routine), health/transport cautious; layoff_share 30%; hours_share 20% with low-pay top-up; profit-sharing 2%; sign lab bundle but dual-source (no exclusivity); price cuts in 5-6 lines; about 30k entry-level hires; pledge held through November, written shorter-week support. Watching: midterms, profit-tax or layoff bills, antitrust ruling, rival mass restructuring, wage pressure.

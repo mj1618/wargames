@@ -11,3 +11,7 @@ The open-weight collapse is a windfall: inputs now free, margins suddenly viable
 ## Turn 03 (January–December 2029)
 
 The free-model era is ending. Labs are keeping premiums and signing bundles; we must lock in three-year contracts now before margins collapse. Factory housing is the real high-return play in zoning-loose states—higher per-founder upside than AI-only, less input-price risk. We're committing $130B+ across AI locking and housing buildout. Watching: whether labs hold pricing or continue discounting; housing permitting velocity; household formation; if AI-only margins crack despite locking.
+
+## Turn 04 (January–December 2030)
+
+Learned: supervision and human oversight are defensible against commoditization—customers and unions will pay for it. Committed: rebalancing toward people-heavy services (0.3m new hires), housing acceleration ($60B), four-year AI contracts. Watching: whether states move zoning fast enough, licensing review results, Fed signaling, credit conditions. Political support for Transition Act buys us goodwill and levy resilience.

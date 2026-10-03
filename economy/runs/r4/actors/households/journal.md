@@ -8,3 +8,6 @@ Believe: pay and rents are fine for now, but unfilled jobs and stuck graduates a
 
 ## Turn 03 (2029)
 Believe: pay and rents are fine, but labour share keeps falling and quiet attrition will speed up with week-long AI projects. Committed to: a third organising wave extended to hiring freezes (no strikes), saving flat, taking supervision-role jobs as protected classes, refusing Employers' no-boycott/no-rules pledge. Watching: layoffs near us, entry-level intake, whether Government passes youth hiring or a notice rule before 2030.
+
+## Turn 04 (2030)
+Believe: pay and rents are good, but labour share is still falling and the graduates are stuck. The robot recall helps us for now. Committed to: a fourth organising wave (attrition-savings-to-entry-level clauses, no strikes), saving flat, a November vote for the Transition Act levy plus youth hiring and a freeze-notice rule, and help enrolling in wage insurance and apprenticeships. No boycott yet. Watching: layoffs near us, graduate intake, whether Congress touches the levy, how the safety certification is enforced.
