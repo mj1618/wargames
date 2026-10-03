@@ -22,7 +22,7 @@ One "notch" is the size given. A lever moves at most **two notches a round** unl
 | `layoff_share` (0.2–0.9; 0.6) | Employers | Layoffs as the main tool: +0.15. No-layoff / attrition-and-hiring-freeze policy: −0.15. |
 | `hours_share` (0–0.5; 0.1) | Employers | Shorter weeks instead of cuts: +0.1 a notch. Above 0.3 needs a federal subsidy or law backing work-sharing. |
 | `wage_sharing` (−0.1–0.3; 0) | Employers | Profit-sharing or across-the-board raises: +0.1. Pay squeeze: −0.1. |
-| `new_business` (0.75–1.3; 1.0) | Entrepreneurs | Big push to found firms that hire people: +0.1. Building AI-only firms with almost no staff: −0.1. Also +0.1 while `ai_pricing` ≥ 0.5 or a federal small-business law is in force; −0.1 while `ai_pricing` ≤ −0.5. |
+| `new_business` (0.75–1.3; 1.0) | Entrepreneurs | Big push to found firms that hire people: +0.1. Building AI-only firms with almost no staff: −0.1. Then add a standing adjustment, recomputed every round (not cumulative): +0.1 if `ai_pricing` ≥ 0.5 or a federal small-business law is in force; −0.1 if `ai_pricing` ≤ −0.5. |
 | `union_pressure` (0–1; 0) | Households | Organising drive or strike: roll (§3); success +0.25. Fades 0.1 a round if not renewed. |
 | `household_saving` (−0.03–0.05; 0) | Households | Cut back and save: +0.02. Spend freely: −0.01. Automatic: +0.01 the round after unemployment rises by 1 point or more. |
 | `transfers_pct_gdp` (0–10; 0), `transfer_target` (0–1; 0) | Federal | As enacted. $1,000 a month to every adult ≈ 10; to the bottom two-fifths ≈ 4 with target 1. An expanded child credit ≈ 0.5 with target 0.7. |
@@ -71,7 +71,7 @@ Use `--partial 0.15`. Adjust, then clamp to 0.05–0.95:
 | Thing | Odds |
 |---|---|
 | Strike or organising drive succeeds | 0.35; +0.15 if unemployment is under 5%; +0.15 if unrest ≥ 50; −0.15 if unemployment is over 8% |
-| A court blocks a new federal rule or tax in its first round | 0.20 (0.35 if done by executive action). Blocked = lever reverts. |
+| A court blocks a new federal rule or tax in its first round | 0.20 (0.35 if done by executive action). Blocked = lever reverts to its previous value and stays there until re-enacted (a new bill, a new roll). |
 | A company pledge (no layoffs, profit-sharing) is actually kept next round when profits are under pressure | 0.60 |
 | A voluntary slow-down among AI firms holds for a second round | 0.50 |
 

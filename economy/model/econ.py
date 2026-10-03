@@ -89,7 +89,7 @@ CARE_PT = 0.5                    # care passes on half as much of its savings
 NEW_TASK_SMOOTH = 0.5            # new work follows displacement with ~2y lag
 EROSION_EXP = 0.2                # new work gets scarcer as machines can do more
 ABSORB_RATE = 0.08               # slack re-absorbed per year (10-20y adjustment)
-DISCOURAGE = 0.20                # excess unemployed leaving labour force / yr
+DISCOURAGE = 0.15                # excess unemployed leaving labour force / yr (cyclical history ~0.08-0.10)
 UI_REPLACE = 0.25                # share of lost wages covered automatically
 POP_GROWTH = 0.004               # adults, per year
 TREND = 0.010                    # non-AI productivity and wage growth per year
@@ -136,8 +136,8 @@ PARAM_SPEC = {
                       "years for half of firms to adopt what the technology can do"),
     "passthrough": (0.2, 0.9, "uniform",
                     "share of cost savings that reaches customers as lower prices"),
-    "wage_share": (-0.2, 0.7, "uniform",
-                   "share of AI productivity gains that reaches pay packets (negative: pay falls behind its old trend)"),
+    "wage_share": (-0.3, 0.6, "uniform",
+                   "share of the automation cost saving that goes to pay (0.6 = all of it; negative: pay of remaining workers is bid down)"),
     "housing_supply": (0.0, 1.0, "uniform",
                        "how freely housing supply can expand (0 blocked, 1 builds freely)"),
     "demand_mult": (0.5, 1.5, "uniform",
@@ -447,6 +447,8 @@ def step_year(st, p, lv, prev, rng, first, fl):
     wagebill = sum(st["emp"][s] * WAGE_REL[s] for s in SECTORS)
     emp_total0 = sum(st["emp"].values())
     pt = clip(p["passthrough"] + 0.15 * lv["ai_pricing"] + 0.15 * lv["competition_policy"], 0.05, 0.95)
+    # pay's share of the saving: at most the whole saving (COST_SAVING); negative = pay bid down
+    beta = clip(p["wage_share"] + lv["wage_sharing"] + 0.15 * lv["union_pressure"], -0.4, COST_SAVING)
     h_eff = clip(p["housing_supply"] + 0.4 * lv["housing_policy"], 0.0, 1.2)
     destroyed = {s: 0.0 for s in SECTORS}
     created = {s: 0.0 for s in SECTORS}
@@ -463,8 +465,11 @@ def step_year(st, p, lv, prev, rng, first, fl):
         destroyed[s] += d_auto
         fl["d_automation"] += d_auto
         g_ai += frac[s] * st["emp"][s] * WAGE_REL[s] / wagebill
-        cost_cut = LS_SEC[s] * frac[s] * COST_SAVING     # fall in unit cost
-        x[s] = pt * (CARE_PT if s == "care" else 1.0) * cost_cut   # fall in price
+        # The saving (COST_SAVING per unit of labour removed) is split three ways. Pay takes beta,
+        # out of profit first; customers get pass-through of the rest; a wage cut (beta < 0) adds
+        # to what can be passed on. Pay and price cuts together can never exceed the saving.
+        price_share = max(0.0, min(pt * (COST_SAVING - min(beta, 0.0)), COST_SAVING - beta))
+        x[s] = (CARE_PT if s == "care" else 1.0) * LS_SEC[s] * frac[s] * price_share   # fall in price
         eps = p["jevons"] * ELAS_F[s] * math.exp(-SATURATION * st["cumx"][s])
         if s == "construction":
             eps *= 0.5 + 0.5 * min(1.0, h_eff)           # land limits building
@@ -531,7 +536,6 @@ def step_year(st, p, lv, prev, rng, first, fl):
     # --- 5.7 spending feedback: lost wages, fiscal changes, outside shocks ---
     # "lost wages" (share of GDP) = pay lost with the net jobs lost so far this year, minus (plus)
     # pay rates running ahead of (behind) their old trend. One pass: demand_mult is the total multiplier.
-    beta = clip(p["wage_share"] + lv["wage_sharing"] + 0.15 * lv["union_pressure"], -0.3, 0.9)
     net_loss = (sum((destroyed[s] - created[s]) * WAGE_REL[s] for s in SECTORS) / wagebill
                 - beta * g_ai) * st["ls"]
     hh_loss = max(0.0, net_loss) * (1 - UI_REPLACE)   # gains show up as income, not as extra jobs
@@ -612,9 +616,10 @@ def step_year(st, p, lv, prev, rng, first, fl):
         # prices: labour-heavy services get relatively dearer when pay rises (Baumol), minus passed-on savings
         st["price"][s] *= math.exp((LS_SEC[s] - ls_avg) * (dlnw - TREND) - x[s])
     st["Y"] = sum(st["emp"][s] * st["prod"][s] for s in SECTORS)
+    # labour share is pay over output AT CURRENT PRICES: savings passed to customers are not profit
+    y_nom = sum(st["emp"][s] * st["prod"][s] * st["price"][s] for s in SECTORS)
     wb = sum(st["emp"][s] * WAGE_REL[s] for s in SECTORS) * st["wage"] * st["hours"] / HOURS0
-    t = year - START_YEAR
-    st["ls"] = clip(LS0 * (wb / st["wagebill0"]) / (st["Y"] / 100.0), 0.05, 0.80)
+    st["ls"] = clip(LS0 * (wb / st["wagebill0"]) / (y_nom / 100.0), 0.05, 0.80)
 
     # --- 5.10 housing ---
     constr = clip(0.6 + 2.0 * st["u"]["construction"], 0.6, 1.4)
@@ -1069,7 +1074,7 @@ def selftest():
     check("earlier robots -> more jobs destroyed", hi["jobs_destroyed_total"] > lo["jobs_destroyed_total"])
     lo, hi = run({"passthrough": 0.2}), run({"passthrough": 0.9})
     check("more pass-through -> higher median real income", hi["median_income_2036"] > lo["median_income_2036"])
-    lo, hi = run({"wage_share": -0.2}), run({"wage_share": 0.7})
+    lo, hi = run({"wage_share": -0.3}), run({"wage_share": 0.6})
     check("pay sharing in gains -> higher labour share, lower top-1% share",
           hi["labour_share_2036"] > lo["labour_share_2036"] and hi["top1_share_2036"] < lo["top1_share_2036"])
     lo, hi = run({"housing_supply": 0.0}), run({"housing_supply": 1.0})
@@ -1094,9 +1099,9 @@ def selftest():
           rg["jobs_destroyed_total"] < base["jobs_destroyed_total"] and rg["gdp_index_2036"] < base["gdp_index_2036"])
 
     # both answers reachable on both questions
-    good = run({"jevons": 2.0, "new_task_rate": 1.2, "passthrough": 0.9, "wage_share": 0.7,
+    good = run({"jevons": 2.0, "new_task_rate": 1.2, "passthrough": 0.9, "wage_share": 0.3,
                 "housing_supply": 1.0, "demand_mult": 0.5})
-    bad = run({"jevons": 0.3, "new_task_rate": 0.2, "passthrough": 0.2, "wage_share": -0.2,
+    bad = run({"jevons": 0.3, "new_task_rate": 0.2, "passthrough": 0.2, "wage_share": -0.3,
                "housing_supply": 0.0, "demand_mult": 1.5, "diffusion_t50": 3.0})
     check("optimist's world: more jobs created than destroyed, employment rate not lower",
           good["created_per_destroyed"] > 1 and good["emp_pop_2036"] >= 59.0,
