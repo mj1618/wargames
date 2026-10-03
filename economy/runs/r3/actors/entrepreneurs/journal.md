@@ -8,3 +8,7 @@ I see real new demand emerging in 2027 — service gaps where AI aids but does n
 
 Capital did tighten—seed funding down 1/3. I believe the federal credit program is now my only reliable growth lever. I'm committing to 5% new-firm growth (down from 15%), shifting 80% of hiring to people-heavy services where AI is a tool, not a replacement. I'm watching federal credit availability, secondary-metro rents, and whether model prices drop or unbundle. If federal credit disappears, I consolidate hard.
 
+## Turn 03 (Jan–Dec 2029)
+
+The wobble passed: federal credit held, rents fell, developer tier cut costs, private capital returns. The worker-first coalition should deliver licensing reform and credit access. I'm committing to 10% new-firm growth, 60/40 people-heavy to AI-only, major push on factory housing and trades. Watching: federal credit flow, state upzoning, and customer spending above 2028 levels.
+

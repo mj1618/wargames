@@ -60,3 +60,11 @@ Official figures, end 2027 (provisional): unemployment 3.9%; participation 61.6%
 The labs raced to sign enterprise customers on bundled multi-year contracts and pledged a joint $2bn-a-year Worker Transition Fund. Large employers said they plan no mass layoffs and shrank through hiring freezes. New firms hired in AI setup, coaching and care. Union drives in logistics, retail and warehouses won little.
 
 Congress passed housing incentives for states that permit building and a small wage-insurance programme that expands automatically if unemployment passes 6%; both begin in 2028. A federal court blocked the executive order requiring quarterly disclosure of AI-related layoffs.
+
+## 2028
+
+Official figures, end 2028 (provisional): unemployment 4.0%; participation 61.7%; 164.3m jobs, up 1.4m; GDP growth 3.1%; housing costs down about 5%, other prices slightly lower; median household income index about 106; labour share 52.1%; deficit 6.0% of GDP, debt 103%. Announced layoffs about 0.71m, AI again the most-cited reason. Now published for 2027: poverty 12.5%, homelessness 21.5 per 10,000.
+
+Factory-built homes won code approval in most states. The labs cut routine-tier prices 40%, kept enterprise customers on multi-year bundles and published workforce data voluntarily. Large employers renewed a no-mass-layoff pledge and shrank by attrition. Organising drives in care, health and trades won contracts.
+
+Congress passed a funded housing programme tied to zoning reform (from 2029) and an AI framework law: layoff disclosure for the largest firms and a temporary standstill on new state AI rules. In November the growth-first coalition kept the presidency and Congress.

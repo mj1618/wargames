@@ -5,3 +5,6 @@ Believe: no visible jobs crisis yet (4.1%), but voters are nervous and the defic
 
 ## Round 02 (2028)
 Believe: still no visible crisis (4.0%, receipts on forecast), but hiring freezes hide damage and labs haven't paid their $2bn. Committed: pre-emption plus statutory disclosure, no licensing this Congress only, conditional on payment; First Job and Wage Insurance Act at 0.1% GDP, no new tax; employer attrition-first compact through November. Watch: lab payment, unemployment past 5%, graduate joblessness, receipts, state backlash to pre-emption, the election.
+
+## Round 03 (2029)
+Believe: no crisis (3.4% revised, receipts on forecast); re-elected with a working majority for medium bills; labs still owe $2bn. Committed: Framework Act (pre-emption to 2030, statutory disclosure) only after $2bn in escrow; Housing Supply Act at 0.2% GDP, deficit-neutral; two bundling antitrust cases as leverage. Watch: escrow payment, unemployment past 5%, receipts, graduate joblessness, rents, state backlash, labour share.

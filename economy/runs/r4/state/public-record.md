@@ -60,3 +60,13 @@ Official statistics arrive late and with noise. Company and household players se
 - **Washington.** The liability safe-harbour bill failed. A wage-insurance and retraining pilot passed at half size (about $16bn a year from 2028). An executive rule now makes large employers report AI-attributed layoffs; federal housing grants favour states that loosen zoning. Deficit 6.1% of GDP.
 - **Workers.** Organising drives won human-sign-off and no-layoff clauses at several large employers.
 - Poverty and homelessness figures for 2027 are not yet published.
+
+## 2028 in review (official statistics, preliminary)
+
+- **Jobs.** Unemployment 4.4%; participation 61.2%; about 162.2m in work. Announced layoffs about 0.8m; many more posts closed through hiring freezes. Office employment fell; care, construction and new firms hired.
+- **Pay and prices.** Real pay up about 2.3%; consumer prices flat; housing costs down about 2%. Median household income index about 102.7. Free open-weight models collapsed commodity AI prices; labs kept premium indemnified tiers.
+- **Business.** GDP up 2.6%. Labour's share 51.6%, another record low.
+- **Washington.** The youth hiring bill failed. The safe-harbour deal never reached the floor. A court blocked the extension of layoff disclosure to hiring freezes. Deficit 6.1% of GDP.
+- **Election.** The worker-first coalition won the lead in November; Congress remains closely split.
+- **Workers.** A second organising wave won sign-off and no-layoff clauses at more employers.
+- **Published late, for 2027:** poverty 12.7%, homelessness 21.1 per 10,000.

@@ -13,3 +13,11 @@
 - 2026-10-03T15:52:04 | r1 t01 Bill 2 retraining and wage insurance with trigger passes (small 0.80) | p=0.80 partial=0.15 r=0.4864 -> SUCCESS
 - 2026-10-03T15:52:04 | r1 t01 published-statistics noise | DRAW 1 of 5
 - 2026-10-03T15:52:14 | r1 t02 event | DRAW 14 of 24
+- 2026-10-03T15:56:52 | r1 t02 households organising drive in hiring sectors succeeds (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.2213 -> SUCCESS
+- 2026-10-03T15:56:52 | r1 t02 Bill 1 funded housing programme with zoning conditions passes (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.2475 -> SUCCESS
+- 2026-10-03T15:56:52 | r1 t02 Bill 2 AI Deployment Framework Act (pre-emption + statutory disclosure) passes (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.9525 -> PARTIAL
+- 2026-10-03T15:56:56 | r1 t02 court blocks the new statutory disclosure rule in its first round | p=0.20 r=0.2783 -> FAIL
+- 2026-10-03T15:56:56 | r1 t02 published-statistics noise | DRAW 5 of 5
+- 2026-10-03T15:57:07 | r1 t02 Nov 2028 election: growth-first coalition loses its lead (0.35 -0.02 unrest 32.9, -0.10 median income up >3 over two rounds) | p=0.23 r=0.4258 -> FAIL
+- 2026-10-03T15:57:07 | r1 t02 Nov 2028 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
+- 2026-10-03T15:57:07 | r1 t03 event | DRAW 6 of 24
