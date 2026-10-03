@@ -48,3 +48,8 @@
 - 2026-10-03T16:23:57 | r2 t06 Nov 2034 election: growth-first loses lead (0.35 +0.01x0.5 unrest, -0.10 median income 115.5 vs 102.8 two rounds ago) | p=0.26 r=0.5122 -> FAIL
 - 2026-10-03T16:23:57 | r2 t06 Nov 2034 election: configuration shift | DRAW 3 of 3
 - 2026-10-03T16:23:57 | r2 t07 event | DRAW 10 of 24
+- 2026-10-03T16:36:49 | r2 t07 households renew-and-hold organising drive, care/trades/co-ops (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.4223 -> SUCCESS
+- 2026-10-03T16:36:49 | r2 t07 Bill 1 State Transition Match Act (4-point levy = medium gridlocked 0.15, new tax cuts against coalition -0.15, event 10 +0.10, union_pressure 0.5 worker bill +0.05) | p=0.15 partial=0.15 r=0.1618 -> PARTIAL
+- 2026-10-03T16:36:49 | r2 t07 Bill 2 New-Firms Credit top-up (small gridlocked 0.30, fits coalition +0.10) | p=0.40 partial=0.15 r=0.2473 -> SUCCESS
+- 2026-10-03T16:36:49 | r2 t07 statistics noise | DRAW 1 of 5
+- 2026-10-03T16:36:56 | r2 t07 court blocks Bill 1 AI-profits levy (2 points) | p=0.20 r=0.9395 -> FAIL
