@@ -6,10 +6,10 @@
 
 **Headline: Consolidation.** Two of the largest AI and cloud providers merge or sign an exclusive pact.
 
-**Only you see.** You kept the Presidency and Congress with wider margins; bills will pass more easily. The levy is collecting; wage insurance and first-job places opened. The grid bill passed at half size: a smaller rebate. The labs paid $5bn a year and signed the decree.
+**Only you see.** Wider margins: bills will pass more easily. Levy collecting; wage insurance and first-job places open. Labs paid $5bn a year and signed the decree.
 
 **Messages.**
 - From AI firms: "Full $5bn paid, votes delivered. Pre-empt local data-centre moratoria tied to our $60bn grid investment; we'll accept a compute-access and unbundling consent decree to close antitrust."
 - From employers: "We pay the levy without a fight. In return, we ask for a review clause and no new deployment rules or layoff caps during the energy crunch."
 - From households: "We will turn out for the bargaining-reform bill. Fund the first-job programme in full and deliver wage insurance on time."
-- From entrepreneurs: "Licensing reform and compute-access stability are prerequisites for sustained hiring. We support the labs' compute charter. States that upzone and drop licensing rules will see permanent job creation." (abridged public filing)
+- From entrepreneurs: "Licensing reform and compute-access stability are prerequisites for sustained hiring. We support the labs' compute charter. We are creating housing models that work without federal subsidy; states that upzone and drop licensing rules will see permanent job creation."

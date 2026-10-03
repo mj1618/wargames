@@ -35,3 +35,8 @@
 - 2026-10-03T16:13:46 | r1 t04 Nov 2030 election: growth-first coalition loses its lead (0.35 -0.05 unrest 29.9, -0.10 median income 108.4 more than 3 above 2028's 105.1) | p=0.20 r=0.7046 -> FAIL
 - 2026-10-03T16:13:46 | r1 t04 Nov 2030 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 3 of 3
 - 2026-10-03T16:13:46 | r1 t05 event | DRAW 17 of 24
+- 2026-10-03T16:19:26 | r1 t05 households organising drive renewed and widened to shops, restaurants (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.9012 -> FAIL
+- 2026-10-03T16:19:26 | r1 t05 households targeted boycott of AI-run checkouts and care-home robots | p=0.30 r=0.5028 -> FAIL
+- 2026-10-03T16:19:26 | r1 t05 Bill 1 work-sharing subsidy 0.15% GDP + small-firm credit (divided small 0.55 +0.05 union_pressure 0.65) | p=0.60 partial=0.15 r=0.8329 -> FAIL
+- 2026-10-03T16:19:26 | r1 t05 Bill 2 2-point AI-profit transition levy, trigger to 4.5% (divided medium 0.35 -0.15 against coalition +0.05 union_pressure) | p=0.25 partial=0.15 r=0.5225 -> FAIL
+- 2026-10-03T16:19:26 | r1 t05 published-statistics noise | DRAW 5 of 5

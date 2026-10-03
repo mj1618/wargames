@@ -6,7 +6,7 @@
 
 **Headline: Consolidation.** Two of the largest AI and cloud providers merge or sign an exclusive pact.
 
-**Only you see.** The energy crunch cost you capacity; your owned generation is coming on line. The consent decree is entered: binding compute charter, price reporting, unbundling. The levy is 5 points; you paid $5bn a year. The grid bill passed at half size. The government won re-election with wider margins.
+**Only you see.** The energy crunch cost you capacity; your own generation is coming on line. The consent decree is entered. The grid bill passed at half size. The government was re-elected with wider margins.
 
 **Messages.**
 - From the federal government: "Levy stays at 5, not 8, through 2033; half-credit for the fund if you pay $5bn; charter becomes an enforceable decree. Back the grid bill and you get permitting."

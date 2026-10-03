@@ -34,7 +34,7 @@ No roll: consent decree (both sides offered it; the labs paid the $5bn condition
 - Entrepreneurs' housing push is used up.
 
 ## Non-players and off-menu
-Narrated only: labs' $60bn of owned generation and $1.6bn politics (the event's effect is exact; no offset); the Grid Act's permitting and data-centres-pay rules; employers' data publication, entry cohort and levy lobbying; entrepreneurs' API migration and charter support; households' turnout campaign. No bargaining-reform bill was introduced.
+Narrated only: labs' $60bn of generation (event effect is exact; no offset); the Grid Act's permitting rules; employers' data publication and lobbying; households' turnout campaign. No bargaining-reform bill was introduced.
 
 ## Model result (unaltered, two years)
 2.61m jobs destroyed (all automation), 3.94m created (2.40m new work, 1.37m spending, 0.17m re-absorbed); employment 169.05m. Unemployment 3.2%, employment rate 60.07%. Real pay 116.6, median income 114.7, bottom fifth 112.3. Labour share 52.4%. GDP +2.78% a year. Poverty 10.2%, homelessness 16.3. Deficit 5.7%. Unrest 27.2.

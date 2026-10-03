@@ -6,7 +6,7 @@
 
 **Headline: Consolidation.** Two of the largest AI and cloud providers merge or sign an exclusive pact.
 
-**Only you see.** Jobs are easy to find, pay beat prices by about 3% a year and rent kept falling; power bills rose and a small rebate arrived. Your organising drive again won few signatures; the package is unsigned, though employers kept the cap, top-up and pool and published their data. No bargaining-reform bill was brought. Big states did not upzone.
+**Only you see.** Pay beat prices by about 3% a year; rent kept falling; a small power rebate arrived. Your drive won few signatures; the package is unsigned, though employers kept its terms. No bargaining-reform bill was brought.
 
 **Messages.**
 - From employers: "Agreed on a package by May with published data; we will accept a bounded no-strike clause for the agreement's term only. Propose a joint annual review."
