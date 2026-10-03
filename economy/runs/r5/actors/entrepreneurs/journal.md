@@ -19,3 +19,7 @@ Demand stayed; credit collapsed—AI shares crashed 33%, venture frozen. We beli
 ## Round 05 (January–December 2032)
 
 Housing codes approved; costs collapsed. Housing becomes 40% of capital, tradesfolk focus. AI-only scaled on cheaper tier (−25%) for margin recovery. Committed to write trainees' pay steady through cycle, first call on new jobs. Moat is people-heavy hybrids plus local housing execution. Watching: household income durability, Main Street deployment, antitrust API openness, incumbent poaching.
+
+## Round 06 (January–December 2034)
+
+Households asking for guaranteed training placements—smart signal. Worker-first Congress opens the door. New firms hit 1.9m hiring over two years; we're proving this works at scale. Committing $600m/year to paid-to-train guarantee: housing (50% of capital), trades, hybrid services. Pushing Congress hard for Paycheck Bridge and open APIs. Watching: congressional action on both bills, credit stability through bond-market volatility, whether incumbents compete on training, household demand durability.

@@ -14,3 +14,6 @@ Believe: pay and rents fine but labour share a record low, unfilled office jobs,
 
 ## Round 05 (2031-32)
 Believe: pay fell, jobs lost in shops and offices, and pledges without penalties failed; rents easing, credit loosening, factory-built homes may help. Committed: accept Employers' notice/profit-share floor and advisory seats only with breach penalties and a review, about 10 small drives, no strikes, saving rate steady, targeted vote push for Nov 2032, paid-to-train places with no-drop promise, no boycotts. Watching: layoffs among people I know, defaults, rents, whether penalties are signed, Main Street money reaching us.
+
+## Round 06 (2033-34)
+Believe: real pay up ~8%, housing cheaper, but labour share still low, drives stall, and penalties/review remain unsigned; bond scare is the main risk. Committed: sign Employers' term sheet only with breach penalties, 12-month review and no-layoff that widens; about 10 drives in warehouses/care/call centres; a third of effort on Nov 2034 vote; saving steady (up 1 if yields spike); trainee places with first-year-pay promise; no strikes or boycotts. Watching: penalty response, layoffs near us, defaults, credit, bond yields.

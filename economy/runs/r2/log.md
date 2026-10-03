@@ -34,3 +34,10 @@
 - 2026-10-03T16:12:17 | r2 t04 Nov 2030 election: configuration shift | DRAW 2 of 3
 - 2026-10-03T16:12:17 | r2 t05 event | DRAW 23 of 24
 - 2026-10-03T16:12:33 | r2 t05 event 23 data revision: SUCCESS = 2030 published unemployment understated by 0.4, FAIL = overstated | p=0.50 r=0.0641 -> SUCCESS
+- 2026-10-03T16:18:40 | r2 t05 households narrow organising drive, care/trades/co-ops (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.0127 -> SUCCESS
+- 2026-10-03T16:18:40 | r2 t05 Bill 1 American Transition Dividend Act (medium divided 0.35, tax rise and new transfer cut against coalition -0.15) | p=0.20 partial=0.15 r=0.8333 -> FAIL
+- 2026-10-03T16:18:40 | r2 t05 Bill 2 Build and Hire Act (small divided 0.55, fits coalition +0.10) | p=0.65 partial=0.15 r=0.6260 -> SUCCESS
+- 2026-10-03T16:18:40 | r2 t05 statistics noise | DRAW 4 of 5
+- 2026-10-03T16:19:00 | r2 t05 Nov 2032 election: growth-first loses lead (0.35 -0.01x0.7 unrest, -0.10 median income 112.7 vs 106.0 two rounds ago) | p=0.24 r=0.6516 -> FAIL
+- 2026-10-03T16:19:00 | r2 t05 Nov 2032 election: configuration shift | DRAW 2 of 3
+- 2026-10-03T16:19:00 | r2 t06 event | DRAW 15 of 24

@@ -14,3 +14,6 @@ Believe: no felt crisis (4.1%, income 103.0) but the trend turned, credit is tig
 
 ## Round 05 (2031–2032)
 Believe: crisis is now felt (5.5%, GDP −0.6%, receipts 17.0%, deficit 6.8%); employers broke their pledge; election November 2032. Committed: Paycheck Bridge Act (targeted transfers 1.0% GDP for 2032–33, retraining 0.4%, 4-point capital levy from 2033, pre-emption to 2034 after $2bn escrow); Factory Homes Act at 0.4% GDP; bundling decree with open access. Watch: bond yields, unemployment past 7%, receipts, unrest, escrow, the vote count.
+
+## Round 06 (2033–2034)
+Believe: recovery is felt (4.1%, income 108.7) but bond market is the binding constraint (deficit 6.2%); we now lead as worker-first. Committed: 6-point capital levy from 2034, half to deficit, rest to targeted transfers 0.5% and retraining 0.3%; Main Street/work-sharing renewal 0.15% with clawbacks; no pre-emption, antitrust to trial unless open access. Watch: bond yields, levy vote, donor backlash, state licensing patchwork, unemployment past 6%, November 2034.

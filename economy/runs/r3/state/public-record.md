@@ -86,3 +86,17 @@ Everything here is known to every player.
 ## 2031–32 — opening headline
 
 **Energy crunch.** Power shortages and local moratoria delay data centres.
+## 2031–32 — what happened
+
+**Official statistics (end 2032).** Unemployment 3.1%; participation 62.0%; 169.1m jobs (up 2.7m over two years); GDP up 2.8% a year; consumer prices down slightly, housing costs down about 3%; labour share 52.4%; deficit 5.7%, debt about 109%. Reported layoffs citing AI: about 1.0m over two years. Now published for 2030: poverty 11.2%, homelessness 17.6 per 10,000.
+
+**Washington.** The 5-point AI-profit levy, wage insurance and first-job programme began. The Grid and Household Power Act passed in narrower form, with a smaller power-bill rebate. The antitrust cases ended in a consent decree: a binding compute-access charter with price reporting.
+
+**Election.** The worker-first coalition kept the Presidency and Congress, with wider margins.
+
+**Elsewhere.** Labs raced, put $60bn into their own power and paid $5bn a year into their fund. Employers automated through attrition. Entrepreneurs hired heavily. The union drive won little. Big states still resist new housing.
+
+## 2033–34 — opening headline
+
+**Consolidation.** Two of the largest AI and cloud providers merge or sign an exclusive pact.
+

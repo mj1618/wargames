@@ -89,3 +89,13 @@ Official statistics arrive late and with noise. Company and household players se
 - **Workers.** A fourth organising wave succeeded.
 - **Published late, for 2029:** poverty 11.9%, homelessness 19.7 per 10,000.
 
+## 2031–32 in review (official statistics, preliminary)
+
+- **Jobs.** Unemployment 4.1%; participation 61.2%; about 164.9m in work. Announced layoffs about 2.1m over two years. Office employment fell by about 1.8m; new firms, care and construction hired.
+- **Pay and prices.** Real pay up about 3.2% a year; consumer prices flat; housing costs down about 2% a year. Median household income index about 113.3.
+- **Business.** GDP up 3.3% a year. Labour's share 49.4%, another record low. Certified robots returned to sale.
+- **Washington.** The Fiscal Stability and Dividend Act raised the profits levy to 7 points and pays a dividend to lower-income households; a court challenge failed. The Housing Build Act passed. No safe-harbour bill was tabled; the labs signed a layoff-notice pledge. Deficit 5.4% of GDP.
+- **Election.** Worker-first kept its lead in November 2032, with a firmer majority.
+- **Workers.** A fifth organising wave stalled.
+- **Published late, for 2030:** poverty 11.4%, homelessness 18.7 per 10,000.
+
