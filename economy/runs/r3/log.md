@@ -13,3 +13,8 @@
 - 2026-10-03T15:50:27 | r3 t01 household organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.7816 -> FAIL
 - 2026-10-03T15:50:27 | r3 t01 statistics noise | DRAW 3 of 5
 - 2026-10-03T15:50:38 | r3 t02 event | DRAW 5 of 24
+- 2026-10-03T15:54:33 | r3 t02 Build Act permitting bill (small 0.80, fits instincts +0.10) | p=0.90 partial=0.15 r=0.9685 -> PARTIAL
+- 2026-10-03T15:54:33 | r3 t02 AI Workforce Notice Act (small 0.80, mixed instincts, no adjustment) | p=0.80 partial=0.15 r=0.1082 -> SUCCESS
+- 2026-10-03T15:54:33 | r3 t02 court blocks notice-and-reporting rule (if enacted) | p=0.20 r=0.1425 -> SUCCESS
+- 2026-10-03T15:54:33 | r3 t02 household drive + talks with employers signed (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.4953 -> SUCCESS
+- 2026-10-03T15:54:33 | r3 t02 labs keep $2bn transition-fund pledge under financial pressure | p=0.60 r=0.7250 -> FAIL

@@ -48,3 +48,15 @@ Official statistics arrive late and with noise. Company and household players se
 - **Washington.** The growth-first coalition leads the federal government after the November 2026 midterms: pro-deployment, wary of new taxes and sceptical of new entitlements. The worker-first coalition is in opposition.
 - **States and housing.** Several big states are already overriding local zoning to get homes built; more are debating it.
 - **In the news: the new-work mirage.** Last year's fashionable new job category — the "AI supervisor" roles firms hired for through 2026 — is itself being automated. Several large employers have closed the teams they built a year ago.
+
+## 2027 — what happened
+
+**Official statistics (end 2027).** Unemployment 4.5%; participation 61.3%; 161.8m jobs (down 0.6m); GDP up 1.9%; consumer prices flat, housing costs down about 2%; median real income about 101.6; labour share 51.7%, a new record low; deficit 6.2%, debt about 102%. Announced layoffs citing AI: about 0.9m.
+
+**Washington.** Congress passed the AI Leadership and Workers Act (quarterly layoff disclosure by large firms, pre-emption of state AI-employment rules, retraining and wage insurance from 2028) and a housing bill (grants to places that override zoning, from 2028). Antitrust cases on AI pricing were opened.
+
+**Elsewhere.** The labs raced, held prices and announced a $2bn-a-year worker fund. Employers ran company-wide automation drives, mostly through hiring freezes. A union organising drive won contracts. Founders moved into factory-built housing.
+
+## 2028 — opening headline
+
+**Generation leap.** A new model generation does week-long professional projects unaided.

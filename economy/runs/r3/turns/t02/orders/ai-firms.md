@@ -5,7 +5,7 @@ Shares are down a third and credit is tight, but order books are full and premiu
 
 ## Options considered
 - Race through the crunch on debt (lenders say no; a failed raise is how a lab falls off the frontier).
-- Price war while rivals are cash-constrained (burns the margin carrying our capex).
+- Price war while rivals are cash-constrained (burns the margin carrying capex).
 - Unconventional: offer a pre-emption-for-levy deal now, while we look weak (majority against; reserve for 2029).
 
 ## Decisions this period
@@ -14,7 +14,7 @@ Shares are down a third and credit is tight, but order books are full and premiu
 3. **Politics: $900m, and we take the government's deal.** Voluntary quarterly AI-layoff reporting via our enterprise customers (the court killed the rule; compliance is free). $1bn visible housing finance in our campus metros. Transition fund stays $2bn/yr; cash is tight. Union request declined: we are not the employers.
 
 ## Public statement
-"Demand for AI has not wobbled; the labs are investing steadily, opening cheaper access for small developers, and funding housing in the cities we grow in."
+"Demand for AI has not wobbled; the labs are investing steadily, opening cheaper access for small developers, and funding housing where we grow."
 
 **To federal government:** Deal accepted. Reporting starts Q2; $1bn housing this year. We expect no new licensing push from your side.
 **To entrepreneurs:** Developer tier launches Q1, published terms, no bundling. Tell us where licensing still blocks you.
