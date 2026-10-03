@@ -8,3 +8,6 @@ Belief: adoption, not capability, is the bottleneck; household services are the 
 
 ## Round 03 (2029)
 Belief: 3.4% unemployment kills the displacement story for now; adoption, not capability or politics, limits revenue. Government wants us to move first on the $2bn — we won't be burned twice. Committed: race +20% aimed at deployment, two-year bundles with capped repricing and a usage tier, consumer prices −20%, $2bn into an escrow trust released on enactment, $350m political spend. Watching: whether government accepts escrow, Q2 bundle signings, any licensing bill with coalition votes.
+
+## Round 04 (2030)
+Belief: the share-price fall makes capital the binding constraint; one-sixth utilisation means adoption, not capability, pays. The escrow-for-pre-emption trade is proven and worth repeating. Committed: steady pace, capex growth frozen, enterprise bundles held, −25% usage tier for SMB/consumers, $1bn trust payment, $2bn escrow offered for pre-emption through 2034 plus consent decree, $300m political spend. Watching: whether any rival races through the squeeze, antitrust remedy terms, SMB uptake.

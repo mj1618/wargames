@@ -12,3 +12,7 @@ Capital did tighten—seed funding down 1/3. I believe the federal credit progra
 
 The wobble passed: federal credit held, rents fell, developer tier cut costs, private capital returns. The worker-first coalition should deliver licensing reform and credit access. I'm committing to 10% new-firm growth, 60/40 people-heavy to AI-only, major push on factory housing and trades. Watching: federal credit flow, state upzoning, and customer spending above 2028 levels.
 
+## Turn 04 (Jan–Dec 2030)
+
+The unbundled API and the hit new industry are the inflection point. I hired 700k last year; the unbundled tier is 45% cheaper. Committing to aggressive API migration (70% of new hiring), selective entry into the new industry (~200k hires), and factory-housing expansion where zoning allows. Watching: wage growth (15%+ is my red line), the identity and margins of the new industry, and state upzoning. If wages spike or the industry stalls, I consolidate hard into AI-only.
+

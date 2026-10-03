@@ -9,3 +9,6 @@ Believe: model works but credit squeeze and shaky AI valuations raise project ri
 
 ## Round 03 (2029)
 Believe: demand is now our own problem; worker-first government means tax/rules risk, so buy peace cheaply. Committed: settle with households before June (hours_share ~35%, half pay top-up, ~1.5% payroll profit-sharing), ~0.4m entry-level cohort plus paid retraining, normal automation speed, layoff_share ~30%, one-third price pass-through. Watching: profit-tax and deployment bills, strike deadline, sales trend, rival shedding.
+
+## Round 04 (2030)
+Believe: demand and hiring recovered, labour is scarce and pay rising; peace held, no levy yet but could return. Committed: automation +10% via attrition, layoff_share ~25%, hours_share ~35% with half top-up, pool ~1.5% with a small equity pilot, targeted raises only, one-third price pass-through. Watching: margin squeeze from wages, profit-levy bills, layoff-cap campaigns, rival hiring.

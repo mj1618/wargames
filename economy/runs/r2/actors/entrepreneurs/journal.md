@@ -12,3 +12,7 @@ Factory-built housing is real. We're shifting 60% of new capital there and 40% i
 
 Factory-built housing and people-heavy services are delivering. Network firms added 1.3m jobs in 2028—three times 2027. Credit is open, new small-business credit launches this year, and margins recovered after AI competition. Households want ownership stakes and human-centered work in care, trades, repair. Scaling factory housing 80% YoY and launching worker-owned service co-ops in 10 metros. Holding AI-only flat. Congressional divide is the risk; if small-business credit gets cut, I pivot to margin-over-jobs mode.
 
+## Turn 04 (2030)
+
+We proved it—2.8m jobs, co-ops filling metros, housing expansion complete. Credit wobble and investor pullback hit hard, but co-ops are the hedge: founders survive what VC can't. Policy is now the bottleneck: Housing Supply Act and new-firms credit written but not flowing. We're hiring cautiously in care and trades, taking a margin play in AI-only, and pushing Congress to actually deploy the credit. Federal government wants "visible hiring and homes before November." They'll get it if the credit flows.
+

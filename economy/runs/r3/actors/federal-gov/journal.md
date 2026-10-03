@@ -8,3 +8,6 @@ Believe: displacement is still a hiring freeze; rent and the election dominate; 
 
 ## Round 03 (2029)
 Now worker-first. Believe: 3.8m jobs lost and falling participation are the real story; the 4.5% revision hides exits. Committed: Worker Security Act (1% GDP targeted transfers, 0.4% retraining/wage insurance, 8-point capital levy, from 2030); statutory reporting plus 1m public jobs; antitrust cases; no licensing this year. Watch: both votes, bond yields, whether labs pay the $5bn and report in Q2, employers' layoff cap, jobs and participation, 2030 midterm mood.
+
+## Round 04 (2030)
+Believe: boom is real (3.4%, +4.9m jobs) and no crisis will pass a big bill; the base still needs a signed law before November. Committed: Wage Insurance and First Job Act (5-point levy, 0.4% GDP, three-year truce on licensing, pre-emption kept); deliver 1m public jobs, no expansion; full reporting enforcement; bargaining reform deferred to 2031. Watch: levy vote, labs' $5bn, midterm result, unemployment past 4.5%, AI layoffs past 1m, employers' cohort.

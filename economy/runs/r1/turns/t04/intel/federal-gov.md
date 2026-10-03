@@ -6,7 +6,7 @@
 
 **News:** new-work mirage — last year's fashionable new job category is itself being automated.
 
-**Only you see this:** Both bills passed in full; both court challenges failed. The central bank signals the economy is running too hot. Big states have not loosened zoning. Whip count unchanged.
+**Only you see this:** Both bills passed in full; both court challenges failed. Big states have not loosened zoning. Whip count unchanged.
 
 **Messages to you:**
 - From AI labs: "We back pre-emption with disclosure; $1bn of First Job visible by Q3. Keep disclosure to the largest firms; credit fund spending against any future levy."

@@ -8,3 +8,6 @@ Believe: aggregates fine (4.2%, pay +1.5%), damage is in youth hiring and freeze
 
 ## t03 (2029)
 Believe: now worker-first, split Congress; aggregates fine (4.4%, pay +2.3%) but labour share 51.6%, office jobs shrinking, week-long-task models arrived. Committed: Worker Transition Act (0.3% GDP wage insurance/apprenticeships/work-sharing, paid by 3-point AI-profits levy, from 2030); safe harbour traded for statutory freeze disclosure and $5bn/yr fund; zoning grants expanded, licensing review. Watch: unemployment 5.5%, wage-tax receipts, office job losses, industry's response to levy, bond yields, 2030 midterm polls.
+
+## t04 (2030)
+Believe: midterm year with good aggregates (4.1%, pay +3.1%, GDP +3.3%); harm is office jobs (−1m) and labour share 50.9%. Committed: safe harbour and no caps traded for $12bn→$20bn/yr fund and signed pledge, levy frozen at 3 points through 2032 only; paired youth hiring credit (0.15% GDP) and attrition notice rule; robot safety certification and zoning-tilted grants by executive action. Watch: pledge signature by June, unemployment 5.5%, wage-tax receipts, midterm result, court challenges.

@@ -6,3 +6,4 @@
 
 **T03 (2029):** Believe pay is lagging even as bills ease; participation falling hides job loss. Committed to: renew existing contracts and sign gain-sharing/hours framework (90-day notice ask), saving held, co-op pilots in big metros, no boycott. Watching: wage insurance payout speed and size, mid-career layoffs, whether AI firms deliver the clause and the $1bn retraining.
 
+**T04 (2030):** Believe jobs and pay are recovering (unemployment 3.5%, profit-shares, falling rent) but share-market fall and tighter credit threaten savings and hiring. Committed to: renew contracts and push advisory committee seats with real scope, saving +1 as a buffer, co-op pilots and worker-first 2030 votes, no boycott. Watching: layoffs if credit tightens, wage insurance payouts, co-op hiring, rents.

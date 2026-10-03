@@ -8,3 +8,6 @@ Believe: the wobble is a funding problem, not demand; the election, not the mark
 
 ## Round 03 (2029)
 Believe: downturn was mild (revision to 4.5%), demand intact, lenders still the brake; the worker-first majority will tax us, so shape the levy rather than lose it; dormant fund cost us credibility. Committed: modest race +10%, capex +10%; premium holds; unbundled API tier ~45% off for firms under $100m; $1.2bn politics; offer 4% levy for no caps/licensing and pre-emption; fund actually pays $2bn, creditable. Watch: levy rate and licensing language, moratorium votes, lender reopening, startup uptake.
+
+## Round 04 (2030)
+Believe: the boom and the hit industry are our best cover; the real risks are antitrust and the levy returning above 8; the government's $5bn price is cheap against a 12-point levy. Committed: race +20%, capex +25%; premium holds, unbundled floor +10%, compute-access charter as antitrust remedy; $1.5bn politics; $5bn fund ($3bn now, $2bn on levy locked at 8). Watch: levy text, consent-decree talks, rival price breaks, grid or power backlash, moratorium votes.

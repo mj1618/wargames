@@ -9,3 +9,6 @@ Belief: the lead is perishable and antitrust, not Congress, is the live threat t
 ## t03 (2029)
 Belief: compute, not demand, is the limit; the levy deal is cheap cover and antitrust is the live threat. Committed: race +30%, new-gen premium up 15%, old-gen cut 20% with a household tier, non-exclusive 3-year capacity for employers with capped indemnity, public endorsement of the Act, lobbying $1.5bn aimed at a DOJ consent decree, fund $3bn plus $1bn household-services subsidy. Watching: DOJ settlement, moratorium polling, rival defections on pace.
 
+## t04 (2030)
+Belief: the political deal is done; the binding constraint is now capital, not Congress, and a strong jobs year is our shield in November. Committed: race +10% financed by prepaid 3-year employer capacity, new-gen +10%, old-gen -20% portable, lobbying $1.5bn for loan guarantees and against a moratorium plank, fund held at $3bn, household subsidy ended. Watching: whether employers prepay, any Vanta or foreign break on pace, moratorium polling, credit reopening.
+

@@ -8,3 +8,6 @@ Belief: cheap open-weight tools make faster adoption the best earnings lever; th
 
 ## 2029 (turn 03)
 Belief: week-long-project models make faster adoption the best earnings lever; a worker-first lead raises odds of a profits tax or deployment rules, so the pledge-and-fund deal is cheap insurance. Committed to: company-wide drive, layoff_share near 45%, hours_share toward 20%, partial profit-sharing, public signed pledge and $20bn+ fund backing, one-year AI terms only. Will watch: whether the new Congress moves a profits tax, rival share and margins, strike activity, unemployment above 4.5%.
+
+## 2030 (turn 04)
+Belief: the levy and the dead safe harbour mean political insurance bought little; software automation still pays and the audit standard cuts liability risk, while the robot recall stalls the physical line. Committed to: company-wide software drive, robots limited to pilots, layoff_share near 45%, hours_share toward 25%, entry-level floor held, co-sign AI pledge, apprenticeship-credit-for-levy ask with a ~$10bn/yr fund. Will watch: unemployment above 4.8%, levy-rate moves, rival pricing, strike and boycott activity.

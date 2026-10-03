@@ -6,6 +6,6 @@
 
 **News:** new-work mirage — last year's fashionable new job category is itself being automated. In 2029 Congress made pre-emption permanent, widened layoff disclosure to firms over 1,000 staff and fast-tracked permits; an antitrust inquiry into bundled AI contracts opened.
 
-**Only you see this:** Your own books: new firms took on roughly 1.6m people in 2029 (0.9m in 2028). Staff are very hard to find; pay is rising 3.5% faster than prices. The news item is yours: setup and coaching work many of your firms were built on is now done by the AI systems themselves. Factory-built homes sell as fast as permitted; the big states have not loosened zoning. The antitrust inquiry you asked for is open.
+**Only you see this:** Your own books: new firms took on roughly 1.6m people in 2029 (0.9m in 2028). Staff are very hard to find; pay is rising 3.5% faster than prices. Factory-built homes sell as fast as permitted; the big states have not loosened zoning. The antitrust inquiry you asked for is open.
 
 **Messages to you:** none.

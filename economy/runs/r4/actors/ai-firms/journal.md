@@ -8,3 +8,6 @@ Believe: open-weights make the frontier the only moat; indemnity and compliance 
 
 ## Turn 03 (2029)
 Believe: the generation leap makes politics, not demand, the binding constraint; a known $20bn beats an unknown levy from a worker-first coalition. Certification is our next moat. Committed: race +20%, commodity at open-weight prices, premium bundles held, $200m industry audit body, Government deal at $12bn rising to $20bn by 2031 with signed layoff pledge, $500m lobbying. Watch: does Government accept the ramp; do Employers resume and co-sign; any cap or moratorium bill polling a majority.
+
+## Turn 04 (2030)
+Believe: the levy is sunk, so Government's $5bn price for a floor vote is now cheap; the robot recall is the real moratorium risk and owning certification turns it into a moat. Committed: race +20% on models, robots −30% while recertifying, $300m certification body, accepted Government's terms ($5bn/yr from signature, $2.5bn escrow, no levy fight), one-year premium terms with renewal cap. Watch: is the vote scheduled before recess; recall injury count; any moratorium bill polling a majority.
