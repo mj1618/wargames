@@ -68,3 +68,15 @@ Official statistics arrive late and with noise. Company and household players se
 **Washington.** Congress passed a cut-down Worker Transition Act (2.5% levy on AI profits to 2032, wage insurance, 30-day layoff notice, from 2029) and a work-sharing subsidy with small-business credit. In November the growth-first coalition kept its lead; margins narrowed and Congress is divided.
 
 **Elsewhere.** The labs raced, cut old-generation prices and dropped lock-in. Employers automated faster, mostly without layoffs, and began profit-sharing. A union drive in large offices stalled. Founders expanded factory-built housing.
+
+## 2029 — opening headline
+
+**Cheap services catch on.** Households start buying AI-delivered tutoring, legal help and home design in bulk, with people in the loop.
+
+## 2029 — what happened
+
+**Official statistics (end 2029).** Unemployment 3.5%; participation 61.1%; 164.0m jobs (up 3.1m); GDP up 5.9%; housing costs down about 1%, professional services cheaper; median real income about 106.0; labour share 50.1%, another record low; deficit 6.0%, debt about 103%. Announced layoffs citing AI: about 1.5m. For 2028: poverty 12.6%, homelessness 19.0 per 10,000.
+
+**Washington.** Congress passed the Housing Supply Act (funded building with zoning conditions) and a cut-down new-firms and first-job credit, both from 2030. The AI pricing cases settled on open-access terms. The 2.5% levy and wage insurance began.
+
+**Elsewhere.** The labs raced, raised new-generation prices and cut old ones. Employers automated at the same pace, mostly by attrition, and set up advisory worker committees. A targeted union drive failed. Founders launched worker-owned service co-ops and finished their factory-housing expansion.

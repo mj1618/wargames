@@ -68,3 +68,11 @@ Official figures, end 2028 (provisional): unemployment 4.0%; participation 61.7%
 Factory-built homes won code approval in most states. The labs cut routine-tier prices 40%, kept enterprise customers on multi-year bundles and published workforce data voluntarily. Large employers renewed a no-mass-layoff pledge and shrank by attrition. Organising drives in care, health and trades won contracts.
 
 Congress passed a funded housing programme tied to zoning reform (from 2029) and an AI framework law: layoff disclosure for the largest firms and a temporary standstill on new state AI rules. In November the growth-first coalition kept the presidency and Congress.
+
+## 2029
+
+Official figures, end 2029 (provisional): unemployment 3.1%; participation 62.0%; 166.8m jobs, up 2.5m; GDP growth 4.3%; housing costs down about 3%, other prices slightly lower; median household income index about 109; labour share 52.1%; deficit 5.8% of GDP, debt 103%. Announced layoffs about 0.95m, AI again the most-cited reason. Now published for 2028: poverty 11.7%, homelessness 18.7 per 10,000.
+
+A surge of data-centre, grid and factory investment made it a boom year; employers reported staff shortages. The labs raced, signed five-year exclusive enterprise bundles and turned half their Worker Transition Fund to first jobs for the young. Large employers signed the no-mass-layoff pledge. Organising drives won again, now including build-out sites.
+
+Congress made federal pre-emption of state AI rules permanent, widened layoff disclosure to all firms over 1,000 staff, and fast-tracked permits. The government opened an antitrust inquiry into bundled AI contracts; a court let it proceed.

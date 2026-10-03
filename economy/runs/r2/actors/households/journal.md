@@ -4,3 +4,5 @@
 
 **T02 (2028):** Believe the leap hits mid-career office staff next; we won contracts but they fade without upkeep. Committed to: wider union drive into offices (notice, redeployment, gain-share), saving +1, peaceful 2028 protest and votes (payouts, youth apprenticeships, repeal pre-emption), co-op talks with entrepreneurs, boycott held in reserve. Watching: mid-career layoffs near us, wage insurance payouts, rents, employer answers on notice.
 
+**T03 (2029):** Believe pay is lagging even as bills ease; participation falling hides job loss. Committed to: renew existing contracts and sign gain-sharing/hours framework (90-day notice ask), saving held, co-op pilots in big metros, no boycott. Watching: wage insurance payout speed and size, mid-career layoffs, whether AI firms deliver the clause and the $1bn retraining.
+

@@ -60,3 +60,15 @@ Everything here is known to every player.
 ## 2029 — opening headline
 
 **Data revision.** The statistics office says 2028 unemployment was overstated: 4.5%, not 4.9%.
+
+## 2029 — what happened
+
+**Official statistics (end 2029).** Unemployment 3.4%; participation 61.1%; 163.8m jobs (up 4.9m); GDP up 4.8%; consumer prices down slightly, housing costs down about 2%; labour share 52.1%; deficit 6.2%, debt about 107%. Reported layoffs citing AI: about 0.35m. Now published for 2028: poverty 13.4%, homelessness 20.0 per 10,000.
+
+**Washington.** The Worker Security Act (targeted cheques, more wage insurance, an 8-point AI-profit levy) failed in Congress. The Transition Reporting and Jobs Act passed and survived in court: layoff notice and reporting are law; 1m public jobs start in 2030. Antitrust cases opened on lab pricing and compute access.
+
+**Elsewhere.** Labs sped up modestly, opened an unbundled cut-price tier for small firms, and paid $2bn from their transition fund. Employers extended shorter weeks with part pay protection and restarted entry-level hiring. The union drive won little. Big states still resist new housing.
+
+## 2030 — opening headline
+
+**A hit new industry.** A new kind of service nobody predicted takes off and hires people in large numbers.

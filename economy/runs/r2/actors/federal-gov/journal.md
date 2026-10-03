@@ -6,3 +6,6 @@ Believe: no visible jobs crisis yet (4.1%); rents and graduate hiring are the fe
 ## t02 (2028)
 Believe: pain now visible (4.5%, 0.9m AI layoffs, hiring freezes), worse after the generation leap; receipts slipping. Committed: labs' deal — 5% AI-profits levy (sunset 2032) funding 0.4% GDP wage insurance/retraining plus 60-day notice, pre-emption kept; work-sharing subsidy tied to employers' no-mass-layoff pledge; front-loaded housing grants; no cheques. Watch: November result, unemployment past 5.5%, bond market, whether labs deliver public backing, graduate unemployment.
 
+## t03 (2029)
+Believe: headline 4.3% hides the damage — jobs down 0.9m, participation 60.8%, 1.6m AI layoffs; cheaper living is what re-elected us; revenue 17.0%, divided Congress. Committed: Housing Supply Act (+0.15% GDP funded building, zoning conditions); new-firm credit plus under-27 hiring credit (0.1% GDP); antitrust toward open-access settlements; pre-emption and 2.5% levy held; no cheques. Watch: participation below 60%, unemployment past 5.5%, revenue under 16.7%, labs' settlement stance, 2030 polling.
+

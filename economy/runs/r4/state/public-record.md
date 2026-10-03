@@ -70,3 +70,12 @@ Official statistics arrive late and with noise. Company and household players se
 - **Election.** The worker-first coalition won the lead in November; Congress remains closely split.
 - **Workers.** A second organising wave won sign-off and no-layoff clauses at more employers.
 - **Published late, for 2027:** poverty 12.7%, homelessness 21.1 per 10,000.
+
+## 2029 in review (official statistics, preliminary)
+
+- **Jobs.** Unemployment 4.1%; participation 61.1%; about 162.6m in work. Announced layoffs about 1.1m; more posts closed through freezes. Office employment fell by about 1m; care, construction and new firms hired.
+- **Pay and prices.** Real pay up about 3.1%; consumer prices flat; housing costs down about 2%. Median household income index about 104.2.
+- **Business.** GDP up 3.3%. Labour's share 50.9%, another record low. Labs published an AI audit standard.
+- **Washington.** The Worker Transition Act passed: wage insurance, apprenticeships and work-sharing support (0.3% of GDP) funded by a 3-point levy on profits, from 2030; a court challenge failed. The safe-harbour bill again never reached the floor, and industry's proposed worker fund lapsed with it. Deficit 6.0% of GDP.
+- **Workers.** A third organising wave won clauses covering attrition cuts.
+- **Published late, for 2028:** poverty 12.3%, homelessness 20.4 per 10,000.

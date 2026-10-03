@@ -20,3 +20,8 @@
 - 2026-10-03T15:56:22 | r4 t02 election configuration shift | DRAW 3 of 3
 - 2026-10-03T15:56:23 | r4 t02 statistics noise | DRAW 3 of 5
 - 2026-10-03T15:56:23 | r4 t03 event | DRAW 3 of 24
+- 2026-10-03T16:01:41 | r4 t03 households organising drive, third wave (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.1704 -> SUCCESS
+- 2026-10-03T16:01:47 | r4 t03 law: Worker Transition Act, retraining 0.3% GDP + 3-pt profits levy (medium 0.15, +0.10 worker-first instincts, +0.05 union pressure) | p=0.30 partial=0.15 r=0.1005 -> SUCCESS
+- 2026-10-03T16:01:54 | r4 t03 court blocks the 3-point profits levy (new tax by law) | p=0.20 r=0.7350 -> FAIL
+- 2026-10-03T16:01:55 | r4 t03 statistics noise | DRAW 1 of 5
+- 2026-10-03T16:01:55 | r4 t04 event | DRAW 2 of 24

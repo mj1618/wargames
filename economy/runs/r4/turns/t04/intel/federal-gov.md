@@ -1,0 +1,7 @@
+# Intel — Federal government — January to December 2030
+
+**End 2029 (preliminary):** unemployment 4.1%; participation 61.1%; 162.6m jobs; real pay +3.1%; prices flat; housing −2%; median income 104.2; GDP +3.3%; labour share 50.9%; deficit 6.0%. 2028, late: poverty 12.3%, homelessness 20.4 per 10,000.
+
+**Headline — Robot recall:** injuries in warehouses and homes force a recall and new safety certification.
+
+**Your seat:** The Worker Transition Act passed and survived court; it starts in 2030. The Accountable Automation Act did not move: industry tied its money to no levy. Widening housing grants needs Congress. Midterms in November. Messages — from AI firms: "$12bn now, $20bn by 2031, pledge signed before summer. Price: safe harbour, no deployment caps, five-year levy moratorium. Draft with us this quarter." From Employers: "We accept the outline. We will back a fund of at least $20bn a year and a signed public pledge before summer, provided the bill carries safe-harbour and no new deployment mandates or profits tax this Congress." From Households: "Bring the youth hiring bill and a notice rule for attrition cuts. Our 2030 votes depend on them." From Entrepreneurs: "Zoning deregulation, not training programmes, is the real jobs lever. Housing supply normalizes rents, which raises what households can spend on services and small business. Loosen it and unemployment will fall naturally."

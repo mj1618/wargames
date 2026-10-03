@@ -26,3 +26,4 @@
 - 2026-10-03T16:00:35 | r5 t03 court blocks executive antitrust action (SUCCESS = blocked) | p=0.35 r=0.9204 -> FAIL
 - 2026-10-03T16:00:35 | r5 t03 statistics noise | DRAW 3 of 5
 - 2026-10-03T16:00:41 | r5 t03 court blocks Framework Act disclosure rule in first round (SUCCESS = blocked) | p=0.20 r=0.6940 -> FAIL
+- 2026-10-03T16:00:52 | r5 t04 event | DRAW 5 of 24

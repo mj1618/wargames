@@ -23,3 +23,10 @@
 - 2026-10-03T15:54:50 | r3 t02 statistics noise | DRAW 3 of 5
 - 2026-10-03T15:54:50 | r3 t03 event | DRAW 23 of 24
 - 2026-10-03T15:54:59 | r3 t03 data revision direction (SUCCESS understated by 0.4, FAIL overstated) | p=0.50 r=0.7258 -> FAIL
+- 2026-10-03T16:00:57 | r3 t03 Worker Security Act (medium 0.60, fits worker-first instincts +0.10) | p=0.70 partial=0.15 r=0.9948 -> FAIL
+- 2026-10-03T16:00:57 | r3 t03 Transition Reporting and Jobs Act (small 0.80, fits instincts +0.10) | p=0.90 partial=0.15 r=0.1190 -> SUCCESS
+- 2026-10-03T16:00:57 | r3 t03 court blocks profit levy (if enacted) | p=0.20 r=0.6659 -> FAIL
+- 2026-10-03T16:00:57 | r3 t03 court blocks statutory notice-and-reporting rule (if enacted) | p=0.20 r=0.3871 -> FAIL
+- 2026-10-03T16:00:57 | r3 t03 household organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.7953 -> FAIL
+- 2026-10-03T16:00:57 | r3 t03 statistics noise | DRAW 1 of 5
+- 2026-10-03T16:01:09 | r3 t04 event | DRAW 8 of 24

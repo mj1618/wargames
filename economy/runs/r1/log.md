@@ -21,3 +21,10 @@
 - 2026-10-03T15:57:07 | r1 t02 Nov 2028 election: growth-first coalition loses its lead (0.35 -0.02 unrest 32.9, -0.10 median income up >3 over two rounds) | p=0.23 r=0.4258 -> FAIL
 - 2026-10-03T15:57:07 | r1 t02 Nov 2028 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
 - 2026-10-03T15:57:07 | r1 t03 event | DRAW 6 of 24
+- 2026-10-03T16:02:32 | r1 t03 households organising drive renewed and extended (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.1492 -> SUCCESS
+- 2026-10-03T16:02:32 | r1 t03 Bill 1 permanent AI framework: pre-emption + disclosure widened to 1,000+ firms (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.7017 -> SUCCESS
+- 2026-10-03T16:02:32 | r1 t03 Bill 2 build-out and grid permitting (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.6451 -> SUCCESS
+- 2026-10-03T16:02:32 | r1 t03 court blocks executive antitrust action on bundled contracts (executive action) | p=0.35 r=0.4223 -> FAIL
+- 2026-10-03T16:02:32 | r1 t03 published-statistics noise | DRAW 2 of 5
+- 2026-10-03T16:02:37 | r1 t03 court blocks the widened statutory disclosure rule in its first round | p=0.20 r=0.4504 -> FAIL
+- 2026-10-03T16:02:44 | r1 t04 event | DRAW 9 of 24
