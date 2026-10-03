@@ -100,3 +100,11 @@ Official figures, end 2034 (provisional): unemployment 2.8%; participation 63.1%
 AI wealth bid up land in a few metros and insurers quit others. The labs raced and made outcome contracts standard. Large employers automated by attrition and renewed their no-mass-layoff pledge. Start-ups shifted to care and trades. The organising drive stalled again.
 
 Congress passed zoning pre-emption in squeezed metros with an insurance backstop, and a no-deployment-limits guarantee conditional on a $6bn Worker Transition Fund. In November 2034 the worker-first coalition won Congress.
+
+## 2035–36
+
+Official figures, end 2036 (provisional): unemployment 2.9%; participation 64.6%; 179.4m jobs, up 5.7m over two years; GDP growth 6.5% a year; housing costs down about 6%, AI and professional services down about 4%; median household income index about 135; labour share 45.8%; deficit 4.0% of GDP, debt 90%. Announced layoffs about 4.2m over two years, AI again the most-cited reason. Now published for 2034: poverty 8.6%, homelessness 13.8 per 10,000.
+
+A new service industry hired in bulk and employers reported millions of unfilled vacancies. The labs raced, kept outcome contracts and doubled their Worker Transition Fund to $6bn, bringing the no-limits guarantee into force. Large employers renewed their no-mass-layoff pledge. Start-ups hired through hiring halls. The organising drive won written contracts.
+
+Congress passed a 2-point levy on AI profits with small-business lending and first-job funding, and a work-sharing and boom-metro housing bill. A court let the levy stand.
