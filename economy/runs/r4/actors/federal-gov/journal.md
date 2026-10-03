@@ -5,3 +5,6 @@ Believe: no visible jobs crisis yet (4.1%); risk is mood and graduates, not aggr
 
 ## t02 (2028)
 Believe: aggregates fine (4.2%, pay +1.5%), damage is in youth hiring and freezes; election turns on under-25 jobs. Committed: youth hiring/apprenticeship credit (~0.15% GDP from 2029); safe harbour for audited systems traded for $20bn industry transition fund and public no-mass-layoff pledge; disclosure extended to freezes; no antitrust, no levy, no limits. Watch: unemployment 5.5%, wage-tax receipts, whether donors actually pay, pledge compliance, opposition crossovers, November polls.
+
+## t03 (2029)
+Believe: now worker-first, split Congress; aggregates fine (4.4%, pay +2.3%) but labour share 51.6%, office jobs shrinking, week-long-task models arrived. Committed: Worker Transition Act (0.3% GDP wage insurance/apprenticeships/work-sharing, paid by 3-point AI-profits levy, from 2030); safe harbour traded for statutory freeze disclosure and $5bn/yr fund; zoning grants expanded, licensing review. Watch: unemployment 5.5%, wage-tax receipts, office job losses, industry's response to levy, bond yields, 2030 midterm polls.
