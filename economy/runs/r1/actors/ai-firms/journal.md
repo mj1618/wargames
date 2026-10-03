@@ -14,3 +14,6 @@ Belief: installed base is locked on five-year exclusives; growth now comes from 
 
 ## Round 05 (2031–2032)
 Belief: open-weight has zeroed the routine tier; our moat is the unused half of frontier capability, not contracts. Exclusivity is dead; settle cheaply while growth-first still writes the terms. Committed: race +20%, exclusivity dropped and routine tier free, usage-priced agentic tiers, First Job $1bn by Q3, binding small-firm terms, 3% fund-creditable levy offered for statutory deployment guarantee, $350m lobbying. Watching: consent decree, levy-for-guarantee uptake, 2032 result, moratorium bills, agentic-tier usage depth.
+
+## Round 06 (2033–2034)
+Belief: macro peak-favourable, risks distributional — labour share under 50%, housing blamed on AI wealth. Moat is the unused half of capability; outcome contracts are the business. Committed: race +15% weighted to deployment, outcome pricing standard, backfill/apprenticeship priced option, 2-point levy accepted with full Fund credit and pre-emption untouched, Fund $3bn incl. $1bn housing, $400m lobbying, profit-share refused. Watching: levy passage and credit terms, safe-harbour uptake, 2034 result, moratorium polling, outcome-contract depth.

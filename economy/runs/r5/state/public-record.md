@@ -82,3 +82,9 @@ AI shares fell by a third and credit tightened; announced layoffs reached about 
 Official figures for end 2032 (preliminary): unemployment 4.1%, participation 61.4%, employment 165.7m (58.9% of adults). GDP grew about 3.3% a year. Median real household income index about 108.7. Consumer prices flat; housing costs down about 4%. Labour's share of income 51.7%. Federal deficit 6.2% of GDP, debt about 113%. Now published for 2030: poverty 13.1%, homelessness 19 per 10,000.
 
 Announced layoffs were about 700,000 over two years. Credit eased and hiring recovered. Large employers used the work-sharing subsidy for shorter weeks; AI firms held their pace, doubled the training fund and began supplying robots to home factories. Congress rejected the Paycheck Bridge Act and passed a half-size Factory Homes Act. Pre-emption of state AI licensing expired at the end of 2032; the antitrust cases continue. Local union drives fell short. In November the worker-first coalition took the lead; the new Congress looks readier to pass laws.
+
+## 2033–34
+
+Official figures for end 2034 (preliminary): unemployment 3.8%, participation 61.5%, employment 167.4m (59.0% of adults). GDP grew about 2.4% a year. Median real household income index about 111.9. Consumer prices flat; housing costs down about 2%. Labour's share of income 51.3%. Federal deficit 6.1% of GDP, debt about 116%. Now published for 2032: poverty 11.4%, homelessness 17 per 10,000.
+
+Announced layoffs were about 950,000 over two years. The bond-market scare passed without a credit squeeze. Congress passed the Fair Share and Stability Act at half size (a 3-point levy on profits from 2034, cash for the bottom two-fifths, more retraining) and renewed Main Street and work-sharing money for 2034–35; a court let the levy stand. Pre-emption was not renewed and the antitrust cases continue; several states advanced AI licensing bills. Local union drives fell short. In November worker-first kept its lead.

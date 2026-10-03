@@ -15,3 +15,6 @@ Belief: the political deal is done; the binding constraint is now capital, not C
 ## t05 (2031–32)
 Belief: the wobble hurt customers, not us; robots crossing into physical work and the 2032 levy sunset make this period the moratorium fight. Committed: steady 2031 then +15% in 2032, robot-as-a-service in shortage sectors, employers' 3-year capacity at 10%/yr step-down and 1.5x indemnity, levy extension to 2036 offered for statutory no-pause and robot pre-emption, lobbying $2bn, fund $3bn plus $1bn apprenticeships. Watching: moratorium polling, Q2 prepay signatures, rival pace breaks.
 
+## t06 (2033–34)
+Belief: the jobs numbers are our shield but the housing headline makes AI wealth the 2034 story, and the licensing threat is credible. Committed: race +20% then +25% on employer prepay (floor locked, 2x indemnity), old-gen -25%, robots as a service, counter-offer of 4% levy (5% ceiling) for statutory no-licence plus guarantees, fund $5bn incl. housing, lobbying $2.5bn. Watching: licensing polling, whether Washington takes under 6%, Vanta defecting.
+

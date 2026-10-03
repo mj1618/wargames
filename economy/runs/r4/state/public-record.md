@@ -99,3 +99,13 @@ Official statistics arrive late and with noise. Company and household players se
 - **Workers.** A fifth organising wave stalled.
 - **Published late, for 2030:** poverty 11.4%, homelessness 18.7 per 10,000.
 
+## 2033–34 in review (official statistics, preliminary)
+
+- **Jobs.** Unemployment 4.4%; participation 61.1%; about 165.8m in work. Announced layoffs about 3.0m over two years. Offices lost about 2.2m jobs; new firms, care and construction hired.
+- **Pay and prices.** Real pay up about 3.8% a year; consumer prices slightly lower; housing costs down about 2% a year. Median household income index about 120.7.
+- **Business.** GDP up 4.0% a year. Labour's share 47.7%, another record low.
+- **Washington.** Transition Act II passed at half size (wage insurance and retraining to 0.4% of GDP). The lower-income dividend rose to 0.4% of GDP. The levy-freeze and safe-harbour bill never reached the floor; several large states adopted due-care rules, matched by a $2bn-a-year lab fund. Deficit 5.2% of GDP.
+- **Election.** Worker-first kept its lead in November 2034.
+- **Workers.** A sixth organising wave succeeded.
+- **Published late, for 2032:** poverty 9.7%, homelessness 15.7 per 10,000.
+

@@ -14,3 +14,6 @@ Believe: boom carries us to November (3.1%, GDP +4.3%, income 109), but layoffs 
 
 ## Round 05 (2031–32)
 Believe: displacement has arrived (jobs −2.2m, layoffs 2.3m, labour share 50.4%) though unemployment hides it at 3.8%; receipts 17.0%, margins thin. Committed: work-sharing subsidy (~0.15% GDP) with small-firm credit; 2-point AI-profit levy credited against the labs' Fund, wage-insurance trigger to 4.5%; inquiry closed by settlement, no renewal of exclusives; no deployment rules. Watching: unemployment vs 5%, layoffs vs 3m, participation, receipts, lab support for the levy, employer pledge, November 2032.
+
+## Round 06 (2033–34)
+Believe: boom is real (3.2%, +5.0m jobs, income 119) and voters back us; housing squeeze is the only felt grievance; receipts 16.9% and labour share 49.9% are slow leaks. Committed: zoning pre-emption plus insurance backstop (~0.2% GDP); no-limits guarantee through 2036 for a $6bn lab Fund; wage insurance fast-tracked; no levy. Watching: unemployment vs 4.5%, layoffs vs 2m a year, receipts vs 16.5%, metro rents, lab Fund delivery, November 2034.

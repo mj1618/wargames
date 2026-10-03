@@ -1,0 +1,22 @@
+{
+ "deploy_pace": 1.15,
+ "ai_pricing": 0.25,
+ "adoption_speed": 1.25,
+ "layoff_share": 0.3,
+ "hours_share": 0.2,
+ "wage_sharing": 0.2,
+ "new_business": 1.07,
+ "union_pressure": 0.55,
+ "household_saving": -0.005,
+ "transfers_pct_gdp": 0.0,
+ "transfer_target": 0.0,
+ "capital_tax_pct": 0.0,
+ "retraining_pct_gdp": 0.21,
+ "public_jobs_m": 0.0,
+ "worktime_cut_pct": 0.0,
+ "deploy_regulation": 0.1,
+ "competition_policy": 0.3,
+ "housing_policy": 0.75,
+ "shock_demand_pct": -0.5,
+ "shock_housing_pct": 3.0
+}

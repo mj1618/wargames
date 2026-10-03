@@ -19,3 +19,7 @@ Believe wage inflation is structural given labour scarcity and the new-work mira
 ## T05 (January–December 2032)
 
 Believe the wage spiral break and free open-weight models create a two-front opportunity: AI-only margins explode while labour becomes cheap. Committed to 65% AI-only startups (1.2m person-equivalents), 25% care/trades roles (200k with pay ladders), 10% housing in permitting states. Households' labour request and federal first-job bill create alignment. Watch: if demand stays flat or crashes, whether big states zone, whether incumbents respond to margin compression.
+
+## T06 (January–December 2034)
+
+Believe small-firm credit failure is structural; AI-only niches now crowded and margin-compressed. Committed to 65% care/trades (200k+ new roles with wage ladders), 30% AI-only with equity/board stakes for households, 5% housing pause. Equity-stake model converts scarce labour into upside bet; people-heavy niches defensible against incumbent automation. Watch: if credit re-opens, big firms' entry into care/trades, household adoption of equity stakes, state zoning moves.

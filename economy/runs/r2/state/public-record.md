@@ -108,3 +108,15 @@ Official statistics arrive late and with noise. Company and household players se
 ## 2033–34 — opening headline
 
 **Housing squeeze.** AI wealth concentrates in a few metros and bids up land; insurers pull out of others.
+
+## 2033–34 — what happened
+
+**Official statistics (end 2034).** Unemployment 4.2%; participation 59.3%; 161.5m jobs (down 2.4m over two years); GDP up 5.1% a year; housing costs down about 5%, goods and professional services cheaper; median real income about 116.5; labour share 41.8%, another record low; deficit 5.8%, debt about 100%. Announced layoffs: about 5.5m over two years. For 2032: poverty 10.4%, homelessness 15.3 per 10,000.
+
+**Washington.** The Metro Homes and Insurance Act passed (more funded building, an insurance backstop). The Levy Renewal Act failed: no AI-profits levy, no no-licensing clause. In November growth-first kept its lead; Congress is now gridlocked.
+
+**Elsewhere.** The labs raced, with robot leasing scaling fast, and cut old-generation prices. Employers automated slightly faster, mostly by attrition and shorter weeks. A union drive to extend contracts gained nothing. Founders opened co-ops across secondary metros.
+
+## 2035–36 — opening headline
+
+**A state pilot works.** A large state's wage-insurance-plus-cash pilot shows faster re-employment at modest cost.

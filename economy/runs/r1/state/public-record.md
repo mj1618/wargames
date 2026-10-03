@@ -92,3 +92,11 @@ Official figures, end 2032 (provisional): unemployment 3.2%; participation 62.2%
 Free open-weight models collapsed AI prices. The labs raced, ended exclusive contracts and made their basic tier free. Large employers automated faster by attrition and re-signed a no-mass-layoff pledge. Most new start-ups were AI-only, yet new firms hired heavily. The organising drive and a boycott fizzled.
 
 Congress rejected a work-sharing subsidy and a 2-point levy on AI profits. The bundling inquiry closed by consent decree. In November 2032 the growth-first coalition kept the presidency and widened its majorities.
+
+## 2033–34
+
+Official figures, end 2034 (provisional): unemployment 2.8%; participation 63.1%; 173.7m jobs, up 4.0m over two years; GDP growth 5.5% a year; housing costs down about 2%, AI and professional services down about 4%; median household income index about 125; labour share 48.3%; deficit 4.7% of GDP, debt 97%. Announced layoffs about 3.6m over two years, AI again the most-cited reason. Now published for 2032: poverty 9.5%, homelessness 15.1 per 10,000.
+
+AI wealth bid up land in a few metros and insurers quit others. The labs raced and made outcome contracts standard. Large employers automated by attrition and renewed their no-mass-layoff pledge. Start-ups shifted to care and trades. The organising drive stalled again.
+
+Congress passed zoning pre-emption in squeezed metros with an insurance backstop, and a no-deployment-limits guarantee conditional on a $6bn Worker Transition Fund. In November 2034 the worker-first coalition won Congress.

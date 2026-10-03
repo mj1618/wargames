@@ -100,3 +100,13 @@ Everything here is known to every player.
 
 **Consolidation.** Two of the largest AI and cloud providers merge or sign an exclusive pact.
 
+
+## 2033–34 — what happened
+
+**Official statistics (end 2034).** Unemployment 3.5%; participation 62.0%; 170.0m jobs (up 1.0m over two years); GDP up 3.1% a year; consumer prices down slightly, housing costs down about 4%; labour share 51.1%; deficit 5.5%, debt about 110%. Reported layoffs citing AI: about 2.0m over two years. Now published for 2032: poverty 10.2%, homelessness 16.3 per 10,000.
+
+**Washington.** Congress passed the Compute Open Access Act in narrower form (non-discriminatory access and published prices; the pact was allowed) and the Workplace Bargaining and First Job Act in full. Courts upheld both. The levy stays at 5 points.
+
+**Election.** The worker-first coalition kept Congress.
+
+**Elsewhere.** Labs raced, froze small-firm prices and paid $5bn a year into their fund. Employers and unions signed the package, with an entry-level hiring floor; the organising drive won few new members. Big states still resist new housing.

@@ -39,3 +39,11 @@
 - 2026-10-03T16:17:58 | r4 t05 election configuration shift | DRAW 1 of 3
 - 2026-10-03T16:17:58 | r4 t05 statistics noise | DRAW 2 of 5
 - 2026-10-03T16:17:58 | r4 t06 event | DRAW 10 of 24
+- 2026-10-03T16:22:36 | r4 t06 households organising drive, sixth wave (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.1011 -> SUCCESS
+- 2026-10-03T16:22:36 | r4 t06 law: Transition Act II, retraining+wage insurance 0.3->0.5% GDP (small 0.80, +0.10 worker-first instincts, +0.05 union pressure, +0.10 event 10; clamped 0.95) | p=0.95 partial=0.15 r=0.9857 -> PARTIAL
+- 2026-10-03T16:22:36 | r4 t06 law: dividend top-up 0.3->0.4% GDP, no new tax (small 0.80, +0.10 worker-first instincts) | p=0.90 partial=0.15 r=0.0284 -> SUCCESS
+- 2026-10-03T16:22:36 | r4 t06 large states adopt audit-standard due-care presumption (triggers labs' $2bn/yr match) | p=0.50 r=0.4140 -> SUCCESS
+- 2026-10-03T16:22:46 | r4 t06 election Nov 2034: worker-first coalition loses lead (0.35 +0.01x(31.1-35) -0.10 median income +12.0 over two rounds) | p=0.21 r=0.6478 -> FAIL
+- 2026-10-03T16:22:46 | r4 t06 election configuration shift | DRAW 2 of 3
+- 2026-10-03T16:22:46 | r4 t06 statistics noise | DRAW 4 of 5
+- 2026-10-03T16:22:46 | r4 t07 event | DRAW 20 of 24

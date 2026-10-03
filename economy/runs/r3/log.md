@@ -44,3 +44,12 @@
 - 2026-10-03T16:18:12 | r3 t05 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
 - 2026-10-03T16:18:12 | r3 t05 statistics noise | DRAW 2 of 5
 - 2026-10-03T16:18:12 | r3 t06 event | DRAW 18 of 24
+- 2026-10-03T16:22:27 | r3 t06 Compute Open Access Act (small 0.80: rule change, no budget cost; mixed instincts, labs and employers not both in public support: no adjustment) | p=0.80 partial=0.15 r=0.8600 -> PARTIAL
+- 2026-10-03T16:22:27 | r3 t06 Workplace Bargaining and First Job Act (medium 0.60: major regulation plus 0.1% of GDP; fits worker-first instincts +0.10; no joint public opposition) | p=0.70 partial=0.15 r=0.5698 -> SUCCESS
+- 2026-10-03T16:22:27 | r3 t06 court blocks open-access mandate (if enacted) | p=0.20 r=0.4084 -> FAIL
+- 2026-10-03T16:22:27 | r3 t06 court blocks bargaining rules (if enacted) | p=0.20 r=0.8703 -> FAIL
+- 2026-10-03T16:22:27 | r3 t06 household organising drive for signatures (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.9134 -> FAIL
+- 2026-10-03T16:22:41 | r3 t06 election: worker-first coalition loses lead (0.35 -0.10 unrest 25.1 -0.10 median income over 3 points above two rounds ago; 0.151 clamped to 0.15) | p=0.15 r=0.5961 -> FAIL
+- 2026-10-03T16:22:41 | r3 t06 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
+- 2026-10-03T16:22:41 | r3 t06 statistics noise | DRAW 5 of 5
+- 2026-10-03T16:22:41 | r3 t07 event | DRAW 12 of 24

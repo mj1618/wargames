@@ -14,3 +14,6 @@ Believe: boom conditions (pay +3.5% real, rents -3%, unemployment 3.1%); risks a
 
 ## Round 05 (2031-32)
 Believe: headline 3.8% hides 2.2m fewer jobs, people quitting the search, falling labour share; pay only +0.2% real, boom over. Committed: renew/extend organising to shops, restaurants, build-out (backfill, notice, profit share); saving +1pt; peaceful demands to fund first-job/wage insurance with AI profits, back antitrust; limited boycott of AI checkouts/care robots in a few cities; vote for whoever commits in writing. Watch: unemployment toward 5%, layoffs we know, whether labs/startups sign terms, election.
+
+## Round 06 (2033-34)
+Believe: good times (unemployment 3.2%, pay +8% over prices, rents -5%) but labour share falling and organising has faded; boom-metro rents turning up. Committed: rebuild organising via hiring-hall referrals into entrepreneurs' 200k roles (pay ladders, training, backfill, 90-day notice, profit share) plus drives in shops/build-out/care; spend normally (saving -1pt); peaceful midterm push for AI-funded first-job/wage insurance and zoning; no boycott. Watch: unemployment toward 5%, whether roles appear, rents in boom metros, midterms.

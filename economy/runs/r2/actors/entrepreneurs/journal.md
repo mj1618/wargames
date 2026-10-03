@@ -20,3 +20,7 @@ We proved it—2.8m jobs, co-ops filling metros, housing expansion complete. Cre
 
 Policy failed. Main Street Credit bill dead; new-firms credit stays at half-size with no guarantees. Added 1.9m jobs in 2030, down from 2.8m. Customer spending weakened, unemployment revised to 4.7%. We're right-sizing to 1m jobs/year—sustainable without federal credit. Co-ops keep growing but slower. AI-only stays margin-focused. Piloting household equity co-ops (workers and customers own, fund expansion) in three metros to bypass failed small-business credit. Housing still solid where government funds building. Next: does customer demand recover, or are we in secular slowdown?
 
+## Turn 06 (2033–2034)
+
+Build and Hire Act passed—credit is back, full size with guarantees. We added 4.6m jobs over two years, double the plan. Co-ops are filling with trained household workers. AI-only stays flat (not hiring). Housing squeeze in rich metros but we're pivoting to secondary metros—cheap land, real demand, credit available. Scaling to 2.5m new jobs over two years in 50+ secondary metros: care, trades, repair work. Signal to gov and households: full credit deployment, visible hiring 500k in 2033 then 1.5m by end 2034.
+

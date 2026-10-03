@@ -43,3 +43,11 @@
 - 2026-10-03T16:19:36 | r1 t05 Nov 2032 election: growth-first coalition loses its lead (0.35 -0.09 unrest 26.1, -0.10 median income 117.7 more than 3 above 2029's 109.3) | p=0.16 r=0.9287 -> FAIL
 - 2026-10-03T16:19:36 | r1 t05 Nov 2032 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
 - 2026-10-03T16:19:36 | r1 t06 event | DRAW 15 of 24
+- 2026-10-03T16:24:23 | r1 t06 households organising drive rebuilt via hiring halls (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.8578 -> FAIL
+- 2026-10-03T16:24:23 | r1 t06 Bill 1 metro zoning pre-emption + insurance backstop, 0.2% GDP (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.8719 -> SUCCESS
+- 2026-10-03T16:24:23 | r1 t06 Bill 2 statutory no-deployment-limits guarantee through 2036 (small 0.80 +0.10 fits coalition) | p=0.90 partial=0.15 r=0.3485 -> SUCCESS
+- 2026-10-03T16:24:23 | r1 t06 published-statistics noise | DRAW 2 of 5
+- 2026-10-03T16:24:27 | r1 t06 court blocks the metro zoning pre-emption in its first round | p=0.20 r=0.4267 -> FAIL
+- 2026-10-03T16:24:37 | r1 t06 Nov 2034 election: growth-first coalition loses its lead (0.35 -0.13 unrest 22.0, -0.10 median income 125.2 more than 3 above 2030's 108.4; clamped 0.15) | p=0.15 r=0.0543 -> SUCCESS
+- 2026-10-03T16:24:37 | r1 t06 Nov 2034 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 2 of 3
+- 2026-10-03T16:24:37 | r1 t07 event | DRAW 8 of 24

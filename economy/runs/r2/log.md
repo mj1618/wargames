@@ -41,3 +41,10 @@
 - 2026-10-03T16:19:00 | r2 t05 Nov 2032 election: growth-first loses lead (0.35 -0.01x0.7 unrest, -0.10 median income 112.7 vs 106.0 two rounds ago) | p=0.24 r=0.6516 -> FAIL
 - 2026-10-03T16:19:00 | r2 t05 Nov 2032 election: configuration shift | DRAW 2 of 3
 - 2026-10-03T16:19:00 | r2 t06 event | DRAW 15 of 24
+- 2026-10-03T16:23:42 | r2 t06 households renew-and-extend organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.7089 -> FAIL
+- 2026-10-03T16:23:42 | r2 t06 Bill 1 Metro Homes and Insurance Act (0.25% of GDP = small divided 0.55, fits coalition +0.10) | p=0.65 partial=0.15 r=0.0655 -> SUCCESS
+- 2026-10-03T16:23:46 | r2 t06 Bill 2 Levy Renewal Act (tax under 10 points = medium divided 0.35, new tax cuts against coalition -0.15, no-licensing and pre-emption fit +0.10, union_pressure 0.5 worker bill +0.05) | p=0.35 partial=0.15 r=0.9775 -> FAIL
+- 2026-10-03T16:23:46 | r2 t06 statistics noise | DRAW 5 of 5
+- 2026-10-03T16:23:57 | r2 t06 Nov 2034 election: growth-first loses lead (0.35 +0.01x0.5 unrest, -0.10 median income 115.5 vs 102.8 two rounds ago) | p=0.26 r=0.5122 -> FAIL
+- 2026-10-03T16:23:57 | r2 t06 Nov 2034 election: configuration shift | DRAW 3 of 3
+- 2026-10-03T16:23:57 | r2 t07 event | DRAW 10 of 24

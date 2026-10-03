@@ -14,3 +14,6 @@ Believe: boom and tight labour make attrition-based shrinkage cheap; rule risk l
 
 ## Round 05 (2031-2032)
 Believe: cheap labour plus collapsing AI prices favour us, but election and 2.3m layoffs raise visibility; no wage coordination (antitrust). Committed: adoption about +25% (office/routine), health/transport cautious; layoff_share 30%; hours_share 20%; profit-sharing 2%; price cuts in 6-8 lines; about 25k entry hires; sign federal deal and 2-year pledge, no mass layoffs before Nov 2032. Watching: demand softness, profit-tax or layoff bills, rival restructuring, election.
+
+## Round 06 (2033-2034)
+Believe: model still works, but vacancies are hard to refill and pay claims are rising, so attrition is hitting the limits of a tight labour pool; election-year visibility is high. Committed: adoption about +25% (office/routine), health/transport cautious; layoff_share about 30%; hours_share 20%; profit-sharing 2-2.5% targeted; price cuts in 6-8 lines; about 30k First Job hires; renewed pledge through Nov 2034; back work-sharing; dual-source labs. Watching: demand softness, profit-levy or layoff bills, vacancy and pay-claim trends, rival restructuring, midterms.

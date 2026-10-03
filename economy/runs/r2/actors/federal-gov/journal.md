@@ -15,3 +15,6 @@ Believe: boom is real for voters (3.5%, income 106.0, GDP +5.9%); the wobble's c
 ## t05 (2031–32)
 Believe: crisis is now visible — 5.1m jobs gone, participation 59.6%, income 101.8, revised 4.7%; leavers hide the true damage; cheques decide November 2032. Committed: Transition Dividend (1% GDP to bottom two-fifths, levy 6% to 2036, 52-week wage insurance); Build and Hire (new-firms credit, data-centre guarantees, permitting) conditional on labs' $5bn fund and backing; no licensing or public jobs. Watch: bond yields, revenue under 16.5%, unemployment past 6%, labs' public stance, polling.
 
+## t06 (2033–34)
+Believe: boom is what voters feel (3.6%, income 113.2, GDP +6.2%); the housing squeeze — land and insurance — is the only live pain; labour share 46.0% still not felt. Committed: Metro Homes and Insurance Act (+0.2% GDP funded building, capped reinsurance backstop); 2.5% levy renewed to 2036 for wage insurance on the labs' no-licensing/robot pre-emption terms; guarantees pushed out fast; no cheques. Watch: unemployment past 5%, income falling, revenue under 16.5%, rents, 2034 polling.
+

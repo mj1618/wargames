@@ -18,7 +18,7 @@ The economy absorbs us: unemployment 3.1%, 169.1m jobs, GDP +2.8% a year, povert
 
 **To federal government:** Grid backing is yours. Levy lock at 5 through 2035 and no licensing; we pay $5bn/yr and pre-clear consolidation under the decree.
 
-**To entrepreneurs:** Unbundled tier frozen three years; licensing reform in every state we lobby. Back the charter in filings and bring the secondary-metro deals.
+**To entrepreneurs:** Unbundled tier frozen three years; licensing reform wherever we lobby. Back the charter in filings; bring the secondary-metro deals.
 
 ## What would change my mind
 If the agencies move to block the pact outright or the levy returns to 8, the seat drops the merger and settles.

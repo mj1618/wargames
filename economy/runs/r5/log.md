@@ -43,3 +43,11 @@
 - 2026-10-03T16:16:34 | r5 t05 election configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
 - 2026-10-03T16:16:34 | r5 t05 statistics noise | DRAW 3 of 5
 - 2026-10-03T16:16:34 | r5 t06 event | DRAW 24 of 24
+- 2026-10-03T16:22:38 | r5 t06 household organising, ~10 small drives (0.35 +0.15 unemployment under 5%; small drive as t04/t05: SUCCESS = union_pressure held at 0.2, FAIL = fades to 0.1) | p=0.50 r=0.7184 -> FAIL
+- 2026-10-03T16:22:38 | r5 t06 Fair Share and Stability Act passes (medium, responsive 0.60, +0.10 fits worker-first coalition) | p=0.70 partial=0.15 r=0.7378 -> PARTIAL
+- 2026-10-03T16:22:38 | r5 t06 Main Street and Work-Sharing Renewal passes (small, responsive 0.80, +0.10 worker protection fits coalition) | p=0.90 partial=0.15 r=0.3337 -> SUCCESS
+- 2026-10-03T16:22:44 | r5 t06 court blocks Fair Share levy in first round (SUCCESS = blocked) | p=0.20 r=0.8043 -> FAIL
+- 2026-10-03T16:22:53 | r5 t06 Nov 2034 election: worker-first coalition loses its lead (0.35 +0.01x(32.3-35) -0.10 median income more than 3 points above two rounds ago) | p=0.22 r=0.4098 -> FAIL
+- 2026-10-03T16:22:53 | r5 t06 election configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 2 of 3
+- 2026-10-03T16:22:53 | r5 t06 statistics noise | DRAW 1 of 5
+- 2026-10-03T16:22:53 | r5 t07 event | DRAW 15 of 24
