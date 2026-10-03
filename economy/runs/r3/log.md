@@ -53,3 +53,9 @@
 - 2026-10-03T16:22:41 | r3 t06 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
 - 2026-10-03T16:22:41 | r3 t06 statistics noise | DRAW 5 of 5
 - 2026-10-03T16:22:41 | r3 t07 event | DRAW 12 of 24
+- 2026-10-03T16:32:35 | r3 t07 Automated Decisions Accountability Act (small 0.80: rule change, no lever moved 0.2, no named-firm mandate; mixed instincts; labs and employers both publicly ask for it +0.10) | p=0.90 partial=0.15 r=0.9301 -> PARTIAL
+- 2026-10-03T16:32:35 | r3 t07 Levy Review and Apprenticeship Act (medium 0.60: tax step under 10 points plus 0.2% of GDP; fits worker-first instincts +0.10; no joint public opposition) | p=0.70 partial=0.15 r=0.7363 -> PARTIAL
+- 2026-10-03T16:32:35 | r3 t07 court blocks liability safe-harbour statute (if enacted) | p=0.20 r=0.1539 -> SUCCESS
+- 2026-10-03T16:32:35 | r3 t07 court blocks levy step and apprenticeship funding (if enacted) | p=0.20 r=0.2750 -> FAIL
+- 2026-10-03T16:32:35 | r3 t07 household membership organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.1814 -> SUCCESS
+- 2026-10-03T16:32:35 | r3 t07 statistics noise | DRAW 3 of 5

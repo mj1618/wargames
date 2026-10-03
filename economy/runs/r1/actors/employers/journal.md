@@ -17,3 +17,7 @@ Believe: cheap labour plus collapsing AI prices favour us, but election and 2.3m
 
 ## Round 06 (2033-2034)
 Believe: model still works, but vacancies are hard to refill and pay claims are rising, so attrition is hitting the limits of a tight labour pool; election-year visibility is high. Committed: adoption about +25% (office/routine), health/transport cautious; layoff_share about 30%; hours_share 20%; profit-sharing 2-2.5% targeted; price cuts in 6-8 lines; about 30k First Job hires; renewed pledge through Nov 2034; back work-sharing; dual-source labs. Watching: demand softness, profit-levy or layoff bills, vacancy and pay-claim trends, rival restructuring, midterms.
+
+
+## Round 07 (2035-2036)
+Believe: tight labour and a rival hiring boom make attrition less cheap; worker-first Congress and the 2036 election raise levy and layoff-bill risk. Committed: adoption about +200n hard-to-fill roles; layoff_share about 25

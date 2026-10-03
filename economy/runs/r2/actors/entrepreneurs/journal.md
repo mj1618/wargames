@@ -24,3 +24,7 @@ Policy failed. Main Street Credit bill dead; new-firms credit stays at half-size
 
 Build and Hire Act passed—credit is back, full size with guarantees. We added 4.6m jobs over two years, double the plan. Co-ops are filling with trained household workers. AI-only stays flat (not hiring). Housing squeeze in rich metros but we're pivoting to secondary metros—cheap land, real demand, credit available. Scaling to 2.5m new jobs over two years in 50+ secondary metros: care, trades, repair work. Signal to gov and households: full credit deployment, visible hiring 500k in 2033 then 1.5m by end 2034.
 
+## Turn 07 (2035–36)
+
+We exceeded 2.5m by delivering 6.1m jobs in secondary metros. Now government and households want us to address expensive metros too—a reasonable ask if credit holds. We believe people-heavy services and co-op ownership solve both the job-creation and cost problems simultaneously. Committed: 1.5m/year in secondary metros, pilot factory-built co-op housing in three expensive metros, push Congress to lock in Build and Hire credit. Watching Congressional gridlock, customer incomes, and whether the housing pilots work.
+

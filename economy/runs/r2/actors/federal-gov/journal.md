@@ -18,3 +18,6 @@ Believe: crisis is now visible — 5.1m jobs gone, participation 59.6%, income 1
 ## t06 (2033–34)
 Believe: boom is what voters feel (3.6%, income 113.2, GDP +6.2%); the housing squeeze — land and insurance — is the only live pain; labour share 46.0% still not felt. Committed: Metro Homes and Insurance Act (+0.2% GDP funded building, capped reinsurance backstop); 2.5% levy renewed to 2036 for wage insurance on the labs' no-licensing/robot pre-emption terms; guarantees pushed out fast; no cheques. Watch: unemployment past 5%, income falling, revenue under 16.5%, rents, 2034 polling.
 
+## t07 (2035–36)
+Believe: voters still feel the boom (income 116.5, 4.2%), but jobs down 2.4m, labour share 41.8% and revenue 16.0% are the slow threat; gridlock allows only small bills. Committed: State Transition Match (0.2% GDP, 4% levy to 2036, no-licence clause); $13bn new-firms credit against verified hires; robot-leasing disclosure by executive action; no cheques or licensing. Watch: unemployment past 5.5%, income falling, bond yields, labs' endorsement, 2036 polling.
+

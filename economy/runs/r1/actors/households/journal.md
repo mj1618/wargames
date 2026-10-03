@@ -17,3 +17,6 @@ Believe: headline 3.8% hides 2.2m fewer jobs, people quitting the search, fallin
 
 ## Round 06 (2033-34)
 Believe: good times (unemployment 3.2%, pay +8% over prices, rents -5%) but labour share falling and organising has faded; boom-metro rents turning up. Committed: rebuild organising via hiring-hall referrals into entrepreneurs' 200k roles (pay ladders, training, backfill, 90-day notice, profit share) plus drives in shops/build-out/care; spend normally (saving -1pt); peaceful midterm push for AI-funded first-job/wage insurance and zoning; no boycott. Watch: unemployment toward 5%, whether roles appear, rents in boom metros, midterms.
+
+## Round 07 (2035-36)
+Believe: jobs plentiful (unemployment 2.8%, pay +6% over prices) but labour share record low, office openings thinning, referral drive won no contracts; levy is statutory and could be repealed. Committed: contract-based organising in care/trades/build-out/new firms (notice, backfill, apprenticeship, profit-share); pilot entrepreneurs' equity into a pooled union fund with 5-10 firms; peaceful push to legislate levy and first-job/wage insurance; spend normally; no boycott. Watch: unemployment toward 5%, whether labs sign the Fund in writing, 2036 election.

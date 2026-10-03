@@ -23,3 +23,7 @@ Believe the wage spiral break and free open-weight models create a two-front opp
 ## T06 (January–December 2034)
 
 Believe small-firm credit failure is structural; AI-only niches now crowded and margin-compressed. Committed to 65% care/trades (200k+ new roles with wage ladders), 30% AI-only with equity/board stakes for households, 5% housing pause. Equity-stake model converts scarce labour into upside bet; people-heavy niches defensible against incumbent automation. Watch: if credit re-opens, big firms' entry into care/trades, household adoption of equity stakes, state zoning moves.
+
+## T07 (January–December 2036)
+
+Believe labour scarcity is structural and the hit new industry signals new unmet demand. Committed to 200k+ care/trades roles with household hiring halls, equity stakes, and training; piloting the hit industry in 5–6 metros; re-entering housing in allowed metros (2–3k units 2035–36). Equity model converts scarce labour into shared upside—defensible against incumbent automation. Watch: whether the hit industry sustains, worker-equity adoption, housing buildout pace, big-firm entry into care/trades.

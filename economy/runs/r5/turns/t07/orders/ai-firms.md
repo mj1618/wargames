@@ -6,7 +6,7 @@ Unemployment 3.8%, employment 167.4m, GDP +2.4% a year, median income 111.9: dis
 ## Options considered
 - Fight the trial and fifty states, keep bundling (Vanta's preference).
 - Take the decree now and bargain it into one federal licensing standard.
-- Unconventional: open-weight prior-generation models to pre-empt the open-access remedy on our terms.
+- Unconventional: open-weight prior-generation models to pre-empt the remedy on our terms.
 
 ## Decisions this period
 1. **Politics — accept the consent decree.** Three labs of four (Vanta dissents, complies) accept open access and a mandated SMB tier from 2035, conditional on the government tabling a single federal licensing standard pre-empting states through 2038; $2bn releases on enactment. Fund stays $1bn/yr, $300m of it redirected to factory-built homes in squeezed metros. Political spend $450m, two-thirds on state bills.
@@ -21,4 +21,4 @@ Unemployment 3.8%, employment 167.4m, GDP +2.4% a year, median income 111.9: dis
 - To Employers: "Agreed, one change: step-down floor at 10% growth. Paper in 60 days."
 
 ## What would change my mind
-A large state passing a moratorium or deployment cap before the federal standard moves — then we litigate and fund ballot measures instead.
+A large state passing a moratorium or deployment cap before the federal standard moves — then we litigate and fund ballot measures.

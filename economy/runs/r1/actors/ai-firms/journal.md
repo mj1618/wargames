@@ -17,3 +17,6 @@ Belief: open-weight has zeroed the routine tier; our moat is the unused half of 
 
 ## Round 06 (2033–2034)
 Belief: macro peak-favourable, risks distributional — labour share under 50%, housing blamed on AI wealth. Moat is the unused half of capability; outcome contracts are the business. Committed: race +15% weighted to deployment, outcome pricing standard, backfill/apprenticeship priced option, 2-point levy accepted with full Fund credit and pre-emption untouched, Fund $3bn incl. $1bn housing, $400m lobbying, profit-share refused. Watching: levy passage and credit terms, safe-harbour uptake, 2034 result, moratorium polling, outcome-contract depth.
+
+## Round 07 (2035–2036)
+Belief: macro peak, politics turned — worker-first House, guarantee unfunded, levy never tabled. The new hiring industry is our best cover. Moat remains the unused third of capability; growth is depth. Committed: Fund to $6bn with First Job and small-firm terms binding, housing bill backed, race +15% weighted to deployment, outcome pricing with dual-source and year-three break, $500m lobbying toward the House, levy in reserve. Watching: guarantee signed, licensing bills, 2036 presidency, Vanta discipline, usage depth.

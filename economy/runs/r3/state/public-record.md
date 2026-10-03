@@ -110,3 +110,15 @@ Everything here is known to every player.
 **Election.** The worker-first coalition kept Congress.
 
 **Elsewhere.** Labs raced, froze small-firm prices and paid $5bn a year into their fund. Employers and unions signed the package, with an entry-level hiring floor; the organising drive won few new members. Big states still resist new housing.
+
+## 2035–36 — opening headline
+
+**Liability ruling.** Courts hold firms fully liable for harm done by automated decisions.
+
+## 2035–36 — what happened
+
+**Official statistics (end 2036).** Unemployment 3.3%; participation 62.2%; 172.2m jobs (up 2.2m over two years); GDP up 3.2% a year; consumer prices down slightly, housing costs down about 5%; labour share 50.4%; deficit 5.2%, debt about 110%. Reported layoffs citing AI: about 1.7m over two years. Now published for 2034: poverty 9.6%, homelessness 15.5 per 10,000.
+
+**Washington.** Congress passed a narrower liability safe harbour; a court struck it down, so the ruling stands. The Levy Review and Apprenticeship Act passed at half size: levy 5 points through 2036, 6 from 2037; more apprenticeship and zoning-grant money.
+
+**Elsewhere.** Labs held a steady pace and funded a no-fault harm pool. Employers slowed automated decisions and kept the package. The union membership drive succeeded. Big states still resist new housing.

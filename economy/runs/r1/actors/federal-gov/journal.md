@@ -17,3 +17,6 @@ Believe: displacement has arrived (jobs −2.2m, layoffs 2.3m, labour share 50.4
 
 ## Round 06 (2033–34)
 Believe: boom is real (3.2%, +5.0m jobs, income 119) and voters back us; housing squeeze is the only felt grievance; receipts 16.9% and labour share 49.9% are slow leaks. Committed: zoning pre-emption plus insurance backstop (~0.2% GDP); no-limits guarantee through 2036 for a $6bn lab Fund; wage insurance fast-tracked; no levy. Watching: unemployment vs 4.5%, layoffs vs 2m a year, receipts vs 16.5%, metro rents, lab Fund delivery, November 2034.
+
+## Round 07 (2035–36)
+Believe: boom holds (2.8%, income 125) but we lost Congress; labour share 48.3% and receipts 16.8% keep leaking; labs paid half the Fund. Committed: 2-point levy with Fund credit funding small-business lending and first-job/wage-insurance slots; work-sharing plus boom-metro zoning money; veto pledge against general profit tax, limits, pre-emption repeal. Watching: unemployment vs 4.5%, receipts vs 16.5%, labs' missing $3bn, employer pledge, Congress overreach, November 2036.
