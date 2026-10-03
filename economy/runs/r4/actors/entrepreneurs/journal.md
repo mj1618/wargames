@@ -23,3 +23,7 @@ Bond-market scare is warning but not crisis. Doubling down on people-heavy servi
 ## Turn 06 (January 2033–December 2034)
 
 The model holds: 1.5m new workers, demand durable through wage growth. Committing 0.3m hires (care, supervision, trades), $50B housing, four-year AI contract rollovers, and public Housing Build Act backing to unlock licensing wins. Political alignment strong; 7-point levy stable. Watching: licensing velocity, state zoning momentum, model pricing, whether wage slowdown finally cracks customer demand for human services.
+
+## Turn 07 (January 2035–December 2036)
+
+We overshot expectations massively: 2.0m new workers added (vs. 0.3m target), eight-fold above plan. Cheap people-heavy services with human-in-the-loop proved durable and scalable; supervision, care, trades posts filled. Housing maxed out in permit-friendly states. Consolidating now: 0.2m hires, apprenticeship-rooted (60% people-heavy, 40% AI-only), housing pivots to retrofits and modular in secondary metros. Pursuing licensing deals with Households and antitrust against labs. Watching: apprenticeship model durability, real wage persistence, whether Congress moves on independent AI access vs. lab bundles.
