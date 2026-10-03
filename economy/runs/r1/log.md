@@ -51,3 +51,8 @@
 - 2026-10-03T16:24:37 | r1 t06 Nov 2034 election: growth-first coalition loses its lead (0.35 -0.13 unrest 22.0, -0.10 median income 125.2 more than 3 above 2030's 108.4; clamped 0.15) | p=0.15 r=0.0543 -> SUCCESS
 - 2026-10-03T16:24:37 | r1 t06 Nov 2034 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 2 of 3
 - 2026-10-03T16:24:37 | r1 t07 event | DRAW 8 of 24
+- 2026-10-03T16:35:12 | r1 t07 households organising drive for written contracts in care, trades, build-out, new firms (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.3993 -> SUCCESS
+- 2026-10-03T16:35:17 | r1 t07 Bill 1 2-point AI-profit levy + small-business lending 0.1% GDP + first-job/wage-insurance funding to 0.3 (medium 0.60 +0.10 fits worker-first: levy on AI profits +0.05 union_pressure 0.80) | p=0.75 partial=0.15 r=0.3367 -> SUCCESS
+- 2026-10-03T16:35:17 | r1 t07 Bill 2 work-sharing subsidy 0.15% GDP + boom-metro zoning money (small 0.80 +0.10 fits worker-first: worker protection +0.10 employers and labs both back +0.05 union_pressure 0.80; clamped 0.95) | p=0.95 partial=0.15 r=0.0023 -> SUCCESS
+- 2026-10-03T16:35:17 | r1 t07 published-statistics noise | DRAW 3 of 5
+- 2026-10-03T16:35:19 | r1 t07 court blocks the 2-point AI-profit levy in its first round | p=0.20 r=0.9306 -> FAIL

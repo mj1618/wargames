@@ -1,6 +1,6 @@
 # Phase: CROSS-RUN SYNTHESIS + SUMMARY PAGE (economy series)
 
-Read `economy/prompts/_common.md`, `economy/README.md`, `methodology/prompts/report-clarity.md` (binding: plain language for a cold reader; sans-serif only, no italics), `economy/model/README.md` (incl. the Monte Carlo spread and sensitivity tables), `economy/research/econ-brief.md` (skim), and for each run r1…r5: `summary.md`, `outcome.json`, `state/scorecard.csv`, `state/setup.md`, and the sitreps.
+Read `economy/prompts/_common.md`, `economy/README.md`, `methodology/prompts/report-clarity.md` (binding: plain language for a cold reader; sans-serif only, no italics), `economy/model/README.md` (incl. the Monte Carlo spread and sensitivity tables), `economy/research/econ-brief.md` (skim), and for each run r1…r5: `narrative.md`, `outcome.json`, `state/scorecard.csv`, `state/setup.md`, and the sitreps.
 
 ## 1. `economy/synthesis.md` (≤900 words, plain language)
 Answer the two questions directly and honestly:

@@ -4,7 +4,7 @@ Inputs: `RUN`.
 
 Read `economy/prompts/_common.md`, `economy/README.md`, `economy/model/README.md`, `<RUN>/state/*` (incl. `setup.md` with the hidden conditions and `scorecard.csv`), all `<RUN>/turns/*/sitrep.md`, `resolution.md`, `audit.md`, and skim orders and journals.
 
-Write `<RUN>/summary.md` (≤700 words, plain language per `methodology/prompts/report-clarity.md`):
+Write `<RUN>/narrative.md` (use exactly this filename) (≤700 words, plain language per `methodology/prompts/report-clarity.md`):
 1. **This play-through in three sentences.**
 2. **The hidden conditions it was dealt** (in everyday words) and the notable events.
 3. **The story** in 5–7 dated beats.
