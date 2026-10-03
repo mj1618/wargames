@@ -20,19 +20,18 @@
 - `retraining_pct_gdp` 0.325 — standing 0.1 + Fair Share 0.15 + Renewal 0.15 for 2035 only (0.075). This includes the round-06 audit correction (Fair Share is 0.15, not 0.1). Washington lets Main Street money lapse.
 - `deploy_regulation` 0.2 — a single federal licensing standard would be 0.3 (from 0.1); half-size.
 - `competition_policy` 0.45 — open-access mandate would be 0.6 (from 0.3); half-size.
-- `housing_policy` 0.9875 — federal rung rises from 0.475 to 0.7, funded from 2036, so half the step (0.5875); plus states 0.15, private 0.15, event #14 0.1.
+- `housing_policy` 0.9875 — federal rung rises from 0.475 to 0.7, funded from 2036, so half the step (0.5875); other parts unchanged (0.4).
 - `shock_housing_pct` +3.0 — event #15.
-- `public_jobs_m`, `worktime_cut_pct` 0 — no decision.
 
 ## Narrated only (no lever)
-- Half-size Act read as: open access and the small-business tier bind the largest labs on a phased schedule; the federal licensing standard pre-empts state licensing to end 2036; $1bn of the $2bn is released into paid-to-train places. The labs asked for 2038 and did not get it.
+- Half-size Act read as: open access and the small-business tier bind the largest labs on a phased schedule; the federal licensing standard pre-empts state licensing to end 2036; $1bn of the $2bn is released into paid-to-train places.
 - Labs–employers contract: labs accepted the two-year counter with a changed floor; employers' orders keep one-year, most-favoured pricing. Not signed.
-- Households–employers term sheet signed: capped breach penalties, 12-month review, site-level no-layoff.
-- Households' housing and insurance campaign; entrepreneurs' $600m-a-year trainee cohort and move to secondary metros; labs' $300m for factory homes and $450m political spend (too small for a lever).
+- Households–employers term sheet signed with capped penalties.
+- Households' housing campaign; entrepreneurs' trainee cohort; labs' $300m for factory homes (too small for a lever).
 - No pledge roll: profits not under pressure.
 
 ## Non-players
-- Central bank (hawkish): unemployment not under 3.5%, nothing. States: at housing ceiling; no budget cuts.
+- Central bank: nothing. States: no housing step, no cuts.
 
 ## Model run
 `python3 economy/model/econ.py step --run economy/runs/r5 --levers economy/runs/r5/turns/t07/levers.json --years 2 --label 2035-36`
