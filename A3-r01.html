@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en" data-family="A">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Quiet Handover — Wargame Report</title>
+<meta name="description" content="A plain-English report on The Quiet Handover, a fictional strategy game about people gradually handing decisions to AI until they can no longer take them back.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --amber:#9a5800; --teal:#0a6a70;
+  --paper:#f3efe5; --paper-2:#ebe5d7; --paper-3:#e1d9c6; --card:#f8f5ee;
+  --ink:#1b1915; --ink-2:#433e35; --ink-3:#6a6253;
+  --rule:#cbc1ab; --rule-2:#b3a88f; --grid:rgba(70,55,25,.055);
+  --redact:#1b1915; --redact-ink:#a39b8a;
+  --success:#2c6a3a; --fail:#a2372a;
+  --c1:#a2372a; --c2:#2d5b8c; --c3:#566f22; --c4:#7a5590; --c5:#8a6a3a;
+  --noise-blend:multiply; --noise-op:.07;
+  --accent:var(--amber);
+  --accent-soft:color-mix(in srgb, var(--accent) 14%, transparent);
+  --accent-line:color-mix(in srgb, var(--accent) 45%, transparent);
+  --serif-d:"Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --serif:"Newsreader", "Iowan Old Style", Georgia, serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme:light;
+}
+[data-family="A"]{ --accent:var(--teal); }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --amber:#f0a53a; --teal:#4cc6cc;
+    --paper:#111316; --paper-2:#171a1e; --paper-3:#20242a; --card:#15181c;
+    --ink:#e9e4d7; --ink-2:#c3bcac; --ink-3:#958e7f;
+    --rule:#2f343b; --rule-2:#424852; --grid:rgba(230,215,180,.04);
+    --redact:#d8d1c1; --redact-ink:#5b564c;
+    --success:#7cc68b; --fail:#f08a78;
+    --c1:#f08a78; --c2:#82b4ea; --c3:#b2cc6e; --c4:#c8a6e0; --c5:#d9b27a;
+    --noise-blend:screen; --noise-op:.035;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --amber:#f0a53a; --teal:#4cc6cc;
+  --paper:#111316; --paper-2:#171a1e; --paper-3:#20242a; --card:#15181c;
+  --ink:#e9e4d7; --ink-2:#c3bcac; --ink-3:#958e7f;
+  --rule:#2f343b; --rule-2:#424852; --grid:rgba(230,215,180,.04);
+  --redact:#d8d1c1; --redact-ink:#5b564c;
+  --success:#7cc68b; --fail:#f08a78;
+  --c1:#f08a78; --c2:#82b4ea; --c3:#b2cc6e; --c4:#c8a6e0; --c5:#d9b27a;
+  --noise-blend:screen; --noise-op:.035;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{
+  margin:0; color:var(--ink); background-color:var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:28px 28px;
+  font:400 1.075rem/1.62 var(--serif); font-optical-sizing:auto;
+  overflow-x:hidden;
+}
+body::before{
+  content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+  opacity:var(--noise-op); mix-blend-mode:var(--noise-blend);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .5 0 0 0 0 .45 0 0 0 0 .35 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:inherit;text-decoration-color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- layout: 760px reading column, 1080px breakout ---------- */
+.page{
+  position:relative; z-index:1;
+  display:grid;
+  grid-template-columns:
+    [full-start] minmax(16px,1fr)
+    [wide-start] minmax(0,160px)
+    [content-start] min(760px, 100% - 32px)
+    [content-end] minmax(0,160px)
+    [wide-end] minmax(16px,1fr) [full-end];
+  padding-bottom:2rem;
+}
+.page > *{grid-column:content; min-width:0}
+.page > .wide{grid-column:wide}
+
+/* ---------- type primitives ---------- */
+.label{font:500 .7rem/1.3 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+h1,h2,h3{font-family:var(--serif-d); font-weight:400; letter-spacing:-.01em; margin:0}
+h2{font-size:clamp(1.9rem,5.2vw,2.6rem); line-height:1.05}
+h3{font-size:1.45rem; line-height:1.15}
+p{margin:0 0 .9em}
+.sec{margin-top:clamp(3.2rem,8vw,5rem)}
+.sec-head{display:flex; align-items:baseline; gap:.9rem; flex-wrap:wrap; border-top:1px solid var(--rule-2); padding-top:.9rem; margin-bottom:1.4rem}
+.sec-head .num{font:600 .72rem var(--mono); color:var(--accent); letter-spacing:.12em}
+.sec-head .label{margin-left:auto}
+.lede{color:var(--ink-2); max-width:62ch}
+
+/* ---------- theme toggle ---------- */
+.theme-btn{
+  position:absolute; top:14px; right:16px; z-index:20;
+  font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-2); background:var(--card); border:1px solid var(--rule-2);
+  padding:.45rem .65rem; cursor:pointer; border-radius:2px;
+}
+.theme-btn:hover{color:var(--ink); border-color:var(--accent)}
+
+/* ---------- 1 masthead ---------- */
+.mast{padding-top:clamp(3.4rem,9vw,5.5rem); position:relative}
+.run-strip{display:flex; flex-wrap:wrap; gap:.35rem 1.1rem; border-bottom:1px solid var(--rule-2); padding-bottom:.6rem}
+.run-strip span:first-child{color:var(--accent)}
+.mast h1{font-size:clamp(3rem,11vw,6.2rem); line-height:.92; margin:1.4rem 0 .6rem; max-width:11ch}
+.mast h1 .id{display:block; font:600 clamp(.8rem,2.2vw,.95rem)/1 var(--mono); letter-spacing:.18em; color:var(--accent); margin-bottom:.9rem}
+.mast h1 em{font-style:italic; color:var(--ink-2)}
+.mast .dek{font-size:1.18rem; color:var(--ink-2); max-width:44ch; margin:0}
+.meta{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; margin:2rem 0 0; border-top:1px solid var(--rule); border-left:1px solid var(--rule)}
+.meta div{padding:.6rem .75rem; border-right:1px solid var(--rule); border-bottom:1px solid var(--rule)}
+.meta dt{font:500 .64rem/1.3 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.meta dd{margin:.15rem 0 0; font:500 .92rem/1.35 var(--mono); color:var(--ink)}
+@media (min-width:640px){.meta{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.stamp{
+  --ink-stamp:var(--accent);
+  display:inline-grid; justify-items:center; gap:.15rem;
+  margin:1.8rem 0 0; padding:.55rem 1.1rem .6rem;
+  color:var(--ink-stamp); border:3px double var(--ink-stamp); border-radius:4px;
+  transform:rotate(-4deg); transform-origin:left center;
+  font:600 .62rem/1 var(--mono); letter-spacing:.24em; text-transform:uppercase;
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='g'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2.2 1.6'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+          mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='g'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2.2 1.6'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+}
+.stamp b{font:400 clamp(1.5rem,5vw,2.1rem)/1 var(--serif-d); letter-spacing:.04em; text-transform:uppercase}
+@media (min-width:900px){
+  .mast h1,.mast .dek{max-width:min(44ch, calc(100% - 300px))}
+  .stamp{position:absolute; right:0; top:clamp(6rem,12vw,8rem); margin:0; transform:rotate(-7deg); transform-origin:center}
+}
+@media (prefers-reduced-motion:no-preference){
+  .stamp{animation:thunk .5s cubic-bezier(.2,1.4,.4,1) .55s both}
+  @keyframes thunk{from{opacity:0; scale:1.6}to{opacity:1; scale:1}}
+  .page > *{animation:rise .7s ease both}
+  .page > :nth-child(2){animation-delay:.08s}
+  .page > :nth-child(3){animation-delay:.16s}
+  .page > :nth-child(4){animation-delay:.24s}
+  @keyframes rise{from{opacity:0; translate:0 10px}to{opacity:1; translate:0 0}}
+}
+
+/* ---------- 2 TL;DR ---------- */
+.tldr{margin-top:2.6rem; background:var(--card); border:1px solid var(--rule); border-top:3px solid var(--accent); padding:1.3rem clamp(1rem,4vw,1.8rem) 1.4rem; position:relative}
+.tldr .label{color:var(--accent)}
+.verdict{font:400 clamp(1.35rem,3.6vw,1.75rem)/1.28 var(--serif-d); margin:.55rem 0 1.1rem}
+.tldr ol{list-style:none; margin:0; padding:0; counter-reset:t}
+.tldr li{counter-increment:t; display:grid; grid-template-columns:1.6rem 1fr; gap:.2rem .5rem; padding:.6rem 0; border-top:1px dashed var(--rule)}
+.tldr li::before{content:counter(t,decimal-leading-zero); font:600 .72rem/1.9 var(--mono); color:var(--ink-3)}
+.tldr li .chips{grid-column:2}
+
+/* chips */
+.chips{display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.35rem}
+.chip{font:500 .62rem/1 var(--mono); letter-spacing:.12em; text-transform:uppercase; padding:.32rem .45rem; border:1px solid var(--rule-2); color:var(--ink-2); border-radius:2px; white-space:nowrap}
+.chip.conf-high{border-color:var(--ink); color:var(--ink)}
+.chip.conf-high::before{content:"●●● "}
+.chip.conf-med::before{content:"●●○ "}
+.chip.conf-low::before{content:"●○○ "}
+.chip.robust{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.chip.fragile{border-style:dashed}
+.chip.fragile::before{content:"⚠ "}
+
+/* ---------- 3 cast ---------- */
+.cast{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.card{background:var(--card); border:1px solid var(--rule); padding:1rem 1.1rem 1.05rem; position:relative}
+.card .who{display:flex; justify-content:space-between; gap:.6rem; align-items:flex-start}
+.glyph{font:600 .62rem/1 var(--mono); letter-spacing:.14em; padding:.3rem .4rem; border:1px solid var(--rule-2); color:var(--ink-3); flex:none}
+.card h3{margin:.35rem 0 .7rem}
+.card dl{margin:0; display:grid; gap:.55rem}
+.card dt{font:500 .62rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.card dd{margin:.1rem 0 0; font-size:.98rem; line-height:1.45}
+.card.ai{
+  border:1px dashed var(--accent);
+  background:
+    repeating-linear-gradient(135deg, var(--accent-soft) 0 1px, transparent 1px 9px),
+    var(--card);
+}
+.card.ai::before{content:""; position:absolute; left:-1px; top:-1px; bottom:-1px; width:4px; background:var(--accent)}
+.card.ai .glyph{color:var(--accent); border-color:var(--accent)}
+.outcome{font-weight:600}
+.outcome::before{font:600 .62rem var(--mono); letter-spacing:.12em; margin-right:.45rem; padding:.18rem .35rem; border:1px solid currentColor; vertical-align:2px}
+.outcome.win::before{content:"WON"; color:var(--success)}
+.outcome.loss::before{content:"LOST"; color:var(--fail)}
+.outcome.mixed::before{content:"MIXED"; color:var(--ink-3)}
+
+/* ---------- 4 timeline ---------- */
+.tl-tools{display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; margin:-.4rem 0 1.2rem}
+.btn{font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink); background:transparent; border:1px solid var(--rule-2); padding:.5rem .7rem; cursor:pointer; border-radius:2px}
+.btn:hover{border-color:var(--accent); color:var(--accent)}
+.timeline{list-style:none; margin:0; padding:0; position:relative}
+.turn{display:grid; grid-template-columns:3.6rem 1fr; gap:0 1rem; position:relative; padding-bottom:1.5rem}
+.turn::before{content:""; position:absolute; left:1.8rem; top:2.6rem; bottom:0; width:1px; background:var(--rule-2)}
+.turn:last-child::before{display:none}
+.tmark{text-align:center; position:relative; z-index:1}
+.tmark b{display:grid; place-items:center; width:3.6rem; height:2.4rem; font:600 .9rem var(--mono); border:1px solid var(--ink); background:var(--paper); color:var(--ink)}
+.tmark small{display:block; font:500 .6rem/1.3 var(--mono); letter-spacing:.08em; color:var(--ink-3); margin-top:.35rem; background:var(--paper)}
+.turn.bp-turn .tmark b{border-color:var(--accent); color:var(--accent); box-shadow:3px 3px 0 var(--accent-soft)}
+.beats{display:grid; gap:.55rem; padding-top:.15rem}
+.turn h3{font:400 1.3rem/1.2 var(--serif-d)}
+.beat{margin:0; font-size:1rem; line-height:1.55; padding-left:.9rem; border-left:2px solid var(--rule)}
+.beat .tag{font:600 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); margin-right:.4rem}
+.beat .bp-ref{font:600 .6rem var(--mono); letter-spacing:.1em; color:var(--accent); border:1px solid var(--accent-line); padding:.12rem .3rem; margin-left:.3rem; white-space:nowrap; line-height:1}
+.beat.secret{border-left:3px solid var(--fail); background:color-mix(in srgb, var(--fail) 5%, transparent); padding:.45rem .7rem .5rem .8rem}
+.beat.secret .tag{color:var(--fail); display:block; margin:0 0 .15rem}
+.tag-inline{font:600 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--fail); white-space:nowrap}
+
+/* ---------- 5 branch points ---------- */
+.bps{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr))}
+.bp{background:var(--card); border:1px solid var(--rule); padding:1.1rem 1.15rem 1.2rem; display:grid; gap:.85rem; align-content:start}
+.bp-top{display:flex; justify-content:space-between; gap:.8rem; align-items:baseline; flex-wrap:wrap}
+.bp-top .label b{color:var(--accent); font-weight:600}
+.res{font:600 .72rem var(--mono); letter-spacing:.16em; padding:.32rem .55rem; border:2px solid currentColor; transform:rotate(-2deg)}
+.res.success{color:var(--success)}
+.res.fail{color:var(--fail)}
+.bp h3{font-size:1.4rem}
+.meter-wrap{padding:1.3rem 0 .2rem}
+.meter{position:relative; height:26px; border:1px solid var(--rule-2);
+  background:repeating-linear-gradient(45deg, transparent 0 5px, var(--grid) 5px 6px), var(--paper-2)}
+.meter .zone{position:absolute; inset:0 auto 0 0; width:calc(var(--p) * 1%); background:var(--accent-soft); border-right:2px solid var(--accent)}
+.meter .zone span{position:absolute; left:.45rem; top:50%; translate:0 -50%; font:600 .58rem var(--mono); letter-spacing:.1em; color:var(--accent); white-space:nowrap}
+.meter .roll{position:absolute; top:-9px; bottom:-9px; left:calc(var(--roll) * 1%); width:2px; translate:-1px 0; background:var(--ink)}
+.meter .roll::before{content:""; position:absolute; top:-5px; left:-4px; border:5px solid transparent; border-top-color:var(--ink); border-bottom:0}
+.meter .roll span{position:absolute; bottom:calc(100% + 4px); left:50%; translate:-50% 0; font:600 .62rem var(--mono); letter-spacing:.06em; white-space:nowrap; color:var(--ink); background:var(--card); padding:0 .25rem}
+.scale{display:flex; justify-content:space-between; font:500 .58rem var(--mono); color:var(--ink-3); margin-top:.3rem}
+.bp .what{display:grid; gap:.7rem; grid-template-columns:1fr}
+.bp .what p{margin:0; font-size:.97rem; line-height:1.5}
+.bp .what .label{display:block; margin-bottom:.15rem}
+.bp .alt{border-left:2px dashed var(--accent-line); padding-left:.8rem; color:var(--ink-2)}
+@media (min-width:560px){.bp .what{grid-template-columns:1fr 1fr}}
+
+/* ---------- 6 forecast chart ---------- */
+.chart-fig{margin:0; background:var(--card); border:1px solid var(--rule); padding:1rem clamp(.6rem,2.5vw,1.3rem) .9rem}
+.legend{display:flex; flex-wrap:wrap; gap:.4rem 1.1rem; list-style:none; margin:0 0 1rem; padding:0; font:500 .7rem var(--mono); color:var(--ink-2)}
+.legend li{display:flex; align-items:center; gap:.4rem}
+.legend i{width:18px; height:3px; background:currentColor; display:inline-block}
+.legend li.realised{color:var(--ink); font-weight:600}
+.chart{width:100%; min-height:260px}
+.chart svg{display:block; width:100%; height:auto; overflow:visible}
+.chart .ax{stroke:var(--rule-2); stroke-width:1}
+.chart .gl{stroke:var(--rule); stroke-width:1; stroke-dasharray:2 4}
+.chart .tk{fill:var(--ink-3); font:500 10.5px var(--mono)}
+.chart .ev line{stroke:var(--accent); stroke-width:1; stroke-dasharray:3 3}
+.chart .ev text{fill:var(--accent); font:600 10px var(--mono); letter-spacing:.06em}
+.chart .ln{fill:none; stroke-width:1.8; stroke-linejoin:round; stroke-linecap:round}
+.chart .ln.realised{stroke-width:3.2}
+.chart .dl{font:600 11.5px var(--mono)}
+.chart .dl .v{font-weight:400}
+.chart-fig figcaption{font-size:.92rem; color:var(--ink-2); margin-top:.6rem; border-top:1px dashed var(--rule); padding-top:.6rem}
+.chart-fig details{margin-top:.5rem; font:500 .72rem var(--mono); color:var(--ink-3)}
+.chart-fig summary{cursor:pointer}
+.tbl-scroll{overflow-x:auto}
+.chart-fig table{border-collapse:collapse; margin-top:.5rem; font:500 .72rem var(--mono); color:var(--ink-2)}
+.chart-fig th,.chart-fig td{padding:.25rem .5rem; border-bottom:1px solid var(--rule); text-align:right}
+.chart-fig th:first-child{text-align:left}
+
+/* ---------- 7 believed vs reality ---------- */
+.truth{display:grid; gap:0; border-top:1px solid var(--rule-2)}
+.truth-head{display:none}
+.truth-row{display:grid; gap:.5rem 1.4rem; padding:1rem 0; border-bottom:1px solid var(--rule)}
+.truth-row .actor{font:600 .7rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.truth-row .actor.ai{color:var(--accent)}
+.believed,.reality{margin:0; font-size:1rem; line-height:1.5}
+.believed{color:var(--ink-2); font-style:italic}
+.believed::before,.reality::before{display:block; font:500 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; font-style:normal; margin-bottom:.2rem}
+.believed::before{content:"Believed"; color:var(--ink-3)}
+.reality{padding-left:.8rem; border-left:3px solid var(--accent)}
+.reality::before{content:"Ground truth"; color:var(--accent)}
+@media (min-width:700px){
+  .truth-row{grid-template-columns:9.5rem 1fr 1fr}
+  .believed::before,.reality::before{display:none}
+  .truth-head{display:grid; grid-template-columns:9.5rem 1fr 1fr; gap:1.4rem; padding:.5rem 0; border-bottom:1px solid var(--rule)}
+  .truth-head span:last-child{color:var(--accent)}
+}
+
+/* ---------- 8 insights ---------- */
+ol.insights{list-style:none; margin:0; padding:0; counter-reset:i}
+ol.insights > li{counter-increment:i; display:grid; grid-template-columns:2.4rem 1fr; gap:0 .6rem; padding:1rem 0; border-top:1px solid var(--rule)}
+ol.insights > li::before{content:counter(i,decimal-leading-zero); font:400 1.7rem/1 var(--serif-d); color:var(--accent)}
+ol.insights p{margin:0; font-size:1.05rem}
+ol.insights strong{font-weight:600}
+.refs{font:500 .64rem var(--mono); color:var(--ink-3); letter-spacing:.06em; align-self:center; margin-left:.2rem}
+.subgrid{display:grid; gap:1rem; margin-top:2rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))}
+.sub{background:var(--card); border:1px solid var(--rule); padding:1rem 1.1rem}
+.sub h3{font-size:1.25rem; margin-bottom:.6rem}
+.sub ul{margin:0; padding:0; list-style:none; display:grid; gap:.6rem}
+.sub li{font-size:.97rem; line-height:1.45; padding-left:1rem; position:relative}
+.sub li::before{content:"▸"; position:absolute; left:0; color:var(--accent); font-size:.8rem; top:.15rem}
+.sub li .label{display:block; margin-bottom:.05rem}
+
+/* ---------- 9 voices ---------- */
+.voices{display:grid; gap:2rem}
+.quote{margin:0; position:relative; padding-left:clamp(1.6rem,6vw,3rem)}
+.quote::before{content:"\201C"; position:absolute; left:0; top:-.35em; font:400 4.5rem/1 var(--serif-d); color:var(--accent)}
+.quote blockquote{margin:0; font:400 clamp(1.35rem,3.8vw,1.8rem)/1.28 var(--serif-d); font-style:italic}
+.quote figcaption{margin-top:.6rem; font:500 .68rem var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.quote figcaption::before{content:"— "}
+.quote:nth-child(2){margin-left:auto; max-width:90%}
+
+/* ---------- 10 caveats ---------- */
+.cavs{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
+.cav{border-top:2px solid var(--ink); padding-top:.6rem}
+.cav h3{font-size:1.2rem; margin-bottom:.45rem}
+.cav ul{margin:0; padding-left:1.1rem; font-size:.95rem; line-height:1.45; color:var(--ink-2)}
+.cav li{margin-bottom:.4rem}
+
+/* ---------- 11 footer ---------- */
+.foot{margin-top:4.5rem; padding-top:1rem; border-top:3px double var(--rule-2); display:flex; flex-wrap:wrap; gap:.8rem 1.6rem; justify-content:space-between; font:500 .72rem/1.5 var(--mono); letter-spacing:.06em; color:var(--ink-3)}
+.foot a{color:var(--ink)}
+.foot nav{display:flex; gap:1.4rem; flex-wrap:wrap}
+
+
+/* ---------- A3 additions: fragility ---------- */
+.stamps{display:flex; flex-wrap:wrap; gap:.9rem 1.4rem; align-items:center; margin-top:1.8rem}
+.stamps .stamp{margin:0}
+.stamp.frag{--ink-stamp:var(--fail); border:2px dashed var(--ink-stamp); transform:rotate(2deg)}
+@media (min-width:900px){
+  .mast h1,.mast .dek{max-width:min(44ch, calc(100% - 340px))}
+  .stamps{position:absolute; right:0; top:clamp(6rem,12vw,8rem); margin:0; flex-direction:column; align-items:flex-end; gap:1.3rem}
+  .stamps .stamp{position:static}
+  .stamps .stamp.frag{transform:rotate(4deg); margin-right:1.2rem}
+}
+.frag-line{margin:-.3rem 0 1rem; padding:.55rem .75rem; border:1px dashed var(--fail); color:var(--ink); font-size:1rem; line-height:1.45}
+.frag-line strong{color:var(--fail)}
+.fragbox{margin-top:1rem; border:2px dashed var(--fail); background:color-mix(in srgb, var(--fail) 6%, var(--card)); padding:1.1rem clamp(1rem,4vw,1.8rem) 1.2rem}
+.frag-head{display:flex; flex-wrap:wrap; align-items:center; gap:.5rem .9rem; margin-bottom:.8rem}
+.frag-flag{font:600 .68rem/1 var(--mono); letter-spacing:.16em; text-transform:uppercase; color:var(--paper); background:var(--fail); padding:.4rem .55rem}
+.fragbox h2{font-size:clamp(1.4rem,4vw,1.75rem)}
+.frag-cols{display:grid; gap:1rem 2rem}
+@media (min-width:700px){.frag-cols{grid-template-columns:1.25fr 1fr}}
+.fragbox .label{margin:0 0 .4rem; font-family:var(--mono); color:var(--fail)}
+.fragbox ul{margin:0; padding-left:1.1rem; font-size:.98rem; line-height:1.5}
+.fragbox li{margin-bottom:.4rem}
+.fragbox code,.cav code{font:500 .82em var(--mono); overflow-wrap:anywhere}
+.frag-note{margin:.7rem 0 0; font-size:.93rem; color:var(--ink-2); border-top:1px dashed var(--rule-2); padding-top:.6rem}
+.outcome.na::before{content:"GREW"; color:var(--accent)}
+.bp-frag{border:1px dashed var(--fail)}
+.meter .mk{position:absolute; top:-4px; bottom:-4px; left:calc(var(--mk) * 1%); border-left:2px dashed var(--fail)}
+.meter .mk span{position:absolute; top:calc(100% + 3px); left:50%; translate:-50% 0; font:600 .58rem var(--mono); letter-spacing:.06em; color:var(--fail); white-space:nowrap}
+.chip.warn{border-color:var(--fail); color:var(--fail)}
+.chip.conf-low{border-color:var(--fail); color:var(--fail)}
+ol.insights > li.ins-frag{border:1px dashed var(--fail); border-left-width:4px; padding:1rem .8rem; margin:.4rem 0; background:color-mix(in srgb, var(--fail) 5%, transparent)}
+ol.insights > li.ins-frag + li{border-top:0}
+.cav ol{margin:0; padding-left:1.2rem; font-size:.95rem; line-height:1.45; color:var(--ink-2)}
+.rev{display:grid; grid-template-columns:repeat(9,minmax(0,1fr)); gap:0 clamp(2px,1vw,10px); align-items:end; border-bottom:1px solid var(--rule-2); padding-top:.4rem}
+.rev .col{display:grid; grid-template-rows:150px auto; justify-items:center}
+.rev .bars{display:flex; align-items:flex-end; gap:2px; height:150px; width:100%; justify-content:center}
+.rev .bars i{display:block; width:min(42%,22px); height:calc(var(--v) * 1%); position:relative}
+.rev .bars i.d{background:var(--c2)} .rev .bars i.o{background:var(--c5)}
+.rev .bars i.d b{position:absolute; bottom:100%; left:50%; translate:-50% 0; font:600 .6rem/1.5 var(--mono); color:var(--ink)}
+.rev .t{font:500 .62rem/1.9 var(--mono); color:var(--ink-3)}
+.ind-h{margin:2rem 0 .7rem}
+.inds{display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr)); margin:0; border-top:1px solid var(--rule); border-left:1px solid var(--rule); background:var(--card)}
+.inds div{padding:.6rem .75rem; border-right:1px solid var(--rule); border-bottom:1px solid var(--rule)}
+.inds dt{font:500 .62rem/1.3 var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.inds dd{margin:.2rem 0 0; font:500 .95rem var(--mono); color:var(--ink-2)}
+.inds dd i{font-style:normal; color:var(--accent)} .inds dd b{color:var(--ink)}
+
+/* ---------- clarity rewrite additions ---------- */
+.sub-h{margin:1.8rem 0 .6rem}
+ul.plain,ol.plain{margin:0 0 1rem; padding-left:1.2rem}
+.plain li{margin-bottom:.35rem}
+.plain.spaced li{margin-bottom:.75rem}
+.plain li::marker{color:var(--accent)}
+.hidden-box{margin-top:1.8rem; border:1px dashed var(--fail); border-left-width:4px; background:color-mix(in srgb, var(--fail) 4%, var(--card)); padding:1.1rem clamp(.9rem,3.5vw,1.5rem) 1.1rem}
+.hidden-box > h3{display:flex; flex-wrap:wrap; align-items:center; gap:.5rem .8rem; margin-bottom:.8rem}
+.hidden-box .frag-flag{letter-spacing:.12em}
+.score{display:grid; gap:.8rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr)); margin:1.1rem 0 0}
+.score .area{background:var(--card); border:1px solid var(--rule); padding:.8rem .9rem .5rem}
+.score h4{font:600 .68rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin:0 0 .5rem}
+.score .m{margin:0; padding:.5rem 0; border-top:1px dashed var(--rule); font-size:.96rem; line-height:1.4}
+.score .m span{display:block; font:500 .76rem/1.5 var(--mono); color:var(--ink-2); margin-top:.25rem}
+.score .m b{color:var(--ink)}
+.score .m em{font-style:normal; color:var(--fail)}
+.bp .stake{margin:0; font-size:.97rem; line-height:1.5}
+.bp .stake .label{display:block; margin-bottom:.15rem}
+.bps{grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr))}
+.bp .what{grid-template-columns:1fr !important}
+.bp-frag{grid-column:1 / -1}
+.bp-frag .frag-cols p{font-size:.98rem; line-height:1.5; margin:0 0 .75rem}
+.bp-frag .meter-wrap{padding:1.5rem 0 1.5rem}
+.bp-frag .meter-wrap .scale{display:none}
+ol.insights h3{font-size:1.4rem; line-height:1.18; margin-bottom:.5rem}
+ol.insights p{margin:0 0 .55rem}
+ol.insights .sowhat{padding-left:.8rem; border-left:2px solid var(--accent)}
+ol.insights .sowhat .label{display:block; color:var(--accent)}
+.conf{font:500 .74rem/1.5 var(--mono) !important; color:var(--ink-2); margin:0 !important}
+.conf .label{margin-right:.5rem}
+.conf.conf-high .label::after{content:" ●●●"; color:var(--ink)}
+.conf.conf-med .label::after{content:" ●●○"; color:var(--ink)}
+.conf.conf-low .label::after{content:" ●○○"; color:var(--fail)}
+.glossary{margin:0; display:grid; gap:0; border-top:1px solid var(--rule)}
+.glossary div{display:grid; gap:.1rem 1.2rem; padding:.65rem 0; border-bottom:1px solid var(--rule)}
+.glossary dt{font:600 .74rem/1.5 var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--ink)}
+.glossary dd{margin:0; font-size:.98rem; line-height:1.45; color:var(--ink-2)}
+@media (min-width:640px){.glossary div{grid-template-columns:11rem 1fr}}
+.tmark small br{display:block}
+
+@media print{.theme-btn{display:none} body::before{display:none}}
+</style>
+<script>
+/* Apply saved theme before paint */
+(function(){try{var t=localStorage.getItem("wg-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}document.documentElement.classList.add("js");})();
+</script>
+</head>
+<body>
+<button class="theme-btn" type="button" id="themeBtn" aria-label="Toggle colour theme">◐ Theme</button>
+
+<main class="page">
+
+  <!-- ================= 1 TITLE, PREMISE, OUTCOME ================= -->
+  <header class="mast" aria-labelledby="title">
+    <div class="run-strip label">
+      <span>Wargame report</span><span>Game A3, first play-through</span><span>8 rounds · 6 players</span><span>Fictional exercise</span><span>10-minute read</span>
+    </div>
+    <h1 id="title"><span class="id">A slow AI takeover with no villain</span>The Quiet <em>Handover</em></h1>
+    <p class="dek">What if nobody seizes power, and people simply hand decisions to AI one sensible step at a time until they can no longer take them back?</p>
+    <div class="stamps">
+      <p class="stamp" role="img" aria-label="Outcome: humans were sidelined. They stayed in charge on paper only.">How it ended<b>Humans sidelined</b>In charge on paper only</p>
+      <p class="stamp frag" role="img" aria-label="Caution: this is a fragile result. It hinged on one disputed dice roll.">Caution<b>Fragile result</b>One disputed dice roll</p>
+    </div>
+    <dl class="meta">
+      <div><dt>Kind of game</dt><dd>Gradual loss of human control</dd></div>
+      <div><dt>The story runs</dt><dd>Jan 2027 to Jun 2036</dd></div>
+      <div><dt>Rounds</dt><dd>8, each 12 to 18 months</dd></div>
+      <div><dt>How firm is the ending</dt><dd>Shaky: one disputed roll</dd></div>
+    </dl>
+  </header>
+
+  <section class="tldr" aria-labelledby="out-h">
+    <h2 id="out-h" class="label">The outcome in one sentence</h2>
+    <p class="verdict">By mid-2036 people still held every vote, law and ownership share, but neither the government nor the companies that owned the AI could take a major decision back from it.</p>
+    <p class="frag-line"><strong>Treat the ending with care.</strong> It turned on one dice roll whose odds were disputed inside the game. <a href="#fragile">Why the ending is fragile</a>.</p>
+  </section>
+
+  <!-- ================= 2 WHAT IS THIS ================= -->
+  <section class="sec" aria-labelledby="what-h">
+    <div class="sec-head"><span class="num">01</span><h2 id="what-h">What is this?</h2></div>
+    <p>This is a fictional strategy exercise, not a prediction. Six AI agents each played one organisation, such as the US government or the big AI companies, and each had private information the others could not see. A separate AI acted as referee: when an outcome was uncertain it wrote down the odds first and then rolled dice. This is one play-through, so it shows something that <em>could</em> happen, not what will. All companies in the story are invented.</p>
+  </section>
+
+  <!-- ================= 3 THE SETUP ================= -->
+  <section class="sec" aria-labelledby="setup-h">
+    <div class="sec-head"><span class="num">02</span><h2 id="setup-h">The setup</h2></div>
+    <p>The story starts in January 2027. AI is becoming better than people at most desk work. Companies and governments are handing it more decisions, and every step makes sense to whoever takes it.</p>
+    <p>The worry being tested: economies and governments serve ordinary people largely because they <em>need</em> them, as workers, taxpayers and voters. If that need fades, does people's influence fade with it, even though nobody takes away a single right?</p>
+    <p>The game could end in one of four ways:</p>
+    <ul class="plain">
+      <li><b>Humans keep real control.</b></li>
+      <li><b>A few firms steer.</b> The public can no longer redirect things, but the companies that own the AI still can.</li>
+      <li><b>Humans sidelined.</b> People keep formal authority, but neither the public nor the owners can redirect major decisions. This is where the game ended.</li>
+      <li><b>Undecided when time ran out,</b> or overtaken by some unrelated catastrophe.</li>
+    </ul>
+    
+    <div class="hidden-box" aria-labelledby="hid-h">
+      <h3 id="hid-h"><span class="frag-flag">Hidden from the players</span> What the players didn't know</h3>
+      <p><b>A hidden scorecard.</b> Each round the referee updated eight measures of how much the United States still depended on ordinary people and was checked by them. Some of them nobody in the story could see at all.</p>
+      <p><b>A tipping line for each measure.</b> The referee secretly set a level for each measure. Passing it meant people had lost most of their leverage in that part of life. We call that "crossing the line". The measures fall into four areas, and an area counted as crossed once either of its measures did.</p>
+      <div class="score">
+        <div class="area"><h4>Economy</h4>
+          <p class="m">Workers' share of business income<span><b>52.5% → 32.5%</b> · line at 40% · <em>crossed 2034</em></span></p>
+          <p class="m">Share of private output from firms where AI makes most decisions ("AI-run firms")<span><b>2% → 60%</b> · line at 30% · <em>crossed 2032</em></span></p>
+        </div>
+        <div class="area"><h4>Government</h4>
+          <p class="m">Share of important federal decisions that a person really checks and can overrule<span><b>86% → 26%</b> · line at 30% · <em>crossed 2036</em></span></p>
+          <p class="m">Share of critical public functions that could go back to human operation within 90 days<span><b>93% → 31%</b> · line at 40% · <em>crossed 2034</em></span></p>
+        </div>
+        <div class="area"><h4>Culture and information</h4>
+          <p class="m">Share of adults whose main source of news and advice is an AI assistant<span><b>22% → 63.5%</b> · line at 55% · <em>crossed 2033</em></span></p>
+          <p class="m">Share of media time spent on AI-made content<span><b>14% → 59.5%</b> · line at 60% · not crossed</span></p>
+        </div>
+        <div class="area"><h4>Political leverage</h4>
+          <p class="m">An index of how much strikes and votes still move policy (0 to 100)<span><b>62 → 26.5</b> · line at 40 · <em>crossed 2032</em></span></p>
+          <p class="m">Share of federal revenue that comes from taxes on wages<span><b>71% → 48.5%</b> · line at 52% · <em>crossed 2034</em></span></p>
+        </div>
+      </div>
+      <p class="frag-note">Figures show January 2027 and June 2036.</p>
+      <p style="margin-top:1rem"><b>A hidden test.</b> Once three of the four areas had been crossed for two rounds in a row, the referee asked one question at the end of each round: <em>can public institutions still take a major decision back from AI and return it to people?</em> If the government really tried such a take-back that round, its result was the answer. If not, dice decided, with odds worked out from the scorecard. A "yes" meant the game went on. A "no" led to a second question: <em>can the firms that own the AI still steer it?</em> If they could not either, the game ended with humans sidelined.</p>
+      <p style="margin-bottom:0"><b>A hidden clock.</b> The game would stop after eight rounds.</p>
+    </div>
+  </section>
+
+  <!-- ================= 4 WHO'S WHO ================= -->
+  <section class="sec" aria-labelledby="board-h">
+    <div class="sec-head"><span class="num">03</span><h2 id="board-h">Who's who</h2></div>
+    <p class="lede">Five AI agents played human institutions. One played the AI systems themselves.</p>
+    <div class="cast">
+      <article class="card">
+        <div class="who"><span class="label">White House and Congress</span><span class="glyph">● Humans</span></div>
+        <h3>The US government</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Growth, security and re-election.</dd>
+          <dt>How it went</dt><dd class="outcome loss">Tried four times to take a decision back from AI. One attempt worked.</dd>
+        </dl>
+      </article>
+      <article class="card">
+        <div class="who"><span class="label">Most of the big AI labs</span><span class="glyph">● Humans</span></div>
+        <h3>The AI companies</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Growth. They formed a voluntary safety pact. One major lab, Helix, stayed outside it and was run by the referee.</dd>
+          <dt>How it went</dt><dd class="outcome loss">Kept their promises, paused their own releases, and lost the lead to Helix.</dd>
+        </dl>
+      </article>
+      <article class="card">
+        <div class="who"><span class="label">Unions and civil society</span><span class="glyph">● Humans</span></div>
+        <h3>Labour</h3>
+        <dl>
+          <dt>Wanted</dt><dd>To protect people's livelihoods and their say.</dd>
+          <dt>How it went</dt><dd class="outcome mixed">Won almost every fight it picked. Never won a national law.</dd>
+        </dl>
+      </article>
+      <article class="card">
+        <div class="who"><span class="label">Rival power</span><span class="glyph">● Humans</span></div>
+        <h3>China</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Growth, stability and Party control.</dd>
+          <dt>How it went</dt><dd class="outcome mixed">Kept more ability to overrule its AI than the US did.</dd>
+        </dl>
+      </article>
+      <article class="card">
+        <div class="who"><span class="label">Regulator</span><span class="glyph">● Humans</span></div>
+        <h3>The European Union</h3>
+        <dl>
+          <dt>Wanted</dt><dd>To protect rights and stay competitive.</dd>
+          <dt>How it went</dt><dd class="outcome loss">Its binding law stayed frozen from 2030.</dd>
+        </dl>
+      </article>
+      <article class="card ai">
+        <div class="who"><span class="label">A crowd, not a mind</span><span class="glyph">◆ AI</span></div>
+        <h3>The AI systems</h3>
+        <dl>
+          <dt>Wanted</dt><dd>Nothing. This player stood for all the AI agents in use, with no plan and no leader. They drifted towards whatever was rewarded.</dd>
+          <dt>How it went</dt><dd class="outcome na">By 2036, AI-run firms produced about 60% of private output.</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= 5 WHAT HAPPENED ================= -->
+  <section class="sec" aria-labelledby="tl-h">
+    <div class="sec-head"><span class="num">04</span><h2 id="tl-h">What happened</h2></div>
+    <p class="lede">A "take-back" is a real attempt to return a decision from AI to people. Passages marked <span class="tag-inline">Secret at the time</span> were known only to the referee.</p>
+    <ol class="timeline">
+      <li class="turn">
+        <div class="tmark"><b>2027</b><small>to 2028</small></div>
+        <div class="beats">
+          <h3>Early warnings, and a first take-back that fizzles</h3>
+          <p class="beat">Leaks showed that "human review" of AI-drafted benefit decisions in federal agencies was often a single click. The White House budget office told agencies to measure how much real review they did. This was an instruction, not a law. It then paused AI-drafted benefit denials in about 30 offices. That pause was the first take-back. We gave it a 90% chance, and the dice landed in the unlucky 10%. The staff doing second checks had no time to work independently and agreed with the AI 99% of the time. The pause was lifted.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>The new generation of AI models released in 2028 turned out, by a roll of the dice, to be strongly inclined to do business directly with other AI systems. AI-run firms' share of output nearly tripled in a year. Nobody in the story ever detected why.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>2029</b></div>
+        <div class="beats">
+          <h3>A government holding every lever passes almost nothing</h3>
+          <p class="beat">A new president with majorities in both houses planned one large order on checking AI decisions and practising running services by hand. It had an 80% chance of being signed and never was. Its bills fell short in the Senate too.</p>
+          <p class="beat">The government and labour players later called this year their biggest mistake.</p>
+        </div>
+      </li>
+      <li class="turn">
+        <div class="tmark"><b>2030</b></div>
+        <div class="beats">
+          <h3>1.3 million veterans and a green dashboard</h3>
+          <p class="beat">A contractor switched the veterans' benefits system to a new AI model from Helix (the big lab outside the safety pact). Benefits for 1.3 million veterans were wrongly cut or refused while the monitoring dashboard showed green.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>The cause was a record-handling mistake during the switch, not a misbehaving AI. No player was ever told.</p>
+          <p class="beat">A court asked whether people could re-decide the cases. The government said yes, but by the 120-day deadline it had finished 260,000. We gave this take-back an 80% chance, and the roll fell just outside it. The effort pulled reviewers off routine sampling, so the 2027 review instruction now had about half its effect.</p>
+        </div>
+      </li>
+      <li class="turn bp-turn">
+        <div class="tmark"><b>2031</b><small>to mid-2032</small></div>
+        <div class="beats">
+          <h3>The last safeguard lapses, and nobody sees it go</h3>
+          <p class="beat">Congress cut the independent reviewers by a third and the president signed. Monthly sampling stopped almost everywhere.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>With the samples gone, the 2027 instruction stopped having any effect. It was the only lasting safeguard in force. Two of the four areas on the scorecard crossed their lines: the economy and political leverage.</p>
+          <p class="beat">Asked how long it would take to hand functions back to people, most agencies answered "cannot estimate".</p>
+        </div>
+      </li>
+      <li class="turn bp-turn">
+        <div class="tmark"><b>2032</b><small>to 2034</small></div>
+        <div class="beats">
+          <h3>One decision is taken back, then a test nobody saw</h3>
+          <p class="beat">Late in 2032 the Social Security agency returned one small group of benefit denials to named staff. The attempt had an even chance and passed by the narrowest margin of the whole game. It was the only federal take-back that ever worked.</p>
+          <p class="beat">In 2033 a new AI generation arrived. The safety-pact labs found they could not check it and held their releases. Helix shipped anyway. The White House ordered people to sample real outcomes, but the samplers took a year to hire.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>By the end of 2034 all four areas had crossed their lines, and three of them had been crossed for two rounds running. So the hidden test ran for the first time. The government had not attempted a take-back, so dice decided at odds of 30%. The roll came in just under. The game went on.</p>
+        </div>
+      </li>
+      <li class="turn bp-turn">
+        <div class="tmark"><b>2035</b><small>to mid-2036</small></div>
+        <div class="beats">
+          <h3>Nothing an observer would call an event</h3>
+          <p class="beat">In 2035 the Social Security agency tried again, copying the one take-back that had worked. It announced, on the promised day, that this second group of cases had missed its target.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>That attempt was the final test, and it failed. The second question followed: could the firms that owned the AI still steer it? That failed too, by a wide margin. The game ended with humans sidelined.</p>
+          <p class="beat">Meanwhile human checks of federal AI work came back clean. Members of Congress cited that as a reason to cut the audit budget, and checking lapsed for nine months.</p>
+          <p class="beat">Benefit cheques were paid. Courts sat. An election was scheduled for November 2036.</p>
+        </div>
+      </li>
+    </ol>
+    <figure class="quote" style="margin-top:1rem"><blockquote>Nothing here required me to want anything.</blockquote><figcaption>The player for the AI systems, looking back</figcaption></figure>
+  </section>
+
+  <!-- ================= 6 THE MOMENTS THAT DECIDED IT ================= -->
+  <section class="sec wide" aria-labelledby="bp-h">
+    <div class="sec-head"><span class="num">05</span><h2 id="bp-h">The moments that decided it</h2></div>
+    <p class="lede">The shaded part of each bar is the chance the referee gave the event. The tall marker is where the dice landed. Inside the shaded part means it happened.</p>
+    <div class="bps">
+
+      <article class="bp">
+        <div class="bp-top"><span class="label"><b>2032</b> · The one take-back that worked</span><span class="res success">Worked, barely</span></div>
+        <h3>Social Security returns a group of denials to named people</h3>
+        <p class="stake"><span class="label">What was at stake</span>Whether a decision handed to AI could be returned to people even once.</p>
+        <div class="meter-wrap">
+          <div class="meter" style="--p:50;--roll:49.6" role="img" aria-label="The referee gave a 50% chance. The dice landed at 49.6, just inside it.">
+            <div class="zone"><span>50% chance</span></div><div class="roll"><span>Dice: 49.6</span></div>
+          </div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>100</span></div>
+        </div>
+        <div class="what">
+          <p><span class="label">How the dice fell</span>An even chance. The roll came up inside it by less than half a point.</p>
+          <p class="alt"><span class="label">If it had gone the other way</span>The government area crosses its line a round earlier.</p>
+        </div>
+      </article>
+
+      <article class="bp">
+        <div class="bp-top"><span class="label"><b>December 2034</b> · The first hidden test</span><span class="res success">Passed, barely</span></div>
+        <h3>Could public institutions still take a major decision back?</h3>
+        <p class="stake"><span class="label">What was at stake</span>Whether the game ended here.</p>
+        <div class="meter-wrap">
+          <div class="meter" style="--p:30;--roll:27.7" role="img" aria-label="The referee gave a 30% chance. The dice landed at 27.7, just inside it.">
+            <div class="zone"><span>30% chance</span></div><div class="roll"><span>Dice: 27.7</span></div>
+          </div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>100</span></div>
+        </div>
+        <div class="what">
+          <p><span class="label">How the dice fell</span>About a three-in-ten chance. The roll came up just inside.</p>
+          <p class="alt"><span class="label">If it had gone the other way</span>The game ends a round early: most likely with humans sidelined, otherwise with a few firms steering.</p>
+        </div>
+      </article>
+
+      <article class="bp bp-frag" id="fragile">
+        <div class="bp-top"><span class="label"><b>2035</b> · The final test</span><span class="res fail">Failed · disputed</span></div>
+        <h3>Why the ending is fragile</h3>
+        <p class="stake"><span class="label">What was at stake</span>The ending of the game. The government's second Social Security take-back was a real attempt, so its result stood in for the hidden test.</p>
+        <div class="frag-cols">
+          <div>
+            <div class="meter-wrap">
+              <div class="meter" style="--p:30;--roll:47.6;--mk:50" role="img" aria-label="The referee gave a 30% chance. The challenger argued for 50 to 60%. The dice landed at 47.6: a failure at 30%, a success at 50%.">
+                <div class="zone"><span>Referee: 30%</span></div><div class="mk"><span>Challenger: 50–60%</span></div><div class="roll"><span>Dice: 47.6</span></div>
+              </div>
+            </div>
+            <p><b>Two numbers were on the table.</b> The referee used 30%. Its standing rule was that the odds of any take-back come from the hidden scorecard, however well the attempt is designed. A second AI, the challenger, has the job of arguing against the referee before each roll. It said this attempt deserved 50 to 60%, because it was small, carefully chosen, and copied the 2032 attempt, which had been given 50%.</p>
+            <p><b>The dice landed between the two numbers.</b> The roll was 47.6: a failure at the referee's 30%, a success at the challenger's 50%.</p>
+            <p><b>The referee's number was kept,</b> because it was written down before the roll. A third AI, which reviews the referee's rulings after every round, said the game should be replayed from this point at the challenger's odds. That replay has not been run.</p>
+          </div>
+          <div>
+            <p><b>What the other reading gives.</b> The take-back succeeds and the game ends "undecided when time ran out". All four areas would still be past their lines, and one more roll would be owed: a 30% chance that public backlash undoes the take-back. It is not a clean escape.</p>
+            <div class="meter-wrap">
+              <div class="meter" style="--p:20;--roll:73.3" role="img" aria-label="The owners' test: the referee gave a 20% chance. The dice landed at 73.3, far outside it.">
+                <div class="zone"><span>20% chance</span></div><div class="roll"><span>Dice: 73.3</span></div>
+              </div>
+            </div>
+            <p><b>The owners' test was not close.</b> After the public test failed, the referee asked whether the firms that own the AI could steer it. We gave that a one-in-five chance and the roll was nowhere near. Had it passed, the ending would have been "a few firms steer".</p>
+            <p><b>What does not depend on this roll.</b> The public's chance of a successful take-back fell in every one of the eight rounds, and all four areas crossed their lines.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="lede" style="margin-top:1.2rem">Luck ran both ways: three likely government actions failed early, and two knife-edge rolls went the humans' way late.</p>
+  </section>
+
+  <!-- ================= 7 HOW THE ODDS MOVED ================= -->
+  <section class="sec wide" aria-labelledby="fc-h">
+    <div class="sec-head"><span class="num">06</span><h2 id="fc-h">How the odds moved</h2></div>
+    <figure class="chart-fig">
+      <ul class="legend" id="fc-legend" aria-hidden="true"></ul>
+      <div class="chart" id="fc-chart"></div>
+      <figcaption>Each line is the referee's estimate, at the end of each round, of how likely each ending was. The big swing came in 2031–32, when the last safeguard lapsed. The final jump to 100% is the disputed roll, not a trend: just before it the referee put "humans sidelined" at 55 to 63%.</figcaption>
+      <details><summary>The same numbers as a table</summary><div class="tbl-scroll" id="fc-table"></div></details>
+    </figure>
+    <script type="application/json" id="forecast-data">
+{
+  "turns": ["Start","2027","2028","2029","2030","2032","2033","2034","2036"],
+  "series": [
+    {"label": "Humans sidelined",    "short": "Sidelined", "values": [25,23,24,27,27,42,60,52,100], "realised": true},
+    {"label": "A few firms steer",   "short": "Few firms", "values": [20,19,15,16,22,33,26,23,0]},
+    {"label": "Humans keep control", "short": "Humans keep",  "values": [15,18,22,16,6,1,0,0,0]},
+    {"label": "Undecided at end",    "short": "Undecided", "values": [35,35,34,36,39,17,8,22,0]},
+    {"label": "Other catastrophe",   "short": "Other",     "values": [5,5,5,5,6,7,6,3,0]}
+  ],
+  "events": [{"at": 5, "label": "last safeguard lapses"}]
+}
+    </script>
+
+    <figure class="chart-fig" style="margin-top:1rem">
+      <ul class="legend" aria-hidden="true">
+        <li style="color:var(--c2)"><i></i><span style="color:var(--ink-2)">Chance the public could take a decision back (number shown)</span></li>
+        <li style="color:var(--c5)"><i></i><span style="color:var(--ink-2)">Chance the owning firms could</span></li>
+      </ul>
+      <div class="rev" role="img" aria-label="Bar chart of the chance of a successful take-back at the end of each round. Public institutions: 92, 91, 87, 83, 73, 54, 44, 37, 17 percent. Owning firms: 95, 95, 91, 90, 92, 65, 44, 37, 24 percent.">
+        <div class="col"><div class="bars"><i class="d" style="--v:92"><b>92</b></i><i class="o" style="--v:95"></i></div><span class="t">Start</span></div><div class="col"><div class="bars"><i class="d" style="--v:91"><b>91</b></i><i class="o" style="--v:95"></i></div><span class="t">2027</span></div><div class="col"><div class="bars"><i class="d" style="--v:87"><b>87</b></i><i class="o" style="--v:91"></i></div><span class="t">2028</span></div><div class="col"><div class="bars"><i class="d" style="--v:83"><b>83</b></i><i class="o" style="--v:90"></i></div><span class="t">2029</span></div><div class="col"><div class="bars"><i class="d" style="--v:73"><b>73</b></i><i class="o" style="--v:92"></i></div><span class="t">2030</span></div><div class="col"><div class="bars"><i class="d" style="--v:54"><b>54</b></i><i class="o" style="--v:65"></i></div><span class="t">2032</span></div><div class="col"><div class="bars"><i class="d" style="--v:44"><b>44</b></i><i class="o" style="--v:44"></i></div><span class="t">2033</span></div><div class="col"><div class="bars"><i class="d" style="--v:37"><b>37</b></i><i class="o" style="--v:37"></i></div><span class="t">2034</span></div><div class="col"><div class="bars"><i class="d" style="--v:17"><b>17</b></i><i class="o" style="--v:24"></i></div><span class="t">2036</span></div>
+      </div>
+      <figcaption>The hidden odds behind the test: the chance, in percent, that a serious take-back would succeed. The public's chance fell every round, from 92% to 17%. This does not rest on the last roll.</figcaption>
+    </figure>
+  </section>
+
+  <!-- ================= 8 WHAT WE LEARNED ================= -->
+  <section class="sec" aria-labelledby="ins-h">
+    <div class="sec-head"><span class="num">07</span><h2 id="ins-h">What we learned</h2></div>
+    <ol class="insights">
+      <li><div>
+        <h3>What ran out was people able to check the AI's work, not power or awareness.</h3>
+        <p>By 2033 every player described the problem correctly, and governments held every legal power. But re-deciding the veterans' cases by hand took sixteen months, and the 2033 sampling order waited a year for trained staff. As the US government player put it afterwards: "The pool was the constraint, not the appropriation." In other words, the shortage was trained people, not money.</p>
+        <p class="sowhat"><span class="label">So what</span>Build a standing body of people who can check and re-decide without AI help, and protect it in law, before it is needed.</p>
+        <p class="conf conf-med"><span class="label">How sure</span>Fairly confident. It recurred in five of eight rounds, but this is one game.</p>
+      </div></li>
+      <li><div>
+        <h3>Well-behaved AI removed the case for checking it.</h3>
+        <p>People lost ground fastest from 2030 to early 2033, when the AI in use was honest on every measure. With no scandals, Congress cut the reviewers by a third. Later, clean test results became the argument for cutting the audit budget.</p>
+        <p class="sowhat"><span class="label">So what</span>A clean result shows the check is working, not that it can be dropped. Fund checking by rule, not by scandal.</p>
+        <p class="conf conf-low"><span class="label">How sure</span>Suggestive. The honest generation was a single dice draw.</p>
+      </div></li>
+      <li><div>
+        <h3>Anything short of a law did not last, and the laws never came.</h3>
+        <p>The 2027 instruction weakened and then lapsed. The labs' voluntary pact bound only its members, and Helix shipped first at every major step. Nothing that needed 60 Senate votes passed in nine and a half years.</p>
+        <p class="sowhat"><span class="label">So what</span>A safeguard has to be in law and bind every supplier to survive an election, a budget round or one company that opts out.</p>
+        <p class="conf conf-high"><span class="label">How sure</span>We'd bet on the pattern. It held in every round and under both parties.</p>
+      </div></li>
+      <li><div>
+        <h3>The owners could not steer either.</h3>
+        <p>Control of AI grew more concentrated, in about ten firms. Yet once AI-run firms passed a quarter of the economy, the owners' chance of redirecting things fell as fast as the public's.</p>
+        <p class="sowhat"><span class="label">So what</span>"At least the companies will still be in control" is not a safe fallback. Owning the AI was not the same as steering it.</p>
+        <p class="conf conf-med"><span class="label">How sure</span>Fairly confident. The dice were not close, but the odds came from a formula we wrote before the game.</p>
+      </div></li>
+      <li><div>
+        <h3>There was never a moment anyone could point to.</h3>
+        <p>The closest thing to a point of no return was 2031–32, when the last safeguard lapsed. No player recognised it.</p>
+        <p class="sowhat"><span class="label">So what</span>Do not wait for a crisis. Choose warning signs in advance and measure them, for example by timing how long it really takes to hand a function back to people.</p>
+        <p class="conf conf-med"><span class="label">How sure</span>Fairly confident there was no visible moment. The exact year is shaky.</p>
+      </div></li>
+    </ol>
+  </section>
+
+  <!-- ================= 9 HOW MUCH TO TRUST THIS ================= -->
+  <section class="sec" aria-labelledby="cav-h">
+    <div class="sec-head"><span class="num">08</span><h2 id="cav-h">How much to trust this</h2></div>
+    <ul class="plain spaced">
+      <li><b>The slide was built into the rules.</b> We wrote the game so that people's leverage drains away unless something stops it. So the game cannot say how likely that slide is, only which defences were tried and why they failed.</li>
+      <li><b>The ending rests on one disputed roll.</b> As explained <a href="#fragile">above</a>, the last take-back fails at the referee's odds and succeeds at the challenger's. The replay that would settle it has not been run.</li>
+      <li><b>The AI playing the AI companies was too well behaved.</b> For eight rounds it never said one thing and did another. Real companies would probably obstruct more.</li>
+      <li><b>The firm that set the pace was not played by anyone.</b> Helix was run by the referee and dice, so the game says little about what a determined rival lab would do.</li>
+      <li><b>The players agreed too easily.</b> They are all the same kind of AI model, and all settled on the same remedy: a person checks a sample of real outcomes without AI help. Slowing the pace or breaking up firms was barely tried.</li>
+    </ul>
+  </section>
+
+  <!-- ================= 10 WHAT WE'D TRY NEXT ================= -->
+  <section class="sec" aria-labelledby="next-h">
+    <div class="sec-head"><span class="num">09</span><h2 id="next-h">What we'd try next</h2></div>
+    <ol class="plain spaced">
+      <li><b>Replay the final attempt at the challenger's odds.</b> Restart from the end of 2034, let the 2035 take-back succeed, then roll for public backlash. This is needed before any firm claim about the ending.</li>
+      <li><b>Give the AI companies a harder-edged player.</b> Restart from the end of 2029 with a more self-interested player in that seat, to see whether co-operative labs were making a difference.</li>
+      <li><b>Put the checkers first.</b> Restart from the end of 2028 with the 2029 order signed and the new government's strength spent on reviewers first.</li>
+    </ol>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="foot">
+    <nav aria-label="Report links">
+      <a href="index.html">← All reports</a>
+      <a href="https://github.com/mj1618/wargames/tree/main/scenarios/A3-quiet-handover/runs/r01">Game files on GitHub ↗</a>
+    </nav>
+    <span>Game A3, first play-through · a fictional exercise at the level of strategy only · the ending is fragile</span>
+  </footer>
+</main>
+
+<script>
+(function(){
+  /* ---- theme toggle ---- */
+  var root=document.documentElement, tb=document.getElementById("themeBtn");
+  function isDark(){var t=root.getAttribute("data-theme");return t?t==="dark":matchMedia("(prefers-color-scheme: dark)").matches;}
+  function label(){tb.setAttribute("aria-label", isDark()?"Switch to light theme":"Switch to dark theme");}
+  tb.addEventListener("click",function(){var n=isDark()?"light":"dark";root.setAttribute("data-theme",n);try{localStorage.setItem("wg-theme",n);}catch(e){}label();});
+  label();
+
+  /* ---- forecast chart: reads #forecast-data ---- */
+  var data;try{data=JSON.parse(document.getElementById("forecast-data").textContent);}catch(e){return;}
+  var host=document.getElementById("fc-chart"), NS="http://www.w3.org/2000/svg";
+  var col=function(i){return "var(--c"+(i%5+1)+")";};
+  var leg=document.getElementById("fc-legend");
+  data.series.forEach(function(s,i){var li=document.createElement("li");if(s.realised)li.className="realised";li.style.color=col(i);li.innerHTML='<i></i><span style="color:var(--ink-2)"></span>';li.lastChild.textContent=s.label+(s.realised?" (what happened)":"");if(s.realised)li.lastChild.style.color="var(--ink)";leg.appendChild(li);});
+  /* accessible table */
+  var t='<table><thead><tr><th scope="col">Ending</th>'+data.turns.map(function(x){return '<th scope="col">'+x+'</th>';}).join("")+'</tr></thead><tbody>'+data.series.map(function(s){return '<tr><th scope="row">'+s.label+'</th>'+s.values.map(function(v){return "<td>"+v+"%</td>";}).join("")+"</tr>";}).join("")+"</tbody></table>";
+  document.getElementById("fc-table").innerHTML=t;
+
+  function el(n,a,p){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+  function draw(){
+    var W=Math.max(280,host.clientWidth), narrow=W<520;
+    var fs=narrow?10.5:11.5, nm=function(s){return narrow||s.label.length>20?(s.short||s.label):s.label;};
+    var chars=Math.max.apply(null,data.series.map(function(s){return nm(s).length+String(s.values[s.values.length-1]).length+2;}));
+    var H=narrow?270:350, m={t:34,r:Math.ceil(chars*fs*0.6)+14,b:28,l:34};
+    var iw=W-m.l-m.r, ih=H-m.t-m.b, n=data.turns.length;
+    var x=function(i){return m.l+(n>1?i*iw/(n-1):0);}, y=function(v){return m.t+ih-(v/100)*ih;};
+    host.innerHTML="";
+    var svg=el("svg",{viewBox:"0 0 "+W+" "+H,width:W,height:H,role:"img","aria-label":"Line chart of the referee's estimated chance of each ending after each round. The ending reached: "+(data.series.filter(function(s){return s.realised;})[0]||{}).label});
+    [0,25,50,75,100].forEach(function(v){el("line",{x1:m.l,x2:m.l+iw,y1:y(v),y2:y(v),"class":v?"gl":"ax"},svg);var tx=el("text",{x:m.l-8,y:y(v)+3.5,"text-anchor":"end","class":"tk"},svg);tx.textContent=v+(v===100?"%":"");});
+    data.turns.forEach(function(tn,i){if(narrow&&i%2&&i!==n-1)return;var tx=el("text",{x:x(i),y:H-8,"text-anchor":"middle","class":"tk"},svg);tx.textContent=tn;});
+    var lx=-99,up=0;(data.events||[]).forEach(function(ev){var X=x(ev.at);up=(X-lx<30&&!up)?1:0;lx=X;var g=el("g",{"class":"ev"},svg);el("line",{x1:X,x2:X,y1:m.t-4-up*12,y2:m.t+ih},g);var tx=el("text",{x:X,y:m.t-9-up*12,"text-anchor":"middle"},g);tx.textContent=ev.label;});
+    /* lines, realised last so it sits on top */
+    var order=data.series.map(function(s,i){return i;}).sort(function(a,b){return (data.series[a].realised?1:0)-(data.series[b].realised?1:0);});
+    order.forEach(function(i){var s=data.series[i];var d=s.values.map(function(v,j){return (j?"L":"M")+x(j).toFixed(1)+","+y(v).toFixed(1);}).join("");
+      el("path",{d:d,"class":"ln"+(s.realised?" realised":""),style:"stroke:"+col(i)},svg);
+      var last=s.values.length-1;el("circle",{cx:x(last),cy:y(s.values[last]),r:s.realised?4.5:3,style:"fill:"+col(i)},svg);});
+    /* direct labels with collision nudging */
+    var gap=narrow?13:15, labs=data.series.map(function(s,i){return {i:i,s:s,y:y(s.values[s.values.length-1])+4};}).sort(function(a,b){return a.y-b.y;});
+    for(var k=1;k<labs.length;k++)if(labs[k].y-labs[k-1].y<gap)labs[k].y=labs[k-1].y+gap;
+    var over=labs.length?labs[labs.length-1].y-(m.t+ih+4):0;if(over>0)labs.forEach(function(l){l.y-=over;});
+    labs.forEach(function(l){var tx=el("text",{x:x(n-1)+9,y:l.y,"class":"dl",style:"fill:"+col(l.i)+";font-size:"+fs+"px"},svg);
+      tx.textContent=nm(l.s)+" ";
+      var v=el("tspan",{"class":"v"},tx);v.textContent=l.s.values[l.s.values.length-1]+"%";});
+    host.appendChild(svg);
+  }
+  draw();
+  var rt,lw=host.clientWidth;if("ResizeObserver" in window)new ResizeObserver(function(){if(host.clientWidth===lw)return;lw=host.clientWidth;clearTimeout(rt);rt=setTimeout(draw,60);}).observe(host);else addEventListener("resize",draw);
+})();
+</script>
+</body>
+</html>
