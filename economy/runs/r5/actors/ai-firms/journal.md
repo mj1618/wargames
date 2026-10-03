@@ -14,3 +14,6 @@ Belief: the share-price fall makes capital the binding constraint; one-sixth uti
 
 ## Round 05 (2031–32)
 Belief: the recession, not AI, now carries the political risk; capital is binding and one-sixth utilisation means lock-in and volume beat margin. Pre-emption to 2032 for $1bn/yr is cheap cover. Committed: steady pace, capex flat, robotics pivot into factory-built housing, two-year enterprise terms at −15% for 40% committed volume, $1bn released, fund doubled, $2bn escrow held for 2034 pre-emption plus consent decree, $300m political spend. Watching: rival pacing, antitrust remedies, November 2032 result, modular-home orders.
+
+## Round 06 (2033–34)
+Belief: the recovery buries displacement but a worker-first Congress plus the bond scare means a levy is coming regardless; the only thing worth buying is one national rule in place of fifty state licences. Committed: 4-point levy on all AI sold in the US, antitrust decree with open access and SMB tier, $2bn on enactment, fund $1bn/yr, for pre-emption to 2036; three-year enterprise terms; capex +10%; $400m political spend. Watching: whether Congress attaches caps, state bills, Vanta breaking ranks.

@@ -19,3 +19,7 @@ Learned: supervision and human oversight are defensible against commoditization�
 ## Turn 05 (January–December 2032)
 
 Bond-market scare is warning but not crisis. Doubling down on people-heavy services—supervision, care, trades—where customers proved willing to pay and labour peace supports narrative. Housing continues in zoning-friendly states but not overextending. Four-year AI contracts lock inputs. Political winds favorable (worker-first Congress, liability, labour organizing). Watching: bond spreads, Fed signals, licensing-review outcomes, whether wage-growth slowdown cracks customer willingness to pay, state zoning momentum.
+
+## Turn 06 (January 2033–December 2034)
+
+The model holds: 1.5m new workers, demand durable through wage growth. Committing 0.3m hires (care, supervision, trades), $50B housing, four-year AI contract rollovers, and public Housing Build Act backing to unlock licensing wins. Political alignment strong; 7-point levy stable. Watching: licensing velocity, state zoning momentum, model pricing, whether wage slowdown finally cracks customer demand for human services.

@@ -40,3 +40,6 @@
 - 2026-10-03T16:19:26 | r1 t05 Bill 1 work-sharing subsidy 0.15% GDP + small-firm credit (divided small 0.55 +0.05 union_pressure 0.65) | p=0.60 partial=0.15 r=0.8329 -> FAIL
 - 2026-10-03T16:19:26 | r1 t05 Bill 2 2-point AI-profit transition levy, trigger to 4.5% (divided medium 0.35 -0.15 against coalition +0.05 union_pressure) | p=0.25 partial=0.15 r=0.5225 -> FAIL
 - 2026-10-03T16:19:26 | r1 t05 published-statistics noise | DRAW 5 of 5
+- 2026-10-03T16:19:36 | r1 t05 Nov 2032 election: growth-first coalition loses its lead (0.35 -0.09 unrest 26.1, -0.10 median income 117.7 more than 3 above 2029's 109.3) | p=0.16 r=0.9287 -> FAIL
+- 2026-10-03T16:19:36 | r1 t05 Nov 2032 election: configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 1 of 3
+- 2026-10-03T16:19:36 | r1 t06 event | DRAW 15 of 24

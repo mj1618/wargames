@@ -14,3 +14,6 @@ Belief: the levy and the dead safe harbour mean political insurance bought littl
 
 ## 2031-32 (turn 05)
 Belief: software automation still pays despite levy; divided Congress and bond scare raise levy-hike and rule risk, clauses now bind most large sites. Committed to: company-wide drive (not mass restructuring), layoff_share ~45%, hours_share toward 30%, profit-sharing ~15% of gains, joint entry-level hiring pledge with Households, one-year AI terms plus audit-based safe-harbour letter, levy-rate freeze ask. Will watch: levy-rate moves, rival pricing and margins, boycotts, bond yields, unemployment.
+
+## 2033-34 (turn 06)
+Belief: the 7-point levy is the main threat to earnings; certified robots and stacks are the next margin lever; the Households truce is cheap insurance. Committed to: company-wide drive, certified robots scaled in logistics and warehousing only, layoff_share ~45%, hours_share 30%, entry-level intake held, profit-sharing ~15%, levy-freeze-with-retention-credit ask, co-sign certified stacks by June. Will watch: levy-rate moves, rival robot-enabled pricing, truce breaks, bond yields, unemployment above 4.5%.

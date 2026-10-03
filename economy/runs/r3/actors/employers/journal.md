@@ -15,3 +15,6 @@ Believe: demand and hiring recovered, labour is scarce and pay rising; peace hel
 
 ## Round 05 (2031-32)
 Believe: tight labour, rising pay, healthy profits; levy starts 2031, Congress divided so terms negotiable; energy crunch caps AI capacity. Committed: automation +10% via attrition, layoff_share ~25%, package with households by May with published data and bounded no-strike clause, hours_share ~35%, pool ~1.5%, 0.4m cohort, ask for levy review clause. Watching: unemployment, wage squeeze, rival price cuts, levy/deployment bills, energy delays.
+
+## Round 06 (2033-34)
+Believe: tight labour, healthy profits after the levy, government stable with wider margins; consolidation among AI providers is a supplier risk. Committed: accept household floor (about 25% of leavers replaced by entry-level hires) with early data publication, attrition +10%, layoff_share ~25%, package unchanged plus apprenticeship slots, multi-year compute contracts with non-merged labs. Watching: unemployment, sales, rival price cuts, merger terms, wage squeeze.

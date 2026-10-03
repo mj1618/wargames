@@ -96,3 +96,15 @@ Official statistics arrive late and with noise. Company and household players se
 ## 2031–32 — opening headline
 
 **Data revision.** The statistics office revises past job numbers: end-2030 unemployment was 4.7%, not 4.3%.
+
+## 2031–32 — what happened
+
+**Official statistics (end 2032).** Unemployment 3.6%; participation 60.3%; 163.8m jobs (up 4.9m over two years); GDP up 6.2% a year; housing costs down about 4%, goods and professional services cheaper; median real income about 113.2; labour share 46.0%, another record low; deficit 5.7%, debt about 102%. Announced layoffs: about 3.9m over two years. For 2030: poverty 12.2%, homelessness 16.7 per 10,000.
+
+**Washington.** The American Transition Dividend Act failed; the 2.5% AI levy expired at the end of 2032. The Build and Hire Act passed (full new-firms credit and loan guarantees). In November growth-first kept the presidency and its lead; Congress remains divided.
+
+**Elsewhere.** The labs held pace, then sped up, and cut old-generation prices. Employers automated more slowly, mostly by attrition and shorter weeks, and raised profit-sharing. Unions won contracts in care and trades. Founders slowed hiring and piloted household-owned co-ops.
+
+## 2033–34 — opening headline
+
+**Housing squeeze.** AI wealth concentrates in a few metros and bids up land; insurers pull out of others.

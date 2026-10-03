@@ -20,3 +20,7 @@ The unbundled API and the hit new industry are the inflection point. I hired 700
 
 Energy crunch is the new risk to compute access. New industry still hiring at scale; I hired 1.4m last year, real wages rose 4%—below my red line but recruits scarce. Committing to aggressive expansion: 1.3m hires in 2031–32, 75% unbundled APIs, secondary-metro housing deals with community governance and wage floors to unlock zoning and licensing reform. Trading margin for scale and political leverage. Backing labs' compute charter in antitrust. Watching: energy constraints, wage growth (10% threshold), state licensing movement. If energy access tightens, pivot hard to AI-only.
 
+## Turn 06 (Jan–Dec 2033)
+
+Consolidation is the inflection. Real wages held at 3% a year (below my red line); we hired 2.4m over two years. The big API providers are merging or exclusively pacting, and prices are up 15% while compute is scarce—this squeezes unbundled-API margins hard. Committing to 60% volume commit on the unbundled tier (lock in supply) but hedging 40% into diversified providers and people-heavy services. Doubling down on secondary-metro housing to scale people-heavy hiring and unlock licensing. Signalling antitrust pressure without formal lockdown—betting the re-elected government blocks the merger or enforces supply diversity. If merger proceeds and prices spike another 15%+, I consolidate hard. Watching: FTC merger decision, state licensing movement, wage pressure (5% is my new threshold).
+

@@ -84,3 +84,11 @@ Official figures, end 2030 (provisional): unemployment 3.8%; participation 61.2%
 The investment surge ended and hiring stalled; last year's fashionable new jobs were themselves automated. The labs slowed their release pace, published an unbundled small-firm tier and kept existing five-year contracts. Large employers kept shrinking by attrition, shortened weeks and raised profit-sharing. Half of new start-ups were AI-only. Organising drives won again.
 
 Congress passed a first-job and wage-insurance bill (from 2031) and redirected unclaimed housing funds to places that permit building. In November the growth-first coalition kept Congress with narrower margins.
+
+## 2031–32
+
+Official figures, end 2032 (provisional): unemployment 3.2%; participation 62.2%; 169.7m jobs, up 5.0m over two years; GDP growth 5.2% a year; housing costs down about 5%, AI and professional services down about 3%; median household income index about 119; labour share 49.9%; deficit 5.3% of GDP, debt 102%. Announced layoffs about 2.8m over two years, AI again the most-cited reason. Now published for 2030: poverty 11.0%, homelessness 16.7 per 10,000.
+
+Free open-weight models collapsed AI prices. The labs raced, ended exclusive contracts and made their basic tier free. Large employers automated faster by attrition and re-signed a no-mass-layoff pledge. Most new start-ups were AI-only, yet new firms hired heavily. The organising drive and a boycott fizzled.
+
+Congress rejected a work-sharing subsidy and a 2-point levy on AI profits. The bundling inquiry closed by consent decree. In November 2032 the growth-first coalition kept the presidency and widened its majorities.

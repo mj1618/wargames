@@ -14,3 +14,6 @@ Believe: boom is real (3.4%, +4.9m jobs) and no crisis will pass a big bill; the
 
 ## Round 05 (2031–32)
 Believe: boom holds (3.1%, poverty 11.2%); power bills are the only visible threat before November 2032. Committed: Grid and Household Power Act (permitting, data centres pay grid costs, 2032 rebate, ~0.1% GDP); deliver 2030 Act, levy stays 5, no new tax; antitrust consent decree making labs' charter binding, half-credit only for $5bn. Watch: grid vote, power prices, labs' payment, AI layoffs past 1m, unemployment past 4.5%, 2032 result.
+
+## Round 06 (2033–34)
+Believe: boom holds (3.1%, poverty 10.2%); consolidation is the only visible threat; wider margins are a window. Committed: Compute Open Access Act (statutory open access and unbundling, no break-up, moratoria pre-emption); Workplace Bargaining and First Job Act (bargaining reform, first-job funded in full from levy); levy stays 5 with 2035 review, no deployment rules. Watch: both votes, post-merger prices, AI layoffs past 1m a year, unemployment past 4.5%, 2034 midterms.

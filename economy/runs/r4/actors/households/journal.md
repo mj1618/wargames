@@ -14,3 +14,6 @@ Believe: pay and rents are good, but labour share is still falling and the gradu
 
 ## Turn 05 (2031-32)
 Believe: pay and rents are good and the clauses worked, but labour share is still a record low and the bond scare threatens the Transition Act. Committed to: a fifth organising wave aimed at mid-size employers and care, retail and logistics (no strikes), conditional acceptance of Employers' no-boycott deal, saving flat, a vote for youth hiring and attrition notice if the industry fund adds to wage insurance. Watching: layoffs near us, Transition levy and wage insurance cuts, whether Employers keep entry-level intake.
+
+## Turn 06 (2033-34)
+Believe: pay, rents and the dividend are good, but labour share is still a record low and entry-level jobs are scarce. Committed to: a sixth, retargeted organising wave (attrition savings to entry-level hiring, no strikes), accepting Employers' pledge with published intake and no boycott/no-rules terms, an apprenticeship and mobility pilot with Entrepreneurs, saving flat. Watching: layoffs near us, wage insurance and dividend cuts, whether Employers actually raise graduate intake.

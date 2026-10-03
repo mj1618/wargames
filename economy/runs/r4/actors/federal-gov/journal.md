@@ -14,3 +14,6 @@ Believe: midterm year with good aggregates (4.1%, pay +3.1%, GDP +3.3%); harm is
 
 ## t05 (2031–32)
 Believe: voters content (4.2%, pay +3.2%, income 108.7); live threat is the bond scare at 5.7% deficit and a shrinking wage tax base (labour share 50.7%). Industry deal dead, freeze void. Committed: levy 3→7 points from 2032, half to deficit, half to 0.3% GDP targeted dividend; funded housing with zoning conditions (0.15% GDP); graduates-first apprenticeships, fast wage insurance, licensing review. Watch: bond yields, whether bills pass, donor retaliation, unemployment 5.5%, 2032 polls.
+
+## t06 (2033–34)
+Believe: voters content (4.1%, pay +3.2%, income 113.3), firmer majority; erosion is labour share 49.4% and office jobs −1.8m. Committed: Transition Act II (0.5% GDP wage insurance, youth credit, attrition notice); levy frozen at 7 points through 2034 plus audited safe harbour for $12bn/yr fund and pledge, refused the $400m; dividend to ~0.4% GDP from levy growth. Watch: unemployment 5.5%, wage-tax receipts, yields, industry payment, 2034 midterm.

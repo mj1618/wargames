@@ -14,3 +14,6 @@ Believe: the boom and the hit industry are our best cover; the real risks are an
 
 ## Round 05 (2031–32)
 Believe: power, not demand or chips, is now the binding constraint; the levy deal is secured and worth honouring; antitrust is the live threat, settle it cheaply. Committed: race +15%, capex +20% all into owned power (~$60bn); premium holds, unbundled +15% with Q1 ship and API-stability guarantee; $1.6bn politics; full $5bn fund paid; charter-plus-unbundling consent decree offered. Watch: grid pre-emption, blackout blame, antitrust response, rival on cheaper power.
+
+## Round 06 (2033–34)
+Believe: the boom is our cover; the merger is the live risk because it reopens the decree and the levy; power still binds. Committed: race +15%, capex +15% into generation; premium holds, unbundled frozen three years; pact pre-cleared under the decree with charter extended; $1.8bn politics; $5bn/yr fund through 2035 for a levy lock at 5 and no licensing. Watch: agency reaction to the pact, levy text, rival price breaks, state licensing bills.
