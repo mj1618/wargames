@@ -1,0 +1,15 @@
+{
+ "seed": 650397,
+ "noise": 1.0,
+ "cog_auto_2032": 0.5876,
+ "robot_lag_years": 2.7302,
+ "jevons": 1.2463,
+ "new_task_rate": 0.6501,
+ "diffusion_t50": 3.7296,
+ "passthrough": 0.6362,
+ "wage_share": -0.0335,
+ "housing_supply": 0.7514,
+ "demand_mult": 1.2662,
+ "policy_lag_years": 1.2443,
+ "policy_scale_pct": 5.1286
+}

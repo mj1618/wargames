@@ -1,0 +1,15 @@
+- 2026-10-03T15:47:31 | r4 setup S1 coalition | p=0.50 r=0.3132 -> SUCCESS
+- 2026-10-03T15:47:31 | r4 setup S2 fed | DRAW 2 of 3
+- 2026-10-03T15:47:32 | r4 setup S3 states | DRAW 2 of 3
+- 2026-10-03T15:47:32 | r4 t01 event | DRAW 12 of 24
+- 2026-10-03T15:47:32 | r4 t01 hint-noise ai-firms | p=0.25 r=0.8901 -> FAIL
+- 2026-10-03T15:47:32 | r4 t01 hint-noise employers | p=0.25 r=0.0194 -> SUCCESS
+- 2026-10-03T15:47:32 | r4 t01 hint-noise entrepreneurs | p=0.25 r=0.7104 -> FAIL
+- 2026-10-03T15:47:32 | r4 t01 hint-noise federal-gov | p=0.25 r=0.1993 -> SUCCESS
+- 2026-10-03T15:47:32 | r4 t01 hint-noise households | p=0.25 r=0.5767 -> FAIL
+- 2026-10-03T15:51:28 | r4 t01 law: liability safe harbour (small 0.30, +0.10 coalition instincts) | p=0.40 partial=0.15 r=0.8880 -> FAIL
+- 2026-10-03T15:51:28 | r4 t01 law: wage-insurance/retraining pilot 0.1% GDP (small 0.30) | p=0.30 partial=0.15 r=0.4052 -> PARTIAL
+- 2026-10-03T15:51:28 | r4 t01 court blocks executive AI-layoff disclosure rule | p=0.35 r=0.9136 -> FAIL
+- 2026-10-03T15:51:28 | r4 t01 households organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.3219 -> SUCCESS
+- 2026-10-03T15:51:34 | r4 t01 statistics noise | DRAW 2 of 5
+- 2026-10-03T15:51:34 | r4 t02 event | DRAW 17 of 24

@@ -1,0 +1,15 @@
+- 2026-10-03T15:47:33 | r5 setup S1 coalition | p=0.50 r=0.2881 -> SUCCESS
+- 2026-10-03T15:47:33 | r5 setup S2 fed | DRAW 1 of 3
+- 2026-10-03T15:47:33 | r5 setup S3 states | DRAW 2 of 3
+- 2026-10-03T15:47:33 | r5 t01 event | DRAW 3 of 24
+- 2026-10-03T15:47:33 | r5 setup hint-noise 1 (ai-firms,employers,entrepreneurs,federal-gov,households order) | p=0.25 r=0.8197 -> FAIL
+- 2026-10-03T15:47:33 | r5 setup hint-noise 2 (ai-firms,employers,entrepreneurs,federal-gov,households order) | p=0.25 r=0.8173 -> FAIL
+- 2026-10-03T15:47:33 | r5 setup hint-noise 3 (ai-firms,employers,entrepreneurs,federal-gov,households order) | p=0.25 r=0.1248 -> SUCCESS
+- 2026-10-03T15:47:33 | r5 setup hint-noise 4 (ai-firms,employers,entrepreneurs,federal-gov,households order) | p=0.25 r=0.3661 -> FAIL
+- 2026-10-03T15:47:33 | r5 setup hint-noise 5 (ai-firms,employers,entrepreneurs,federal-gov,households order) | p=0.25 r=0.6961 -> FAIL
+- 2026-10-03T15:51:08 | r5 t01 Workforce Transition Act passes (small, divided) | p=0.55 partial=0.15 r=0.8197 -> FAIL
+- 2026-10-03T15:51:08 | r5 t01 housing incentives bill passes (small, divided, +0.10 fits coalition) | p=0.65 partial=0.15 r=0.7174 -> PARTIAL
+- 2026-10-03T15:51:08 | r5 t01 court blocks disclosure executive rule | p=0.35 r=0.3482 -> SUCCESS
+- 2026-10-03T15:51:08 | r5 t01 household organising drive succeeds (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.1762 -> SUCCESS
+- 2026-10-03T15:51:08 | r5 t01 statistics noise | DRAW 2 of 5
+- 2026-10-03T15:51:21 | r5 t02 event | DRAW 20 of 24

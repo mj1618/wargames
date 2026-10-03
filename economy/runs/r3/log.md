@@ -1,0 +1,15 @@
+- 2026-10-03T15:47:30 | r3 setup S1 coalition | p=0.50 r=0.1138 -> SUCCESS
+- 2026-10-03T15:47:30 | r3 setup S2 fed | DRAW 2 of 3
+- 2026-10-03T15:47:30 | r3 setup S3 states | DRAW 1 of 3
+- 2026-10-03T15:47:30 | r3 t01 event | DRAW 15 of 24
+- 2026-10-03T15:47:30 | r3 setup hint-noise ai-firms | p=0.25 r=0.4024 -> FAIL
+- 2026-10-03T15:47:30 | r3 setup hint-noise employers | p=0.25 r=0.0292 -> SUCCESS
+- 2026-10-03T15:47:31 | r3 setup hint-noise entrepreneurs | p=0.25 r=0.2399 -> SUCCESS
+- 2026-10-03T15:47:31 | r3 setup hint-noise federal-gov | p=0.25 r=0.0629 -> SUCCESS
+- 2026-10-03T15:47:31 | r3 setup hint-noise households | p=0.25 r=0.6318 -> FAIL
+- 2026-10-03T15:50:27 | r3 t01 housing bill (small, responsive 0.80, no adjustment) | p=0.80 partial=0.15 r=0.3249 -> SUCCESS
+- 2026-10-03T15:50:27 | r3 t01 small-business credit + work-sharing bill (small 0.80, fits instincts +0.10) | p=0.90 partial=0.15 r=0.5202 -> SUCCESS
+- 2026-10-03T15:50:27 | r3 t01 court blocks executive disclosure rule | p=0.35 r=0.1179 -> SUCCESS
+- 2026-10-03T15:50:27 | r3 t01 household organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.7816 -> FAIL
+- 2026-10-03T15:50:27 | r3 t01 statistics noise | DRAW 3 of 5
+- 2026-10-03T15:50:38 | r3 t02 event | DRAW 5 of 24

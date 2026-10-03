@@ -1,0 +1,9 @@
+- 2026-10-03T15:47:32 | r2 setup S1 coalition | p=0.50 r=0.2844 -> SUCCESS
+- 2026-10-03T15:47:32 | r2 setup S2 fed | DRAW 3 of 3
+- 2026-10-03T15:47:32 | r2 setup S3 states | DRAW 3 of 3
+- 2026-10-03T15:47:32 | r2 t01 event | DRAW 9 of 24
+- 2026-10-03T15:47:32 | r2 t01 hint noise ai-firms | p=0.25 r=0.4286 -> FAIL
+- 2026-10-03T15:47:32 | r2 t01 hint noise employers | p=0.25 r=0.3394 -> FAIL
+- 2026-10-03T15:47:32 | r2 t01 hint noise entrepreneurs | p=0.25 r=0.7735 -> FAIL
+- 2026-10-03T15:47:32 | r2 t01 hint noise federal-gov | p=0.25 r=0.8125 -> FAIL
+- 2026-10-03T15:47:32 | r2 t01 hint noise households | p=0.25 r=0.8613 -> FAIL
