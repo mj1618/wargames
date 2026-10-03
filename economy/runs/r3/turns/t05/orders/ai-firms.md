@@ -5,16 +5,16 @@ Demand is not our problem: unemployment 3.1%, GDP +3.6%, jobs +2.6m, and the new
 
 ## Options considered
 - Full race regardless of grid: fastest, but we become the villain of every blackout.
-- Voluntary slow-down to defuse power backlash: cheap goodwill, but a rival takes the frontier.
+- Voluntary slow-down: cheap goodwill, but a rival takes the frontier.
 - Unconventional: become the grid's anchor customer — finance generation ourselves, sell surplus to utilities, turn the crunch into a moat only we can afford.
 
 ## Decisions this period
-1. **Race +15%, capex +20%, all incremental capex into power** — about $60bn over two years in owned generation, storage and grid upgrades, sited outside moratorium metros. Rivals are grid-constrained; owning power is the cheapest frontier lead and the only pace that survives the headline.
-2. **Premium holds; unbundled tier at +15%, Q1 availability, contractual 99.9% API stability for early partners.** Compute is scarce, so scarcity pricing; the entrepreneurs' volume commitment underwrites the tier and keeps the antitrust narrative honest.
-3. **Politics $1.6bn; pay the full $5bn fund; offer a consent decree: compute-access charter plus mandated unbundling.** Paying the held-back $2bn delivers our side of the bargain. Settling now beats a court-ordered remedy later. We publicly back federal pre-emption of local data-centre moratoria tied to grid investment.
+1. **Race +15%, capex +20%, all incremental capex into power** — about $60bn over two years in owned generation, storage and grid upgrades outside moratorium metros. Rivals are grid-constrained; owning power is the cheapest frontier lead and the only pace that survives the headline.
+2. **Premium holds; unbundled tier at +15%, Q1 availability, contractual 99.9% API stability for early partners.** Scarcity pricing while compute is short; the entrepreneurs' volume underwrites the tier and helps the antitrust narrative.
+3. **Politics $1.6bn; pay the full $5bn fund; offer a consent decree: compute-access charter plus mandated unbundling.** The held-back $2bn delivers our side of the bargain; settling now beats a court-ordered remedy later. We back federal pre-emption of local data-centre moratoria tied to grid investment.
 
 ## Public statement
-"We will fund the power we use — $60bn in new generation and storage over two years — and have paid the full $5bn into the transition fund. Let us build, and the lights stay on."
+"We will fund the power we use — $60bn in new generation and storage over two years — and have paid the full $5bn transition fund. Let us build, and the lights stay on."
 
 ## Messages
 - **To federal government:** Full $5bn paid, votes delivered. We need federal pre-emption of local data-centre moratoria tied to our $60bn grid investment; we'll accept a consent decree on compute access and unbundling to close antitrust.

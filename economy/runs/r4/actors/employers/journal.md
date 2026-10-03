@@ -11,3 +11,6 @@ Belief: week-long-project models make faster adoption the best earnings lever; a
 
 ## 2030 (turn 04)
 Belief: the levy and the dead safe harbour mean political insurance bought little; software automation still pays and the audit standard cuts liability risk, while the robot recall stalls the physical line. Committed to: company-wide software drive, robots limited to pilots, layoff_share near 45%, hours_share toward 25%, entry-level floor held, co-sign AI pledge, apprenticeship-credit-for-levy ask with a ~$10bn/yr fund. Will watch: unemployment above 4.8%, levy-rate moves, rival pricing, strike and boycott activity.
+
+## 2031-32 (turn 05)
+Belief: software automation still pays despite levy; divided Congress and bond scare raise levy-hike and rule risk, clauses now bind most large sites. Committed to: company-wide drive (not mass restructuring), layoff_share ~45%, hours_share toward 30%, profit-sharing ~15% of gains, joint entry-level hiring pledge with Households, one-year AI terms plus audit-based safe-harbour letter, levy-rate freeze ask. Will watch: levy-rate moves, rival pricing and margins, boycotts, bond yields, unemployment.

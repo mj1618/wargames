@@ -15,3 +15,7 @@ The free-model era is ending. Labs are keeping premiums and signing bundles; we 
 ## Turn 04 (January–December 2030)
 
 Learned: supervision and human oversight are defensible against commoditization—customers and unions will pay for it. Committed: rebalancing toward people-heavy services (0.3m new hires), housing acceleration ($60B), four-year AI contracts. Watching: whether states move zoning fast enough, licensing review results, Fed signaling, credit conditions. Political support for Transition Act buys us goodwill and levy resilience.
+
+## Turn 05 (January–December 2032)
+
+Bond-market scare is warning but not crisis. Doubling down on people-heavy services—supervision, care, trades—where customers proved willing to pay and labour peace supports narrative. Housing continues in zoning-friendly states but not overextending. Four-year AI contracts lock inputs. Political winds favorable (worker-first Congress, liability, labour organizing). Watching: bond spreads, Fed signals, licensing-review outcomes, whether wage-growth slowdown cracks customer willingness to pay, state zoning momentum.

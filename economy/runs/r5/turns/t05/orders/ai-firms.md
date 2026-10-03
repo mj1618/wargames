@@ -21,4 +21,4 @@ Unemployment 5.5%, GDP −0.6% and 1.9m layoffs mean the political risk now come
 - **To Employers:** "Two years at −15% for 40% committed volume growth, MFN within your cohort. Rates hold whatever the cases decide."
 
 ## What would change my mind
-A rival racing at +20% through the squeeze and taking enterprise share would force us back to racing.
+A rival racing at +20% through the squeeze and taking enterprise share.

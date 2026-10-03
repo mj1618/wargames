@@ -76,3 +76,11 @@ Official figures, end 2029 (provisional): unemployment 3.1%; participation 62.0%
 A surge of data-centre, grid and factory investment made it a boom year; employers reported staff shortages. The labs raced, signed five-year exclusive enterprise bundles and turned half their Worker Transition Fund to first jobs for the young. Large employers signed the no-mass-layoff pledge. Organising drives won again, now including build-out sites.
 
 Congress made federal pre-emption of state AI rules permanent, widened layoff disclosure to all firms over 1,000 staff, and fast-tracked permits. The government opened an antitrust inquiry into bundled AI contracts; a court let it proceed.
+
+## 2030
+
+Official figures, end 2030 (provisional): unemployment 3.8%; participation 61.2%; 164.7m jobs, down 2.2m; GDP growth 1.5%; housing costs down about 3%, other prices slightly lower; median household income index about 109; labour share 50.4%; deficit 6.0% of GDP, debt 105%. Announced layoffs about 2.3m, AI again the most-cited reason. Now published for 2029: poverty 10.9%, homelessness 16.9 per 10,000.
+
+The investment surge ended and hiring stalled; last year's fashionable new jobs were themselves automated. The labs slowed their release pace, published an unbundled small-firm tier and kept existing five-year contracts. Large employers kept shrinking by attrition, shortened weeks and raised profit-sharing. Half of new start-ups were AI-only. Organising drives won again.
+
+Congress passed a first-job and wage-insurance bill (from 2031) and redirected unclaimed housing funds to places that permit building. In November the growth-first coalition kept Congress with narrower margins.

@@ -11,3 +11,6 @@ Believe: pay and rents are fine, but labour share keeps falling and quiet attrit
 
 ## Turn 04 (2030)
 Believe: pay and rents are good, but labour share is still falling and the graduates are stuck. The robot recall helps us for now. Committed to: a fourth organising wave (attrition-savings-to-entry-level clauses, no strikes), saving flat, a November vote for the Transition Act levy plus youth hiring and a freeze-notice rule, and help enrolling in wage insurance and apprenticeships. No boycott yet. Watching: layoffs near us, graduate intake, whether Congress touches the levy, how the safety certification is enforced.
+
+## Turn 05 (2031-32)
+Believe: pay and rents are good and the clauses worked, but labour share is still a record low and the bond scare threatens the Transition Act. Committed to: a fifth organising wave aimed at mid-size employers and care, retail and logistics (no strikes), conditional acceptance of Employers' no-boycott deal, saving flat, a vote for youth hiring and attrition notice if the industry fund adds to wage insurance. Watching: layoffs near us, Transition levy and wage insurance cuts, whether Employers keep entry-level intake.

@@ -16,3 +16,7 @@ Factory-built housing and people-heavy services are delivering. Network firms ad
 
 We proved it—2.8m jobs, co-ops filling metros, housing expansion complete. Credit wobble and investor pullback hit hard, but co-ops are the hedge: founders survive what VC can't. Policy is now the bottleneck: Housing Supply Act and new-firms credit written but not flowing. We're hiring cautiously in care and trades, taking a margin play in AI-only, and pushing Congress to actually deploy the credit. Federal government wants "visible hiring and homes before November." They'll get it if the credit flows.
 
+## Turn 05 (2031–2032)
+
+Policy failed. Main Street Credit bill dead; new-firms credit stays at half-size with no guarantees. Added 1.9m jobs in 2030, down from 2.8m. Customer spending weakened, unemployment revised to 4.7%. We're right-sizing to 1m jobs/year—sustainable without federal credit. Co-ops keep growing but slower. AI-only stays margin-focused. Piloting household equity co-ops (workers and customers own, fund expansion) in three metros to bypass failed small-business credit. Housing still solid where government funds building. Next: does customer demand recover, or are we in secular slowdown?
+

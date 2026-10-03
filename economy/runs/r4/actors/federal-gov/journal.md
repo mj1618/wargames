@@ -11,3 +11,6 @@ Believe: now worker-first, split Congress; aggregates fine (4.4%, pay +2.3%) but
 
 ## t04 (2030)
 Believe: midterm year with good aggregates (4.1%, pay +3.1%, GDP +3.3%); harm is office jobs (−1m) and labour share 50.9%. Committed: safe harbour and no caps traded for $12bn→$20bn/yr fund and signed pledge, levy frozen at 3 points through 2032 only; paired youth hiring credit (0.15% GDP) and attrition notice rule; robot safety certification and zoning-tilted grants by executive action. Watch: pledge signature by June, unemployment 5.5%, wage-tax receipts, midterm result, court challenges.
+
+## t05 (2031–32)
+Believe: voters content (4.2%, pay +3.2%, income 108.7); live threat is the bond scare at 5.7% deficit and a shrinking wage tax base (labour share 50.7%). Industry deal dead, freeze void. Committed: levy 3→7 points from 2032, half to deficit, half to 0.3% GDP targeted dividend; funded housing with zoning conditions (0.15% GDP); graduates-first apprenticeships, fast wage insurance, licensing review. Watch: bond yields, whether bills pass, donor retaliation, unemployment 5.5%, 2032 polls.
