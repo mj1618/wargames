@@ -14,6 +14,8 @@ The reader has **never seen the scenario files**. They know roughly what AI is a
 8. **Honest and specific caveats** in plain language (e.g. "The AI playing the plotters refused to behave deceptively, so the plot was easier to stop than it would be in real life").
 9. Keep it tight: explanation replaces jargon, it doesn't pile on top. Aim for a 6–8 minute read per game.
 
+10. **Typography: sans-serif only, no italics.** Body and headings in a plain sans (Inter / system sans); never serif faces, never italic text (use weight for emphasis). Small monospace labels are fine.
+
 ## Required structure for a game report (replace the old one)
 
 1. **Title + one-sentence premise** in plain English, and the outcome in one plain sentence (keep the stamp, but its words must be self-explanatory).
