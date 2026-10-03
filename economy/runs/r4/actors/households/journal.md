@@ -17,3 +17,6 @@ Believe: pay and rents are good and the clauses worked, but labour share is stil
 
 ## Turn 06 (2033-34)
 Believe: pay, rents and the dividend are good, but labour share is still a record low and entry-level jobs are scarce. Committed to: a sixth, retargeted organising wave (attrition savings to entry-level hiring, no strikes), accepting Employers' pledge with published intake and no boycott/no-rules terms, an apprenticeship and mobility pilot with Entrepreneurs, saving flat. Watching: layoffs near us, wage insurance and dividend cuts, whether Employers actually raise graduate intake.
+
+## Turn 07 (2035-36)
+Believe: pay, rents, dividend and a 33-hour week are good and poverty is falling, but labour share is a record low and robots are now taking retail and logistics posts. Committed to: a seventh organising wave in retail and logistics (notice, redeployment, intake clauses, no strikes), accepting the Employers' truce if quarterly intake is published with an audit right, saving flat, a 2036 vote demand for the fund to add to wage insurance plus displacement notice. Watching: layoffs near us, employer intake figures, wage insurance and dividend cuts.

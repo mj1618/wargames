@@ -17,3 +17,6 @@ Believe: voters content (4.2%, pay +3.2%, income 108.7); live threat is the bond
 
 ## t06 (2033–34)
 Believe: voters content (4.1%, pay +3.2%, income 113.3), firmer majority; erosion is labour share 49.4% and office jobs −1.8m. Committed: Transition Act II (0.5% GDP wage insurance, youth credit, attrition notice); levy frozen at 7 points through 2034 plus audited safe harbour for $12bn/yr fund and pledge, refused the $400m; dividend to ~0.4% GDP from levy growth. Watch: unemployment 5.5%, wage-tax receipts, yields, industry payment, 2034 midterm.
+
+## t07 (2035–36)
+Believe: voters content (4.4%, pay +3.8%, income 120.7) but layoffs 3.0m, labour share 47.7%, deficit 5.2%, Transition Act II unfunded. Committed: levy 7→10 points funding Transition II, dividend to 0.7% GDP before November 2036, rest to deficit; due-care recognition by rule for audits and pledge; credentials fast-track plus housing to 0.25% GDP. Watch: unemployment 5.5%, wage-tax receipts, yields, lab retaliation, 2036 polls.

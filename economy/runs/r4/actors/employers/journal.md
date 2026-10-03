@@ -17,3 +17,6 @@ Belief: software automation still pays despite levy; divided Congress and bond s
 
 ## 2033-34 (turn 06)
 Belief: the 7-point levy is the main threat to earnings; certified robots and stacks are the next margin lever; the Households truce is cheap insurance. Committed to: company-wide drive, certified robots scaled in logistics and warehousing only, layoff_share ~45%, hours_share 30%, entry-level intake held, profit-sharing ~15%, levy-freeze-with-retention-credit ask, co-sign certified stacks by June. Will watch: levy-rate moves, rival robot-enabled pricing, truce breaks, bond yields, unemployment above 4.5%.
+
+## 2035-36 (turn 07)
+Belief: the 7-point levy is baked in, worker-first is firm, quiet attrition is wearing thin politically; cheap AI services are a rising competitive threat. Committed to: company-wide drive (no mass restructuring), certified robots in logistics/warehousing, layoff_share ~45%, hours_share 30%, profit-sharing ~15%, sign AI-firm co-signer terms and Households intake template, own human-in-loop AI service lines with selective price cuts. Will watch: unemployment above 5%, levy moves, rival pricing, start-up share, truce breaks.
