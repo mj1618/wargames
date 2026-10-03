@@ -12,3 +12,5 @@
 - 2026-10-03T15:52:58 | r2 t01 court blocks executive antitrust cases | p=0.35 r=0.5903 -> FAIL
 - 2026-10-03T15:52:58 | r2 t01 households organising drive (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.4430 -> SUCCESS
 - 2026-10-03T15:52:58 | r2 t01 statistics noise | DRAW 5 of 5
+- 2026-10-03T15:53:03 | r2 t01 court blocks Bill 1 disclosure rule | p=0.20 r=0.9884 -> FAIL
+- 2026-10-03T15:53:10 | r2 t02 event | DRAW 3 of 24
