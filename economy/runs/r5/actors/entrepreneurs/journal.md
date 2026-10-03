@@ -11,3 +11,7 @@ Demand for people-in-the-loop services is real, not a blip. Vendor bundling is t
 ## Round 03 (January–December 2029)
 
 Beat expectations: 0.5m new jobs from new firms in 2028, double 2027. People-in-the-loop services filling order books. Households now demanding local hire-and-train, not retraining rhetoric. Scaling hybrid to 70% of expansion, funding paid on-the-job training (~15–20% of first-year wage). Expect 0.35–0.4m net new jobs. Congress still won't touch antitrust; shifting push to consumer AI access. Keeping housing play in loosening-zoning states. Will watch: whether incumbents poach trained workers, customer durability through 2029, SMB AI pricing moves.
+
+## Round 04 (January–December 2030)
+
+Demand stayed; credit collapsed—AI shares crashed 33%, venture frozen. We believe trained hybrids are our moat now; incumbents can't scale them under credit pressure. Committed to 40% expansion pullback, housing pivot, and hard push for open-access terms. Housing Supply Act funded building—big opportunity. Will watch: credit recovery speed, whether antitrust cases force API openness, incumbent poaching under duress.
