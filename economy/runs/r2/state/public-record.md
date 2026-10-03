@@ -60,3 +60,11 @@ Official statistics arrive late and with noise. Company and household players se
 ## 2028 — opening headline
 
 **Generation leap.** A new model generation does week-long professional projects unaided.
+
+## 2028 — what happened
+
+**Official statistics (end 2028).** Unemployment 4.3%; participation 60.8%; 160.9m jobs (down 0.9m); GDP up 2.6%; housing costs down about 3%, other prices slightly lower; median real income about 100.7; labour share 50.3%, another record low; deficit 6.4%, debt about 104%. Announced layoffs citing AI: about 1.6m. For 2027: poverty 12.7%, homelessness 20.7 per 10,000.
+
+**Washington.** Congress passed a cut-down Worker Transition Act (2.5% levy on AI profits to 2032, wage insurance, 30-day layoff notice, from 2029) and a work-sharing subsidy with small-business credit. In November the growth-first coalition kept its lead; margins narrowed and Congress is divided.
+
+**Elsewhere.** The labs raced, cut old-generation prices and dropped lock-in. Employers automated faster, mostly without layoffs, and began profit-sharing. A union drive in large offices stalled. Founders expanded factory-built housing.

@@ -20,3 +20,9 @@
 - 2026-10-03T15:55:34 | r5 t02 statistics noise | DRAW 1 of 5
 - 2026-10-03T15:55:34 | r5 t03 event | DRAW 23 of 24
 - 2026-10-03T15:55:41 | r5 t03 event 23 data revision (SUCCESS = 2028 published unemployment understated by 0.4; FAIL = overstated) | p=0.50 r=0.6537 -> FAIL
+- 2026-10-03T16:00:35 | r5 t03 household organising drive extends to next tier (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.9658 -> FAIL
+- 2026-10-03T16:00:35 | r5 t03 AI Deployment Framework Act passes (medium, responsive 0.60, +0.10 fits coalition; escrow condition met) | p=0.70 partial=0.15 r=0.0008 -> SUCCESS
+- 2026-10-03T16:00:35 | r5 t03 Housing Supply Act passes (medium, responsive 0.60, +0.10 fits coalition as t01 housing bill; offset so no deficit penalty) | p=0.70 partial=0.15 r=0.2543 -> SUCCESS
+- 2026-10-03T16:00:35 | r5 t03 court blocks executive antitrust action (SUCCESS = blocked) | p=0.35 r=0.9204 -> FAIL
+- 2026-10-03T16:00:35 | r5 t03 statistics noise | DRAW 3 of 5
+- 2026-10-03T16:00:41 | r5 t03 court blocks Framework Act disclosure rule in first round (SUCCESS = blocked) | p=0.20 r=0.6940 -> FAIL

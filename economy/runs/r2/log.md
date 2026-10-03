@@ -14,3 +14,11 @@
 - 2026-10-03T15:52:58 | r2 t01 statistics noise | DRAW 5 of 5
 - 2026-10-03T15:53:03 | r2 t01 court blocks Bill 1 disclosure rule | p=0.20 r=0.9884 -> FAIL
 - 2026-10-03T15:53:10 | r2 t02 event | DRAW 3 of 24
+- 2026-10-03T15:59:13 | r2 t02 households organising drive renewed (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.8740 -> FAIL
+- 2026-10-03T15:59:17 | r2 t02 Bill 1 Worker Transition Act (medium 0.60, new tax cuts against coalition -0.15) | p=0.45 partial=0.15 r=0.5662 -> PARTIAL
+- 2026-10-03T15:59:17 | r2 t02 Bill 2 work-sharing subsidy and new-firm credit (small 0.80, fits coalition +0.10) | p=0.90 partial=0.15 r=0.4616 -> SUCCESS
+- 2026-10-03T15:59:22 | r2 t02 court blocks Bill 1 AI-profits levy | p=0.20 r=0.7035 -> FAIL
+- 2026-10-03T15:59:26 | r2 t02 Nov 2028 election: growth-first loses lead (0.35 +0.01x2.0 unrest) | p=0.37 r=0.9928 -> FAIL
+- 2026-10-03T15:59:26 | r2 t02 Nov 2028 election: configuration shift | DRAW 3 of 3
+- 2026-10-03T15:59:26 | r2 t02 statistics noise | DRAW 2 of 5
+- 2026-10-03T15:59:26 | r2 t03 event | DRAW 20 of 24
