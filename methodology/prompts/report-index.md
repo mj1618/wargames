@@ -1,5 +1,7 @@
 # Phase: HTML SUMMARY INDEX
 
+**First read `methodology/prompts/report-clarity.md` — its rules and required structure override the section list below wherever they differ. The reader has never seen the game files.**
+
 Inputs: list of report files and runs (given by the orchestrator).
 
 Invoke the `frontend-design` skill if available. Read every `reports/*.html` you're given (skim), each run's `aar.md` and `report-data.md`, each `scenarios/*/insights.md`, and `scenarios/README.md`.

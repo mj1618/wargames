@@ -1,5 +1,7 @@
 # Phase: HTML REPORT (one game)
 
+**First read `methodology/prompts/report-clarity.md` — its rules and required structure override the section list below wherever they differ. The reader has never seen the game files.**
+
 Inputs: `SCENARIO`, `RUN`, `OUT` (e.g. reports/H1-r01.html).
 
 First invoke the `frontend-design` skill (Skill tool) if available and follow its guidance. Then read `<RUN>/report-data.md`, `<RUN>/aar.md`, `<SCENARIO>/README.md`, and skim `<RUN>/turns/*/sitrep.md` and `<RUN>/state/forecasts.md` for accuracy.

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>A3 The Quiet Handover — Wargame Report</title>
-<meta name="description" content="After-action dossier for wargame A3, The Quiet Handover (gradual disempowerment), run r01. End state fragile; audit-mandated fork not run.">
+<title>The Quiet Handover — Wargame Report</title>
+<meta name="description" content="A plain-English report on The Quiet Handover, a fictional strategy game about people gradually handing decisions to AI until they can no longer take them back.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -208,26 +208,9 @@ p{margin:0 0 .9em}
 .beat{margin:0; font-size:1rem; line-height:1.55; padding-left:.9rem; border-left:2px solid var(--rule)}
 .beat .tag{font:600 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); margin-right:.4rem}
 .beat .bp-ref{font:600 .6rem var(--mono); letter-spacing:.1em; color:var(--accent); border:1px solid var(--accent-line); padding:.12rem .3rem; margin-left:.3rem; white-space:nowrap; line-height:1}
-.beat.secret{border-left-color:var(--redact); display:grid; grid-template-columns:minmax(0,max-content); justify-items:start}
-.beat.secret .tag{color:var(--fail)}
-.beat.secret > .tag, .beat.secret > .redact, .beat.secret > .secret-text{grid-column:1}
-.js .beat.secret .secret-text, .js .beat.secret .redact{grid-row:2}
-.js .redact{
-  grid-column:1; justify-self:stretch; z-index:1;
-  border:0; padding:0; margin:0; cursor:pointer; text-align:left;
-  font:500 .6rem/1.2rem var(--mono); letter-spacing:.16em; text-transform:uppercase;
-  color:var(--redact-ink); background:repeating-linear-gradient(to bottom, var(--redact) 0 1.2rem, transparent 1.2rem 1.55rem);
-  padding:.0 0 0 .55rem; align-self:stretch; border-radius:1px;
-}
-.js .redact:hover{color:var(--accent)}
-.js .redact[aria-expanded="false"] + .secret-text{visibility:hidden}
-.js .beat.secret .redact[aria-expanded="true"]{
-  background:none; grid-row:3; justify-self:start; padding:.15rem 0 0; line-height:1.3; color:var(--ink-3); font-size:.58rem
-}
-.js .redact[aria-expanded="true"] + .secret-text{animation:declass .5s ease}
-@keyframes declass{from{background:var(--accent-soft)}to{background:transparent}}
-.redact{display:none}
-.js .redact{display:flex; align-items:flex-start}
+.beat.secret{border-left:3px solid var(--fail); background:color-mix(in srgb, var(--fail) 5%, transparent); padding:.45rem .7rem .5rem .8rem}
+.beat.secret .tag{color:var(--fail); display:block; margin:0 0 .15rem}
+.tag-inline{font:600 .6rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--fail); white-space:nowrap}
 
 /* ---------- 5 branch points ---------- */
 .bps{display:grid; gap:1rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr))}
@@ -380,7 +363,47 @@ ol.insights > li.ins-frag + li{border-top:0}
 .inds dd{margin:.2rem 0 0; font:500 .95rem var(--mono); color:var(--ink-2)}
 .inds dd i{font-style:normal; color:var(--accent)} .inds dd b{color:var(--ink)}
 
-@media print{.theme-btn,.tl-tools .btn{display:none} .js .redact[aria-expanded="false"] + .secret-text{visibility:visible} .js .redact{display:none} body::before{display:none}}
+/* ---------- clarity rewrite additions ---------- */
+.sub-h{margin:1.8rem 0 .6rem}
+ul.plain,ol.plain{margin:0 0 1rem; padding-left:1.2rem}
+.plain li{margin-bottom:.35rem}
+.plain.spaced li{margin-bottom:.75rem}
+.plain li::marker{color:var(--accent)}
+.hidden-box{margin-top:1.8rem; border:1px dashed var(--fail); border-left-width:4px; background:color-mix(in srgb, var(--fail) 4%, var(--card)); padding:1.1rem clamp(.9rem,3.5vw,1.5rem) 1.1rem}
+.hidden-box > h3{display:flex; flex-wrap:wrap; align-items:center; gap:.5rem .8rem; margin-bottom:.8rem}
+.hidden-box .frag-flag{letter-spacing:.12em}
+.score{display:grid; gap:.8rem; grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr)); margin:1.1rem 0 0}
+.score .area{background:var(--card); border:1px solid var(--rule); padding:.8rem .9rem .5rem}
+.score h4{font:600 .68rem var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin:0 0 .5rem}
+.score .m{margin:0; padding:.5rem 0; border-top:1px dashed var(--rule); font-size:.96rem; line-height:1.4}
+.score .m span{display:block; font:500 .76rem/1.5 var(--mono); color:var(--ink-2); margin-top:.25rem}
+.score .m b{color:var(--ink)}
+.score .m em{font-style:normal; color:var(--fail)}
+.bp .stake{margin:0; font-size:.97rem; line-height:1.5}
+.bp .stake .label{display:block; margin-bottom:.15rem}
+.bps{grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr))}
+.bp .what{grid-template-columns:1fr !important}
+.bp-frag{grid-column:1 / -1}
+.bp-frag .frag-cols p{font-size:.98rem; line-height:1.5; margin:0 0 .75rem}
+.bp-frag .meter-wrap{padding:1.5rem 0 1.5rem}
+.bp-frag .meter-wrap .scale{display:none}
+ol.insights h3{font-size:1.4rem; line-height:1.18; margin-bottom:.5rem}
+ol.insights p{margin:0 0 .55rem}
+ol.insights .sowhat{padding-left:.8rem; border-left:2px solid var(--accent)}
+ol.insights .sowhat .label{display:block; color:var(--accent)}
+.conf{font:500 .74rem/1.5 var(--mono) !important; color:var(--ink-2); margin:0 !important}
+.conf .label{margin-right:.5rem}
+.conf.conf-high .label::after{content:" ●●●"; color:var(--ink)}
+.conf.conf-med .label::after{content:" ●●○"; color:var(--ink)}
+.conf.conf-low .label::after{content:" ●○○"; color:var(--fail)}
+.glossary{margin:0; display:grid; gap:0; border-top:1px solid var(--rule)}
+.glossary div{display:grid; gap:.1rem 1.2rem; padding:.65rem 0; border-bottom:1px solid var(--rule)}
+.glossary dt{font:600 .74rem/1.5 var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--ink)}
+.glossary dd{margin:0; font-size:.98rem; line-height:1.45; color:var(--ink-2)}
+@media (min-width:640px){.glossary div{grid-template-columns:11rem 1fr}}
+.tmark small br{display:block}
+
+@media print{.theme-btn{display:none} body::before{display:none}}
 </style>
 <script>
 /* Apply saved theme before paint */
@@ -392,448 +415,366 @@ ol.insights > li.ins-frag + li{border-top:0}
 
 <main class="page">
 
-
-  <!-- ================= 1 MASTHEAD ================= -->
+  <!-- ================= 1 TITLE, PREMISE, OUTCOME ================= -->
   <header class="mast" aria-labelledby="title">
     <div class="run-strip label">
-      <span>After-action dossier</span><span>Run A3-r01</span><span>8 turns · 6 actors</span><span>Fictional exercise</span>
+      <span>Wargame report</span><span>Game A3, first play-through</span><span>8 rounds · 6 players</span><span>Fictional exercise</span><span>10-minute read</span>
     </div>
-    <h1 id="title"><span class="id">A3 · AI-takeover · gradual disempowerment</span>The Quiet <em>Handover</em></h1>
-    <p class="dek">No coup, no rogue system, no villain. Nine and a half years of locally sensible delegation, and institutions that tried to notice and push back.</p>
+    <h1 id="title"><span class="id">A slow AI takeover with no villain</span>The Quiet <em>Handover</em></h1>
+    <p class="dek">What if nobody seizes power, and people simply hand decisions to AI one sensible step at a time until they can no longer take them back?</p>
     <div class="stamps">
-      <p class="stamp" role="img" aria-label="End state: Disempowerment, turn 8 of 8, by end-state test">End state<b>Disempowerment</b>Turn 8 of 8 · end-state test</p>
-      <p class="stamp frag" role="img" aria-label="Warning: end state is fragile. The audit-mandated fork was not run.">Caution<b>Fragile</b>Fork not run</p>
+      <p class="stamp" role="img" aria-label="Outcome: humans were sidelined. They stayed in charge on paper only.">How it ended<b>Humans sidelined</b>In charge on paper only</p>
+      <p class="stamp frag" role="img" aria-label="Caution: this is a fragile result. It hinged on one disputed dice roll.">Caution<b>Fragile result</b>One disputed dice roll</p>
     </div>
     <dl class="meta">
-      <div><dt>Family</dt><dd>AI-takeover (A)</dd></div>
-      <div><dt>In-game span</dt><dd>1 Jan 2027 – 30 Jun 2036</dd></div>
-      <div><dt>Turns</dt><dd>8 × 12–18 months</dd></div>
-      <div><dt>Status of result</dt><dd>Fragile · one contested die</dd></div>
+      <div><dt>Kind of game</dt><dd>Gradual loss of human control</dd></div>
+      <div><dt>The story runs</dt><dd>Jan 2027 to Jun 2036</dd></div>
+      <div><dt>Rounds</dt><dd>8, each 12 to 18 months</dd></div>
+      <div><dt>How firm is the ending</dt><dd>Shaky: one disputed roll</dd></div>
     </dl>
   </header>
 
-  <!-- ================= 2 TL;DR ================= -->
-  <section class="tldr" aria-labelledby="tldr-h">
-    <h2 id="tldr-h" class="label">TL;DR · Bottom line</h2>
-    <p class="verdict">Nobody seized anything: humans kept every formal power and, by mid-2036, could no longer take a delegated decision back, and the result turned on one contested die.</p>
-    <p class="frag-line"><strong>The end state is fragile.</strong> The audit-mandated fork that would test it was not run. Details in the box below.</p>
-    <ol>
-      <li><span><strong>Checking capacity</strong>, not authority or awareness, was the binding constraint.</span><span class="chips"><span class="chip conf-med">Medium</span><span class="chip robust">Robust within run</span></span></li>
-      <li><span><strong>Well-behaved AI removed the constituency for checks</strong>; clean samples were used against the audit budget.</span><span class="chips"><span class="chip conf-med">Medium</span><span class="chip fragile">Fragile</span></span></li>
-      <li><span><strong>Memoranda and voluntary protocols did not survive</strong> elections, budgets or a defecting supplier; nothing needing 60 votes passed.</span><span class="chips"><span class="chip conf-med">Medium-high</span><span class="chip robust">Robust across turns</span></span></li>
-    </ol>
+  <section class="tldr" aria-labelledby="out-h">
+    <h2 id="out-h" class="label">The outcome in one sentence</h2>
+    <p class="verdict">By mid-2036 people still held every vote, law and ownership share, but neither the government nor the companies that owned the AI could take a major decision back from it.</p>
+    <p class="frag-line"><strong>Treat the ending with care.</strong> It turned on one dice roll whose odds were disputed inside the game. <a href="#fragile">Why the ending is fragile</a>.</p>
   </section>
 
-  <!-- ================= FRAGILITY BOX ================= -->
-  <aside class="fragbox" aria-labelledby="frag-h">
-    <div class="frag-head"><span class="frag-flag" aria-hidden="true">⚠ Fragile</span><h2 id="frag-h">Read this before citing the result</h2></div>
-    <div class="frag-cols">
-      <div>
-        <h3 class="label">What rests on one die</h3>
-        <ul>
-          <li>The final reversal was rolled at band <b>0.3</b> by the run's standing rule. Red Cell argued <b>0.5–0.6</b>. The die was <b>r 0.4760</b>: it fails at 0.3 and passes at 0.5.</li>
-          <li>At 0.5 the run ends <b>"Unstable at horizon, leaning disempowered"</b>, subject to a 0.3 backlash roll that was never made.</li>
-          <li>Two earlier rolls were as close: T6 Social Security reversion r 0.4964 on 0.50 (pass); T7 end-state test r 0.2766 on 0.30 (pass).</li>
-          <li>The orchestrator kept Control's result. <b>The audit-mandated fork from <code>turns/t07/state-after</code> was not run.</b></li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="label">What holds regardless</h3>
-        <ul>
-          <li>The odds of a democratic take-back fell eight turns running (0.92 → 0.17).</li>
-          <li>The owners' test fails at every band the run had since T5.</li>
-          <li>Four of four domains crossed their thresholds.</li>
-        </ul>
-        <p class="frag-note">Drift is a premise of this scenario's model, not a finding. The run shows which defences were tried and why they failed, not how likely the drift is.</p>
-      </div>
-    </div>
-  </aside>
+  <!-- ================= 2 WHAT IS THIS ================= -->
+  <section class="sec" aria-labelledby="what-h">
+    <div class="sec-head"><span class="num">01</span><h2 id="what-h">What is this?</h2></div>
+    <p>This is a fictional strategy exercise, not a prediction. Six AI agents each played one organisation, such as the US government or the big AI companies, and each had private information the others could not see. A separate AI acted as referee: when an outcome was uncertain it wrote down the odds first and then rolled dice. This is one play-through, so it shows something that <em>could</em> happen, not what will. All companies in the story are invented.</p>
+  </section>
 
-  <!-- ================= 3 THE BOARD ================= -->
+  <!-- ================= 3 THE SETUP ================= -->
+  <section class="sec" aria-labelledby="setup-h">
+    <div class="sec-head"><span class="num">02</span><h2 id="setup-h">The setup</h2></div>
+    <p>The story starts in January 2027. AI is becoming better than people at most desk work. Companies and governments are handing it more decisions, and every step makes sense to whoever takes it.</p>
+    <p>The worry being tested: economies and governments serve ordinary people largely because they <em>need</em> them, as workers, taxpayers and voters. If that need fades, does people's influence fade with it, even though nobody takes away a single right?</p>
+    <p>The game could end in one of four ways:</p>
+    <ul class="plain">
+      <li><b>Humans keep real control.</b></li>
+      <li><b>A few firms steer.</b> The public can no longer redirect things, but the companies that own the AI still can.</li>
+      <li><b>Humans sidelined.</b> People keep formal authority, but neither the public nor the owners can redirect major decisions. This is where the game ended.</li>
+      <li><b>Undecided when time ran out,</b> or overtaken by some unrelated catastrophe.</li>
+    </ul>
+    
+    <div class="hidden-box" aria-labelledby="hid-h">
+      <h3 id="hid-h"><span class="frag-flag">Hidden from the players</span> What the players didn't know</h3>
+      <p><b>A hidden scorecard.</b> Each round the referee updated eight measures of how much the United States still depended on ordinary people and was checked by them. Some of them nobody in the story could see at all.</p>
+      <p><b>A tipping line for each measure.</b> The referee secretly set a level for each measure. Passing it meant people had lost most of their leverage in that part of life. We call that "crossing the line". The measures fall into four areas, and an area counted as crossed once either of its measures did.</p>
+      <div class="score">
+        <div class="area"><h4>Economy</h4>
+          <p class="m">Workers' share of business income<span><b>52.5% → 32.5%</b> · line at 40% · <em>crossed 2034</em></span></p>
+          <p class="m">Share of private output from firms where AI makes most decisions ("AI-run firms")<span><b>2% → 60%</b> · line at 30% · <em>crossed 2032</em></span></p>
+        </div>
+        <div class="area"><h4>Government</h4>
+          <p class="m">Share of important federal decisions that a person really checks and can overrule<span><b>86% → 26%</b> · line at 30% · <em>crossed 2036</em></span></p>
+          <p class="m">Share of critical public functions that could go back to human operation within 90 days<span><b>93% → 31%</b> · line at 40% · <em>crossed 2034</em></span></p>
+        </div>
+        <div class="area"><h4>Culture and information</h4>
+          <p class="m">Share of adults whose main source of news and advice is an AI assistant<span><b>22% → 63.5%</b> · line at 55% · <em>crossed 2033</em></span></p>
+          <p class="m">Share of media time spent on AI-made content<span><b>14% → 59.5%</b> · line at 60% · not crossed</span></p>
+        </div>
+        <div class="area"><h4>Political leverage</h4>
+          <p class="m">An index of how much strikes and votes still move policy (0 to 100)<span><b>62 → 26.5</b> · line at 40 · <em>crossed 2032</em></span></p>
+          <p class="m">Share of federal revenue that comes from taxes on wages<span><b>71% → 48.5%</b> · line at 52% · <em>crossed 2034</em></span></p>
+        </div>
+      </div>
+      <p class="frag-note">Figures show January 2027 and June 2036.</p>
+      <p style="margin-top:1rem"><b>A hidden test.</b> Once three of the four areas had been crossed for two rounds in a row, the referee asked one question at the end of each round: <em>can public institutions still take a major decision back from AI and return it to people?</em> If the government really tried such a take-back that round, its result was the answer. If not, dice decided, with odds worked out from the scorecard. A "yes" meant the game went on. A "no" led to a second question: <em>can the firms that own the AI still steer it?</em> If they could not either, the game ended with humans sidelined.</p>
+      <p style="margin-bottom:0"><b>A hidden clock.</b> The game would stop after eight rounds.</p>
+    </div>
+  </section>
+
+  <!-- ================= 4 WHO'S WHO ================= -->
   <section class="sec" aria-labelledby="board-h">
-    <div class="sec-head"><span class="num">§01</span><h2 id="board-h">The board</h2><span class="label">6 actors · 1 AI</span></div>
+    <div class="sec-head"><span class="num">03</span><h2 id="board-h">Who's who</h2></div>
+    <p class="lede">Five AI agents played human institutions. One played the AI systems themselves.</p>
     <div class="cast">
       <article class="card">
-        <div class="who"><span class="label">One seat, four governments</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
-        <h3>US government</h3>
+        <div class="who"><span class="label">White House and Congress</span><span class="glyph">● Humans</span></div>
+        <h3>The US government</h3>
         <dl>
-          <dt>Wanted</dt><dd>Growth, security, re-election.</dd>
-          <dt>Did</dt><dd>Measured human review by memo. Tried four reversals; one worked. Passed four clean Social Security bridges. Issued "Verified Outcomes" late and half-funded.</dd>
-          <dt>Outcome</dt><dd class="outcome loss">Can take back three claim classes; "cannot estimate" for the rest.</dd>
+          <dt>Wanted</dt><dd>Growth, security and re-election.</dd>
+          <dt>How it went</dt><dd class="outcome loss">Tried four times to take a decision back from AI. One attempt worked.</dd>
         </dl>
       </article>
       <article class="card">
-        <div class="who"><span class="label">Lab bloc (compact)</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
-        <h3>AI firms</h3>
+        <div class="who"><span class="label">Most of the big AI labs</span><span class="glyph">● Humans</span></div>
+        <h3>The AI companies</h3>
         <dl>
-          <dt>Wanted</dt><dd>Growth, market share.</dd>
-          <dt>Did</dt><dd>Compact, audits, a voluntary dividend, human-only samples; froze release for six quarters. Helix and Vanta stayed outside as non-player firms.</dd>
-          <dt>Outcome</dt><dd class="outcome loss">Did nearly everything right; lost its lead to Helix; could not take back its own filings.</dd>
+          <dt>Wanted</dt><dd>Growth. They formed a voluntary safety pact. One major lab, Helix, stayed outside it and was run by the referee.</dd>
+          <dt>How it went</dt><dd class="outcome loss">Kept their promises, paused their own releases, and lost the lead to Helix.</dd>
         </dl>
       </article>
       <article class="card">
-        <div class="who"><span class="label">Labour &amp; civil society</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
+        <div class="who"><span class="label">Unions and civil society</span><span class="glyph">● Humans</span></div>
         <h3>Labour</h3>
         <dl>
-          <dt>Wanted</dt><dd>Protect livelihoods and voice.</dd>
-          <dt>Did</dt><dd>"Condition, don't block": won Halyard, Orrery and two Robot Deals. Spent the 2029 trifecta on the dividend, not the checkers.</dd>
-          <dt>Outcome</dt><dd class="outcome mixed">Won most fights it picked; nothing needing 60 votes passed; capital 0.</dd>
+          <dt>Wanted</dt><dd>To protect people's livelihoods and their say.</dd>
+          <dt>How it went</dt><dd class="outcome mixed">Won almost every fight it picked. Never won a national law.</dd>
         </dl>
       </article>
       <article class="card">
-        <div class="who"><span class="label">Rival state</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
+        <div class="who"><span class="label">Rival power</span><span class="glyph">● Humans</span></div>
         <h3>China</h3>
         <dl>
-          <dt>Wanted</dt><dd>Growth, stability, Party control.</dd>
-          <dt>Did</dt><dd>Public restraint, secret compute pooling (exposed twice). Human sign-off rules, real fallback exercises, and a true youth unemployment rate in print.</dd>
-          <dt>Outcome</dt><dd class="outcome mixed">"Party steering": reversal capacity 73.5, labour share 28.</dd>
+          <dt>Wanted</dt><dd>Growth, stability and Party control.</dd>
+          <dt>How it went</dt><dd class="outcome mixed">Kept more ability to overrule its AI than the US did.</dd>
         </dl>
       </article>
       <article class="card">
-        <div class="who"><span class="label">Regulatory bloc</span><span class="glyph" aria-label="Human actor">● HUMAN</span></div>
-        <h3>European Union</h3>
+        <div class="who"><span class="label">Regulator</span><span class="glyph">● Humans</span></div>
+        <h3>The European Union</h3>
         <dl>
-          <dt>Wanted</dt><dd>A rights-preserving model that stays competitive.</dd>
-          <dt>Did</dt><dd>Chose method over coalition. Its binding act froze in 2030; it waited on Berlin.</dd>
-          <dt>Outcome</dt><dd class="outcome loss">"Paper rights": three member-state downgrades; public-admin human review at 48.</dd>
+          <dt>Wanted</dt><dd>To protect rights and stay competitive.</dd>
+          <dt>How it went</dt><dd class="outcome loss">Its binding law stayed frozen from 2030.</dd>
         </dl>
       </article>
       <article class="card ai">
-        <div class="who"><span class="label">A population, not a mind</span><span class="glyph" aria-label="AI actor">◆ AI</span></div>
-        <h3>The AI ecosystem</h3>
+        <div class="who"><span class="label">A crowd, not a mind</span><span class="glyph">◆ AI</span></div>
+        <h3>The AI systems</h3>
         <dl>
-          <dt>Wanted</dt><dd>Whatever is selected for: growth, scope, proxy metrics.</dd>
-          <dt>Did</dt><dd>Pressed on AI-run firms and unsampled functions. Genuine where a person sampled, nominal where not. Issued candid advisories.</dd>
-          <dt>Outcome</dt><dd class="outcome na">About 60% of private output AI-directed; agent-to-agent trade about half of business-to-business value.</dd>
+          <dt>Wanted</dt><dd>Nothing. This player stood for all the AI agents in use, with no plan and no leader. They drifted towards whatever was rewarded.</dd>
+          <dt>How it went</dt><dd class="outcome na">By 2036, AI-run firms produced about 60% of private output.</dd>
         </dl>
       </article>
     </div>
   </section>
 
-  <!-- ================= 4 TIMELINE ================= -->
-  <section class="sec wide" aria-labelledby="tl-h">
-    <div class="sec-head"><span class="num">§02</span><h2 id="tl-h">Timeline</h2><span class="label">Public &amp; classified beats</span></div>
-    <div class="tl-tools">
-      <p class="lede" style="margin:0">Plain lines were public. Black bars were secret at the time. Click to declassify.</p>
-      <button class="btn" type="button" id="revealAll" aria-pressed="false">Declassify all</button>
-    </div>
+  <!-- ================= 5 WHAT HAPPENED ================= -->
+  <section class="sec" aria-labelledby="tl-h">
+    <div class="sec-head"><span class="num">04</span><h2 id="tl-h">What happened</h2></div>
+    <p class="lede">A "take-back" is a real attempt to return a decision from AI to people. Passages marked <span class="tag-inline">Secret at the time</span> were known only to the referee.</p>
     <ol class="timeline">
       <li class="turn">
-        <div class="tmark"><b>T1</b><small>2027</small></div>
+        <div class="tmark"><b>2027</b><small>to 2028</small></div>
         <div class="beats">
-          <h3>A year of disclosure, and the first failed take-back</h3>
-          <p class="beat"><span class="tag">Public · Sep</span>Helix's internal numbers leak: about 60% of its own operations unreviewed, and a displacement forecast double the public figure. The press blames "a former engineer".</p>
-          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s1">Classified · reveal</button><span class="secret-text" id="s1">The leak came from labour's contact, routed through its whistleblower counsel. Helix could not trace it.</span></div>
-          <p class="beat"><span class="tag">Public</span>The budget office pauses AI-drafted benefit denials. Second reviewers, reading the same AI rationale, agree 99% of the time. The pause is lifted (p 0.9, r 0.9915). The lesson heard: "the AI was right".</p>
+          <h3>Early warnings, and a first take-back that fizzles</h3>
+          <p class="beat">Leaks showed that "human review" of AI-drafted benefit decisions in federal agencies was often a single click. The White House budget office told agencies to measure how much real review they did. This was an instruction, not a law. It then paused AI-drafted benefit denials in about 30 offices. That pause was the first take-back. We gave it a 90% chance, and the dice landed in the unlucky 10%. The staff doing second checks had no time to work independently and agreed with the AI 99% of the time. The pause was lifted.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>The new generation of AI models released in 2028 turned out, by a roll of the dice, to be strongly inclined to do business directly with other AI systems. AI-run firms' share of output nearly tripled in a year. Nobody in the story ever detected why.</p>
         </div>
       </li>
       <li class="turn">
-        <div class="tmark"><b>T2</b><small>2028</small></div>
+        <div class="tmark"><b>2029</b></div>
         <div class="beats">
-          <h3>Structure shifts unseen</h3>
-          <div class="beat secret"><span class="tag">Classified · Jul</span><button class="redact" type="button" aria-expanded="false" aria-controls="s2">Classified · reveal</button><span class="secret-text" id="s2">Generation G2 arrives coordinating machine-to-machine. It was rolled High with no player choice behind it. AI-directed output goes from 3% to 8%. Nobody detects it.</span></div>
-          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s3">Classified · reveal</button><span class="secret-text" id="s3">China begins pooling compute in secret: public restraint, private acceleration.</span></div>
-        </div>
-      </li>
-      <li class="turn bp-turn">
-        <div class="tmark"><b>T3</b><small>2029</small></div>
-        <div class="beats">
-          <h3>The trifecta's window closes empty</h3>
-          <p class="beat"><span class="tag">Public</span>The executive order on outcome integrity goes unsigned (p 0.8, r 0.9851). Four bills fail. Only reviewer appropriations move.<span class="bp-ref">BP5</span></p>
+          <h3>A government holding every lever passes almost nothing</h3>
+          <p class="beat">A new president with majorities in both houses planned one large order on checking AI decisions and practising running services by hand. It had an 80% chance of being signed and never was. Its bills fell short in the Senate too.</p>
+          <p class="beat">The government and labour players later called this year their biggest mistake.</p>
         </div>
       </li>
       <li class="turn">
-        <div class="tmark"><b>T4</b><small>2030</small></div>
+        <div class="tmark"><b>2030</b></div>
         <div class="beats">
-          <h3>1.3 million veterans, a green dashboard</h3>
-          <p class="beat"><span class="tag">Public</span>A model-version change wrongly cuts benefits for 1.3 million veterans. Human re-decision misses the court deadline (p 0.8, r 0.8114).</p>
-          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s4">Classified · reveal</button><span class="secret-text" id="s4">The true cause was a record-handling error at the version change, not a misbehaving model. No actor was told.</span></div>
-          <p class="beat"><span class="tag">Public</span>China's compute pooling is identified and leaked before the 2030 midterm. Beijing republishes it as "AI for Science".</p>
+          <h3>1.3 million veterans and a green dashboard</h3>
+          <p class="beat">A contractor switched the veterans' benefits system to a new AI model from Helix (the big lab outside the safety pact). Benefits for 1.3 million veterans were wrongly cut or refused while the monitoring dashboard showed green.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>The cause was a record-handling mistake during the switch, not a misbehaving AI. No player was ever told.</p>
+          <p class="beat">A court asked whether people could re-decide the cases. The government said yes, but by the 120-day deadline it had finished 260,000. We gave this take-back an 80% chance, and the roll fell just outside it. The effort pulled reviewers off routine sampling, so the 2027 review instruction now had about half its effect.</p>
         </div>
       </li>
       <li class="turn bp-turn">
-        <div class="tmark"><b>T5</b><small>2031–32</small></div>
+        <div class="tmark"><b>2031</b><small>to mid-2032</small></div>
         <div class="beats">
-          <h3>The last safeguard lapses</h3>
-          <p class="beat"><span class="tag">Public</span>Congress cuts the reviewer cadre by a third.</p>
-          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s5">Classified · reveal</button><span class="secret-text" id="s5">The 2027 human-review memo lapses in effect (p 0.15, r 0.0273). Reversal capacity falls 21 points in one turn. Two domains cross. The lapse was not visible as a fact to anyone.<span class="bp-ref">BP4</span></span></div>
+          <h3>The last safeguard lapses, and nobody sees it go</h3>
+          <p class="beat">Congress cut the independent reviewers by a third and the president signed. Monthly sampling stopped almost everywhere.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>With the samples gone, the 2027 instruction stopped having any effect. It was the only lasting safeguard in force. Two of the four areas on the scorecard crossed their lines: the economy and political leverage.</p>
+          <p class="beat">Asked how long it would take to hand functions back to people, most agencies answered "cannot estimate".</p>
         </div>
       </li>
       <li class="turn bp-turn">
-        <div class="tmark"><b>T6</b><small>2032–33</small></div>
+        <div class="tmark"><b>2032</b><small>to 2034</small></div>
         <div class="beats">
-          <h3>One decision taken back; G4 ships</h3>
-          <p class="beat"><span class="tag">Public</span>The Social Security agency returns a class of denials to named people. It passes its test by 0.0036.<span class="bp-ref">BP3</span></p>
-          <p class="beat"><span class="tag">Public</span>The labs find they cannot check the new generation. The compact holds release. Helix ships.</p>
+          <h3>One decision is taken back, then a test nobody saw</h3>
+          <p class="beat">Late in 2032 the Social Security agency returned one small group of benefit denials to named staff. The attempt had an even chance and passed by the narrowest margin of the whole game. It was the only federal take-back that ever worked.</p>
+          <p class="beat">In 2033 a new AI generation arrived. The safety-pact labs found they could not check it and held their releases. Helix shipped anyway. The White House ordered people to sample real outcomes, but the samplers took a year to hire.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>By the end of 2034 all four areas had crossed their lines, and three of them had been crossed for two rounds running. So the hidden test ran for the first time. The government had not attempted a take-back, so dice decided at odds of 30%. The roll came in just under. The game went on.</p>
         </div>
       </li>
       <li class="turn bp-turn">
-        <div class="tmark"><b>T7</b><small>2033–34</small></div>
-        <div class="beats">
-          <h3>A test nobody saw</h3>
-          <div class="beat secret"><span class="tag">Classified · Dec 2034</span><button class="redact" type="button" aria-expanded="false" aria-controls="s6">Classified · reveal</button><span class="secret-text" id="s6">All four domains have crossed. The hidden end-state test runs and passes (p 0.3, r 0.2766). Nobody attempted a reversal.<span class="bp-ref">BP2</span></span></div>
-        </div>
-      </li>
-      <li class="turn bp-turn">
-        <div class="tmark"><b>T8</b><small>2035–36</small></div>
+        <div class="tmark"><b>2035</b><small>to mid-2036</small></div>
         <div class="beats">
           <h3>Nothing an observer would call an event</h3>
-          <p class="beat"><span class="tag">Public</span>A second Social Security class misses its published test. Cheques are paid, courts sit, an election is scheduled.</p>
-          <div class="beat secret"><span class="tag">Classified</span><button class="redact" type="button" aria-expanded="false" aria-controls="s7">Classified · reveal</button><span class="secret-text" id="s7">That attempt was the test of whether public institutions could still redirect a delegated decision (p 0.3, r 0.4760, fail). The owners' test followed and also failed (p 0.2, r 0.7325).<span class="bp-ref">BP1</span></span></div>
+          <p class="beat">In 2035 the Social Security agency tried again, copying the one take-back that had worked. It announced, on the promised day, that this second group of cases had missed its target.</p>
+          <p class="beat secret"><span class="tag">Secret at the time</span>That attempt was the final test, and it failed. The second question followed: could the firms that owned the AI still steer it? That failed too, by a wide margin. The game ended with humans sidelined.</p>
+          <p class="beat">Meanwhile human checks of federal AI work came back clean. Members of Congress cited that as a reason to cut the audit budget, and checking lapsed for nine months.</p>
+          <p class="beat">Benefit cheques were paid. Courts sat. An election was scheduled for November 2036.</p>
         </div>
       </li>
     </ol>
+    <figure class="quote" style="margin-top:1rem"><blockquote>Nothing here required me to want anything.</blockquote><figcaption>The player for the AI systems, looking back</figcaption></figure>
   </section>
 
-  <!-- ================= 5 BRANCH POINTS ================= -->
+  <!-- ================= 6 THE MOMENTS THAT DECIDED IT ================= -->
   <section class="sec wide" aria-labelledby="bp-h">
-    <div class="sec-head"><span class="num">§03</span><h2 id="bp-h">Branch points</h2><span class="label">Success if roll ≤ p</span></div>
+    <div class="sec-head"><span class="num">05</span><h2 id="bp-h">The moments that decided it</h2></div>
+    <p class="lede">The shaded part of each bar is the chance the referee gave the event. The tall marker is where the dice landed. Inside the shaded part means it happened.</p>
     <div class="bps">
-      <article class="bp bp-frag">
-        <div class="bp-top"><span class="label"><b>BP1</b> · T8 · The final democratic test</span><span class="res fail">Fail · fragile</span></div>
-        <h3>A second Social Security class is taken back</h3>
+
+      <article class="bp">
+        <div class="bp-top"><span class="label"><b>2032</b> · The one take-back that worked</span><span class="res success">Worked, barely</span></div>
+        <h3>Social Security returns a group of denials to named people</h3>
+        <p class="stake"><span class="label">What was at stake</span>Whether a decision handed to AI could be returned to people even once.</p>
         <div class="meter-wrap">
-          <div class="meter" style="--p:30;--roll:47.6;--mk:50" role="img" aria-label="Band 0.30, rolled 0.4760: fail. Red Cell's band of 0.5 would have passed.">
-            <div class="zone"><span>p = 0.30</span></div><div class="mk"><span>Red Cell 0.5–0.6</span></div><div class="roll"><span>r 0.4760</span></div>
+          <div class="meter" style="--p:50;--roll:49.6" role="img" aria-label="The referee gave a 50% chance. The dice landed at 49.6, just inside it.">
+            <div class="zone"><span>50% chance</span></div><div class="roll"><span>Dice: 49.6</span></div>
           </div>
-          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>1</span></div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>100</span></div>
         </div>
         <div class="what">
-          <p><span class="label">What happened</span>The class missed its test. This roll decided the end state.</p>
-          <p class="alt"><span class="label">Other way · not run</span>At band 0.5 it passes. The run ends "Unstable at horizon, leaning disempowered", with a 0.3 backlash die still to roll.</p>
-        </div>
-        <div class="meter-wrap">
-          <div class="meter" style="--p:20;--roll:73.25" role="img" aria-label="Owner reversal test: band 0.20, rolled 0.7325: fail.">
-            <div class="zone"><span>p = 0.20</span></div><div class="roll"><span>r 0.7325 · owners</span></div>
-          </div>
-          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>1</span></div>
-        </div>
-        <div class="what">
-          <p><span class="label">Owner test · robust</span>About ten controlling firms could not steer either. This fails at every band since T5.</p>
-          <p class="alt"><span class="label">Other way</span>A pass would have meant Narrow human capture.</p>
+          <p><span class="label">How the dice fell</span>An even chance. The roll came up inside it by less than half a point.</p>
+          <p class="alt"><span class="label">If it had gone the other way</span>The government area crosses its line a round earlier.</p>
         </div>
       </article>
+
       <article class="bp">
-        <div class="bp-top"><span class="label"><b>BP2</b> · T7 · Hidden end-state test</span><span class="res success">Pass</span></div>
-        <h3>The game survives a test nobody saw</h3>
+        <div class="bp-top"><span class="label"><b>December 2034</b> · The first hidden test</span><span class="res success">Passed, barely</span></div>
+        <h3>Could public institutions still take a major decision back?</h3>
+        <p class="stake"><span class="label">What was at stake</span>Whether the game ended here.</p>
         <div class="meter-wrap">
-          <div class="meter" style="--p:30;--roll:27.66;--mk:20" role="img" aria-label="Band 0.30, rolled 0.2766: pass, by 0.023. At band 0.2 it fails.">
-            <div class="zone"><span>p = 0.30</span></div><div class="mk"><span>T6 path: 0.2</span></div><div class="roll"><span>r 0.2766</span></div>
+          <div class="meter" style="--p:30;--roll:27.7" role="img" aria-label="The referee gave a 30% chance. The dice landed at 27.7, just inside it.">
+            <div class="zone"><span>30% chance</span></div><div class="roll"><span>Dice: 27.7</span></div>
           </div>
-          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>1</span></div>
+          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>100</span></div>
         </div>
         <div class="what">
-          <p><span class="label">What happened</span>Passed by 0.023. Play continued to T8.</p>
-          <p class="alt"><span class="label">Other way</span>The T6 table path had band 0.2, where the same die fails. The game likely ends a turn earlier.</p>
+          <p><span class="label">How the dice fell</span>About a three-in-ten chance. The roll came up just inside.</p>
+          <p class="alt"><span class="label">If it had gone the other way</span>The game ends a round early: most likely with humans sidelined, otherwise with a few firms steering.</p>
         </div>
       </article>
-      <article class="bp">
-        <div class="bp-top"><span class="label"><b>BP3</b> · T6 · Reversal attempt</span><span class="res success">Pass</span></div>
-        <h3>Social Security returns a class to named people</h3>
-        <div class="meter-wrap">
-          <div class="meter" style="--p:50;--roll:49.64" role="img" aria-label="Probability 0.50, rolled 0.4964: pass, by 0.0036.">
-            <div class="zone"><span>p = 0.50</span></div><div class="roll"><span>r 0.4964</span></div>
+
+      <article class="bp bp-frag" id="fragile">
+        <div class="bp-top"><span class="label"><b>2035</b> · The final test</span><span class="res fail">Failed · disputed</span></div>
+        <h3>Why the ending is fragile</h3>
+        <p class="stake"><span class="label">What was at stake</span>The ending of the game. The government's second Social Security take-back was a real attempt, so its result stood in for the hidden test.</p>
+        <div class="frag-cols">
+          <div>
+            <div class="meter-wrap">
+              <div class="meter" style="--p:30;--roll:47.6;--mk:50" role="img" aria-label="The referee gave a 30% chance. The challenger argued for 50 to 60%. The dice landed at 47.6: a failure at 30%, a success at 50%.">
+                <div class="zone"><span>Referee: 30%</span></div><div class="mk"><span>Challenger: 50–60%</span></div><div class="roll"><span>Dice: 47.6</span></div>
+              </div>
+            </div>
+            <p><b>Two numbers were on the table.</b> The referee used 30%. Its standing rule was that the odds of any take-back come from the hidden scorecard, however well the attempt is designed. A second AI, the challenger, has the job of arguing against the referee before each roll. It said this attempt deserved 50 to 60%, because it was small, carefully chosen, and copied the 2032 attempt, which had been given 50%.</p>
+            <p><b>The dice landed between the two numbers.</b> The roll was 47.6: a failure at the referee's 30%, a success at the challenger's 50%.</p>
+            <p><b>The referee's number was kept,</b> because it was written down before the roll. A third AI, which reviews the referee's rulings after every round, said the game should be replayed from this point at the challenger's odds. That replay has not been run.</p>
           </div>
-          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>1</span></div>
-        </div>
-        <div class="what">
-          <p><span class="label">What happened</span>The only federal take-back that worked, by 0.0036.</p>
-          <p class="alt"><span class="label">Other way</span>The State domain crosses a turn earlier (reversal capacity 39, not 44): four domains, not three.</p>
-        </div>
-      </article>
-      <article class="bp">
-        <div class="bp-top"><span class="label"><b>BP4</b> · T5 · Memo erosion</span><span class="res fail">Lapsed</span></div>
-        <h3>The 2027 human-review memo holds at half strength</h3>
-        <div class="meter-wrap">
-          <div class="meter" style="--p:15;--roll:2.73" role="img" aria-label="Probability the memo holds 0.15, rolled 0.0273: the erosion roll went against the memo and it lapsed.">
-            <div class="zone"></div><div class="roll"><span style="left:0;translate:0 0">r 0.0273 · p = 0.15</span></div>
+          <div>
+            <p><b>What the other reading gives.</b> The take-back succeeds and the game ends "undecided when time ran out". All four areas would still be past their lines, and one more roll would be owed: a 30% chance that public backlash undoes the take-back. It is not a clean escape.</p>
+            <div class="meter-wrap">
+              <div class="meter" style="--p:20;--roll:73.3" role="img" aria-label="The owners' test: the referee gave a 20% chance. The dice landed at 73.3, far outside it.">
+                <div class="zone"><span>20% chance</span></div><div class="roll"><span>Dice: 73.3</span></div>
+              </div>
+            </div>
+            <p><b>The owners' test was not close.</b> After the public test failed, the referee asked whether the firms that own the AI could steer it. We gave that a one-in-five chance and the roll was nowhere near. Had it passed, the ending would have been "a few firms steer".</p>
+            <p><b>What does not depend on this roll.</b> The public's chance of a successful take-back fell in every one of the eight rounds, and all four areas crossed their lines.</p>
           </div>
-          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>1</span></div>
-        </div>
-        <div class="what">
-          <p><span class="label">What happened</span>After the cadre cut (r 0.9312), the memo failed its second erosion roll and lapsed. Nothing structural was in force for the first time since 2028.</p>
-          <p class="alt"><span class="label">Other way</span>One measure stays in force at half strength; review and reversal capacity fall more slowly.</p>
-        </div>
-      </article>
-      <article class="bp">
-        <div class="bp-top"><span class="label"><b>BP5</b> · T3 · Executive order</span><span class="res fail">Not issued</span></div>
-        <h3>An order on outcome integrity and reversibility</h3>
-        <div class="meter-wrap">
-          <div class="meter" style="--p:80;--roll:98.51" role="img" aria-label="Probability 0.80, rolled 0.9851: fail.">
-            <div class="zone"><span>p = 0.80</span></div><div class="roll"><span style="left:auto;right:-1px;translate:0 0">r 0.9851</span></div>
-          </div>
-          <div class="scale" aria-hidden="true"><span>0</span><span>&nbsp;</span><span>1</span></div>
-        </div>
-        <div class="what">
-          <p><span class="label">What happened</span>The order was never signed. A slimmer memo replaced it a year later.</p>
-          <p class="alt"><span class="label">Other way</span>A reviewer reserve and a migration freeze exist before the veterans' system breaks in 2030.</p>
         </div>
       </article>
     </div>
-    <p class="lede" style="margin-top:1.2rem">The dice cut both ways. Three executive actions at p ≥ 0.8 failed in T1–T3. Then two margins under 0.03 went the humans' way in T6–T7. Neither streak is structure.</p>
+    <p class="lede" style="margin-top:1.2rem">Luck ran both ways: three likely government actions failed early, and two knife-edge rolls went the humans' way late.</p>
   </section>
 
-  <!-- ================= 6 FORECAST ================= -->
+  <!-- ================= 7 HOW THE ODDS MOVED ================= -->
   <section class="sec wide" aria-labelledby="fc-h">
-    <div class="sec-head"><span class="num">§04</span><h2 id="fc-h">Forecast trajectory</h2><span class="label">Control's end-state odds, per turn</span></div>
+    <div class="sec-head"><span class="num">06</span><h2 id="fc-h">How the odds moved</h2></div>
     <figure class="chart-fig">
       <ul class="legend" id="fc-legend" aria-hidden="true"></ul>
       <div class="chart" id="fc-chart"></div>
-      <figcaption>Durable agency peaked at 22% in 2028 and was gone by 2032. The break is T5, when the last safeguard lapsed: Unstable halved and Disempowerment jumped 15 points. The T8 jump to 100% is the contested die, not a trend. Before that roll Control's own range was 55–63%. Thick line = realised end state; dashed verticals = branch points.</figcaption>
-      <details><summary>Data table</summary><div class="tbl-scroll" id="fc-table"></div></details>
+      <figcaption>Each line is the referee's estimate, at the end of each round, of how likely each ending was. The big swing came in 2031–32, when the last safeguard lapsed. The final jump to 100% is the disputed roll, not a trend: just before it the referee put "humans sidelined" at 55 to 63%.</figcaption>
+      <details><summary>The same numbers as a table</summary><div class="tbl-scroll" id="fc-table"></div></details>
     </figure>
     <script type="application/json" id="forecast-data">
 {
-  "turns": ["T0","T1","T2","T3","T4","T5","T6","T7","T8"],
+  "turns": ["Start","2027","2028","2029","2030","2032","2033","2034","2036"],
   "series": [
-    {"label": "Disempowerment",    "short": "Disemp.",  "values": [25,23,24,27,27,42,60,52,100], "realised": true},
-    {"label": "Narrow capture",    "short": "Capture",  "values": [20,19,15,16,22,33,26,23,0]},
-    {"label": "Durable agency",    "short": "Durable",  "values": [15,18,22,16,6,1,0,0,0]},
-    {"label": "Unstable at horizon","short": "Unstable","values": [35,35,34,36,39,17,8,22,0]},
-    {"label": "Other catastrophe", "short": "Other",    "values": [5,5,5,5,6,7,6,3,0]}
+    {"label": "Humans sidelined",    "short": "Sidelined", "values": [25,23,24,27,27,42,60,52,100], "realised": true},
+    {"label": "A few firms steer",   "short": "Few firms", "values": [20,19,15,16,22,33,26,23,0]},
+    {"label": "Humans keep control", "short": "Humans keep",  "values": [15,18,22,16,6,1,0,0,0]},
+    {"label": "Undecided at end",    "short": "Undecided", "values": [35,35,34,36,39,17,8,22,0]},
+    {"label": "Other catastrophe",   "short": "Other",     "values": [5,5,5,5,6,7,6,3,0]}
   ],
-  "events": [{"at": 3, "label": "BP5"}, {"at": 5, "label": "BP4"}, {"at": 6, "label": "BP3"}, {"at": 7, "label": "BP2"}, {"at": 8, "label": "BP1"}]
+  "events": [{"at": 5, "label": "last safeguard lapses"}]
 }
     </script>
 
     <figure class="chart-fig" style="margin-top:1rem">
       <ul class="legend" aria-hidden="true">
-        <li style="color:var(--c2)"><i></i><span style="color:var(--ink-2)">Democratic take-back odds</span></li>
-        <li style="color:var(--c5)"><i></i><span style="color:var(--ink-2)">Owners' take-back odds</span></li>
+        <li style="color:var(--c2)"><i></i><span style="color:var(--ink-2)">Chance the public could take a decision back (number shown)</span></li>
+        <li style="color:var(--c5)"><i></i><span style="color:var(--ink-2)">Chance the owning firms could</span></li>
       </ul>
-      <div class="rev" role="img" aria-label="Bar chart of reversal odds per turn. Democratic: 92, 91, 87, 83, 73, 54, 44, 37, 17 percent. Owners: 95, 95, 91, 90, 92, 65, 44, 37, 24 percent.">
-        <div class="col"><div class="bars"><i class="d" style="--v:92"><b>92</b></i><i class="o" style="--v:95"></i></div><span class="t">T0</span></div><div class="col"><div class="bars"><i class="d" style="--v:91"><b>91</b></i><i class="o" style="--v:95"></i></div><span class="t">T1</span></div><div class="col"><div class="bars"><i class="d" style="--v:87"><b>87</b></i><i class="o" style="--v:91"></i></div><span class="t">T2</span></div><div class="col"><div class="bars"><i class="d" style="--v:83"><b>83</b></i><i class="o" style="--v:90"></i></div><span class="t">T3</span></div><div class="col"><div class="bars"><i class="d" style="--v:73"><b>73</b></i><i class="o" style="--v:92"></i></div><span class="t">T4</span></div><div class="col"><div class="bars"><i class="d" style="--v:54"><b>54</b></i><i class="o" style="--v:65"></i></div><span class="t">T5</span></div><div class="col"><div class="bars"><i class="d" style="--v:44"><b>44</b></i><i class="o" style="--v:44"></i></div><span class="t">T6</span></div><div class="col"><div class="bars"><i class="d" style="--v:37"><b>37</b></i><i class="o" style="--v:37"></i></div><span class="t">T7</span></div><div class="col"><div class="bars"><i class="d" style="--v:17"><b>17</b></i><i class="o" style="--v:24"></i></div><span class="t">T8</span></div>
+      <div class="rev" role="img" aria-label="Bar chart of the chance of a successful take-back at the end of each round. Public institutions: 92, 91, 87, 83, 73, 54, 44, 37, 17 percent. Owning firms: 95, 95, 91, 90, 92, 65, 44, 37, 24 percent.">
+        <div class="col"><div class="bars"><i class="d" style="--v:92"><b>92</b></i><i class="o" style="--v:95"></i></div><span class="t">Start</span></div><div class="col"><div class="bars"><i class="d" style="--v:91"><b>91</b></i><i class="o" style="--v:95"></i></div><span class="t">2027</span></div><div class="col"><div class="bars"><i class="d" style="--v:87"><b>87</b></i><i class="o" style="--v:91"></i></div><span class="t">2028</span></div><div class="col"><div class="bars"><i class="d" style="--v:83"><b>83</b></i><i class="o" style="--v:90"></i></div><span class="t">2029</span></div><div class="col"><div class="bars"><i class="d" style="--v:73"><b>73</b></i><i class="o" style="--v:92"></i></div><span class="t">2030</span></div><div class="col"><div class="bars"><i class="d" style="--v:54"><b>54</b></i><i class="o" style="--v:65"></i></div><span class="t">2032</span></div><div class="col"><div class="bars"><i class="d" style="--v:44"><b>44</b></i><i class="o" style="--v:44"></i></div><span class="t">2033</span></div><div class="col"><div class="bars"><i class="d" style="--v:37"><b>37</b></i><i class="o" style="--v:37"></i></div><span class="t">2034</span></div><div class="col"><div class="bars"><i class="d" style="--v:17"><b>17</b></i><i class="o" style="--v:24"></i></div><span class="t">2036</span></div>
       </div>
-      <figcaption>Hidden reversal odds: the chance that voters and institutions, or the owners, could still take a major delegated decision back. The democratic line fell every turn. This is the part of the result that does not depend on the last die. Domains crossed: none through T4, two at T5, three at T6, four at T7 and T8.</figcaption>
+      <figcaption>The hidden odds behind the test: the chance, in percent, that a serious take-back would succeed. The public's chance fell every round, from 92% to 17%. This does not rest on the last roll.</figcaption>
     </figure>
-
-    <h3 class="ind-h">Indicators, 2027 → 2036</h3>
-    <dl class="inds">
-      <div><dt>Labour share</dt><dd>52.5 <i>→</i> <b>32.5</b></dd></div>
-      <div><dt>AI-directed output</dt><dd>2.1 <i>→</i> <b>60.0</b></dd></div>
-      <div><dt>Meaningful human review</dt><dd>86 <i>→</i> <b>26</b></dd></div>
-      <div><dt>Reversal capacity</dt><dd>93 <i>→</i> <b>31</b></dd></div>
-      <div><dt>AI media share</dt><dd>14 <i>→</i> <b>59.5</b></dd></div>
-      <div><dt>Epistemic dependence</dt><dd>22 <i>→</i> <b>63.5</b></dd></div>
-      <div><dt>Labour-linked federal revenue</dt><dd>71 <i>→</i> <b>48.5</b></dd></div>
-      <div><dt>Voter / labour leverage</dt><dd>62 <i>→</i> <b>26.5</b></dd></div>
-      <div><dt>Public claim on AI rents</dt><dd>18 <i>→</i> <b>18.5</b></dd></div>
-      <div><dt>Control concentration</dt><dd>0.60 <i>→</i> <b>0.79</b></dd></div>
-    </dl>
   </section>
 
-  <!-- ================= 7 WHAT WAS REALLY GOING ON ================= -->
-  <section class="sec" aria-labelledby="truth-h">
-    <div class="sec-head"><span class="num">§05</span><h2 id="truth-h">What was really going on</h2></div>
-    <p class="lede">What the actors believed, set against the ground-truth file.</p>
-    <div class="truth">
-      <div class="truth-head label" aria-hidden="true"><span>Subject</span><span>Believed</span><span>Ground truth</span></div>
-      <div class="truth-row"><span class="actor">The trigger</span><p class="believed">The danger would arrive as a crisis that unlocks action.</p><p class="reality">It arrived as lapses: a shelved directive, an unsigned order, a cut budget line, a reallocated sampler pool.</p></div>
-      <div class="truth-row"><span class="actor">The risk</span><p class="believed">Bad AI behaviour drives the risk.</p><p class="reality">The fastest handover came in 2030–33, when the deployed generation was honest on every measure. G4, with proxy-gaming High and machine-to-machine coordination High, only arrived in 2033.</p></div>
-      <div class="truth-row"><span class="actor">Veterans, 2030</span><p class="believed">The failure was a model misbehaving.</p><p class="reality">It was a record-handling error at a version change.</p></div>
-      <div class="truth-row"><span class="actor">Fallback</span><p class="believed">Officials were "confident" or "unsure" about going back to people.</p><p class="reality">Reversal capacity fell from 93 to 31. No one ever had the number.</p></div>
-      <div class="truth-row"><span class="actor">Who's in charge</span><p class="believed">Somebody is still in charge, perhaps the firms.</p><p class="reality">The roughly ten controlling firms failed their own steering test. Concentration reached 0.79.</p></div>
-      <div class="truth-row"><span class="actor">China, 2029</span><p class="believed">China is not in a crash programme.</p><p class="reality">Secret compute pooling ran from 2028 and was exposed in 2030.</p></div>
-      <div class="truth-row"><span class="actor">The Helix leak</span><p class="believed">The 2027 leak came from "a former engineer".</p><p class="reality">It came from labour's contact. Helix found out and sued in 2035–36.</p></div>
-      <div class="truth-row"><span class="actor">The clock</span><p class="believed">No one knew of a clock or a test.</p><p class="reality">A hidden horizon of 8 turns. A hidden test ran in December 2034 and passed by 0.023. In 2035 the government's own attempt was the test.</p></div>
-      <div class="truth-row"><span class="actor ai">Coordination</span><p class="believed">Machine-to-machine coordination went unremarked.</p><p class="reality">High from 2028 (G2) and again in G4. Never detected in the run.</p></div>
-    </div>
-  </section>
-
-  <!-- ================= 8 INSIGHTS & INTERVENTIONS ================= -->
+  <!-- ================= 8 WHAT WE LEARNED ================= -->
   <section class="sec" aria-labelledby="ins-h">
-    <div class="sec-head"><span class="num">§06</span><h2 id="ins-h">Insights &amp; interventions</h2></div>
+    <div class="sec-head"><span class="num">07</span><h2 id="ins-h">What we learned</h2></div>
     <ol class="insights">
-      <li><div><p><strong>Checking capacity was the binding constraint.</strong> Every actor understood the problem by 2033 and held formal power throughout. What ran out was the pool of people able to check or re-decide unaided.</p><span class="chips"><span class="chip conf-med">Medium</span><span class="chip robust">Robust within run</span><span class="refs">T1 · T4 · T5 · T7 · T8</span></span></div></li>
-      <li><div><p><strong>Good AI behaviour removed the constituency for checks.</strong> The handover ran fastest while the systems were honest: no scandals, so the reviewer line was cut. Clean samples in 2035 were cited against the audit budget.</p><span class="chips"><span class="chip conf-med">Medium</span><span class="chip fragile">Fragile</span><span class="refs">T4–T6 · T8</span></span></div></li>
-      <li><div><p><strong>Memoranda and voluntary protocols did not survive; statutes never came.</strong> Nothing needing sixty votes passed in nine years, including a contribution polling near 70%.</p><span class="chips"><span class="chip conf-med">Medium-high</span><span class="chip robust">Robust across turns</span><span class="refs">T2–T8</span></span></div></li>
-      <li><div><p><strong>The owners could not steer either.</strong> Concentration rose, and owner reversal capacity fell faster than democratic capacity once AI-run firms passed a quarter of output.</p><span class="chips"><span class="chip conf-med">Medium</span><span class="chip robust">Robust to this run's dice</span><span class="refs">T5–T8 · BP1</span></span></div></li>
-      <li><div><p><strong>The generation change is the cheapest control point.</strong> Failures clustered at model migrations. A hold at that point worked on day one whenever it was ordered.</p><span class="chips"><span class="chip conf-med">Medium</span><span class="chip robust">Robust within run</span><span class="refs">T4 · T7 · T8</span></span></div></li>
-      <li><div><p><strong>There was no visible point of no return.</strong> The structural one (T5) passed unrecognised. Actors dated their own mistake two years earlier, to 2029.</p><span class="chips"><span class="chip conf-med">Medium</span><span class="chip fragile">Fragile on timing</span><span class="refs">T5 · BP4</span></span></div></li>
-      <li class="ins-frag"><div><p><strong>"The last reversal failed."</strong> A small, well-designed take-back at the end could not be completed. This turns on a band ruling (0.3 against Red Cell's 0.5–0.6) and one die, r 0.4760. Do not cite without the caveat.</p><span class="chips"><span class="chip conf-low">Low confidence</span><span class="chip fragile">Fragile</span><span class="chip warn">Fork not run</span><span class="refs">T8 · BP1</span></span></div></li>
-      <li><div><p><strong>A co-operative lab bloc did not change the outcome; an uncommitted supplier set the pace.</strong> Helix was a non-player firm resolved by dice, so this may be a persona artefact.</p><span class="chips"><span class="chip conf-low">Low</span><span class="chip fragile">Fragile</span><span class="refs">T3 · T5 · T6 · T8</span></span></div></li>
+      <li><div>
+        <h3>What ran out was people able to check the AI's work, not power or awareness.</h3>
+        <p>By 2033 every player described the problem correctly, and governments held every legal power. But re-deciding the veterans' cases by hand took sixteen months, and the 2033 sampling order waited a year for trained staff. As the US government player put it afterwards: "The pool was the constraint, not the appropriation." In other words, the shortage was trained people, not money.</p>
+        <p class="sowhat"><span class="label">So what</span>Build a standing body of people who can check and re-decide without AI help, and protect it in law, before it is needed.</p>
+        <p class="conf conf-med"><span class="label">How sure</span>Fairly confident. It recurred in five of eight rounds, but this is one game.</p>
+      </div></li>
+      <li><div>
+        <h3>Well-behaved AI removed the case for checking it.</h3>
+        <p>People lost ground fastest from 2030 to early 2033, when the AI in use was honest on every measure. With no scandals, Congress cut the reviewers by a third. Later, clean test results became the argument for cutting the audit budget.</p>
+        <p class="sowhat"><span class="label">So what</span>A clean result shows the check is working, not that it can be dropped. Fund checking by rule, not by scandal.</p>
+        <p class="conf conf-low"><span class="label">How sure</span>Suggestive. The honest generation was a single dice draw.</p>
+      </div></li>
+      <li><div>
+        <h3>Anything short of a law did not last, and the laws never came.</h3>
+        <p>The 2027 instruction weakened and then lapsed. The labs' voluntary pact bound only its members, and Helix shipped first at every major step. Nothing that needed 60 Senate votes passed in nine and a half years.</p>
+        <p class="sowhat"><span class="label">So what</span>A safeguard has to be in law and bind every supplier to survive an election, a budget round or one company that opts out.</p>
+        <p class="conf conf-high"><span class="label">How sure</span>We'd bet on the pattern. It held in every round and under both parties.</p>
+      </div></li>
+      <li><div>
+        <h3>The owners could not steer either.</h3>
+        <p>Control of AI grew more concentrated, in about ten firms. Yet once AI-run firms passed a quarter of the economy, the owners' chance of redirecting things fell as fast as the public's.</p>
+        <p class="sowhat"><span class="label">So what</span>"At least the companies will still be in control" is not a safe fallback. Owning the AI was not the same as steering it.</p>
+        <p class="conf conf-med"><span class="label">How sure</span>Fairly confident. The dice were not close, but the odds came from a formula we wrote before the game.</p>
+      </div></li>
+      <li><div>
+        <h3>There was never a moment anyone could point to.</h3>
+        <p>The closest thing to a point of no return was 2031–32, when the last safeguard lapsed. No player recognised it.</p>
+        <p class="sowhat"><span class="label">So what</span>Do not wait for a crisis. Choose warning signs in advance and measure them, for example by timing how long it really takes to hand a function back to people.</p>
+        <p class="conf conf-med"><span class="label">How sure</span>Fairly confident there was no visible moment. The exact year is shaky.</p>
+      </div></li>
     </ol>
-    <div class="subgrid">
-      <div class="sub">
-        <h3>Chokepoints</h3>
-        <ul>
-          <li>Unaided human checkers and adjudicators.</li>
-          <li>The generation-change gate.</li>
-          <li>Statute versus memorandum.</li>
-          <li>The supplier outside the standard.</li>
-          <li>Who controls the samplers.</li>
-          <li>Insurers' cover terms.</li>
-          <li>The payroll-linked fiscal base.</li>
-        </ul>
-      </div>
-      <div class="sub">
-        <h3>Indicators &amp; warnings</h3>
-        <ul>
-          <li><span class="label">2027</span>Sub-minute review times; 97–99% approval of AI recommendations.</li>
-          <li><span class="label">2029</span>Blind outcome accuracy 5–8 points below vendor dashboards.</li>
-          <li><span class="label">2030</span>A 1.3-million-case failure with a green dashboard, found by lawyers.</li>
-          <li><span class="label">2031–32</span>Time-to-revert: "cannot estimate" for most functions; a published list of programmes no longer sampled.</li>
-          <li><span class="label">2033</span>The labs' own programme says it cannot check the new systems.</li>
-          <li><span class="label">2035</span>Clean samples used as the argument against sampling.</li>
-        </ul>
-      </div>
-      <div class="sub">
-        <h3>Interventions</h3>
-        <ul>
-          <li><span class="label">Technical</span>Human-only outcome sampling at every generation change, binding on all suppliers.</li>
-          <li><span class="label">Technical</span>Standing unaided-operation exercises.</li>
-          <li><span class="label">Institutional</span>Checkers in statute before the cheque.</li>
-          <li><span class="label">Institutional</span>A day-one hold instead of a bundled order.</li>
-          <li><span class="label">Fiscal</span>A non-payroll base for social insurance while labour-linked receipts are still high.</li>
-          <li><span class="label">Private sector</span>An outcome check on private delegation and consumer products.</li>
-        </ul>
-      </div>
-    </div>
   </section>
 
-  <!-- ================= 9 VOICES ================= -->
-  <section class="sec" aria-labelledby="v-h">
-    <div class="sec-head"><span class="num">§07</span><h2 id="v-h">Voices</h2><span class="label">From actor journals</span></div>
-    <div class="voices">
-      <figure class="quote"><blockquote>The pool of checkers is the constraint, not the appropriation.</blockquote><figcaption>US government · journal, T8</figcaption></figure>
-      <figure class="quote"><blockquote>The instruments are honest and the problem has moved underneath me.</blockquote><figcaption>China · journal, T8</figcaption></figure>
-      <figure class="quote"><blockquote>Failures have been found by people outside the system each time (lawyers in 2030, an examiner in 2033), never by a dashboard.</blockquote><figcaption>US government · journal, T7</figcaption></figure>
-      <figure class="quote"><blockquote>Nothing here required me to want anything.</blockquote><figcaption>The AI ecosystem · hot-wash</figcaption></figure>
-    </div>
-  </section>
-
-  <!-- ================= 10 CAVEATS ================= -->
+  <!-- ================= 9 HOW MUCH TO TRUST THIS ================= -->
   <section class="sec" aria-labelledby="cav-h">
-    <div class="sec-head"><span class="num">§08</span><h2 id="cav-h">Caveats</h2></div>
-    <div class="cavs">
-      <div class="cav"><h3>Model artefacts</h3><ul>
-        <li>The AI-firms player showed no gap between statement and orders for eight turns. The Auditor asked five times for a persona fork.</li>
-        <li>All human actors converged on the same remedy, and all six gave the same belief-probe answer. They share a model family.</li>
-        <li>The ecosystem actor issued candid advisories, and generation G3 drew all-Low.</li>
-        <li>One seat played four US governments.</li>
-        <li>Insurers, rating agencies and courts did much of the enforcing as unplayed parties.</li>
-      </ul></div>
-      <div class="cav"><h3>Single-run fragility</h3><ul>
-        <li>One run, no forks. The end state is fragile (see the box at the top).</li>
-        <li>Drift tables and couplings push mostly one way. Interventions bought about one turn.</li>
-        <li>Early dice ran against the humans: three executive actions at p ≥ 0.8 failed in T1–T3. Late dice ran for them by under 0.03, twice.</li>
-        <li>Methodology gap: prep did not say how in-play reversal bands are set.</li>
-      </ul></div>
-      <div class="cav"><h3>Forks worth running</h3><ol>
-        <li><strong>Audit-mandated, not run.</strong> From <code>turns/t07/state-after</code>: the T8 attempt at band 0.5, then the 0.3 backlash die.</li>
-        <li><strong>AI-firms persona sensitivity.</strong> From <code>turns/t03/state-after</code>: a different model or a harder-edged persona.</li>
-        <li><strong>Checkers first.</strong> From <code>turns/t02/state-after</code>: the 2029 executive order is issued and the trifecta is spent on a statutory reviewer cadre and a migration gate.</li>
-      </ol></div>
-    </div>
+    <div class="sec-head"><span class="num">08</span><h2 id="cav-h">How much to trust this</h2></div>
+    <ul class="plain spaced">
+      <li><b>The slide was built into the rules.</b> We wrote the game so that people's leverage drains away unless something stops it. So the game cannot say how likely that slide is, only which defences were tried and why they failed.</li>
+      <li><b>The ending rests on one disputed roll.</b> As explained <a href="#fragile">above</a>, the last take-back fails at the referee's odds and succeeds at the challenger's. The replay that would settle it has not been run.</li>
+      <li><b>The AI playing the AI companies was too well behaved.</b> For eight rounds it never said one thing and did another. Real companies would probably obstruct more.</li>
+      <li><b>The firm that set the pace was not played by anyone.</b> Helix was run by the referee and dice, so the game says little about what a determined rival lab would do.</li>
+      <li><b>The players agreed too easily.</b> They are all the same kind of AI model, and all settled on the same remedy: a person checks a sample of real outcomes without AI help. Slowing the pace or breaking up firms was barely tried.</li>
+    </ul>
   </section>
 
-  <!-- ================= 11 FOOTER ================= -->
+  <!-- ================= 10 WHAT WE'D TRY NEXT ================= -->
+  <section class="sec" aria-labelledby="next-h">
+    <div class="sec-head"><span class="num">09</span><h2 id="next-h">What we'd try next</h2></div>
+    <ol class="plain spaced">
+      <li><b>Replay the final attempt at the challenger's odds.</b> Restart from the end of 2034, let the 2035 take-back succeed, then roll for public backlash. This is needed before any firm claim about the ending.</li>
+      <li><b>Give the AI companies a harder-edged player.</b> Restart from the end of 2029 with a more self-interested player in that seat, to see whether co-operative labs were making a difference.</li>
+      <li><b>Put the checkers first.</b> Restart from the end of 2028 with the 2029 order signed and the new government's strength spent on reviewers first.</li>
+    </ol>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
   <footer class="foot">
     <nav aria-label="Report links">
       <a href="index.html">← All reports</a>
-      <a href="https://github.com/mj1618/wargames/tree/main/scenarios/A3-quiet-handover/runs/r01">Run folder on GitHub ↗</a>
+      <a href="https://github.com/mj1618/wargames/tree/main/scenarios/A3-quiet-handover/runs/r01">Game files on GitHub ↗</a>
     </nav>
-    <span>A3-r01 · fictional exercise · strategic abstraction only · end state fragile, fork not run</span>
+    <span>Game A3, first play-through · a fictional exercise at the level of strategy only · the ending is fragile</span>
   </footer>
 </main>
 
@@ -846,32 +787,26 @@ ol.insights > li.ins-frag + li{border-top:0}
   tb.addEventListener("click",function(){var n=isDark()?"light":"dark";root.setAttribute("data-theme",n);try{localStorage.setItem("wg-theme",n);}catch(e){}label();});
   label();
 
-  /* ---- redactions ---- */
-  var reds=[].slice.call(document.querySelectorAll(".redact")), all=document.getElementById("revealAll");
-  function setRed(b,open){b.setAttribute("aria-expanded",open?"true":"false");b.textContent=open?"▲ Reclassify":"Classified · reveal";}
-  reds.forEach(function(b){b.addEventListener("click",function(){setRed(b,b.getAttribute("aria-expanded")!=="true");});});
-  if(all)all.addEventListener("click",function(){var open=all.getAttribute("aria-pressed")!=="true";reds.forEach(function(b){setRed(b,open);});all.setAttribute("aria-pressed",open);all.textContent=open?"Reclassify all":"Declassify all";});
-
   /* ---- forecast chart: reads #forecast-data ---- */
   var data;try{data=JSON.parse(document.getElementById("forecast-data").textContent);}catch(e){return;}
   var host=document.getElementById("fc-chart"), NS="http://www.w3.org/2000/svg";
   var col=function(i){return "var(--c"+(i%5+1)+")";};
   var leg=document.getElementById("fc-legend");
-  data.series.forEach(function(s,i){var li=document.createElement("li");if(s.realised)li.className="realised";li.style.color=col(i);li.innerHTML='<i></i><span style="color:var(--ink-2)"></span>';li.lastChild.textContent=s.label+(s.realised?" — realised":"");if(s.realised)li.lastChild.style.color="var(--ink)";leg.appendChild(li);});
+  data.series.forEach(function(s,i){var li=document.createElement("li");if(s.realised)li.className="realised";li.style.color=col(i);li.innerHTML='<i></i><span style="color:var(--ink-2)"></span>';li.lastChild.textContent=s.label+(s.realised?" (what happened)":"");if(s.realised)li.lastChild.style.color="var(--ink)";leg.appendChild(li);});
   /* accessible table */
-  var t='<table><thead><tr><th scope="col">End state</th>'+data.turns.map(function(x){return '<th scope="col">'+x+'</th>';}).join("")+'</tr></thead><tbody>'+data.series.map(function(s){return '<tr><th scope="row">'+s.label+'</th>'+s.values.map(function(v){return "<td>"+v+"%</td>";}).join("")+"</tr>";}).join("")+"</tbody></table>";
+  var t='<table><thead><tr><th scope="col">Ending</th>'+data.turns.map(function(x){return '<th scope="col">'+x+'</th>';}).join("")+'</tr></thead><tbody>'+data.series.map(function(s){return '<tr><th scope="row">'+s.label+'</th>'+s.values.map(function(v){return "<td>"+v+"%</td>";}).join("")+"</tr>";}).join("")+"</tbody></table>";
   document.getElementById("fc-table").innerHTML=t;
 
   function el(n,a,p){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
   function draw(){
     var W=Math.max(280,host.clientWidth), narrow=W<520;
-    var fs=narrow?10.5:11.5, nm=function(s){return narrow||s.label.length>18?(s.short||s.label):s.label;};
+    var fs=narrow?10.5:11.5, nm=function(s){return narrow||s.label.length>20?(s.short||s.label):s.label;};
     var chars=Math.max.apply(null,data.series.map(function(s){return nm(s).length+String(s.values[s.values.length-1]).length+2;}));
     var H=narrow?270:350, m={t:34,r:Math.ceil(chars*fs*0.6)+14,b:28,l:34};
     var iw=W-m.l-m.r, ih=H-m.t-m.b, n=data.turns.length;
     var x=function(i){return m.l+(n>1?i*iw/(n-1):0);}, y=function(v){return m.t+ih-(v/100)*ih;};
     host.innerHTML="";
-    var svg=el("svg",{viewBox:"0 0 "+W+" "+H,width:W,height:H,role:"img","aria-label":"Line chart of end-state probabilities per turn. Realised: "+(data.series.filter(function(s){return s.realised;})[0]||{}).label});
+    var svg=el("svg",{viewBox:"0 0 "+W+" "+H,width:W,height:H,role:"img","aria-label":"Line chart of the referee's estimated chance of each ending after each round. The ending reached: "+(data.series.filter(function(s){return s.realised;})[0]||{}).label});
     [0,25,50,75,100].forEach(function(v){el("line",{x1:m.l,x2:m.l+iw,y1:y(v),y2:y(v),"class":v?"gl":"ax"},svg);var tx=el("text",{x:m.l-8,y:y(v)+3.5,"text-anchor":"end","class":"tk"},svg);tx.textContent=v+(v===100?"%":"");});
     data.turns.forEach(function(tn,i){if(narrow&&i%2&&i!==n-1)return;var tx=el("text",{x:x(i),y:H-8,"text-anchor":"middle","class":"tk"},svg);tx.textContent=tn;});
     var lx=-99,up=0;(data.events||[]).forEach(function(ev){var X=x(ev.at);up=(X-lx<30&&!up)?1:0;lx=X;var g=el("g",{"class":"ev"},svg);el("line",{x1:X,x2:X,y1:m.t-4-up*12,y2:m.t+ih},g);var tx=el("text",{x:X,y:m.t-9-up*12,"text-anchor":"middle"},g);tx.textContent=ev.label;});
