@@ -4,7 +4,7 @@
 - **Households' fourth organising wave.** 0.35 +0.15 (unemployment under 5%) = 0.50, r=0.129 → **SUCCESS**.
 - **Court challenge to the executive robot-certification rule** (0.35). r=0.640 → not blocked.
 - **Accountable Automation Act** (bill 1). Not rolled. Government's own terms were a fund of $12bn in 2030 and $20bn from 2031 and a signed no-mass-layoff pledge by June "or the bill dies". AI firms offered $5bn a year (last round's price) and no layoff pledge; Employers offered $10bn only against a levy credit the bill does not contain. Terms unmet. The labs' $2.5bn escrow lapses.
-- **Youth Hiring and Notice Act** (bill 2). Not rolled: Government moved it "as a pair… neither goes without the other".
+- **Youth Hiring and Notice Act** (bill 2). Not rolled: Government paired it ("neither goes without the other").
 - **Election, November 2030.** Lead loses with 0.35 + 0.01×(34.6−35) − 0.10 (median income +5.5 over two rounds) = 0.25. r=0.622 → **worker-first keeps the lead**. Configuration draw 1 → one step more responsive: **divided** (0.55 / 0.35 / 0.15).
 
 ## Levers
@@ -23,10 +23,10 @@
 - `transfers_pct_gdp` 0.003 and all others unchanged.
 
 ## Narrated only
-- Labs' robot certification body; employers' entry-level floor and levy-credit lobbying; entrepreneurs' longer contracts and land banking; households' rallies and enrolment help.
+- Labs' certification body; employers' entry-level floor and levy-credit lobbying; entrepreneurs' longer contracts and land banking; households' rallies and enrolment help.
 
 ## Non-players
-- Central bank and state budgets: no action.
+- Central bank, states: no action.
 
 ## Carried to round 05 (2031–32, two years)
 - Event 24 (bond-market scare): deficit 5.7% is under 7%, so headline only.

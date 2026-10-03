@@ -12,3 +12,6 @@ Believe: headline 4.3% hides the damage — jobs down 0.9m, participation 60.8%,
 ## t04 (2030)
 Believe: boom is real for voters (3.5%, income 106.0, GDP +5.9%); the wobble's credit squeeze is the only pre-November threat; labour share 50.1% not yet felt. Committed: loan guarantees and full-size new-firms credit plus three-year housing grant certainty; DOJ consent decree on access/portability; wage insurance paid in 30 days from the 2.5% levy; no licensing, cheques or bailouts; pre-emption held. Watch: credit and home-building, unemployment past 5%, revenue under 16.7%, November margins.
 
+## t05 (2031–32)
+Believe: crisis is now visible — 5.1m jobs gone, participation 59.6%, income 101.8, revised 4.7%; leavers hide the true damage; cheques decide November 2032. Committed: Transition Dividend (1% GDP to bottom two-fifths, levy 6% to 2036, 52-week wage insurance); Build and Hire (new-firms credit, data-centre guarantees, permitting) conditional on labs' $5bn fund and backing; no licensing or public jobs. Watch: bond yields, revenue under 16.5%, unemployment past 6%, labs' public stance, polling.
+

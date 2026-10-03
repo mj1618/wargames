@@ -16,3 +16,7 @@ The wobble passed: federal credit held, rents fell, developer tier cut costs, pr
 
 The unbundled API and the hit new industry are the inflection point. I hired 700k last year; the unbundled tier is 45% cheaper. Committing to aggressive API migration (70% of new hiring), selective entry into the new industry (~200k hires), and factory-housing expansion where zoning allows. Watching: wage growth (15%+ is my red line), the identity and margins of the new industry, and state upzoning. If wages spike or the industry stalls, I consolidate hard into AI-only.
 
+## Turn 05 (Jan–Dec 2031)
+
+Energy crunch is the new risk to compute access. New industry still hiring at scale; I hired 1.4m last year, real wages rose 4%—below my red line but recruits scarce. Committing to aggressive expansion: 1.3m hires in 2031–32, 75% unbundled APIs, secondary-metro housing deals with community governance and wage floors to unlock zoning and licensing reform. Trading margin for scale and political leverage. Backing labs' compute charter in antitrust. Watching: energy constraints, wage growth (10% threshold), state licensing movement. If energy access tightens, pivot hard to AI-only.
+

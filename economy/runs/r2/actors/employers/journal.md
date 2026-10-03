@@ -11,3 +11,6 @@ Believe: 3.0m roles cut in 2028, margins up, drive works; risk now is divided Co
 
 ## t04 (2030)
 Believe: drive works (3.7m roles cut 2029, margins held) but credit tightening and AI-share fall make financing the main risk; election-year politics still matter. Committed: adoption trimmed to ~+10%, layoff_share ~30%, hours_share ~20%, profit-sharing 15%, half of savings to price; sign AI capacity deal by Q2 with price step-down and 2x indemnity; 60-day notice/redeployment framework with households, no binding 90-day floor. Watch: credit spreads, sales vs price cuts, applicant scarcity, bills on deployment rules or automation tax.
+
+## t05 (2031–32)
+Believe: our own cuts now hurt sales (5.3m jobs lost to falling demand); revision plus 2032 election raise political risk; deals beat laws. Committed: sign AI capacity deal this quarter, adoption ~+5%, layoff_share ~25%, hours_share ~25%, profit-sharing ~20% (part as purchase credit), ~60% of savings to price, accept advisory seats with voluntary 90-day notice and retraining fund, ask no deployment rules or automation tax. Watch: sales vs price cuts, credit spreads, rival compliance, bills with binding floors, Nov 2032 results.
