@@ -34,6 +34,14 @@ One "notch" is the size given. A lever moves at most **two notches a round** unl
 | `competition_policy` (0–1; 0) | Federal | Active antitrust cases 0.3; open-access or interoperability mandates 0.6; break-ups 1.0. |
 | `housing_policy` (0–1; 0) | Federal + states | Federal: incentives 0.2; funded building programme with zoning conditions 0.4; pre-emption plus Housing First at scale 0.7. Add the state contribution from §4. Cap 1. |
 
+**Other menu items**
+- *Employers' own pricing:* passing savings on = +0.25 on `ai_pricing`; keeping them = −0.25 (net with the AI firms' choice, then clip).
+- *Privately funded worker funds or dividends* (AI firms, employers): add to `transfers_pct_gdp` at their size (US GDP ≈ $31 trillion, so $100bn a year ≈ 0.3) with `transfer_target` as described. The model books this as public spending; say so in `resolution.md` if it exceeds 0.5.
+- *Work-sharing subsidy law:* lifts the employers' `hours_share` ceiling from 0.3 to 0.5; cost about 0.2% of GDP, booked under `retraining_pct_gdp`.
+- *Consumer boycott* (households): roll 0.30; success = `shock_adoption` 0.9 this round.
+- *Entrepreneurs' push into factory-built housing:* +0.05 a round on `housing_policy` (at most +0.15 in total), only while `housing_policy` ≥ 0.2 already or setup roll S3 = 3.
+- *Dollar amounts* convert at $31 trillion of GDP in 2026 prices, scaled by the scorecard GDP index.
+
 **Timing.** Regulations and company decisions bite in the round decided. Federal spending and taxes passed in a one-year round take effect the next round; in a two-year round, the same round.
 
 **Executive action without Congress** can set at most: `deploy_regulation` 0.3, `competition_policy` 0.4, `housing_policy` +0.1. No new taxes or transfers.
