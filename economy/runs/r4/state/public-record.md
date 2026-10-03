@@ -109,3 +109,13 @@ Official statistics arrive late and with noise. Company and household players se
 - **Workers.** A sixth organising wave succeeded.
 - **Published late, for 2032:** poverty 9.7%, homelessness 15.7 per 10,000.
 
+
+## 2035–36 in review (official statistics, preliminary)
+
+- **Jobs.** Unemployment 3.8%; participation 61.4%; about 168.7m in work. Announced layoffs about 3.5m over two years. Offices lost about 2.0m jobs; new firms, care, construction and retail hired.
+- **Pay and prices.** Real pay up about 4.8% a year; consumer prices slightly lower; housing costs down about 2% a year. Median household income index about 129.9.
+- **Business.** GDP up 5.1% a year. Labour's share 46.5%, another record low. AI-delivered tutoring, legal help and home design became mass-market.
+- **Washington.** The Levy and Dividend Act raised the profits levy to 10 points and the lower-income dividend to 0.7% of GDP; a court challenge failed. The Credentials and Building Act passed. The regulator recognised audit-standard compliance as due care. Deficit 4.5% of GDP.
+- **Election.** The country voted in November 2036.
+- **Workers.** A seventh organising wave succeeded.
+- **Published late, for 2034:** poverty 8.6%, homelessness 14.1 per 10,000.

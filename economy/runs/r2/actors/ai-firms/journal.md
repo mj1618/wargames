@@ -18,3 +18,6 @@ Belief: the wobble hurt customers, not us; robots crossing into physical work an
 ## t06 (2033–34)
 Belief: the jobs numbers are our shield but the housing headline makes AI wealth the 2034 story, and the licensing threat is credible. Committed: race +20% then +25% on employer prepay (floor locked, 2x indemnity), old-gen -25%, robots as a service, counter-offer of 4% levy (5% ceiling) for statutory no-licence plus guarantees, fund $5bn incl. housing, lobbying $2.5bn. Watching: licensing polling, whether Washington takes under 6%, Vanta defecting.
 
+## t07 (2035–36)
+Belief: no levy is a windfall but no shield; gridlock protects us until the 2036 election, which decides whether licensing becomes the frame. The working state pilot is cheap cover if we fund it before it funds itself from us. Committed: race +25% then +20%, new-gen +10%, old-gen -25%, robots at 60% of labour cost, deal backed with $2.5bn lobbying, fund $5bn via state matching plus $1bn escrow. Watching: moratorium polling, bill reaching the floor, state levies.
+

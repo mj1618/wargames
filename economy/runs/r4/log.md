@@ -47,3 +47,8 @@
 - 2026-10-03T16:22:46 | r4 t06 election configuration shift | DRAW 2 of 3
 - 2026-10-03T16:22:46 | r4 t06 statistics noise | DRAW 4 of 5
 - 2026-10-03T16:22:46 | r4 t07 event | DRAW 20 of 24
+- 2026-10-03T16:34:00 | r4 t07 households organising drive, seventh wave, retail and logistics (0.35 +0.15 unemployment under 5%) | p=0.50 r=0.2434 -> SUCCESS
+- 2026-10-03T16:34:00 | r4 t07 law: Levy and Dividend Act, levy 7->10 pts + dividend 0.4->0.7% GDP (medium 0.60, +0.10 worker-first instincts) | p=0.70 partial=0.15 r=0.4931 -> SUCCESS
+- 2026-10-03T16:34:00 | r4 t07 law: Credentials and Building Act, credential portability + housing funding 0.15->0.25% GDP (small 0.80; housing fits instincts, credential fast-track cuts against labour: netted to 0) | p=0.80 partial=0.15 r=0.4285 -> SUCCESS
+- 2026-10-03T16:34:04 | r4 t07 court blocks the levy rise from 7 to 10 points (new tax by law) | p=0.20 r=0.5427 -> FAIL
+- 2026-10-03T16:34:04 | r4 t07 statistics noise | DRAW 2 of 5

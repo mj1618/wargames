@@ -51,3 +51,9 @@
 - 2026-10-03T16:22:53 | r5 t06 election configuration shift (1 more responsive, 2 none, 3 more gridlocked) | DRAW 2 of 3
 - 2026-10-03T16:22:53 | r5 t06 statistics noise | DRAW 1 of 5
 - 2026-10-03T16:22:53 | r5 t07 event | DRAW 15 of 24
+- 2026-10-03T16:34:00 | r5 t07 household organising, ~8 small drives (0.35 +0.15 unemployment under 5%; small drive as t04-t06: SUCCESS = union_pressure held at 0.1, FAIL = fades to 0.0) | p=0.50 r=0.8010 -> FAIL
+- 2026-10-03T16:34:00 | r5 t07 Metro Homes and Insurance Act passes (medium, responsive 0.60; no adjustment: mixed fit, funded, deficit under 8%) | p=0.60 partial=0.15 r=0.0791 -> SUCCESS
+- 2026-10-03T16:34:00 | r5 t07 AI Services Levy and Open Access Act passes (medium, responsive 0.60; +0.10 levy and open access fit worker-first, -0.15 pre-emption cuts against) | p=0.55 partial=0.15 r=0.6482 -> PARTIAL
+- 2026-10-03T16:34:06 | r5 t07 court blocks half-size AI Services Levy and Open Access Act in first round (SUCCESS = blocked: levy, licensing standard and open-access mandate revert) | p=0.20 r=0.6812 -> FAIL
+- 2026-10-03T16:34:14 | r5 t07 Nov 2036 election, narration only: worker-first coalition loses its lead (0.35 +0.01x(30.1-35) -0.10 median income more than 3 points above two rounds ago) | p=0.20 r=0.6294 -> FAIL
+- 2026-10-03T16:34:14 | r5 t07 statistics noise | DRAW 5 of 5
